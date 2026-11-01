@@ -1,0 +1,86 @@
+[
+  {
+    "path": "19-luxury-production-search-preserved.jpg",
+    "bytes": 46838,
+    "sha256": "a65902aec0c87d2a32593e5a0a5a774c15aa4ac9596b9c0875cffed9b53ad859",
+    "kind": "production_visual_evidence"
+  },
+  {
+    "path": "20-luxury-production-exact-bedrooms.jpg",
+    "bytes": 56540,
+    "sha256": "158bbbfe06049ec54222a58730e2d8fa2da54154028768c279bd03ef469bfd91",
+    "kind": "production_visual_evidence"
+  },
+  {
+    "path": "22-luxury-production-gallery-ready.jpg",
+    "bytes": 66586,
+    "sha256": "0cb4047a0d8e5882cc75300cade0a2cd7478b933a04bd388a03088f7e0d4c31c",
+    "kind": "production_visual_evidence"
+  },
+  {
+    "path": "23-atlantis-production-floor-plan.jpg",
+    "bytes": 121584,
+    "sha256": "99435e529ad1a81f12f64277cae8339f2559b704ae2a2d604699d2dd86a3b315",
+    "kind": "production_visual_evidence"
+  },
+  {
+    "path": "24-ava-production-plan-viewer.jpg",
+    "bytes": 106216,
+    "sha256": "0595632a09e4a49986fd097772f4d619574ee5ff1051f685a6edcc812183a59e",
+    "kind": "production_visual_evidence"
+  },
+  {
+    "path": "26-ava-production-brands-ready.jpg",
+    "bytes": 107845,
+    "sha256": "2023a3b7570c5e9bc80f2bb6d92d9ab4e58826ee9ee511cdb7c247bd1e0c707d",
+    "kind": "production_visual_evidence"
+  },
+  {
+    "path": "27-orla-production-film.jpg",
+    "bytes": 145022,
+    "sha256": "ea7eeb76ceab85e3ad5d3390ed63e8a9ba9ddbdf84f11ed0cb12e2208654c20d",
+    "kind": "production_visual_evidence"
+  },
+  {
+    "path": "28-orla-production-mansion.jpg",
+    "bytes": 115772,
+    "sha256": "93168fff1b53eed30b80294ea5c28333cbc03894663cf2ac338115dd06ed4bf2",
+    "kind": "production_visual_evidence"
+  },
+  {
+    "path": "29-orla-production-brands-ready.jpg",
+    "bytes": 159379,
+    "sha256": "7faeefc5eca6ecbbe88f3cb2cd75100f12c231912070ca691c40ecba346cf73a",
+    "kind": "production_visual_evidence"
+  },
+  {
+    "path": "30-six-production-residence-after-reload.jpg",
+    "bytes": 96168,
+    "sha256": "2c5b2b88efbf2504cd122fe2ba7623032e528b58ebe976d266a606c1907c2475",
+    "kind": "production_visual_evidence"
+  },
+  {
+    "path": "33-six-diagnostic-long-session-blank.jpg",
+    "bytes": 7682,
+    "sha256": "cc1b37705598114595a7ca79b5db844da0a6fb8a03ce7672d02401c730f9742c",
+    "kind": "diagnostic_not_acceptance"
+  },
+  {
+    "path": "34-six-production-interiors-cold.jpg",
+    "bytes": 110174,
+    "sha256": "04b7e59e78a64acda248288d08d042b5668a0928b6fab634678573aa9baadef7",
+    "kind": "production_visual_evidence"
+  },
+  {
+    "path": "35-six-production-history-plan-cold.jpg",
+    "bytes": 139566,
+    "sha256": "d08693ed56677a6756466f408a44f8401b1c0601794f01c9e74fd28aafbcffc9",
+    "kind": "production_visual_evidence"
+  },
+  {
+    "path": "36-six-production-interiors-after-history.jpg",
+    "bytes": 144588,
+    "sha256": "828eee9f47da96916f6bad5e05bfb779166077826ce1fdaaa5cc8da170229e3a",
+    "kind": "production_visual_evidence"
+  }
+]

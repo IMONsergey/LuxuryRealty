@@ -1,0 +1,99 @@
+{
+  "recordedAt": "2026-11-01T20:16:16.099403+00:00",
+  "scope": "V3 application corrections; later Luxury documentation-only commit does not change runtime sources",
+  "realProductionSubmissions": 0,
+  "serverSync": {
+    "process": 1384579,
+    "exitCode": 0
+  },
+  "projects": {
+    "luxury": {
+      "repository": "IMONsergey/LuxuryRealty",
+      "sha": "166ced646c47ded6adaca1c5ee61ec60e023ba60",
+      "tree": "2749663a58276a311ce0baa019a1aa1b6d0a568c",
+      "parent": "9bd07c705159946caea7a3a25549401cd76809b5",
+      "deployment": "dpl_EQJBZLHFXzFMEqhse9aNUM93cQqh",
+      "alias": "https://luxury-realty-imon.vercel.app/",
+      "status": "READY; exact SHA and primary alias verified; root live journeys passed",
+      "serverPath": "/home/sergey/Projects/LuxuryRealty",
+      "serverClean": true,
+      "liveChecks": [
+        "Rent and query survive advanced search",
+        "1 bedroom has zero matches; 6+ has eight",
+        "Waterfront uses its own two-photo gallery and features",
+        "Escape and return restore filtered collection and clicked card focus"
+      ]
+    },
+    "atlantis": {
+      "repository": "IMONsergey/AtlantistheRoyalResidences",
+      "parent": "a94c16da3a602832484fce0a2c6b05958658cbc9",
+      "sha": "fc940bd55cf2815bae27f91072a27b82d3ec6192",
+      "tree": "b01dbea46dbb198ae531849beebe5c32f3ac6aae",
+      "deployment": "dpl_2tUWLJW6GxhPHDeiDiw5FNUweeZq",
+      "alias": "https://atlantis-imon.vercel.app/",
+      "status": "READY; exact SHA and primary alias verified; root live journeys passed",
+      "serverPath": "/home/sergey/Projects/AtlantistheRoyalResidences",
+      "serverClean": true,
+      "liveChecks": [
+        "Bedroom filter Back/Forward restores URL, selection and result",
+        "Reset restores supplied residence",
+        "Interior preview retains view query; View floor plan reaches the visible Unit 3402 plan"
+      ]
+    },
+    "ava": {
+      "repository": "IMONsergey/AvaAtPalm",
+      "parent": "a36d1c6ceb6001cc92171fd61ce4d5a58bcce0f0",
+      "sha": "a7f99fa189a2c2c45431a0e5105ee4577dc75eed",
+      "tree": "82957c21811b47560b63f4c7db83576fae30ab72",
+      "deployment": "dpl_3BU84nHV3BiFQWuXnzCeCWceW8fk",
+      "alias": "https://ava-at-palm-imon.vercel.app/",
+      "status": "READY; exact SHA and primary alias verified; root live journeys passed",
+      "serverPath": "/home/sergey/Projects/AvaAtPalm",
+      "serverClean": true,
+      "liveChecks": [
+        "Plan image opens Unit 801 viewer in site",
+        "Zoom 130%, Fit 100%, Escape restores image-link focus",
+        "Production no-film request has Sky Palace / Film request context",
+        "Decoded original partner and footer graphics inspected"
+      ]
+    },
+    "orla": {
+      "repository": "IMONsergey/orla",
+      "parent": "cd66952ebb37c4a8214f37cdedde8f27657e1dce",
+      "sha": "7b6716e036bcac892512e4746725380b5fc58682",
+      "tree": "214a68fda334db0eb049367e2fbb6226f67ec821",
+      "deployment": "dpl_HGfKBD2ao62NwM7vxNebB8xEr2Ha",
+      "alias": "https://orla-imon.vercel.app/",
+      "status": "READY; exact SHA and primary alias verified; root live journeys passed",
+      "serverPath": "/tmp/realestate-publication/orla",
+      "serverClean": true,
+      "liveChecks": [
+        "One Watch starts 15.633-second supplied preview",
+        "Readable presentation request opens correct context",
+        "Nested Back restores film then home and initiating focus",
+        "Mansion contains no unsupported 401 plan link; Back/Forward restores selected collection",
+        "Decoded transparent footer brands inspected"
+      ]
+    },
+    "six-senses": {
+      "repository": "IMONsergey/SixSenses",
+      "parent": "c7f4899544874b17f538a971385f963450db5c1c",
+      "sha": "b4226433034e7ce77f5f7d9a0586a104718e3531",
+      "tree": "299632e9feaa5285ef38f115582f68711c46a322",
+      "deployment": "dpl_2hdn9XFKiERzDbqLrAApMhKgUifG",
+      "alias": "https://six-senses-imon.vercel.app/",
+      "status": "READY; exact SHA and primary alias verified; root live journeys passed",
+      "serverPath": "/home/sergey/Projects/SixSenses",
+      "serverClean": true,
+      "liveChecks": [
+        "Layouts reload retains functional residence cards",
+        "Triplex plan Back/Forward restores selected image and Zoom 150% works",
+        "Escape restores parent residence and originating card",
+        "Direct Location reload opens map viewer",
+        "Direct Interiors reload selects Inside; Next changes 1/4 to 2/4",
+        "Clean-tab repetition of plan history and Interiors renders correctly"
+      ],
+      "observation": "Long-session screenshot anomaly after capture timeouts: uniformly navy while DOM remains functional. Same deployment cold tab and focused history/zoom/Interiors replay render correctly. Cause between render and capture state is not established; not counted as visual pass."
+    }
+  }
+}
