@@ -10,13 +10,28 @@ function toast(message:string){
  node.textContent=message;node.classList.add('is-visible');
  clearTimeout(toastTimer);toastTimer=setTimeout(()=>node.classList.remove('is-visible'),4200);
 }
+// Advanced search continues the criteria already entered in the hero.
+const heroSearch=$<HTMLFormElement>('.hero-search');
+if(heroSearch){
+ const advanced=$<HTMLAnchorElement>('.search-filter',heroSearch);
+ const updateAdvanced=()=>{
+  if(!advanced)return;
+  const data=new FormData(heroSearch),params=new URLSearchParams();
+  const purpose=String(data.get('purpose')||'buy'),query=String(data.get('q')||'').trim();
+  if(purpose==='rent')params.set('purpose','rent');
+  if(query)params.set('q',query);
+  advanced.href='/properties/'+(params.size?'?'+params.toString():'')+'#filters';
+ };
+ heroSearch.addEventListener('input',updateAdvanced);heroSearch.addEventListener('change',updateAdvanced);
+ advanced?.addEventListener('click',updateAdvanced);window.addEventListener('pageshow',updateAdvanced);updateAdvanced();
+}
 const dialogTriggers=new WeakMap<HTMLDialogElement,HTMLElement>();
 function openDialog(dialog:HTMLDialogElement,trigger?:HTMLElement){
  const previous=trigger?.closest<HTMLDialogElement>('dialog[open]');
  const returnTarget=previous&&previous!==dialog?dialogTriggers.get(previous):trigger;
  $$<HTMLDialogElement>('dialog[open]').forEach(other=>{if(other!==dialog)other.close();});
  if(returnTarget)dialogTriggers.set(dialog,returnTarget);
- if(!dialog.open)dialog.showModal();
+ if(!dialog.open){dialog.showModal();dialog.scrollTo({top:0,left:0,behavior:'instant'});}
  document.body.classList.add('dialog-open');document.documentElement.classList.add('dialog-open');
 }
 $$<HTMLDialogElement>('dialog').forEach(dialog=>{
@@ -39,6 +54,15 @@ $('.menu-toggle')?.addEventListener('click',event=>{
  if(menu){openDialog(menu,event.currentTarget as HTMLElement);$('.menu-toggle')?.setAttribute('aria-expanded','true');}
 });
 $$<HTMLAnchorElement>('#site-menu nav a').forEach(link=>link.addEventListener('click',()=>menu?.close()));
+function syncCurrentNavigation(){
+ const currentPurpose=new URLSearchParams(location.search).get('purpose')==='rent'?'rent':'buy';
+ $$<HTMLAnchorElement>('#site-menu nav a').forEach(link=>{
+  const target=new URL(link.href);
+  const active=target.pathname===location.pathname&&!target.hash&&(target.pathname!=='/properties/'||(target.searchParams.get('purpose')==='rent'?'rent':'buy')===currentPurpose);
+  if(active)link.setAttribute('aria-current','page');else link.removeAttribute('aria-current');
+ });
+}
+syncCurrentNavigation();
 const enquiry=$<HTMLDialogElement>('#enquiry-dialog');
 $$<HTMLButtonElement>('[data-enquiry]').forEach(button=>button.addEventListener('click',()=>{
  if(!enquiry)return;
@@ -154,6 +178,14 @@ $$<HTMLFormElement>('[data-enquiry-form]').forEach(form=>{
  }
  form.addEventListener('input',event=>{
   const input=event.target as HTMLInputElement;if(!input.name)return;
+  // The inline contact form can start another enquiry without a page reload.
+  // A new reference is created only after a completed form is edited.
+  if(form.dataset.complete==='true'){
+   form.dataset.complete='false';form.dataset.submissionId=crypto.randomUUID();form.dataset.startedAt=String(Date.now());
+   delete form.dataset.attemptedFingerprint;delete form.dataset.referenceNeedsReset;
+   if(submit)submit.disabled=false;if(submitLabel)submitLabel.textContent='Send enquiry';
+   if(status){status.textContent='';status.classList.remove('is-error');}
+  }
   input.removeAttribute('aria-invalid');const error=$('[data-error-for="'+input.name+'"]',form);if(error)error.textContent='';
  });
  form.addEventListener('submit',async event=>{
@@ -254,13 +286,22 @@ function readCatalogueState():CatalogueState|null{
  }catch{return null;}
 }
 const returnLink=$<HTMLAnchorElement>('.property-page .back-link');
-if(returnLink){const saved=readCatalogueState();if(saved){returnLink.href=saved.url;returnLink.addEventListener('click',()=>{try{sessionStorage.setItem(catalogueStateKey+':return','1');}catch{}});}}
+if(returnLink){const saved=readCatalogueState();if(saved&&saved.propertyId===returnLink.dataset.propertyReturn){returnLink.href=saved.url;returnLink.addEventListener('click',()=>{try{sessionStorage.setItem(catalogueStateKey+':return','1');}catch{}});}}
 const catalogue=$<HTMLElement>('[data-catalogue]');
 if(catalogue){
  const form=$<HTMLFormElement>('[data-filters]',catalogue)!;
  const grid=$<HTMLElement>('[data-property-grid]',catalogue)!;
  const cards=$$<HTMLElement>('[data-property-card]',grid);const sort=$<HTMLSelectElement>('[data-sort]',catalogue)!;
  const paramsAllowed=['purpose','q','type','beds','min','max','features','sort'];
+ const minimumPrice=$<HTMLInputElement>('[name=min]',form)!,maximumPrice=$<HTMLInputElement>('[name=max]',form)!;
+ const rangeError=$('[data-filter-error]',form),invalidRange=$<HTMLElement>('[data-invalid-range]',grid);
+ function readPriceRange(){
+  const min=Math.max(0,Number(minimumPrice.value||0));const maxText=maximumPrice.value.trim();const max=maxText===''?Infinity:Math.max(0,Number(maxText));
+  const valid=min<=max;
+  if(rangeError)rangeError.textContent=valid?'':'The maximum price must be higher than or equal to the minimum.';
+  if(valid)maximumPrice.removeAttribute('aria-invalid');else maximumPrice.setAttribute('aria-invalid','true');
+  return {min,max,valid};
+ }
  function saveCatalogue(propertyId?:string){
   try{sessionStorage.setItem(catalogueStateKey,JSON.stringify({url:location.pathname+location.search,scrollY:Math.max(0,scrollY),propertyId}));}catch{/* Browsers may deny session storage; URL filters still work. */}
  }
@@ -281,8 +322,19 @@ if(catalogue){
   const fd=new FormData(form);const q=String(fd.get('q')||'').trim().toLowerCase();
   const purpose=String(fd.get('purpose')||'buy');const types=fd.getAll('type').map(String);
   const features=fd.getAll('features').map(String);const bedrooms=Number(fd.get('beds')||0);
-  const min=Math.max(0,Number(fd.get('min')||0));const max=Number(fd.get('max')||0)||Infinity;
-  const error=$('[data-filter-error]',form);if(error)error.textContent=min>max?'The maximum price must be higher than the minimum.':'';
+  const {min,max,valid}=readPriceRange();
+  if(!valid){
+   // Editing an invalid draft must not replace the last valid result or URL.
+   // An invalid shared URL has no valid result to restore, so expose that state.
+   if(!update){
+    cards.forEach(card=>card.hidden=true);const empty=$<HTMLElement>('[data-no-results]',grid);if(empty)empty.hidden=true;
+    if(invalidRange)invalidRange.hidden=false;const countNode=$('[data-result-count]',catalogue!);if(countNode)countNode.textContent='Invalid price range';
+    $$<HTMLButtonElement>('.purpose-tabs button[data-purpose]',catalogue!).forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.purpose===purpose)));
+    syncCurrentNavigation();
+   }
+   return false;
+  }
+  if(invalidRange)invalidRange.hidden=true;
   let count=0;
   const sorted=[...cards].sort((a,b)=>{
    if(sort.value==='price-low')return Number(a.dataset.price)-Number(b.dataset.price);
@@ -292,12 +344,13 @@ if(catalogue){
   });
   sorted.forEach(card=>{
    const d=card.dataset;const p=Number(d.price);
-   const match=d.purpose===purpose&&(!q||(d.search||'').includes(q))&&(!types.length||types.includes(d.type||''))&&(!bedrooms||Number(d.bedrooms)>=bedrooms)&&p>=min&&p<=max&&features.every(feature=>(d.features||'').split(',').includes(feature));
+   const matchesBedrooms=!bedrooms||(bedrooms===6?Number(d.bedrooms)>=6:Number(d.bedrooms)===bedrooms);
+   const match=d.purpose===purpose&&(!q||(d.search||'').includes(q))&&(!types.length||types.includes(d.type||''))&&matchesBedrooms&&p>=min&&p<=max&&features.every(feature=>(d.features||'').split(',').includes(feature));
    card.hidden=!match;if(match)count++;grid.append(card);
   });
   const empty=$<HTMLElement>('[data-no-results]',grid);if(empty){empty.hidden=count>0;grid.append(empty);}
   const countNode=$('[data-result-count]',catalogue!);if(countNode)countNode.textContent=count+' '+(count===1?'property':'properties');
-  $$<HTMLButtonElement>('[data-purpose]',catalogue!).forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.purpose===purpose)));
+  $$<HTMLButtonElement>('.purpose-tabs button[data-purpose]',catalogue!).forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.purpose===purpose)));
   if(update){
    const params=new URLSearchParams();
    for(const name of paramsAllowed){const values=name==='sort'?[sort.value]:fd.getAll(name).map(String);values.filter(v=>v&&!(name==='sort'&&v==='featured')&&!(name==='purpose'&&v==='buy')).forEach(value=>params.append(name,value));}
@@ -305,18 +358,21 @@ if(catalogue){
    if(url!==location.pathname+location.search)history.pushState({},'',url);
    saveCatalogue();
   }
+  syncCurrentNavigation();return true;
  }
  form.addEventListener('submit',event=>{
-  event.preventDefault();applyFilters();
+  event.preventDefault();if(!applyFilters()){$<HTMLInputElement>('[name=max]',form)?.focus();return;}
   if(matchMedia('(max-width:900px)').matches){const disclosure=$<HTMLDetailsElement>('.filter-disclosure',catalogue!);if(disclosure)disclosure.open=false;grid.scrollIntoView({behavior:scrollBehavior(),block:'start'});}
  });
  let loadingQuery=false;
  form.addEventListener('reset',()=>{if(!loadingQuery)setTimeout(()=>{sort.value='featured';applyFilters();},0);});
  form.addEventListener('change',()=>applyFilters());
+ // Render the range error while typing, before blur can move Apply under the pointer.
+ [minimumPrice,maximumPrice].forEach(input=>input.addEventListener('input',readPriceRange));
  let searchTimer:ReturnType<typeof setTimeout>;
  $<HTMLInputElement>('[name=q]',form)?.addEventListener('input',()=>{clearTimeout(searchTimer);searchTimer=setTimeout(()=>applyFilters(),350);});
  sort.addEventListener('change',()=>applyFilters());
- $$<HTMLButtonElement>('[data-purpose]',catalogue).forEach(button=>button.addEventListener('click',()=>{const input=$<HTMLInputElement>('[name=purpose]',form);if(input)input.value=button.dataset.purpose||'buy';applyFilters();}));
+ $$<HTMLButtonElement>('.purpose-tabs button[data-purpose]',catalogue).forEach(button=>button.addEventListener('click',()=>{const input=$<HTMLInputElement>('[name=purpose]',form);if(input)input.value=button.dataset.purpose||'buy';applyFilters();}));
  function readLocation(){loadingQuery=true;loadQuery();loadingQuery=false;}
  window.addEventListener('popstate',readLocation);readLocation();
  try{
@@ -329,7 +385,7 @@ if(catalogue){
  }catch{/* Storage denial does not affect navigation. */}
  const mobileFilters=matchMedia('(max-width:900px)');
  const disclosure=$<HTMLDetailsElement>('.filter-disclosure',catalogue);
- function syncFilterDisclosure(){if(disclosure)disclosure.open=!mobileFilters.matches||location.hash==='#filters';}
+ function syncFilterDisclosure(){if(disclosure)disclosure.open=!mobileFilters.matches||location.hash==='#filters'||maximumPrice.getAttribute('aria-invalid')==='true';}
  mobileFilters.addEventListener('change',syncFilterDisclosure);syncFilterDisclosure();
 }
 const insights=$('[data-insights]');

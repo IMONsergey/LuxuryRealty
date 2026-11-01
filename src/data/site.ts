@@ -28,17 +28,32 @@ export const navigation=[
 export interface Property {
  id:string; title:string; subtitle:string; image:string; type:string; location:string;
  bedrooms:number; area:number; price:number; purpose:'buy'|'rent'; features:string[];
+ selectionImage?:string; photos?:PropertyPhoto[];
 }
+export interface PropertyPhoto {image:string;alt:string;}
+// These four detail photographs belong to the supplied residence template.
+// Other records use only the photographs already assigned to their own cards.
+const residencePhotos:PropertyPhoto[]=[
+ {image:'property-imgRectangle58',alt:'A spacious contemporary living room'},
+ {image:'property-imgRectangle60',alt:'A quiet interior with sculptural arches'},
+ {image:'property-imgRectangle61',alt:'The residence viewed from its main living space'},
+ {image:'property-imgRectangle63',alt:'A private terrace and swimming pool'},
+];
 export const properties:Property[]=[
- {id:'dubai-hills-residence',title:'Dubai Hills',subtitle:'Exquisitely upgraded luxury villa in Dubai Hills',image:'catalogue-imgMedia',type:'Villa',location:'Dubai Hills Estate',bedrooms:6,area:21000,price:65000000,purpose:'buy',features:['Garden','Pool','Terrace','Open kitchen']},
- {id:'dubai-hills-waterfront',title:'Dubai Hills',subtitle:'A residence with an open view',image:'catalogue-imgMedia2',type:'Villa',location:'Dubai Hills Estate',bedrooms:6,area:21000,price:65000000,purpose:'buy',features:['Pool','Terrace','Water view']},
- {id:'dubai-hills-skyline',title:'Dubai Hills',subtitle:'A perspective over the city',image:'catalogue-imgMedia3',type:'Villa',location:'Dubai Hills Estate',bedrooms:6,area:21000,price:65000000,purpose:'buy',features:['Terrace','Open kitchen','City view']},
- {id:'dubai-hills-garden',title:'Dubai Hills',subtitle:'A private garden residence',image:'catalogue-imgMedia4',type:'Villa',location:'Dubai Hills Estate',bedrooms:6,area:21000,price:65000000,purpose:'buy',features:['Garden','Pool','Terrace']},
- {id:'dubai-hills-courtyard',title:'Dubai Hills',subtitle:'Architecture framed by greenery',image:'catalogue-imgMedia3',type:'Villa',location:'Dubai Hills Estate',bedrooms:6,area:21000,price:65000000,purpose:'buy',features:['Garden','Terrace']},
+ {id:'dubai-hills-residence',title:'Dubai Hills',subtitle:'Exquisitely upgraded luxury villa in Dubai Hills',image:'catalogue-imgMedia',selectionImage:'imgRectangle4',photos:residencePhotos,type:'Villa',location:'Dubai Hills Estate',bedrooms:6,area:21000,price:65000000,purpose:'buy',features:['Garden','Pool','Terrace','Open kitchen']},
+ {id:'dubai-hills-waterfront',title:'Dubai Hills',subtitle:'A residence with an open view',image:'catalogue-imgMedia2',selectionImage:'imgRectangle7',type:'Villa',location:'Dubai Hills Estate',bedrooms:6,area:21000,price:65000000,purpose:'buy',features:['Pool','Terrace','Water view']},
+ {id:'dubai-hills-skyline',title:'Dubai Hills',subtitle:'A perspective over the city',image:'catalogue-imgMedia3',selectionImage:'imgRectangle8',type:'Villa',location:'Dubai Hills Estate',bedrooms:6,area:21000,price:65000000,purpose:'buy',features:['Terrace','Open kitchen','City view']},
+ {id:'dubai-hills-garden',title:'Dubai Hills',subtitle:'A private garden residence',image:'catalogue-imgMedia4',selectionImage:'imgRectangle5',type:'Villa',location:'Dubai Hills Estate',bedrooms:6,area:21000,price:65000000,purpose:'buy',features:['Garden','Pool','Terrace']},
+ {id:'dubai-hills-courtyard',title:'Dubai Hills',subtitle:'Architecture framed by greenery',image:'catalogue-imgMedia3',selectionImage:'imgRectangle11',type:'Villa',location:'Dubai Hills Estate',bedrooms:6,area:21000,price:65000000,purpose:'buy',features:['Garden','Terrace']},
  {id:'dubai-hills-panorama',title:'Dubai Hills',subtitle:'Space to enjoy the horizon',image:'catalogue-imgMedia6',type:'Villa',location:'Dubai Hills Estate',bedrooms:6,area:21000,price:65000000,purpose:'buy',features:['Water view','Pool']},
  {id:'dubai-hills-terrace',title:'Dubai Hills',subtitle:'A new view of contemporary living',image:'catalogue-imgMedia7',type:'Villa',location:'Dubai Hills Estate',bedrooms:6,area:21000,price:65000000,purpose:'buy',features:['Terrace','Open kitchen']},
  {id:'dubai-hills-retreat',title:'Dubai Hills',subtitle:'A quiet retreat in the city',image:'catalogue-imgMedia8',type:'Villa',location:'Dubai Hills Estate',bedrooms:6,area:21000,price:65000000,purpose:'buy',features:['Garden','Pool']},
 ];
+export function propertyPhotos(property:Property):PropertyPhoto[]{
+ const photos=[...(property.photos||[]),{image:property.image,alt:property.subtitle}];
+ if(property.selectionImage)photos.push({image:property.selectionImage,alt:property.subtitle});
+ return photos.filter((photo,index)=>photos.findIndex(other=>other.image===photo.image)===index);
+}
 export const projects=[
  {id:'ava-at-palm',name:'AVA at Palm Jumeirah',subtitle:'A Journey to Sublime Sophistication',image:'imgLuxuryRealtyProjectCard1',position:'center',url:'https://ava-at-palm-imon.vercel.app',location:'Palm Jumeirah, Dubai'},
  {id:'orla',name:'ORLA',subtitle:'Where architecture meets the horizon',image:'imgLuxuryRealtyProjectCard3',position:'50% 73.5%',url:'https://orla-imon.vercel.app',location:'Palm Jumeirah, Dubai'},

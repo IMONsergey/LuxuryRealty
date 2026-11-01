@@ -11,7 +11,7 @@ import Consultation from '../components/Consultation.astro';
 import InsightCard from '../components/InsightCard.astro';
 import {properties,projects,services,asset} from '../data/site';
 import {articles} from '../data/articles';
-const selection=properties.slice(0,5).map((p,i)=>({...p,image:['imgRectangle4','imgRectangle7','imgRectangle8','imgRectangle5','imgRectangle11'][i]}));
+const selection=properties.slice(0,5).map(p=>({...p,image:p.selectionImage||p.image}));
 const storyImages=[{src:asset('imgRectangle25').src,alt:'A considered interior with natural textures'},{src:asset('imgRectangle26').src,alt:'The architecture of a private residence'}];
 ---
 <Layout bodyClass="home-page">

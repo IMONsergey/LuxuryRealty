@@ -23,3 +23,6 @@ dialog{border:1px solid rgba(255,255,255,.13);color:var(--text);background:var(-
 /* Keep the narrow footer within its existing gutter without shrinking type. */
 .footer-contacts .email-domain{white-space:nowrap}
 @media(max-width:360px){.footer-main{grid-template-columns:minmax(0,1fr)}.footer-nav{grid-template-columns:minmax(0,1fr) minmax(0,1.4fr);column-gap:20px}}
+
+/* The wordmark must fill its centered link, including the wider mobile size. */
+.brand-word>img{width:100%;height:auto;object-fit:contain}

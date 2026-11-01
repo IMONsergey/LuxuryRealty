@@ -9,3 +9,8 @@
 /* Keep an email domain together when narrow screens need a deliberate wrap. */
 .contact-details .email-domain{white-space:nowrap}
 @media(max-width:380px){.property-advisor .advisor-price{font-size:28px}}
+
+/* A record with one secondary photograph does not leave an empty grid column. */
+.property-gallery-grid--single{grid-template-columns:1fr}
+.property-gallery-grid--single>button{aspect-ratio:765/420}
+@media(max-width:700px){.property-gallery-grid--single>button{aspect-ratio:342/350}}

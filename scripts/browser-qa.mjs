@@ -9,7 +9,7 @@ const require=createRequire(process.env.PLAYWRIGHT_PACKAGE || '/home/sergey/.loc
 const {chromium}=require('playwright');
 const port=Number(process.env.QA_PORT||14313),base=process.env.BASE_URL||`http://127.0.0.1:${port}`,artifacts=path.resolve(process.env.QA_OUTPUT_DIR||'artifacts');
 await mkdir(artifacts,{recursive:true});
-const report={project:'luxury-realty',startedAt:new Date().toISOString(),widths:[],checks:[],pageErrors:[],assetFailures:[],mockedRequests:[],ok:false};
+const report={project:'luxury-realty',startedAt:new Date().toISOString(),widths:[],checks:[],pageErrors:[],assetFailures:[],mockedRequests:[],blockedWrites:[],ok:false};
 let serverOutput='',browser,releaseHeldRequest;
 const server=process.env.BASE_URL?null:spawn(process.execPath,['node_modules/astro/bin/astro.mjs','dev','--host','127.0.0.1','--port',String(port),'--ignore-lock'],{cwd:process.cwd(),env:{...process.env,ASTRO_TELEMETRY_DISABLED:'1'},stdio:['ignore','pipe','pipe']});
 server?.stdout.on('data',chunk=>serverOutput+=chunk.toString());server?.stderr.on('data',chunk=>serverOutput+=chunk.toString());
@@ -59,10 +59,11 @@ async function galleryPhoto(page,index,total){await page.waitForFunction(({index
 async function formIdle(form){await form.page().waitForFunction(selector=>document.querySelector(selector)?.dataset.sending==='false',await form.evaluate(element=>{element.id||='qa-enquiry-form';return `#${element.id}`;}));}
 async function focused(locator){await locator.page().waitForFunction(selector=>document.querySelector(selector)===document.activeElement,await locator.evaluate(element=>{element.id||=`qa-focus-${Math.random().toString(36).slice(2)}`;return `#${element.id}`;}));}
 async function fillForm(form){await form.locator('[name=name]').fill('Website Verification');await form.locator('[name=email]').fill('qa@example.invalid');await form.locator('[name=phone]').fill('+10000000000');await form.locator('[name=message]').fill('Synthetic UI verification. No real enquiry is sent.');await form.locator('[name=consent]').check();await delay(850);}
+async function blockUnexpectedWrites(context){await context.route('**/*',route=>{const request=route.request();if(['GET','HEAD','OPTIONS'].includes(request.method()))return route.continue();report.blockedWrites.push({url:request.url(),method:request.method()});return route.abort('blockedbyclient');});}
 
 try{
  await ready();browser=await chromium.launch({headless:true,handleSIGINT:false,handleSIGTERM:false});
- const context=await browser.newContext({viewport:{width:1440,height:900},reducedMotion:'reduce'});
+ const context=await browser.newContext({viewport:{width:1440,height:900},reducedMotion:'reduce',serviceWorkers:'block'});await blockUnexpectedWrites(context);
  const page=await context.newPage();observe(page);
  for(const width of [1440,768,390,320]){
   await page.setViewportSize({width,height:width>768?900:844});
@@ -97,10 +98,10 @@ try{
  const back=page.locator('.property-page .back-link');assert.deepEqual(semanticURL(await back.evaluate(link=>link.href)),semanticURL(catalogueURL));await back.click();await page.waitForURL(url=>sameURL(url,catalogueURL));assert.equal(await query.inputValue(),'Dubai');assert.equal(await page.locator('[data-sort]').inputValue(),'price-high');
  assert.equal(await page.locator('[name=features][value=pool]').isChecked(),true);await focused(visibleCards.first().locator('a'));await visibleCards.first().locator('a').click();await page.waitForURL(base+propertyHref);await settle(page);
  check('Catalogue search/empty/reset/filter/sort/reload work; property return restores the original query and selected filters');
- const galleryButton=page.locator('.property-hero [data-gallery]');await galleryButton.click();await dialogState(page,'gallery-dialog');await galleryPhoto(page,1,4);
- await page.locator('[data-gallery-next]').click();await galleryPhoto(page,2,4);await page.keyboard.press('ArrowLeft');await galleryPhoto(page,1,4);
- await page.keyboard.press('ArrowRight');await page.keyboard.press('ArrowRight');await page.keyboard.press('ArrowRight');await galleryPhoto(page,4,4);
- const galleryOriginals=JSON.parse(await galleryButton.getAttribute('data-gallery'));
+ const galleryButton=page.locator('.property-hero [data-gallery]');const galleryOriginals=JSON.parse(await galleryButton.getAttribute('data-gallery'));const galleryTotal=galleryOriginals.length;
+ await galleryButton.click();await dialogState(page,'gallery-dialog');await galleryPhoto(page,1,galleryTotal);
+ await page.locator('[data-gallery-next]').click();await galleryPhoto(page,2,galleryTotal);await page.keyboard.press('ArrowLeft');await galleryPhoto(page,1,galleryTotal);
+ await page.keyboard.press('ArrowRight');await page.keyboard.press('ArrowRight');await page.keyboard.press('ArrowRight');await galleryPhoto(page,4,galleryTotal);
  assert.equal(new URL(await page.locator('[data-gallery-image]').getAttribute('src'),base).pathname,galleryOriginals[3].src);
  await page.keyboard.press('Escape');await dialogState(page,'gallery-dialog',false);await focused(galleryButton);
  check('Property gallery decodes before showing the matching photo/counter, keeps the latest rapid navigation request, and restores focus');
@@ -143,7 +144,8 @@ try{
   await page.goto(base+route,{waitUntil:'networkidle'});await settle(page);const width=await page.evaluate(()=>document.documentElement.scrollWidth);assert.ok(width<=391,`${route} overflows at 390: ${width}`);
  }
  check('Catalogue, property, development, insights and contact templates fit a 390px viewport');
- const motionContext=await browser.newContext({viewport:{width:1440,height:900},reducedMotion:'no-preference'});const motion=await motionContext.newPage();observe(motion);await motion.goto(base,{waitUntil:'networkidle'});await settle(motion);await motion.locator('h1').waitFor({state:'visible'});await delay(950);
+ await context.close();
+ const motionContext=await browser.newContext({viewport:{width:1440,height:900},reducedMotion:'no-preference',serviceWorkers:'block'});await blockUnexpectedWrites(motionContext);const motion=await motionContext.newPage();observe(motion);await motion.goto(base,{waitUntil:'networkidle'});await settle(motion);await motion.locator('h1').waitFor({state:'visible'});await delay(950);
  await motion.screenshot({path:path.join(artifacts,'home-motion-1440.png')});
  const rail=motion.locator('.selection-rail');await rail.focus();await motion.keyboard.press('End');await motion.locator('[data-rail-next=".selection-rail"]').waitFor({state:'visible'});
  await motion.waitForFunction(()=>document.querySelector('[data-rail-next=".selection-rail"]')?.disabled===true);
@@ -159,7 +161,7 @@ try{
  await motion.emulateMedia({reducedMotion:'reduce'});await motion.waitForFunction(()=>getComputedStyle(document.querySelector('[data-hero-parallax]')).transform==='none');
  assert.ok(await motion.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));await motionContext.close();
  check('Resizing clears mobile parallax, the header remains anchored, and a live reduced-motion change restores a static page');
- assert.deepEqual(report.pageErrors,[]);assert.deepEqual(report.assetFailures,[]);report.ok=true;
+ assert.deepEqual(report.pageErrors,[]);assert.deepEqual(report.assetFailures,[]);assert.deepEqual(report.blockedWrites,[]);report.ok=true;
 }catch(error){report.error=error.stack||String(error);process.exitCode=1;}
 finally{
  await stopOwnedProcesses();
