@@ -1,0 +1,1006 @@
+{
+  "sites": [
+    {
+      "key": "luxury",
+      "name": "Luxury Realty",
+      "origin": "https://luxury-realty-imon.vercel.app",
+      "uiSha": "8c5b3771427fdb5304050692f521af9097af3f4d",
+      "deployment": {
+        "id": "dpl_ABeRVVqxDiYu2RpMZMfG8usXrrR7",
+        "state": "READY",
+        "target": "production",
+        "sourceSha": "8c5b3771427fdb5304050692f521af9097af3f4d",
+        "aliases": [
+          "luxury-realty-imon.vercel.app",
+          "luxury-realty-imon-cdo-2844s-projects.vercel.app",
+          "luxury-realty-imon-git-main-cdo-2844s-projects.vercel.app"
+        ]
+      }
+    },
+    {
+      "key": "atlantis",
+      "name": "Atlantis",
+      "origin": "https://atlantis-imon.vercel.app",
+      "uiSha": "6de8339639929976e7a22d9f892c89a64b54b099",
+      "deployment": {
+        "id": "dpl_FUg8GnsNFhoWeE2js1hhA4Wj737a",
+        "state": "READY",
+        "target": "production",
+        "sourceSha": "6de8339639929976e7a22d9f892c89a64b54b099",
+        "aliases": [
+          "atlantis-imon.vercel.app",
+          "atlantis-imon-cdo-2844s-projects.vercel.app",
+          "atlantis-imon-git-main-cdo-2844s-projects.vercel.app"
+        ]
+      }
+    },
+    {
+      "key": "orla",
+      "name": "ORLA",
+      "origin": "https://orla-imon.vercel.app",
+      "uiSha": "56634c9ef85b4d986be0d5d2168316d7ce6e519e",
+      "deployment": {
+        "id": "dpl_7subdWpSuDcQwSAmFE4ApYRauLqT",
+        "state": "READY",
+        "target": "production",
+        "sourceSha": "56634c9ef85b4d986be0d5d2168316d7ce6e519e",
+        "aliases": [
+          "orla-imon.vercel.app",
+          "orla-imon-cdo-2844s-projects.vercel.app",
+          "orla-imon-git-main-cdo-2844s-projects.vercel.app"
+        ]
+      }
+    },
+    {
+      "key": "six",
+      "name": "Six Senses",
+      "origin": "https://six-senses-imon.vercel.app",
+      "uiSha": "c326bef95c37fa22e702302756ef7939bfcf94e6",
+      "deployment": {
+        "id": "dpl_7sKsY8kA2MPPDGdyfmBndGdP86Bb",
+        "state": "READY",
+        "target": "production",
+        "sourceSha": "1b6be6cba1fa2c070260fb132dbb2f64e30ef92d",
+        "aliases": [
+          "six-senses-imon.vercel.app",
+          "six-senses-imon-cdo-2844s-projects.vercel.app",
+          "six-senses-imon-git-main-cdo-2844s-projects.vercel.app"
+        ]
+      }
+    },
+    {
+      "key": "ava",
+      "name": "AVA",
+      "origin": "https://ava-at-palm-imon.vercel.app",
+      "uiSha": "0ef0a1f5c50bc1762ad95f41a534ca530e1f9a0f",
+      "deployment": {
+        "id": "dpl_DMF4H1VoayjFa8gyh6QLzGchbsSf",
+        "state": "READY",
+        "target": "production",
+        "sourceSha": "e0bf9bca060e63bc698eb14a6a89f968dc8421c0",
+        "aliases": [
+          "ava-at-palm-imon.vercel.app",
+          "ava-at-palm-imon-cdo-2844s-projects.vercel.app",
+          "ava-at-palm-imon-git-main-cdo-2844s-projects.vercel.app"
+        ]
+      }
+    }
+  ],
+  "atlantis": {
+    "existing": {
+      "passed": true,
+      "results": [
+        "Desktop: source images, sections, filters, three-slide galleries, unit navigation, plan zoom and real request state handling passed.",
+        "Mobile 390px: navigation, anchors, layouts without overflow, carousel controls, filters, full detail, plan zoom and form validation passed.",
+        "Normal-motion short-desktop pin entry, desktop/mobile resize, keyboard gallery, inert states and live reduced-motion changes passed without page errors."
+      ],
+      "faults": [],
+      "viewports": [
+        {
+          "width": 1440,
+          "height": 900
+        },
+        {
+          "width": 390,
+          "height": 844
+        }
+      ],
+      "notes": [
+        "Enquiry responses are deliberately mocked only in this automated test; production UI requires an actual successful API response.",
+        "No real enquiry was sent by these tests."
+      ]
+    },
+    "lightbox": {
+      "base": "http://127.0.0.1:14322",
+      "passed": true,
+      "engines": [
+        {
+          "name": "chromium",
+          "checks": [
+            "Cold image loading retains the complete old frame; rapid navigation keeps the latest decoded image.",
+            "Mobile close/reopen rejects stale results; the newly loaded plan still zooms and fits.",
+            "Initial and replacement failures show recovery guidance, retain valid content, and allow skipping or retrying the failed image."
+          ]
+        },
+        {
+          "name": "webkit",
+          "checks": [
+            "Cold image loading retains the complete old frame; rapid navigation keeps the latest decoded image.",
+            "Mobile close/reopen rejects stale results; the newly loaded plan still zooms and fits.",
+            "Initial and replacement failures show recovery guidance, retain valid content, and allow skipping or retrying the failed image."
+          ]
+        }
+      ],
+      "apiRequests": 0,
+      "pageErrors": []
+    }
+  },
+  "orla": {
+    "motion": {
+      "passed": true,
+      "startedAt": "2026-11-01T13:59:49.577Z",
+      "durationMs": 45417,
+      "sourceReport": "artifacts/motion-qa/report.json",
+      "reportSha256": "c7288ced1100a653e1b5014ca8b524955955763612cf869d947784520de1ed46",
+      "errors": [],
+      "viewports": [],
+      "interactions": [],
+      "engines": [
+        {
+          "engine": "chromium",
+          "passed": true,
+          "checks": [
+            "normal-motion hero",
+            "film loads on explicit open and pauses on close",
+            "hero scroll and hotspot focus",
+            "rectangle and editorial reveal",
+            "horizontal gallery wipe, rapid reversal and cancellation",
+            "reduced motion during wipe",
+            "residence dialog and focus",
+            "desktop to mobile to desktop and motion preference recovery",
+            "short landscape callout"
+          ],
+          "pageErrors": [],
+          "error": null,
+          "unexpectedSubmissions": []
+        },
+        {
+          "engine": "webkit",
+          "passed": true,
+          "checks": [
+            "normal-motion hero",
+            "film loads on explicit open and pauses on close",
+            "hero scroll and hotspot focus",
+            "rectangle and editorial reveal",
+            "horizontal gallery wipe, rapid reversal and cancellation",
+            "reduced motion during wipe",
+            "residence dialog and focus",
+            "desktop to mobile to desktop and motion preference recovery",
+            "short landscape callout"
+          ],
+          "pageErrors": [],
+          "error": null,
+          "unexpectedSubmissions": []
+        }
+      ]
+    },
+    "hotspot": {
+      "passed": true,
+      "startedAt": "2026-11-01T13:58:53.976Z",
+      "durationMs": null,
+      "sourceReport": "artifacts/hotspot-qa/current/report.json",
+      "reportSha256": "3f61162987b350a4bc718054d7f8b55c79cc4a1bc1abd66a5ba601b28852c3c4",
+      "errors": [],
+      "viewports": [],
+      "interactions": [],
+      "engines": [
+        {
+          "engine": "chromium",
+          "passed": true,
+          "checks": [
+            "mobile lower hotspot near header",
+            "touch close restores active trigger without scroll",
+            "callout follows visible anchor and dismisses on scroll away",
+            "open callout survives mobile landscape desktop resize",
+            "reduced motion cancels active entrance and prevents new entrance",
+            "native visual viewport scale constrains card and close",
+            "native mouse opening switching and toggle retain page position",
+            "keyboard Tab Enter Space Escape and close keep scroll and focus"
+          ],
+          "pageErrors": [],
+          "error": null,
+          "unexpectedSubmissions": []
+        },
+        {
+          "engine": "webkit",
+          "passed": true,
+          "checks": [
+            "mobile lower hotspot near header",
+            "touch close restores active trigger without scroll",
+            "callout follows visible anchor and dismisses on scroll away",
+            "open callout survives mobile landscape desktop resize",
+            "reduced motion cancels active entrance and prevents new entrance",
+            "native mouse opening switching and toggle retain page position",
+            "keyboard Tab Enter Space Escape and close keep scroll and focus"
+          ],
+          "pageErrors": [],
+          "error": null,
+          "unexpectedSubmissions": []
+        }
+      ]
+    },
+    "browser": {
+      "passed": true,
+      "startedAt": null,
+      "durationMs": null,
+      "sourceReport": "artifacts/browser-report.json",
+      "reportSha256": "91c6da967c79c15ec70e18d8d094a712b7e1f909774e32a4d52043a359d17662",
+      "errors": [],
+      "viewports": [
+        {
+          "width": 1440,
+          "scroll": 1425,
+          "broken": []
+        },
+        {
+          "width": 1024,
+          "scroll": 1009,
+          "broken": []
+        },
+        {
+          "width": 768,
+          "scroll": 753,
+          "broken": []
+        },
+        {
+          "width": 390,
+          "scroll": 375,
+          "broken": []
+        },
+        {
+          "width": 320,
+          "scroll": 305,
+          "broken": []
+        }
+      ],
+      "interactions": [
+        "menu and focus restoration",
+        "architecture hotspot",
+        "gallery and image zoom",
+        "feature detail",
+        "residence selection, floor plan and nested Escape",
+        "validation, retained data, idempotent retry and truthful success"
+      ],
+      "engines": []
+    }
+  },
+  "verifiedTrees": {
+    "atlantis": "7b1df2de279882af26ebecdf993604aef0890724",
+    "orla": "231e6a4e2066979eeb39ee4a3002c55e14016f53"
+  },
+  "verifiedAt": "2026-11-01T14:09:09.901Z",
+  "browser": "Playwright 1.58.2, Chromium 145.0.7632.6; focused local coverage also WebKit 26.0",
+  "productionSmoke": {
+    "startedAt": "2026-11-01T14:08:49.775Z",
+    "finishedAt": "2026-11-01T14:09:09.901Z",
+    "durationMs": 20126,
+    "ok": true,
+    "blockedEnquiries": [],
+    "fatalErrors": [],
+    "projectLinks": [
+      {
+        "source": "https://luxury-realty-imon.vercel.app/developments/ava-at-palm/",
+        "expectedOrigin": "https://ava-at-palm-imon.vercel.app",
+        "errors": [],
+        "httpStatus": 200,
+        "finalUrl": "https://luxury-realty-imon.vercel.app/developments/ava-at-palm/",
+        "projectLinks": [
+          "https://ava-at-palm-imon.vercel.app/"
+        ],
+        "ok": true
+      },
+      {
+        "source": "https://luxury-realty-imon.vercel.app/developments/orla/",
+        "expectedOrigin": "https://orla-imon.vercel.app",
+        "errors": [],
+        "httpStatus": 200,
+        "finalUrl": "https://luxury-realty-imon.vercel.app/developments/orla/",
+        "projectLinks": [
+          "https://orla-imon.vercel.app/"
+        ],
+        "ok": true
+      },
+      {
+        "source": "https://luxury-realty-imon.vercel.app/developments/six-senses/",
+        "expectedOrigin": "https://six-senses-imon.vercel.app",
+        "errors": [],
+        "httpStatus": 200,
+        "finalUrl": "https://luxury-realty-imon.vercel.app/developments/six-senses/",
+        "projectLinks": [
+          "https://six-senses-imon.vercel.app/"
+        ],
+        "ok": true
+      },
+      {
+        "source": "https://luxury-realty-imon.vercel.app/developments/atlantis/",
+        "expectedOrigin": "https://atlantis-imon.vercel.app",
+        "errors": [],
+        "httpStatus": 200,
+        "finalUrl": "https://luxury-realty-imon.vercel.app/developments/atlantis/",
+        "projectLinks": [
+          "https://atlantis-imon.vercel.app/"
+        ],
+        "ok": true
+      }
+    ],
+    "browserCleanup": {
+      "graceful": true,
+      "forceKillRequested": false,
+      "browserProcessExited": true
+    },
+    "pages": [
+      {
+        "label": "luxury-main-1440",
+        "url": "https://luxury-realty-imon.vercel.app/",
+        "finalUrl": "https://luxury-realty-imon.vercel.app/",
+        "width": 1440,
+        "httpStatus": 200,
+        "ok": true,
+        "errors": [],
+        "scriptErrors": [],
+        "consoleErrors": [],
+        "failedAssets": [],
+        "abortedAssets": [],
+        "imageCount": 30,
+        "decodedImageCount": 30,
+        "resourcesReady": true,
+        "fontCount": 8,
+        "fontStates": [
+          "loaded"
+        ],
+        "canonical": [
+          "https://luxury-realty-imon.vercel.app/"
+        ],
+        "ogUrl": "https://luxury-realty-imon.vercel.app/",
+        "scrollWidth": 1425,
+        "brokenImages": [],
+        "decodeErrors": []
+      },
+      {
+        "label": "luxury-main-390",
+        "url": "https://luxury-realty-imon.vercel.app/",
+        "finalUrl": "https://luxury-realty-imon.vercel.app/",
+        "width": 390,
+        "httpStatus": 200,
+        "ok": true,
+        "errors": [],
+        "scriptErrors": [],
+        "consoleErrors": [],
+        "failedAssets": [],
+        "abortedAssets": [],
+        "imageCount": 30,
+        "decodedImageCount": 30,
+        "resourcesReady": true,
+        "fontCount": 8,
+        "fontStates": [
+          "loaded"
+        ],
+        "canonical": [
+          "https://luxury-realty-imon.vercel.app/"
+        ],
+        "ogUrl": "https://luxury-realty-imon.vercel.app/",
+        "scrollWidth": 375,
+        "brokenImages": [],
+        "decodeErrors": []
+      },
+      {
+        "label": "atlantis-main-1440",
+        "url": "https://atlantis-imon.vercel.app/",
+        "finalUrl": "https://atlantis-imon.vercel.app/",
+        "width": 1440,
+        "httpStatus": 200,
+        "ok": true,
+        "errors": [],
+        "scriptErrors": [],
+        "consoleErrors": [],
+        "failedAssets": [],
+        "abortedAssets": [],
+        "imageCount": 73,
+        "decodedImageCount": 73,
+        "resourcesReady": true,
+        "fontCount": 5,
+        "fontStates": [
+          "loaded"
+        ],
+        "canonical": [
+          "https://atlantis-imon.vercel.app/"
+        ],
+        "ogUrl": "https://atlantis-imon.vercel.app/",
+        "scrollWidth": 1425,
+        "brokenImages": [],
+        "decodeErrors": []
+      },
+      {
+        "label": "atlantis-main-390",
+        "url": "https://atlantis-imon.vercel.app/",
+        "finalUrl": "https://atlantis-imon.vercel.app/",
+        "width": 390,
+        "httpStatus": 200,
+        "ok": true,
+        "errors": [],
+        "scriptErrors": [],
+        "consoleErrors": [],
+        "failedAssets": [],
+        "abortedAssets": [],
+        "imageCount": 73,
+        "decodedImageCount": 73,
+        "resourcesReady": true,
+        "fontCount": 5,
+        "fontStates": [
+          "loaded"
+        ],
+        "canonical": [
+          "https://atlantis-imon.vercel.app/"
+        ],
+        "ogUrl": "https://atlantis-imon.vercel.app/",
+        "scrollWidth": 375,
+        "brokenImages": [],
+        "decodeErrors": []
+      },
+      {
+        "label": "orla-main-1440",
+        "url": "https://orla-imon.vercel.app/",
+        "finalUrl": "https://orla-imon.vercel.app/",
+        "width": 1440,
+        "httpStatus": 200,
+        "ok": true,
+        "errors": [],
+        "scriptErrors": [],
+        "consoleErrors": [],
+        "failedAssets": [],
+        "abortedAssets": [],
+        "imageCount": 82,
+        "decodedImageCount": 82,
+        "resourcesReady": true,
+        "fontCount": 11,
+        "fontStates": [
+          "loaded"
+        ],
+        "canonical": [
+          "https://orla-imon.vercel.app/"
+        ],
+        "ogUrl": "https://orla-imon.vercel.app/",
+        "scrollWidth": 1425,
+        "brokenImages": [],
+        "decodeErrors": []
+      },
+      {
+        "label": "orla-main-390",
+        "url": "https://orla-imon.vercel.app/",
+        "finalUrl": "https://orla-imon.vercel.app/",
+        "width": 390,
+        "httpStatus": 200,
+        "ok": true,
+        "errors": [],
+        "scriptErrors": [],
+        "consoleErrors": [],
+        "failedAssets": [],
+        "abortedAssets": [],
+        "imageCount": 82,
+        "decodedImageCount": 82,
+        "resourcesReady": true,
+        "fontCount": 11,
+        "fontStates": [
+          "loaded"
+        ],
+        "canonical": [
+          "https://orla-imon.vercel.app/"
+        ],
+        "ogUrl": "https://orla-imon.vercel.app/",
+        "scrollWidth": 375,
+        "brokenImages": [],
+        "decodeErrors": []
+      },
+      {
+        "label": "six-senses-main-1440",
+        "url": "https://six-senses-imon.vercel.app/",
+        "finalUrl": "https://six-senses-imon.vercel.app/",
+        "width": 1440,
+        "httpStatus": 200,
+        "ok": true,
+        "errors": [],
+        "scriptErrors": [],
+        "consoleErrors": [],
+        "failedAssets": [],
+        "abortedAssets": [],
+        "imageCount": 55,
+        "decodedImageCount": 55,
+        "resourcesReady": true,
+        "fontCount": 6,
+        "fontStates": [
+          "loaded"
+        ],
+        "canonical": [
+          "https://six-senses-imon.vercel.app/"
+        ],
+        "ogUrl": "https://six-senses-imon.vercel.app/",
+        "scrollWidth": 1425,
+        "brokenImages": [],
+        "decodeErrors": []
+      },
+      {
+        "label": "six-senses-main-390",
+        "url": "https://six-senses-imon.vercel.app/",
+        "finalUrl": "https://six-senses-imon.vercel.app/",
+        "width": 390,
+        "httpStatus": 200,
+        "ok": true,
+        "errors": [],
+        "scriptErrors": [],
+        "consoleErrors": [],
+        "failedAssets": [],
+        "abortedAssets": [],
+        "imageCount": 55,
+        "decodedImageCount": 55,
+        "resourcesReady": true,
+        "fontCount": 6,
+        "fontStates": [
+          "loaded"
+        ],
+        "canonical": [
+          "https://six-senses-imon.vercel.app/"
+        ],
+        "ogUrl": "https://six-senses-imon.vercel.app/",
+        "scrollWidth": 375,
+        "brokenImages": [],
+        "decodeErrors": []
+      },
+      {
+        "label": "ava-main-1440",
+        "url": "https://ava-at-palm-imon.vercel.app/",
+        "finalUrl": "https://ava-at-palm-imon.vercel.app/",
+        "width": 1440,
+        "httpStatus": 200,
+        "ok": true,
+        "errors": [],
+        "scriptErrors": [],
+        "consoleErrors": [],
+        "failedAssets": [],
+        "abortedAssets": [],
+        "imageCount": 36,
+        "decodedImageCount": 36,
+        "resourcesReady": true,
+        "fontCount": 9,
+        "fontStates": [
+          "loaded"
+        ],
+        "canonical": [
+          "https://ava-at-palm-imon.vercel.app/"
+        ],
+        "ogUrl": "https://ava-at-palm-imon.vercel.app/",
+        "scrollWidth": 1425,
+        "brokenImages": [],
+        "decodeErrors": []
+      },
+      {
+        "label": "ava-main-390",
+        "url": "https://ava-at-palm-imon.vercel.app/",
+        "finalUrl": "https://ava-at-palm-imon.vercel.app/",
+        "width": 390,
+        "httpStatus": 200,
+        "ok": true,
+        "errors": [],
+        "scriptErrors": [],
+        "consoleErrors": [],
+        "failedAssets": [],
+        "abortedAssets": [],
+        "imageCount": 36,
+        "decodedImageCount": 36,
+        "resourcesReady": true,
+        "fontCount": 9,
+        "fontStates": [
+          "loaded"
+        ],
+        "canonical": [
+          "https://ava-at-palm-imon.vercel.app/"
+        ],
+        "ogUrl": "https://ava-at-palm-imon.vercel.app/",
+        "scrollWidth": 375,
+        "brokenImages": [],
+        "decodeErrors": []
+      },
+      {
+        "label": "luxury-catalogue-390",
+        "url": "https://luxury-realty-imon.vercel.app/properties/",
+        "finalUrl": "https://luxury-realty-imon.vercel.app/properties/",
+        "width": 390,
+        "httpStatus": 200,
+        "ok": true,
+        "errors": [],
+        "scriptErrors": [],
+        "consoleErrors": [],
+        "failedAssets": [],
+        "abortedAssets": [],
+        "imageCount": 19,
+        "decodedImageCount": 19,
+        "resourcesReady": true,
+        "fontCount": 8,
+        "fontStates": [
+          "loaded"
+        ],
+        "canonical": [
+          "https://luxury-realty-imon.vercel.app/properties/"
+        ],
+        "ogUrl": "https://luxury-realty-imon.vercel.app/properties/",
+        "scrollWidth": 375,
+        "brokenImages": [],
+        "decodeErrors": []
+      },
+      {
+        "label": "luxury-property-390",
+        "url": "https://luxury-realty-imon.vercel.app/properties/dubai-hills-residence/",
+        "finalUrl": "https://luxury-realty-imon.vercel.app/properties/dubai-hills-residence/",
+        "width": 390,
+        "httpStatus": 200,
+        "ok": true,
+        "errors": [],
+        "scriptErrors": [],
+        "consoleErrors": [],
+        "failedAssets": [],
+        "abortedAssets": [],
+        "imageCount": 22,
+        "decodedImageCount": 22,
+        "resourcesReady": true,
+        "fontCount": 8,
+        "fontStates": [
+          "loaded"
+        ],
+        "canonical": [
+          "https://luxury-realty-imon.vercel.app/properties/dubai-hills-residence/"
+        ],
+        "ogUrl": "https://luxury-realty-imon.vercel.app/properties/dubai-hills-residence/",
+        "scrollWidth": 375,
+        "brokenImages": [],
+        "decodeErrors": []
+      },
+      {
+        "label": "ava-1601-390",
+        "url": "https://ava-at-palm-imon.vercel.app/residences/1601/",
+        "finalUrl": "https://ava-at-palm-imon.vercel.app/residences/1601/",
+        "width": 390,
+        "httpStatus": 200,
+        "ok": true,
+        "errors": [],
+        "scriptErrors": [],
+        "consoleErrors": [],
+        "failedAssets": [],
+        "abortedAssets": [],
+        "imageCount": 5,
+        "decodedImageCount": 5,
+        "resourcesReady": true,
+        "fontCount": 9,
+        "fontStates": [
+          "loaded"
+        ],
+        "canonical": [
+          "https://ava-at-palm-imon.vercel.app/residences/1601/"
+        ],
+        "ogUrl": "https://ava-at-palm-imon.vercel.app/residences/1601/",
+        "scrollWidth": 375,
+        "brokenImages": [],
+        "decodeErrors": []
+      },
+      {
+        "label": "atlantis-3402-390",
+        "url": "https://atlantis-imon.vercel.app/residences/3402/",
+        "finalUrl": "https://atlantis-imon.vercel.app/residences/3402/",
+        "width": 390,
+        "httpStatus": 200,
+        "ok": true,
+        "errors": [],
+        "scriptErrors": [],
+        "consoleErrors": [],
+        "failedAssets": [],
+        "abortedAssets": [],
+        "imageCount": 9,
+        "decodedImageCount": 9,
+        "resourcesReady": true,
+        "fontCount": 5,
+        "fontStates": [
+          "loaded"
+        ],
+        "canonical": [
+          "https://atlantis-imon.vercel.app/residences/3402/"
+        ],
+        "ogUrl": "https://atlantis-imon.vercel.app/residences/3402/",
+        "scrollWidth": 375,
+        "brokenImages": [],
+        "decodeErrors": []
+      }
+    ]
+  },
+  "orlaBuild": {
+    "passed": true,
+    "build": "npm run build",
+    "typecheck": "node node_modules/typescript/bin/tsc --noEmit",
+    "syntax": [
+      "scripts/motion-qa.mjs",
+      "scripts/browser-qa.mjs",
+      "scripts/hotspot-qa.mjs"
+    ],
+    "node": "v24.22.1",
+    "completedAt": "2026-11-01T14:03:08.869Z"
+  },
+  "orlaOwnedServer": {
+    "passed": true,
+    "port": 33183,
+    "pid": 286526,
+    "startedAt": "2026-11-01T14:03:05.613Z",
+    "readyStatus": 200,
+    "foreground": true,
+    "shutdown": {
+      "code": 143,
+      "signal": null
+    },
+    "portClosed": true,
+    "finishedAt": "2026-11-01T14:03:08.864Z"
+  },
+  "loading": {
+    "baseline": {
+      "path": "/workspace/scratch/383c45163391/performance/baseline.json",
+      "host": "imon-workstation",
+      "startedAt": "2026-11-01T12:57:20.735Z",
+      "complete": true,
+      "browserVersion": "145.0.7632.6"
+    },
+    "after": {
+      "path": "/workspace/scratch/383c45163391/performance/after.json",
+      "host": "isolated cloud QA runtime",
+      "startedAt": "2026-11-01T14:06:21.751Z",
+      "complete": true,
+      "browserVersion": "145.0.7632.6"
+    },
+    "methodMatches": true,
+    "matchingSampleKeys": true,
+    "rows": [
+      {
+        "site": "Luxury Realty",
+        "profile": "desktop",
+        "beforeTransferBytes": 1584315,
+        "afterTransferBytes": 1815173,
+        "observedTransferDifferencePercent": 14.571470951168175,
+        "afterDiagnostics": {
+          "complete": true,
+          "httpStatus": 200,
+          "pageErrors": [],
+          "imageFontHttpErrors": [],
+          "allResourceHttpErrors": [],
+          "requestFailures": [],
+          "pendingRequests": [],
+          "zeroSizeEntries": 0,
+          "resourceTimingBufferFull": false,
+          "documentWidth": 1425,
+          "viewportWidth": 1440,
+          "fontStatus": "loaded",
+          "failedFonts": [],
+          "visibleImagesNotReadyAtEnd": []
+        }
+      },
+      {
+        "site": "Luxury Realty",
+        "profile": "touch",
+        "beforeTransferBytes": 1270317,
+        "afterTransferBytes": 1773087,
+        "observedTransferDifferencePercent": 39.57830998089453,
+        "afterDiagnostics": {
+          "complete": true,
+          "httpStatus": 200,
+          "pageErrors": [],
+          "imageFontHttpErrors": [],
+          "allResourceHttpErrors": [],
+          "requestFailures": [],
+          "pendingRequests": [],
+          "zeroSizeEntries": 0,
+          "resourceTimingBufferFull": false,
+          "documentWidth": 390,
+          "viewportWidth": 390,
+          "fontStatus": "loaded",
+          "failedFonts": [],
+          "visibleImagesNotReadyAtEnd": []
+        }
+      },
+      {
+        "site": "Atlantis",
+        "profile": "desktop",
+        "beforeTransferBytes": 4528035,
+        "afterTransferBytes": 3198349,
+        "observedTransferDifferencePercent": -29.365629903479107,
+        "afterDiagnostics": {
+          "complete": true,
+          "httpStatus": 200,
+          "pageErrors": [],
+          "imageFontHttpErrors": [],
+          "allResourceHttpErrors": [],
+          "requestFailures": [],
+          "pendingRequests": [],
+          "zeroSizeEntries": 0,
+          "resourceTimingBufferFull": false,
+          "documentWidth": 1425,
+          "viewportWidth": 1440,
+          "fontStatus": "loaded",
+          "failedFonts": [],
+          "visibleImagesNotReadyAtEnd": []
+        }
+      },
+      {
+        "site": "Atlantis",
+        "profile": "touch",
+        "beforeTransferBytes": 6231953,
+        "afterTransferBytes": 3750307,
+        "observedTransferDifferencePercent": -39.82132086041086,
+        "afterDiagnostics": {
+          "complete": true,
+          "httpStatus": 200,
+          "pageErrors": [],
+          "imageFontHttpErrors": [],
+          "allResourceHttpErrors": [],
+          "requestFailures": [],
+          "pendingRequests": [],
+          "zeroSizeEntries": 0,
+          "resourceTimingBufferFull": false,
+          "documentWidth": 390,
+          "viewportWidth": 390,
+          "fontStatus": "loaded",
+          "failedFonts": [],
+          "visibleImagesNotReadyAtEnd": []
+        }
+      },
+      {
+        "site": "ORLA",
+        "profile": "desktop",
+        "beforeTransferBytes": 4596909,
+        "afterTransferBytes": 2028975,
+        "observedTransferDifferencePercent": -55.86218913622175,
+        "afterDiagnostics": {
+          "complete": true,
+          "httpStatus": 200,
+          "pageErrors": [],
+          "imageFontHttpErrors": [],
+          "allResourceHttpErrors": [],
+          "requestFailures": [],
+          "pendingRequests": [],
+          "zeroSizeEntries": 0,
+          "resourceTimingBufferFull": false,
+          "documentWidth": 1425,
+          "viewportWidth": 1440,
+          "fontStatus": "loaded",
+          "failedFonts": [],
+          "visibleImagesNotReadyAtEnd": []
+        }
+      },
+      {
+        "site": "ORLA",
+        "profile": "touch",
+        "beforeTransferBytes": 4587629,
+        "afterTransferBytes": 2364507,
+        "observedTransferDifferencePercent": -48.45906240456672,
+        "afterDiagnostics": {
+          "complete": true,
+          "httpStatus": 200,
+          "pageErrors": [],
+          "imageFontHttpErrors": [],
+          "allResourceHttpErrors": [],
+          "requestFailures": [],
+          "pendingRequests": [],
+          "zeroSizeEntries": 0,
+          "resourceTimingBufferFull": false,
+          "documentWidth": 390,
+          "viewportWidth": 390,
+          "fontStatus": "loaded",
+          "failedFonts": [],
+          "visibleImagesNotReadyAtEnd": []
+        }
+      },
+      {
+        "site": "Six Senses",
+        "profile": "desktop",
+        "beforeTransferBytes": 6219657,
+        "afterTransferBytes": 4689805,
+        "observedTransferDifferencePercent": -24.597047715010657,
+        "afterDiagnostics": {
+          "complete": true,
+          "httpStatus": 200,
+          "pageErrors": [],
+          "imageFontHttpErrors": [],
+          "allResourceHttpErrors": [],
+          "requestFailures": [],
+          "pendingRequests": [],
+          "zeroSizeEntries": 0,
+          "resourceTimingBufferFull": false,
+          "documentWidth": 1425,
+          "viewportWidth": 1440,
+          "fontStatus": "loaded",
+          "failedFonts": [],
+          "visibleImagesNotReadyAtEnd": []
+        }
+      },
+      {
+        "site": "Six Senses",
+        "profile": "touch",
+        "beforeTransferBytes": 3143789,
+        "afterTransferBytes": 1633651,
+        "observedTransferDifferencePercent": -48.035602898286115,
+        "afterDiagnostics": {
+          "complete": true,
+          "httpStatus": 200,
+          "pageErrors": [],
+          "imageFontHttpErrors": [],
+          "allResourceHttpErrors": [],
+          "requestFailures": [],
+          "pendingRequests": [],
+          "zeroSizeEntries": 0,
+          "resourceTimingBufferFull": false,
+          "documentWidth": 390,
+          "viewportWidth": 390,
+          "fontStatus": "loaded",
+          "failedFonts": [],
+          "visibleImagesNotReadyAtEnd": []
+        }
+      },
+      {
+        "site": "AVA",
+        "profile": "desktop",
+        "beforeTransferBytes": 1321324,
+        "afterTransferBytes": 1322020,
+        "observedTransferDifferencePercent": 0.052674438669098045,
+        "afterDiagnostics": {
+          "complete": true,
+          "httpStatus": 200,
+          "pageErrors": [],
+          "imageFontHttpErrors": [],
+          "allResourceHttpErrors": [],
+          "requestFailures": [],
+          "pendingRequests": [],
+          "zeroSizeEntries": 0,
+          "resourceTimingBufferFull": false,
+          "documentWidth": 1425,
+          "viewportWidth": 1440,
+          "fontStatus": "loaded",
+          "failedFonts": [],
+          "visibleImagesNotReadyAtEnd": []
+        }
+      },
+      {
+        "site": "AVA",
+        "profile": "touch",
+        "beforeTransferBytes": 803032,
+        "afterTransferBytes": 803728,
+        "observedTransferDifferencePercent": 0.08667151495831416,
+        "afterDiagnostics": {
+          "complete": true,
+          "httpStatus": 200,
+          "pageErrors": [],
+          "imageFontHttpErrors": [],
+          "allResourceHttpErrors": [],
+          "requestFailures": [],
+          "pendingRequests": [],
+          "zeroSizeEntries": 0,
+          "resourceTimingBufferFull": false,
+          "documentWidth": 390,
+          "viewportWidth": 390,
+          "fontStatus": "loaded",
+          "failedFonts": [],
+          "visibleImagesNotReadyAtEnd": []
+        }
+      }
+    ],
+    "archive": "loading-data-2026-11-01.zip",
+    "archiveSha256": "dff4446684e6ddc7d6e88749a7867c08e0603c33ec81890a63e40486301be4b4"
+  },
+  "checkerCorrection": "The first cloud run passed all 14 rendering checks; four direct Node HTTP link checks failed with EAI_AGAIN. Link checks now navigate using the same browser network path. The final integrated 14-page and 4-link run passed; no site code changed for this correction.",
+  "scopeLimits": [
+    "No real enquiries submitted by current browser checks. Historical Blob persistence tests are documented separately.",
+    "Baseline and after used different hosts; timings are not a speedup comparison.",
+    "No physical Safari/iPhone, FPS, INP or sustained-animation performance result is claimed."
+  ]
+}

@@ -247,17 +247,18 @@ async function auditProjectLinks() {
   let parser;
   try {
     parser = await context.newPage();
-    await Promise.all(projectLinks.map(async project => {
+    // Use the same browser network path as the rendered-page checks. A direct
+    // Node API request may have different DNS/proxy access in isolated runners.
+    for (const project of projectLinks) {
       const source = `${sites[0].origin}/developments/${project.slug}/`;
       const result = { source, expectedOrigin: project.origin, errors: [] };
       try {
-        const response = await context.request.get(source, { timeout: 18000, maxRedirects: 5 });
-        result.httpStatus = response.status();
+        const response = await parser.goto(source, { waitUntil: 'domcontentloaded', timeout: 18000 });
+        result.httpStatus = response?.status() ?? null;
+        result.finalUrl = parser.url();
         if (result.httpStatus !== 200) result.errors.push(`Expected HTTP 200, received ${result.httpStatus}`);
-        const html = await response.text();
-        const links = await parser.evaluate(({ html, source }) => [...new DOMParser().parseFromString(html, 'text/html').querySelectorAll('a[href]')].map(link => {
-          try { return new URL(link.getAttribute('href'), source).href; } catch { return null; }
-        }).filter(Boolean), { html, source });
+        if (new URL(result.finalUrl).origin !== sites[0].origin || normalPath(new URL(result.finalUrl).pathname) !== normalPath(new URL(source).pathname)) result.errors.push(`Unexpected project-page redirect: ${result.finalUrl}`);
+        const links = await parser.locator('a[href]').evaluateAll(nodes => nodes.map(link => link.href));
         result.projectLinks = links.filter(href => new URL(href).hostname.endsWith('.vercel.app') && new URL(href).origin !== sites[0].origin);
         if (!result.projectLinks.some(href => new URL(href).origin === project.origin && new URL(href).pathname === '/')) result.errors.push(`No external project CTA to ${project.origin}/`);
         const allowed = new Set(sites.map(site => site.origin));
@@ -268,7 +269,7 @@ async function auditProjectLinks() {
       result.ok = result.errors.length === 0;
       report.projectLinks.push(result);
       console.log(`${result.ok ? 'PASS' : 'FAIL'} Luxury link: ${project.slug}`);
-    }));
+    }
   } finally {
     await parser?.close().catch(() => {});
   }

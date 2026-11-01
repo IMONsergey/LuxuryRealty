@@ -28,7 +28,7 @@ Recovered the complete original implementation from `/workspace/scratch/6ba048c6
 
 The recovery handoff called for `npm ci`, `npm run build`, `npm run check`, `npm test`, and `npm run test:browser` on the server; its completed results are recorded under Publication verification. QA starts/stops its own development process and writes `artifacts/browser-qa.json`.
 
-The recovery's shared backend, private Blob configuration and real deployed receipt checks were handled by root as recorded in the historical release entries below. Keep source assets and fonts intact. Do not publish old generated `dist` or `.vercel` directories from the recovered source. The current motion update has its own unpublished status at the end of this file.
+The recovery's shared backend, private Blob configuration and real deployed receipt checks were handled by root as recorded in the historical release entries below. Keep source assets and fonts intact. Do not publish old generated `dist` or `.vercel` directories from the recovered source. The current motion release state is recorded at the end of this file.
 
 ## Limits
 
@@ -76,6 +76,14 @@ The release owner reported final authorized server job `20261101T124548-54c1d23d
 
 Luxury's suite is Chromium-only. It covers four home widths, catalogue/filter/return state, the decoded rapid-navigation gallery, representative routes, mocked enquiry state/identity handling, rail endpoints, service changes, desktop/mobile parallax cleanup and live reduced motion. Exact scope and generated evidence paths are in `docs/MOTION-QA.md`. All fresh Luxury hero screenshots supplied for the final review were visually accepted by root.
 
-**Current status: verified on the server, not yet published.** Root owns the final commit/push, deployment and post-deployment verification. The earlier successful live/API verification above belongs to the prior release; the final motion browser run used mocked enquiries and did not repeat live storage checks. No fresh WebKit/Safari, physical-touch, FPS/memory or Core Web Vitals result is claimed.
+The handoff originally stopped before publication. This has now been reconciled against GitHub and Vercel: motion source commit `8c5b3771427fdb5304050692f521af9097af3f4d` is published at `https://luxury-realty-imon.vercel.app/`, with production deployment `dpl_ABeRVVqxDiYu2RpMZMfG8usXrrR7` confirmed READY on 2026-11-01. The earlier successful live/API verification above belongs to the prior release; the motion browser run used mocked enquiries and did not repeat live storage checks. No physical-touch, FPS/memory or Core Web Vitals result is claimed.
 
-For this final documentation handoff, transfer only `CHECKPOINT.md` and `docs/MOTION-QA.md`. Preserve the server's applied hero assets, `src/data/assets.json` and `docs/hero-image-source.md`.
+The restricted two-file transfer instruction belonged to the completed staging handoff. The published repository already includes the restored hero assets, applied `src/data/assets.json` and `docs/hero-image-source.md`; preserve these records. Current cross-project verification and continuation notes are in `docs/MOTION-RELEASE-2026-11-01.md`.
+
+## Completed motion release continuation, 2026-11-01
+
+All five final UI versions are published READY. The final production run at 14:08:49-14:09:09 UTC passed 14 page/viewport checks and all four cross-project links with no attempted enquiry, page errors, console errors, missing resources or overflow. A separate passive loading run completed all ten profiles; its byte results and cross-host timing limits are in `docs/LOADING-2026-11-01.md`.
+
+Atlantis now preserves the displayed image through slow/failed loads and rejects stale viewer requests. ORLA now has the complete authored-motion/responsive-media release plus bounded architectural callouts, deterministic interrupted-gallery settlement and hero title recovery across desktop reentry. Exact commits, READY deployments, local and historical QA evidence, original media provenance and commercial limits are consolidated in `docs/MOTION-RELEASE-2026-11-01.md` and `docs/verification/motion-2026-11-01.json`.
+
+The release checker uses browser navigation for project-link checks, avoiding direct Node DNS assumptions in isolated runners. This report/checker update does not change Luxury application code, assets, dependencies or enquiry handling. The previous real Blob tests are historical and were not repeated for these front-end changes.

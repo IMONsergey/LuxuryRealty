@@ -6,7 +6,7 @@ This change preserves the existing Figma-derived composition, typography, photog
 
 ## Final verification, 2026-11-01
 
-The release owner confirmed the final authorized server runs below. This motion update is verified in the server checkout and is **not yet published** at this checkpoint.
+The release owner confirmed the final authorized server runs below. The motion update was subsequently published as source commit `8c5b3771427fdb5304050692f521af9097af3f4d`. Vercel production deployment `dpl_ABeRVVqxDiYu2RpMZMfG8usXrrR7` was confirmed READY at `https://luxury-realty-imon.vercel.app/` on 2026-11-01. The later cross-project production checks are recorded separately in [the motion release report](MOTION-RELEASE-2026-11-01.md).
 
 | Evidence | Result |
 | --- | --- |
@@ -67,4 +67,4 @@ The checklist below remains a manual acceptance guide. A passing existing suite 
 
 ## Verification boundary
 
-Source inspection, QA-script syntax and diff checks were performed in the staging snapshot; final typecheck/build/Chromium results and hero visual review were supplied by the release owner as recorded above. WebKit/Safari, real touch/pinch and pointer cancellation, cold/throttled image failures, bfcache behavior, FPS/memory profiling and Core Web Vitals are outside the reported final run. The image audit forces eager loading, so its success is not evidence of loading performance. Commit/push, deployment and production verification of this motion update remain the release owner's next steps.
+Source inspection, QA-script syntax and diff checks were performed in the staging snapshot; final typecheck/build/Chromium results and hero visual review were supplied by the release owner as recorded above. WebKit/Safari, real touch/pinch and pointer cancellation, cold/throttled image failures, bfcache behavior, FPS/memory profiling and Core Web Vitals are outside that server run. The image audit forces eager loading, so its success is not evidence of loading performance. Publication is complete; see the linked motion release report for the separate production and loading checks and their limits.
