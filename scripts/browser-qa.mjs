@@ -7,12 +7,20 @@ import path from 'node:path';
 
 const require=createRequire(process.env.PLAYWRIGHT_PACKAGE || '/home/sergey/.local/share/imon-toolkit/node/node_modules/playwright/package.json');
 const {chromium}=require('playwright');
-const port=4312,base=`http://127.0.0.1:${port}`,artifacts=path.resolve('artifacts');
+const port=Number(process.env.QA_PORT||14313),base=process.env.BASE_URL||`http://127.0.0.1:${port}`,artifacts=path.resolve(process.env.QA_OUTPUT_DIR||'artifacts');
 await mkdir(artifacts,{recursive:true});
 const report={project:'luxury-realty',startedAt:new Date().toISOString(),widths:[],checks:[],pageErrors:[],assetFailures:[],mockedRequests:[],ok:false};
 let serverOutput='',browser,releaseHeldRequest;
-const server=spawn(process.execPath,['node_modules/astro/bin/astro.mjs','dev','--host','127.0.0.1','--port',String(port)],{cwd:process.cwd(),env:{...process.env,ASTRO_TELEMETRY_DISABLED:'1'},stdio:['ignore','pipe','pipe'],detached:true});
-server.stdout.on('data',chunk=>serverOutput+=chunk.toString());server.stderr.on('data',chunk=>serverOutput+=chunk.toString());
+const server=process.env.BASE_URL?null:spawn(process.execPath,['node_modules/astro/bin/astro.mjs','dev','--host','127.0.0.1','--port',String(port),'--ignore-lock'],{cwd:process.cwd(),env:{...process.env,ASTRO_TELEMETRY_DISABLED:'1'},stdio:['ignore','pipe','pipe']});
+server?.stdout.on('data',chunk=>serverOutput+=chunk.toString());server?.stderr.on('data',chunk=>serverOutput+=chunk.toString());
+let cleanup;
+function stopOwnedProcesses(){
+ return cleanup??=(async()=>{
+  releaseHeldRequest?.();await browser?.close();
+  if(server&&server.exitCode===null){server.kill('SIGTERM');await Promise.race([new Promise(resolve=>server.once('exit',resolve)),delay(1500)]);if(server.exitCode===null)server.kill('SIGKILL');}
+ })();
+}
+for(const [signal,code] of [['SIGINT',130],['SIGTERM',143]])process.once(signal,()=>{void stopOwnedProcesses().finally(()=>process.exit(code));});
 const check=name=>report.checks.push(name);
 function semanticURL(value){
  const url=new URL(String(value),base);
@@ -27,7 +35,7 @@ function observe(page){
 }
 async function ready(){
  const until=Date.now()+45000;
- while(Date.now()<until){if(server.exitCode!==null)throw new Error(`Astro exited ${server.exitCode}: ${serverOutput.slice(-6000)}`);try{if((await fetch(base)).ok)return;}catch{}await delay(250);}
+ while(Date.now()<until){if(server&&server.exitCode!==null)throw new Error(`Astro exited ${server.exitCode}: ${serverOutput.slice(-6000)}`);try{if((await fetch(base)).ok)return;}catch{}await delay(250);}
  throw new Error(`Astro did not start: ${serverOutput.slice(-6000)}`);
 }
 async function settle(page){
@@ -53,7 +61,7 @@ async function focused(locator){await locator.page().waitForFunction(selector=>d
 async function fillForm(form){await form.locator('[name=name]').fill('Website Verification');await form.locator('[name=email]').fill('qa@example.invalid');await form.locator('[name=phone]').fill('+10000000000');await form.locator('[name=message]').fill('Synthetic UI verification. No real enquiry is sent.');await form.locator('[name=consent]').check();await delay(850);}
 
 try{
- await ready();browser=await chromium.launch({headless:true});
+ await ready();browser=await chromium.launch({headless:true,handleSIGINT:false,handleSIGTERM:false});
  const context=await browser.newContext({viewport:{width:1440,height:900},reducedMotion:'reduce'});
  const page=await context.newPage();observe(page);
  for(const width of [1440,768,390,320]){
@@ -154,6 +162,6 @@ try{
  assert.deepEqual(report.pageErrors,[]);assert.deepEqual(report.assetFailures,[]);report.ok=true;
 }catch(error){report.error=error.stack||String(error);process.exitCode=1;}
 finally{
- releaseHeldRequest?.();if(browser)await browser.close();try{process.kill(-server.pid,'SIGTERM');}catch{}await delay(300);if(server.exitCode===null){try{process.kill(-server.pid,'SIGKILL');}catch{}}
+ await stopOwnedProcesses();
  report.finishedAt=new Date().toISOString();await writeFile(path.join(artifacts,'browser-qa.json'),JSON.stringify(report,null,2));await writeFile(path.join(artifacts,'dev-server.log'),serverOutput);console.log(JSON.stringify(report,null,2));
 }

@@ -7,7 +7,7 @@ import Lettering from './Lettering.astro';
  <div class="footer-back"><Picture name="imgOrlaProductFilmHr1000123233" /></div>
  <div class="container footer-main">
   <div class="footer-brand"><a href="/" aria-label="Luxury Realty home"><Picture name="imgGroup13" /></a><p>Elegant<br/>Luxury properties<br/>in the heart</p><Lettering name="of-dubai-gold" text="of Dubai" /></div>
-  <dl class="footer-contacts"><dt>office</dt><dd><a href={'tel:'+site.phoneHref}>{site.phone}</a></dd><dt>e-mail</dt><dd><a href={'mailto:'+site.email}>{site.email}</a></dd><dt>address</dt><dd>{site.address}</dd></dl>
+  <dl class="footer-contacts"><dt>office</dt><dd><a href={'tel:'+site.phoneHref}>{site.phone}</a></dd><dt>e-mail</dt><dd><a href={'mailto:'+site.email}>{site.email.split('@')[0]}@<wbr /><span class="email-domain">{site.email.split('@')[1]}</span></a></dd><dt>address</dt><dd>{site.address}</dd></dl>
   <nav class="footer-nav" aria-label="Footer">{navigation.map(item=><a href={item.href}>{item.label}</a>)}<button type="button" data-enquiry="Sell a property">Sell a property</button><a href="/developments/">Special projects</a></nav>
  </div>
  <div class="container footer-bottom"><p>Copyright © {new Date().getFullYear()} Luxury Realty</p><a href="/privacy/">Privacy policy</a><p>Luxury Realty Real Estate LLC</p></div>

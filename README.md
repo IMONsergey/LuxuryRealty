@@ -22,9 +22,11 @@ npm test
 npm run test:browser
 ```
 
-The browser command starts and stops its own local Astro process on port 4312 and uses the shared server Playwright installation. `PLAYWRIGHT_PACKAGE` can override the path to its package.json. The default is `/home/sergey/.local/share/imon-toolkit/node/node_modules/playwright/package.json`.
+The browser command starts and stops its own local Astro process on `QA_PORT` (default `14313`) and uses the shared server Playwright installation. `BASE_URL` can target an already running local preview without spawning a server. `PLAYWRIGHT_PACKAGE` can override the path to its package.json. The default is `/home/sergey/.local/share/imon-toolkit/node/node_modules/playwright/package.json`.
 
 Browser QA covers original image loading at 1440/768/390/320, menu and dialog focus, catalogue filters/sorting/empty states, property return with preserved query, gallery controls, enquiry retry/idempotency/field errors, every page template, cross-project links and normal/reduced motion. Enquiry responses are intercepted in this UI test; no real enquiry is sent. Its report and screenshots are written to the ignored `artifacts/` directory.
+
+The fresh visual audit uses `scripts/visual-audit.mjs` against a completed production build. Its default route matrix is 1440/390, with `AUDIT_WIDTHS` and `AUDIT_ROUTES` for targeted responsive captures, `AUDIT_ENGINE=webkit` for the second engine, `AUDIT_ONLY=boundaries` for native modal-scroll/close and narrow price-width checks, `AUDIT_ONLY=hero-media` for selected source detail, and `AUDIT_ONLY=footer` for text bounds. `AUDIT_RESIZE_READING=1` also checks preservation of the visible section across desktop/mobile changes. Use one engine at a time. Methods, measured findings, retained raw evidence and selected captures are documented in `docs/VISUAL-AUDIT-2026-11-01.md`.
 
 ## Enquiries
 

@@ -1,4 +1,5 @@
 ---
+import Icon from './Icon.astro';
 interface Props {context?:string;id?:string;compact?:boolean;}
 const {context='Private consultation',id='enquiry',compact=false}=Astro.props;
 ---
@@ -12,5 +13,5 @@ const {context='Private consultation',id='enquiry',compact=false}=Astro.props;
  <div class="honeypot" aria-hidden="true"><label>Website<input name="website" tabindex="-1" autocomplete="off" /></label></div>
  <label class="consent"><input type="checkbox" name="consent" required /><span>I agree to the processing of my enquiry as described in the <a href="/privacy/">privacy policy</a>.</span></label>
  <span class="field-error" data-error-for="consent"></span>
- <div class="form-actions"><button class="button button--solid" type="submit"><span data-submit-label>Send enquiry</span><span aria-hidden="true">→</span></button><p class="form-status" role="status" aria-live="polite"></p></div>
+ <div class="form-actions"><button class="button button--solid" type="submit"><span data-submit-label>Send enquiry</span><span aria-hidden="true"><Icon name="arrow-right" /></span></button><p class="form-status" role="status" aria-live="polite"></p></div>
 </form>

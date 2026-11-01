@@ -1,4 +1,5 @@
 ---
+import Icon from '../../components/Icon.astro';
 import Layout from '../../layouts/Layout.astro';
 import Picture from '../../components/Picture.astro';
 import Button from '../../components/Button.astro';
@@ -6,6 +7,12 @@ import PropertyCard from '../../components/PropertyCard.astro';
 import {properties,asset,price,site} from '../../data/site';
 export function getStaticPaths(){return properties.map(property=>({params:{slug:property.id},props:{property}}));}
 const {property:p}=Astro.props;
+const heroImage=asset('property-imgRectangle58');
+const heroWidth=heroImage.renderWidth||heroImage.width,heroHeight=heroImage.renderHeight||heroImage.height;
+if(!heroWidth||!heroHeight)throw new Error('Missing property hero image dimensions');
+const heroRatio=heroWidth/heroHeight;
+// Select enough original pixels for the fixed-height cover crop, including mobile.
+const heroSizes=`(max-width: 700px) max(100vw, ${(540*heroRatio).toFixed(2)}px), max(100vw, ${(668*heroRatio).toFixed(2)}px)`;
 const gallery=[
  {src:asset('property-imgRectangle58').src,alt:'A spacious contemporary living room'},
  {src:asset('property-imgRectangle60').src,alt:'A quiet interior with sculptural arches'},
@@ -19,20 +26,20 @@ const features=[
 ];
 ---
 <Layout title={p.subtitle} description={'Explore '+p.subtitle.toLowerCase()+'. Request the current details or arrange a private viewing.'} image={gallery[0].src} bodyClass="property-page">
- <section class="property-hero" aria-label="Residence photography"><Picture name="property-imgRectangle58" alt={gallery[0].alt} eager /><div class="property-hero-shade"></div><div class="container property-hero-actions"><button type="button" class="pill-button" data-gallery={JSON.stringify(gallery)} data-gallery-title={p.title}>View all {gallery.length} photos <span aria-hidden="true">↗</span></button><button type="button" class="pill-button pill-button--dark" data-share>Share <span aria-hidden="true">↗</span></button></div></section>
+ <section class="property-hero" aria-label="Residence photography"><Picture name="property-imgRectangle58" alt={gallery[0].alt} eager sizes={heroSizes} /><div class="property-hero-shade"></div><div class="container property-hero-actions"><button type="button" class="pill-button" data-gallery={JSON.stringify(gallery)} data-gallery-title={p.title}>View all {gallery.length} photos <span aria-hidden="true"><Icon name="arrow-up-right" size={20} /></span></button><button type="button" class="pill-button pill-button--dark" data-share>Share <span aria-hidden="true"><Icon name="arrow-up-right" size={20} /></span></button></div></section>
  <div class="container property-content">
   <article class="property-main">
-   <a href="/properties/" class="back-link">← Back to the collection</a><p class="eyebrow property-area">{p.location}, Dubai</p><h1>{p.subtitle}</h1>
+   <a href="/properties/" class="back-link"><Icon name="arrow-left" /> Back to the collection</a><p class="eyebrow property-area">{p.location}, Dubai</p><h1>{p.subtitle}</h1>
    <ul class="property-pills"><li>{p.type}</li><li>{p.bedrooms} beds</li><li>{new Intl.NumberFormat('en-US').format(p.area)} sq.ft.</li></ul>
    <p class="property-lead">A considered home with generous living spaces, a private outlook and room for the everyday moments that matter. Explore the residence, review the available information and arrange a closer look.</p>
-   <div class="property-gallery-grid">{gallery.slice(1,3).map((photo,i)=><button type="button" data-gallery={JSON.stringify(gallery)} data-gallery-index={i+1} data-gallery-title={p.title} aria-label={'Open photograph: '+photo.alt}><img src={photo.src} alt={photo.alt} loading="lazy" width="800" height="700" /><span aria-hidden="true">↗</span></button>)}</div>
+   <div class="property-gallery-grid">{gallery.slice(1,3).map((photo,i)=><button type="button" data-gallery={JSON.stringify(gallery)} data-gallery-index={i+1} data-gallery-title={p.title} aria-label={'Open photograph: '+photo.alt}><img src={photo.src} alt={photo.alt} loading="lazy" width="800" height="700" /><span aria-hidden="true"><Icon name="arrow-up-right" size={20} /></span></button>)}</div>
    <section class="property-description" aria-labelledby="description-title"><h2 id="description-title">About the property</h2><p>The residence brings together comfortable living areas, places to gather and a connection to the outdoors. Its scale gives you the opportunity to imagine your own way of living, from quiet mornings to evenings with guests.</p><p>Request the latest property particulars, an available floor plan or a private viewing. The advisor can confirm the current price, availability, exact specification and what is included.</p></section>
    <div class="brochure-banner"><Picture name="property-imgRectangle65" /><h3>Every detail, considered.</h3><Button context={'Brochure request: '+p.subtitle}>Request a brochure</Button></div>
    <section class="property-features" aria-labelledby="features-title"><h2 id="features-title">Features & amenities</h2><div class="features-grid">{features.map(([name,icon])=><div><Picture name={icon} /><span>{name}</span></div>)}</div><p class="collection-note">Please confirm the features included with the specific residence when enquiring.</p></section>
-   <button class="property-wide-image" type="button" data-gallery={JSON.stringify(gallery)} data-gallery-index="3" data-gallery-title={p.title} aria-label="View the private terrace"><Picture name="property-imgRectangle63" alt="Private terrace and swimming pool" /><span>Explore the residence <span aria-hidden="true">↗</span></span></button>
-   <section class="property-location-block"><div class="section-heading"><h2>Location</h2><p>Dubai Hills Estate, Dubai</p></div><a class="property-map" href="https://www.google.com/maps/search/?api=1&query=Dubai+Hills+Estate+Dubai" target="_blank" rel="noopener noreferrer" aria-label="Explore Dubai Hills Estate in Google Maps"><Picture name="property-imgRectangle68" alt="Map of Dubai Hills and the surrounding area" /><span class="map-link">Open interactive map <span aria-hidden="true">↗</span></span></a></section>
+   <button class="property-wide-image" type="button" data-gallery={JSON.stringify(gallery)} data-gallery-index="3" data-gallery-title={p.title} aria-label="View the private terrace"><Picture name="property-imgRectangle63" alt="Private terrace and swimming pool" /><span>Explore the residence <span aria-hidden="true"><Icon name="arrow-up-right" size={20} /></span></span></button>
+   <section class="property-location-block"><div class="section-heading"><h2>Location</h2><p>Dubai Hills Estate, Dubai</p></div><a class="property-map" href="https://www.google.com/maps/search/?api=1&query=Dubai+Hills+Estate+Dubai" target="_blank" rel="noopener noreferrer" aria-label="Explore Dubai Hills Estate in Google Maps"><Picture name="property-imgRectangle68" alt="Map of Dubai Hills and the surrounding area" /><span class="map-link">Open interactive map <span aria-hidden="true"><Icon name="arrow-up-right" size={20} /></span></span></a></section>
   </article>
-  <aside class="property-advisor"><div class="advisor-sticky"><p class="eyebrow">Price in the supplied collection</p><p class="advisor-price">{price(p.price)}</p><p class="advisor-note">Current price and availability on enquiry</p><div class="advisor-profile"><Picture name="property-imgImage" alt="Luxury Realty property advisor" sizes="54px" /><div><h2>Luxury Realty</h2><p>Your property advisor</p></div></div><Button context={'Private viewing: '+p.subtitle}>Arrange a viewing</Button><a class="button button--outline" href={'tel:'+site.phoneHref}><span>Call the team</span><span aria-hidden="true">↗</span></a><p class="advisor-disclaimer">Share your preferred date and any questions. A viewing is confirmed separately.</p></div></aside>
+  <aside class="property-advisor"><div class="advisor-sticky"><p class="eyebrow">Price in the supplied collection</p><p class="advisor-price">{price(p.price)}</p><p class="advisor-note">Current price and availability on enquiry</p><div class="advisor-profile"><Picture name="property-imgImage" alt="Luxury Realty property advisor" sizes="54px" /><div><h2>Luxury Realty</h2><p>Your property advisor</p></div></div><Button context={'Private viewing: '+p.subtitle}>Arrange a viewing</Button><a class="button button--outline" href={'tel:'+site.phoneHref}><span>Call the team</span><span aria-hidden="true"><Icon name="arrow-up-right" size={20} /></span></a><p class="advisor-disclaimer">Share your preferred date and any questions. A viewing is confirmed separately.</p></div></aside>
  </div>
- <section class="container related-properties section-space"><div class="section-heading"><h2>Discover more</h2><a class="text-link" href="/properties/">View the collection →</a></div><div class="related-grid">{properties.filter(other=>other.id!==p.id).slice(0,3).map(property=><PropertyCard property={property} />)}</div></section>
+ <section class="container related-properties section-space"><div class="section-heading"><h2>Discover more</h2><a class="text-link" href="/properties/">View the collection <Icon name="arrow-right" /></a></div><div class="related-grid">{properties.filter(other=>other.id!==p.id).slice(0,3).map(property=><PropertyCard property={property} />)}</div></section>
 </Layout>

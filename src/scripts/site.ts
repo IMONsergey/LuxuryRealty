@@ -350,7 +350,54 @@ const header=$('.site-header');let headerPending=false;
 function updateHeader(){header?.classList.toggle('is-scrolled',scrollY>80);headerPending=false;}
 window.addEventListener('scroll',()=>{if(!headerPending){requestAnimationFrame(updateHeader);headerPending=true;}},{passive:true});updateHeader();
 window.addEventListener('pageshow',updateHeader);
+// Removing the last ScrollTrigger can clear its remembered scroll in WebKit.
+// One preference change can dispatch more than one matchMedia transaction;
+// preserve the reading section around every cleanup/refresh transaction.
+const motionLifecycle=gsap as typeof gsap & {
+ addEventListener(type:'matchMediaInit'|'matchMedia',listener:()=>void):void;
+};
+type ReadingPosition={anchor:HTMLElement|null;top:number;x:number;y:number;width:number;height:number};
+function readReadingPosition():ReadingPosition{
+ const line=Math.min(innerHeight*.35,240);
+ const anchor=$$<HTMLElement>('main>section,main>article,main>.property-content,.site-footer').find(element=>{
+  const rect=element.getBoundingClientRect();return rect.top<=line&&rect.bottom>line;
+ })||null;
+ return {anchor,top:anchor?.getBoundingClientRect().top||0,x:scrollX,y:scrollY,width:innerWidth,height:innerHeight};
+}
+let stableReadingPosition=readReadingPosition();
+let mediaPosition:ReadingPosition|null=null;
+let readingFrame=0;
+window.addEventListener('scroll',()=>{
+ if(readingFrame||mediaPosition)return;
+ readingFrame=requestAnimationFrame(()=>{
+  readingFrame=0;
+  // A responsive reflow can clamp scroll before its media-query event.
+  if(!mediaPosition&&stableReadingPosition.width===innerWidth&&stableReadingPosition.height===innerHeight)stableReadingPosition=readReadingPosition();
+ });
+},{passive:true});
+window.addEventListener('resize',()=>{
+ cancelAnimationFrame(readingFrame);
+ readingFrame=requestAnimationFrame(()=>{readingFrame=0;if(!mediaPosition)stableReadingPosition=readReadingPosition();});
+},{passive:true});
+motionLifecycle.addEventListener('matchMediaInit',()=>{
+ cancelAnimationFrame(readingFrame);readingFrame=0;
+ mediaPosition=stableReadingPosition.width!==innerWidth||stableReadingPosition.height!==innerHeight?stableReadingPosition:readReadingPosition();
+});
 gsap.registerPlugin(ScrollTrigger);
+motionLifecycle.addEventListener('matchMedia',()=>{
+ const saved=mediaPosition;if(!saved)return;
+ const resized=saved.width!==innerWidth||saved.height!==innerHeight;
+ let top=saved.y;
+ if(saved.y<1)top=0;
+ else if(saved.anchor?.isConnected){
+  const rect=saved.anchor.getBoundingClientRect();
+  const readingTop=resized?Math.max(saved.top,Math.min(0,Math.min(innerHeight*.35,240)-rect.height)):saved.top;
+  top=scrollY+rect.top-readingTop;
+ }
+ window.scrollTo({left:saved.x,top:Math.max(0,top),behavior:'instant'});
+ ScrollTrigger.update();
+ mediaPosition=null;stableReadingPosition=readReadingPosition();
+});
 const motion=gsap.matchMedia();
 motion.add('(prefers-reduced-motion: no-preference)',()=>{
  const title=$('[data-hero-title]');
@@ -372,7 +419,11 @@ motion.add('(min-width:1000px) and (hover:hover) and (pointer:fine) and (prefers
 const services=$$<HTMLDetailsElement>('.service');
 const serviceStates=new Map<HTMLDetailsElement,{open:boolean;animation:Animation|null}>();
 let refreshFrame=0;
-function refreshMotion(){if(!refreshFrame)refreshFrame=requestAnimationFrame(()=>{refreshFrame=0;ScrollTrigger.refresh();});}
+function refreshMotion(){if(!refreshFrame)refreshFrame=requestAnimationFrame(()=>{
+ refreshFrame=0;
+ // An empty refresh has no layout to update and can clear WebKit's scroll.
+ if(ScrollTrigger.getAll().length)ScrollTrigger.refresh();
+});}
 function setService(service:HTMLDetailsElement,open:boolean){
  const state=serviceStates.get(service)!;const summary=$<HTMLElement>('summary',service)!;
  const currentHeight=service.getBoundingClientRect().height;

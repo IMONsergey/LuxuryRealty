@@ -1,0 +1,1984 @@
+{
+  "project": "Luxury Realty",
+  "audit": "Fresh visual and interaction audit v2, 2026-11-01",
+  "baseHead": "97e8b25fd99362d648728f7952592339c132123c",
+  "finalLocalSourceFingerprint": "890d5fd0fd095a8506ee150e87ebf146ead5fab5766e2fd42a76ab22b062453c",
+  "finalIndexHtmlSha256": "7942c62f54051dd17914e1b801a9d2208dd5d885fbfd69ec58dd53d61e0ec10f",
+  "sourceManifest": "luxury-source-manifest.json",
+  "selectedCaptureManifest": "luxury-selected-captures.json",
+  "provenance": "Broad route captures precede late scoped corrections. Each report identifies its actual source/build. Changed price/modal/media/footer regions were retested separately; the complete 46-page matrix was not silently relabelled as a rerun of the final patch. Final functional Chromium, final WebKit states/continuity and both-engine footer checks use the frozen source. Publication is owner-controlled.",
+  "environment": {
+    "node": "v24.22.1",
+    "playwright": "1.58.2",
+    "chromium": "145.0.7632.6",
+    "webkit": "26.0",
+    "deviceScaleFactor": 1,
+    "execution": "Cloud Linux local generated production output, engines run sequentially",
+    "realDeviceSafari": false,
+    "realDeviceFPS": false,
+    "liveEnquiries": false
+  },
+  "routes": [
+    "/",
+    "/contacts/",
+    "/developments/",
+    "/developments/atlantis/",
+    "/developments/ava-at-palm/",
+    "/developments/orla/",
+    "/developments/six-senses/",
+    "/insights/",
+    "/insights/a-home-by-the-water/",
+    "/insights/architecture-on-palm-jumeirah/",
+    "/insights/spaces-worth-living-in/",
+    "/insights/the-art-of-a-private-viewing/",
+    "/privacy/",
+    "/properties/",
+    "/properties/dubai-hills-courtyard/",
+    "/properties/dubai-hills-garden/",
+    "/properties/dubai-hills-panorama/",
+    "/properties/dubai-hills-residence/",
+    "/properties/dubai-hills-retreat/",
+    "/properties/dubai-hills-skyline/",
+    "/properties/dubai-hills-terrace/",
+    "/properties/dubai-hills-waterfront/",
+    "/missing-page-for-visual-audit/"
+  ],
+  "fullRouteCases": [
+    {
+      "route": "/",
+      "width": 1440,
+      "status": 200,
+      "passed": true,
+      "documentWidth": 1425,
+      "textGlyphs": 0,
+      "pseudoGlyphs": 0,
+      "brokenImages": 0,
+      "screenshot": "artifacts/pixel-audit-20261101-v2/after-routes-final/chromium/home-1440.png",
+      "reusedFrom": null
+    },
+    {
+      "route": "/contacts/",
+      "width": 1440,
+      "status": 200,
+      "passed": true,
+      "documentWidth": 1425,
+      "textGlyphs": 0,
+      "pseudoGlyphs": 0,
+      "brokenImages": 0,
+      "screenshot": "artifacts/pixel-audit-20261101-v2/after/chromium/contacts-1440.png",
+      "reusedFrom": "artifacts/pixel-audit-20261101-v2/after/chromium/report.json"
+    },
+    {
+      "route": "/developments/",
+      "width": 1440,
+      "status": 200,
+      "passed": true,
+      "documentWidth": 1425,
+      "textGlyphs": 0,
+      "pseudoGlyphs": 0,
+      "brokenImages": 0,
+      "screenshot": "artifacts/pixel-audit-20261101-v2/after/chromium/developments-1440.png",
+      "reusedFrom": "artifacts/pixel-audit-20261101-v2/after/chromium/report.json"
+    },
+    {
+      "route": "/developments/atlantis/",
+      "width": 1440,
+      "status": 200,
+      "passed": true,
+      "documentWidth": 1425,
+      "textGlyphs": 0,
+      "pseudoGlyphs": 0,
+      "brokenImages": 0,
+      "screenshot": "artifacts/pixel-audit-20261101-v2/after/chromium/developments-atlantis-1440.png",
+      "reusedFrom": "artifacts/pixel-audit-20261101-v2/after/chromium/report.json"
+    },
+    {
+      "route": "/developments/ava-at-palm/",
+      "width": 1440,
+      "status": 200,
+      "passed": true,
+      "documentWidth": 1425,
+      "textGlyphs": 0,
+      "pseudoGlyphs": 0,
+      "brokenImages": 0,
+      "screenshot": "artifacts/pixel-audit-20261101-v2/after/chromium/developments-ava-at-palm-1440.png",
+      "reusedFrom": "artifacts/pixel-audit-20261101-v2/after/chromium/report.json"
+    },
+    {
+      "route": "/developments/orla/",
+      "width": 1440,
+      "status": 200,
+      "passed": true,
+      "documentWidth": 1425,
+      "textGlyphs": 0,
+      "pseudoGlyphs": 0,
+      "brokenImages": 0,
+      "screenshot": "artifacts/pixel-audit-20261101-v2/after/chromium/developments-orla-1440.png",
+      "reusedFrom": "artifacts/pixel-audit-20261101-v2/after/chromium/report.json"
+    },
+    {
+      "route": "/developments/six-senses/",
+      "width": 1440,
+      "status": 200,
+      "passed": true,
+      "documentWidth": 1425,
+      "textGlyphs": 0,
+      "pseudoGlyphs": 0,
+      "brokenImages": 0,
+      "screenshot": "artifacts/pixel-audit-20261101-v2/after/chromium/developments-six-senses-1440.png",
+      "reusedFrom": "artifacts/pixel-audit-20261101-v2/after/chromium/report.json"
+    },
+    {
+      "route": "/insights/",
+      "width": 1440,
+      "status": 200,
+      "passed": true,
+      "documentWidth": 1425,
+      "textGlyphs": 0,
+      "pseudoGlyphs": 0,
+      "brokenImages": 0,
+      "screenshot": "artifacts/pixel-audit-20261101-v2/after/chromium/insights-1440.png",
+      "reusedFrom": "artifacts/pixel-audit-20261101-v2/after/chromium/report.json"
+    },
+    {
+      "route": "/insights/a-home-by-the-water/",
+      "width": 1440,
+      "status": 200,
+      "passed": true,
+      "documentWidth": 1425,
+      "textGlyphs": 0,
+      "pseudoGlyphs": 0,
+      "brokenImages": 0,
+      "screenshot": "artifacts/pixel-audit-20261101-v2/after/chromium/insights-a-home-by-the-water-1440.png",
+      "reusedFrom": "artifacts/pixel-audit-20261101-v2/after/chromium/report.json"
+    },
+    {
+      "route": "/insights/architecture-on-palm-jumeirah/",
+      "width": 1440,
+      "status": 200,
+      "passed": true,
+      "documentWidth": 1425,
+      "textGlyphs": 0,
+      "pseudoGlyphs": 0,
+      "brokenImages": 0,
+      "screenshot": "artifacts/pixel-audit-20261101-v2/after/chromium/insights-architecture-on-palm-jumeirah-1440.png",
+      "reusedFrom": "artifacts/pixel-audit-20261101-v2/after/chromium/report.json"
+    },
+    {
+      "route": "/insights/spaces-worth-living-in/",
+      "width": 1440,
+      "status": 200,
+      "passed": true,
+      "documentWidth": 1425,
+      "textGlyphs": 0,
+      "pseudoGlyphs": 0,
+      "brokenImages": 0,
+      "screenshot": "artifacts/pixel-audit-20261101-v2/after/chromium/insights-spaces-worth-living-in-1440.png",
+      "reusedFrom": "artifacts/pixel-audit-20261101-v2/after/chromium/report.json"
+    },
+    {
+      "route": "/insights/the-art-of-a-private-viewing/",
+      "width": 1440,
+      "status": 200,
+      "passed": true,
+      "documentWidth": 1425,
+      "textGlyphs": 0,
+      "pseudoGlyphs": 0,
+      "brokenImages": 0,
+      "screenshot": "artifacts/pixel-audit-20261101-v2/after/chromium/insights-the-art-of-a-private-viewing-1440.png",
+      "reusedFrom": "artifacts/pixel-audit-20261101-v2/after/chromium/report.json"
+    },
+    {
+      "route": "/privacy/",
+      "width": 1440,
+      "status": 200,
+      "passed": true,
+      "documentWidth": 1425,
+      "textGlyphs": 0,
+      "pseudoGlyphs": 0,
+      "brokenImages": 0,
+      "screenshot": "artifacts/pixel-audit-20261101-v2/after/chromium/privacy-1440.png",
+      "reusedFrom": "artifacts/pixel-audit-20261101-v2/after/chromium/report.json"
+    },
+    {
+      "route": "/properties/",
+      "width": 1440,
+      "status": 200,
+      "passed": true,
+      "documentWidth": 1425,
+      "textGlyphs": 0,
+      "pseudoGlyphs": 0,
+      "brokenImages": 0,
+      "screenshot": "artifacts/pixel-audit-20261101-v2/after/chromium/properties-1440.png",
+      "reusedFrom": "artifacts/pixel-audit-20261101-v2/after/chromium/report.json"
+    },
+    {
+      "route": "/properties/dubai-hills-courtyard/",
+      "width": 1440,
+      "status": 200,
+      "passed": true,
+      "documentWidth": 1425,
+      "textGlyphs": 0,
+      "pseudoGlyphs": 0,
+      "brokenImages": 0,
+      "screenshot": "artifacts/pixel-audit-20261101-v2/after/chromium/properties-dubai-hills-courtyard-1440.png",
+      "reusedFrom": "artifacts/pixel-audit-20261101-v2/after/chromium/report.json"
+    },
+    {
+      "route": "/properties/dubai-hills-garden/",
+      "width": 1440,
+      "status": 200,
+      "passed": true,
+      "documentWidth": 1425,
+      "textGlyphs": 0,
+      "pseudoGlyphs": 0,
+      "brokenImages": 0,
+      "screenshot": "artifacts/pixel-audit-20261101-v2/after/chromium/properties-dubai-hills-garden-1440.png",
+      "reusedFrom": "artifacts/pixel-audit-20261101-v2/after/chromium/report.json"
+    },
+    {
+      "route": "/properties/dubai-hills-panorama/",
+      "width": 1440,
+      "status": 200,
+      "passed": true,
+      "documentWidth": 1425,
+      "textGlyphs": 0,
+      "pseudoGlyphs": 0,
+      "brokenImages": 0,
+      "screenshot": "artifacts/pixel-audit-20261101-v2/after/chromium/properties-dubai-hills-panorama-1440.png",
+      "reusedFrom": "artifacts/pixel-audit-20261101-v2/after/chromium/report.json"
+    },
+    {
+      "route": "/properties/dubai-hills-residence/",
+      "width": 1440,
+      "status": 200,
+      "passed": true,
+      "documentWidth": 1425,
+      "textGlyphs": 0,
+      "pseudoGlyphs": 0,
+      "brokenImages": 0,
+      "screenshot": "artifacts/pixel-audit-20261101-v2/after/chromium/properties-dubai-hills-residence-1440.png",
+      "reusedFrom": "artifacts/pixel-audit-20261101-v2/after/chromium/report.json"
+    },
+    {
+      "route": "/properties/dubai-hills-retreat/",
+      "width": 1440,
+      "status": 200,
+      "passed": true,
+      "documentWidth": 1425,
+      "textGlyphs": 0,
+      "pseudoGlyphs": 0,
+      "brokenImages": 0,
+      "screenshot": "artifacts/pixel-audit-20261101-v2/after/chromium/properties-dubai-hills-retreat-1440.png",
+      "reusedFrom": "artifacts/pixel-audit-20261101-v2/after/chromium/report.json"
+    },
+    {
+      "route": "/properties/dubai-hills-skyline/",
+      "width": 1440,
+      "status": 200,
+      "passed": true,
+      "documentWidth": 1425,
+      "textGlyphs": 0,
+      "pseudoGlyphs": 0,
+      "brokenImages": 0,
+      "screenshot": "artifacts/pixel-audit-20261101-v2/after/chromium/properties-dubai-hills-skyline-1440.png",
+      "reusedFrom": "artifacts/pixel-audit-20261101-v2/after/chromium/report.json"
+    },
+    {
+      "route": "/properties/dubai-hills-terrace/",
+      "width": 1440,
+      "status": 200,
+      "passed": true,
+      "documentWidth": 1425,
+      "textGlyphs": 0,
+      "pseudoGlyphs": 0,
+      "brokenImages": 0,
+      "screenshot": "artifacts/pixel-audit-20261101-v2/after/chromium/properties-dubai-hills-terrace-1440.png",
+      "reusedFrom": "artifacts/pixel-audit-20261101-v2/after/chromium/report.json"
+    },
+    {
+      "route": "/properties/dubai-hills-waterfront/",
+      "width": 1440,
+      "status": 200,
+      "passed": true,
+      "documentWidth": 1425,
+      "textGlyphs": 0,
+      "pseudoGlyphs": 0,
+      "brokenImages": 0,
+      "screenshot": "artifacts/pixel-audit-20261101-v2/after/chromium/properties-dubai-hills-waterfront-1440.png",
+      "reusedFrom": "artifacts/pixel-audit-20261101-v2/after/chromium/report.json"
+    },
+    {
+      "route": "/missing-page-for-visual-audit/",
+      "width": 1440,
+      "status": 404,
+      "passed": true,
+      "documentWidth": 1425,
+      "textGlyphs": 0,
+      "pseudoGlyphs": 0,
+      "brokenImages": 0,
+      "screenshot": "artifacts/pixel-audit-20261101-v2/after/chromium/missing-page-for-visual-audit-1440.png",
+      "reusedFrom": "artifacts/pixel-audit-20261101-v2/after/chromium/report.json"
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "status": 200,
+      "passed": true,
+      "documentWidth": 390,
+      "textGlyphs": 0,
+      "pseudoGlyphs": 0,
+      "brokenImages": 0,
+      "screenshot": "artifacts/pixel-audit-20261101-v2/after/chromium/home-390.png",
+      "reusedFrom": "artifacts/pixel-audit-20261101-v2/after/chromium/report.json"
+    },
+    {
+      "route": "/contacts/",
+      "width": 390,
+      "status": 200,
+      "passed": true,
+      "documentWidth": 390,
+      "textGlyphs": 0,
+      "pseudoGlyphs": 0,
+      "brokenImages": 0,
+      "screenshot": "artifacts/pixel-audit-20261101-v2/after/chromium/contacts-390.png",
+      "reusedFrom": "artifacts/pixel-audit-20261101-v2/after/chromium/report.json"
+    },
+    {
+      "route": "/developments/",
+      "width": 390,
+      "status": 200,
+      "passed": true,
+      "documentWidth": 390,
+      "textGlyphs": 0,
+      "pseudoGlyphs": 0,
+      "brokenImages": 0,
+      "screenshot": "artifacts/pixel-audit-20261101-v2/after/chromium/developments-390.png",
+      "reusedFrom": "artifacts/pixel-audit-20261101-v2/after/chromium/report.json"
+    },
+    {
+      "route": "/developments/atlantis/",
+      "width": 390,
+      "status": 200,
+      "passed": true,
+      "documentWidth": 390,
+      "textGlyphs": 0,
+      "pseudoGlyphs": 0,
+      "brokenImages": 0,
+      "screenshot": "artifacts/pixel-audit-20261101-v2/after/chromium/developments-atlantis-390.png",
+      "reusedFrom": "artifacts/pixel-audit-20261101-v2/after/chromium/report.json"
+    },
+    {
+      "route": "/developments/ava-at-palm/",
+      "width": 390,
+      "status": 200,
+      "passed": true,
+      "documentWidth": 390,
+      "textGlyphs": 0,
+      "pseudoGlyphs": 0,
+      "brokenImages": 0,
+      "screenshot": "artifacts/pixel-audit-20261101-v2/after/chromium/developments-ava-at-palm-390.png",
+      "reusedFrom": "artifacts/pixel-audit-20261101-v2/after/chromium/report.json"
+    },
+    {
+      "route": "/developments/orla/",
+      "width": 390,
+      "status": 200,
+      "passed": true,
+      "documentWidth": 390,
+      "textGlyphs": 0,
+      "pseudoGlyphs": 0,
+      "brokenImages": 0,
+      "screenshot": "artifacts/pixel-audit-20261101-v2/after/chromium/developments-orla-390.png",
+      "reusedFrom": "artifacts/pixel-audit-20261101-v2/after/chromium/report.json"
+    },
+    {
+      "route": "/developments/six-senses/",
+      "width": 390,
+      "status": 200,
+      "passed": true,
+      "documentWidth": 390,
+      "textGlyphs": 0,
+      "pseudoGlyphs": 0,
+      "brokenImages": 0,
+      "screenshot": "artifacts/pixel-audit-20261101-v2/after/chromium/developments-six-senses-390.png",
+      "reusedFrom": "artifacts/pixel-audit-20261101-v2/after/chromium/report.json"
+    },
+    {
+      "route": "/insights/",
+      "width": 390,
+      "status": 200,
+      "passed": true,
+      "documentWidth": 390,
+      "textGlyphs": 0,
+      "pseudoGlyphs": 0,
+      "brokenImages": 0,
+      "screenshot": "artifacts/pixel-audit-20261101-v2/after/chromium/insights-390.png",
+      "reusedFrom": "artifacts/pixel-audit-20261101-v2/after/chromium/report.json"
+    },
+    {
+      "route": "/insights/a-home-by-the-water/",
+      "width": 390,
+      "status": 200,
+      "passed": true,
+      "documentWidth": 390,
+      "textGlyphs": 0,
+      "pseudoGlyphs": 0,
+      "brokenImages": 0,
+      "screenshot": "artifacts/pixel-audit-20261101-v2/after/chromium/insights-a-home-by-the-water-390.png",
+      "reusedFrom": "artifacts/pixel-audit-20261101-v2/after/chromium/report.json"
+    },
+    {
+      "route": "/insights/architecture-on-palm-jumeirah/",
+      "width": 390,
+      "status": 200,
+      "passed": true,
+      "documentWidth": 390,
+      "textGlyphs": 0,
+      "pseudoGlyphs": 0,
+      "brokenImages": 0,
+      "screenshot": "artifacts/pixel-audit-20261101-v2/after/chromium/insights-architecture-on-palm-jumeirah-390.png",
+      "reusedFrom": "artifacts/pixel-audit-20261101-v2/after/chromium/report.json"
+    },
+    {
+      "route": "/insights/spaces-worth-living-in/",
+      "width": 390,
+      "status": 200,
+      "passed": true,
+      "documentWidth": 390,
+      "textGlyphs": 0,
+      "pseudoGlyphs": 0,
+      "brokenImages": 0,
+      "screenshot": "artifacts/pixel-audit-20261101-v2/after/chromium/insights-spaces-worth-living-in-390.png",
+      "reusedFrom": "artifacts/pixel-audit-20261101-v2/after/chromium/report.json"
+    },
+    {
+      "route": "/insights/the-art-of-a-private-viewing/",
+      "width": 390,
+      "status": 200,
+      "passed": true,
+      "documentWidth": 390,
+      "textGlyphs": 0,
+      "pseudoGlyphs": 0,
+      "brokenImages": 0,
+      "screenshot": "artifacts/pixel-audit-20261101-v2/after/chromium/insights-the-art-of-a-private-viewing-390.png",
+      "reusedFrom": "artifacts/pixel-audit-20261101-v2/after/chromium/report.json"
+    },
+    {
+      "route": "/privacy/",
+      "width": 390,
+      "status": 200,
+      "passed": true,
+      "documentWidth": 390,
+      "textGlyphs": 0,
+      "pseudoGlyphs": 0,
+      "brokenImages": 0,
+      "screenshot": "artifacts/pixel-audit-20261101-v2/after/chromium/privacy-390.png",
+      "reusedFrom": "artifacts/pixel-audit-20261101-v2/after/chromium/report.json"
+    },
+    {
+      "route": "/properties/",
+      "width": 390,
+      "status": 200,
+      "passed": true,
+      "documentWidth": 390,
+      "textGlyphs": 0,
+      "pseudoGlyphs": 0,
+      "brokenImages": 0,
+      "screenshot": "artifacts/pixel-audit-20261101-v2/after/chromium/properties-390.png",
+      "reusedFrom": "artifacts/pixel-audit-20261101-v2/after/chromium/report.json"
+    },
+    {
+      "route": "/properties/dubai-hills-courtyard/",
+      "width": 390,
+      "status": 200,
+      "passed": true,
+      "documentWidth": 390,
+      "textGlyphs": 0,
+      "pseudoGlyphs": 0,
+      "brokenImages": 0,
+      "screenshot": "artifacts/pixel-audit-20261101-v2/after/chromium/properties-dubai-hills-courtyard-390.png",
+      "reusedFrom": "artifacts/pixel-audit-20261101-v2/after/chromium/report.json"
+    },
+    {
+      "route": "/properties/dubai-hills-garden/",
+      "width": 390,
+      "status": 200,
+      "passed": true,
+      "documentWidth": 390,
+      "textGlyphs": 0,
+      "pseudoGlyphs": 0,
+      "brokenImages": 0,
+      "screenshot": "artifacts/pixel-audit-20261101-v2/after/chromium/properties-dubai-hills-garden-390.png",
+      "reusedFrom": "artifacts/pixel-audit-20261101-v2/after/chromium/report.json"
+    },
+    {
+      "route": "/properties/dubai-hills-panorama/",
+      "width": 390,
+      "status": 200,
+      "passed": true,
+      "documentWidth": 390,
+      "textGlyphs": 0,
+      "pseudoGlyphs": 0,
+      "brokenImages": 0,
+      "screenshot": "artifacts/pixel-audit-20261101-v2/after/chromium/properties-dubai-hills-panorama-390.png",
+      "reusedFrom": "artifacts/pixel-audit-20261101-v2/after/chromium/report.json"
+    },
+    {
+      "route": "/properties/dubai-hills-residence/",
+      "width": 390,
+      "status": 200,
+      "passed": true,
+      "documentWidth": 390,
+      "textGlyphs": 0,
+      "pseudoGlyphs": 0,
+      "brokenImages": 0,
+      "screenshot": "artifacts/pixel-audit-20261101-v2/after/chromium/properties-dubai-hills-residence-390.png",
+      "reusedFrom": "artifacts/pixel-audit-20261101-v2/after/chromium/report.json"
+    },
+    {
+      "route": "/properties/dubai-hills-retreat/",
+      "width": 390,
+      "status": 200,
+      "passed": true,
+      "documentWidth": 390,
+      "textGlyphs": 0,
+      "pseudoGlyphs": 0,
+      "brokenImages": 0,
+      "screenshot": "artifacts/pixel-audit-20261101-v2/after/chromium/properties-dubai-hills-retreat-390.png",
+      "reusedFrom": "artifacts/pixel-audit-20261101-v2/after/chromium/report.json"
+    },
+    {
+      "route": "/properties/dubai-hills-skyline/",
+      "width": 390,
+      "status": 200,
+      "passed": true,
+      "documentWidth": 390,
+      "textGlyphs": 0,
+      "pseudoGlyphs": 0,
+      "brokenImages": 0,
+      "screenshot": "artifacts/pixel-audit-20261101-v2/after/chromium/properties-dubai-hills-skyline-390.png",
+      "reusedFrom": "artifacts/pixel-audit-20261101-v2/after/chromium/report.json"
+    },
+    {
+      "route": "/properties/dubai-hills-terrace/",
+      "width": 390,
+      "status": 200,
+      "passed": true,
+      "documentWidth": 390,
+      "textGlyphs": 0,
+      "pseudoGlyphs": 0,
+      "brokenImages": 0,
+      "screenshot": "artifacts/pixel-audit-20261101-v2/after/chromium/properties-dubai-hills-terrace-390.png",
+      "reusedFrom": "artifacts/pixel-audit-20261101-v2/after/chromium/report.json"
+    },
+    {
+      "route": "/properties/dubai-hills-waterfront/",
+      "width": 390,
+      "status": 200,
+      "passed": true,
+      "documentWidth": 390,
+      "textGlyphs": 0,
+      "pseudoGlyphs": 0,
+      "brokenImages": 0,
+      "screenshot": "artifacts/pixel-audit-20261101-v2/after/chromium/properties-dubai-hills-waterfront-390.png",
+      "reusedFrom": "artifacts/pixel-audit-20261101-v2/after/chromium/report.json"
+    },
+    {
+      "route": "/missing-page-for-visual-audit/",
+      "width": 390,
+      "status": 404,
+      "passed": true,
+      "documentWidth": 390,
+      "textGlyphs": 0,
+      "pseudoGlyphs": 0,
+      "brokenImages": 0,
+      "screenshot": "artifacts/pixel-audit-20261101-v2/after/chromium/missing-page-for-visual-audit-390.png",
+      "reusedFrom": "artifacts/pixel-audit-20261101-v2/after/chromium/report.json"
+    }
+  ],
+  "broadReuse": {
+    "file": "artifacts/pixel-audit-20261101-v2/after/chromium/report.json",
+    "sha256": "360f4ef2b472172da7154abf8b67f66d4314ca2167368414f03a7e56c10d5a36",
+    "finishedAt": "2026-11-01T14:58:00.544Z"
+  },
+  "responsiveCases": {
+    "count": 24,
+    "widths": [
+      320,
+      768,
+      1024,
+      1920
+    ],
+    "routes": [
+      "/",
+      "/properties/",
+      "/properties/dubai-hills-residence/",
+      "/developments/atlantis/",
+      "/insights/architecture-on-palm-jumeirah/",
+      "/contacts/"
+    ],
+    "passedAtThatStage": false,
+    "automatedFailures": [
+      {
+        "route": "/properties/dubai-hills-residence/",
+        "width": 320,
+        "error": "AssertionError [ERR_ASSERTION]: Document overflow 324"
+      }
+    ],
+    "laterVisualFinding": "Footer text clipped at 1024 despite no document overflow; resolved by the separately measured footer correction."
+  },
+  "reports": {
+    "after-routes-final/chromium": {
+      "path": "artifacts/pixel-audit-20261101-v2/after-routes-final/chromium/report.json",
+      "sha256": "5ea84d6b2e2dd1033227119414fccd0f9082a63d0ced097cc749617bba1f0014",
+      "passed": true,
+      "startedAt": "2026-11-01T14:59:37.001Z",
+      "finishedAt": "2026-11-01T15:00:47.793Z",
+      "browserVersion": "145.0.7632.6",
+      "sourceFingerprint": "f9044155b894fcf98fe4f754544ad7f5d94d704015a4464dbc8a8330b19c85fa",
+      "indexHtmlSha256": "0305bc527eb0c75746bbb65b5c304c6627669d11b8708c0c6d6c5a42a4b3f605",
+      "pages": 46,
+      "stateFlows": 2,
+      "stateScreenshots": 26,
+      "readingTransitions": 5,
+      "boundaryEntries": 0,
+      "mediaEntries": 0,
+      "footerWidths": 0,
+      "pageErrors": 0,
+      "assetErrors": 0,
+      "mockedEnquiries": 2,
+      "failures": []
+    },
+    "after-responsive/chromium": {
+      "path": "artifacts/pixel-audit-20261101-v2/after-responsive/chromium/report.json",
+      "sha256": "a5ab1558a4541d1bdad299b69a8dceeea0b9e15e798ab8c3748d0e7e6a525d7e",
+      "passed": false,
+      "startedAt": "2026-11-01T15:02:36.030Z",
+      "finishedAt": "2026-11-01T15:05:04.905Z",
+      "browserVersion": "145.0.7632.6",
+      "sourceFingerprint": "f9044155b894fcf98fe4f754544ad7f5d94d704015a4464dbc8a8330b19c85fa",
+      "indexHtmlSha256": "0305bc527eb0c75746bbb65b5c304c6627669d11b8708c0c6d6c5a42a4b3f605",
+      "pages": 24,
+      "stateFlows": 0,
+      "stateScreenshots": 0,
+      "readingTransitions": 0,
+      "boundaryEntries": 0,
+      "mediaEntries": 0,
+      "footerWidths": 0,
+      "pageErrors": 0,
+      "assetErrors": 0,
+      "mockedEnquiries": 0,
+      "failures": [
+        {
+          "route": "/properties/dubai-hills-residence/",
+          "width": 320,
+          "error": "Document overflow 324"
+        }
+      ]
+    },
+    "after-property-final/chromium": {
+      "path": "artifacts/pixel-audit-20261101-v2/after-property-final/chromium/report.json",
+      "sha256": "991e22f750274ab24d146a09c257440b62b0e5f4512f9d1b8ea0107c8564c3f5",
+      "passed": true,
+      "startedAt": "2026-11-01T15:08:48.355Z",
+      "finishedAt": "2026-11-01T15:09:02.286Z",
+      "browserVersion": "145.0.7632.6",
+      "sourceFingerprint": "29032f336dc96b9dfe05aadb53cf4e4d83afab1e218df66bbe122b8c6d572e30",
+      "indexHtmlSha256": "ebc83136781dd9acd2b4eaddd9013126bbb8e7e4b81f897b95c9bd2d6a44c121",
+      "pages": 3,
+      "stateFlows": 0,
+      "stateScreenshots": 0,
+      "readingTransitions": 0,
+      "boundaryEntries": 0,
+      "mediaEntries": 0,
+      "footerWidths": 0,
+      "pageErrors": 0,
+      "assetErrors": 0,
+      "mockedEnquiries": 0,
+      "failures": []
+    },
+    "after-continuity/chromium": {
+      "path": "artifacts/pixel-audit-20261101-v2/after-continuity/chromium/report.json",
+      "sha256": "8752909f9c73d16fa364955b2d8d752a1eaacadaf594728fb6d0aeaac1c7f166",
+      "passed": true,
+      "startedAt": "2026-11-01T14:52:39.867Z",
+      "finishedAt": "2026-11-01T14:52:49.534Z",
+      "browserVersion": "145.0.7632.6",
+      "sourceFingerprint": "f9044155b894fcf98fe4f754544ad7f5d94d704015a4464dbc8a8330b19c85fa",
+      "indexHtmlSha256": "0305bc527eb0c75746bbb65b5c304c6627669d11b8708c0c6d6c5a42a4b3f605",
+      "pages": 0,
+      "stateFlows": 0,
+      "stateScreenshots": 0,
+      "readingTransitions": 5,
+      "boundaryEntries": 0,
+      "mediaEntries": 0,
+      "footerWidths": 0,
+      "pageErrors": 0,
+      "assetErrors": 0,
+      "mockedEnquiries": 0,
+      "failures": []
+    },
+    "after-continuity/webkit": {
+      "path": "artifacts/pixel-audit-20261101-v2/after-continuity/webkit/report.json",
+      "sha256": "5baaa892c8822aabc786b274c394f7e4664883219da3ed60bb304dfcaab11e59",
+      "passed": true,
+      "startedAt": "2026-11-01T14:52:06.491Z",
+      "finishedAt": "2026-11-01T14:52:17.336Z",
+      "browserVersion": "26.0",
+      "sourceFingerprint": "f9044155b894fcf98fe4f754544ad7f5d94d704015a4464dbc8a8330b19c85fa",
+      "indexHtmlSha256": "0305bc527eb0c75746bbb65b5c304c6627669d11b8708c0c6d6c5a42a4b3f605",
+      "pages": 0,
+      "stateFlows": 0,
+      "stateScreenshots": 0,
+      "readingTransitions": 5,
+      "boundaryEntries": 0,
+      "mediaEntries": 0,
+      "footerWidths": 0,
+      "pageErrors": 0,
+      "assetErrors": 0,
+      "mockedEnquiries": 0,
+      "failures": []
+    },
+    "after-boundaries-final/chromium": {
+      "path": "artifacts/pixel-audit-20261101-v2/after-boundaries-final/chromium/report.json",
+      "sha256": "cd584cd6b44e53d20a1acb02f553fffc3052a0a6b86898c9d73b952a8f1a976f",
+      "passed": true,
+      "startedAt": "2026-11-01T15:17:19.338Z",
+      "finishedAt": "2026-11-01T15:17:52.694Z",
+      "browserVersion": "145.0.7632.6",
+      "sourceFingerprint": "3c14d3f9edf8b8278459e300c121e0953d5839fca74427bbdc410e1f7f3346af",
+      "indexHtmlSha256": "07178aba3798a481628bd88f8bac6807529b8b4f908e87775a74611ffdcee103",
+      "pages": 0,
+      "stateFlows": 0,
+      "stateScreenshots": 0,
+      "readingTransitions": 0,
+      "boundaryEntries": 20,
+      "mediaEntries": 0,
+      "footerWidths": 0,
+      "pageErrors": 0,
+      "assetErrors": 0,
+      "mockedEnquiries": 0,
+      "failures": []
+    },
+    "after-boundaries-final/webkit": {
+      "path": "artifacts/pixel-audit-20261101-v2/after-boundaries-final/webkit/report.json",
+      "sha256": "9b478c6ba546a0b62bd46cd1bac42b739a0a92b96eacffeeac5b7bbc8c9d345c",
+      "passed": true,
+      "startedAt": "2026-11-01T15:18:41.232Z",
+      "finishedAt": "2026-11-01T15:18:58.706Z",
+      "browserVersion": "26.0",
+      "sourceFingerprint": "3c14d3f9edf8b8278459e300c121e0953d5839fca74427bbdc410e1f7f3346af",
+      "indexHtmlSha256": "07178aba3798a481628bd88f8bac6807529b8b4f908e87775a74611ffdcee103",
+      "pages": 0,
+      "stateFlows": 0,
+      "stateScreenshots": 0,
+      "readingTransitions": 0,
+      "boundaryEntries": 16,
+      "mediaEntries": 0,
+      "footerWidths": 0,
+      "pageErrors": 0,
+      "assetErrors": 0,
+      "mockedEnquiries": 0,
+      "failures": []
+    },
+    "after-media-final/chromium": {
+      "path": "artifacts/pixel-audit-20261101-v2/after-media-final/chromium/report.json",
+      "sha256": "22046d5621f665430d0a3030a9526d885c3b5f59fbba18a075c91ae1c76bbe9a",
+      "passed": true,
+      "startedAt": "2026-11-01T15:27:13.626Z",
+      "finishedAt": "2026-11-01T15:27:28.965Z",
+      "browserVersion": "145.0.7632.6",
+      "sourceFingerprint": "6c45cab12f5075e7f314cbece6df008a39aadf74d4be62e0099406a8d4605530",
+      "indexHtmlSha256": "feebb5c93473c180b10e0c93cc8540f4e12dc2ee1b7a1ee9d0afc3fa6e885448",
+      "pages": 0,
+      "stateFlows": 0,
+      "stateScreenshots": 0,
+      "readingTransitions": 0,
+      "boundaryEntries": 0,
+      "mediaEntries": 9,
+      "footerWidths": 0,
+      "pageErrors": 0,
+      "assetErrors": 0,
+      "mockedEnquiries": 0,
+      "failures": []
+    },
+    "after-footer-final/chromium": {
+      "path": "artifacts/pixel-audit-20261101-v2/after-footer-final/chromium/report.json",
+      "sha256": "a20209dff89fdd3e52aa5b84c700724d530e458eac11d9595d918cc6786ce733",
+      "passed": true,
+      "startedAt": "2026-11-01T15:33:55.081Z",
+      "finishedAt": "2026-11-01T15:34:05.675Z",
+      "browserVersion": "145.0.7632.6",
+      "sourceFingerprint": "890d5fd0fd095a8506ee150e87ebf146ead5fab5766e2fd42a76ab22b062453c",
+      "indexHtmlSha256": "7942c62f54051dd17914e1b801a9d2208dd5d885fbfd69ec58dd53d61e0ec10f",
+      "pages": 0,
+      "stateFlows": 0,
+      "stateScreenshots": 0,
+      "readingTransitions": 0,
+      "boundaryEntries": 0,
+      "mediaEntries": 0,
+      "footerWidths": 11,
+      "pageErrors": 0,
+      "assetErrors": 0,
+      "mockedEnquiries": 0,
+      "failures": []
+    },
+    "after-footer-final/webkit": {
+      "path": "artifacts/pixel-audit-20261101-v2/after-footer-final/webkit/report.json",
+      "sha256": "354e30568d22b168e6cc288a8898b3410856874582b1f2f43eb1534127ae45c4",
+      "passed": true,
+      "startedAt": "2026-11-01T15:34:21.265Z",
+      "finishedAt": "2026-11-01T15:34:36.217Z",
+      "browserVersion": "26.0",
+      "sourceFingerprint": "890d5fd0fd095a8506ee150e87ebf146ead5fab5766e2fd42a76ab22b062453c",
+      "indexHtmlSha256": "7942c62f54051dd17914e1b801a9d2208dd5d885fbfd69ec58dd53d61e0ec10f",
+      "pages": 0,
+      "stateFlows": 0,
+      "stateScreenshots": 0,
+      "readingTransitions": 0,
+      "boundaryEntries": 0,
+      "mediaEntries": 0,
+      "footerWidths": 11,
+      "pageErrors": 0,
+      "assetErrors": 0,
+      "mockedEnquiries": 0,
+      "failures": []
+    },
+    "after-states-final/webkit": {
+      "path": "artifacts/pixel-audit-20261101-v2/after-states-final/webkit/report.json",
+      "sha256": "3c27975da5261140e35b405dca47b13f041b2669ef568b6bade985d934dd2ff4",
+      "passed": true,
+      "startedAt": "2026-11-01T15:34:48.117Z",
+      "finishedAt": "2026-11-01T15:35:58.052Z",
+      "browserVersion": "26.0",
+      "sourceFingerprint": "890d5fd0fd095a8506ee150e87ebf146ead5fab5766e2fd42a76ab22b062453c",
+      "indexHtmlSha256": "7942c62f54051dd17914e1b801a9d2208dd5d885fbfd69ec58dd53d61e0ec10f",
+      "pages": 0,
+      "stateFlows": 2,
+      "stateScreenshots": 26,
+      "readingTransitions": 5,
+      "boundaryEntries": 0,
+      "mediaEntries": 0,
+      "footerWidths": 0,
+      "pageErrors": 0,
+      "assetErrors": 0,
+      "mockedEnquiries": 2,
+      "failures": []
+    }
+  },
+  "heroSearch1440": [
+    {
+      "rect": {
+        "x": 157.5,
+        "y": 691,
+        "width": 191,
+        "height": 70,
+        "top": 691,
+        "right": 348.5,
+        "bottom": 761,
+        "left": 157.5
+      },
+      "background": "rgba(64, 65, 69, 0.4)",
+      "borderRadius": "12px"
+    },
+    {
+      "rect": {
+        "x": 360.5,
+        "y": 691,
+        "width": 622,
+        "height": 70,
+        "top": 691,
+        "right": 982.5,
+        "bottom": 761,
+        "left": 360.5
+      },
+      "background": "rgba(64, 65, 69, 0.32)",
+      "borderRadius": "12px"
+    },
+    {
+      "rect": {
+        "x": 994.5,
+        "y": 691,
+        "width": 70,
+        "height": 70,
+        "top": 691,
+        "right": 1064.5,
+        "bottom": 761,
+        "left": 994.5
+      },
+      "background": "rgba(64, 65, 69, 0.4)",
+      "borderRadius": "12px"
+    },
+    {
+      "rect": {
+        "x": 1076.5,
+        "y": 691,
+        "width": 191,
+        "height": 70,
+        "top": 691,
+        "right": 1267.5,
+        "bottom": 761,
+        "left": 1076.5
+      },
+      "background": "rgb(255, 255, 255)",
+      "borderRadius": "12px"
+    }
+  ],
+  "readingContinuity": {
+    "chromium": [
+      {
+        "action": "reduce",
+        "viewport": null,
+        "beforeY": 4722,
+        "afterY": 4722,
+        "beforeAnchorTop": 160.484375,
+        "afterAnchorTop": 160.484375
+      },
+      {
+        "action": "no-preference",
+        "viewport": null,
+        "beforeY": 4722,
+        "afterY": 4722,
+        "beforeAnchorTop": 160.484375,
+        "afterAnchorTop": 160.484375
+      },
+      {
+        "action": "reading-resize",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "beforeY": 4722,
+        "afterY": 3689,
+        "beforeAnchorTop": 160.484375,
+        "afterAnchorTop": 160.375
+      },
+      {
+        "action": "reading-resize",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "beforeY": 3689,
+        "afterY": 4722,
+        "beforeAnchorTop": 160.375,
+        "afterAnchorTop": 160.484375
+      },
+      {
+        "action": "menu-open-close",
+        "viewport": null,
+        "beforeY": 4722,
+        "afterY": 4722,
+        "beforeAnchorTop": 160.484375,
+        "afterAnchorTop": 160.484375
+      }
+    ],
+    "webkitFinal": [
+      {
+        "action": "reduce",
+        "viewport": null,
+        "beforeY": 4721,
+        "afterY": 4721,
+        "beforeAnchorTop": 160,
+        "afterAnchorTop": 160
+      },
+      {
+        "action": "no-preference",
+        "viewport": null,
+        "beforeY": 4721,
+        "afterY": 4721,
+        "beforeAnchorTop": 160,
+        "afterAnchorTop": 160
+      },
+      {
+        "action": "reading-resize",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "beforeY": 4721,
+        "afterY": 3684,
+        "beforeAnchorTop": 160,
+        "afterAnchorTop": 160.796875
+      },
+      {
+        "action": "reading-resize",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "beforeY": 3684,
+        "afterY": 4720,
+        "beforeAnchorTop": 160.796875,
+        "afterAnchorTop": 161
+      },
+      {
+        "action": "menu-open-close",
+        "viewport": null,
+        "beforeY": 4720,
+        "afterY": 4720,
+        "beforeAnchorTop": 161,
+        "afterAnchorTop": 161
+      }
+    ]
+  },
+  "boundaryChecks": {
+    "chromium": [
+      {
+        "type": "price-width",
+        "width": 320,
+        "text": "AED 65,000,000",
+        "textWidth": 204,
+        "availableWidth": 214,
+        "fontSize": "28px",
+        "documentWidth": 320,
+        "passed": true
+      },
+      {
+        "type": "price-width",
+        "width": 371,
+        "text": "AED 65,000,000",
+        "textWidth": 204,
+        "availableWidth": 265,
+        "fontSize": "28px",
+        "documentWidth": 371,
+        "passed": true
+      },
+      {
+        "type": "price-width",
+        "width": 375,
+        "text": "AED 65,000,000",
+        "textWidth": 204,
+        "availableWidth": 269,
+        "fontSize": "28px",
+        "documentWidth": 375,
+        "passed": true
+      },
+      {
+        "type": "price-width",
+        "width": 380,
+        "text": "AED 65,000,000",
+        "textWidth": 204,
+        "availableWidth": 274,
+        "fontSize": "28px",
+        "documentWidth": 380,
+        "passed": true
+      },
+      {
+        "type": "price-width",
+        "width": 390,
+        "text": "AED 65,000,000",
+        "textWidth": 271,
+        "availableWidth": 284,
+        "fontSize": "36px",
+        "documentWidth": 390,
+        "passed": true
+      },
+      {
+        "type": "price-width",
+        "width": 1440,
+        "text": "AED 65,000,000",
+        "textWidth": 219,
+        "availableWidth": 239,
+        "fontSize": "30px",
+        "documentWidth": 1440,
+        "passed": true
+      },
+      {
+        "type": "modal-scroll",
+        "id": "site-menu",
+        "viewport": {
+          "width": 320,
+          "height": 740
+        },
+        "method": "native wheel",
+        "isMobile": true,
+        "beforeY": 25,
+        "afterY": 25,
+        "scrollTop": 324,
+        "closeInViewport": true,
+        "closeHit": true,
+        "passed": true,
+        "screenshot": "artifacts/pixel-audit-20261101-v2/after-boundaries-final/chromium/site-menu-320x740-wheel-bottom.png"
+      },
+      {
+        "type": "modal-scroll",
+        "id": "site-menu",
+        "viewport": {
+          "width": 320,
+          "height": 740
+        },
+        "method": "native Chromium touch",
+        "isMobile": null,
+        "beforeY": null,
+        "afterY": 25,
+        "scrollTop": 324,
+        "closeInViewport": true,
+        "closeHit": true,
+        "passed": true,
+        "screenshot": "artifacts/pixel-audit-20261101-v2/after-boundaries-final/chromium/site-menu-320x740-touch-bottom.png"
+      },
+      {
+        "type": "menu-lower-control",
+        "viewport": {
+          "width": 320,
+          "height": 740
+        },
+        "reachable": true
+      },
+      {
+        "type": "pointer-close",
+        "id": "site-menu",
+        "viewport": {
+          "width": 320,
+          "height": 740
+        },
+        "closed": true
+      },
+      {
+        "type": "modal-scroll",
+        "id": "enquiry-dialog",
+        "viewport": {
+          "width": 320,
+          "height": 740
+        },
+        "method": "native wheel",
+        "isMobile": true,
+        "beforeY": 35,
+        "afterY": 35,
+        "scrollTop": 95,
+        "closeInViewport": true,
+        "closeHit": true,
+        "passed": true,
+        "screenshot": "artifacts/pixel-audit-20261101-v2/after-boundaries-final/chromium/enquiry-dialog-320x740-wheel-bottom.png"
+      },
+      {
+        "type": "modal-scroll",
+        "id": "enquiry-dialog",
+        "viewport": {
+          "width": 320,
+          "height": 740
+        },
+        "method": "native Chromium touch",
+        "isMobile": null,
+        "beforeY": null,
+        "afterY": 35,
+        "scrollTop": 95,
+        "closeInViewport": true,
+        "closeHit": true,
+        "passed": true,
+        "screenshot": "artifacts/pixel-audit-20261101-v2/after-boundaries-final/chromium/enquiry-dialog-320x740-touch-bottom.png"
+      },
+      {
+        "type": "pointer-close",
+        "id": "enquiry-dialog",
+        "viewport": {
+          "width": 320,
+          "height": 740
+        },
+        "closed": true
+      },
+      {
+        "type": "modal-scroll",
+        "id": "site-menu",
+        "viewport": {
+          "width": 844,
+          "height": 390
+        },
+        "method": "native wheel",
+        "isMobile": false,
+        "beforeY": 40,
+        "afterY": 40,
+        "scrollTop": 431,
+        "closeInViewport": true,
+        "closeHit": true,
+        "passed": true,
+        "screenshot": "artifacts/pixel-audit-20261101-v2/after-boundaries-final/chromium/site-menu-844x390-wheel-bottom.png"
+      },
+      {
+        "type": "modal-scroll",
+        "id": "site-menu",
+        "viewport": {
+          "width": 844,
+          "height": 390
+        },
+        "method": "native Chromium touch",
+        "isMobile": null,
+        "beforeY": null,
+        "afterY": 40,
+        "scrollTop": 431,
+        "closeInViewport": true,
+        "closeHit": true,
+        "passed": true,
+        "screenshot": "artifacts/pixel-audit-20261101-v2/after-boundaries-final/chromium/site-menu-844x390-touch-bottom.png"
+      },
+      {
+        "type": "menu-lower-control",
+        "viewport": {
+          "width": 844,
+          "height": 390
+        },
+        "reachable": true
+      },
+      {
+        "type": "pointer-close",
+        "id": "site-menu",
+        "viewport": {
+          "width": 844,
+          "height": 390
+        },
+        "closed": true
+      },
+      {
+        "type": "modal-scroll",
+        "id": "enquiry-dialog",
+        "viewport": {
+          "width": 844,
+          "height": 390
+        },
+        "method": "native wheel",
+        "isMobile": false,
+        "beforeY": 35,
+        "afterY": 35,
+        "scrollTop": 428,
+        "closeInViewport": true,
+        "closeHit": true,
+        "passed": true,
+        "screenshot": "artifacts/pixel-audit-20261101-v2/after-boundaries-final/chromium/enquiry-dialog-844x390-wheel-bottom.png"
+      },
+      {
+        "type": "modal-scroll",
+        "id": "enquiry-dialog",
+        "viewport": {
+          "width": 844,
+          "height": 390
+        },
+        "method": "native Chromium touch",
+        "isMobile": null,
+        "beforeY": null,
+        "afterY": 35,
+        "scrollTop": 428,
+        "closeInViewport": true,
+        "closeHit": true,
+        "passed": true,
+        "screenshot": "artifacts/pixel-audit-20261101-v2/after-boundaries-final/chromium/enquiry-dialog-844x390-touch-bottom.png"
+      },
+      {
+        "type": "pointer-close",
+        "id": "enquiry-dialog",
+        "viewport": {
+          "width": 844,
+          "height": 390
+        },
+        "closed": true
+      }
+    ],
+    "webkit": [
+      {
+        "type": "price-width",
+        "width": 320,
+        "text": "AED 65,000,000",
+        "textWidth": 206.63671875,
+        "availableWidth": 214,
+        "fontSize": "28px",
+        "documentWidth": 320,
+        "passed": true
+      },
+      {
+        "type": "price-width",
+        "width": 371,
+        "text": "AED 65,000,000",
+        "textWidth": 206.63671875,
+        "availableWidth": 265,
+        "fontSize": "28px",
+        "documentWidth": 371,
+        "passed": true
+      },
+      {
+        "type": "price-width",
+        "width": 375,
+        "text": "AED 65,000,000",
+        "textWidth": 206.63671875,
+        "availableWidth": 269,
+        "fontSize": "28px",
+        "documentWidth": 375,
+        "passed": true
+      },
+      {
+        "type": "price-width",
+        "width": 380,
+        "text": "AED 65,000,000",
+        "textWidth": 206.63671875,
+        "availableWidth": 274,
+        "fontSize": "28px",
+        "documentWidth": 380,
+        "passed": true
+      },
+      {
+        "type": "price-width",
+        "width": 390,
+        "text": "AED 65,000,000",
+        "textWidth": 265.67578125,
+        "availableWidth": 284,
+        "fontSize": "36px",
+        "documentWidth": 390,
+        "passed": true
+      },
+      {
+        "type": "price-width",
+        "width": 1440,
+        "text": "AED 65,000,000",
+        "textWidth": 221.396484375,
+        "availableWidth": 239,
+        "fontSize": "30px",
+        "documentWidth": 1440,
+        "passed": true
+      },
+      {
+        "type": "modal-scroll",
+        "id": "site-menu",
+        "viewport": {
+          "width": 320,
+          "height": 740
+        },
+        "method": "native wheel",
+        "isMobile": false,
+        "beforeY": 25.93107032775879,
+        "afterY": 25,
+        "scrollTop": 323,
+        "closeInViewport": true,
+        "closeHit": true,
+        "passed": true,
+        "screenshot": "artifacts/pixel-audit-20261101-v2/after-boundaries-final/webkit/site-menu-320x740-wheel-bottom.png"
+      },
+      {
+        "type": "menu-lower-control",
+        "viewport": {
+          "width": 320,
+          "height": 740
+        },
+        "reachable": true
+      },
+      {
+        "type": "pointer-close",
+        "id": "site-menu",
+        "viewport": {
+          "width": 320,
+          "height": 740
+        },
+        "closed": true
+      },
+      {
+        "type": "modal-scroll",
+        "id": "enquiry-dialog",
+        "viewport": {
+          "width": 320,
+          "height": 740
+        },
+        "method": "native wheel",
+        "isMobile": false,
+        "beforeY": 35,
+        "afterY": 35,
+        "scrollTop": 92,
+        "closeInViewport": true,
+        "closeHit": true,
+        "passed": true,
+        "screenshot": "artifacts/pixel-audit-20261101-v2/after-boundaries-final/webkit/enquiry-dialog-320x740-wheel-bottom.png"
+      },
+      {
+        "type": "pointer-close",
+        "id": "enquiry-dialog",
+        "viewport": {
+          "width": 320,
+          "height": 740
+        },
+        "closed": true
+      },
+      {
+        "type": "modal-scroll",
+        "id": "site-menu",
+        "viewport": {
+          "width": 844,
+          "height": 390
+        },
+        "method": "native wheel",
+        "isMobile": false,
+        "beforeY": 40,
+        "afterY": 40,
+        "scrollTop": 431,
+        "closeInViewport": true,
+        "closeHit": true,
+        "passed": true,
+        "screenshot": "artifacts/pixel-audit-20261101-v2/after-boundaries-final/webkit/site-menu-844x390-wheel-bottom.png"
+      },
+      {
+        "type": "menu-lower-control",
+        "viewport": {
+          "width": 844,
+          "height": 390
+        },
+        "reachable": true
+      },
+      {
+        "type": "pointer-close",
+        "id": "site-menu",
+        "viewport": {
+          "width": 844,
+          "height": 390
+        },
+        "closed": true
+      },
+      {
+        "type": "modal-scroll",
+        "id": "enquiry-dialog",
+        "viewport": {
+          "width": 844,
+          "height": 390
+        },
+        "method": "native wheel",
+        "isMobile": false,
+        "beforeY": 35,
+        "afterY": 35,
+        "scrollTop": 427,
+        "closeInViewport": true,
+        "closeHit": true,
+        "passed": true,
+        "screenshot": "artifacts/pixel-audit-20261101-v2/after-boundaries-final/webkit/enquiry-dialog-844x390-wheel-bottom.png"
+      },
+      {
+        "type": "pointer-close",
+        "id": "enquiry-dialog",
+        "viewport": {
+          "width": 844,
+          "height": 390
+        },
+        "closed": true
+      }
+    ]
+  },
+  "nativeInputLimit": "WebKit mouse.wheel is unavailable in Playwright mobile mode, so compact native-wheel checks use isMobile=false at 320x740/844x390. Native CDP touch gestures are Chromium-only. Final WebKit states use actual mobile emulation at 390.",
+  "mediaSelection": [
+    {
+      "route": "/developments/ava-at-palm/",
+      "currentSrc": "http://127.0.0.1:14312/assets/photo-8bf7ba2f4167ce28.webp",
+      "sizes": "(max-width: 700px) max(100vw, 1838.51px, 223.6svh), max(100vw, 1739.13px, min(2236.02px, 248.45svh))",
+      "decodedWidth": 2400,
+      "decodedHeight": 966,
+      "renderedBox": {
+        "width": 390,
+        "height": 759.59375
+      },
+      "deviceScaleFactor": 1,
+      "requiredWidth": 1887.1894409937886,
+      "largestCandidate": 2400,
+      "sourceLimited": false,
+      "effectiveDensity": 1.2717324227588762,
+      "passed": true,
+      "screenshot": "artifacts/pixel-audit-20261101-v2/after-media-final/chromium/developments-ava-at-palm-390-media.png"
+    },
+    {
+      "route": "/developments/orla/",
+      "currentSrc": "http://127.0.0.1:14312/assets/photo-32d48d1bfd040bfa-800.webp",
+      "sizes": "(max-width: 700px) max(100vw, 521.08px, 63.38svh), max(100vw, 492.92px, min(633.75px, 70.42svh))",
+      "decodedWidth": 800,
+      "decodedHeight": 1136,
+      "renderedBox": {
+        "width": 390,
+        "height": 759.59375
+      },
+      "deviceScaleFactor": 1,
+      "requiredWidth": 534.925176056338,
+      "largestCandidate": 1690,
+      "sourceLimited": false,
+      "effectiveDensity": 1.495536265273378,
+      "passed": true,
+      "screenshot": "artifacts/pixel-audit-20261101-v2/after-media-final/chromium/developments-orla-390-media.png"
+    },
+    {
+      "route": "/developments/six-senses/",
+      "currentSrc": "http://127.0.0.1:14312/assets/photo-bcc6e3b04dc20345-1800.webp",
+      "sizes": "(max-width: 700px) max(100vw, 1315.56px, 160svh), max(100vw, 1244.44px, min(1600px, 177.78svh))",
+      "decodedWidth": 1800,
+      "decodedHeight": 1012,
+      "renderedBox": {
+        "width": 390,
+        "height": 759.59375
+      },
+      "deviceScaleFactor": 1,
+      "requiredWidth": 1351.0560770750988,
+      "largestCandidate": 2400,
+      "sourceLimited": false,
+      "effectiveDensity": 1.3322911095569179,
+      "passed": true,
+      "screenshot": "artifacts/pixel-audit-20261101-v2/after-media-final/chromium/developments-six-senses-390-media.png"
+    },
+    {
+      "route": "/developments/atlantis/",
+      "currentSrc": "http://127.0.0.1:14312/assets/atlantis-exterior.webp",
+      "sizes": "(max-width: 700px) max(100vw, 1018.49px, 123.87svh), max(100vw, 963.44px, min(1238.71px, 137.63svh))",
+      "decodedWidth": 1024,
+      "decodedHeight": 744,
+      "renderedBox": {
+        "width": 390,
+        "height": 759.59375
+      },
+      "deviceScaleFactor": 1,
+      "requiredWidth": 1045.4623655913979,
+      "largestCandidate": 1024,
+      "sourceLimited": true,
+      "effectiveDensity": 0.9794709342987616,
+      "passed": true,
+      "screenshot": "artifacts/pixel-audit-20261101-v2/after-media-final/chromium/developments-atlantis-390-media.png"
+    },
+    {
+      "route": "/properties/dubai-hills-residence/",
+      "currentSrc": "http://127.0.0.1:14312/assets/photo-74fa53cd634bee7f-1200.webp",
+      "sizes": "(max-width: 700px) max(100vw, 960.00px), max(100vw, 1187.56px)",
+      "decodedWidth": 1200,
+      "decodedHeight": 675,
+      "renderedBox": {
+        "width": 390,
+        "height": 540
+      },
+      "deviceScaleFactor": 1,
+      "requiredWidth": 960,
+      "largestCandidate": 2000,
+      "sourceLimited": false,
+      "effectiveDensity": 1.25,
+      "passed": true,
+      "screenshot": "artifacts/pixel-audit-20261101-v2/after-media-final/chromium/properties-dubai-hills-residence-390-media.png"
+    },
+    {
+      "route": "/developments/",
+      "selector": ".project-card>img",
+      "index": 0,
+      "currentSrc": "http://127.0.0.1:14312/assets/photo-8bf7ba2f4167ce28-1200.webp",
+      "sizes": "(max-width: 700px) max(100vw, 1068.32px), (max-width: 1000px) max(100vw, 1093.17px), max(100vw, 1195.03px)",
+      "decodedWidth": 1200,
+      "decodedHeight": 483,
+      "renderedBox": {
+        "width": 340,
+        "height": 428
+      },
+      "deviceScaleFactor": 1,
+      "requiredWidth": 1063.3540372670807,
+      "largestCandidate": 2400,
+      "sourceLimited": false,
+      "effectiveDensity": 1.1285046728971964,
+      "passed": true,
+      "screenshot": "artifacts/pixel-audit-20261101-v2/after-media-final/chromium/project-card-1-390-media.png"
+    },
+    {
+      "route": "/developments/",
+      "selector": ".project-card>img",
+      "index": 1,
+      "currentSrc": "http://127.0.0.1:14312/assets/photo-32d48d1bfd040bfa-480.webp",
+      "sizes": "(max-width: 700px) max(100vw, 302.79px), (max-width: 1000px) max(100vw, 309.83px), max(100vw, 338.7px)",
+      "decodedWidth": 480,
+      "decodedHeight": 682,
+      "renderedBox": {
+        "width": 340,
+        "height": 428
+      },
+      "deviceScaleFactor": 1,
+      "requiredWidth": 340,
+      "largestCandidate": 1690,
+      "sourceLimited": false,
+      "effectiveDensity": 1.411764705882353,
+      "passed": true,
+      "screenshot": "artifacts/pixel-audit-20261101-v2/after-media-final/chromium/project-card-2-390-media.png"
+    },
+    {
+      "route": "/developments/",
+      "selector": ".project-card>img",
+      "index": 2,
+      "currentSrc": "http://127.0.0.1:14312/assets/photo-bcc6e3b04dc20345-800.webp",
+      "sizes": "(max-width: 700px) max(100vw, 764.44px), (max-width: 1000px) max(100vw, 782.22px), max(100vw, 855.11px)",
+      "decodedWidth": 800,
+      "decodedHeight": 450,
+      "renderedBox": {
+        "width": 340,
+        "height": 428
+      },
+      "deviceScaleFactor": 1,
+      "requiredWidth": 760.8888888888888,
+      "largestCandidate": 2400,
+      "sourceLimited": false,
+      "effectiveDensity": 1.0514018691588787,
+      "passed": true,
+      "screenshot": "artifacts/pixel-audit-20261101-v2/after-media-final/chromium/project-card-3-390-media.png"
+    },
+    {
+      "route": "/developments/",
+      "selector": ".project-card>img",
+      "index": 3,
+      "currentSrc": "http://127.0.0.1:14312/assets/atlantis-exterior-800.webp",
+      "sizes": "(max-width: 700px) max(100vw, 591.83px), (max-width: 1000px) max(100vw, 605.59px), max(100vw, 662.02px)",
+      "decodedWidth": 800,
+      "decodedHeight": 581,
+      "renderedBox": {
+        "width": 340,
+        "height": 428
+      },
+      "deviceScaleFactor": 1,
+      "requiredWidth": 589.328743545611,
+      "largestCandidate": 1024,
+      "sourceLimited": false,
+      "effectiveDensity": 1.3574766355140186,
+      "passed": true,
+      "screenshot": "artifacts/pixel-audit-20261101-v2/after-media-final/chromium/project-card-4-390-media.png"
+    }
+  ],
+  "footerGeometry": {
+    "chromium": [
+      {
+        "width": 320,
+        "passed": true,
+        "columns": "272px",
+        "contentWidth": 272,
+        "labelsTested": 13,
+        "minTextLeft": 24,
+        "maxTextRight": 293.984375,
+        "overflowLabels": []
+      },
+      {
+        "width": 390,
+        "passed": true,
+        "columns": "327px",
+        "contentWidth": 327,
+        "labelsTested": 13,
+        "minTextLeft": 24,
+        "maxTextRight": 350,
+        "overflowLabels": []
+      },
+      {
+        "width": 768,
+        "passed": true,
+        "columns": "292.719px 351.281px",
+        "contentWidth": 689,
+        "labelsTested": 13,
+        "minTextLeft": 32,
+        "maxTextRight": 688.71875,
+        "overflowLabels": []
+      },
+      {
+        "width": 1000,
+        "passed": true,
+        "columns": "398.172px 477.828px",
+        "contentWidth": 921,
+        "labelsTested": 13,
+        "minTextLeft": 32,
+        "maxTextRight": 938.171875,
+        "overflowLabels": []
+      },
+      {
+        "width": 1001,
+        "passed": true,
+        "columns": "391.359px 469.625px",
+        "contentWidth": 906,
+        "labelsTested": 13,
+        "minTextLeft": 40,
+        "maxTextRight": 939.359375,
+        "overflowLabels": []
+      },
+      {
+        "width": 1024,
+        "passed": true,
+        "columns": "401.812px 482.188px",
+        "contentWidth": 929,
+        "labelsTested": 13,
+        "minTextLeft": 40,
+        "maxTextRight": 949.8125,
+        "overflowLabels": []
+      },
+      {
+        "width": 1100,
+        "passed": true,
+        "columns": "436.359px 523.641px",
+        "contentWidth": 1005,
+        "labelsTested": 13,
+        "minTextLeft": 40,
+        "maxTextRight": 1044.359375,
+        "overflowLabels": []
+      },
+      {
+        "width": 1101,
+        "passed": true,
+        "columns": "240px 276px 350px",
+        "contentWidth": 1006,
+        "labelsTested": 13,
+        "minTextLeft": 428,
+        "maxTextRight": 1040,
+        "overflowLabels": []
+      },
+      {
+        "width": 1200,
+        "passed": true,
+        "columns": "240px 375px 350px",
+        "contentWidth": 1105,
+        "labelsTested": 13,
+        "minTextLeft": 428,
+        "maxTextRight": 1139,
+        "overflowLabels": []
+      },
+      {
+        "width": 1440,
+        "passed": true,
+        "columns": "240px 380px 350px",
+        "contentWidth": 1110,
+        "labelsTested": 13,
+        "minTextLeft": 545.5,
+        "maxTextRight": 1261.5,
+        "overflowLabels": []
+      },
+      {
+        "width": 1920,
+        "passed": true,
+        "columns": "260px 530px 390px",
+        "contentWidth": 1320,
+        "labelsTested": 13,
+        "minTextLeft": 700.5,
+        "maxTextRight": 1586.5,
+        "overflowLabels": []
+      }
+    ],
+    "webkit": [
+      {
+        "width": 320,
+        "passed": true,
+        "columns": "272px",
+        "contentWidth": 272,
+        "labelsTested": 13,
+        "minTextLeft": 24,
+        "maxTextRight": 293.29296875,
+        "overflowLabels": []
+      },
+      {
+        "width": 390,
+        "passed": true,
+        "columns": "342px",
+        "contentWidth": 342,
+        "labelsTested": 13,
+        "minTextLeft": 24,
+        "maxTextRight": 358.77490234375,
+        "overflowLabels": []
+      },
+      {
+        "width": 768,
+        "passed": true,
+        "columns": "299.53125px 359.453125px",
+        "contentWidth": 704,
+        "labelsTested": 13,
+        "minTextLeft": 32,
+        "maxTextRight": 690.5546875,
+        "overflowLabels": []
+      },
+      {
+        "width": 1000,
+        "passed": true,
+        "columns": "404.984375px 486px",
+        "contentWidth": 936,
+        "labelsTested": 13,
+        "minTextLeft": 32,
+        "maxTextRight": 937.609375,
+        "overflowLabels": []
+      },
+      {
+        "width": 1001,
+        "passed": true,
+        "columns": "398.171875px 477.8125px",
+        "contentWidth": 921,
+        "labelsTested": 13,
+        "minTextLeft": 40,
+        "maxTextRight": 938.796875,
+        "overflowLabels": []
+      },
+      {
+        "width": 1024,
+        "passed": true,
+        "columns": "408.625px 490.359375px",
+        "contentWidth": 944,
+        "labelsTested": 13,
+        "minTextLeft": 40,
+        "maxTextRight": 949.25,
+        "overflowLabels": []
+      },
+      {
+        "width": 1100,
+        "passed": true,
+        "columns": "443.171875px 531.8125px",
+        "contentWidth": 1020,
+        "labelsTested": 13,
+        "minTextLeft": 40,
+        "maxTextRight": 1040.0546875,
+        "overflowLabels": []
+      },
+      {
+        "width": 1101,
+        "passed": true,
+        "columns": "240px 291px 350px",
+        "contentWidth": 1021,
+        "labelsTested": 13,
+        "minTextLeft": 428,
+        "maxTextRight": 1055.69140625,
+        "overflowLabels": []
+      },
+      {
+        "width": 1200,
+        "passed": true,
+        "columns": "240px 380px 350px",
+        "contentWidth": 1110,
+        "labelsTested": 13,
+        "minTextLeft": 433,
+        "maxTextRight": 1149.69140625,
+        "overflowLabels": []
+      },
+      {
+        "width": 1440,
+        "passed": true,
+        "columns": "240px 380px 350px",
+        "contentWidth": 1110,
+        "labelsTested": 13,
+        "minTextLeft": 553,
+        "maxTextRight": 1269.69140625,
+        "overflowLabels": []
+      },
+      {
+        "width": 1920,
+        "passed": true,
+        "columns": "260px 530px 390px",
+        "contentWidth": 1320,
+        "labelsTested": 13,
+        "minTextLeft": 708,
+        "maxTextRight": 1594.69140625,
+        "overflowLabels": []
+      }
+    ]
+  },
+  "finalWebKitStates": [
+    {
+      "width": 1440,
+      "screenshots": [
+        "artifacts/pixel-audit-20261101-v2/after-states-final/webkit/state-1440-menu-keyboard.png",
+        "artifacts/pixel-audit-20261101-v2/after-states-final/webkit/state-1440-enquiry.png",
+        "artifacts/pixel-audit-20261101-v2/after-states-final/webkit/state-1440-enquiry-validation.png",
+        "artifacts/pixel-audit-20261101-v2/after-states-final/webkit/state-1440-enquiry-success-mocked.png",
+        "artifacts/pixel-audit-20261101-v2/after-states-final/webkit/state-1440-filters-open.png",
+        "artifacts/pixel-audit-20261101-v2/after-states-final/webkit/state-1440-filters-empty.png",
+        "artifacts/pixel-audit-20261101-v2/after-states-final/webkit/state-1440-filters-return-focus.png",
+        "artifacts/pixel-audit-20261101-v2/after-states-final/webkit/state-1440-gallery.png",
+        "artifacts/pixel-audit-20261101-v2/after-states-final/webkit/state-1440-gallery-next.png",
+        "artifacts/pixel-audit-20261101-v2/after-states-final/webkit/state-1440-insights-filter.png",
+        "artifacts/pixel-audit-20261101-v2/after-states-final/webkit/state-1440-contact-validation.png",
+        "artifacts/pixel-audit-20261101-v2/after-states-final/webkit/state-1440-services-interrupted.png",
+        "artifacts/pixel-audit-20261101-v2/after-states-final/webkit/state-1440-resize-desktop-return.png",
+        "artifacts/pixel-audit-20261101-v2/after-states-final/webkit/state-1440-reduced-motion-live.png",
+        "artifacts/pixel-audit-20261101-v2/after-states-final/webkit/state-1440-motion-restored.png"
+      ],
+      "focusSamples": 22,
+      "backgroundFocusEscapes": 0
+    },
+    {
+      "width": 390,
+      "screenshots": [
+        "artifacts/pixel-audit-20261101-v2/after-states-final/webkit/state-390-menu-keyboard.png",
+        "artifacts/pixel-audit-20261101-v2/after-states-final/webkit/state-390-enquiry.png",
+        "artifacts/pixel-audit-20261101-v2/after-states-final/webkit/state-390-enquiry-validation.png",
+        "artifacts/pixel-audit-20261101-v2/after-states-final/webkit/state-390-enquiry-success-mocked.png",
+        "artifacts/pixel-audit-20261101-v2/after-states-final/webkit/state-390-filters-open.png",
+        "artifacts/pixel-audit-20261101-v2/after-states-final/webkit/state-390-filters-empty.png",
+        "artifacts/pixel-audit-20261101-v2/after-states-final/webkit/state-390-filters-return-focus.png",
+        "artifacts/pixel-audit-20261101-v2/after-states-final/webkit/state-390-gallery.png",
+        "artifacts/pixel-audit-20261101-v2/after-states-final/webkit/state-390-gallery-next.png",
+        "artifacts/pixel-audit-20261101-v2/after-states-final/webkit/state-390-insights-filter.png",
+        "artifacts/pixel-audit-20261101-v2/after-states-final/webkit/state-390-contact-validation.png"
+      ],
+      "focusSamples": 22,
+      "backgroundFocusEscapes": 0
+    }
+  ],
+  "requiredChromiumSuite": {
+    "path": "artifacts/pixel-audit-20261101-v2/existing-frozen/browser-qa.json",
+    "sha256": "39396ada9351f2fc200621eeb50988047be398dfa6451125e6724e9b01e0c82e",
+    "ok": true,
+    "startedAt": "2026-11-01T15:36:29.651Z",
+    "finishedAt": "2026-11-01T15:36:56.547Z",
+    "sourceFingerprintVerifiedBeforeAndAfter": "890d5fd0fd095a8506ee150e87ebf146ead5fab5766e2fd42a76ab22b062453c",
+    "checks": [
+      "Original home, fonts and assets load at 1440/768/390/320; one h1; no horizontal overflow",
+      "Mobile menu and menu-to-enquiry Escape paths restore focus to the visible menu button",
+      "Catalogue filters remain available after resizing from mobile back to desktop",
+      "Catalogue search/empty/reset/filter/sort/reload work; property return restores the original query and selected filters",
+      "Property gallery decodes before showing the matching photo/counter, keeps the latest rapid navigation request, and restores focus",
+      "Network failure and same-context reopen preserve fields/UUID/start time; pending fields/context are protected; duplicate submit and mismatched receipt cannot report success",
+      "Changed payload obtains a new UUID; field errors remain visible; unchanged retry confirms matching receipt; success reopen starts a clean enquiry",
+      "All page templates, four development routes and current project links work; Six Senses shows Dubai Marina; insights filter, contact validation and 404 work",
+      "Catalogue, property, development, insights and contact templates fit a 390px viewport",
+      "Normal-motion card rail reaches both real snap boundaries and disables the correct control",
+      "Rapid service changes settle to one open, fully expanded panel",
+      "Resizing clears mobile parallax, the header remains anchored, and a live reduced-motion change restores a static page"
+    ],
+    "mockedRequests": 5,
+    "pageErrors": [],
+    "assetFailures": []
+  },
+  "staticGates": [
+    {
+      "command": "npm run check",
+      "passed": true,
+      "result": "36 files, 0 errors, 0 warnings, 1 existing unused-import hint",
+      "log": "artifacts/pixel-audit-20261101-v2/final-check.log",
+      "sha256": "9985ca554e17ac791056e1645911dcb1c5ac92384c5e188a33f81909f1f16394"
+    },
+    {
+      "command": "npm run build",
+      "passed": true,
+      "result": "Production output built successfully",
+      "log": "artifacts/pixel-audit-20261101-v2/final-build.log",
+      "sha256": "0e326cf809cd90edaacfbf9223e3d2202650eae345b8c1b16ed86f75b01ee0c1"
+    },
+    {
+      "command": "npm test",
+      "passed": true,
+      "result": "1 test file passed; 0 failures",
+      "log": "artifacts/pixel-audit-20261101-v2/final-unit.log",
+      "sha256": "c7422c679243ecbae607d7f12787bfd70afae0dd57371f0cb60687ff2aad1aa8"
+    },
+    {
+      "command": "node --check scripts/visual-audit.mjs; node --check scripts/browser-qa.mjs; git diff --check",
+      "passed": true
+    },
+    {
+      "command": "Source scan for arrow/chevron/close glyphs and named arrow entities",
+      "hits": 0
+    }
+  ],
+  "manualReview": {
+    "routeTopOverviewSheets": [
+      "artifacts/pixel-audit-20261101-v2/visual-review/route-tops-1440-1.jpg",
+      "artifacts/pixel-audit-20261101-v2/visual-review/route-tops-1440-2.jpg",
+      "artifacts/pixel-audit-20261101-v2/visual-review/route-tops-1440-3.jpg",
+      "artifacts/pixel-audit-20261101-v2/visual-review/route-tops-1440-4.jpg",
+      "artifacts/pixel-audit-20261101-v2/visual-review/route-tops-390-1.jpg",
+      "artifacts/pixel-audit-20261101-v2/visual-review/route-tops-390-2.jpg",
+      "artifacts/pixel-audit-20261101-v2/visual-review/route-tops-390-3.jpg",
+      "artifacts/pixel-audit-20261101-v2/visual-review/route-tops-390-4.jpg"
+    ],
+    "homeSections": [
+      "artifacts/pixel-audit-20261101-v2/visual-review/home-sections-1440.jpg",
+      "artifacts/pixel-audit-20261101-v2/visual-review/home-sections-390.jpg",
+      "artifacts/pixel-audit-20261101-v2/visual-review/home-sections-768.jpg",
+      "artifacts/pixel-audit-20261101-v2/visual-review/home-sections-1024.jpg",
+      "artifacts/pixel-audit-20261101-v2/visual-review/home-sections-1920.jpg"
+    ],
+    "additionalReview": "Fresh before/after hero, contacts320, services320/390, representative full templates, final mobile/desktop modal/filter/gallery states, before/after AVA media, native-scroll Close and final footer320/1024 were visually viewed. This is not a claim that every pixel in every full-page image was individually compared."
+  },
+  "limits": [
+    "No claim of pixel-perfect equality, physical iPhone or shipping Safari certification.",
+    "No sustained FPS, GPU memory, thermal or Core Web Vitals measurement.",
+    "Larger existing cover derivatives preserve source detail and may increase bytes versus the incorrect 480w selection; the prior loading report is not a measurement of this patch.",
+    "Atlantis original exterior is capped at 1024w; high-DPR/tall frames can remain source-limited.",
+    "All enquiry submissions were mocked; live storage and public deployment verification belong to the release owner."
+  ]
+}

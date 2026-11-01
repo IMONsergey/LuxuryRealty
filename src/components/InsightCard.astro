@@ -1,4 +1,5 @@
 ---
+import Icon from './Icon.astro';
 import {articles} from '../data/articles';
 import Picture from './Picture.astro';
 interface Props {article:typeof articles[number];}
@@ -8,5 +9,5 @@ const {article:a}=Astro.props;
  <div class="insight-image"><Picture name={a.image} alt="" sizes="(max-width: 700px) calc(100vw - 48px), 350px" /></div>
  <p class="insight-meta">{a.category}<span>{a.minutes} min read</span></p>
  <h3>{a.title}</h3><p class="insight-excerpt">{a.excerpt}</p>
- <span class="insight-arrow" aria-hidden="true">↗</span>
+ <span class="insight-arrow" aria-hidden="true"><Icon name="arrow-up-right" size={20} /></span>
 </a></article>

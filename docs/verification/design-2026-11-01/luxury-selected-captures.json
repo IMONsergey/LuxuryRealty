@@ -1,0 +1,108 @@
+{
+  "baseHead": "97e8b25fd99362d648728f7952592339c132123c",
+  "selectedCaptures": [
+    {
+      "file": "docs/verification/design-2026-11-01/luxury-hero-1440.jpg",
+      "title": "Original four-control hero search and title geometry, 1440\u00d7900",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "bytes": 241063,
+      "sha256": "18db1a24463887665f849784e4214722097f1f4b6438c80ed47361c687497e31",
+      "sourceCapture": "artifacts/pixel-audit-20261101-v2/after-routes-final/chromium/home-1440-home-hero.png",
+      "sourceCaptureSha256": "e7c72fe91f4f1da2cbcc758293263e61051ec32738cd406efd7fc78a3e1f63d5",
+      "sourceReport": "artifacts/pixel-audit-20261101-v2/after-routes-final/chromium/report.json",
+      "sourceReportSha256": "5ea84d6b2e2dd1033227119414fccd0f9082a63d0ced097cc749617bba1f0014",
+      "sourceFingerprint": "f9044155b894fcf98fe4f754544ad7f5d94d704015a4464dbc8a8330b19c85fa",
+      "captureRunFinishedAt": "2026-11-01T15:00:47.793Z",
+      "encoding": "JPEG quality90, original pixel dimensions"
+    },
+    {
+      "file": "docs/verification/design-2026-11-01/luxury-services-header-390.png",
+      "title": "SVG controls, expanded service and solid scrolled header, 390\u00d7844",
+      "dimensions": {
+        "width": 390,
+        "height": 844
+      },
+      "bytes": 39467,
+      "sha256": "c2f9a5ad56f8ff006a3bcf70b77a9d14a639dff6242a3e6f9a82d2670b582f2f",
+      "sourceCapture": "artifacts/pixel-audit-20261101-v2/after/chromium/home-390-home-services.png",
+      "sourceCaptureSha256": "c2f9a5ad56f8ff006a3bcf70b77a9d14a639dff6242a3e6f9a82d2670b582f2f",
+      "sourceReport": "artifacts/pixel-audit-20261101-v2/after/chromium/report.json",
+      "sourceReportSha256": "360f4ef2b472172da7154abf8b67f66d4314ca2167368414f03a7e56c10d5a36",
+      "sourceFingerprint": "f9044155b894fcf98fe4f754544ad7f5d94d704015a4464dbc8a8330b19c85fa",
+      "captureRunFinishedAt": "2026-11-01T14:58:00.544Z",
+      "encoding": "unchanged PNG"
+    },
+    {
+      "file": "docs/verification/design-2026-11-01/luxury-contacts-320.png",
+      "title": "Email wraps after @ with the domain intact, 320\u00d7740",
+      "dimensions": {
+        "width": 320,
+        "height": 740
+      },
+      "bytes": 43445,
+      "sha256": "3e3a5b17b332d789326107317080873255f0e6c5305198c9be435bd4b1f09262",
+      "sourceCapture": "artifacts/pixel-audit-20261101-v2/after-responsive/chromium/contacts-320-details.png",
+      "sourceCaptureSha256": "3e3a5b17b332d789326107317080873255f0e6c5305198c9be435bd4b1f09262",
+      "sourceReport": "artifacts/pixel-audit-20261101-v2/after-responsive/chromium/report.json",
+      "sourceReportSha256": "a5ab1558a4541d1bdad299b69a8dceeea0b9e15e798ab8c3748d0e7e6a525d7e",
+      "sourceFingerprint": "f9044155b894fcf98fe4f754544ad7f5d94d704015a4464dbc8a8330b19c85fa",
+      "captureRunFinishedAt": "2026-11-01T15:05:04.905Z",
+      "encoding": "unchanged PNG"
+    },
+    {
+      "file": "docs/verification/design-2026-11-01/luxury-enquiry-scroll-320.png",
+      "title": "Enquiry Close remains available after native Chromium touch scrolling, 320\u00d7740",
+      "dimensions": {
+        "width": 320,
+        "height": 740
+      },
+      "bytes": 34151,
+      "sha256": "5a02605719a31e19398eedad1abe866a80a7e9e5d1a35f306d86cec596b95d78",
+      "sourceCapture": "artifacts/pixel-audit-20261101-v2/after-boundaries-final/chromium/enquiry-dialog-320x740-touch-bottom.png",
+      "sourceCaptureSha256": "5a02605719a31e19398eedad1abe866a80a7e9e5d1a35f306d86cec596b95d78",
+      "sourceReport": "artifacts/pixel-audit-20261101-v2/after-boundaries-final/chromium/report.json",
+      "sourceReportSha256": "cd584cd6b44e53d20a1acb02f553fffc3052a0a6b86898c9d73b952a8f1a976f",
+      "sourceFingerprint": "3c14d3f9edf8b8278459e300c121e0953d5839fca74427bbdc410e1f7f3346af",
+      "captureRunFinishedAt": "2026-11-01T15:17:52.694Z",
+      "encoding": "unchanged PNG"
+    },
+    {
+      "file": "docs/verification/design-2026-11-01/luxury-ava-hero-390.jpg",
+      "title": "Original AVA cover photo selects 2400w rather than 480w, 390\u00d7844",
+      "dimensions": {
+        "width": 390,
+        "height": 844
+      },
+      "bytes": 62229,
+      "sha256": "28271e89d2d1649e8ae85af0d8c9edbe5828857f482ab4fdb46d5060afe1aa44",
+      "sourceCapture": "artifacts/pixel-audit-20261101-v2/after-media-final/chromium/developments-ava-at-palm-390-media.png",
+      "sourceCaptureSha256": "3e98578cc73908712e2357a2eae8281804a7c47af8c7c957561032a827d8a6d9",
+      "sourceReport": "artifacts/pixel-audit-20261101-v2/after-media-final/chromium/report.json",
+      "sourceReportSha256": "22046d5621f665430d0a3030a9526d885c3b5f59fbba18a075c91ae1c76bbe9a",
+      "sourceFingerprint": "6c45cab12f5075e7f314cbece6df008a39aadf74d4be62e0099406a8d4605530",
+      "captureRunFinishedAt": "2026-11-01T15:27:28.965Z",
+      "encoding": "JPEG quality90, original pixel dimensions"
+    },
+    {
+      "file": "docs/verification/design-2026-11-01/luxury-footer-1024.png",
+      "title": "Existing tablet footer layout prevents clipped links, 1024\u00d7900",
+      "dimensions": {
+        "width": 1024,
+        "height": 900
+      },
+      "bytes": 155058,
+      "sha256": "96fdd9baba5a4592d39c59ac3b2eb1b3d368c58395c6be6d11df7380cfabdc36",
+      "sourceCapture": "artifacts/pixel-audit-20261101-v2/after-footer-final/chromium/footer-1024.png",
+      "sourceCaptureSha256": "96fdd9baba5a4592d39c59ac3b2eb1b3d368c58395c6be6d11df7380cfabdc36",
+      "sourceReport": "artifacts/pixel-audit-20261101-v2/after-footer-final/chromium/report.json",
+      "sourceReportSha256": "a20209dff89fdd3e52aa5b84c700724d530e458eac11d9595d918cc6786ce733",
+      "sourceFingerprint": "890d5fd0fd095a8506ee150e87ebf146ead5fab5766e2fd42a76ab22b062453c",
+      "captureRunFinishedAt": "2026-11-01T15:34:05.675Z",
+      "encoding": "unchanged PNG"
+    }
+  ],
+  "provenanceNote": "Fresh captures from explicitly identified stages of this audit. Earlier selected regions are unchanged by later scoped price, modal, cover-source and footer corrections. They are not described as six recaptures of the final source."
+}

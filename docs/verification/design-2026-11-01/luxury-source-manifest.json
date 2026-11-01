@@ -1,0 +1,278 @@
+{
+  "baseHead": "97e8b25fd99362d648728f7952592339c132123c",
+  "baseHeadIsPublishedPatch": false,
+  "sourceFingerprint": "890d5fd0fd095a8506ee150e87ebf146ead5fab5766e2fd42a76ab22b062453c",
+  "indexHtmlSha256": "7942c62f54051dd17914e1b801a9d2208dd5d885fbfd69ec58dd53d61e0ec10f",
+  "sourceFingerprintMethod": "SHA-256 of JSON.stringify(sourceFiles), preserving the traversal order recorded in the raw visual report. Includes all src files plus the three restored SVG exports.",
+  "applicationFileCount": 21,
+  "applicationFiles": [
+    {
+      "file": "public/assets/hero-chevron.svg",
+      "sha256": "9e69606e81834fbd21af59526f23f2db5664caada29c342be07b6f549201a299",
+      "bytes": 272
+    },
+    {
+      "file": "public/assets/hero-filter.svg",
+      "sha256": "a0954203a38e9ac2c8c4cd9eeb5d6b8d895f3bbf3fabc168377fe3a1110d97be",
+      "bytes": 2500
+    },
+    {
+      "file": "public/assets/hero-search.svg",
+      "sha256": "4e57179f9827caf041664d0f9ea33f54aadb89ca200d4ab64dc22ecc3144a270",
+      "bytes": 824
+    },
+    {
+      "file": "src/components/Button.astro",
+      "sha256": "97110da59e298745082d1fcb302687e3c19f5a955a09df447b24de91524be243",
+      "bytes": 542
+    },
+    {
+      "file": "src/components/Dialogs.astro",
+      "sha256": "c30efd4ea3b3eafbd947e7649182c471e7faac672f87835d4042187142f9871e",
+      "bytes": 1404
+    },
+    {
+      "file": "src/components/EnquiryForm.astro",
+      "sha256": "5509b1b8b534cdb1b13d55ce067154c5925bbb18b3a1c42e2d22b7433e835c21",
+      "bytes": 1900
+    },
+    {
+      "file": "src/components/Footer.astro",
+      "sha256": "a4ee34b2d161e1f428291436bf23e6b6710692b7792beebe25bc417618877e85",
+      "bytes": 1231
+    },
+    {
+      "file": "src/components/Header.astro",
+      "sha256": "33a018ea4ab6eab5ad80ff95e6b81f9e7a9d3893ac70d460eefd13a7d8a2d413",
+      "bytes": 1727
+    },
+    {
+      "file": "src/components/Icon.astro",
+      "sha256": "0019e5d32505f9ae210f513b99704106e720badc2bbbe2059342eb664ceb9c7e",
+      "bytes": 801
+    },
+    {
+      "file": "src/components/InsightCard.astro",
+      "sha256": "0f8d28aa838aba0da9efab0e81f7cea542a1506d84e3245f912440165072ef97",
+      "bytes": 637
+    },
+    {
+      "file": "src/components/ProjectCard.astro",
+      "sha256": "4c7be04239f770a3754782c7ee46f9a9d897ec0b654777bc20938b526957a9f4",
+      "bytes": 1225
+    },
+    {
+      "file": "src/pages/contacts.astro",
+      "sha256": "7e1fb14a208adba6853dd7f91d824b1bca520d1d15c40182f7618c874d7fe415",
+      "bytes": 1910
+    },
+    {
+      "file": "src/pages/developments/[slug].astro",
+      "sha256": "b5f0390d516f512131357dc7b9c2fa4fd54c491becef6ef0eacb8c252831e1b2",
+      "bytes": 2840
+    },
+    {
+      "file": "src/pages/index.astro",
+      "sha256": "96c343cd950a294d545b7d3ea36e9895aec8a9c25c81bc0f37996525d6f22240",
+      "bytes": 7501
+    },
+    {
+      "file": "src/pages/insights/[slug].astro",
+      "sha256": "5f955e93ac136131297c6e9c45874b07f75e6e8e06ca6bf21286831b9dcabfad",
+      "bytes": 1851
+    },
+    {
+      "file": "src/pages/properties/[slug].astro",
+      "sha256": "ea5be0713dd23ee934d4e44c99da7f198cc12bb4e35d74713e6e3a889d129fe5",
+      "bytes": 6800
+    },
+    {
+      "file": "src/pages/properties/index.astro",
+      "sha256": "25c6469bf43cdbfa83f382443f0b2129f626d7b6ccf072654d9d611144345292",
+      "bytes": 4599
+    },
+    {
+      "file": "src/scripts/site.ts",
+      "sha256": "fd3ea33c206e96232f356595183dbad0095c011adff26725dcbe35d281db6d56",
+      "bytes": 30482
+    },
+    {
+      "file": "src/styles/global.css",
+      "sha256": "8b2d133568a543b666fe5fc6e5a6cbbf144e8eee0ad9b28968d3d41d79d62026",
+      "bytes": 18214
+    },
+    {
+      "file": "src/styles/home.css",
+      "sha256": "f32a3bc3fc9079ff9be605ad8ff444c2227debd4f560d89f2596f47e5aab452d",
+      "bytes": 13750
+    },
+    {
+      "file": "src/styles/pages.css",
+      "sha256": "508497ae6eadfb9a4fb533755100b7a4aaadd8a8f9d711d485f2072c8dfe75eb",
+      "bytes": 19837
+    }
+  ],
+  "sourceFiles": [
+    {
+      "file": "src/components/Button.astro",
+      "sha256": "97110da59e298745082d1fcb302687e3c19f5a955a09df447b24de91524be243"
+    },
+    {
+      "file": "src/components/Consultation.astro",
+      "sha256": "157274c518a9b5519fa2a2117198f67c48ecdec62612ba4157057df8d3dd6c7a"
+    },
+    {
+      "file": "src/components/Dialogs.astro",
+      "sha256": "c30efd4ea3b3eafbd947e7649182c471e7faac672f87835d4042187142f9871e"
+    },
+    {
+      "file": "src/components/EnquiryForm.astro",
+      "sha256": "5509b1b8b534cdb1b13d55ce067154c5925bbb18b3a1c42e2d22b7433e835c21"
+    },
+    {
+      "file": "src/components/Footer.astro",
+      "sha256": "a4ee34b2d161e1f428291436bf23e6b6710692b7792beebe25bc417618877e85"
+    },
+    {
+      "file": "src/components/Header.astro",
+      "sha256": "33a018ea4ab6eab5ad80ff95e6b81f9e7a9d3893ac70d460eefd13a7d8a2d413"
+    },
+    {
+      "file": "src/components/Icon.astro",
+      "sha256": "0019e5d32505f9ae210f513b99704106e720badc2bbbe2059342eb664ceb9c7e"
+    },
+    {
+      "file": "src/components/InsightCard.astro",
+      "sha256": "0f8d28aa838aba0da9efab0e81f7cea542a1506d84e3245f912440165072ef97"
+    },
+    {
+      "file": "src/components/Lettering.astro",
+      "sha256": "4e6df915f51b675795190deb10313404a99a519c7a7067775f43b48748a1ca26"
+    },
+    {
+      "file": "src/components/Picture.astro",
+      "sha256": "b8ce4f912987dc9f8a7a673d05287cd4b51af8bf164d852bc6ff8484a7c9d1d9"
+    },
+    {
+      "file": "src/components/ProjectCard.astro",
+      "sha256": "4c7be04239f770a3754782c7ee46f9a9d897ec0b654777bc20938b526957a9f4"
+    },
+    {
+      "file": "src/components/PropertyCard.astro",
+      "sha256": "a938ae2334494055c349c4c47cc6f1daea5ffdce99a7685e4f323df225d68445"
+    },
+    {
+      "file": "src/data/articles.ts",
+      "sha256": "0d1e9c84e061d3ad2c149a5a898a98b431a9fcdc7d8ef08ab7faab8345d4b52a"
+    },
+    {
+      "file": "src/data/assets.json",
+      "sha256": "ddc9a05fca28e52ca1f82f95274ab36e427a27b0fb154d135b8848dce1c806d5"
+    },
+    {
+      "file": "src/data/site.ts",
+      "sha256": "a7b6334fcee668d8d5460cda27d3b5125a6da19490bbcbff4d0d319d99f49e90"
+    },
+    {
+      "file": "src/layouts/Layout.astro",
+      "sha256": "db1f3590306521ec608de5cc8f299f5eab74fa09dcaccc4426da0915e575f827"
+    },
+    {
+      "file": "src/pages/404.astro",
+      "sha256": "5bb38f1a656d4fa6e3ffffe9c276f696ae59ebe88910f3cca05bb86ade36c247"
+    },
+    {
+      "file": "src/pages/api/enquiry.ts",
+      "sha256": "bb55680d97da8951025ea800649a062e9028afb373d5b1b38b51734021fda335"
+    },
+    {
+      "file": "src/pages/contacts.astro",
+      "sha256": "7e1fb14a208adba6853dd7f91d824b1bca520d1d15c40182f7618c874d7fe415"
+    },
+    {
+      "file": "src/pages/developments/[slug].astro",
+      "sha256": "b5f0390d516f512131357dc7b9c2fa4fd54c491becef6ef0eacb8c252831e1b2"
+    },
+    {
+      "file": "src/pages/developments/index.astro",
+      "sha256": "db5a8d210494f3f456460c6a23ebee69c77989c504b3392a17b9e58745edf416"
+    },
+    {
+      "file": "src/pages/index.astro",
+      "sha256": "96c343cd950a294d545b7d3ea36e9895aec8a9c25c81bc0f37996525d6f22240"
+    },
+    {
+      "file": "src/pages/insights/[slug].astro",
+      "sha256": "5f955e93ac136131297c6e9c45874b07f75e6e8e06ca6bf21286831b9dcabfad"
+    },
+    {
+      "file": "src/pages/insights/index.astro",
+      "sha256": "f3a77f794970e71c601536ea4f03587dee0c68b2cd48bba05e73473ecb7428e3"
+    },
+    {
+      "file": "src/pages/privacy.astro",
+      "sha256": "cba85632eb312a4d92cc971a4c3ab61f98428f00864ffa12df85b3083865e868"
+    },
+    {
+      "file": "src/pages/properties/[slug].astro",
+      "sha256": "ea5be0713dd23ee934d4e44c99da7f198cc12bb4e35d74713e6e3a889d129fe5"
+    },
+    {
+      "file": "src/pages/properties/index.astro",
+      "sha256": "25c6469bf43cdbfa83f382443f0b2129f626d7b6ccf072654d9d611144345292"
+    },
+    {
+      "file": "src/scripts/site.ts",
+      "sha256": "fd3ea33c206e96232f356595183dbad0095c011adff26725dcbe35d281db6d56"
+    },
+    {
+      "file": "src/server/enquiry.ts",
+      "sha256": "8efd0161e0449716997f711b21d4091070dc6daf887028ad64859268d82bfc41"
+    },
+    {
+      "file": "src/styles/global.css",
+      "sha256": "8b2d133568a543b666fe5fc6e5a6cbbf144e8eee0ad9b28968d3d41d79d62026"
+    },
+    {
+      "file": "src/styles/home.css",
+      "sha256": "f32a3bc3fc9079ff9be605ad8ff444c2227debd4f560d89f2596f47e5aab452d"
+    },
+    {
+      "file": "src/styles/pages.css",
+      "sha256": "508497ae6eadfb9a4fb533755100b7a4aaadd8a8f9d711d485f2072c8dfe75eb"
+    },
+    {
+      "file": "public/assets/hero-search.svg",
+      "sha256": "4e57179f9827caf041664d0f9ea33f54aadb89ca200d4ab64dc22ecc3144a270"
+    },
+    {
+      "file": "public/assets/hero-chevron.svg",
+      "sha256": "9e69606e81834fbd21af59526f23f2db5664caada29c342be07b6f549201a299"
+    },
+    {
+      "file": "public/assets/hero-filter.svg",
+      "sha256": "a0954203a38e9ac2c8c4cd9eeb5d6b8d895f3bbf3fabc168377fe3a1110d97be"
+    }
+  ],
+  "dependencies": [
+    {
+      "file": "package.json",
+      "sha256": "bafbcd2064a6a433387fd029806a6f8fb344278c4fa4e18c3edf2923d8c2c707"
+    },
+    {
+      "file": "package-lock.json",
+      "sha256": "ca89bc583da6bc2cc779d95732de1e878a23f5307852f08e595198d20bb1c4eb"
+    }
+  ],
+  "diagnostics": [
+    {
+      "file": "scripts/browser-qa.mjs",
+      "sha256": "83235d133593bdb78f461987c364c065fec7cee33ab383bf3a231e7c24156eb7"
+    },
+    {
+      "file": "scripts/visual-audit.mjs",
+      "sha256": "e87541e0b399264f16fffaa3f8686db2efee733c59358f4e262443f850976969"
+    }
+  ],
+  "publication": "Commit, push, deployment and final public-site verification are release-owner work. This manifest records the reviewed local patch, not a published SHA."
+}

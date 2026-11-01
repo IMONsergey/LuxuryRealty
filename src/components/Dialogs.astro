@@ -1,16 +1,17 @@
 ---
+import Icon from './Icon.astro';
 import EnquiryForm from './EnquiryForm.astro';
 ---
 <dialog id="enquiry-dialog" class="enquiry-dialog" aria-labelledby="enquiry-title">
- <button class="round-control dialog-close" type="button" data-close-dialog aria-label="Close enquiry">×</button>
+ <button class="round-control dialog-close" type="button" data-close-dialog aria-label="Close enquiry"><Icon name="close" /></button>
  <p class="eyebrow" data-enquiry-context>Private consultation</p>
  <h2 id="enquiry-title">A touch<br/><span class="gold">of perfection</span></h2>
  <p class="dialog-intro">Tell us what you have in mind. We will help you explore the next step.</p>
  <EnquiryForm id="modal-enquiry" />
 </dialog>
 <dialog id="gallery-dialog" class="gallery-dialog" aria-label="Property photo gallery">
- <div class="gallery-toolbar"><p data-gallery-title>Gallery</p><span data-gallery-counter aria-live="polite"></span><button type="button" class="round-control" data-close-dialog aria-label="Close gallery">×</button></div>
- <div class="gallery-stage"><button class="round-control gallery-prev" type="button" data-gallery-prev aria-label="Previous photo">←</button><img alt="" data-gallery-image /><button class="round-control gallery-next" type="button" data-gallery-next aria-label="Next photo">→</button></div>
+ <div class="gallery-toolbar"><p data-gallery-title>Gallery</p><span data-gallery-counter aria-live="polite"></span><button type="button" class="round-control" data-close-dialog aria-label="Close gallery"><Icon name="close" /></button></div>
+ <div class="gallery-stage"><button class="round-control gallery-prev" type="button" data-gallery-prev aria-label="Previous photo"><Icon name="arrow-left" /></button><img alt="" data-gallery-image /><button class="round-control gallery-next" type="button" data-gallery-next aria-label="Next photo"><Icon name="arrow-right" /></button></div>
  <p class="gallery-caption" data-gallery-caption></p>
 </dialog>
 <div class="toast" role="status" aria-live="polite" data-toast></div>

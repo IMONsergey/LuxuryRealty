@@ -1,4 +1,5 @@
 ---
+import Icon from '../../components/Icon.astro';
 import Layout from '../../layouts/Layout.astro';
 import Picture from '../../components/Picture.astro';
 import Button from '../../components/Button.astro';
@@ -6,9 +7,17 @@ import ProjectCard from '../../components/ProjectCard.astro';
 import {projects,asset} from '../../data/site';
 export function getStaticPaths(){return projects.map(project=>({params:{slug:project.id},props:{project}}));}
 const {project:p}=Astro.props;
+const heroImage=asset(p.image);
+const heroWidth=heroImage.renderWidth||heroImage.width,heroHeight=heroImage.renderHeight||heroImage.height;
+if(!heroWidth||!heroHeight)throw new Error('Missing project hero image dimensions: '+p.image);
+const heroRatio=heroWidth/heroHeight;
+const coverWidth=(height:number)=>Number((height*heroRatio).toFixed(2));
+// object-fit:cover can display a wide photograph far wider than a narrow hero.
+// Match the authored 740px/90svh mobile and 700px..900px desktop hero heights.
+const heroSizes=`(max-width: 700px) max(100vw, ${coverWidth(740)}px, ${coverWidth(90)}svh), max(100vw, ${coverWidth(700)}px, min(${coverWidth(900)}px, ${coverWidth(100)}svh))`;
 ---
 <Layout title={p.name} description={p.subtitle+'. Explore the project and request current residence information.'} image={asset(p.image).src}>
- <section class="development-detail-hero"><Picture name={p.image} alt={p.name+' architecture'} eager style={'object-position:'+p.position} /><div class="container"><p class="eyebrow">{p.location}</p><h1>{p.name}</h1><p>{p.subtitle}</p><a class="button button--outline" href="#discover"><span>Discover the project</span><span aria-hidden="true">↓</span></a></div></section>
- <section class="container development-intro section-space" id="discover"><div><a href="/developments/" class="back-link">← All developments</a><h2>A distinctive<br/>place to call home.</h2></div><div><p>Discover {p.name} through its individual project experience. Explore the architecture, residences, amenities and setting at your own pace.</p><p>For a particular residence or floor plan, request the latest details. Prices, availability and specifications are confirmed individually.</p><a class="button button--solid" href={p.url}><span>Explore {p.id==='atlantis'?'Atlantis':p.id==='ava-at-palm'?'AVA':p.id==='six-senses'?'Six Senses':'ORLA'}</span><span aria-hidden="true">↗</span></a><Button context={p.name+' residence enquiry'} variant="outline">Enquire about a residence</Button></div></section>
+ <section class="development-detail-hero"><Picture name={p.image} alt={p.name+' architecture'} eager sizes={heroSizes} style={'object-position:'+p.position} /><div class="container"><p class="eyebrow">{p.location}</p><h1>{p.name}</h1><p>{p.subtitle}</p><a class="button button--outline" href="#discover"><span>Discover the project</span><span aria-hidden="true"><Icon name="arrow-down" /></span></a></div></section>
+ <section class="container development-intro section-space" id="discover"><div><a href="/developments/" class="back-link"><Icon name="arrow-left" /> All developments</a><h2>A distinctive<br/>place to call home.</h2></div><div><p>Discover {p.name} through its individual project experience. Explore the architecture, residences, amenities and setting at your own pace.</p><p>For a particular residence or floor plan, request the latest details. Prices, availability and specifications are confirmed individually.</p><a class="button button--solid" href={p.url}><span>Explore {p.id==='atlantis'?'Atlantis':p.id==='ava-at-palm'?'AVA':p.id==='six-senses'?'Six Senses':'ORLA'}</span><span aria-hidden="true"><Icon name="arrow-up-right" size={20} /></span></a><Button context={p.name+' residence enquiry'} variant="outline">Enquire about a residence</Button></div></section>
  <section class="container other-developments"><div class="section-heading"><h2>Other perspectives</h2></div><div class="project-stack">{projects.filter(project=>project.id!==p.id).slice(0,2).map(project=><ProjectCard project={project} />)}</div></section>
 </Layout>

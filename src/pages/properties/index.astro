@@ -1,4 +1,5 @@
 ---
+import Icon from '../../components/Icon.astro';
 import Layout from '../../layouts/Layout.astro';
 import Picture from '../../components/Picture.astro';
 import Lettering from '../../components/Lettering.astro';
@@ -12,19 +13,19 @@ import {properties} from '../../data/site';
   <div class="catalogue-top"><div class="purpose-tabs" role="group" aria-label="Transaction type"><button type="button" data-purpose="buy" aria-pressed="true">Buy</button><button type="button" data-purpose="rent" aria-pressed="false">Rent</button></div><p class="result-count" role="status" data-result-count>{properties.length} properties</p><label class="sort-label">Sort by<select name="sort" data-sort><option value="featured">Featured</option><option value="price-low">Price: low to high</option><option value="price-high">Price: high to low</option><option value="name">Name</option></select></label></div>
   <div class="catalogue-layout">
    <aside class="catalogue-sidebar" id="filters">
-    <details class="filter-disclosure" open><summary>Refine your search<span aria-hidden="true">+</span></summary>
+    <details class="filter-disclosure" open><summary>Refine your search<span aria-hidden="true"><Icon name="plus" /></span></summary>
      <form class="filter-form" data-filters method="get" action="/properties/">
       <input type="hidden" name="purpose" value="buy" />
       <label class="filter-label">Location or keyword<input name="q" type="search" placeholder="Search the collection" maxlength="100" /></label>
-      <details class="filter-group" open><summary>Property type<span>⌄</span></summary><label><input type="checkbox" name="type" value="villa" />Villa</label><label><input type="checkbox" name="type" value="apartment" />Apartment</label><label><input type="checkbox" name="type" value="penthouse" />Penthouse</label></details>
-      <details class="filter-group" open><summary>Bedrooms<span>⌄</span></summary><div class="bedroom-options">{['Any','1','2','3','4','5','6+'].map((n,i)=><label><input type="radio" name="beds" value={i===0?'':String(i)} checked={i===0} /><span>{n}</span></label>)}</div></details>
-      <details class="filter-group" open><summary>Price range, AED<span>⌄</span></summary><div class="price-inputs"><label><span class="sr-only">Minimum price</span><input name="min" type="number" min="0" max="1000000000" step="100000" placeholder="From" /></label><span aria-hidden="true">–</span><label><span class="sr-only">Maximum price</span><input name="max" type="number" min="0" max="1000000000" step="100000" placeholder="To" /></label></div><p class="field-error" data-filter-error></p></details>
-      <details class="filter-group"><summary>Features<span>⌄</span></summary>{['Pool','Garden','Terrace','Water view','City view','Open kitchen'].map(feature=><label><input type="checkbox" name="features" value={feature.toLowerCase()} />{feature}</label>)}</details>
-      <button class="button button--solid" type="submit"><span>Apply filters</span><span aria-hidden="true">→</span></button><button class="reset-filters" type="reset">Reset all filters</button>
+      <details class="filter-group" open><summary>Property type<span><Icon name="chevron-down" size={16} /></span></summary><label><input type="checkbox" name="type" value="villa" />Villa</label><label><input type="checkbox" name="type" value="apartment" />Apartment</label><label><input type="checkbox" name="type" value="penthouse" />Penthouse</label></details>
+      <details class="filter-group" open><summary>Bedrooms<span><Icon name="chevron-down" size={16} /></span></summary><div class="bedroom-options">{['Any','1','2','3','4','5','6+'].map((n,i)=><label><input type="radio" name="beds" value={i===0?'':String(i)} checked={i===0} /><span>{n}</span></label>)}</div></details>
+      <details class="filter-group" open><summary>Price range, AED<span><Icon name="chevron-down" size={16} /></span></summary><div class="price-inputs"><label><span class="sr-only">Minimum price</span><input name="min" type="number" min="0" max="1000000000" step="100000" placeholder="From" /></label><span aria-hidden="true">–</span><label><span class="sr-only">Maximum price</span><input name="max" type="number" min="0" max="1000000000" step="100000" placeholder="To" /></label></div><p class="field-error" data-filter-error></p></details>
+      <details class="filter-group"><summary>Features<span><Icon name="chevron-down" size={16} /></span></summary>{['Pool','Garden','Terrace','Water view','City view','Open kitchen'].map(feature=><label><input type="checkbox" name="features" value={feature.toLowerCase()} />{feature}</label>)}</details>
+      <button class="button button--solid" type="submit"><span>Apply filters</span><span aria-hidden="true"><Icon name="arrow-right" /></span></button><button class="reset-filters" type="reset">Reset all filters</button>
      </form>
     </details>
    </aside>
-   <div class="catalogue-results"><div class="property-grid" data-property-grid>{properties.map(property=><PropertyCard property={property} />)}<div class="empty-state" data-no-results hidden><p class="eyebrow">Let’s make it personal</p><h2>No matching properties</h2><p>Try fewer filters, or tell us what you are looking for and request a tailored selection.</p><button class="button button--outline" type="button" data-enquiry="Personal property search"><span>Request a selection</span><span aria-hidden="true">→</span></button></div></div>
+   <div class="catalogue-results"><div class="property-grid" data-property-grid>{properties.map(property=><PropertyCard property={property} />)}<div class="empty-state" data-no-results hidden><p class="eyebrow">Let’s make it personal</p><h2>No matching properties</h2><p>Try fewer filters, or tell us what you are looking for and request a tailored selection.</p><button class="button button--outline" type="button" data-enquiry="Personal property search"><span>Request a selection</span><span aria-hidden="true"><Icon name="arrow-right" /></span></button></div></div>
     <p class="collection-note">Collection details are supplied for enquiry. Prices, specifications and availability must be confirmed for the individual property.</p>
    </div>
   </div>
