@@ -1,0 +1,5 @@
+---
+interface Props {name:string;text:string;class?:string;}
+const {name,text,class:className=''}=Astro.props;
+---
+<span class:list={['lettering',className]}><img src={'/assets/lettering-'+name+'.svg'} alt={text} draggable="false" /></span>

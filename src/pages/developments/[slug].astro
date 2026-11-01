@@ -1,0 +1,14 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Picture from '../../components/Picture.astro';
+import Button from '../../components/Button.astro';
+import ProjectCard from '../../components/ProjectCard.astro';
+import {projects,asset} from '../../data/site';
+export function getStaticPaths(){return projects.map(project=>({params:{slug:project.id},props:{project}}));}
+const {project:p}=Astro.props;
+---
+<Layout title={p.name} description={p.subtitle+'. Explore the project and request current residence information.'} image={asset(p.image).src}>
+ <section class="development-detail-hero"><Picture name={p.image} alt={p.name+' architecture'} eager style={'object-position:'+p.position} /><div class="container"><p class="eyebrow">{p.location}</p><h1>{p.name}</h1><p>{p.subtitle}</p><a class="button button--outline" href="#discover"><span>Discover the project</span><span aria-hidden="true">↓</span></a></div></section>
+ <section class="container development-intro section-space" id="discover"><div><a href="/developments/" class="back-link">← All developments</a><h2>A distinctive<br/>place to call home.</h2></div><div><p>Discover {p.name} through its individual project experience. Explore the architecture, residences, amenities and setting at your own pace.</p><p>For a particular residence or floor plan, request the latest details. Prices, availability and specifications are confirmed individually.</p><a class="button button--solid" href={p.url}><span>Explore {p.id==='atlantis'?'Atlantis':p.id==='ava-at-palm'?'AVA':p.id==='six-senses'?'Six Senses':'ORLA'}</span><span aria-hidden="true">↗</span></a><Button context={p.name+' residence enquiry'} variant="outline">Enquire about a residence</Button></div></section>
+ <section class="container other-developments"><div class="section-heading"><h2>Other perspectives</h2></div><div class="project-stack">{projects.filter(project=>project.id!==p.id).slice(0,2).map(project=><ProjectCard project={project} />)}</div></section>
+</Layout>

@@ -1,0 +1,14 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Picture from '../../components/Picture.astro';
+import InsightCard from '../../components/InsightCard.astro';
+import Button from '../../components/Button.astro';
+import {articles} from '../../data/articles';
+import {asset} from '../../data/site';
+export function getStaticPaths(){return articles.map(article=>({params:{slug:article.id},props:{article}}));}
+const {article:a}=Astro.props;
+---
+<Layout title={a.title} description={a.excerpt} image={asset(a.image).src}>
+ <article class="editorial-article"><header class="container article-heading"><a class="back-link" href="/insights/">← All insights</a><p class="eyebrow">{a.category} · {a.minutes} min read</p><h1>{a.title}</h1><p>{a.excerpt}</p></header><div class="article-hero container"><Picture name={a.image} alt={a.title} eager /></div><div class="container article-body"><aside><p class="eyebrow">In this story</p><nav aria-label="Article contents">{a.sections.map((section,i)=><a href={'#section-'+(i+1)}>{section.heading}</a>)}</nav><button class="text-link" type="button" data-share>Share this story ↗</button></aside><div class="article-prose">{a.sections.map((section,i)=><section id={'section-'+(i+1)}><h2>{section.heading}</h2><p>{section.body}</p></section>)}<div class="article-enquiry"><p>Continue the conversation.</p><Button context={'Enquiry after reading: '+a.title} variant="outline">Speak with the team</Button></div></div></div></article>
+ <section class="container section-space"><div class="section-heading"><h2>More perspectives</h2></div><div class="related-insights">{articles.filter(article=>article.id!==a.id).slice(0,3).map(article=><InsightCard article={article} />)}</div></section>
+</Layout>

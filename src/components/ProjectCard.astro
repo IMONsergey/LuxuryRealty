@@ -1,0 +1,12 @@
+---
+import {projects} from '../data/site';
+import Picture from './Picture.astro';
+interface Props {project:typeof projects[number];}
+const {project:p}=Astro.props;
+---
+<a class="project-card" href={'/developments/'+p.id+'/'} data-reveal>
+ <Picture name={p.image} alt={p.name+' architecture'} style={'object-position:'+p.position} />
+ <div class="project-shade"></div>
+ <div class="project-title"><p class="eyebrow">New development in Dubai</p><h3>{p.name}</h3><p>{p.subtitle}</p></div>
+ <div class="project-bottom"><p>Location: {p.location}<br/><span>Availability and prices on enquiry</span></p><span class="button button--outline"><span>View more details</span><span aria-hidden="true">→</span></span></div>
+</a>

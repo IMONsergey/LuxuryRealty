@@ -1,0 +1,7 @@
+---
+import {asset} from '../data/site';
+interface Props {name:string;alt?:string;class?:string;eager?:boolean;style?:string;sizes?:string;}
+const {name,alt='',class:className='',eager=false,style='',sizes='100vw'}=Astro.props;
+const a=asset(name);
+---
+<img src={a.src} srcset={a.srcset} alt={alt} class={className} width={a.renderWidth||a.width} height={a.renderHeight||a.height} loading={eager?'eager':'lazy'} decoding="async" fetchpriority={eager?'high':'auto'} style={style} sizes={sizes} />

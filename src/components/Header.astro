@@ -1,0 +1,20 @@
+---
+import {navigation,site} from '../data/site';
+import Picture from './Picture.astro';
+const current=Astro.url.pathname;
+---
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+ <div class="container header-inner">
+  <a class="brand-mark" href="/" aria-label="Luxury Realty home"><Picture name="imgGroup1" eager /></a>
+  <a class="brand-word" href="/" aria-label="Luxury Realty home"><Picture name="imgGroup48096582" eager /></a>
+  <button class="menu-toggle" type="button" aria-label="Open navigation" aria-controls="site-menu" aria-expanded="false"><span></span><span></span><span></span></button>
+ </div>
+</header>
+<dialog id="site-menu" class="menu-dialog" aria-label="Main navigation">
+ <div class="container menu-top"><a href="/" aria-label="Luxury Realty home"><Picture name="imgGroup1" /></a><button type="button" data-close-dialog aria-label="Close navigation" class="round-control">×</button></div>
+ <div class="container menu-grid">
+  <nav aria-label="Main">{navigation.map((item,index)=><a href={item.href} aria-current={current===item.href?'page':undefined}><span class="nav-number">{String(index+1).padStart(2,'0')}</span>{item.label}<span class="nav-arrow" aria-hidden="true">↗</span></a>)}</nav>
+  <aside><p class="eyebrow">A personal conversation</p><a href={'mailto:'+site.email}>{site.email}</a><a href={'tel:'+site.phoneHref}>{site.phone}</a><p>{site.address}</p><button class="button button--outline" type="button" data-enquiry="Private consultation"><span>Arrange a consultation</span><span aria-hidden="true">→</span></button></aside>
+ </div>
+</dialog>

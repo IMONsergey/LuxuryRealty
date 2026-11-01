@@ -1,0 +1,12 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Picture from '../../components/Picture.astro';
+import ProjectCard from '../../components/ProjectCard.astro';
+import Consultation from '../../components/Consultation.astro';
+import {projects} from '../../data/site';
+---
+<Layout title="New developments in Dubai" description="Explore AVA, ORLA, Six Senses Residences and Atlantis The Royal Residences.">
+ <section class="page-hero developments-hero"><div class="page-hero-back"><Picture name="img1" eager /></div><div class="container"><p class="eyebrow">Extraordinary perspectives</p><h1>New developments<br/>in Dubai</h1><p>Architecture, landscape and a new way of living. Explore our collection of distinctive residential projects.</p></div></section>
+ <section class="container developments-collection" aria-label="New residential developments"><div class="project-stack">{projects.map(project=><ProjectCard project={project} />)}</div></section>
+ <Consultation />
+</Layout>
