@@ -1,0 +1,376 @@
+{
+  "verifiedAt": "2026-11-01T11:28:42.308Z",
+  "browser": "Chromium via the shared server Playwright installation",
+  "scope": "Published pages and assets; separately verified real enquiry persistence and retry behavior. Not a live inventory or outbound email test.",
+  "sourceCommits": {
+    "luxury-realty": "737c9262e994cf640a04ea28885304c90eaa40c3",
+    "atlantis": "75a13d8c4646160c44e5809e3cfe3bd4182ca480",
+    "orla": "d3047758c76eac7cc6d5c04d5d1b02145cc203d0",
+    "six-senses": "fc95fa8b27ab5c1fc950cf998e3431b74361ca9f",
+    "ava-at-palm": "c5eb573d2181a3b842b769b924c2ba59096ddeb1"
+  },
+  "browserRun": {
+    "ok": true,
+    "job": "20261101T112804-189f9153e7",
+    "pages": [
+      {
+        "label": "luxury-main-1440",
+        "url": "https://luxury-realty-imon.vercel.app/",
+        "ok": true,
+        "httpStatus": 200,
+        "width": 1440,
+        "imageCount": 30,
+        "decodedImageCount": 30,
+        "fontCount": 8,
+        "errors": [],
+        "scriptErrors": [],
+        "failedAssets": [],
+        "metadataNotes": []
+      },
+      {
+        "label": "luxury-main-390",
+        "url": "https://luxury-realty-imon.vercel.app/",
+        "ok": true,
+        "httpStatus": 200,
+        "width": 390,
+        "imageCount": 30,
+        "decodedImageCount": 30,
+        "fontCount": 8,
+        "errors": [],
+        "scriptErrors": [],
+        "failedAssets": [],
+        "metadataNotes": []
+      },
+      {
+        "label": "atlantis-main-1440",
+        "url": "https://atlantis-imon.vercel.app/",
+        "ok": true,
+        "httpStatus": 200,
+        "width": 1440,
+        "imageCount": 74,
+        "decodedImageCount": 74,
+        "fontCount": 5,
+        "errors": [],
+        "scriptErrors": [],
+        "failedAssets": [],
+        "metadataNotes": []
+      },
+      {
+        "label": "atlantis-main-390",
+        "url": "https://atlantis-imon.vercel.app/",
+        "ok": true,
+        "httpStatus": 200,
+        "width": 390,
+        "imageCount": 74,
+        "decodedImageCount": 74,
+        "fontCount": 5,
+        "errors": [],
+        "scriptErrors": [],
+        "failedAssets": [],
+        "metadataNotes": []
+      },
+      {
+        "label": "orla-main-1440",
+        "url": "https://orla-imon.vercel.app/",
+        "ok": true,
+        "httpStatus": 200,
+        "width": 1440,
+        "imageCount": 83,
+        "decodedImageCount": 83,
+        "fontCount": 11,
+        "errors": [],
+        "scriptErrors": [],
+        "failedAssets": [],
+        "metadataNotes": [
+          "Canonical and og:url absent; allowed for the original ORLA release."
+        ]
+      },
+      {
+        "label": "orla-main-390",
+        "url": "https://orla-imon.vercel.app/",
+        "ok": true,
+        "httpStatus": 200,
+        "width": 390,
+        "imageCount": 83,
+        "decodedImageCount": 83,
+        "fontCount": 11,
+        "errors": [],
+        "scriptErrors": [],
+        "failedAssets": [],
+        "metadataNotes": [
+          "Canonical and og:url absent; allowed for the original ORLA release."
+        ]
+      },
+      {
+        "label": "six-senses-main-1440",
+        "url": "https://six-senses-imon.vercel.app/",
+        "ok": true,
+        "httpStatus": 200,
+        "width": 1440,
+        "imageCount": 56,
+        "decodedImageCount": 56,
+        "fontCount": 6,
+        "errors": [],
+        "scriptErrors": [],
+        "failedAssets": [],
+        "metadataNotes": []
+      },
+      {
+        "label": "six-senses-main-390",
+        "url": "https://six-senses-imon.vercel.app/",
+        "ok": true,
+        "httpStatus": 200,
+        "width": 390,
+        "imageCount": 56,
+        "decodedImageCount": 56,
+        "fontCount": 6,
+        "errors": [],
+        "scriptErrors": [],
+        "failedAssets": [],
+        "metadataNotes": []
+      },
+      {
+        "label": "ava-main-1440",
+        "url": "https://ava-at-palm-imon.vercel.app/",
+        "ok": true,
+        "httpStatus": 200,
+        "width": 1440,
+        "imageCount": 36,
+        "decodedImageCount": 36,
+        "fontCount": 9,
+        "errors": [],
+        "scriptErrors": [],
+        "failedAssets": [],
+        "metadataNotes": []
+      },
+      {
+        "label": "ava-main-390",
+        "url": "https://ava-at-palm-imon.vercel.app/",
+        "ok": true,
+        "httpStatus": 200,
+        "width": 390,
+        "imageCount": 36,
+        "decodedImageCount": 36,
+        "fontCount": 9,
+        "errors": [],
+        "scriptErrors": [],
+        "failedAssets": [],
+        "metadataNotes": []
+      },
+      {
+        "label": "luxury-catalogue-390",
+        "url": "https://luxury-realty-imon.vercel.app/properties/",
+        "ok": true,
+        "httpStatus": 200,
+        "width": 390,
+        "imageCount": 19,
+        "decodedImageCount": 19,
+        "fontCount": 8,
+        "errors": [],
+        "scriptErrors": [],
+        "failedAssets": [],
+        "metadataNotes": []
+      },
+      {
+        "label": "luxury-property-390",
+        "url": "https://luxury-realty-imon.vercel.app/properties/dubai-hills-residence/",
+        "ok": true,
+        "httpStatus": 200,
+        "width": 390,
+        "imageCount": 22,
+        "decodedImageCount": 22,
+        "fontCount": 8,
+        "errors": [],
+        "scriptErrors": [],
+        "failedAssets": [],
+        "metadataNotes": []
+      },
+      {
+        "label": "ava-1601-390",
+        "url": "https://ava-at-palm-imon.vercel.app/residences/1601/",
+        "ok": true,
+        "httpStatus": 200,
+        "width": 390,
+        "imageCount": 5,
+        "decodedImageCount": 5,
+        "fontCount": 9,
+        "errors": [],
+        "scriptErrors": [],
+        "failedAssets": [],
+        "metadataNotes": []
+      },
+      {
+        "label": "atlantis-3402-390",
+        "url": "https://atlantis-imon.vercel.app/residences/3402/",
+        "ok": true,
+        "httpStatus": 200,
+        "width": 390,
+        "imageCount": 10,
+        "decodedImageCount": 10,
+        "fontCount": 5,
+        "errors": [],
+        "scriptErrors": [],
+        "failedAssets": [],
+        "metadataNotes": []
+      }
+    ],
+    "projectLinks": [
+      {
+        "source": "https://luxury-realty-imon.vercel.app/developments/orla/",
+        "expectedOrigin": "https://orla-imon.vercel.app",
+        "errors": [],
+        "httpStatus": 200,
+        "projectLinks": [
+          "https://orla-imon.vercel.app/"
+        ],
+        "ok": true
+      },
+      {
+        "source": "https://luxury-realty-imon.vercel.app/developments/atlantis/",
+        "expectedOrigin": "https://atlantis-imon.vercel.app",
+        "errors": [],
+        "httpStatus": 200,
+        "projectLinks": [
+          "https://atlantis-imon.vercel.app/"
+        ],
+        "ok": true
+      },
+      {
+        "source": "https://luxury-realty-imon.vercel.app/developments/six-senses/",
+        "expectedOrigin": "https://six-senses-imon.vercel.app",
+        "errors": [],
+        "httpStatus": 200,
+        "projectLinks": [
+          "https://six-senses-imon.vercel.app/"
+        ],
+        "ok": true
+      },
+      {
+        "source": "https://luxury-realty-imon.vercel.app/developments/ava-at-palm/",
+        "expectedOrigin": "https://ava-at-palm-imon.vercel.app",
+        "errors": [],
+        "httpStatus": 200,
+        "projectLinks": [
+          "https://ava-at-palm-imon.vercel.app/"
+        ],
+        "ok": true
+      }
+    ],
+    "browserCleanup": {
+      "graceful": true,
+      "forceKillRequested": false,
+      "browserProcessExited": true
+    }
+  },
+  "apiRun": {
+    "ok": true,
+    "job": "20261101T112600-5d2bec947f",
+    "startedAt": "2026-11-01T11:26:42.487067+00:00",
+    "finishedAt": "2026-11-01T11:27:02.067496+00:00",
+    "results": [
+      {
+        "project": "luxury-realty",
+        "url": "https://luxury-realty-imon.vercel.app",
+        "home": 200,
+        "title": [
+          "Luxury Realty"
+        ],
+        "method": 405,
+        "invalidConsent": 422,
+        "crossOrigin": 403,
+        "firstSubmission": 201,
+        "idempotentRetry": 200,
+        "conflictingReuse": 409,
+        "ok": true
+      },
+      {
+        "project": "atlantis",
+        "url": "https://atlantis-imon.vercel.app",
+        "home": 200,
+        "title": [
+          "Atlantis The Royal Residences | Created for legendary living"
+        ],
+        "method": 405,
+        "invalidConsent": 422,
+        "crossOrigin": 403,
+        "firstSubmission": 201,
+        "idempotentRetry": 200,
+        "conflictingReuse": 409,
+        "ok": true
+      },
+      {
+        "project": "orla",
+        "url": "https://orla-imon.vercel.app",
+        "home": 200,
+        "title": [
+          "ORLA, Dorchester Collection | Palm Jumeirah, Dubai"
+        ],
+        "method": 405,
+        "invalidConsent": 422,
+        "crossOrigin": 403,
+        "firstSubmission": 201,
+        "idempotentRetry": 200,
+        "conflictingReuse": 409,
+        "ok": true
+      },
+      {
+        "project": "six-senses",
+        "url": "https://six-senses-imon.vercel.app",
+        "home": 200,
+        "title": [
+          "Six Senses Residences Dubai Marina | Explore the residences"
+        ],
+        "method": 405,
+        "invalidConsent": 422,
+        "crossOrigin": 403,
+        "firstSubmission": 201,
+        "idempotentRetry": 200,
+        "conflictingReuse": 409,
+        "ok": true
+      },
+      {
+        "project": "ava-at-palm",
+        "url": "https://ava-at-palm-imon.vercel.app",
+        "home": 200,
+        "title": [
+          "AVA at Palm Jumeirah | Inhabit the infinite"
+        ],
+        "method": 405,
+        "invalidConsent": 422,
+        "crossOrigin": 403,
+        "firstSubmission": 201,
+        "idempotentRetry": 200,
+        "conflictingReuse": 409,
+        "ok": true
+      }
+    ]
+  },
+  "runtimeLogs": {
+    "checkedAt": "2026-11-01T11:31:25.423032+00:00",
+    "window": "15m",
+    "environment": "production",
+    "levels": [
+      "error",
+      "fatal"
+    ],
+    "matchingGroups": 0,
+    "scope": "All five Vercel projects; empty log results do not prove long-term reliability."
+  },
+  "imageDiagnosis": {
+    "project": "orla",
+    "elements": 83,
+    "simultaneousDecodeFailures": 24,
+    "sequentialDecodeFailures": 0,
+    "brokenImages": 0,
+    "conclusion": "Every unchanged image decoded sequentially. Production QA now bounds decode concurrency and still requires all images to decode."
+  },
+  "orlaMetadataFollowUp": {
+    "url": "https://orla-imon.vercel.app/",
+    "httpStatus": 200,
+    "canonical": "https://orla-imon.vercel.app/",
+    "ogUrl": "https://orla-imon.vercel.app/",
+    "ok": true,
+    "checkedAt": "2026-11-01T11:35:00.787650+00:00",
+    "sourceCommit": "8e213318ed04ecc12850f57e5fe9ad9b1e665352"
+  }
+}

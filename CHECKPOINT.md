@@ -39,3 +39,11 @@ Supplied property inventory, prices and contact details are source content rathe
 Recovered original design source and optimized assets preserved. Fresh npm install, production build, type checks, five enquiry API tests, and browser interaction checks passed on the authorized server. Private enquiry storage is configured on the Vercel project. Production HTTP and storage verification is recorded separately after deployment.
 
 Two empty 1800w WebP derivatives recovered from their full original images; all 123 raster assets decoded successfully. Final browser QA passed after the asset fix.
+
+## Completed live verification, 2026-11-01 14:28 +03:00
+
+All five production sites are READY and were checked on their assigned public origins. The final 14-page/viewport Chromium run passed, including every selected image decode, declared font, canonical rule, cross-project link, console/page error check and overflow check. All five real enquiry endpoints passed 201 creation, 200 unchanged retry, 409 conflicting reuse, 422 missing consent and 403 cross-origin rejection.
+
+The previous ORLA/Six Senses image failures were caused by concurrent decode calls in the release checker: all unchanged images passed sequential decoding. The corrected checker is preserved in scripts/production-qa.mjs; all validation requirements remain. No site artwork was replaced.
+
+See docs/RELEASE-2026-11-01.md and docs/verification/production-2026-11-01.json for exact source commits, evidence and content limits. Next work requires the actual missing films/PDF documents, verified commercial/contact details, and a chosen recipient/integration if enquiry forwarding is wanted. Existing submissions are stored privately; no email or CRM delivery is claimed.
