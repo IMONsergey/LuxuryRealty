@@ -40,13 +40,14 @@ async function settle(page){
  try{
   await page.waitForFunction(()=>[...document.images].filter(image=>image.getAttribute('src')).every(image=>image.complete&&image.naturalWidth>0),null,{timeout:20000});
   // A corrupt file must still fail even if its header exposed natural dimensions.
-  await page.evaluate(async()=>{await Promise.all([...document.images].filter(image=>image.getAttribute('src')).map(image=>image.decode()));});
+  await page.evaluate(async()=>{for(const image of [...document.images].filter(image=>image.getAttribute('src')))await image.decode();});
  }catch(error){
   const images=await page.evaluate(()=>[...document.images].filter(image=>image.getAttribute('src')).map(image=>({src:image.getAttribute('src'),currentSrc:image.currentSrc,complete:image.complete,width:image.naturalWidth,height:image.naturalHeight})).filter(image=>!image.complete||!image.width));
   throw new Error(`Images did not load and decode on ${page.url()}: ${JSON.stringify(images)}; ${error.message}`);
  }
 }
 async function dialogState(page,id,open=true){await page.waitForFunction(({id,open})=>document.getElementById(id)?.open===open,{id,open});}
+async function galleryPhoto(page,index,total){await page.waitForFunction(({index,total})=>{const image=document.querySelector('[data-gallery-image]');return document.querySelector('[data-gallery-counter]')?.textContent===`${index} / ${total}`&&image?.complete&&image.naturalWidth>0&&!document.querySelector('.gallery-stage')?.hasAttribute('aria-busy');},{index,total});}
 async function formIdle(form){await form.page().waitForFunction(selector=>document.querySelector(selector)?.dataset.sending==='false',await form.evaluate(element=>{element.id||='qa-enquiry-form';return `#${element.id}`;}));}
 async function focused(locator){await locator.page().waitForFunction(selector=>document.querySelector(selector)===document.activeElement,await locator.evaluate(element=>{element.id||=`qa-focus-${Math.random().toString(36).slice(2)}`;return `#${element.id}`;}));}
 async function fillForm(form){await form.locator('[name=name]').fill('Website Verification');await form.locator('[name=email]').fill('qa@example.invalid');await form.locator('[name=phone]').fill('+10000000000');await form.locator('[name=message]').fill('Synthetic UI verification. No real enquiry is sent.');await form.locator('[name=consent]').check();await delay(850);}
@@ -73,6 +74,10 @@ try{
 
  await page.setViewportSize({width:1440,height:900});
  await page.goto(base+'/properties/',{waitUntil:'networkidle'});
+ await page.setViewportSize({width:390,height:844});await page.locator('.filter-disclosure>summary').waitFor({state:'visible'});await page.waitForFunction(()=>document.querySelector('.filter-disclosure')?.open===false);
+ assert.equal(await page.locator('[data-filters]').isVisible(),false);
+ await page.setViewportSize({width:1440,height:900});await page.locator('[data-filters]').waitFor({state:'visible'});
+ check('Catalogue filters remain available after resizing from mobile back to desktop');
  const query=page.locator('[data-filters] [name=q]');await query.fill('NoMatchingResidenceXYZ');await page.locator('[data-filters] [type=submit]').click();
  await page.locator('[data-no-results]').waitFor({state:'visible'});assert.match(await page.locator('[data-result-count]').innerText(),/^0 /);
  await page.locator('[data-filters] [type=reset]').click();await page.waitForFunction(()=>document.querySelector('[data-result-count]')?.textContent==='8 properties');
@@ -84,9 +89,13 @@ try{
  const back=page.locator('.property-page .back-link');assert.deepEqual(semanticURL(await back.evaluate(link=>link.href)),semanticURL(catalogueURL));await back.click();await page.waitForURL(url=>sameURL(url,catalogueURL));assert.equal(await query.inputValue(),'Dubai');assert.equal(await page.locator('[data-sort]').inputValue(),'price-high');
  assert.equal(await page.locator('[name=features][value=pool]').isChecked(),true);await focused(visibleCards.first().locator('a'));await visibleCards.first().locator('a').click();await page.waitForURL(base+propertyHref);await settle(page);
  check('Catalogue search/empty/reset/filter/sort/reload work; property return restores the original query and selected filters');
- const galleryButton=page.locator('.property-hero [data-gallery]');await galleryButton.click();await dialogState(page,'gallery-dialog');assert.equal(await page.locator('[data-gallery-counter]').innerText(),'1 / 4');
- await page.locator('[data-gallery-next]').click();assert.equal(await page.locator('[data-gallery-counter]').innerText(),'2 / 4');await page.keyboard.press('ArrowLeft');assert.equal(await page.locator('[data-gallery-counter]').innerText(),'1 / 4');await page.keyboard.press('Escape');await dialogState(page,'gallery-dialog',false);await focused(galleryButton);
- check('Property gallery opens the four originals, responds to buttons and keyboard, and restores focus');
+ const galleryButton=page.locator('.property-hero [data-gallery]');await galleryButton.click();await dialogState(page,'gallery-dialog');await galleryPhoto(page,1,4);
+ await page.locator('[data-gallery-next]').click();await galleryPhoto(page,2,4);await page.keyboard.press('ArrowLeft');await galleryPhoto(page,1,4);
+ await page.keyboard.press('ArrowRight');await page.keyboard.press('ArrowRight');await page.keyboard.press('ArrowRight');await galleryPhoto(page,4,4);
+ const galleryOriginals=JSON.parse(await galleryButton.getAttribute('data-gallery'));
+ assert.equal(new URL(await page.locator('[data-gallery-image]').getAttribute('src'),base).pathname,galleryOriginals[3].src);
+ await page.keyboard.press('Escape');await dialogState(page,'gallery-dialog',false);await focused(galleryButton);
+ check('Property gallery decodes before showing the matching photo/counter, keeps the latest rapid navigation request, and restores focus');
 
  const posted=[];const held=new Promise(resolve=>releaseHeldRequest=resolve);
  await page.route('**/api/enquiry',async route=>{
@@ -126,8 +135,22 @@ try{
   await page.goto(base+route,{waitUntil:'networkidle'});await settle(page);const width=await page.evaluate(()=>document.documentElement.scrollWidth);assert.ok(width<=391,`${route} overflows at 390: ${width}`);
  }
  check('Catalogue, property, development, insights and contact templates fit a 390px viewport');
- const motionContext=await browser.newContext({viewport:{width:1440,height:900},reducedMotion:'no-preference'});const motion=await motionContext.newPage();observe(motion);await motion.goto(base,{waitUntil:'networkidle'});await settle(motion);await motion.locator('h1').waitFor({state:'visible'});await motion.evaluate(()=>scrollTo(0,innerHeight));await delay(300);assert.ok(await motion.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));await motionContext.close();
- check('Normal-motion home and reduced-motion interaction paths load without page errors');
+ const motionContext=await browser.newContext({viewport:{width:1440,height:900},reducedMotion:'no-preference'});const motion=await motionContext.newPage();observe(motion);await motion.goto(base,{waitUntil:'networkidle'});await settle(motion);await motion.locator('h1').waitFor({state:'visible'});await delay(950);
+ await motion.screenshot({path:path.join(artifacts,'home-motion-1440.png')});
+ const rail=motion.locator('.selection-rail');await rail.focus();await motion.keyboard.press('End');await motion.locator('[data-rail-next=".selection-rail"]').waitFor({state:'visible'});
+ await motion.waitForFunction(()=>document.querySelector('[data-rail-next=".selection-rail"]')?.disabled===true);
+ await motion.keyboard.press('Home');await motion.waitForFunction(()=>document.querySelector('[data-rail-prev=".selection-rail"]')?.disabled===true);
+ check('Normal-motion card rail reaches both real snap boundaries and disables the correct control');
+ const summaries=motion.locator('.service>summary');await summaries.nth(1).click();await summaries.nth(2).click();await delay(350);
+ assert.equal(await motion.locator('.service[open]').count(),1);assert.equal(await motion.locator('.service').nth(2).getAttribute('open'),'');
+ await motion.screenshot({path:path.join(artifacts,'services-motion-1440.png')});
+ check('Rapid service changes settle to one open, fully expanded panel');
+ await motion.setViewportSize({width:390,height:844});await motion.waitForFunction(()=>getComputedStyle(document.querySelector('[data-hero-parallax]')).transform==='none');
+ await motion.setViewportSize({width:1440,height:900});await motion.evaluate(()=>scrollTo({top:240,behavior:'instant'}));await delay(500);
+ assert.ok(await motion.evaluate(()=>document.querySelector('.site-header').getBoundingClientRect().top===0));
+ await motion.emulateMedia({reducedMotion:'reduce'});await motion.waitForFunction(()=>getComputedStyle(document.querySelector('[data-hero-parallax]')).transform==='none');
+ assert.ok(await motion.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));await motionContext.close();
+ check('Resizing clears mobile parallax, the header remains anchored, and a live reduced-motion change restores a static page');
  assert.deepEqual(report.pageErrors,[]);assert.deepEqual(report.assetFailures,[]);report.ok=true;
 }catch(error){report.error=error.stack||String(error);process.exitCode=1;}
 finally{

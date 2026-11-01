@@ -116,12 +116,12 @@
     "srcset": "/assets/photo-6d8bc9b85dc8eadc-480.webp 480w, /assets/photo-6d8bc9b85dc8eadc-800.webp 800w, /assets/photo-6d8bc9b85dc8eadc-1200.webp 1200w, /assets/photo-6d8bc9b85dc8eadc.webp 1520w"
   },
   "imgRectangle6": {
-    "src": "/assets/photo-71dc6441fb4a9673.webp",
-    "width": 1024,
-    "height": 684,
-    "renderWidth": 1024,
-    "renderHeight": 684,
-    "srcset": "/assets/photo-71dc6441fb4a9673-480.webp 480w, /assets/photo-71dc6441fb4a9673-800.webp 800w, /assets/photo-71dc6441fb4a9673.webp 1024w"
+    "src": "/assets/hero-palm-08fa4f93ccc15ce1-q87-2560.webp",
+    "width": 4096,
+    "height": 2734,
+    "renderWidth": 2560,
+    "renderHeight": 1709,
+    "srcset": "/assets/hero-palm-08fa4f93ccc15ce1-q87-480.webp 480w, /assets/hero-palm-08fa4f93ccc15ce1-q87-800.webp 800w, /assets/hero-palm-08fa4f93ccc15ce1-q87-1200.webp 1200w, /assets/hero-palm-08fa4f93ccc15ce1-q87-1800.webp 1800w, /assets/hero-palm-08fa4f93ccc15ce1-q87-2560.webp 2560w"
   },
   "imgImage1": {
     "src": "/assets/photo-4264c33a1773bc50.webp",
