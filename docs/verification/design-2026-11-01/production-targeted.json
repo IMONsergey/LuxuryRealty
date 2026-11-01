@@ -1,0 +1,889 @@
+{
+  "startedAt": "2026-11-01T17:21:06.289Z",
+  "projects": {
+    "atlantis": {
+      "origin": "https://atlantis-imon.vercel.app",
+      "expectedSha": "a94c16da3a602832484fce0a2c6b05958658cbc9"
+    },
+    "ava": {
+      "origin": "https://ava-at-palm-imon.vercel.app",
+      "expectedSha": "99124cef83252891226f8521791652ad6d898ff1"
+    }
+  },
+  "result": "PASS",
+  "cases": [
+    {
+      "name": "atlantis-collage844",
+      "project": "atlantis",
+      "viewport": {
+        "width": 844,
+        "height": 768
+      },
+      "expectedSha": "a94c16da3a602832484fce0a2c6b05958658cbc9",
+      "passed": true,
+      "navigation": {
+        "url": "https://atlantis-imon.vercel.app/",
+        "status": 200,
+        "htmlSha256": "4df5dbbfa1e6a6cb09855bdd59f3f049df4cbb85f8c52b0458d68e5ae43e7bfe",
+        "headers": {
+          "etag": "W/\"03febf7a38e993c2415afbca1e157227\"",
+          "last-modified": "Sun, 01 Nov 2026 17:21:06 GMT",
+          "x-vercel-cache": "MISS",
+          "x-vercel-id": "cle1::7lwsj-1793553666734-4dc3bd050ead"
+        },
+        "assets": [
+          "/_astro/Header.DuA-2nQ9.css",
+          "/_astro/index.njX6VT5a.css",
+          "/_astro/Layout.astro_astro_type_script_index_0_lang.B7goeGyC.js"
+        ]
+      },
+      "css": {
+        ".reside-composition": {
+          "display": "grid",
+          "position": "relative"
+        },
+        ".reside-copy": {
+          "display": "block",
+          "position": "relative"
+        },
+        ".collage-image--bottom": {
+          "display": "block",
+          "position": "relative"
+        }
+      },
+      "geometry": {
+        "button": {
+          "x": 314.09375,
+          "y": 160.328125,
+          "width": 200.8125,
+          "height": 46,
+          "top": 160.328125,
+          "right": 514.90625,
+          "bottom": 206.328125,
+          "left": 314.09375
+        },
+        "photo": {
+          "x": 234.140625,
+          "y": 221.296875,
+          "width": 360.703125,
+          "height": 125.6875,
+          "top": 221.296875,
+          "right": 594.84375,
+          "bottom": 346.984375,
+          "left": 234.140625
+        },
+        "hit": true
+      },
+      "screenshots": [
+        "atlantis-collage844-cta.jpg"
+      ],
+      "nativeClick": true,
+      "finishedAt": "2026-11-01T17:21:10.746Z"
+    },
+    {
+      "name": "atlantis-catalogue",
+      "project": "atlantis",
+      "viewport": {
+        "width": 320,
+        "height": 740
+      },
+      "expectedSha": "a94c16da3a602832484fce0a2c6b05958658cbc9",
+      "passed": true,
+      "navigation": {
+        "url": "https://atlantis-imon.vercel.app/",
+        "status": 200,
+        "htmlSha256": "4df5dbbfa1e6a6cb09855bdd59f3f049df4cbb85f8c52b0458d68e5ae43e7bfe",
+        "headers": {
+          "etag": "W/\"03febf7a38e993c2415afbca1e157227\"",
+          "last-modified": "Sun, 01 Nov 2026 17:21:06 GMT",
+          "x-vercel-cache": "HIT",
+          "x-vercel-id": "cle1::5tb4z-1793553670909-ccfe74d39020"
+        },
+        "assets": [
+          "/_astro/Header.DuA-2nQ9.css",
+          "/_astro/index.njX6VT5a.css",
+          "/_astro/Layout.astro_astro_type_script_index_0_lang.B7goeGyC.js"
+        ]
+      },
+      "widths": [
+        {
+          "width": 320,
+          "paddingLeft": "8px",
+          "paddingRight": "8px",
+          "bounds": {
+            "x": 25,
+            "y": 249.5,
+            "width": 255,
+            "height": 105.78125,
+            "top": 249.5,
+            "right": 280,
+            "bottom": 355.28125,
+            "left": 25
+          },
+          "values": [
+            {
+              "text": "Total area",
+              "x": 33,
+              "y": 277.5,
+              "width": 71,
+              "height": 15.390625,
+              "top": 277.5,
+              "right": 104,
+              "bottom": 292.890625,
+              "left": 33
+            },
+            {
+              "text": "340.43 sq m",
+              "x": 115.5,
+              "y": 277.5,
+              "width": 74,
+              "height": 15.390625,
+              "top": 277.5,
+              "right": 189.5,
+              "bottom": 292.890625,
+              "left": 115.5
+            },
+            {
+              "text": "3,664 sq ft",
+              "x": 201,
+              "y": 277.5,
+              "width": 71,
+              "height": 15.390625,
+              "top": 277.5,
+              "right": 272,
+              "bottom": 292.890625,
+              "left": 201
+            },
+            {
+              "text": "Balcony",
+              "x": 33,
+              "y": 311.890625,
+              "width": 54,
+              "height": 15.390625,
+              "top": 311.890625,
+              "right": 87,
+              "bottom": 327.28125,
+              "left": 33
+            },
+            {
+              "text": "60.94 sq m",
+              "x": 115.5,
+              "y": 311.890625,
+              "width": 68,
+              "height": 15.390625,
+              "top": 311.890625,
+              "right": 183.5,
+              "bottom": 327.28125,
+              "left": 115.5
+            },
+            {
+              "text": "656 sq ft",
+              "x": 212,
+              "y": 311.890625,
+              "width": 60,
+              "height": 15.390625,
+              "top": 311.890625,
+              "right": 272,
+              "bottom": 327.28125,
+              "left": 212
+            }
+          ]
+        },
+        {
+          "width": 360,
+          "paddingLeft": "24px",
+          "paddingRight": "24px",
+          "bounds": {
+            "x": 25,
+            "y": 250.015625,
+            "width": 295,
+            "height": 105.78125,
+            "top": 250.015625,
+            "right": 320,
+            "bottom": 355.796875,
+            "left": 25
+          },
+          "values": [
+            {
+              "text": "Total area",
+              "x": 49,
+              "y": 278.015625,
+              "width": 71,
+              "height": 15.390625,
+              "top": 278.015625,
+              "right": 120,
+              "bottom": 293.40625,
+              "left": 49
+            },
+            {
+              "text": "340.43 sq m",
+              "x": 135.5,
+              "y": 278.015625,
+              "width": 74,
+              "height": 15.390625,
+              "top": 278.015625,
+              "right": 209.5,
+              "bottom": 293.40625,
+              "left": 135.5
+            },
+            {
+              "text": "3,664 sq ft",
+              "x": 225,
+              "y": 278.015625,
+              "width": 71,
+              "height": 15.390625,
+              "top": 278.015625,
+              "right": 296,
+              "bottom": 293.40625,
+              "left": 225
+            },
+            {
+              "text": "Balcony",
+              "x": 49,
+              "y": 312.40625,
+              "width": 54,
+              "height": 15.390625,
+              "top": 312.40625,
+              "right": 103,
+              "bottom": 327.796875,
+              "left": 49
+            },
+            {
+              "text": "60.94 sq m",
+              "x": 135.5,
+              "y": 312.40625,
+              "width": 68,
+              "height": 15.390625,
+              "top": 312.40625,
+              "right": 203.5,
+              "bottom": 327.796875,
+              "left": 135.5
+            },
+            {
+              "text": "656 sq ft",
+              "x": 236,
+              "y": 312.40625,
+              "width": 60,
+              "height": 15.390625,
+              "top": 312.40625,
+              "right": 296,
+              "bottom": 327.796875,
+              "left": 236
+            }
+          ]
+        }
+      ],
+      "screenshots": [
+        "atlantis-catalogue-320.jpg"
+      ],
+      "finishedAt": "2026-11-01T17:21:14.774Z"
+    },
+    {
+      "name": "atlantis-form844",
+      "project": "atlantis",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "expectedSha": "a94c16da3a602832484fce0a2c6b05958658cbc9",
+      "passed": true,
+      "navigation": {
+        "url": "https://atlantis-imon.vercel.app/",
+        "status": 200,
+        "htmlSha256": "4df5dbbfa1e6a6cb09855bdd59f3f049df4cbb85f8c52b0458d68e5ae43e7bfe",
+        "headers": {
+          "etag": "W/\"03febf7a38e993c2415afbca1e157227\"",
+          "last-modified": "Sun, 01 Nov 2026 17:21:06 GMT",
+          "x-vercel-cache": "HIT",
+          "x-vercel-id": "cle1::hj29c-1793553674934-07ddafbea39a"
+        },
+        "assets": [
+          "/_astro/Header.DuA-2nQ9.css",
+          "/_astro/index.njX6VT5a.css",
+          "/_astro/Layout.astro_astro_type_script_index_0_lang.B7goeGyC.js"
+        ]
+      },
+      "close": {
+        "initial": {
+          "directClose": true,
+          "directScroller": true,
+          "scrollTop": 0,
+          "scroller": {
+            "x": 74.5,
+            "y": 78,
+            "width": 680,
+            "height": 296,
+            "top": 78,
+            "right": 754.5,
+            "bottom": 374,
+            "left": 74.5
+          },
+          "close": {
+            "x": 694.5,
+            "y": 32,
+            "width": 44,
+            "height": 44,
+            "top": 32,
+            "right": 738.5,
+            "bottom": 76,
+            "left": 694.5
+          },
+          "closePosition": "absolute",
+          "hit": true,
+          "scrollerOverflow": "auto",
+          "dialogOverflow": "hidden",
+          "bodyOverflow": "hidden",
+          "htmlOverflow": "hidden"
+        },
+        "deep": {
+          "directClose": true,
+          "directScroller": true,
+          "scrollTop": 411,
+          "scroller": {
+            "x": 74.5,
+            "y": 78,
+            "width": 680,
+            "height": 296,
+            "top": 78,
+            "right": 754.5,
+            "bottom": 374,
+            "left": 74.5
+          },
+          "close": {
+            "x": 694.5,
+            "y": 32,
+            "width": 44,
+            "height": 44,
+            "top": 32,
+            "right": 738.5,
+            "bottom": 76,
+            "left": 694.5
+          },
+          "closePosition": "absolute",
+          "hit": true,
+          "scrollerOverflow": "auto",
+          "dialogOverflow": "hidden",
+          "bodyOverflow": "hidden",
+          "htmlOverflow": "hidden"
+        }
+      },
+      "screenshots": [
+        "atlantis-form844-deep-close.jpg",
+        "atlantis-form844-success.jpg"
+      ],
+      "reopened": {
+        "directClose": true,
+        "directScroller": true,
+        "scrollTop": 0,
+        "scroller": {
+          "x": 74.5,
+          "y": 78,
+          "width": 680,
+          "height": 296,
+          "top": 78,
+          "right": 754.5,
+          "bottom": 374,
+          "left": 74.5
+        },
+        "close": {
+          "x": 694.5,
+          "y": 32,
+          "width": 44,
+          "height": 44,
+          "top": 32,
+          "right": 738.5,
+          "bottom": 76,
+          "left": 694.5
+        },
+        "closePosition": "absolute",
+        "hit": true,
+        "scrollerOverflow": "auto",
+        "dialogOverflow": "hidden",
+        "bodyOverflow": "hidden",
+        "htmlOverflow": "hidden"
+      },
+      "pendingScroll": 411,
+      "success": {
+        "visible": true,
+        "focused": true,
+        "scrollTop": 0,
+        "headingTop": 148.796875,
+        "scrollTopEdge": 78
+      },
+      "closed": {
+        "body": "visible",
+        "html": "visible",
+        "dialogs": 0
+      },
+      "finishedAt": "2026-11-01T17:21:19.927Z"
+    },
+    {
+      "name": "ava-tablet768",
+      "project": "ava",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "expectedSha": "99124cef83252891226f8521791652ad6d898ff1",
+      "passed": true,
+      "navigation": {
+        "url": "https://ava-at-palm-imon.vercel.app/",
+        "status": 200,
+        "htmlSha256": "e93f937b9e5bdeba78669e33d0f2b2be83f1451fdea10e0335cc943176e57d06",
+        "headers": {
+          "etag": "W/\"f1fc767b613c0b6b3448916a7146e51d\"",
+          "last-modified": "Sun, 01 Nov 2026 17:21:20 GMT",
+          "x-vercel-cache": "MISS",
+          "x-vercel-id": "cle1::mbqmq-1793553680111-55d28bd98bcc"
+        },
+        "assets": [
+          "/_astro/Header.Dcs0zDLM.css",
+          "/_astro/index.BVXdDibw.css",
+          "/_astro/BaseLayout.astro_astro_type_script_index_0_lang.DbGR9Z3k.js"
+        ]
+      },
+      "css": {
+        ".sky-information": {
+          "display": "flex",
+          "position": "absolute",
+          "minWidth": "300px",
+          "width": 300,
+          "gap": "24px",
+          "marginTop": "0px",
+          "fontSize": "16px",
+          "lineHeight": "normal",
+          "bottom": "983.438px",
+          "textShadow": "none"
+        },
+        ".sky-copy": {
+          "display": "block",
+          "position": "static",
+          "minWidth": "auto",
+          "width": 300,
+          "gap": "normal",
+          "marginTop": "0px",
+          "fontSize": "14px",
+          "lineHeight": "26.712px",
+          "bottom": "auto",
+          "textShadow": "none"
+        },
+        ".sky-cta": {
+          "display": "block",
+          "position": "static",
+          "minWidth": "auto",
+          "width": 225,
+          "gap": "normal",
+          "marginTop": "0px",
+          "fontSize": "16px",
+          "lineHeight": "normal",
+          "bottom": "auto",
+          "textShadow": "none"
+        },
+        ".architecture-information": {
+          "display": "flex",
+          "position": "absolute",
+          "minWidth": "0px",
+          "width": 338.125,
+          "gap": "normal",
+          "marginTop": "0px",
+          "fontSize": "16px",
+          "lineHeight": "normal",
+          "bottom": "560.188px",
+          "textShadow": "none"
+        },
+        ".architecture-copy": {
+          "display": "block",
+          "position": "static",
+          "minWidth": "auto",
+          "width": 218.65625,
+          "gap": "normal",
+          "marginTop": "0px",
+          "fontSize": "12px",
+          "lineHeight": "19.8px",
+          "bottom": "auto",
+          "textShadow": "none"
+        },
+        ".architecture-cta": {
+          "display": "block",
+          "position": "static",
+          "minWidth": "auto",
+          "width": 193,
+          "gap": "normal",
+          "marginTop": "24px",
+          "fontSize": "16px",
+          "lineHeight": "normal",
+          "bottom": "auto",
+          "textShadow": "none"
+        },
+        ".location": {
+          "display": "grid",
+          "position": "relative",
+          "minWidth": "0px",
+          "width": 753,
+          "gap": "normal 28.8px",
+          "marginTop": "0px",
+          "fontSize": "16px",
+          "lineHeight": "normal",
+          "bottom": "0px",
+          "textShadow": "none"
+        },
+        ".location-copy": {
+          "display": "block",
+          "position": "relative",
+          "minWidth": "auto",
+          "width": 218.65625,
+          "gap": "normal",
+          "marginTop": "13.8667px",
+          "fontSize": "14px",
+          "lineHeight": "22.4px",
+          "bottom": "0px",
+          "textShadow": "none"
+        },
+        ".partner--omniyat > p:last-child": {
+          "display": "block",
+          "position": "static",
+          "minWidth": "0px",
+          "width": 184.53125,
+          "gap": "normal",
+          "marginTop": "0px",
+          "fontSize": "14px",
+          "lineHeight": "22.4px",
+          "bottom": "auto",
+          "textShadow": "none"
+        },
+        ".partner--dorchester > p:last-child": {
+          "display": "block",
+          "position": "static",
+          "minWidth": "0px",
+          "width": 184.53125,
+          "gap": "normal",
+          "marginTop": "0px",
+          "fontSize": "14px",
+          "lineHeight": "22.4px",
+          "bottom": "auto",
+          "textShadow": "none"
+        },
+        ".gallery-copy": {
+          "display": "block",
+          "position": "absolute",
+          "minWidth": "0px",
+          "width": 172.796875,
+          "gap": "normal",
+          "marginTop": "0px",
+          "fontSize": "14px",
+          "lineHeight": "22.4px",
+          "bottom": "32px",
+          "textShadow": "none"
+        },
+        ".gallery-counter": {
+          "display": "block",
+          "position": "absolute",
+          "minWidth": "0px",
+          "width": 26,
+          "gap": "normal",
+          "marginTop": "0px",
+          "fontSize": "14px",
+          "lineHeight": "21px",
+          "bottom": "447.797px",
+          "textShadow": "rgba(7, 24, 41, 0.7) 0px 1px 2px, rgba(7, 24, 41, 0.4) 0px 0px 8px"
+        },
+        ".interior-title": {
+          "display": "block",
+          "position": "absolute",
+          "minWidth": "0px",
+          "width": 266.65625,
+          "gap": "normal",
+          "marginTop": "0px",
+          "fontSize": "21.8667px",
+          "lineHeight": "22.96px",
+          "bottom": "397.859px",
+          "textShadow": "rgba(7, 24, 41, 0.7) 0px 1px 2px, rgba(7, 24, 41, 0.4) 0px 0px 8px"
+        },
+        ".enquiry-editorial > .display": {
+          "display": "block",
+          "position": "relative",
+          "minWidth": "0px",
+          "width": 0,
+          "gap": "normal",
+          "marginTop": "60px",
+          "fontSize": "48px",
+          "lineHeight": "51.84px",
+          "bottom": "auto",
+          "textShadow": "none"
+        }
+      },
+      "sky": {
+        "copy": {
+          "x": 389.328125,
+          "y": 19.515625,
+          "width": 300,
+          "height": 186.921875,
+          "top": 19.515625,
+          "right": 689.328125,
+          "bottom": 206.4375,
+          "left": 389.328125
+        },
+        "cta": {
+          "x": 389.328125,
+          "y": 230.4375,
+          "width": 225,
+          "height": 51,
+          "top": 230.4375,
+          "right": 614.328125,
+          "bottom": 281.4375,
+          "left": 389.328125
+        },
+        "hit": true
+      },
+      "screenshots": [
+        "ava-tablet768-sky.jpg"
+      ],
+      "desktop": [
+        {
+          "selector": ".sky-information",
+          "display": "contents"
+        },
+        {
+          "selector": ".architecture-information",
+          "display": "contents"
+        }
+      ],
+      "finishedAt": "2026-11-01T17:21:23.109Z"
+    },
+    {
+      "name": "ava-film-form844",
+      "project": "ava",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "expectedSha": "99124cef83252891226f8521791652ad6d898ff1",
+      "passed": true,
+      "navigation": {
+        "url": "https://ava-at-palm-imon.vercel.app/",
+        "status": 200,
+        "htmlSha256": "e93f937b9e5bdeba78669e33d0f2b2be83f1451fdea10e0335cc943176e57d06",
+        "headers": {
+          "etag": "W/\"f1fc767b613c0b6b3448916a7146e51d\"",
+          "last-modified": "Sun, 01 Nov 2026 17:21:20 GMT",
+          "x-vercel-cache": "HIT",
+          "x-vercel-id": "cle1::h9c55-1793553683239-4f36b2589cea"
+        },
+        "assets": [
+          "/_astro/Header.Dcs0zDLM.css",
+          "/_astro/index.BVXdDibw.css",
+          "/_astro/BaseLayout.astro_astro_type_script_index_0_lang.DbGR9Z3k.js"
+        ]
+      },
+      "film": {
+        "src": null,
+        "action": "enquire",
+        "text": "Request the film",
+        "context": "The Sky Palace / Film request",
+        "branch": "Missing full film; request fallback verified"
+      },
+      "close": {
+        "initial": {
+          "directClose": true,
+          "directScroller": true,
+          "scrollTop": 0,
+          "scroller": {
+            "x": 32.5,
+            "y": 30,
+            "width": 764,
+            "height": 330,
+            "top": 30,
+            "right": 796.5,
+            "bottom": 360,
+            "left": 32.5
+          },
+          "close": {
+            "x": 732.5,
+            "y": 46,
+            "width": 44,
+            "height": 44,
+            "top": 46,
+            "right": 776.5,
+            "bottom": 90,
+            "left": 732.5
+          },
+          "closePosition": "absolute",
+          "hit": true,
+          "scrollerOverflow": "auto",
+          "dialogOverflow": "hidden",
+          "bodyOverflow": "hidden",
+          "htmlOverflow": "hidden"
+        },
+        "deep": {
+          "directClose": true,
+          "directScroller": true,
+          "scrollTop": 370,
+          "scroller": {
+            "x": 32.5,
+            "y": 30,
+            "width": 764,
+            "height": 330,
+            "top": 30,
+            "right": 796.5,
+            "bottom": 360,
+            "left": 32.5
+          },
+          "close": {
+            "x": 732.5,
+            "y": 46,
+            "width": 44,
+            "height": 44,
+            "top": 46,
+            "right": 776.5,
+            "bottom": 90,
+            "left": 732.5
+          },
+          "closePosition": "absolute",
+          "hit": true,
+          "scrollerOverflow": "auto",
+          "dialogOverflow": "hidden",
+          "bodyOverflow": "hidden",
+          "htmlOverflow": "hidden"
+        }
+      },
+      "screenshots": [
+        "ava-film-form844-deep-close.jpg",
+        "ava-film-form844-success.jpg"
+      ],
+      "reopened": {
+        "directClose": true,
+        "directScroller": true,
+        "scrollTop": 0,
+        "scroller": {
+          "x": 32.5,
+          "y": 30,
+          "width": 764,
+          "height": 330,
+          "top": 30,
+          "right": 796.5,
+          "bottom": 360,
+          "left": 32.5
+        },
+        "close": {
+          "x": 732.5,
+          "y": 46,
+          "width": 44,
+          "height": 44,
+          "top": 46,
+          "right": 776.5,
+          "bottom": 90,
+          "left": 732.5
+        },
+        "closePosition": "absolute",
+        "hit": true,
+        "scrollerOverflow": "auto",
+        "dialogOverflow": "hidden",
+        "bodyOverflow": "hidden",
+        "htmlOverflow": "hidden"
+      },
+      "pendingScroll": 399,
+      "success": {
+        "visible": true,
+        "focused": true,
+        "scrollTop": 0,
+        "headingTop": 184,
+        "scrollTopEdge": 30,
+        "reference": "21836a71-ef91-4835-a953-fe11ac300741"
+      },
+      "closed": {
+        "body": "visible",
+        "html": "visible",
+        "dialogs": 0
+      },
+      "finishedAt": "2026-11-01T17:21:30.161Z"
+    }
+  ],
+  "mockRequests": [
+    {
+      "case": "atlantis-form844",
+      "project": "atlantis",
+      "context": "General enquiry",
+      "submissionId": "d20abe72-5de7-4840-bb80-3b8e87f1c26c",
+      "mocked": true,
+      "responded": true
+    },
+    {
+      "case": "ava-film-form844",
+      "project": "ava-at-palm",
+      "context": "The Sky Palace / Film request",
+      "submissionId": "21836a71-ef91-4835-a953-fe11ac300741",
+      "mocked": true,
+      "responded": true
+    }
+  ],
+  "blockedRequests": [],
+  "pageErrors": [],
+  "scope": "Targeted deployed CSS, film branch, native scroller Close, reopen and mocked success. One Chromium context at a time.",
+  "releaseEvidence": "Expected SHA supplied by the release owner after READY. This checker records live HTML/assets and computed behavior; it does not independently query deployment-to-commit metadata.",
+  "limits": [
+    "Chromium on Linux only",
+    "No real enquiry POST or storage receipt",
+    "No FPS, INP, physical Safari or comprehensive production-route claim"
+  ],
+  "runtime": {
+    "node": "v24.22.1",
+    "playwright": "1.58.2",
+    "chromium": "145.0.7632.6"
+  },
+  "finishedAt": "2026-11-01T17:21:30.220Z",
+  "checkerSha256": "6c1adfc0e57175f86e039245108ab7002bce47e34f508167a999701fc937a2df",
+  "ownerConfirmedDeployments": {
+    "atlantis": "dpl_A2mFt6MNiyYdhc3eitAZisiHCXyj",
+    "ava": "dpl_FvRmZ85Q72mwjbaAMpzB3G4b61xR"
+  },
+  "visualReview": {
+    "completedAt": "2026-11-01T17:23:06.403725+00:00",
+    "result": "PASS",
+    "viewedAtOriginalSize": 7,
+    "findings": [
+      "Atlantis CTA is fully exposed above the lower collage photograph; native click opens enquiry.",
+      "Atlantis320 area values remain within the three-column card.",
+      "AVA768 paragraph and CTA remain readable against the light sky.",
+      "Both deep-scrolled forms retain a visible Close at its original coordinate.",
+      "Both short-height success views start at scrollTop0 with the heading beginning inside the scrollport; remaining success content is scrollable."
+    ],
+    "newProductDefects": []
+  },
+  "screenshots": [
+    {
+      "file": "atlantis-catalogue-320.jpg",
+      "bytes": 29429,
+      "sha256": "9a5cfa7dcc997de9fc999c23edb67355d5ccf94c358d426e4a0d90e40828f808"
+    },
+    {
+      "file": "atlantis-collage844-cta.jpg",
+      "bytes": 100791,
+      "sha256": "55d3ac2a6a67137fcb82a3a7b30926cc1bb3cf9ded01d14c39c5270a3e416e8c"
+    },
+    {
+      "file": "atlantis-form844-deep-close.jpg",
+      "bytes": 18715,
+      "sha256": "e00ab7ef6d87106dbc5d437ffe42ed82ac39be1399fca48fab497b5da11146a7"
+    },
+    {
+      "file": "atlantis-form844-success.jpg",
+      "bytes": 23849,
+      "sha256": "21307d0286707c95657ad983a90d8a3230221aff83f17509203e7401420c424c"
+    },
+    {
+      "file": "ava-film-form844-deep-close.jpg",
+      "bytes": 56201,
+      "sha256": "53e44d2c1e635523f924d2e351e0be9857f65a81b4752e2b225cce2596f334f4"
+    },
+    {
+      "file": "ava-film-form844-success.jpg",
+      "bytes": 30552,
+      "sha256": "bbf539a05cf2b5b2a293dc83ef07bd3752fc3620054b6a61da82431a35b90738"
+    },
+    {
+      "file": "ava-tablet768-sky.jpg",
+      "bytes": 128771,
+      "sha256": "698dc44e1480bc8eb170b661f89f2d22b7f252307a0166e2abf8991e6e7e765a"
+    }
+  ]
+}

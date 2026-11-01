@@ -1,0 +1,848 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-01",
+  "applicationReleases": [
+    {
+      "id": "luxury",
+      "name": "Luxury Realty",
+      "repository": "IMONsergey/LuxuryRealty",
+      "parent": "97e8b25fd99362d648728f7952592339c132123c",
+      "commit": "d4435224834118029a46ef006e90858317233f6b",
+      "tree": "0d3822f4955ea938ab5eaba30c6ed0d5b22a63de",
+      "reviewedFileCount": 36,
+      "alias": "https://luxury-realty-imon.vercel.app",
+      "deployment": {
+        "id": "dpl_C5BYX9gC8Xa7cY2ibbmnhCdD5scJ",
+        "url": "https://luxury-realty-imon-52ttk9l4i-cdo-2844s-projects.vercel.app",
+        "readyState": "READY",
+        "commit": "d4435224834118029a46ef006e90858317233f6b",
+        "aliases": [
+          "luxury-realty-imon.vercel.app",
+          "luxury-realty-imon-cdo-2844s-projects.vercel.app",
+          "luxury-realty-imon-git-main-cdo-2844s-projects.vercel.app"
+        ],
+        "readyAt": "2026-11-01T17:19:58.633Z"
+      },
+      "verifiedAt": "2026-11-01T17:20:25.411Z"
+    },
+    {
+      "id": "atlantis",
+      "name": "Atlantis The Royal Residences",
+      "repository": "IMONsergey/AtlantistheRoyalResidences",
+      "parent": "6de8339639929976e7a22d9f892c89a64b54b099",
+      "commit": "a94c16da3a602832484fce0a2c6b05958658cbc9",
+      "tree": "c84edfd9daa2ec9e6165b4d211d3d9a36c048a00",
+      "reviewedFileCount": 25,
+      "alias": "https://atlantis-imon.vercel.app",
+      "deployment": {
+        "id": "dpl_A2mFt6MNiyYdhc3eitAZisiHCXyj",
+        "url": "https://atlantis-imon-ok44z0rxx-cdo-2844s-projects.vercel.app",
+        "readyState": "READY",
+        "commit": "a94c16da3a602832484fce0a2c6b05958658cbc9",
+        "aliases": [
+          "atlantis-imon.vercel.app",
+          "atlantis-imon-cdo-2844s-projects.vercel.app",
+          "atlantis-imon-git-main-cdo-2844s-projects.vercel.app"
+        ],
+        "readyAt": "2026-11-01T17:18:15.709Z"
+      },
+      "verifiedAt": "2026-11-01T17:20:25.411Z"
+    },
+    {
+      "id": "orla",
+      "name": "ORLA",
+      "repository": "IMONsergey/orla",
+      "parent": "56634c9ef85b4d986be0d5d2168316d7ce6e519e",
+      "commit": "cd66952ebb37c4a8214f37cdedde8f27657e1dce",
+      "tree": "0653d3eb5491a07a4f8800501bfbce726045f9bb",
+      "reviewedFileCount": 20,
+      "alias": "https://orla-imon.vercel.app",
+      "deployment": {
+        "id": "dpl_GfeDEv6iMfEatX8WadxRU16wt9jW",
+        "url": "https://orla-imon-ok8evzfj3-cdo-2844s-projects.vercel.app",
+        "readyState": "READY",
+        "commit": "cd66952ebb37c4a8214f37cdedde8f27657e1dce",
+        "aliases": [
+          "orla-imon.vercel.app",
+          "orla-imon-cdo-2844s-projects.vercel.app",
+          "orla-imon-git-main-cdo-2844s-projects.vercel.app"
+        ],
+        "readyAt": "2026-11-01T17:18:39.592Z"
+      },
+      "verifiedAt": "2026-11-01T17:20:25.411Z"
+    },
+    {
+      "id": "six-senses",
+      "name": "Six Senses",
+      "repository": "IMONsergey/SixSenses",
+      "parent": "1b6be6cba1fa2c070260fb132dbb2f64e30ef92d",
+      "commit": "c7f4899544874b17f538a971385f963450db5c1c",
+      "tree": "f340b0bf8f624d5df0e4da7eff31dedb61ccc33d",
+      "reviewedFileCount": 21,
+      "alias": "https://six-senses-imon.vercel.app",
+      "deployment": {
+        "id": "dpl_GYEHSCBrDqEzmKvH9yuAL4CZbKQQ",
+        "url": "https://six-senses-imon-1tlxvb8f2-cdo-2844s-projects.vercel.app",
+        "readyState": "READY",
+        "commit": "c7f4899544874b17f538a971385f963450db5c1c",
+        "aliases": [
+          "six-senses-imon.vercel.app",
+          "six-senses-imon-cdo-2844s-projects.vercel.app",
+          "six-senses-imon-git-main-cdo-2844s-projects.vercel.app"
+        ],
+        "readyAt": "2026-11-01T17:19:01.753Z"
+      },
+      "verifiedAt": "2026-11-01T17:20:25.411Z"
+    },
+    {
+      "id": "ava",
+      "name": "AVA",
+      "repository": "IMONsergey/AvaAtPalm",
+      "parent": "e0bf9bca060e63bc698eb14a6a89f968dc8421c0",
+      "commit": "99124cef83252891226f8521791652ad6d898ff1",
+      "tree": "78472f2f02f4a271769f965bf7b9198a13a67ab7",
+      "reviewedFileCount": 26,
+      "alias": "https://ava-at-palm-imon.vercel.app",
+      "deployment": {
+        "id": "dpl_FvRmZ85Q72mwjbaAMpzB3G4b61xR",
+        "url": "https://ava-at-palm-imon-kkyosumkf-cdo-2844s-projects.vercel.app",
+        "readyState": "READY",
+        "commit": "99124cef83252891226f8521791652ad6d898ff1",
+        "aliases": [
+          "ava-at-palm-imon.vercel.app",
+          "ava-at-palm-imon-cdo-2844s-projects.vercel.app",
+          "ava-at-palm-imon-git-main-cdo-2844s-projects.vercel.app"
+        ],
+        "readyAt": "2026-11-01T17:19:28.853Z"
+      },
+      "verifiedAt": "2026-11-01T17:20:25.411Z"
+    }
+  ],
+  "documentationFollowups": [
+    {
+      "id": "ava",
+      "commit": "a36d1c6ceb6001cc92171fd61ce4d5a58bcce0f0",
+      "tree": "7c4ae08245b3ad57bf7ee72ca50e949e56b60837",
+      "files": [
+        "docs/VISUAL-AUDIT-2026-11-01.md"
+      ],
+      "applicationUnchanged": true,
+      "deployment": {
+        "id": "dpl_GMffJa643wUbHDT64k1Jtu4kAtoD",
+        "readyState": "READY",
+        "commit": "a36d1c6ceb6001cc92171fd61ce4d5a58bcce0f0",
+        "aliases": [
+          "ava-at-palm-imon.vercel.app",
+          "ava-at-palm-imon-cdo-2844s-projects.vercel.app",
+          "ava-at-palm-imon-git-main-cdo-2844s-projects.vercel.app"
+        ]
+      }
+    }
+  ],
+  "serverSourceSync": {
+    "verifiedAt": "2026-11-01T17:25:08.311771+00:00",
+    "projects": [
+      {
+        "id": "luxury",
+        "head": "d4435224834118029a46ef006e90858317233f6b",
+        "tree": "0d3822f4955ea938ab5eaba30c6ed0d5b22a63de",
+        "clean": true
+      },
+      {
+        "id": "atlantis",
+        "head": "a94c16da3a602832484fce0a2c6b05958658cbc9",
+        "tree": "c84edfd9daa2ec9e6165b4d211d3d9a36c048a00",
+        "clean": true
+      },
+      {
+        "id": "orla",
+        "head": "cd66952ebb37c4a8214f37cdedde8f27657e1dce",
+        "tree": "0653d3eb5491a07a4f8800501bfbce726045f9bb",
+        "clean": true
+      },
+      {
+        "id": "six-senses",
+        "head": "c7f4899544874b17f538a971385f963450db5c1c",
+        "tree": "f340b0bf8f624d5df0e4da7eff31dedb61ccc33d",
+        "clean": true
+      },
+      {
+        "id": "ava",
+        "head": "a36d1c6ceb6001cc92171fd61ce4d5a58bcce0f0",
+        "tree": "7c4ae08245b3ad57bf7ee72ca50e949e56b60837",
+        "clean": true
+      }
+    ]
+  },
+  "productionVisualReview": {
+    "initialViewports": 70,
+    "luxury": 46,
+    "otherProjects": 24,
+    "targetedViewports": 7,
+    "newMaterialDefects": 0,
+    "scope": "Review of recorded initial viewports, plus seven targeted production state captures. Full section and interaction coverage belongs to the per-project local audits."
+  },
+  "note": "Application release commits identify the sources tested in the browser. The release report and production evidence are delivered in a later documentation-only Luxury commit, whose own SHA cannot be included in its contents.",
+  "productionRouteVerification": {
+    "startedAt": "2026-11-01T17:20:24.754Z",
+    "finishedAt": "2026-11-01T17:22:58.342Z",
+    "engine": "chromium",
+    "browserVersion": "145.0.7632.6",
+    "routeCount": 35,
+    "viewports": [
+      {
+        "width": 1440,
+        "height": 1000
+      },
+      {
+        "width": 390,
+        "height": 844
+      }
+    ],
+    "pagesPassed": 70,
+    "pagesFailed": 0,
+    "apiGetChecksPassed": 5,
+    "unexpectedConsoleErrors": 0,
+    "expected404DocumentMessages": 6,
+    "pageErrors": 0,
+    "failedAssets": 0,
+    "abortedAssets": 0,
+    "textArrows": 0,
+    "standaloneTextControlSymbols": 0,
+    "missingSamePageAnchors": 0,
+    "unnamedRenderedControls": 0,
+    "blockedEnquiries": [],
+    "report": "production.json",
+    "reportSha256": "d29bfe9f39dad5f43722e70ad190bc24f8ed6442eee81f516f0d05d1eba16967",
+    "scope": "Every authored route, text arrows including pseudo-elements, standalone text control symbols, image/font decoding, document horizontal overflow, same-page anchors, public project destinations, browser and resource errors; read-only API method check; no enquiry submission",
+    "captureManifest": [
+      {
+        "file": "luxury-home-390.png",
+        "project": "luxury",
+        "width": 390,
+        "bytes": 397851,
+        "sha256": "6101f1c5f27de98779763df2ec6d935c065d17a8a20d370d69df7c3c1bba31ac",
+        "overview": "production/overview-mobile.jpg"
+      },
+      {
+        "file": "luxury-home-1440.png",
+        "project": "luxury",
+        "width": 1440,
+        "bytes": 1626495,
+        "sha256": "bd8af5674110dda7a4afc51f9d8cee01e4974a48a45271f4e70470a092e7e500",
+        "overview": "production/overview-desktop.jpg"
+      },
+      {
+        "file": "luxury-properties-1440.png",
+        "project": "luxury",
+        "width": 1440,
+        "bytes": 564049,
+        "sha256": "8745a530ff169fa92b607163afb7a3906ced36aa878167cace08495a96f658a6",
+        "overview": "production/overview-desktop.jpg"
+      },
+      {
+        "file": "luxury-properties-390.png",
+        "project": "luxury",
+        "width": 390,
+        "bytes": 145961,
+        "sha256": "6dfb508a53dd1636117470ca13fc3d161282f844bdc0467a2d27676e51a94d39",
+        "overview": "production/overview-mobile.jpg"
+      },
+      {
+        "file": "luxury-properties-dubai-hills-residence-1440.png",
+        "project": "luxury",
+        "width": 1440,
+        "bytes": 1217237,
+        "sha256": "c96d68b14f38a40fdcd1d02df7510acef97950a7cc549cc7c8188adad83906f8",
+        "overview": "production/overview-desktop.jpg"
+      },
+      {
+        "file": "luxury-properties-dubai-hills-residence-390.png",
+        "project": "luxury",
+        "width": 390,
+        "bytes": 295639,
+        "sha256": "732c5d1c00beddc23dc602c00584b7239aa315e1361f72372b7488dce89b3eab",
+        "overview": "production/overview-mobile.jpg"
+      },
+      {
+        "file": "luxury-properties-dubai-hills-waterfront-390.png",
+        "project": "luxury",
+        "width": 390,
+        "bytes": 294538,
+        "sha256": "a729ac253efd50f8ec58eaa164e40691fd97a3395296b3f60337043403cf94be",
+        "overview": "production/overview-mobile.jpg"
+      },
+      {
+        "file": "luxury-properties-dubai-hills-waterfront-1440.png",
+        "project": "luxury",
+        "width": 1440,
+        "bytes": 1215855,
+        "sha256": "e493079aff88a7994623f15e254888eb00dab64b6ef441970e96616bf35a73ac",
+        "overview": "production/overview-desktop.jpg"
+      },
+      {
+        "file": "luxury-properties-dubai-hills-skyline-1440.png",
+        "project": "luxury",
+        "width": 1440,
+        "bytes": 1213673,
+        "sha256": "404c8e5d2ebd8fe723b376192bd8a82387da43eb14e5c92c2ed439fa17b77d77",
+        "overview": "production/overview-desktop.jpg"
+      },
+      {
+        "file": "luxury-properties-dubai-hills-skyline-390.png",
+        "project": "luxury",
+        "width": 390,
+        "bytes": 292463,
+        "sha256": "cee505cf17fbe360c4df7a1f42450c68ede0cd5c640912b47d647d4877e6cf82",
+        "overview": "production/overview-mobile.jpg"
+      },
+      {
+        "file": "luxury-properties-dubai-hills-garden-1440.png",
+        "project": "luxury",
+        "width": 1440,
+        "bytes": 1214440,
+        "sha256": "9f7c7a6708e5fe2339b14c3cbc7d1515589307363d8d6d8553ae6ab767e93358",
+        "overview": "production/overview-desktop.jpg"
+      },
+      {
+        "file": "luxury-properties-dubai-hills-garden-390.png",
+        "project": "luxury",
+        "width": 390,
+        "bytes": 293297,
+        "sha256": "94ff747eaa9906522090ffee51ea72b13b17b7f36ce0a5fd02f63108f91e2825",
+        "overview": "production/overview-mobile.jpg"
+      },
+      {
+        "file": "luxury-properties-dubai-hills-courtyard-390.png",
+        "project": "luxury",
+        "width": 390,
+        "bytes": 292552,
+        "sha256": "3803a03cf2f758af1a2f18d4e529dec35963e0b18f87167031571d5b26358703",
+        "overview": "production/overview-mobile.jpg"
+      },
+      {
+        "file": "luxury-properties-dubai-hills-courtyard-1440.png",
+        "project": "luxury",
+        "width": 1440,
+        "bytes": 1214609,
+        "sha256": "7f2ece9d5b485aedd66007e0f14ff31f0cdf505628a633898fabfcc39a3f9485",
+        "overview": "production/overview-desktop.jpg"
+      },
+      {
+        "file": "luxury-properties-dubai-hills-panorama-390.png",
+        "project": "luxury",
+        "width": 390,
+        "bytes": 292624,
+        "sha256": "7c4e79cf22cede5eba53741b48c7e04a9e1796f880e3eb5945a3d6a19a2829dc",
+        "overview": "production/overview-mobile.jpg"
+      },
+      {
+        "file": "luxury-properties-dubai-hills-panorama-1440.png",
+        "project": "luxury",
+        "width": 1440,
+        "bytes": 1213891,
+        "sha256": "1a8474e1cd4d622a6d1d572b3eb926bc94fb21cd19ac393610682f51e1bf1694",
+        "overview": "production/overview-desktop.jpg"
+      },
+      {
+        "file": "luxury-properties-dubai-hills-terrace-390.png",
+        "project": "luxury",
+        "width": 390,
+        "bytes": 293334,
+        "sha256": "4caca4cd18a3fc50aad2a5d0efe9a80b852ea4ada5a4a91d393c11e6fcd292a4",
+        "overview": "production/overview-mobile.jpg"
+      },
+      {
+        "file": "luxury-properties-dubai-hills-terrace-1440.png",
+        "project": "luxury",
+        "width": 1440,
+        "bytes": 1215299,
+        "sha256": "1d29a8fa9101893e14fd477b5efee36981b518d3caef445f77bd3af082967f66",
+        "overview": "production/overview-desktop.jpg"
+      },
+      {
+        "file": "luxury-properties-dubai-hills-retreat-1440.png",
+        "project": "luxury",
+        "width": 1440,
+        "bytes": 1212362,
+        "sha256": "29877b669c7990540bf9b1b8287e510647babad50fa65ad14012085d17b26a58",
+        "overview": "production/overview-desktop.jpg"
+      },
+      {
+        "file": "luxury-properties-dubai-hills-retreat-390.png",
+        "project": "luxury",
+        "width": 390,
+        "bytes": 291302,
+        "sha256": "6410ad710b7eda8b88ff5e66e9a2d07ea0bd10f519375afbe372489e3d931071",
+        "overview": "production/overview-mobile.jpg"
+      },
+      {
+        "file": "luxury-developments-1440.png",
+        "project": "luxury",
+        "width": 1440,
+        "bytes": 592639,
+        "sha256": "4a0fd016796e1058da0e368fc2768e82955d7c18f196f580e9fd12490c5c5215",
+        "overview": "production/overview-desktop.jpg"
+      },
+      {
+        "file": "luxury-developments-390.png",
+        "project": "luxury",
+        "width": 390,
+        "bytes": 198588,
+        "sha256": "41838c15a89aa1fd9d5dee0f4621225dcec323f72383b95187708158761f78ed",
+        "overview": "production/overview-mobile.jpg"
+      },
+      {
+        "file": "luxury-developments-ava-at-palm-1440.png",
+        "project": "luxury",
+        "width": 1440,
+        "bytes": 1338144,
+        "sha256": "d9abb4ce0fda137e35e1c89e5572f6db54703709bcf34ff65ac2669e9ffa108e",
+        "overview": "production/overview-desktop.jpg"
+      },
+      {
+        "file": "luxury-developments-ava-at-palm-390.png",
+        "project": "luxury",
+        "width": 390,
+        "bytes": 345550,
+        "sha256": "3e98578cc73908712e2357a2eae8281804a7c47af8c7c957561032a827d8a6d9",
+        "overview": "production/overview-mobile.jpg"
+      },
+      {
+        "file": "luxury-developments-orla-1440.png",
+        "project": "luxury",
+        "width": 1440,
+        "bytes": 1258956,
+        "sha256": "91389efa96f090228fc6d7a6be785f31d10a7c989fac4555f3737d70b785eeab",
+        "overview": "production/overview-desktop.jpg"
+      },
+      {
+        "file": "luxury-developments-orla-390.png",
+        "project": "luxury",
+        "width": 390,
+        "bytes": 283695,
+        "sha256": "5c36245395d7278b99b007b65a71260d6e30cbde84326ec2af1a0d992263a046",
+        "overview": "production/overview-mobile.jpg"
+      },
+      {
+        "file": "luxury-developments-six-senses-390.png",
+        "project": "luxury",
+        "width": 390,
+        "bytes": 324806,
+        "sha256": "e1ca13c342a7e4ace0d7d38dcad7c88952f910fa82b33edde47eed89db76e017",
+        "overview": "production/overview-mobile.jpg"
+      },
+      {
+        "file": "luxury-developments-six-senses-1440.png",
+        "project": "luxury",
+        "width": 1440,
+        "bytes": 1229996,
+        "sha256": "98a693f0732c159d2561a150ffacd29422ee629c3bcef8030f93f3b21ed83693",
+        "overview": "production/overview-desktop.jpg"
+      },
+      {
+        "file": "luxury-developments-atlantis-1440.png",
+        "project": "luxury",
+        "width": 1440,
+        "bytes": 1469881,
+        "sha256": "2fa4af64a140aea1e931488e5930c35e5c2779eb55c1dc5ea2b433760010d606",
+        "overview": "production/overview-desktop.jpg"
+      },
+      {
+        "file": "luxury-developments-atlantis-390.png",
+        "project": "luxury",
+        "width": 390,
+        "bytes": 415961,
+        "sha256": "21b2be66e1760a243f2a54d1247c506bf456bf5050753d54eefe164c6a5eec20",
+        "overview": "production/overview-mobile.jpg"
+      },
+      {
+        "file": "luxury-insights-1440.png",
+        "project": "luxury",
+        "width": 1440,
+        "bytes": 605966,
+        "sha256": "830134561e3961662f480ff21407c3048d1b7720f584f8a96cb13a10b7897a4b",
+        "overview": "production/overview-desktop.jpg"
+      },
+      {
+        "file": "luxury-insights-390.png",
+        "project": "luxury",
+        "width": 390,
+        "bytes": 247835,
+        "sha256": "96ab9315b8811ad99344be63b8ac712a6ad19469667db59b2fc640e8052a1c29",
+        "overview": "production/overview-mobile.jpg"
+      },
+      {
+        "file": "luxury-insights-spaces-worth-living-in-1440.png",
+        "project": "luxury",
+        "width": 1440,
+        "bytes": 1169996,
+        "sha256": "ae6175f417fe02d23e400b821f1916d19c751964dfff1501034bf7aaeb73649d",
+        "overview": "production/overview-desktop.jpg"
+      },
+      {
+        "file": "luxury-insights-spaces-worth-living-in-390.png",
+        "project": "luxury",
+        "width": 390,
+        "bytes": 236178,
+        "sha256": "b76eb1be00c9fae7a59fc52b51982a38ef4a1387d9f78088e0cc899e82203f32",
+        "overview": "production/overview-mobile.jpg"
+      },
+      {
+        "file": "luxury-insights-a-home-by-the-water-1440.png",
+        "project": "luxury",
+        "width": 1440,
+        "bytes": 629408,
+        "sha256": "e9fbf13a7536cc87513b40ec289bedb6c3bb50ff231fc92228019a6ea554c218",
+        "overview": "production/overview-desktop.jpg"
+      },
+      {
+        "file": "luxury-insights-a-home-by-the-water-390.png",
+        "project": "luxury",
+        "width": 390,
+        "bytes": 145701,
+        "sha256": "5a75ce8de4342167a47fa621be7ed561cd0c2c7af4d1dd47cdc4f6e532d63a1b",
+        "overview": "production/overview-mobile.jpg"
+      },
+      {
+        "file": "luxury-insights-the-art-of-a-private-viewing-1440.png",
+        "project": "luxury",
+        "width": 1440,
+        "bytes": 626554,
+        "sha256": "a1decf8952ceef9829a75f9792e5e23d90921934556651f997465dd2fd649756",
+        "overview": "production/overview-desktop.jpg"
+      },
+      {
+        "file": "luxury-insights-the-art-of-a-private-viewing-390.png",
+        "project": "luxury",
+        "width": 390,
+        "bytes": 180415,
+        "sha256": "1bc4717de624be81e28cac052468d0ed022ea654db18224b093460e989317942",
+        "overview": "production/overview-mobile.jpg"
+      },
+      {
+        "file": "luxury-insights-architecture-on-palm-jumeirah-1440.png",
+        "project": "luxury",
+        "width": 1440,
+        "bytes": 595367,
+        "sha256": "d734fec615bc661a6c2e0899ed0596254d6b18438a0b961a492f1393a4bdcc91",
+        "overview": "production/overview-desktop.jpg"
+      },
+      {
+        "file": "luxury-insights-architecture-on-palm-jumeirah-390.png",
+        "project": "luxury",
+        "width": 390,
+        "bytes": 177950,
+        "sha256": "f7852b30844d4fdf75f5b0176d8c1ee88c738722f65afb76ba1c6744158d00b6",
+        "overview": "production/overview-mobile.jpg"
+      },
+      {
+        "file": "luxury-contacts-390.png",
+        "project": "luxury",
+        "width": 390,
+        "bytes": 106356,
+        "sha256": "41d642b90c83dcfa3b89bed6a0aeae95a80b2a5393808fd45efaabe5031f6824",
+        "overview": "production/overview-mobile.jpg"
+      },
+      {
+        "file": "luxury-contacts-1440.png",
+        "project": "luxury",
+        "width": 1440,
+        "bytes": 255046,
+        "sha256": "e3898e8b786602aecf161c575c0f0b21e9ba6c4f748a6e885eacb3e85175c78d",
+        "overview": "production/overview-desktop.jpg"
+      },
+      {
+        "file": "luxury-privacy-1440.png",
+        "project": "luxury",
+        "width": 1440,
+        "bytes": 73451,
+        "sha256": "340e560ad5c282703990bbeb0f7345df71a0c99cc7dca5eb8f509fb3c65af3fd",
+        "overview": "production/overview-desktop.jpg"
+      },
+      {
+        "file": "luxury-privacy-390.png",
+        "project": "luxury",
+        "width": 390,
+        "bytes": 43992,
+        "sha256": "a66f4d18b89887a29792df7b9f8e9f99660850cee8c58bcbe1a3c86a65d5b089",
+        "overview": "production/overview-mobile.jpg"
+      },
+      {
+        "file": "luxury-404-1440.png",
+        "project": "luxury",
+        "width": 1440,
+        "bytes": 72090,
+        "sha256": "ca321d8e2903aefba69232fcda862b9c4bed1c3cc51a3482659d9d20cb13909d",
+        "overview": "production/overview-desktop.jpg"
+      },
+      {
+        "file": "luxury-404-390.png",
+        "project": "luxury",
+        "width": 390,
+        "bytes": 32194,
+        "sha256": "264604f4680bfe882a8d21f369e12d9ea3a994675216f29dd22a17a0cfca5251",
+        "overview": "production/overview-mobile.jpg"
+      },
+      {
+        "file": "atlantis-home-390.png",
+        "project": "atlantis",
+        "width": 390,
+        "bytes": 245308,
+        "sha256": "90f754b188682d36ec21af520bea949accb74ba4707ddf5a66b6c70ee86c2737",
+        "overview": "production/overview-mobile.jpg"
+      },
+      {
+        "file": "atlantis-home-1440.png",
+        "project": "atlantis",
+        "width": 1440,
+        "bytes": 950458,
+        "sha256": "45335ea40058eb50bea2b4f07e347aadee8d72392bbed016c49591f0cc24c8f1",
+        "overview": "production/overview-desktop.jpg"
+      },
+      {
+        "file": "atlantis-residences-3402-1440.png",
+        "project": "atlantis",
+        "width": 1440,
+        "bytes": 387801,
+        "sha256": "fc212f9fd1fd8b0985fa79e18fe0a64594930880627b53d53418e8cd17373732",
+        "overview": "production/overview-desktop.jpg"
+      },
+      {
+        "file": "atlantis-residences-3402-390.png",
+        "project": "atlantis",
+        "width": 390,
+        "bytes": 110946,
+        "sha256": "51422057289b4c9799e4078ccffcb405b685e876b78a73d72be6473584077e4c",
+        "overview": "production/overview-mobile.jpg"
+      },
+      {
+        "file": "atlantis-privacy-1440.png",
+        "project": "atlantis",
+        "width": 1440,
+        "bytes": 73498,
+        "sha256": "a46ba49eeafa372391a027c9d3f098ce3404f423de0324a1b849917e11dc8fea",
+        "overview": "production/overview-desktop.jpg"
+      },
+      {
+        "file": "atlantis-privacy-390.png",
+        "project": "atlantis",
+        "width": 390,
+        "bytes": 42438,
+        "sha256": "9b1b4b05dc4021542b2db335846a42b25fd70da8faba6d87dd7333b2e1c2fa0a",
+        "overview": "production/overview-mobile.jpg"
+      },
+      {
+        "file": "atlantis-404-1440.png",
+        "project": "atlantis",
+        "width": 1440,
+        "bytes": 30536,
+        "sha256": "4de526728e2d5b260d5c32d4f361707af54102c8315053173570520ed39d37ca",
+        "overview": "production/overview-desktop.jpg"
+      },
+      {
+        "file": "atlantis-404-390.png",
+        "project": "atlantis",
+        "width": 390,
+        "bytes": 22960,
+        "sha256": "b0699afb601e4a7bfbc4753825f51cd2c8764e2986f44b898a4a1e1b29f158d4",
+        "overview": "production/overview-mobile.jpg"
+      },
+      {
+        "file": "orla-home-390.png",
+        "project": "orla",
+        "width": 390,
+        "bytes": 265664,
+        "sha256": "1d5e016afe1ae88916b18e051847440e3bff6e926edf9e5c2712d31653f8e473",
+        "overview": "production/overview-mobile.jpg"
+      },
+      {
+        "file": "orla-home-1440.png",
+        "project": "orla",
+        "width": 1440,
+        "bytes": 660365,
+        "sha256": "fada32df6eca60bc452a1373661864192e8fb20536effac7fee55d9e8937273f",
+        "overview": "production/overview-desktop.jpg"
+      },
+      {
+        "file": "six-senses-home-1440.png",
+        "project": "six-senses",
+        "width": 1440,
+        "bytes": 1370615,
+        "sha256": "82e7d141719b8ab4e994dbc4347f2992b42d229dfe5ebb76ca93d84737a7d044",
+        "overview": "production/overview-desktop.jpg"
+      },
+      {
+        "file": "six-senses-home-390.png",
+        "project": "six-senses",
+        "width": 390,
+        "bytes": 323784,
+        "sha256": "bc50e8025cf807e58c49bf63d66f797a8d02ccaa4674edbcd05b183d26e0e5a7",
+        "overview": "production/overview-mobile.jpg"
+      },
+      {
+        "file": "ava-home-390.png",
+        "project": "ava",
+        "width": 390,
+        "bytes": 261485,
+        "sha256": "9e79566a9310245c260047ab45c7d0dab4d465b4d49fef99a15cc9b874e3f917",
+        "overview": "production/overview-mobile.jpg"
+      },
+      {
+        "file": "ava-home-1440.png",
+        "project": "ava",
+        "width": 1440,
+        "bytes": 506669,
+        "sha256": "b6beb27c43fb42287862aa61b370c6542bdcd3a74e8f894cd6da0e3d78496f4a",
+        "overview": "production/overview-desktop.jpg"
+      },
+      {
+        "file": "ava-residences-801-1440.png",
+        "project": "ava",
+        "width": 1440,
+        "bytes": 228201,
+        "sha256": "ffa47015886d08183dac97739c1dc0a2110e4713bd7d0c5dd64ec7933cf1dda7",
+        "overview": "production/overview-desktop.jpg"
+      },
+      {
+        "file": "ava-residences-801-390.png",
+        "project": "ava",
+        "width": 390,
+        "bytes": 77417,
+        "sha256": "3720287f67f13c51a837ee6f0667723ac17dba0f30bf5cd593b50cddc863e4bf",
+        "overview": "production/overview-mobile.jpg"
+      },
+      {
+        "file": "ava-residences-1601-1440.png",
+        "project": "ava",
+        "width": 1440,
+        "bytes": 216614,
+        "sha256": "6a676d557b166d5fa0ef39b3e4e0e4066168a8694919f18eb9af6377996fd865",
+        "overview": "production/overview-desktop.jpg"
+      },
+      {
+        "file": "ava-residences-1601-390.png",
+        "project": "ava",
+        "width": 390,
+        "bytes": 76240,
+        "sha256": "5d1c369c4d22002ce2bacd65a463f82ea0532180aad549bacd343ad0ae6ce3df",
+        "overview": "production/overview-mobile.jpg"
+      },
+      {
+        "file": "ava-location-1440.png",
+        "project": "ava",
+        "width": 1440,
+        "bytes": 928977,
+        "sha256": "83c2dc5fa99f89599a03c4eb6f0b9286e76dc442a8a946225121bfb0cde92599",
+        "overview": "production/overview-desktop.jpg"
+      },
+      {
+        "file": "ava-location-390.png",
+        "project": "ava",
+        "width": 390,
+        "bytes": 230812,
+        "sha256": "af150d8a8b7f17c57b0c91b785d57e35ddf31fdd8c6bbf394c7a71d1e0fcaa7a",
+        "overview": "production/overview-mobile.jpg"
+      },
+      {
+        "file": "ava-privacy-1440.png",
+        "project": "ava",
+        "width": 1440,
+        "bytes": 91189,
+        "sha256": "c69b994569c36d93430df12cb1e5b6fd60f55594ca9f52eb0f05b7601db2dd5d",
+        "overview": "production/overview-desktop.jpg"
+      },
+      {
+        "file": "ava-privacy-390.png",
+        "project": "ava",
+        "width": 390,
+        "bytes": 52864,
+        "sha256": "e9fe112b49e5eb9a062088c321336d0bcfdd97ee808fc3c071ea3e2213e50475",
+        "overview": "production/overview-mobile.jpg"
+      },
+      {
+        "file": "ava-404-390.png",
+        "project": "ava",
+        "width": 390,
+        "bytes": 28678,
+        "sha256": "d6b78a292ce728a4ad595844294e5966a3af55c426a1054cb02a6d7659de35b5",
+        "overview": "production/overview-mobile.jpg"
+      },
+      {
+        "file": "ava-404-1440.png",
+        "project": "ava",
+        "width": 1440,
+        "bytes": 52441,
+        "sha256": "cdb1b97060fe2754653e40c2d7404acef7332e07c463095df19803087392f7f9",
+        "overview": "production/overview-desktop.jpg"
+      }
+    ],
+    "captureStorage": "The 70 original PNG files are test-run artifacts. Both published overview JPEGs contain every initial viewport; full-resolution selected section/state images are preserved in the project audit folders."
+  },
+  "productionTargetedVerification": {
+    "startedAt": "2026-11-01T17:21:06.289Z",
+    "finishedAt": "2026-11-01T17:21:30.220Z",
+    "casesPassed": 5,
+    "casesFailed": 0,
+    "mockedEnquiries": 2,
+    "realEnquirySubmissions": 0,
+    "pageErrors": 0,
+    "unexpectedRequests": 0,
+    "report": "production-targeted.json",
+    "reportSha256": "848f7384e3bb12c8522d6f0cebbfc00a7bed841744907da08f18170c5229a1f3",
+    "executedScratchHelperSha256": "6c1adfc0e57175f86e039245108ab7002bce47e34f508167a999701fc937a2df",
+    "screenshotsDirectory": "production",
+    "screenshotCount": 7
+  },
+  "publishedProductionImages": [
+    {
+      "file": "production/atlantis-catalogue-320.jpg",
+      "bytes": 29429,
+      "sha256": "9a5cfa7dcc997de9fc999c23edb67355d5ccf94c358d426e4a0d90e40828f808"
+    },
+    {
+      "file": "production/atlantis-collage844-cta.jpg",
+      "bytes": 100791,
+      "sha256": "55d3ac2a6a67137fcb82a3a7b30926cc1bb3cf9ded01d14c39c5270a3e416e8c"
+    },
+    {
+      "file": "production/atlantis-form844-deep-close.jpg",
+      "bytes": 18715,
+      "sha256": "e00ab7ef6d87106dbc5d437ffe42ed82ac39be1399fca48fab497b5da11146a7"
+    },
+    {
+      "file": "production/atlantis-form844-success.jpg",
+      "bytes": 23849,
+      "sha256": "21307d0286707c95657ad983a90d8a3230221aff83f17509203e7401420c424c"
+    },
+    {
+      "file": "production/ava-film-form844-deep-close.jpg",
+      "bytes": 56201,
+      "sha256": "53e44d2c1e635523f924d2e351e0be9857f65a81b4752e2b225cce2596f334f4"
+    },
+    {
+      "file": "production/ava-film-form844-success.jpg",
+      "bytes": 30552,
+      "sha256": "bbf539a05cf2b5b2a293dc83ef07bd3752fc3620054b6a61da82431a35b90738"
+    },
+    {
+      "file": "production/ava-tablet768-sky.jpg",
+      "bytes": 128771,
+      "sha256": "698dc44e1480bc8eb170b661f89f2d22b7f252307a0166e2abf8991e6e7e765a"
+    },
+    {
+      "file": "production/overview-desktop.jpg",
+      "bytes": 561135,
+      "sha256": "d582e735b7c2847b7f6bb9e8c996bfc878426f1bd6135a173ba91f26f3e1bfa1"
+    },
+    {
+      "file": "production/overview-mobile.jpg",
+      "bytes": 752413,
+      "sha256": "24da1d9c3e1420312d5b3c4c0eaee96cd77f12eb4b3a7c94a3e046652cb93729"
+    }
+  ],
+  "productionChecker": {
+    "path": "scripts/design-release-qa.mjs",
+    "sha256": "c4f1a3399d95dc8c930dc7b739214bea292eff5ff816c0c3349937beee27eceb"
+  }
+}

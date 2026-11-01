@@ -1,0 +1,6173 @@
+{
+  "startedAt": "2026-11-01T17:20:24.754Z",
+  "engine": "chromium",
+  "workers": 2,
+  "scope": "Every authored route, text arrows including pseudo-elements, standalone text control symbols, image/font decoding, document horizontal overflow, same-page anchors, public project destinations, browser and resource errors; read-only API method check; no enquiry submission",
+  "routeInventory": [
+    {
+      "id": "luxury",
+      "origin": "https://luxury-realty-imon.vercel.app",
+      "routes": [
+        "/",
+        "/properties/",
+        "/properties/dubai-hills-residence/",
+        "/properties/dubai-hills-waterfront/",
+        "/properties/dubai-hills-skyline/",
+        "/properties/dubai-hills-garden/",
+        "/properties/dubai-hills-courtyard/",
+        "/properties/dubai-hills-panorama/",
+        "/properties/dubai-hills-terrace/",
+        "/properties/dubai-hills-retreat/",
+        "/developments/",
+        "/developments/ava-at-palm/",
+        "/developments/orla/",
+        "/developments/six-senses/",
+        "/developments/atlantis/",
+        "/insights/",
+        "/insights/spaces-worth-living-in/",
+        "/insights/a-home-by-the-water/",
+        "/insights/the-art-of-a-private-viewing/",
+        "/insights/architecture-on-palm-jumeirah/",
+        "/contacts/",
+        "/privacy/",
+        "/404/"
+      ]
+    },
+    {
+      "id": "atlantis",
+      "origin": "https://atlantis-imon.vercel.app",
+      "routes": [
+        "/",
+        "/residences/3402/",
+        "/privacy/",
+        "/404/"
+      ]
+    },
+    {
+      "id": "orla",
+      "origin": "https://orla-imon.vercel.app",
+      "routes": [
+        "/"
+      ]
+    },
+    {
+      "id": "six-senses",
+      "origin": "https://six-senses-imon.vercel.app",
+      "routes": [
+        "/"
+      ]
+    },
+    {
+      "id": "ava",
+      "origin": "https://ava-at-palm-imon.vercel.app",
+      "routes": [
+        "/",
+        "/residences/801/",
+        "/residences/1601/",
+        "/location/",
+        "/privacy/",
+        "/404/"
+      ]
+    }
+  ],
+  "expectedPages": 70,
+  "expectedApiChecks": 5,
+  "pages": [
+    {
+      "label": "luxury-home-390",
+      "project": "luxury",
+      "url": "https://luxury-realty-imon.vercel.app/",
+      "width": 390,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 200,
+      "finalUrl": "https://luxury-realty-imon.vercel.app/",
+      "resources": {
+        "images": 33,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "SF",
+            "weight": "100",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "200",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "500",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "Luxury Realty",
+        "h1Count": 1,
+        "width": 390,
+        "scrollWidth": 390,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "screenshot": "luxury-home-390.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 3830,
+          "width": 390,
+          "scrollWidth": 390
+        },
+        {
+          "y": 7659,
+          "width": 390,
+          "scrollWidth": 390
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "luxury-home-1440",
+      "project": "luxury",
+      "url": "https://luxury-realty-imon.vercel.app/",
+      "width": 1440,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 200,
+      "finalUrl": "https://luxury-realty-imon.vercel.app/",
+      "resources": {
+        "images": 33,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "SF",
+            "weight": "100",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "200",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "500",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "Luxury Realty",
+        "h1Count": 1,
+        "width": 1440,
+        "scrollWidth": 1425,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "screenshot": "luxury-home-1440.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 4094,
+          "width": 1440,
+          "scrollWidth": 1425
+        },
+        {
+          "y": 8188,
+          "width": 1440,
+          "scrollWidth": 1425
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "luxury-properties-1440",
+      "project": "luxury",
+      "url": "https://luxury-realty-imon.vercel.app/properties/",
+      "width": 1440,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 200,
+      "finalUrl": "https://luxury-realty-imon.vercel.app/properties/",
+      "resources": {
+        "images": 19,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "SF",
+            "weight": "100",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "200",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "500",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "Dubai real estate | Luxury Realty",
+        "h1Count": 1,
+        "width": 1440,
+        "scrollWidth": 1425,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "screenshot": "luxury-properties-1440.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 1482,
+          "width": 1440,
+          "scrollWidth": 1425
+        },
+        {
+          "y": 2964,
+          "width": 1440,
+          "scrollWidth": 1425
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "luxury-properties-390",
+      "project": "luxury",
+      "url": "https://luxury-realty-imon.vercel.app/properties/",
+      "width": 390,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 200,
+      "finalUrl": "https://luxury-realty-imon.vercel.app/properties/",
+      "resources": {
+        "images": 19,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "SF",
+            "weight": "100",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "200",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "500",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "Dubai real estate | Luxury Realty",
+        "h1Count": 1,
+        "width": 390,
+        "scrollWidth": 390,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "screenshot": "luxury-properties-390.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 2663,
+          "width": 390,
+          "scrollWidth": 390
+        },
+        {
+          "y": 5325,
+          "width": 390,
+          "scrollWidth": 390
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "luxury-properties-dubai-hills-residence-1440",
+      "project": "luxury",
+      "url": "https://luxury-realty-imon.vercel.app/properties/dubai-hills-residence/",
+      "width": 1440,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 200,
+      "finalUrl": "https://luxury-realty-imon.vercel.app/properties/dubai-hills-residence/",
+      "resources": {
+        "images": 22,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "SF",
+            "weight": "100",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "200",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "500",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "Exquisitely upgraded luxury villa in Dubai Hills | Luxury Realty",
+        "h1Count": 1,
+        "width": 1440,
+        "scrollWidth": 1425,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "screenshot": "luxury-properties-dubai-hills-residence-1440.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 1906,
+          "width": 1440,
+          "scrollWidth": 1425
+        },
+        {
+          "y": 3811,
+          "width": 1440,
+          "scrollWidth": 1425
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "luxury-properties-dubai-hills-residence-390",
+      "project": "luxury",
+      "url": "https://luxury-realty-imon.vercel.app/properties/dubai-hills-residence/",
+      "width": 390,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 200,
+      "finalUrl": "https://luxury-realty-imon.vercel.app/properties/dubai-hills-residence/",
+      "resources": {
+        "images": 22,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "SF",
+            "weight": "100",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "200",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "500",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "Exquisitely upgraded luxury villa in Dubai Hills | Luxury Realty",
+        "h1Count": 1,
+        "width": 390,
+        "scrollWidth": 390,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "screenshot": "luxury-properties-dubai-hills-residence-390.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 2888,
+          "width": 390,
+          "scrollWidth": 390
+        },
+        {
+          "y": 5776,
+          "width": 390,
+          "scrollWidth": 390
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "luxury-properties-dubai-hills-waterfront-390",
+      "project": "luxury",
+      "url": "https://luxury-realty-imon.vercel.app/properties/dubai-hills-waterfront/",
+      "width": 390,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 200,
+      "finalUrl": "https://luxury-realty-imon.vercel.app/properties/dubai-hills-waterfront/",
+      "resources": {
+        "images": 22,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "SF",
+            "weight": "100",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "200",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "500",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "A residence with an open view | Luxury Realty",
+        "h1Count": 1,
+        "width": 390,
+        "scrollWidth": 390,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "screenshot": "luxury-properties-dubai-hills-waterfront-390.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 2864,
+          "width": 390,
+          "scrollWidth": 390
+        },
+        {
+          "y": 5728,
+          "width": 390,
+          "scrollWidth": 390
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "luxury-properties-dubai-hills-waterfront-1440",
+      "project": "luxury",
+      "url": "https://luxury-realty-imon.vercel.app/properties/dubai-hills-waterfront/",
+      "width": 1440,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 200,
+      "finalUrl": "https://luxury-realty-imon.vercel.app/properties/dubai-hills-waterfront/",
+      "resources": {
+        "images": 22,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "SF",
+            "weight": "100",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "200",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "500",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "A residence with an open view | Luxury Realty",
+        "h1Count": 1,
+        "width": 1440,
+        "scrollWidth": 1425,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "screenshot": "luxury-properties-dubai-hills-waterfront-1440.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 1873,
+          "width": 1440,
+          "scrollWidth": 1425
+        },
+        {
+          "y": 3745,
+          "width": 1440,
+          "scrollWidth": 1425
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "luxury-properties-dubai-hills-skyline-1440",
+      "project": "luxury",
+      "url": "https://luxury-realty-imon.vercel.app/properties/dubai-hills-skyline/",
+      "width": 1440,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 200,
+      "finalUrl": "https://luxury-realty-imon.vercel.app/properties/dubai-hills-skyline/",
+      "resources": {
+        "images": 22,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "SF",
+            "weight": "100",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "200",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "500",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "A perspective over the city | Luxury Realty",
+        "h1Count": 1,
+        "width": 1440,
+        "scrollWidth": 1425,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "screenshot": "luxury-properties-dubai-hills-skyline-1440.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 1873,
+          "width": 1440,
+          "scrollWidth": 1425
+        },
+        {
+          "y": 3745,
+          "width": 1440,
+          "scrollWidth": 1425
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "luxury-properties-dubai-hills-skyline-390",
+      "project": "luxury",
+      "url": "https://luxury-realty-imon.vercel.app/properties/dubai-hills-skyline/",
+      "width": 390,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 200,
+      "finalUrl": "https://luxury-realty-imon.vercel.app/properties/dubai-hills-skyline/",
+      "resources": {
+        "images": 22,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "SF",
+            "weight": "100",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "200",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "500",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "A perspective over the city | Luxury Realty",
+        "h1Count": 1,
+        "width": 390,
+        "scrollWidth": 390,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "screenshot": "luxury-properties-dubai-hills-skyline-390.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 2864,
+          "width": 390,
+          "scrollWidth": 390
+        },
+        {
+          "y": 5728,
+          "width": 390,
+          "scrollWidth": 390
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "luxury-properties-dubai-hills-garden-1440",
+      "project": "luxury",
+      "url": "https://luxury-realty-imon.vercel.app/properties/dubai-hills-garden/",
+      "width": 1440,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 200,
+      "finalUrl": "https://luxury-realty-imon.vercel.app/properties/dubai-hills-garden/",
+      "resources": {
+        "images": 22,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "SF",
+            "weight": "100",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "200",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "500",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "A private garden residence | Luxury Realty",
+        "h1Count": 1,
+        "width": 1440,
+        "scrollWidth": 1425,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "screenshot": "luxury-properties-dubai-hills-garden-1440.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 1873,
+          "width": 1440,
+          "scrollWidth": 1425
+        },
+        {
+          "y": 3745,
+          "width": 1440,
+          "scrollWidth": 1425
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "luxury-properties-dubai-hills-garden-390",
+      "project": "luxury",
+      "url": "https://luxury-realty-imon.vercel.app/properties/dubai-hills-garden/",
+      "width": 390,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 200,
+      "finalUrl": "https://luxury-realty-imon.vercel.app/properties/dubai-hills-garden/",
+      "resources": {
+        "images": 22,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "SF",
+            "weight": "100",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "200",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "500",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "A private garden residence | Luxury Realty",
+        "h1Count": 1,
+        "width": 390,
+        "scrollWidth": 390,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "screenshot": "luxury-properties-dubai-hills-garden-390.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 2864,
+          "width": 390,
+          "scrollWidth": 390
+        },
+        {
+          "y": 5728,
+          "width": 390,
+          "scrollWidth": 390
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "luxury-properties-dubai-hills-courtyard-390",
+      "project": "luxury",
+      "url": "https://luxury-realty-imon.vercel.app/properties/dubai-hills-courtyard/",
+      "width": 390,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 200,
+      "finalUrl": "https://luxury-realty-imon.vercel.app/properties/dubai-hills-courtyard/",
+      "resources": {
+        "images": 22,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "SF",
+            "weight": "100",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "200",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "500",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "Architecture framed by greenery | Luxury Realty",
+        "h1Count": 1,
+        "width": 390,
+        "scrollWidth": 390,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "screenshot": "luxury-properties-dubai-hills-courtyard-390.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 2888,
+          "width": 390,
+          "scrollWidth": 390
+        },
+        {
+          "y": 5776,
+          "width": 390,
+          "scrollWidth": 390
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "luxury-properties-dubai-hills-courtyard-1440",
+      "project": "luxury",
+      "url": "https://luxury-realty-imon.vercel.app/properties/dubai-hills-courtyard/",
+      "width": 1440,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 200,
+      "finalUrl": "https://luxury-realty-imon.vercel.app/properties/dubai-hills-courtyard/",
+      "resources": {
+        "images": 22,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "SF",
+            "weight": "100",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "200",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "500",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "Architecture framed by greenery | Luxury Realty",
+        "h1Count": 1,
+        "width": 1440,
+        "scrollWidth": 1425,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "screenshot": "luxury-properties-dubai-hills-courtyard-1440.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 1906,
+          "width": 1440,
+          "scrollWidth": 1425
+        },
+        {
+          "y": 3811,
+          "width": 1440,
+          "scrollWidth": 1425
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "luxury-properties-dubai-hills-panorama-390",
+      "project": "luxury",
+      "url": "https://luxury-realty-imon.vercel.app/properties/dubai-hills-panorama/",
+      "width": 390,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 200,
+      "finalUrl": "https://luxury-realty-imon.vercel.app/properties/dubai-hills-panorama/",
+      "resources": {
+        "images": 22,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "SF",
+            "weight": "100",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "200",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "500",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "Space to enjoy the horizon | Luxury Realty",
+        "h1Count": 1,
+        "width": 390,
+        "scrollWidth": 390,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "screenshot": "luxury-properties-dubai-hills-panorama-390.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 2864,
+          "width": 390,
+          "scrollWidth": 390
+        },
+        {
+          "y": 5728,
+          "width": 390,
+          "scrollWidth": 390
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "luxury-properties-dubai-hills-panorama-1440",
+      "project": "luxury",
+      "url": "https://luxury-realty-imon.vercel.app/properties/dubai-hills-panorama/",
+      "width": 1440,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 200,
+      "finalUrl": "https://luxury-realty-imon.vercel.app/properties/dubai-hills-panorama/",
+      "resources": {
+        "images": 22,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "SF",
+            "weight": "100",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "200",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "500",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "Space to enjoy the horizon | Luxury Realty",
+        "h1Count": 1,
+        "width": 1440,
+        "scrollWidth": 1425,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "screenshot": "luxury-properties-dubai-hills-panorama-1440.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 1873,
+          "width": 1440,
+          "scrollWidth": 1425
+        },
+        {
+          "y": 3745,
+          "width": 1440,
+          "scrollWidth": 1425
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "luxury-properties-dubai-hills-terrace-390",
+      "project": "luxury",
+      "url": "https://luxury-realty-imon.vercel.app/properties/dubai-hills-terrace/",
+      "width": 390,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 200,
+      "finalUrl": "https://luxury-realty-imon.vercel.app/properties/dubai-hills-terrace/",
+      "resources": {
+        "images": 22,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "SF",
+            "weight": "100",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "200",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "500",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "A new view of contemporary living | Luxury Realty",
+        "h1Count": 1,
+        "width": 390,
+        "scrollWidth": 390,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "screenshot": "luxury-properties-dubai-hills-terrace-390.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 2888,
+          "width": 390,
+          "scrollWidth": 390
+        },
+        {
+          "y": 5776,
+          "width": 390,
+          "scrollWidth": 390
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "luxury-properties-dubai-hills-terrace-1440",
+      "project": "luxury",
+      "url": "https://luxury-realty-imon.vercel.app/properties/dubai-hills-terrace/",
+      "width": 1440,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 200,
+      "finalUrl": "https://luxury-realty-imon.vercel.app/properties/dubai-hills-terrace/",
+      "resources": {
+        "images": 22,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "SF",
+            "weight": "100",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "200",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "500",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "A new view of contemporary living | Luxury Realty",
+        "h1Count": 1,
+        "width": 1440,
+        "scrollWidth": 1425,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "screenshot": "luxury-properties-dubai-hills-terrace-1440.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 1906,
+          "width": 1440,
+          "scrollWidth": 1425
+        },
+        {
+          "y": 3811,
+          "width": 1440,
+          "scrollWidth": 1425
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "luxury-properties-dubai-hills-retreat-1440",
+      "project": "luxury",
+      "url": "https://luxury-realty-imon.vercel.app/properties/dubai-hills-retreat/",
+      "width": 1440,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 200,
+      "finalUrl": "https://luxury-realty-imon.vercel.app/properties/dubai-hills-retreat/",
+      "resources": {
+        "images": 22,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "SF",
+            "weight": "100",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "200",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "500",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "A quiet retreat in the city | Luxury Realty",
+        "h1Count": 1,
+        "width": 1440,
+        "scrollWidth": 1425,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "screenshot": "luxury-properties-dubai-hills-retreat-1440.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 1873,
+          "width": 1440,
+          "scrollWidth": 1425
+        },
+        {
+          "y": 3745,
+          "width": 1440,
+          "scrollWidth": 1425
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "luxury-properties-dubai-hills-retreat-390",
+      "project": "luxury",
+      "url": "https://luxury-realty-imon.vercel.app/properties/dubai-hills-retreat/",
+      "width": 390,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 200,
+      "finalUrl": "https://luxury-realty-imon.vercel.app/properties/dubai-hills-retreat/",
+      "resources": {
+        "images": 22,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "SF",
+            "weight": "100",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "200",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "500",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "A quiet retreat in the city | Luxury Realty",
+        "h1Count": 1,
+        "width": 390,
+        "scrollWidth": 390,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "screenshot": "luxury-properties-dubai-hills-retreat-390.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 2864,
+          "width": 390,
+          "scrollWidth": 390
+        },
+        {
+          "y": 5728,
+          "width": 390,
+          "scrollWidth": 390
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "luxury-developments-1440",
+      "project": "luxury",
+      "url": "https://luxury-realty-imon.vercel.app/developments/",
+      "width": 1440,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 200,
+      "finalUrl": "https://luxury-realty-imon.vercel.app/developments/",
+      "resources": {
+        "images": 14,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "SF",
+            "weight": "100",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "200",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "500",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "New developments in Dubai | Luxury Realty",
+        "h1Count": 1,
+        "width": 1440,
+        "scrollWidth": 1425,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "screenshot": "luxury-developments-1440.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 1502,
+          "width": 1440,
+          "scrollWidth": 1425
+        },
+        {
+          "y": 3003,
+          "width": 1440,
+          "scrollWidth": 1425
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "luxury-developments-390",
+      "project": "luxury",
+      "url": "https://luxury-realty-imon.vercel.app/developments/",
+      "width": 390,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 200,
+      "finalUrl": "https://luxury-realty-imon.vercel.app/developments/",
+      "resources": {
+        "images": 14,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "SF",
+            "weight": "100",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "200",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "500",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "New developments in Dubai | Luxury Realty",
+        "h1Count": 1,
+        "width": 390,
+        "scrollWidth": 390,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "screenshot": "luxury-developments-390.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 1625,
+          "width": 390,
+          "scrollWidth": 390
+        },
+        {
+          "y": 3249,
+          "width": 390,
+          "scrollWidth": 390
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "luxury-developments-ava-at-palm-1440",
+      "project": "luxury",
+      "url": "https://luxury-realty-imon.vercel.app/developments/ava-at-palm/",
+      "width": 1440,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 200,
+      "finalUrl": "https://luxury-realty-imon.vercel.app/developments/ava-at-palm/",
+      "resources": {
+        "images": 9,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "SF",
+            "weight": "100",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "200",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "500",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "AVA at Palm Jumeirah | Luxury Realty",
+        "h1Count": 1,
+        "width": 1440,
+        "scrollWidth": 1425,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "projectLinks": [
+        "https://ava-at-palm-imon.vercel.app/"
+      ],
+      "expectedProjectOrigin": "https://ava-at-palm-imon.vercel.app",
+      "screenshot": "luxury-developments-ava-at-palm-1440.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 1201,
+          "width": 1440,
+          "scrollWidth": 1425
+        },
+        {
+          "y": 2402,
+          "width": 1440,
+          "scrollWidth": 1425
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "luxury-developments-ava-at-palm-390",
+      "project": "luxury",
+      "url": "https://luxury-realty-imon.vercel.app/developments/ava-at-palm/",
+      "width": 390,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 200,
+      "finalUrl": "https://luxury-realty-imon.vercel.app/developments/ava-at-palm/",
+      "resources": {
+        "images": 9,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "SF",
+            "weight": "100",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "200",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "500",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "AVA at Palm Jumeirah | Luxury Realty",
+        "h1Count": 1,
+        "width": 390,
+        "scrollWidth": 390,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "projectLinks": [
+        "https://ava-at-palm-imon.vercel.app/"
+      ],
+      "expectedProjectOrigin": "https://ava-at-palm-imon.vercel.app",
+      "screenshot": "luxury-developments-ava-at-palm-390.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 1342,
+          "width": 390,
+          "scrollWidth": 390
+        },
+        {
+          "y": 2683,
+          "width": 390,
+          "scrollWidth": 390
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "luxury-developments-orla-1440",
+      "project": "luxury",
+      "url": "https://luxury-realty-imon.vercel.app/developments/orla/",
+      "width": 1440,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 200,
+      "finalUrl": "https://luxury-realty-imon.vercel.app/developments/orla/",
+      "resources": {
+        "images": 9,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "SF",
+            "weight": "100",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "200",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "500",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "ORLA | Luxury Realty",
+        "h1Count": 1,
+        "width": 1440,
+        "scrollWidth": 1425,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "projectLinks": [
+        "https://orla-imon.vercel.app/"
+      ],
+      "expectedProjectOrigin": "https://orla-imon.vercel.app",
+      "screenshot": "luxury-developments-orla-1440.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 1201,
+          "width": 1440,
+          "scrollWidth": 1425
+        },
+        {
+          "y": 2402,
+          "width": 1440,
+          "scrollWidth": 1425
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "luxury-developments-orla-390",
+      "project": "luxury",
+      "url": "https://luxury-realty-imon.vercel.app/developments/orla/",
+      "width": 390,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 200,
+      "finalUrl": "https://luxury-realty-imon.vercel.app/developments/orla/",
+      "resources": {
+        "images": 9,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "SF",
+            "weight": "100",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "200",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "500",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "ORLA | Luxury Realty",
+        "h1Count": 1,
+        "width": 390,
+        "scrollWidth": 390,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "projectLinks": [
+        "https://orla-imon.vercel.app/"
+      ],
+      "expectedProjectOrigin": "https://orla-imon.vercel.app",
+      "screenshot": "luxury-developments-orla-390.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 1342,
+          "width": 390,
+          "scrollWidth": 390
+        },
+        {
+          "y": 2683,
+          "width": 390,
+          "scrollWidth": 390
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "luxury-developments-six-senses-390",
+      "project": "luxury",
+      "url": "https://luxury-realty-imon.vercel.app/developments/six-senses/",
+      "width": 390,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 200,
+      "finalUrl": "https://luxury-realty-imon.vercel.app/developments/six-senses/",
+      "resources": {
+        "images": 9,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "SF",
+            "weight": "100",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "200",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "500",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "Six Senses Residences | Luxury Realty",
+        "h1Count": 1,
+        "width": 390,
+        "scrollWidth": 390,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "projectLinks": [
+        "https://six-senses-imon.vercel.app/"
+      ],
+      "expectedProjectOrigin": "https://six-senses-imon.vercel.app",
+      "screenshot": "luxury-developments-six-senses-390.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 1342,
+          "width": 390,
+          "scrollWidth": 390
+        },
+        {
+          "y": 2683,
+          "width": 390,
+          "scrollWidth": 390
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "luxury-developments-six-senses-1440",
+      "project": "luxury",
+      "url": "https://luxury-realty-imon.vercel.app/developments/six-senses/",
+      "width": 1440,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 200,
+      "finalUrl": "https://luxury-realty-imon.vercel.app/developments/six-senses/",
+      "resources": {
+        "images": 9,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "SF",
+            "weight": "100",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "200",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "500",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "Six Senses Residences | Luxury Realty",
+        "h1Count": 1,
+        "width": 1440,
+        "scrollWidth": 1425,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "projectLinks": [
+        "https://six-senses-imon.vercel.app/"
+      ],
+      "expectedProjectOrigin": "https://six-senses-imon.vercel.app",
+      "screenshot": "luxury-developments-six-senses-1440.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 1201,
+          "width": 1440,
+          "scrollWidth": 1425
+        },
+        {
+          "y": 2402,
+          "width": 1440,
+          "scrollWidth": 1425
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "luxury-developments-atlantis-1440",
+      "project": "luxury",
+      "url": "https://luxury-realty-imon.vercel.app/developments/atlantis/",
+      "width": 1440,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 200,
+      "finalUrl": "https://luxury-realty-imon.vercel.app/developments/atlantis/",
+      "resources": {
+        "images": 9,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "SF",
+            "weight": "100",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "200",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "500",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "Atlantis The Royal Residences | Luxury Realty",
+        "h1Count": 1,
+        "width": 1440,
+        "scrollWidth": 1425,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "projectLinks": [
+        "https://atlantis-imon.vercel.app/"
+      ],
+      "expectedProjectOrigin": "https://atlantis-imon.vercel.app",
+      "screenshot": "luxury-developments-atlantis-1440.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 1201,
+          "width": 1440,
+          "scrollWidth": 1425
+        },
+        {
+          "y": 2402,
+          "width": 1440,
+          "scrollWidth": 1425
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "luxury-developments-atlantis-390",
+      "project": "luxury",
+      "url": "https://luxury-realty-imon.vercel.app/developments/atlantis/",
+      "width": 390,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 200,
+      "finalUrl": "https://luxury-realty-imon.vercel.app/developments/atlantis/",
+      "resources": {
+        "images": 9,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "SF",
+            "weight": "100",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "200",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "500",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "Atlantis The Royal Residences | Luxury Realty",
+        "h1Count": 1,
+        "width": 390,
+        "scrollWidth": 390,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "projectLinks": [
+        "https://atlantis-imon.vercel.app/"
+      ],
+      "expectedProjectOrigin": "https://atlantis-imon.vercel.app",
+      "screenshot": "luxury-developments-atlantis-390.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 1342,
+          "width": 390,
+          "scrollWidth": 390
+        },
+        {
+          "y": 2683,
+          "width": 390,
+          "scrollWidth": 390
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "luxury-insights-1440",
+      "project": "luxury",
+      "url": "https://luxury-realty-imon.vercel.app/insights/",
+      "width": 1440,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 200,
+      "finalUrl": "https://luxury-realty-imon.vercel.app/insights/",
+      "resources": {
+        "images": 12,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "SF",
+            "weight": "100",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "200",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "500",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "Luxury Realty Insights | Luxury Realty",
+        "h1Count": 1,
+        "width": 1440,
+        "scrollWidth": 1425,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "screenshot": "luxury-insights-1440.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 908,
+          "width": 1440,
+          "scrollWidth": 1425
+        },
+        {
+          "y": 1816,
+          "width": 1440,
+          "scrollWidth": 1425
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "luxury-insights-390",
+      "project": "luxury",
+      "url": "https://luxury-realty-imon.vercel.app/insights/",
+      "width": 390,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 200,
+      "finalUrl": "https://luxury-realty-imon.vercel.app/insights/",
+      "resources": {
+        "images": 12,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "SF",
+            "weight": "100",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "200",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "500",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "Luxury Realty Insights | Luxury Realty",
+        "h1Count": 1,
+        "width": 390,
+        "scrollWidth": 390,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "screenshot": "luxury-insights-390.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 1556,
+          "width": 390,
+          "scrollWidth": 390
+        },
+        {
+          "y": 3111,
+          "width": 390,
+          "scrollWidth": 390
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "luxury-insights-spaces-worth-living-in-1440",
+      "project": "luxury",
+      "url": "https://luxury-realty-imon.vercel.app/insights/spaces-worth-living-in/",
+      "width": 1440,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 200,
+      "finalUrl": "https://luxury-realty-imon.vercel.app/insights/spaces-worth-living-in/",
+      "resources": {
+        "images": 10,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "SF",
+            "weight": "100",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "200",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "500",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "Spaces worth living in | Luxury Realty",
+        "h1Count": 1,
+        "width": 1440,
+        "scrollWidth": 1425,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "screenshot": "luxury-insights-spaces-worth-living-in-1440.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 1336,
+          "width": 1440,
+          "scrollWidth": 1425
+        },
+        {
+          "y": 2672,
+          "width": 1440,
+          "scrollWidth": 1425
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "luxury-insights-spaces-worth-living-in-390",
+      "project": "luxury",
+      "url": "https://luxury-realty-imon.vercel.app/insights/spaces-worth-living-in/",
+      "width": 390,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 200,
+      "finalUrl": "https://luxury-realty-imon.vercel.app/insights/spaces-worth-living-in/",
+      "resources": {
+        "images": 10,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "SF",
+            "weight": "100",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "200",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "500",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "Spaces worth living in | Luxury Realty",
+        "h1Count": 1,
+        "width": 390,
+        "scrollWidth": 390,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "screenshot": "luxury-insights-spaces-worth-living-in-390.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 2138,
+          "width": 390,
+          "scrollWidth": 390
+        },
+        {
+          "y": 4276,
+          "width": 390,
+          "scrollWidth": 390
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "luxury-insights-a-home-by-the-water-1440",
+      "project": "luxury",
+      "url": "https://luxury-realty-imon.vercel.app/insights/a-home-by-the-water/",
+      "width": 1440,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 200,
+      "finalUrl": "https://luxury-realty-imon.vercel.app/insights/a-home-by-the-water/",
+      "resources": {
+        "images": 10,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "SF",
+            "weight": "100",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "200",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "500",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "A different perspective on waterfront living | Luxury Realty",
+        "h1Count": 1,
+        "width": 1440,
+        "scrollWidth": 1425,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "screenshot": "luxury-insights-a-home-by-the-water-1440.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 1269,
+          "width": 1440,
+          "scrollWidth": 1425
+        },
+        {
+          "y": 2537,
+          "width": 1440,
+          "scrollWidth": 1425
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "luxury-insights-a-home-by-the-water-390",
+      "project": "luxury",
+      "url": "https://luxury-realty-imon.vercel.app/insights/a-home-by-the-water/",
+      "width": 390,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 200,
+      "finalUrl": "https://luxury-realty-imon.vercel.app/insights/a-home-by-the-water/",
+      "resources": {
+        "images": 10,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "SF",
+            "weight": "100",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "200",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "500",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "A different perspective on waterfront living | Luxury Realty",
+        "h1Count": 1,
+        "width": 390,
+        "scrollWidth": 390,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "screenshot": "luxury-insights-a-home-by-the-water-390.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 1980,
+          "width": 390,
+          "scrollWidth": 390
+        },
+        {
+          "y": 3959,
+          "width": 390,
+          "scrollWidth": 390
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "luxury-insights-the-art-of-a-private-viewing-1440",
+      "project": "luxury",
+      "url": "https://luxury-realty-imon.vercel.app/insights/the-art-of-a-private-viewing/",
+      "width": 1440,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 200,
+      "finalUrl": "https://luxury-realty-imon.vercel.app/insights/the-art-of-a-private-viewing/",
+      "resources": {
+        "images": 10,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "SF",
+            "weight": "100",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "200",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "500",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "The art of a private viewing | Luxury Realty",
+        "h1Count": 1,
+        "width": 1440,
+        "scrollWidth": 1425,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "screenshot": "luxury-insights-the-art-of-a-private-viewing-1440.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 1212,
+          "width": 1440,
+          "scrollWidth": 1425
+        },
+        {
+          "y": 2423,
+          "width": 1440,
+          "scrollWidth": 1425
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "luxury-insights-the-art-of-a-private-viewing-390",
+      "project": "luxury",
+      "url": "https://luxury-realty-imon.vercel.app/insights/the-art-of-a-private-viewing/",
+      "width": 390,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 200,
+      "finalUrl": "https://luxury-realty-imon.vercel.app/insights/the-art-of-a-private-viewing/",
+      "resources": {
+        "images": 10,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "SF",
+            "weight": "100",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "200",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "500",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "The art of a private viewing | Luxury Realty",
+        "h1Count": 1,
+        "width": 390,
+        "scrollWidth": 390,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "screenshot": "luxury-insights-the-art-of-a-private-viewing-390.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 1967,
+          "width": 390,
+          "scrollWidth": 390
+        },
+        {
+          "y": 3933,
+          "width": 390,
+          "scrollWidth": 390
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "luxury-insights-architecture-on-palm-jumeirah-1440",
+      "project": "luxury",
+      "url": "https://luxury-realty-imon.vercel.app/insights/architecture-on-palm-jumeirah/",
+      "width": 1440,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 200,
+      "finalUrl": "https://luxury-realty-imon.vercel.app/insights/architecture-on-palm-jumeirah/",
+      "resources": {
+        "images": 10,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "SF",
+            "weight": "100",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "200",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "500",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "Architecture on Dubai’s waterfront | Luxury Realty",
+        "h1Count": 1,
+        "width": 1440,
+        "scrollWidth": 1425,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "screenshot": "luxury-insights-architecture-on-palm-jumeirah-1440.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 1251,
+          "width": 1440,
+          "scrollWidth": 1425
+        },
+        {
+          "y": 2501,
+          "width": 1440,
+          "scrollWidth": 1425
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "luxury-insights-architecture-on-palm-jumeirah-390",
+      "project": "luxury",
+      "url": "https://luxury-realty-imon.vercel.app/insights/architecture-on-palm-jumeirah/",
+      "width": 390,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 200,
+      "finalUrl": "https://luxury-realty-imon.vercel.app/insights/architecture-on-palm-jumeirah/",
+      "resources": {
+        "images": 10,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "SF",
+            "weight": "100",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "200",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "500",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "Architecture on Dubai’s waterfront | Luxury Realty",
+        "h1Count": 1,
+        "width": 390,
+        "scrollWidth": 390,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "screenshot": "luxury-insights-architecture-on-palm-jumeirah-390.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 1986,
+          "width": 390,
+          "scrollWidth": 390
+        },
+        {
+          "y": 3972,
+          "width": 390,
+          "scrollWidth": 390
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "luxury-contacts-390",
+      "project": "luxury",
+      "url": "https://luxury-realty-imon.vercel.app/contacts/",
+      "width": 390,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 200,
+      "finalUrl": "https://luxury-realty-imon.vercel.app/contacts/",
+      "resources": {
+        "images": 9,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "SF",
+            "weight": "100",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "200",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "500",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "Contacts | Luxury Realty",
+        "h1Count": 1,
+        "width": 390,
+        "scrollWidth": 390,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "screenshot": "luxury-contacts-390.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 1201,
+          "width": 390,
+          "scrollWidth": 390
+        },
+        {
+          "y": 2401,
+          "width": 390,
+          "scrollWidth": 390
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "luxury-contacts-1440",
+      "project": "luxury",
+      "url": "https://luxury-realty-imon.vercel.app/contacts/",
+      "width": 1440,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 200,
+      "finalUrl": "https://luxury-realty-imon.vercel.app/contacts/",
+      "resources": {
+        "images": 9,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "SF",
+            "weight": "100",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "200",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "500",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "Contacts | Luxury Realty",
+        "h1Count": 1,
+        "width": 1440,
+        "scrollWidth": 1425,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "screenshot": "luxury-contacts-1440.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 701,
+          "width": 1440,
+          "scrollWidth": 1425
+        },
+        {
+          "y": 1401,
+          "width": 1440,
+          "scrollWidth": 1425
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "luxury-privacy-1440",
+      "project": "luxury",
+      "url": "https://luxury-realty-imon.vercel.app/privacy/",
+      "width": 1440,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 200,
+      "finalUrl": "https://luxury-realty-imon.vercel.app/privacy/",
+      "resources": {
+        "images": 6,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "SF",
+            "weight": "100",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "200",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "500",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "Privacy policy | Luxury Realty",
+        "h1Count": 1,
+        "width": 1440,
+        "scrollWidth": 1425,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "screenshot": "luxury-privacy-1440.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 554,
+          "width": 1440,
+          "scrollWidth": 1425
+        },
+        {
+          "y": 1107,
+          "width": 1440,
+          "scrollWidth": 1425
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "luxury-privacy-390",
+      "project": "luxury",
+      "url": "https://luxury-realty-imon.vercel.app/privacy/",
+      "width": 390,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 200,
+      "finalUrl": "https://luxury-realty-imon.vercel.app/privacy/",
+      "resources": {
+        "images": 6,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "SF",
+            "weight": "100",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "200",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "500",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "Privacy policy | Luxury Realty",
+        "h1Count": 1,
+        "width": 390,
+        "scrollWidth": 390,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "screenshot": "luxury-privacy-390.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 1025,
+          "width": 390,
+          "scrollWidth": 390
+        },
+        {
+          "y": 2050,
+          "width": 390,
+          "scrollWidth": 390
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "luxury-404-1440",
+      "project": "luxury",
+      "url": "https://luxury-realty-imon.vercel.app/404/",
+      "width": 1440,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [
+        {
+          "message": "Failed to load resource: the server responded with a status of 404 ()",
+          "url": "https://luxury-realty-imon.vercel.app/404/"
+        }
+      ],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 404,
+      "finalUrl": "https://luxury-realty-imon.vercel.app/404/",
+      "resources": {
+        "images": 6,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "SF",
+            "weight": "100",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "200",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "500",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "Page not found | Luxury Realty",
+        "h1Count": 1,
+        "width": 1440,
+        "scrollWidth": 1425,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "screenshot": "luxury-404-1440.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 166,
+          "width": 1440,
+          "scrollWidth": 1425
+        },
+        {
+          "y": 332,
+          "width": 1440,
+          "scrollWidth": 1425
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "luxury-404-390",
+      "project": "luxury",
+      "url": "https://luxury-realty-imon.vercel.app/404/",
+      "width": 390,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [
+        {
+          "message": "Failed to load resource: the server responded with a status of 404 ()",
+          "url": "https://luxury-realty-imon.vercel.app/404/"
+        }
+      ],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 404,
+      "finalUrl": "https://luxury-realty-imon.vercel.app/404/",
+      "resources": {
+        "images": 6,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "SF",
+            "weight": "100",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "200",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "500",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "Page not found | Luxury Realty",
+        "h1Count": 1,
+        "width": 390,
+        "scrollWidth": 390,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "screenshot": "luxury-404-390.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 427,
+          "width": 390,
+          "scrollWidth": 390
+        },
+        {
+          "y": 853,
+          "width": 390,
+          "scrollWidth": 390
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "atlantis-home-390",
+      "project": "atlantis",
+      "url": "https://atlantis-imon.vercel.app/",
+      "width": 390,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 200,
+      "finalUrl": "https://atlantis-imon.vercel.app/",
+      "resources": {
+        "images": 73,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "Vanitas",
+            "weight": "700",
+            "status": "loaded"
+          },
+          {
+            "family": "Caslon",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Caslon",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "100 900",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "300",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "Atlantis The Royal Residences | Created for legendary living",
+        "h1Count": 1,
+        "width": 390,
+        "scrollWidth": 390,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "screenshot": "atlantis-home-390.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 6293,
+          "width": 390,
+          "scrollWidth": 390
+        },
+        {
+          "y": 12585,
+          "width": 390,
+          "scrollWidth": 390
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "atlantis-home-1440",
+      "project": "atlantis",
+      "url": "https://atlantis-imon.vercel.app/",
+      "width": 1440,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 200,
+      "finalUrl": "https://atlantis-imon.vercel.app/",
+      "resources": {
+        "images": 73,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "Vanitas",
+            "weight": "700",
+            "status": "loaded"
+          },
+          {
+            "family": "Caslon",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Caslon",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "100 900",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "300",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "Atlantis The Royal Residences | Created for legendary living",
+        "h1Count": 1,
+        "width": 1440,
+        "scrollWidth": 1425,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "screenshot": "atlantis-home-1440.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 8143,
+          "width": 1440,
+          "scrollWidth": 1425
+        },
+        {
+          "y": 16285,
+          "width": 1440,
+          "scrollWidth": 1425
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "atlantis-residences-3402-1440",
+      "project": "atlantis",
+      "url": "https://atlantis-imon.vercel.app/residences/3402/",
+      "width": 1440,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 200,
+      "finalUrl": "https://atlantis-imon.vercel.app/residences/3402/",
+      "resources": {
+        "images": 9,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "Vanitas",
+            "weight": "700",
+            "status": "loaded"
+          },
+          {
+            "family": "Caslon",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Caslon",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "100 900",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "300",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "Unit 3402 | Atlantis The Royal Residences",
+        "h1Count": 1,
+        "width": 1440,
+        "scrollWidth": 1425,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "screenshot": "atlantis-residences-3402-1440.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 135,
+          "width": 1440,
+          "scrollWidth": 1425
+        },
+        {
+          "y": 270,
+          "width": 1440,
+          "scrollWidth": 1425
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "atlantis-residences-3402-390",
+      "project": "atlantis",
+      "url": "https://atlantis-imon.vercel.app/residences/3402/",
+      "width": 390,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 200,
+      "finalUrl": "https://atlantis-imon.vercel.app/residences/3402/",
+      "resources": {
+        "images": 9,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "Vanitas",
+            "weight": "700",
+            "status": "loaded"
+          },
+          {
+            "family": "Caslon",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Caslon",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "100 900",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "300",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "Unit 3402 | Atlantis The Royal Residences",
+        "h1Count": 1,
+        "width": 390,
+        "scrollWidth": 390,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "screenshot": "atlantis-residences-3402-390.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 416,
+          "width": 390,
+          "scrollWidth": 390
+        },
+        {
+          "y": 832,
+          "width": 390,
+          "scrollWidth": 390
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "atlantis-privacy-1440",
+      "project": "atlantis",
+      "url": "https://atlantis-imon.vercel.app/privacy/",
+      "width": 1440,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 200,
+      "finalUrl": "https://atlantis-imon.vercel.app/privacy/",
+      "resources": {
+        "images": 3,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "Vanitas",
+            "weight": "700",
+            "status": "loaded"
+          },
+          {
+            "family": "Caslon",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Caslon",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "100 900",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "300",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "Enquiry privacy notice | Atlantis The Royal Residences",
+        "h1Count": 1,
+        "width": 1440,
+        "scrollWidth": 1425,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "screenshot": "atlantis-privacy-1440.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 156,
+          "width": 1440,
+          "scrollWidth": 1425
+        },
+        {
+          "y": 311,
+          "width": 1440,
+          "scrollWidth": 1425
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "atlantis-privacy-390",
+      "project": "atlantis",
+      "url": "https://atlantis-imon.vercel.app/privacy/",
+      "width": 390,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 200,
+      "finalUrl": "https://atlantis-imon.vercel.app/privacy/",
+      "resources": {
+        "images": 3,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "Vanitas",
+            "weight": "700",
+            "status": "loaded"
+          },
+          {
+            "family": "Caslon",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Caslon",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "100 900",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "300",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "Enquiry privacy notice | Atlantis The Royal Residences",
+        "h1Count": 1,
+        "width": 390,
+        "scrollWidth": 390,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "screenshot": "atlantis-privacy-390.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 373,
+          "width": 390,
+          "scrollWidth": 390
+        },
+        {
+          "y": 746,
+          "width": 390,
+          "scrollWidth": 390
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "atlantis-404-1440",
+      "project": "atlantis",
+      "url": "https://atlantis-imon.vercel.app/404/",
+      "width": 1440,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [
+        {
+          "message": "Failed to load resource: the server responded with a status of 404 ()",
+          "url": "https://atlantis-imon.vercel.app/404/"
+        }
+      ],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 404,
+      "finalUrl": "https://atlantis-imon.vercel.app/404/",
+      "resources": {
+        "images": 2,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "Vanitas",
+            "weight": "700",
+            "status": "loaded"
+          },
+          {
+            "family": "Caslon",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Caslon",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "100 900",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "300",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "Page not found | Atlantis The Royal Residences",
+        "h1Count": 1,
+        "width": 1440,
+        "scrollWidth": 1425,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "screenshot": "atlantis-404-1440.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 0,
+          "width": 1440,
+          "scrollWidth": 1425
+        },
+        {
+          "y": 0,
+          "width": 1440,
+          "scrollWidth": 1425
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "atlantis-404-390",
+      "project": "atlantis",
+      "url": "https://atlantis-imon.vercel.app/404/",
+      "width": 390,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [
+        {
+          "message": "Failed to load resource: the server responded with a status of 404 ()",
+          "url": "https://atlantis-imon.vercel.app/404/"
+        }
+      ],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 404,
+      "finalUrl": "https://atlantis-imon.vercel.app/404/",
+      "resources": {
+        "images": 2,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "Vanitas",
+            "weight": "700",
+            "status": "loaded"
+          },
+          {
+            "family": "Caslon",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Caslon",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "100 900",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik",
+            "weight": "300",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "Page not found | Atlantis The Royal Residences",
+        "h1Count": 1,
+        "width": 390,
+        "scrollWidth": 390,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "screenshot": "atlantis-404-390.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 0,
+          "width": 390,
+          "scrollWidth": 390
+        },
+        {
+          "y": 0,
+          "width": 390,
+          "scrollWidth": 390
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "orla-home-390",
+      "project": "orla",
+      "url": "https://orla-imon.vercel.app/",
+      "width": 390,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 200,
+      "finalUrl": "https://orla-imon.vercel.app/",
+      "resources": {
+        "images": 82,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "Catalina Village",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "100",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "200",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "600",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik LCG",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik LCG",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik LCG",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "100 900",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "ORLA, Dorchester Collection | Palm Jumeirah, Dubai",
+        "h1Count": 1,
+        "width": 390,
+        "scrollWidth": 390,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "screenshot": "orla-home-390.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 5742,
+          "width": 390,
+          "scrollWidth": 390
+        },
+        {
+          "y": 11484,
+          "width": 390,
+          "scrollWidth": 390
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "orla-home-1440",
+      "project": "orla",
+      "url": "https://orla-imon.vercel.app/",
+      "width": 1440,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 200,
+      "finalUrl": "https://orla-imon.vercel.app/",
+      "resources": {
+        "images": 82,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "Catalina Village",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "100",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "200",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "600",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik LCG",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik LCG",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik LCG",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "100 900",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "ORLA, Dorchester Collection | Palm Jumeirah, Dubai",
+        "h1Count": 1,
+        "width": 1440,
+        "scrollWidth": 1425,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "screenshot": "orla-home-1440.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 8026,
+          "width": 1440,
+          "scrollWidth": 1425
+        },
+        {
+          "y": 16051,
+          "width": 1440,
+          "scrollWidth": 1425
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "six-senses-home-1440",
+      "project": "six-senses",
+      "url": "https://six-senses-imon.vercel.app/",
+      "width": 1440,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 200,
+      "finalUrl": "https://six-senses-imon.vercel.app/",
+      "resources": {
+        "images": 55,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "FoglihtenNo06",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik LCG",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "100 900",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "Six Senses Residences Dubai Marina | Explore the residences",
+        "h1Count": 1,
+        "width": 1440,
+        "scrollWidth": 1425,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "screenshot": "six-senses-home-1440.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 8588,
+          "width": 1440,
+          "scrollWidth": 1425
+        },
+        {
+          "y": 17176,
+          "width": 1440,
+          "scrollWidth": 1425
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "six-senses-home-390",
+      "project": "six-senses",
+      "url": "https://six-senses-imon.vercel.app/",
+      "width": 390,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 200,
+      "finalUrl": "https://six-senses-imon.vercel.app/",
+      "resources": {
+        "images": 55,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "FoglihtenNo06",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik LCG",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "100 900",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "Six Senses Residences Dubai Marina | Explore the residences",
+        "h1Count": 1,
+        "width": 390,
+        "scrollWidth": 390,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "screenshot": "six-senses-home-390.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 6653,
+          "width": 390,
+          "scrollWidth": 390
+        },
+        {
+          "y": 13306,
+          "width": 390,
+          "scrollWidth": 390
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "ava-home-390",
+      "project": "ava",
+      "url": "https://ava-at-palm-imon.vercel.app/",
+      "width": 390,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 200,
+      "finalUrl": "https://ava-at-palm-imon.vercel.app/",
+      "resources": {
+        "images": 38,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "Catalina Village",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "600",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "700",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik LCG",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik LCG",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "100 900",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "AVA at Palm Jumeirah | Inhabit the infinite",
+        "h1Count": 1,
+        "width": 390,
+        "scrollWidth": 390,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "screenshot": "ava-home-390.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 4885,
+          "width": 390,
+          "scrollWidth": 390
+        },
+        {
+          "y": 9770,
+          "width": 390,
+          "scrollWidth": 390
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "ava-home-1440",
+      "project": "ava",
+      "url": "https://ava-at-palm-imon.vercel.app/",
+      "width": 1440,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 200,
+      "finalUrl": "https://ava-at-palm-imon.vercel.app/",
+      "resources": {
+        "images": 38,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "Catalina Village",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "600",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "700",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik LCG",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik LCG",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "100 900",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "AVA at Palm Jumeirah | Inhabit the infinite",
+        "h1Count": 1,
+        "width": 1440,
+        "scrollWidth": 1425,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "screenshot": "ava-home-1440.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 7546,
+          "width": 1440,
+          "scrollWidth": 1425
+        },
+        {
+          "y": 15091,
+          "width": 1440,
+          "scrollWidth": 1425
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "ava-residences-801-1440",
+      "project": "ava",
+      "url": "https://ava-at-palm-imon.vercel.app/residences/801/",
+      "width": 1440,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 200,
+      "finalUrl": "https://ava-at-palm-imon.vercel.app/residences/801/",
+      "resources": {
+        "images": 5,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "Catalina Village",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "600",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "700",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik LCG",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik LCG",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "100 900",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "Residence 801 | AVA at Palm Jumeirah",
+        "h1Count": 1,
+        "width": 1440,
+        "scrollWidth": 1425,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "screenshot": "ava-residences-801-1440.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 188,
+          "width": 1440,
+          "scrollWidth": 1425
+        },
+        {
+          "y": 376,
+          "width": 1440,
+          "scrollWidth": 1425
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "ava-residences-801-390",
+      "project": "ava",
+      "url": "https://ava-at-palm-imon.vercel.app/residences/801/",
+      "width": 390,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 200,
+      "finalUrl": "https://ava-at-palm-imon.vercel.app/residences/801/",
+      "resources": {
+        "images": 5,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "Catalina Village",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "600",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "700",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik LCG",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik LCG",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "100 900",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "Residence 801 | AVA at Palm Jumeirah",
+        "h1Count": 1,
+        "width": 390,
+        "scrollWidth": 390,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "screenshot": "ava-residences-801-390.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 311,
+          "width": 390,
+          "scrollWidth": 390
+        },
+        {
+          "y": 622,
+          "width": 390,
+          "scrollWidth": 390
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "ava-residences-1601-1440",
+      "project": "ava",
+      "url": "https://ava-at-palm-imon.vercel.app/residences/1601/",
+      "width": 1440,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 200,
+      "finalUrl": "https://ava-at-palm-imon.vercel.app/residences/1601/",
+      "resources": {
+        "images": 5,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "Catalina Village",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "600",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "700",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik LCG",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik LCG",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "100 900",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "Residence 1601 | AVA at Palm Jumeirah",
+        "h1Count": 1,
+        "width": 1440,
+        "scrollWidth": 1425,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "screenshot": "ava-residences-1601-1440.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 200,
+          "width": 1440,
+          "scrollWidth": 1425
+        },
+        {
+          "y": 399,
+          "width": 1440,
+          "scrollWidth": 1425
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "ava-residences-1601-390",
+      "project": "ava",
+      "url": "https://ava-at-palm-imon.vercel.app/residences/1601/",
+      "width": 390,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 200,
+      "finalUrl": "https://ava-at-palm-imon.vercel.app/residences/1601/",
+      "resources": {
+        "images": 5,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "Catalina Village",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "600",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "700",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik LCG",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik LCG",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "100 900",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "Residence 1601 | AVA at Palm Jumeirah",
+        "h1Count": 1,
+        "width": 390,
+        "scrollWidth": 390,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "screenshot": "ava-residences-1601-390.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 317,
+          "width": 390,
+          "scrollWidth": 390
+        },
+        {
+          "y": 633,
+          "width": 390,
+          "scrollWidth": 390
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "ava-location-1440",
+      "project": "ava",
+      "url": "https://ava-at-palm-imon.vercel.app/location/",
+      "width": 1440,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 200,
+      "finalUrl": "https://ava-at-palm-imon.vercel.app/location/",
+      "resources": {
+        "images": 3,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "Catalina Village",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "600",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "700",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik LCG",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik LCG",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "100 900",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "Palm Jumeirah | AVA at Palm Jumeirah",
+        "h1Count": 1,
+        "width": 1440,
+        "scrollWidth": 1425,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "screenshot": "ava-location-1440.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 87,
+          "width": 1440,
+          "scrollWidth": 1425
+        },
+        {
+          "y": 173,
+          "width": 1440,
+          "scrollWidth": 1425
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "ava-location-390",
+      "project": "ava",
+      "url": "https://ava-at-palm-imon.vercel.app/location/",
+      "width": 390,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 200,
+      "finalUrl": "https://ava-at-palm-imon.vercel.app/location/",
+      "resources": {
+        "images": 3,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "Catalina Village",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "600",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "700",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik LCG",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik LCG",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "100 900",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "Palm Jumeirah | AVA at Palm Jumeirah",
+        "h1Count": 1,
+        "width": 390,
+        "scrollWidth": 390,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "screenshot": "ava-location-390.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 246,
+          "width": 390,
+          "scrollWidth": 390
+        },
+        {
+          "y": 492,
+          "width": 390,
+          "scrollWidth": 390
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "ava-privacy-1440",
+      "project": "ava",
+      "url": "https://ava-at-palm-imon.vercel.app/privacy/",
+      "width": 1440,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 200,
+      "finalUrl": "https://ava-at-palm-imon.vercel.app/privacy/",
+      "resources": {
+        "images": 1,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "Catalina Village",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "600",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "700",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik LCG",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik LCG",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "100 900",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "Privacy information | AVA at Palm Jumeirah",
+        "h1Count": 1,
+        "width": 1440,
+        "scrollWidth": 1425,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "screenshot": "ava-privacy-1440.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 289,
+          "width": 1440,
+          "scrollWidth": 1425
+        },
+        {
+          "y": 577,
+          "width": 1440,
+          "scrollWidth": 1425
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "ava-privacy-390",
+      "project": "ava",
+      "url": "https://ava-at-palm-imon.vercel.app/privacy/",
+      "width": 390,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 200,
+      "finalUrl": "https://ava-at-palm-imon.vercel.app/privacy/",
+      "resources": {
+        "images": 1,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "Catalina Village",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "600",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "700",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik LCG",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik LCG",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "100 900",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "Privacy information | AVA at Palm Jumeirah",
+        "h1Count": 1,
+        "width": 390,
+        "scrollWidth": 390,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "screenshot": "ava-privacy-390.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 668,
+          "width": 390,
+          "scrollWidth": 390
+        },
+        {
+          "y": 1335,
+          "width": 390,
+          "scrollWidth": 390
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "ava-404-390",
+      "project": "ava",
+      "url": "https://ava-at-palm-imon.vercel.app/404/",
+      "width": 390,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [
+        {
+          "message": "Failed to load resource: the server responded with a status of 404 ()",
+          "url": "https://ava-at-palm-imon.vercel.app/404/"
+        }
+      ],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 404,
+      "finalUrl": "https://ava-at-palm-imon.vercel.app/404/",
+      "resources": {
+        "images": 1,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "Catalina Village",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "600",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "700",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik LCG",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik LCG",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "100 900",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "Page not found | AVA at Palm Jumeirah",
+        "h1Count": 1,
+        "width": 390,
+        "scrollWidth": 390,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "screenshot": "ava-404-390.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 0,
+          "width": 390,
+          "scrollWidth": 390
+        },
+        {
+          "y": 0,
+          "width": 390,
+          "scrollWidth": 390
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    },
+    {
+      "label": "ava-404-1440",
+      "project": "ava",
+      "url": "https://ava-at-palm-imon.vercel.app/404/",
+      "width": 1440,
+      "errors": [],
+      "pageErrors": [],
+      "consoleErrors": [
+        {
+          "message": "Failed to load resource: the server responded with a status of 404 ()",
+          "url": "https://ava-at-palm-imon.vercel.app/404/"
+        }
+      ],
+      "failedAssets": [],
+      "abortedAssets": [],
+      "status": 404,
+      "finalUrl": "https://ava-at-palm-imon.vercel.app/404/",
+      "resources": {
+        "images": 1,
+        "failures": [],
+        "fonts": [
+          {
+            "family": "Catalina Village",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "600",
+            "status": "loaded"
+          },
+          {
+            "family": "SF UI Display",
+            "weight": "700",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik LCG",
+            "weight": "300",
+            "status": "loaded"
+          },
+          {
+            "family": "Graphik LCG",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "100 900",
+            "status": "loaded"
+          }
+        ]
+      },
+      "dom": {
+        "title": "Page not found | AVA at Palm Jumeirah",
+        "h1Count": 1,
+        "width": 1440,
+        "scrollWidth": 1425,
+        "textArrows": [],
+        "pseudoArrows": [],
+        "controlSymbols": [],
+        "missingAnchors": [],
+        "visibleUnnamedControls": []
+      },
+      "screenshot": "ava-404-1440.png",
+      "screenshotScope": "Initial viewport with normal motion; section/state captures belong to each project audit",
+      "scrollSamples": [
+        {
+          "y": 0,
+          "width": 1440,
+          "scrollWidth": 1425
+        },
+        {
+          "y": 0,
+          "width": 1440,
+          "scrollWidth": 1425
+        }
+      ],
+      "unexpectedConsoleErrors": [],
+      "ok": true
+    }
+  ],
+  "apiHealth": [
+    {
+      "project": "luxury",
+      "url": "https://luxury-realty-imon.vercel.app/api/enquiry",
+      "method": "GET",
+      "errors": [],
+      "status": 405,
+      "allow": "POST",
+      "contentType": "application/json",
+      "message": "Use POST to submit an enquiry.",
+      "ok": true
+    },
+    {
+      "project": "atlantis",
+      "url": "https://atlantis-imon.vercel.app/api/enquiry",
+      "method": "GET",
+      "errors": [],
+      "status": 405,
+      "allow": "POST",
+      "contentType": "application/json",
+      "message": "Use POST to submit an enquiry.",
+      "ok": true
+    },
+    {
+      "project": "orla",
+      "url": "https://orla-imon.vercel.app/api/enquiry",
+      "method": "GET",
+      "errors": [],
+      "status": 405,
+      "allow": "POST",
+      "contentType": "application/json",
+      "message": "Use POST to submit an enquiry.",
+      "ok": true
+    },
+    {
+      "project": "six-senses",
+      "url": "https://six-senses-imon.vercel.app/api/enquiry",
+      "method": "GET",
+      "errors": [],
+      "status": 405,
+      "allow": "POST",
+      "contentType": "application/json",
+      "message": "Use POST to submit an enquiry.",
+      "ok": true
+    },
+    {
+      "project": "ava",
+      "url": "https://ava-at-palm-imon.vercel.app/api/enquiry",
+      "method": "GET",
+      "errors": [],
+      "status": 405,
+      "allow": "POST",
+      "contentType": "application/json",
+      "message": "Use POST to submit an enquiry.",
+      "ok": true
+    }
+  ],
+  "blockedEnquiries": [],
+  "fatalErrors": [],
+  "browserVersion": "145.0.7632.6",
+  "ok": true,
+  "finishedAt": "2026-11-01T17:22:58.342Z",
+  "timedOut": false,
+  "interrupted": false
+}
