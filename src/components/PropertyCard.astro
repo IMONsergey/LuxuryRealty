@@ -4,7 +4,7 @@ import Picture from './Picture.astro';
 interface Props {property:Property;compact?:boolean;class?:string;}
 const {property:p,compact=false,class:className=''}=Astro.props;
 ---
-<article class:list={['property-card',{'property-card--compact':compact},className]} data-property-card data-id={p.id} data-purpose={p.purpose} data-type={p.type.toLowerCase()} data-location={p.location.toLowerCase()} data-bedrooms={p.bedrooms} data-price={p.price} data-features={p.features.join(',').toLowerCase()} data-search={(p.title+' '+p.subtitle+' '+p.location+' '+p.type+' '+p.features.join(' ')).toLowerCase()} data-illustrative={String(Boolean(p.illustrative))}>
+<article class:list={['property-card',{'property-card--compact':compact},className]} data-property-card data-id={p.id} data-purpose={p.purpose} data-search={(p.title+' '+p.subtitle).toLowerCase()} data-illustrative={String(Boolean(p.illustrative))}>
  <a href={'/properties/'+p.id+'/'} class="property-card-link">
   <div class="property-media"><Picture name={p.image} alt="" sizes="(max-width: 700px) calc(100vw - 48px), (max-width: 1000px) 45vw, 414px" /><div class="property-tags"><span>Illustrative example</span></div></div>
   <div class="property-info"><h3>{p.title}</h3><p class="property-example-note">Visual preview only. Property details, imagery and availability are not verified.</p></div>

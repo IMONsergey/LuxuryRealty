@@ -292,60 +292,41 @@ if(catalogue){
  const form=$<HTMLFormElement>('[data-filters]',catalogue)!;
  const grid=$<HTMLElement>('[data-property-grid]',catalogue)!;
  const cards=$$<HTMLElement>('[data-property-card]',grid);const sort=$<HTMLSelectElement>('[data-sort]',catalogue)!;
- const paramsAllowed=['purpose','q','type','beds','min','max','features','sort'];
- const minimumPrice=$<HTMLInputElement>('[name=min]',form)!,maximumPrice=$<HTMLInputElement>('[name=max]',form)!;
- const rangeError=$('[data-filter-error]',form),invalidRange=$<HTMLElement>('[data-invalid-range]',grid);
- function readPriceRange(){
-  const min=Math.max(0,Number(minimumPrice.value||0));const maxText=maximumPrice.value.trim();const max=maxText===''?Infinity:Math.max(0,Number(maxText));
-  const valid=min<=max;
-  if(rangeError)rangeError.textContent=valid?'':'The maximum price must be higher than or equal to the minimum.';
-  if(valid)maximumPrice.removeAttribute('aria-invalid');else maximumPrice.setAttribute('aria-invalid','true');
-  return {min,max,valid};
- }
+ const paramsAllowed=['purpose','q','sort'];
  function saveCatalogue(propertyId?:string){
   try{sessionStorage.setItem(catalogueStateKey,JSON.stringify({url:location.pathname+location.search,scrollY:Math.max(0,scrollY),propertyId}));}catch{/* Browsers may deny session storage; URL filters still work. */}
  }
  cards.forEach(card=>$<HTMLAnchorElement>('a',card)?.addEventListener('click',()=>saveCatalogue(card.dataset.id)));
  function loadQuery(){
   const params=new URLSearchParams(location.search);form.reset();
-  $$<HTMLInputElement>('input[name]',form).forEach(input=>{
-   const values=params.getAll(input.name).flatMap(value=>value.split(','));
-   if(input.type==='checkbox')input.checked=values.includes(input.value);
-   else if(input.type==='radio')input.checked=values.length?values.includes(input.value):input.value==='';
-   else if(input.name==='purpose')input.value=params.get('purpose')==='rent'?'rent':'buy';
-   else input.value=params.get(input.name)||'';
-  });
-  const requested=params.get('sort')||'featured';sort.value=['featured','price-low','price-high','name'].includes(requested)?requested:'featured';
+  const purpose=params.get('purpose')==='rent'?'rent':'buy';
+  const purposeInput=$<HTMLInputElement>('[name=purpose]',form);if(purposeInput)purposeInput.value=purpose;
+  const queryInput=$<HTMLInputElement>('[name=q]',form);if(queryInput)queryInput.value=(params.get('q')||'').trim().slice(0,100);
+  sort.value=params.get('sort')==='name'?'name':'featured';
+  // Old shared URLs may contain hidden legacy filters. Drop them rather than
+  // silently applying unsupported conditions that the visitor cannot inspect.
+  const canonical=new URLSearchParams();
+  if(purpose==='rent')canonical.set('purpose','rent');
+  if(queryInput?.value)canonical.set('q',queryInput.value);
+  if(sort.value==='name')canonical.set('sort','name');
+  const canonicalUrl=location.pathname+(canonical.size?'?'+canonical.toString():'');
+  if(canonicalUrl!==location.pathname+location.search)history.replaceState(history.state,'',canonicalUrl);
   applyFilters(false);
  }
  function applyFilters(update=true){
   const fd=new FormData(form);const q=String(fd.get('q')||'').trim().toLowerCase();
-  const purpose=String(fd.get('purpose')||'buy');const types=fd.getAll('type').map(String);
-  const features=fd.getAll('features').map(String);const bedrooms=Number(fd.get('beds')||0);
-  const {min,max,valid}=readPriceRange();
-  if(!valid){
-   // Editing an invalid draft must not replace the last valid result or URL.
-   // An invalid shared URL has no valid result to restore, so expose that state.
-   if(!update){
-    cards.forEach(card=>card.hidden=true);const empty=$<HTMLElement>('[data-no-results]',grid);if(empty)empty.hidden=true;
-    if(invalidRange)invalidRange.hidden=false;const countNode=$('[data-result-count]',catalogue!);if(countNode)countNode.textContent='Invalid price range';
-    $$<HTMLButtonElement>('.purpose-tabs button[data-purpose]',catalogue!).forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.purpose===purpose)));
-    syncCurrentNavigation();
-   }
-   return false;
-  }
-  if(invalidRange)invalidRange.hidden=true;
+  const purpose=String(fd.get('purpose')||'buy');
+  sort.value=sort.value==='name'?'name':'featured';
   let count=0;
   const sorted=[...cards].sort((a,b)=>{
-   if(sort.value==='price-low')return Number(a.dataset.price)-Number(b.dataset.price);
-   if(sort.value==='price-high')return Number(b.dataset.price)-Number(a.dataset.price);
    if(sort.value==='name')return(a.dataset.search||'').localeCompare(b.dataset.search||'');
    return cards.indexOf(a)-cards.indexOf(b);
   });
   sorted.forEach(card=>{
-   const d=card.dataset;const p=Number(d.price);
-   const matchesBedrooms=!bedrooms||(bedrooms===6?Number(d.bedrooms)>=6:Number(d.bedrooms)===bedrooms);
-   const match=d.purpose===purpose&&(!q||(d.search||'').includes(q))&&(!types.length||types.includes(d.type||''))&&matchesBedrooms&&p>=min&&p<=max&&features.every(feature=>(d.features||'').split(',').includes(feature));
+   const d=card.dataset;
+   // Search only visible, editorial card text. Location, type, bedrooms,
+   // price and feature metadata are illustrative placeholders, not facts.
+   const match=d.purpose===purpose&&(!q||(d.search||'').includes(q));
    card.hidden=!match;if(match)count++;grid.append(card);
   });
   const empty=$<HTMLElement>('[data-no-results]',grid);if(empty){
@@ -353,16 +334,16 @@ if(catalogue){
    if(count===0){
     const title=$<HTMLElement>('[data-empty-title]',empty),copy=$<HTMLElement>('[data-empty-copy]',empty);
     if(purpose==='rent'){
-     if(title)title.textContent='No current rental collection';
-     if(copy)copy.textContent='This preview contains no verified rental listings. Request a tailored search to discuss current availability.';
+     if(title)title.textContent='No rental examples in this preview';
+     if(copy)copy.textContent='This illustrative catalogue contains no rental examples. Rental inventory and availability must be confirmed separately.';
     }else{
      if(title)title.textContent='No matching illustrative examples';
-     if(copy)copy.textContent='Try fewer filters or request a tailored selection. The catalogue entries are examples, not verified listings.';
+     if(copy)copy.textContent='Try a different visible title keyword or request a tailored selection. The catalogue entries are examples, not verified listings.';
     }
    }
    grid.append(empty);
   }
-  const countNode=$('[data-result-count]',catalogue!);if(countNode)countNode.textContent=count+' '+(purpose==='rent'?'confirmed rental listings':count===1?'illustrative example':'illustrative examples');
+  const countNode=$('[data-result-count]',catalogue!);if(countNode)countNode.textContent=purpose==='rent'?count+' rental examples':count+' illustrative examples';
   $$<HTMLButtonElement>('.purpose-tabs button[data-purpose]',catalogue!).forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.purpose===purpose)));
   if(update){
    const params=new URLSearchParams();
@@ -374,14 +355,12 @@ if(catalogue){
   syncCurrentNavigation();return true;
  }
  form.addEventListener('submit',event=>{
-  event.preventDefault();if(!applyFilters()){$<HTMLInputElement>('[name=max]',form)?.focus();return;}
+  event.preventDefault();applyFilters();
   if(matchMedia('(max-width:900px)').matches){const disclosure=$<HTMLDetailsElement>('.filter-disclosure',catalogue!);if(disclosure)disclosure.open=false;grid.scrollIntoView({behavior:scrollBehavior(),block:'start'});}
  });
  let loadingQuery=false;
  form.addEventListener('reset',()=>{if(!loadingQuery)setTimeout(()=>{sort.value='featured';applyFilters();},0);});
  form.addEventListener('change',()=>applyFilters());
- // Render the range error while typing, before blur can move Apply under the pointer.
- [minimumPrice,maximumPrice].forEach(input=>input.addEventListener('input',readPriceRange));
  let searchTimer:ReturnType<typeof setTimeout>;
  $<HTMLInputElement>('[name=q]',form)?.addEventListener('input',()=>{clearTimeout(searchTimer);searchTimer=setTimeout(()=>applyFilters(),350);});
  sort.addEventListener('change',()=>applyFilters());

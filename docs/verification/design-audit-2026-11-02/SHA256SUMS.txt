@@ -13,6 +13,7 @@ aaff7a48bf5419d81f48a78ff18dd26165bc29052d2467494722748066a4e2a5  docs/verificat
 db16f2480ce69d3578367212d2ee0d9f5eb08ae0641e62d1c373e16ca6dacf1a  docs/verification/design-audit-2026-11-02/luxury-home-390.png
 65d3c7abea41943c96dd432f45f77481ea265eb810484c721bde14287ab359ff  docs/verification/design-audit-2026-11-02/luxury-home-430.png
 72706db0e9e4c4b916034d4a89d3cd0975d6a236d0bc75c1e4956993fd45818b  docs/verification/design-audit-2026-11-02/luxury-home-768.png
-f924dcf7dcc96151a9fd5b77ec241d8f32bff43610d0d55a277ea6c12bd7a57f  docs/verification/design-audit-2026-11-02/luxury-rent-empty-390.png
+78911a54f2b3c3794cc538c62efe154bc4dbf6ceb2a6bba38a106dff3f829bc1  docs/verification/design-audit-2026-11-02/luxury-rent-empty-390.png
 6cbe3d7e1f989083c31857c0749c65f9589cc6a150ceeeec20c8c05dc74ca7d0  docs/verification/design-audit-2026-11-02/luxury-rent-empty-state-390.png
-2cb18e6147e0b288ec0a0389eb17ccdcf5a699da49fe66fb41566abdbbc5c4f7  docs/verification/design-audit-2026-11-02/luxury-search-390.png
+7b2f9b247010e2193472e73384a82d0dc8afddccc2dfc8607ab7cb551eb12216  docs/verification/design-audit-2026-11-02/luxury-rent-settled-scroll-390.png
+e8aaeb57a7495f334ebe2ccd084f3ca95a7ac805d0b87872d90661b8b0885f46  docs/verification/design-audit-2026-11-02/luxury-search-390.png
