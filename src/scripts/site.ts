@@ -348,8 +348,21 @@ if(catalogue){
    const match=d.purpose===purpose&&(!q||(d.search||'').includes(q))&&(!types.length||types.includes(d.type||''))&&matchesBedrooms&&p>=min&&p<=max&&features.every(feature=>(d.features||'').split(',').includes(feature));
    card.hidden=!match;if(match)count++;grid.append(card);
   });
-  const empty=$<HTMLElement>('[data-no-results]',grid);if(empty){empty.hidden=count>0;grid.append(empty);}
-  const countNode=$('[data-result-count]',catalogue!);if(countNode)countNode.textContent=count+' '+(count===1?'property':'properties');
+  const empty=$<HTMLElement>('[data-no-results]',grid);if(empty){
+   empty.hidden=count>0;
+   if(count===0){
+    const title=$<HTMLElement>('[data-empty-title]',empty),copy=$<HTMLElement>('[data-empty-copy]',empty);
+    if(purpose==='rent'){
+     if(title)title.textContent='No current rental collection';
+     if(copy)copy.textContent='This preview contains no verified rental listings. Request a tailored search to discuss current availability.';
+    }else{
+     if(title)title.textContent='No matching illustrative examples';
+     if(copy)copy.textContent='Try fewer filters or request a tailored selection. The catalogue entries are examples, not verified listings.';
+    }
+   }
+   grid.append(empty);
+  }
+  const countNode=$('[data-result-count]',catalogue!);if(countNode)countNode.textContent=count+' '+(purpose==='rent'?'confirmed rental listings':count===1?'illustrative example':'illustrative examples');
   $$<HTMLButtonElement>('.purpose-tabs button[data-purpose]',catalogue!).forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.purpose===purpose)));
   if(update){
    const params=new URLSearchParams();
@@ -385,7 +398,7 @@ if(catalogue){
  }catch{/* Storage denial does not affect navigation. */}
  const mobileFilters=matchMedia('(max-width:900px)');
  const disclosure=$<HTMLDetailsElement>('.filter-disclosure',catalogue);
- function syncFilterDisclosure(){if(disclosure)disclosure.open=!mobileFilters.matches||location.hash==='#filters'||maximumPrice.getAttribute('aria-invalid')==='true';}
+ function syncFilterDisclosure(){if(disclosure&&!mobileFilters.matches)disclosure.open=true;}
  mobileFilters.addEventListener('change',syncFilterDisclosure);syncFilterDisclosure();
 }
 const insights=$('[data-insights]');

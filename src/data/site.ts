@@ -28,30 +28,31 @@ export const navigation=[
 export interface Property {
  id:string; title:string; subtitle:string; image:string; type:string; location:string;
  bedrooms:number; area:number; price:number; purpose:'buy'|'rent'; features:string[];
- selectionImage?:string; photos?:PropertyPhoto[];
+ selectionImage?:string; photos?:PropertyPhoto[]; illustrative?:boolean;
 }
 export interface PropertyPhoto {image:string;alt:string;}
 // These four detail photographs belong to the supplied residence template.
 // Other records use only the photographs already assigned to their own cards.
 const residencePhotos:PropertyPhoto[]=[
- {image:'property-imgRectangle58',alt:'A spacious contemporary living room'},
- {image:'property-imgRectangle60',alt:'A quiet interior with sculptural arches'},
- {image:'property-imgRectangle61',alt:'The residence viewed from its main living space'},
- {image:'property-imgRectangle63',alt:'A private terrace and swimming pool'},
+ {image:'property-imgRectangle58',alt:'Illustrative property image, not a verified listing'},
+ {image:'property-imgRectangle60',alt:'Illustrative property image, not a verified listing'},
+ {image:'property-imgRectangle61',alt:'Illustrative property image, not a verified listing'},
+ {image:'property-imgRectangle63',alt:'Illustrative property image, not a verified listing'},
 ];
 export const properties:Property[]=[
- {id:'dubai-hills-residence',title:'Dubai Hills',subtitle:'Exquisitely upgraded luxury villa in Dubai Hills',image:'catalogue-imgMedia',selectionImage:'imgRectangle4',photos:residencePhotos,type:'Villa',location:'Dubai Hills Estate',bedrooms:6,area:21000,price:65000000,purpose:'buy',features:['Garden','Pool','Terrace','Open kitchen']},
- {id:'dubai-hills-waterfront',title:'Dubai Hills',subtitle:'A residence with an open view',image:'catalogue-imgMedia2',selectionImage:'imgRectangle7',type:'Villa',location:'Dubai Hills Estate',bedrooms:6,area:21000,price:65000000,purpose:'buy',features:['Pool','Terrace','Water view']},
- {id:'dubai-hills-skyline',title:'Dubai Hills',subtitle:'A perspective over the city',image:'catalogue-imgMedia3',selectionImage:'imgRectangle8',type:'Villa',location:'Dubai Hills Estate',bedrooms:6,area:21000,price:65000000,purpose:'buy',features:['Terrace','Open kitchen','City view']},
- {id:'dubai-hills-garden',title:'Dubai Hills',subtitle:'A private garden residence',image:'catalogue-imgMedia4',selectionImage:'imgRectangle5',type:'Villa',location:'Dubai Hills Estate',bedrooms:6,area:21000,price:65000000,purpose:'buy',features:['Garden','Pool','Terrace']},
- {id:'dubai-hills-courtyard',title:'Dubai Hills',subtitle:'Architecture framed by greenery',image:'catalogue-imgMedia3',selectionImage:'imgRectangle11',type:'Villa',location:'Dubai Hills Estate',bedrooms:6,area:21000,price:65000000,purpose:'buy',features:['Garden','Terrace']},
- {id:'dubai-hills-panorama',title:'Dubai Hills',subtitle:'Space to enjoy the horizon',image:'catalogue-imgMedia6',type:'Villa',location:'Dubai Hills Estate',bedrooms:6,area:21000,price:65000000,purpose:'buy',features:['Water view','Pool']},
- {id:'dubai-hills-terrace',title:'Dubai Hills',subtitle:'A new view of contemporary living',image:'catalogue-imgMedia7',type:'Villa',location:'Dubai Hills Estate',bedrooms:6,area:21000,price:65000000,purpose:'buy',features:['Terrace','Open kitchen']},
- {id:'dubai-hills-retreat',title:'Dubai Hills',subtitle:'A quiet retreat in the city',image:'catalogue-imgMedia8',type:'Villa',location:'Dubai Hills Estate',bedrooms:6,area:21000,price:65000000,purpose:'buy',features:['Garden','Pool']},
+ {id:'dubai-hills-residence',title:'Illustrative residence 01',subtitle:'Illustrative collection preview',image:'catalogue-imgMedia',selectionImage:'imgRectangle4',photos:residencePhotos,type:'Villa',location:'Dubai Hills Estate',bedrooms:6,area:21000,price:65000000,purpose:'buy',features:['Garden','Pool','Terrace','Open kitchen'],illustrative:true},
+ {id:'dubai-hills-waterfront',title:'Illustrative residence 02',subtitle:'Illustrative collection preview',image:'catalogue-imgMedia2',selectionImage:'imgRectangle7',type:'Villa',location:'Dubai Hills Estate',bedrooms:6,area:21000,price:65000000,purpose:'buy',features:['Pool','Terrace','Water view'],illustrative:true},
+ {id:'dubai-hills-skyline',title:'Illustrative residence 03',subtitle:'Illustrative collection preview',image:'catalogue-imgMedia3',selectionImage:'imgRectangle8',type:'Villa',location:'Dubai Hills Estate',bedrooms:6,area:21000,price:65000000,purpose:'buy',features:['Terrace','Open kitchen','City view'],illustrative:true},
+ {id:'dubai-hills-garden',title:'Illustrative residence 04',subtitle:'Illustrative collection preview',image:'catalogue-imgMedia4',selectionImage:'imgRectangle5',type:'Villa',location:'Dubai Hills Estate',bedrooms:6,area:21000,price:65000000,purpose:'buy',features:['Garden','Pool','Terrace'],illustrative:true},
+ {id:'dubai-hills-courtyard',title:'Illustrative residence 05',subtitle:'Illustrative collection preview',image:'catalogue-imgMedia3',selectionImage:'imgRectangle11',type:'Villa',location:'Dubai Hills Estate',bedrooms:6,area:21000,price:65000000,purpose:'buy',features:['Garden','Terrace'],illustrative:true},
+ {id:'dubai-hills-panorama',title:'Illustrative residence 06',subtitle:'Illustrative collection preview',image:'catalogue-imgMedia6',type:'Villa',location:'Dubai Hills Estate',bedrooms:6,area:21000,price:65000000,purpose:'buy',features:['Water view','Pool'],illustrative:true},
+ {id:'dubai-hills-terrace',title:'Illustrative residence 07',subtitle:'Illustrative collection preview',image:'catalogue-imgMedia7',type:'Villa',location:'Dubai Hills Estate',bedrooms:6,area:21000,price:65000000,purpose:'buy',features:['Terrace','Open kitchen'],illustrative:true},
+ {id:'dubai-hills-retreat',title:'Illustrative residence 08',subtitle:'Illustrative collection preview',image:'catalogue-imgMedia8',type:'Villa',location:'Dubai Hills Estate',bedrooms:6,area:21000,price:65000000,purpose:'buy',features:['Garden','Pool'],illustrative:true},
 ];
 export function propertyPhotos(property:Property):PropertyPhoto[]{
- const photos=[...(property.photos||[]),{image:property.image,alt:property.subtitle}];
- if(property.selectionImage)photos.push({image:property.selectionImage,alt:property.subtitle});
+ // The current image set is illustrative and has no verified per-listing mapping.
+ const photos=[...(property.photos||[]),{image:property.image,alt:'Illustrative property image, not a verified listing'}];
+ if(property.selectionImage)photos.push({image:property.selectionImage,alt:'Illustrative property image, not a verified listing'});
  return photos.filter((photo,index)=>photos.findIndex(other=>other.image===photo.image)===index);
 }
 export const projects=[

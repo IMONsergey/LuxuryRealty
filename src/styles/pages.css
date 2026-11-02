@@ -14,3 +14,14 @@
 .property-gallery-grid--single{grid-template-columns:1fr}
 .property-gallery-grid--single>button{aspect-ratio:765/420}
 @media(max-width:700px){.property-gallery-grid--single>button{aspect-ratio:342/350}}
+
+/* Design audit 2026-11-02: make catalogue data provenance explicit and keep search discoverable. */
+.collection-disclaimer{margin-top:24px;margin-bottom:24px;max-width:1280px;padding-inline:clamp(20px,4vw,64px);font-size:13px;line-height:1.65;color:var(--muted)}
+.filter-live-note{margin:12px 0 0;font-size:12px;line-height:1.6;color:var(--muted)}
+.property-example-note{max-width:34em;margin-top:10px;font-size:13px;line-height:1.65;color:var(--muted)}
+.property-card[data-illustrative="true"] .property-tags span{font-size:10px;letter-spacing:.08em;text-transform:uppercase}
+.property-hero{position:relative}
+.illustrative-photo-note{position:absolute;z-index:2;left:clamp(20px,4vw,64px);top:clamp(90px,12vh,150px);padding:9px 12px;background:rgba(13,13,17,.76);border:1px solid rgba(255,255,255,.22);color:#fff;font-size:10px;line-height:1.4;letter-spacing:.08em;text-transform:uppercase}
+.illustrative-disclaimer{max-width:680px;margin-top:22px;padding:16px 18px;border-left:2px solid var(--gold);background:rgba(255,255,255,.04);font-size:14px;line-height:1.7;color:var(--muted)}
+.property-description p{max-width:680px}
+@media(max-width:700px){.collection-disclaimer{margin-top:16px;margin-bottom:16px;font-size:12px}.illustrative-photo-note{left:20px;top:82px;font-size:9px}.illustrative-disclaimer{font-size:13px;padding:13px 14px}}

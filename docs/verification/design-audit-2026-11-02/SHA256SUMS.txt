@@ -1,0 +1,17 @@
+1f90d1cdbe1d640ac113f3ed84085fe5aebae9e40aaddc0125345f9798cc3991  docs/verification/design-audit-2026-11-02/luxury-catalogue-1180.png
+9220d403fcbebd7986931972bae33524c529ebf15bda6fc6b6e82827f52574c4  docs/verification/design-audit-2026-11-02/luxury-catalogue-1440.png
+84575b41cf89f3bb46d00b6ee0f4f8beeb5bced0da1e6a40dcd4126b74113c98  docs/verification/design-audit-2026-11-02/luxury-catalogue-320.png
+17b9bd5610e0a4b77e6b61f1d11934520873499471e919276e3f4393474db364  docs/verification/design-audit-2026-11-02/luxury-catalogue-360.png
+31738be9d261d43a8daaed7a8cca11ec027210cb567b8ed4b1707a4520794649  docs/verification/design-audit-2026-11-02/luxury-catalogue-390.png
+6d14dfcadf5ddc6cb9c0c35eca1022225184662c844ddd232ed0293f48c08fe6  docs/verification/design-audit-2026-11-02/luxury-catalogue-430.png
+412018487277d16d4a8c65db1d9918afac85d6ac40020eff12a41a3e41d4a6e4  docs/verification/design-audit-2026-11-02/luxury-catalogue-768.png
+a9d3e874eb8ee7304fb08a3db51a2ea72b7a59e24e2ae4d5043cce29b085ce95  docs/verification/design-audit-2026-11-02/luxury-detail-390.png
+a1ddbc399261f6f34d45e76010ae8005cb085998f716b6c261a8787c877cef69  docs/verification/design-audit-2026-11-02/luxury-home-1180.png
+13b8915779e494a3b1a2fe0693286f138475886a2c85e7c4acdf90162d75b30d  docs/verification/design-audit-2026-11-02/luxury-home-1440.png
+aaff7a48bf5419d81f48a78ff18dd26165bc29052d2467494722748066a4e2a5  docs/verification/design-audit-2026-11-02/luxury-home-320.png
+846f8d917eee7f23ea0d292f471b828fa3a68ac65f2cc5d09b7410a8e5ee865b  docs/verification/design-audit-2026-11-02/luxury-home-360.png
+db16f2480ce69d3578367212d2ee0d9f5eb08ae0641e62d1c373e16ca6dacf1a  docs/verification/design-audit-2026-11-02/luxury-home-390.png
+65d3c7abea41943c96dd432f45f77481ea265eb810484c721bde14287ab359ff  docs/verification/design-audit-2026-11-02/luxury-home-430.png
+72706db0e9e4c4b916034d4a89d3cd0975d6a236d0bc75c1e4956993fd45818b  docs/verification/design-audit-2026-11-02/luxury-home-768.png
+b47e8d7d23751048674be98bfc81eaac6f5186c89801ca3d674cff0b5daef3ac  docs/verification/design-audit-2026-11-02/luxury-rent-empty-390.png
+2cb18e6147e0b288ec0a0389eb17ccdcf5a699da49fe66fb41566abdbbc5c4f7  docs/verification/design-audit-2026-11-02/luxury-search-390.png
