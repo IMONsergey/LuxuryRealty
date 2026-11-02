@@ -343,7 +343,7 @@ if(catalogue){
    }
    grid.append(empty);
   }
-  const countNode=$('[data-result-count]',catalogue!);if(countNode)countNode.textContent=purpose==='rent'?count+' rental examples':count+' illustrative examples';
+  const countNode=$('[data-result-count]',catalogue!);if(countNode)countNode.textContent=purpose==='rent'?(count===1?'1 rental example':count+' rental examples'):(count===1?'1 illustrative example':count+' illustrative examples');
   $$<HTMLButtonElement>('.purpose-tabs button[data-purpose]',catalogue!).forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.purpose===purpose)));
   if(update){
    const params=new URLSearchParams();

@@ -1,0 +1,9 @@
+41b3616df8860a85624298aa3de7e639105acde15d17e477dc83b08e8a50fe3e  artifacts/cross-browser-2026-11-02/luxury-webkit-1440-catalogue-rent.png
+8b27746a59ea6cadc316e03b944223a77ad77df4268d13a94433ca010990c8c0  artifacts/cross-browser-2026-11-02/luxury-webkit-1440-gallery-open.png
+67ffeb855c938b51266e7c19d7dbbc634087eee310a09e47ba3281b99ff70369  artifacts/cross-browser-2026-11-02/luxury-webkit-1440-menu-open.png
+a152695895940e7331374dc7ac945d63adf54e5bc9b4ded2c078ead3ee414b73  artifacts/cross-browser-2026-11-02/luxury-webkit-1440-single-result.png
+4a87af7fdfded04dab2d6198b481f7095009eb36698dc8090be5bce3b16fa58d  artifacts/cross-browser-2026-11-02/luxury-webkit-390-catalogue-rent.png
+d1a69ef1dadad4f2c4ab603bf943ae176064cecc5e7bfcb6e941b32c273895f6  artifacts/cross-browser-2026-11-02/luxury-webkit-390-gallery-open.png
+7c6ebbbdd199e8d4144b197f2b10e47569bc51ef422372d2ff26e7bcc470c97d  artifacts/cross-browser-2026-11-02/luxury-webkit-390-menu-open.png
+6f3a59ea97ee50cb83c819e44b32102bea3c2a9b947b111e83bb8c9236bb42c8  artifacts/cross-browser-2026-11-02/luxury-webkit-390-single-result.png
+33b57f7dec3558b66292a065cc84f1bc798e3e88b828ce49bb87332a9f6fc990  docs/verification/design-audit-2026-11-02/luxury-search-single-390.png
