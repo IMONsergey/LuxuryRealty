@@ -1,0 +1,180 @@
+
+> luxury-realty@1.0.0 build
+> astro build
+
+[2m20:54:13[22m [34m[types][39m Generated [2m150ms[22m
+[2m20:54:13[22m [34m[build][39m output: [34m"static"[39m
+[2m20:54:13[22m [34m[build][39m mode: [34m"server"[39m
+[2m20:54:13[22m [34m[build][39m directory: [34m/home/sergey/Projects/LuxuryRealty-visual-20261103/dist/[39m
+[2m20:54:13[22m [34m[build][39m adapter: [32m@astrojs/vercel[39m
+[2m20:54:13[22m [34m[build][39m Collecting build info...
+[2m20:54:13[22m [34m[build][39m [32m✓ Completed in 473ms.[39m
+[2m20:54:14[22m [34m[build][39m Building server entrypoints...
+[2m20:54:15[22m [34m[vite][39m [32m✓ built in 1.31s[39m
+[2m20:54:16[22m [34m[vite][39m [32m✓ built in 467ms[39m
+[2m20:54:20[22m [34m[vite][39m [32m✓ built in 4.28s[39m
+
+[42m[30m prerendering static routes [39m[49m
+[2m20:54:20[22m   [34m├─[39m [2m/404.html[22m [2m(+31ms)[22m 
+[2m20:54:20[22m   [34m├─[39m [2m/about/index.html[22m [2m(+10ms)[22m 
+[2m20:54:20[22m   [34m├─[39m [2m/buy/index.html[22m [2m(+1ms)[22m [33m(file not created, response body was empty)[39m
+[2m20:54:20[22m   [34m├─[39m [2m/contact/index.html[22m [2m(+1ms)[22m [33m(file not created, response body was empty)[39m
+[2m20:54:20[22m   [34m├─[39m [2m/contacts/index.html[22m [2m(+9ms)[22m 
+[2m20:54:20[22m   [34m├─[39m [2m/developments/atlantis/index.html[22m [2m(+112ms)[22m 
+[2m20:54:20[22m   [34m├─[39m [2m/developments/ava-at-palm/index.html[22m [2m(+9ms)[22m 
+[2m20:54:20[22m   [34m├─[39m [2m/developments/orla/index.html[22m [2m(+7ms)[22m 
+[2m20:54:20[22m   [34m├─[39m [2m/developments/serenity-mansions-aurora/index.html[22m [2m(+11ms)[22m 
+[2m20:54:20[22m   [34m├─[39m [2m/developments/serenity-mansions-waterfront-collection/index.html[22m [2m(+12ms)[22m 
+[2m20:54:20[22m   [34m├─[39m [2m/developments/six-senses/index.html[22m [2m(+8ms)[22m 
+[2m20:54:20[22m   [34m├─[39m [2m/developments/vela/index.html[22m [2m(+9ms)[22m 
+[2m20:54:20[22m   [34m├─[39m [2m/developments/index.html[22m [2m(+16ms)[22m 
+[2m20:54:20[22m   [34m├─[39m [2m/insights/exquisite-townhouse-project-in-dubai-2023/index.html[22m [2m(+1ms)[22m [33m(file not created, response body was empty)[39m
+[2m20:54:20[22m   [34m├─[39m [2m/insights/the-ultra-luxury-bugatti-residences-project-in-dubai-2023/index.html[22m [2m(+0ms)[22m [33m(file not created, response body was empty)[39m
+[2m20:54:20[22m   [34m├─[39m [2m/insights/top-10-reasons-to-invest-in-dubai-real-estate/index.html[22m [2m(+0ms)[22m [33m(file not created, response body was empty)[39m
+[2m20:54:20[22m   [34m├─[39m [2m/insights/tranio-client-experience-buying-a-dream-apartment-in-dubai-in-24-hours/index.html[22m [2m(+1ms)[22m [33m(file not created, response body was empty)[39m
+[2m20:54:20[22m   [34m├─[39m [2m/insights/spaces-worth-living-in/index.html[22m [2m(+10ms)[22m 
+[2m20:54:20[22m   [34m├─[39m [2m/insights/a-home-by-the-water/index.html[22m [2m(+3ms)[22m 
+[2m20:54:20[22m   [34m├─[39m [2m/insights/the-art-of-a-private-viewing/index.html[22m [2m(+3ms)[22m 
+[2m20:54:20[22m   [34m├─[39m [2m/insights/architecture-on-palm-jumeirah/index.html[22m [2m(+3ms)[22m 
+[2m20:54:20[22m   [34m├─[39m [2m/insights/index.html[22m [2m(+6ms)[22m 
+[2m20:54:20[22m   [34m├─[39m [2m/privacy/index.html[22m [2m(+6ms)[22m 
+[2m20:54:20[22m   [34m├─[39m [2m/privacy-policy-luxury-residence/index.html[22m [2m(+1ms)[22m [33m(file not created, response body was empty)[39m
+[2m20:54:20[22m   [34m├─[39m [2m/projects/atlantis-the-royal/index.html[22m [2m(+0ms)[22m [33m(file not created, response body was empty)[39m
+[2m20:54:20[22m   [34m├─[39m [2m/projects/ava/index.html[22m [2m(+0ms)[22m [33m(file not created, response body was empty)[39m
+[2m20:54:20[22m   [34m├─[39m [2m/projects/orla/index.html[22m [2m(+0ms)[22m [33m(file not created, response body was empty)[39m
+[2m20:54:20[22m   [34m├─[39m [2m/projects/serenity-mansions-aurora/index.html[22m [2m(+0ms)[22m [33m(file not created, response body was empty)[39m
+[2m20:54:20[22m   [34m├─[39m [2m/projects/serenity-mansions-waterfront-collection/index.html[22m [2m(+0ms)[22m [33m(file not created, response body was empty)[39m
+[2m20:54:20[22m   [34m├─[39m [2m/projects/six-senses/index.html[22m [2m(+0ms)[22m [33m(file not created, response body was empty)[39m
+[2m20:54:20[22m   [34m├─[39m [2m/projects/vela/index.html[22m [2m(+0ms)[22m [33m(file not created, response body was empty)[39m
+[2m20:54:20[22m   [34m├─[39m [2m/properties/dubai-hills-courtyard/index.html[22m [2m(+0ms)[22m [33m(file not created, response body was empty)[39m
+[2m20:54:20[22m   [34m├─[39m [2m/properties/dubai-hills-garden/index.html[22m [2m(+0ms)[22m [33m(file not created, response body was empty)[39m
+[2m20:54:20[22m   [34m├─[39m [2m/properties/dubai-hills-panorama/index.html[22m [2m(+0ms)[22m [33m(file not created, response body was empty)[39m
+[2m20:54:20[22m   [34m├─[39m [2m/properties/dubai-hills-residence/index.html[22m [2m(+0ms)[22m [33m(file not created, response body was empty)[39m
+[2m20:54:20[22m   [34m├─[39m [2m/properties/dubai-hills-retreat/index.html[22m [2m(+0ms)[22m [33m(file not created, response body was empty)[39m
+[2m20:54:20[22m   [34m├─[39m [2m/properties/dubai-hills-skyline/index.html[22m [2m(+0ms)[22m [33m(file not created, response body was empty)[39m
+[2m20:54:20[22m   [34m├─[39m [2m/properties/dubai-hills-terrace/index.html[22m [2m(+0ms)[22m [33m(file not created, response body was empty)[39m
+[2m20:54:20[22m   [34m├─[39m [2m/properties/dubai-hills-waterfront/index.html[22m [2m(+0ms)[22m [33m(file not created, response body was empty)[39m
+[2m20:54:20[22m   [34m├─[39m [2m/properties/palm-view-duplex-bespoke-garden-home/index.html[22m [2m(+13ms)[22m 
+[2m20:54:20[22m   [34m├─[39m [2m/properties/renovation-opportunity-high-number-iconic-view/index.html[22m [2m(+7ms)[22m 
+[2m20:54:20[22m   [34m├─[39m [2m/properties/1-of-1-branded-renovation-incredible-must-see/index.html[22m [2m(+8ms)[22m 
+[2m20:54:20[22m   [34m├─[39m [2m/properties/1-of-1-palm-view-renovation-incredible-must-see/index.html[22m [2m(+10ms)[22m 
+[2m20:54:20[22m   [34m├─[39m [2m/properties/sublime-sea-views-iconic-living/index.html[22m [2m(+11ms)[22m 
+[2m20:54:20[22m   [34m├─[39m [2m/properties/2br-palm-skyline-view-branded-upgrades/index.html[22m [2m(+8ms)[22m 
+[2m20:54:20[22m   [34m├─[39m [2m/properties/unique-duplex-breath-taking-sea-view/index.html[22m [2m(+6ms)[22m 
+[2m20:54:20[22m   [34m├─[39m [2m/properties/3br-duplex-private-pool-viewing-essential/index.html[22m [2m(+6ms)[22m 
+[2m20:54:20[22m   [34m├─[39m [2m/properties/a-refined-minimalist-sanctuary-with-serene-views/index.html[22m [2m(+14ms)[22m 
+[2m20:54:20[22m   [34m├─[39m [2m/properties/extraordinary-turnkey-luxury-with-iconic-views/index.html[22m [2m(+8ms)[22m 
+[2m20:54:20[22m   [34m├─[39m [2m/properties/ava-at-palm-jumeirah-dorchester-collection/index.html[22m [2m(+17ms)[22m 
+[2m20:54:20[22m   [34m├─[39m [2m/properties/beachfront-living-stunning-views-vacant/index.html[22m [2m(+31ms)[22m 
+[2m20:54:20[22m   [34m├─[39m [2m/properties/beautifully-renovated-private-spa-high-number/index.html[22m [2m(+26ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/your-royal-lifestyle-with-sublime-views-and-space-2/index.html[22m [2m(+10ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/best-price-upgraded-furnished-skyline-views/index.html[22m [2m(+10ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/brand-new-high-floor-islands-view/index.html[22m [2m(+4ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/brand-new-palm-and-garden-view-vacant/index.html[22m [2m(+5ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/brand-new-private-garden-private-pool/index.html[22m [2m(+8ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/brand-new-sea-and-palm-view-corner-unit/index.html[22m [2m(+6ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/brand-new-sea-and-palm-view-corner-unit-2/index.html[22m [2m(+5ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/brand-new-sea-and-sunset-views/index.html[22m [2m(+5ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/brand-new-sea-dubai-eye-and-sunset-views/index.html[22m [2m(+5ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/brand-new-vacant-sea-and-sunset-views/index.html[22m [2m(+5ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/brand-new-vacant-sea-and-sunset-views-2/index.html[22m [2m(+7ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/branded-upgrade-palm-skyline-view-2br-xl-size/index.html[22m [2m(+6ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/celebrated-designer-duplex-with-private-pool/index.html[22m [2m(+8ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/city-and-sea-views-fully-furnished-xl-terrace/index.html[22m [2m(+8ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/close-to-tip-fully-upgraded-prime-location/index.html[22m [2m(+11ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/dual-views-double-height-2027-completion/index.html[22m [2m(+7ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/duplex-ph-brand-new-unobstructed-views/index.html[22m [2m(+4ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/duplex-roof-terrace-golf-and-skyline-views/index.html[22m [2m(+4ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/eden-hills/index.html[22m [2m(+5ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/one-of-a-kind-loft-designer-upgrade-sea-view/index.html[22m [2m(+6ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/furnished-upgraded-unique-layout-dual-views/index.html[22m [2m(+5ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/garden-apartment-sea-facing-private-pool/index.html[22m [2m(+5ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/garden-apartment-sea-facing-private-pool-2/index.html[22m [2m(+4ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/genuine-resale-full-sea-and-marina-views/index.html[22m [2m(+3ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/high-floor-with-best-views-furnished-1-agency/index.html[22m [2m(+4ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/high-floor-2br-sea-view-chic-upgrades/index.html[22m [2m(+6ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/high-floor-palm-paradise-with-city-views-for-rent/index.html[22m [2m(+4ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/high-floor-palm-paradise-with-incredible-views/index.html[22m [2m(+4ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/landmark-marina-gate-one-bed-must-be-viewed-2/index.html[22m [2m(+4ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/large-layout-community-view-maids-room/index.html[22m [2m(+6ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/last-available-3br-duplex-with-private-pool/index.html[22m [2m(+5ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/best-value-huge-terrace-amazing-potential/index.html[22m [2m(+6ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/marina-view-upgraded-furnished-investor-deal/index.html[22m [2m(+6ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/miami-style-stunning-marina-views-beach-access/index.html[22m [2m(+4ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/must-be-viewed-rare-2br-sea-and-skyline-views/index.html[22m [2m(+4ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/ultra-luxury-super-rare-dual-view-residence/index.html[22m [2m(+5ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/one-of-a-kind-villa-unique-reimagined-layout/index.html[22m [2m(+5ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/one-at-palm-jumeirah-dorchester-collection/index.html[22m [2m(+3ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/orla-dorchester-collection/index.html[22m [2m(+4ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/palm-and-marina-skyline-views-private-pool/index.html[22m [2m(+4ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/dorchester-collection-full-palm-view-duplex/index.html[22m [2m(+5ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/panoramic-sea-sunset-views-wrap-around-balcony/index.html[22m [2m(+5ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/partially-upgraded-premium-location-immaculate/index.html[22m [2m(+5ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/penthouse-style-with-skyline-views-at-golf-heights/index.html[22m [2m(+5ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/popular-type-prime-location-prestigious-villa/index.html[22m [2m(+5ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/high-number-fully-renovated-best-layout/index.html[22m [2m(+5ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/premium-location-best-value-turnkey-garden-home/index.html[22m [2m(+6ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/www-luxuryresidences-com-properties-private-pool-canal-view-renovated-upgraded/index.html[22m [2m(+9ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/private-pool-furnished-spacious-terrace/index.html[22m [2m(+30ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/exclusive-sea-view-4br-royal-penthouse/index.html[22m [2m(+12ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/rare-dual-view-skyline-sea-spacious-luxury/index.html[22m [2m(+10ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/sea-views-michelin-star-dining-and-more/index.html[22m [2m(+7ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/serenity-mansions-aurora/index.html[22m [2m(+5ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/serenity-mansions-waterfront-collection/index.html[22m [2m(+4ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/six-senses-residences-dubai-marina/index.html[22m [2m(+4ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/sought-after-sea-sunset-views-branded-residences/index.html[22m [2m(+3ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/spacious-layout-prime-amenities-modern-living/index.html[22m [2m(+4ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/stunning-4br-amazing-bmv-price-move-in-ready/index.html[22m [2m(+4ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/the-chedi-private-residences/index.html[22m [2m(+4ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/timeless-elegance-awaits-at-palazzo-versace-dubai/index.html[22m [2m(+5ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/triple-storey-fully-renovated-prime-location/index.html[22m [2m(+6ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/turnkey-renovation-balearic-style-extended/index.html[22m [2m(+8ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/trophy-4br-garden-suite-with-private-pool/index.html[22m [2m(+6ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/ultra-high-floor-one-of-a-kind-upgraded-residence/index.html[22m [2m(+6ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/palm-view-sky-court-xl-terrace-upgraded/index.html[22m [2m(+5ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/ultra-rare-2br-duplex-in-the-iconic-uptown-tower/index.html[22m [2m(+4ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/upgraded-2br-marina-view-investor-deal/index.html[22m [2m(+5ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/best-priced-palm-view-2br-furnished-view-today/index.html[22m [2m(+10ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/upgraded-vacant-furnished-viewing-essential/index.html[22m [2m(+11ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/vela-dorchester-collection/index.html[22m [2m(+10ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/very-high-number-fully-upgraded-premium-views/index.html[22m [2m(+9ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/beauty-rarity-and-timeless-elegance-awaits/index.html[22m [2m(+6ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/best-price-high-floor-sea-view-large-size/index.html[22m [2m(+8ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/brand-new-high-floor-full-palm-jumeirah-view/index.html[22m [2m(+4ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/brand-new-high-floor-palm-and-skyline-view/index.html[22m [2m(+4ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/brand-new-high-floor-sea-and-sunset-views/index.html[22m [2m(+5ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/burj-khalifa-views-upgraded-fully-furnished/index.html[22m [2m(+5ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/dual-views-highest-floor-huge-layout/index.html[22m [2m(+6ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/duplex-with-private-pool-must-be-viewed/index.html[22m [2m(+6ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/exclusive-high-floor-available-now-furnished/index.html[22m [2m(+4ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/exclusive-lagoon-facing-available-for-viewing/index.html[22m [2m(+4ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/exclusive-top-floor-one-of-a-kind/index.html[22m [2m(+5ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/furnished-palm-skyline-views-exclusive/index.html[22m [2m(+4ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/furnished-palm-skyline-views-exclusive-2/index.html[22m [2m(+5ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/furnished-palm-and-skyline-views-exclusive/index.html[22m [2m(+4ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/garden-villa-hermes-and-minotti-private-pool/index.html[22m [2m(+4ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/high-floor-palm-view-fully-furnished/index.html[22m [2m(+5ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/live-royally-turnkey-renovated-masterpiece/index.html[22m [2m(+5ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/modern-design-elie-saab-branded-priced-to-sell/index.html[22m [2m(+3ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/palm-view-amazing-2br-layout-must-be-viewed/index.html[22m [2m(+4ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/post-handover-pp-04-layout-palm-view/index.html[22m [2m(+4ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/private-pool-duplex-1-resale-agency/index.html[22m [2m(+4ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/rented-alternatives-available/index.html[22m [2m(+4ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/sea-view-or-skyline-vistas-now-you-can-have-both/index.html[22m [2m(+4ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/sleek-sophisticated-and-move-in-ready/index.html[22m [2m(+4ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/stunning-upgrade-luxury-villa-golf-course-view/index.html[22m [2m(+4ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/super-rare-huge-terrace-furnished-1-agency/index.html[22m [2m(+4ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/properties/index.html[22m [2m(+35ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/rent/index.html[22m [2m(+1ms)[22m [33m(file not created, response body was empty)[39m
+[2m20:54:21[22m   [34m├─[39m [2m/sell/index.html[22m [2m(+4ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/services/index.html[22m [2m(+4ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/sitemap.xml[22m [2m(+3ms)[22m 
+[2m20:54:21[22m   [34m├─[39m [2m/index.html[22m [2m(+12ms)[22m 
+[2m20:54:21[22m [32m✓ Completed in 1.23s.
+[39m
+[2m20:54:21[22m [34m[build][39m Rearranging server assets...
+[2m20:54:21[22m [34m[build][39m [32m✓ Completed in 7.45s.[39m
+[2m20:54:21[22m [34m[@astrojs/vercel][39m Bundling function ../../server/entry.mjs
+[2m20:54:22[22m [34m[@astrojs/vercel][39m Copying static files to .vercel/output/static
+[2m20:54:24[22m [34m[build][39m Server built in [1m10.77s[22m
+[2m20:54:24[22m [34m[build][39m [1mComplete![22m

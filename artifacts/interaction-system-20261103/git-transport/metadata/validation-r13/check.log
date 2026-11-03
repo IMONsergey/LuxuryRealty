@@ -1,0 +1,52 @@
+
+> luxury-realty@1.0.0 check
+> astro check
+
+[2m20:53:57[22m [34m[types][39m Generated [2m185ms[22m
+[2m20:53:57[22m [34m[check][39m Getting diagnostics for Astro files in /home/sergey/Projects/LuxuryRealty-visual-20261103...
+[96mscripts/content-brand-qa.mjs[0m:[93m11[0m:[93m7[0m - [93mwarning[0m[90m ts(6133): [0m'require' is declared but its value is never read.
+
+[7m11[0m const require=createRequire(process.env.PLAYWRIGHT_PACKAGE||'/home/sergey/.local/share/imon-toolkit/node/node_modules/playwright/package.json');
+[7m  [0m [93m      ~~~~~~~[0m
+
+[96mscripts/content-browser-qa.mjs[0m:[93m193[0m:[93m33[0m - [93mwarning[0m[90m ts(6133): [0m'width' is declared but its value is never read.
+
+[7m193[0m async function historyAndReturn(width){
+[7m   [0m [93m                                ~~~~~[0m
+[96mscripts/content-browser-qa.mjs[0m:[93m160[0m:[93m32[0m - [93mwarning[0m[90m ts(6133): [0m'width' is declared but its value is never read.
+
+[7m160[0m async function combinedFilters(width){
+[7m   [0m [93m                               ~~~~~[0m
+[96mscripts/content-browser-qa.mjs[0m:[93m9[0m:[93m7[0m - [93mwarning[0m[90m ts(6133): [0m'require' is declared but its value is never read.
+
+[7m9[0m const require=createRequire(process.env.PLAYWRIGHT_PACKAGE||'/home/sergey/.local/share/imon-toolkit/node/node_modules/playwright/package.json');
+[7m [0m [93m      ~~~~~~~[0m
+
+[96mscripts/global-visual-audit.mjs[0m:[93m490[0m:[93m9[0m - [93mwarning[0m[90m ts(2568): [0mProperty 'sourceHeadAfter' may not exist on type '{ project: string; phase: string | undefined; invocationPhase: string | undefined; engine: string; startedAt: string; sourceHead: string; sourceRoot: string; sourceMode: string; targetBinding: string; ... 18 more ...; limitations: string[]; }'. Did you mean 'sourceHead'?
+
+[7m490[0m  report.sourceHeadAfter=afterHead;
+[7m   [0m [93m        ~~~~~~~~~~~~~~~[0m
+
+[96mscripts/interaction-system-qa.mjs[0m:[93m903[0m:[93m9[0m - [93mwarning[0m[90m ts(2568): [0mProperty 'sourceHeadAfter' may not exist on type '{ schemaVersion: number; project: string; stage: string; phase: string; invocationPhase: string; engine: string; startedAt: string; sourceHead: string; sourceRoot: string; sourceMode: string; targetBinding: string; ... 22 more ...; limitations: string[]; }'. Did you mean 'sourceHead'?
+
+[7m903[0m  report.sourceHeadAfter=afterHead;
+[7m   [0m [93m        ~~~~~~~~~~~~~~~[0m
+[96mscripts/interaction-system-qa.mjs[0m:[93m899[0m:[93m50[0m - [93mwarning[0m[90m ts(2568): [0mProperty 'sourceHashesAfter' may not exist on type '{ schemaVersion: number; project: string; stage: string; phase: string; invocationPhase: string; engine: string; startedAt: string; sourceHead: string; sourceRoot: string; sourceMode: string; targetBinding: string; ... 22 more ...; limitations: string[]; }'. Did you mean 'sourceHashes'?
+
+[7m899[0m  const afterHashes=await sourceSnapshot();report.sourceHashesAfter=afterHashes;
+[7m   [0m [93m                                                 ~~~~~~~~~~~~~~~~~[0m
+[96mscripts/interaction-system-qa.mjs[0m:[93m41[0m:[93m7[0m - [93mwarning[0m[90m ts(6133): [0m'require' is declared but its value is never read.
+
+[7m41[0m const require=createRequire(process.env.PLAYWRIGHT_PACKAGE||'/home/sergey/.local/share/imon-toolkit/node/node_modules/playwright/package.json');
+[7m  [0m [93m      ~~~~~~~[0m
+
+[96mtests/enquiry.test.mjs[0m:[93m4[0m:[93m23[0m - [93mwarning[0m[90m ts(6133): [0m'validateEnquiry' is declared but its value is never read.
+
+[7m4[0m import {handleEnquiry,validateEnquiry} from '../src/server/enquiry.ts';
+[7m [0m [93m                      ~~~~~~~~~~~~~~~[0m
+
+Result (63 files): 
+- 0 errors
+- 0 warnings
+- 9 hints
+

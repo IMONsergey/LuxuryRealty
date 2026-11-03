@@ -3487,6 +3487,38 @@
       "sha256": "672c8cbd63686127b6ed203ff20583e0c19d670a095bd5ba94f68634d17e0cc2",
       "parts": [],
       "textPath": "artifacts/interaction-system-20261103/git-transport/metadata/review-receipts/all-pages-coverage.json"
+    },
+    {
+      "key": "validation-r13/check.log",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r13/check.log",
+      "bytes": 3818,
+      "sha256": "a84c2b6a3d35f44c646c8e54a48518a0e9806a72be16c3a893f1ad75ae7d7f85",
+      "parts": [],
+      "textPath": "artifacts/interaction-system-20261103/git-transport/metadata/validation-r13/check.log"
+    },
+    {
+      "key": "validation-r13/build.log",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r13/build.log",
+      "bytes": 21204,
+      "sha256": "a0e7f22be6d4f6029afecb0ab6c993f35173a1acbc3b99d439c22f8906388f65",
+      "parts": [],
+      "textPath": "artifacts/interaction-system-20261103/git-transport/metadata/validation-r13/build.log"
+    },
+    {
+      "key": "validation-r13/content-output.log",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r13/content-output.log",
+      "bytes": 499,
+      "sha256": "0a49fcad75d1a750fb67094e8f5cdadf55a5edde7040f96cda5615d8e1451939",
+      "parts": [],
+      "textPath": "artifacts/interaction-system-20261103/git-transport/metadata/validation-r13/content-output.log"
+    },
+    {
+      "key": "validation-r13/report.json",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r13/report.json",
+      "bytes": 32556,
+      "sha256": "07dcf5c5e5b8df41a3e9a6176a5d491887e29c9e352d2b950b833253a8d63f2e",
+      "parts": [],
+      "textPath": "artifacts/interaction-system-20261103/git-transport/metadata/validation-r13/report.json"
     }
   ],
   "validationR9": {
@@ -4173,5 +4205,66 @@
     "sourceUnchanged": true,
     "staticBundleUnchanged": true,
     "finishedAt": "2026-11-03T17:51:05Z"
+  },
+  "validationR13": {
+    "startedAt": "2026-11-03T17:53:52Z",
+    "sourceHead": "a484ab78629f4129080abb7c8be938c573c4e1a8",
+    "priorSourceHead": "532cd2fc19dcf9ddaa1809616a47ebaee86eec88",
+    "priorStaticBundle": {
+      "count": 146,
+      "sha256": "49505cd75cf2709a018231579814ece9462d399553c0ddebb5e76cfc3fe7e6a6"
+    },
+    "stages": [
+      {
+        "name": "check",
+        "exitCode": 0,
+        "seconds": 18.44,
+        "log": "artifacts/interaction-system-20261103/validation-r13/check.log"
+      },
+      {
+        "name": "build",
+        "exitCode": 0,
+        "seconds": 12.63,
+        "log": "artifacts/interaction-system-20261103/validation-r13/build.log"
+      },
+      {
+        "name": "content-output",
+        "exitCode": 1,
+        "seconds": 8.23,
+        "log": "artifacts/interaction-system-20261103/validation-r13/content-output.log"
+      }
+    ],
+    "complete": false,
+    "passed": false,
+    "releaseAcceptance": false,
+    "humanReview": "pending-final-scoped-and-public-screenshot-review",
+    "preview": {
+      "url": "https://luxury-realty-imon-fxa4ppewp-cdo-2844s-projects.vercel.app",
+      "sha": "a484ab78629f4129080abb7c8be938c573c4e1a8",
+      "branch": "feat/interaction-system-20261103",
+      "deploymentId": "dpl_AdSvnCa1stMm2eDv5KBoLYHQxsSx",
+      "projectId": "prj_9iSUC97pBvn9DoD6blM9mAZm6dMu",
+      "teamId": "team_eJReJ6RtdOT99uZ8iGJFHX3r",
+      "stateVerified": "READY",
+      "target": "preview",
+      "bindingMethod": "Vercel get_deployment withGitRepoInfo=true",
+      "verifiedAt": "2026-11-03T17:53:04.752Z"
+    },
+    "inheritedEvidence": {
+      "sourceHead": "532cd2fc19dcf9ddaa1809616a47ebaee86eec88",
+      "sourceDelta": [
+        "src/data/content.ts"
+      ],
+      "allPageRoutes": 130,
+      "allPageViews": 260,
+      "reviewedOverviewSheets": 90,
+      "webkitUnionViews": 35,
+      "webkitUniqueChecks": 87,
+      "reason": "Only rendered descriptions on six property pages, a Waterfront development duplicate and VELA map classification changed. All shared CSS, client scripts, controls, source data and assets are byte-identical; the changed built routes are checked explicitly below."
+    },
+    "error": "RuntimeError: content-output failed with 1",
+    "sourceHeadAfter": "a484ab78629f4129080abb7c8be938c573c4e1a8",
+    "sourceUnchanged": true,
+    "finishedAt": "2026-11-03T17:54:32Z"
   }
 }
