@@ -2709,6 +2709,595 @@
       "sha256": "0193098f0f19307b0ee95a79e86b4017718c66fcfd54eb96141a2722201293fc",
       "parts": [],
       "textPath": "artifacts/interaction-system-20261103/git-transport/metadata/focused-webkit-r5/canonical-routes.json"
+    },
+    {
+      "key": "development-native-r1/atlantis-1440-gallery-row-1.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/development-native-r1/atlantis-1440-gallery-row-1.png",
+      "bytes": 1317467,
+      "sha256": "17639ca6e9082ac85673a096946d8932c285d769577432fd0fb420ebc8ce8df3",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/atlantis-1440-gallery-row-1.png/001.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/atlantis-1440-gallery-row-1.png/002.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/atlantis-1440-gallery-row-1.png/003.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/atlantis-1440-gallery-row-1.png/004.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/atlantis-1440-gallery-row-1.png/005.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/atlantis-1440-gallery-row-1.png/006.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/atlantis-1440-gallery-row-1.png/007.b64"
+      ]
+    },
+    {
+      "key": "development-native-r1/atlantis-1440-gallery-row-2.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/development-native-r1/atlantis-1440-gallery-row-2.png",
+      "bytes": 1227620,
+      "sha256": "2978f3cb59714608c59406c73e0978633ea27efcc2122594750821ee0135a63f",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/atlantis-1440-gallery-row-2.png/001.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/atlantis-1440-gallery-row-2.png/002.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/atlantis-1440-gallery-row-2.png/003.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/atlantis-1440-gallery-row-2.png/004.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/atlantis-1440-gallery-row-2.png/005.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/atlantis-1440-gallery-row-2.png/006.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/atlantis-1440-gallery-row-2.png/007.b64"
+      ]
+    },
+    {
+      "key": "development-native-r1/atlantis-1440-gallery-row-3.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/development-native-r1/atlantis-1440-gallery-row-3.png",
+      "bytes": 741323,
+      "sha256": "bf43fc666444bf9c78306670609f74c53be116704a87b52635921aaf78d44d22",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/atlantis-1440-gallery-row-3.png/001.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/atlantis-1440-gallery-row-3.png/002.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/atlantis-1440-gallery-row-3.png/003.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/atlantis-1440-gallery-row-3.png/004.b64"
+      ]
+    },
+    {
+      "key": "development-native-r1/atlantis-1440-story-1.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/development-native-r1/atlantis-1440-story-1.png",
+      "bytes": 667883,
+      "sha256": "bebddfac9a6e55fb043a5822da8d47a31e0d1c70b818634d0a2aa63bbb84401a",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/atlantis-1440-story-1.png/001.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/atlantis-1440-story-1.png/002.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/atlantis-1440-story-1.png/003.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/atlantis-1440-story-1.png/004.b64"
+      ]
+    },
+    {
+      "key": "development-native-r1/atlantis-390-gallery-row-1.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/development-native-r1/atlantis-390-gallery-row-1.png",
+      "bytes": 260122,
+      "sha256": "9492cc6c773c58a1aeea28b4b3ad02b99140cdebf12fbe75420aadd0440bdf75",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/atlantis-390-gallery-row-1.png/001.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/atlantis-390-gallery-row-1.png/002.b64"
+      ]
+    },
+    {
+      "key": "development-native-r1/atlantis-390-story-1.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/development-native-r1/atlantis-390-story-1.png",
+      "bytes": 142751,
+      "sha256": "7ff01b8f56e5fd8a68ba5b8d2dcc003a95966b4fb598254626b9b94372c84b4f",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/atlantis-390-story-1.png/001.b64"
+      ]
+    },
+    {
+      "key": "development-native-r1/ava-at-palm-1440-gallery-row-1.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/development-native-r1/ava-at-palm-1440-gallery-row-1.png",
+      "bytes": 1372597,
+      "sha256": "81205b5e59fdfaa04306b097636cc3729bfc8b1aea13f644ac2280a78e07dfda",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/ava-at-palm-1440-gallery-row-1.png/001.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/ava-at-palm-1440-gallery-row-1.png/002.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/ava-at-palm-1440-gallery-row-1.png/003.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/ava-at-palm-1440-gallery-row-1.png/004.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/ava-at-palm-1440-gallery-row-1.png/005.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/ava-at-palm-1440-gallery-row-1.png/006.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/ava-at-palm-1440-gallery-row-1.png/007.b64"
+      ]
+    },
+    {
+      "key": "development-native-r1/ava-at-palm-1440-gallery-row-2.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/development-native-r1/ava-at-palm-1440-gallery-row-2.png",
+      "bytes": 1403935,
+      "sha256": "d22427eaf4e2b171dec667d3e111276d1a26688d9f6abd95ad8c77935d22df54",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/ava-at-palm-1440-gallery-row-2.png/001.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/ava-at-palm-1440-gallery-row-2.png/002.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/ava-at-palm-1440-gallery-row-2.png/003.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/ava-at-palm-1440-gallery-row-2.png/004.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/ava-at-palm-1440-gallery-row-2.png/005.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/ava-at-palm-1440-gallery-row-2.png/006.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/ava-at-palm-1440-gallery-row-2.png/007.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/ava-at-palm-1440-gallery-row-2.png/008.b64"
+      ]
+    },
+    {
+      "key": "development-native-r1/ava-at-palm-1440-gallery-row-3.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/development-native-r1/ava-at-palm-1440-gallery-row-3.png",
+      "bytes": 755400,
+      "sha256": "9ca43d2e3dd4506ab2e1cab78e110ca1796e1de93b8899f0e9388c8f4b460bd4",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/ava-at-palm-1440-gallery-row-3.png/001.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/ava-at-palm-1440-gallery-row-3.png/002.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/ava-at-palm-1440-gallery-row-3.png/003.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/ava-at-palm-1440-gallery-row-3.png/004.b64"
+      ]
+    },
+    {
+      "key": "development-native-r1/ava-at-palm-1440-story-1.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/development-native-r1/ava-at-palm-1440-story-1.png",
+      "bytes": 703419,
+      "sha256": "c692f635713a6f045a7f5c1d029aed3d4db01f6e60fe6dd81bf4cbe0405f6440",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/ava-at-palm-1440-story-1.png/001.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/ava-at-palm-1440-story-1.png/002.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/ava-at-palm-1440-story-1.png/003.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/ava-at-palm-1440-story-1.png/004.b64"
+      ]
+    },
+    {
+      "key": "development-native-r1/ava-at-palm-390-gallery-row-1.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/development-native-r1/ava-at-palm-390-gallery-row-1.png",
+      "bytes": 274857,
+      "sha256": "63594e932a72b9061c547018f773db6d5f31c0b3ef81955e04ad1827f6b8b463",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/ava-at-palm-390-gallery-row-1.png/001.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/ava-at-palm-390-gallery-row-1.png/002.b64"
+      ]
+    },
+    {
+      "key": "development-native-r1/ava-at-palm-390-story-1.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/development-native-r1/ava-at-palm-390-story-1.png",
+      "bytes": 148741,
+      "sha256": "cec894499d70195370fa5f830e20122feb62db08e6b372a3831526fc804c47c5",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/ava-at-palm-390-story-1.png/001.b64"
+      ]
+    },
+    {
+      "key": "development-native-r1/orla-1440-gallery-row-1.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/development-native-r1/orla-1440-gallery-row-1.png",
+      "bytes": 1098235,
+      "sha256": "4a64e1a2cf85b1ad91d14755b14bcceec183ea8d67bb58016a47e0e7455834e2",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/orla-1440-gallery-row-1.png/001.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/orla-1440-gallery-row-1.png/002.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/orla-1440-gallery-row-1.png/003.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/orla-1440-gallery-row-1.png/004.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/orla-1440-gallery-row-1.png/005.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/orla-1440-gallery-row-1.png/006.b64"
+      ]
+    },
+    {
+      "key": "development-native-r1/orla-1440-gallery-row-2.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/development-native-r1/orla-1440-gallery-row-2.png",
+      "bytes": 1296283,
+      "sha256": "a267e28a7541732ef3ac6cae09ab7b166dbf866038a396b351602c891bee24f6",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/orla-1440-gallery-row-2.png/001.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/orla-1440-gallery-row-2.png/002.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/orla-1440-gallery-row-2.png/003.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/orla-1440-gallery-row-2.png/004.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/orla-1440-gallery-row-2.png/005.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/orla-1440-gallery-row-2.png/006.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/orla-1440-gallery-row-2.png/007.b64"
+      ]
+    },
+    {
+      "key": "development-native-r1/orla-1440-gallery-row-3.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/development-native-r1/orla-1440-gallery-row-3.png",
+      "bytes": 787989,
+      "sha256": "77ac249cdaaca4e938d69826bfd7196418644abdc38276a46f9c59acc2d3f9ee",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/orla-1440-gallery-row-3.png/001.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/orla-1440-gallery-row-3.png/002.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/orla-1440-gallery-row-3.png/003.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/orla-1440-gallery-row-3.png/004.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/orla-1440-gallery-row-3.png/005.b64"
+      ]
+    },
+    {
+      "key": "development-native-r1/orla-1440-story-1.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/development-native-r1/orla-1440-story-1.png",
+      "bytes": 503315,
+      "sha256": "d3640ecb7f187f63e9e6a600054e75685737bc5f6e9dba18d00a1f97a2bd6560",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/orla-1440-story-1.png/001.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/orla-1440-story-1.png/002.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/orla-1440-story-1.png/003.b64"
+      ]
+    },
+    {
+      "key": "development-native-r1/orla-390-gallery-row-1.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/development-native-r1/orla-390-gallery-row-1.png",
+      "bytes": 250299,
+      "sha256": "6f2485df373648403f4b397329d60259c7630af8297499ccc7829454096c77dc",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/orla-390-gallery-row-1.png/001.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/orla-390-gallery-row-1.png/002.b64"
+      ]
+    },
+    {
+      "key": "development-native-r1/orla-390-story-1.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/development-native-r1/orla-390-story-1.png",
+      "bytes": 124599,
+      "sha256": "e6a829de191df2552123fbd177add32cc91a59b1808e0bcf2d586f793690f712",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/orla-390-story-1.png/001.b64"
+      ]
+    },
+    {
+      "key": "development-native-r1/report.json",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/development-native-r1/report.json",
+      "bytes": 249619,
+      "sha256": "1c85994f6bac73dffe778fb4a60c19a7751a7adffe1f7ce8c0e6d9f6b91586d7",
+      "parts": [],
+      "textPath": "artifacts/interaction-system-20261103/git-transport/metadata/development-native-r1/report.json"
+    },
+    {
+      "key": "development-native-r1/serenity-mansions-aurora-1440-gallery-row-1.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/development-native-r1/serenity-mansions-aurora-1440-gallery-row-1.png",
+      "bytes": 1374373,
+      "sha256": "e6785c4b6bd4097c334805378945b7c09a95bd015dc6cb3659aa29832896dac0",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/serenity-mansions-aurora-1440-gallery-row-1.png/001.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/serenity-mansions-aurora-1440-gallery-row-1.png/002.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/serenity-mansions-aurora-1440-gallery-row-1.png/003.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/serenity-mansions-aurora-1440-gallery-row-1.png/004.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/serenity-mansions-aurora-1440-gallery-row-1.png/005.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/serenity-mansions-aurora-1440-gallery-row-1.png/006.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/serenity-mansions-aurora-1440-gallery-row-1.png/007.b64"
+      ]
+    },
+    {
+      "key": "development-native-r1/serenity-mansions-aurora-1440-gallery-row-2.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/development-native-r1/serenity-mansions-aurora-1440-gallery-row-2.png",
+      "bytes": 1363006,
+      "sha256": "0a0b867153f25c9c2f2666e216fe53a55bc489d85e6eff497125b632adc06d90",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/serenity-mansions-aurora-1440-gallery-row-2.png/001.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/serenity-mansions-aurora-1440-gallery-row-2.png/002.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/serenity-mansions-aurora-1440-gallery-row-2.png/003.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/serenity-mansions-aurora-1440-gallery-row-2.png/004.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/serenity-mansions-aurora-1440-gallery-row-2.png/005.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/serenity-mansions-aurora-1440-gallery-row-2.png/006.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/serenity-mansions-aurora-1440-gallery-row-2.png/007.b64"
+      ]
+    },
+    {
+      "key": "development-native-r1/serenity-mansions-aurora-1440-gallery-row-3.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/development-native-r1/serenity-mansions-aurora-1440-gallery-row-3.png",
+      "bytes": 804154,
+      "sha256": "cef5b1dc519ba402da256354e6d65afdbee7ba0f1669ec70aaf38bae9cddcb34",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/serenity-mansions-aurora-1440-gallery-row-3.png/001.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/serenity-mansions-aurora-1440-gallery-row-3.png/002.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/serenity-mansions-aurora-1440-gallery-row-3.png/003.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/serenity-mansions-aurora-1440-gallery-row-3.png/004.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/serenity-mansions-aurora-1440-gallery-row-3.png/005.b64"
+      ]
+    },
+    {
+      "key": "development-native-r1/serenity-mansions-aurora-1440-story-1.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/development-native-r1/serenity-mansions-aurora-1440-story-1.png",
+      "bytes": 811435,
+      "sha256": "debad873892eaa34f024b3b773990d09dc870b274cfeb9a1ca48ff165d1b33dd",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/serenity-mansions-aurora-1440-story-1.png/001.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/serenity-mansions-aurora-1440-story-1.png/002.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/serenity-mansions-aurora-1440-story-1.png/003.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/serenity-mansions-aurora-1440-story-1.png/004.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/serenity-mansions-aurora-1440-story-1.png/005.b64"
+      ]
+    },
+    {
+      "key": "development-native-r1/serenity-mansions-aurora-390-gallery-row-1.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/development-native-r1/serenity-mansions-aurora-390-gallery-row-1.png",
+      "bytes": 266207,
+      "sha256": "d642089bb7b393874c077119e1b5d6dba8ead218733e6b55971ef26e75dcfabc",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/serenity-mansions-aurora-390-gallery-row-1.png/001.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/serenity-mansions-aurora-390-gallery-row-1.png/002.b64"
+      ]
+    },
+    {
+      "key": "development-native-r1/serenity-mansions-aurora-390-story-1.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/development-native-r1/serenity-mansions-aurora-390-story-1.png",
+      "bytes": 148213,
+      "sha256": "4d837a868dbf49225e93cda200c507c1394d427cc750af561c8b0186d7945651",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/serenity-mansions-aurora-390-story-1.png/001.b64"
+      ]
+    },
+    {
+      "key": "development-native-r1/serenity-mansions-waterfront-collection-1440-gallery-row-1.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/development-native-r1/serenity-mansions-waterfront-collection-1440-gallery-row-1.png",
+      "bytes": 1436868,
+      "sha256": "94a19bc7629a8d7afccd1e2d58970913e3d430f95b17e56674ddf3ad608b277c",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/serenity-mansions-waterfront-collection-1440-gallery-row-1.png/001.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/serenity-mansions-waterfront-collection-1440-gallery-row-1.png/002.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/serenity-mansions-waterfront-collection-1440-gallery-row-1.png/003.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/serenity-mansions-waterfront-collection-1440-gallery-row-1.png/004.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/serenity-mansions-waterfront-collection-1440-gallery-row-1.png/005.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/serenity-mansions-waterfront-collection-1440-gallery-row-1.png/006.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/serenity-mansions-waterfront-collection-1440-gallery-row-1.png/007.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/serenity-mansions-waterfront-collection-1440-gallery-row-1.png/008.b64"
+      ]
+    },
+    {
+      "key": "development-native-r1/serenity-mansions-waterfront-collection-1440-gallery-row-2.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/development-native-r1/serenity-mansions-waterfront-collection-1440-gallery-row-2.png",
+      "bytes": 1397518,
+      "sha256": "1dbdf71c706d988e19d49abe2734892fc06b91770f273953d173bc1749425a76",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/serenity-mansions-waterfront-collection-1440-gallery-row-2.png/001.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/serenity-mansions-waterfront-collection-1440-gallery-row-2.png/002.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/serenity-mansions-waterfront-collection-1440-gallery-row-2.png/003.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/serenity-mansions-waterfront-collection-1440-gallery-row-2.png/004.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/serenity-mansions-waterfront-collection-1440-gallery-row-2.png/005.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/serenity-mansions-waterfront-collection-1440-gallery-row-2.png/006.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/serenity-mansions-waterfront-collection-1440-gallery-row-2.png/007.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/serenity-mansions-waterfront-collection-1440-gallery-row-2.png/008.b64"
+      ]
+    },
+    {
+      "key": "development-native-r1/serenity-mansions-waterfront-collection-1440-gallery-row-3.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/development-native-r1/serenity-mansions-waterfront-collection-1440-gallery-row-3.png",
+      "bytes": 831847,
+      "sha256": "094613f801b30e4a06d9f78ffae6095fe7daaa625c81ab399f06058d36b1eb34",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/serenity-mansions-waterfront-collection-1440-gallery-row-3.png/001.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/serenity-mansions-waterfront-collection-1440-gallery-row-3.png/002.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/serenity-mansions-waterfront-collection-1440-gallery-row-3.png/003.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/serenity-mansions-waterfront-collection-1440-gallery-row-3.png/004.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/serenity-mansions-waterfront-collection-1440-gallery-row-3.png/005.b64"
+      ]
+    },
+    {
+      "key": "development-native-r1/serenity-mansions-waterfront-collection-1440-story-1.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/development-native-r1/serenity-mansions-waterfront-collection-1440-story-1.png",
+      "bytes": 939155,
+      "sha256": "ad6161e103c7e8d6daa15b030e762c884dc2d0302272250d957115656ef41016",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/serenity-mansions-waterfront-collection-1440-story-1.png/001.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/serenity-mansions-waterfront-collection-1440-story-1.png/002.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/serenity-mansions-waterfront-collection-1440-story-1.png/003.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/serenity-mansions-waterfront-collection-1440-story-1.png/004.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/serenity-mansions-waterfront-collection-1440-story-1.png/005.b64"
+      ]
+    },
+    {
+      "key": "development-native-r1/serenity-mansions-waterfront-collection-390-gallery-row-1.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/development-native-r1/serenity-mansions-waterfront-collection-390-gallery-row-1.png",
+      "bytes": 272011,
+      "sha256": "e4f2637172341d8452d1d9c8306236a0afabb29d69703e718ac6a040e175f6ca",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/serenity-mansions-waterfront-collection-390-gallery-row-1.png/001.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/serenity-mansions-waterfront-collection-390-gallery-row-1.png/002.b64"
+      ]
+    },
+    {
+      "key": "development-native-r1/serenity-mansions-waterfront-collection-390-story-1.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/development-native-r1/serenity-mansions-waterfront-collection-390-story-1.png",
+      "bytes": 155884,
+      "sha256": "65ae010e0281a0770c09202855d13b707ac61eadbd45091ac47c975d54a3b186",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/serenity-mansions-waterfront-collection-390-story-1.png/001.b64"
+      ]
+    },
+    {
+      "key": "development-native-r1/six-senses-1440-gallery-row-1.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/development-native-r1/six-senses-1440-gallery-row-1.png",
+      "bytes": 1265760,
+      "sha256": "ccdb686da28576c2e48b68c31319681ab36362fa6540f7179a5801f755541a3f",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/six-senses-1440-gallery-row-1.png/001.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/six-senses-1440-gallery-row-1.png/002.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/six-senses-1440-gallery-row-1.png/003.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/six-senses-1440-gallery-row-1.png/004.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/six-senses-1440-gallery-row-1.png/005.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/six-senses-1440-gallery-row-1.png/006.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/six-senses-1440-gallery-row-1.png/007.b64"
+      ]
+    },
+    {
+      "key": "development-native-r1/six-senses-1440-gallery-row-2.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/development-native-r1/six-senses-1440-gallery-row-2.png",
+      "bytes": 1304262,
+      "sha256": "b6ce9b133dac497f7113b55bf4a3512051c04d0bd755d18d0b172ef4de40b6f9",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/six-senses-1440-gallery-row-2.png/001.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/six-senses-1440-gallery-row-2.png/002.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/six-senses-1440-gallery-row-2.png/003.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/six-senses-1440-gallery-row-2.png/004.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/six-senses-1440-gallery-row-2.png/005.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/six-senses-1440-gallery-row-2.png/006.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/six-senses-1440-gallery-row-2.png/007.b64"
+      ]
+    },
+    {
+      "key": "development-native-r1/six-senses-1440-gallery-row-3.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/development-native-r1/six-senses-1440-gallery-row-3.png",
+      "bytes": 818267,
+      "sha256": "ab6d42b12078d2058ea33aaf9d1e2867415e1abc5ea53a5fe92047c5039cbd05",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/six-senses-1440-gallery-row-3.png/001.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/six-senses-1440-gallery-row-3.png/002.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/six-senses-1440-gallery-row-3.png/003.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/six-senses-1440-gallery-row-3.png/004.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/six-senses-1440-gallery-row-3.png/005.b64"
+      ]
+    },
+    {
+      "key": "development-native-r1/six-senses-1440-story-1.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/development-native-r1/six-senses-1440-story-1.png",
+      "bytes": 673912,
+      "sha256": "b3d9f4ff3b5bfd6f79062c2cfaa3d42d9c66f330652d708bb4cf75ddcb559a07",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/six-senses-1440-story-1.png/001.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/six-senses-1440-story-1.png/002.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/six-senses-1440-story-1.png/003.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/six-senses-1440-story-1.png/004.b64"
+      ]
+    },
+    {
+      "key": "development-native-r1/six-senses-390-gallery-row-1.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/development-native-r1/six-senses-390-gallery-row-1.png",
+      "bytes": 274236,
+      "sha256": "adbf016398cf39973b9f2116d1d681e6649d1351ff1accd05423bd12d823cbd3",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/six-senses-390-gallery-row-1.png/001.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/six-senses-390-gallery-row-1.png/002.b64"
+      ]
+    },
+    {
+      "key": "development-native-r1/six-senses-390-story-1.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/development-native-r1/six-senses-390-story-1.png",
+      "bytes": 140924,
+      "sha256": "3201f782e277faf6d0a67071e04959718ffef2428f82e1528067ca49636795d2",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/six-senses-390-story-1.png/001.b64"
+      ]
+    },
+    {
+      "key": "development-native-r1/vela-1440-gallery-row-1.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/development-native-r1/vela-1440-gallery-row-1.png",
+      "bytes": 1143978,
+      "sha256": "16ded0433bf298a6fcc4799cc52ba895bb2637aa774a03728f7ff6b7bf2e2413",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/vela-1440-gallery-row-1.png/001.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/vela-1440-gallery-row-1.png/002.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/vela-1440-gallery-row-1.png/003.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/vela-1440-gallery-row-1.png/004.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/vela-1440-gallery-row-1.png/005.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/vela-1440-gallery-row-1.png/006.b64"
+      ]
+    },
+    {
+      "key": "development-native-r1/vela-1440-gallery-row-2.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/development-native-r1/vela-1440-gallery-row-2.png",
+      "bytes": 1186047,
+      "sha256": "697cd85363f55eaf49dd6d1b2c328cb2fe18e063d918f38c5ef10b34f8c60ff2",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/vela-1440-gallery-row-2.png/001.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/vela-1440-gallery-row-2.png/002.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/vela-1440-gallery-row-2.png/003.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/vela-1440-gallery-row-2.png/004.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/vela-1440-gallery-row-2.png/005.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/vela-1440-gallery-row-2.png/006.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/vela-1440-gallery-row-2.png/007.b64"
+      ]
+    },
+    {
+      "key": "development-native-r1/vela-1440-gallery-row-3.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/development-native-r1/vela-1440-gallery-row-3.png",
+      "bytes": 620592,
+      "sha256": "02624cdcc5db796a5606b1be583699aa5a643b1cb1910e34cf1ffc574b50835c",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/vela-1440-gallery-row-3.png/001.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/vela-1440-gallery-row-3.png/002.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/vela-1440-gallery-row-3.png/003.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/vela-1440-gallery-row-3.png/004.b64"
+      ]
+    },
+    {
+      "key": "development-native-r1/vela-1440-story-1.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/development-native-r1/vela-1440-story-1.png",
+      "bytes": 505974,
+      "sha256": "0e376033ba3625857cc293c83253b568cf3df527401be0824c0927c015fb0604",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/vela-1440-story-1.png/001.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/vela-1440-story-1.png/002.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/vela-1440-story-1.png/003.b64"
+      ]
+    },
+    {
+      "key": "development-native-r1/vela-1440-story-2.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/development-native-r1/vela-1440-story-2.png",
+      "bytes": 867567,
+      "sha256": "b6eb602f396be6ab25bed15ce88e6d81e7f0fd1adc334e7a53d5ef7cbe80f73b",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/vela-1440-story-2.png/001.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/vela-1440-story-2.png/002.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/vela-1440-story-2.png/003.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/vela-1440-story-2.png/004.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/vela-1440-story-2.png/005.b64"
+      ]
+    },
+    {
+      "key": "development-native-r1/vela-1440-story-3.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/development-native-r1/vela-1440-story-3.png",
+      "bytes": 598760,
+      "sha256": "96212ac09c171ce4656082bee733708c5c4322a95aec4e482c199c4be8d9cc28",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/vela-1440-story-3.png/001.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/vela-1440-story-3.png/002.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/vela-1440-story-3.png/003.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/vela-1440-story-3.png/004.b64"
+      ]
+    },
+    {
+      "key": "development-native-r1/vela-1440-story-4.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/development-native-r1/vela-1440-story-4.png",
+      "bytes": 947735,
+      "sha256": "c71bfb06a8692224c0a5b29d9fa2d07a02ec86eb4fc97eb2dd4a42c1d20d80b3",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/vela-1440-story-4.png/001.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/vela-1440-story-4.png/002.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/vela-1440-story-4.png/003.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/vela-1440-story-4.png/004.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/vela-1440-story-4.png/005.b64"
+      ]
+    },
+    {
+      "key": "development-native-r1/vela-390-gallery-row-1.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/development-native-r1/vela-390-gallery-row-1.png",
+      "bytes": 247958,
+      "sha256": "f2a9958f3a10578abe7e0df851833c1a00590002d3ccd31631493037ed74989d",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/vela-390-gallery-row-1.png/001.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/vela-390-gallery-row-1.png/002.b64"
+      ]
+    },
+    {
+      "key": "development-native-r1/vela-390-story-1.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/development-native-r1/vela-390-story-1.png",
+      "bytes": 115620,
+      "sha256": "d177e4d3065d522e9c7c52f04864f639bda9bb4797e31a75b3aef53aab2ed88d",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/vela-390-story-1.png/001.b64"
+      ]
+    },
+    {
+      "key": "development-native-r1/vela-390-story-2.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/development-native-r1/vela-390-story-2.png",
+      "bytes": 172735,
+      "sha256": "6adc3d984432387a8e460ee5693935358501f870a464b7991c616d51cf0b86f9",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/vela-390-story-2.png/001.b64"
+      ]
+    },
+    {
+      "key": "development-native-r1/vela-390-story-3.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/development-native-r1/vela-390-story-3.png",
+      "bytes": 151606,
+      "sha256": "effc3a0f180f3c23facf7c04c1403a89a90599861fc3fe5033fede07ac646637",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/vela-390-story-3.png/001.b64"
+      ]
+    },
+    {
+      "key": "development-native-r1/vela-390-story-4.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/development-native-r1/vela-390-story-4.png",
+      "bytes": 179368,
+      "sha256": "5a6a62d281994f1f4a12d55632999ecd2e7d58a437050a1ff1b19c680d8e85c5",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/vela-390-story-4.png/001.b64"
+      ]
     }
   ],
   "validationR9": {
@@ -3315,5 +3904,14 @@
     },
     "sourceUnchanged": true,
     "finishedAt": "2026-11-03T17:32:36Z"
+  },
+  "developmentNativeSummary": {
+    "passed": true,
+    "complete": true,
+    "frames": 48,
+    "paintSamples": 132,
+    "allSelectedPhotosPainted": true,
+    "errors": [],
+    "sourceHead": "532cd2fc19dcf9ddaa1809616a47ebaee86eec88"
   }
 }
