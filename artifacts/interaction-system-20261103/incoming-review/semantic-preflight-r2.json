@@ -1,0 +1,215 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-11-03T17:35:27.525079+00:00",
+  "status": "passed",
+  "scope": "Local JSON semantics and hash bindings only; not the full native PNG validator.",
+  "sourceHead": "532cd2fc19dcf9ddaa1809616a47ebaee86eec88",
+  "manifestSha256": "7111122f8a953d8e27eafbd92677f98c5a79eb738f5bade30dde9a005ee1f8de",
+  "allocationSha256": "a7c869cb8821bfad18c724d8676f984c3c3518e95169bc5e6cf7ea03ec7aa268",
+  "receipts": [
+    {
+      "path": "/workspace/scratch/81f7012ea52e/luxury-review/receipts/all-pages-root-r1.json",
+      "sha256": "e71a05939ea063550eca5f7a90c749f3de9d5bcda9d11474663ae2582c8f75be",
+      "reviewer": "/root",
+      "actualViewedSheets": 23,
+      "routes": 70,
+      "routeWidthStates": 131,
+      "nativeInspections": 0
+    },
+    {
+      "path": "/workspace/scratch/81f7012ea52e/luxury-review/receipts/all-pages-filters-r1.json",
+      "sha256": "2c16f34dbc4900922757d84e98bc564d9745808909a5106fd5f7eee34b6b72e4",
+      "reviewer": "/root/filters_ux",
+      "actualViewedSheets": 22,
+      "routes": 72,
+      "routeWidthStates": 127,
+      "nativeInspections": 0
+    },
+    {
+      "path": "/workspace/scratch/81f7012ea52e/luxury-review/receipts/all-pages-navigation-r1.json",
+      "sha256": "59c76a80843974fc11352884b8b7531ff6acfcc408262d8660889e3519c604ef",
+      "reviewer": "/root/navigation_motion",
+      "actualViewedSheets": 23,
+      "routes": 78,
+      "routeWidthStates": 133,
+      "nativeInspections": 0
+    },
+    {
+      "path": "/workspace/scratch/81f7012ea52e/luxury-review/receipts/all-pages-qa-r1.json",
+      "sha256": "ccb3f4badbfc2f10e1045e6d1af5647035517599f5f631dfa3a6980ea4d5dba1",
+      "reviewer": "/root/qa_interaction_audit",
+      "actualViewedSheets": 22,
+      "routes": 74,
+      "routeWidthStates": 129,
+      "nativeInspections": 0
+    }
+  ],
+  "counts": {
+    "reviewers": 4,
+    "actualViewedSheets": 90,
+    "originalPlacements": 520,
+    "uniqueRouteWidthStates": 520,
+    "routes": 130
+  },
+  "errors": [],
+  "openFindings": [
+    {
+      "reviewer": "/root",
+      "id": "ROOT-DEV-PAINT-01",
+      "severity": "observation",
+      "status": "open",
+      "observation": "Several VELA story and gallery photo areas are blank in the full-page desktop capture although the underlying image asset is valid and all image DOM entries are loaded with nonzero geometry. Requires real viewport paint confirmation; not assumed to be either a runtime defect or a capture artifact.",
+      "evidence": [
+        "full-1440-032.png",
+        "/developments/vela/",
+        "252-developments-vela-1440-no-preference-full.png"
+      ]
+    },
+    {
+      "reviewer": "/root/filters_ux",
+      "id": "filters-overview-empty-bullet-01",
+      "severity": "minor",
+      "status": "open",
+      "observation": "An isolated bullet appears after the Resident-Only Amenities list on the Best Price 3BR property page, before the next paragraph. The scaled mobile overview suggests an empty list item; source confirmation is pending.",
+      "evidence": [
+        {
+          "sheet": "full-390-004.png",
+          "route": "/properties/your-royal-lifestyle-with-sublime-views-and-space-2/",
+          "viewportWidth": 390,
+          "state": "full",
+          "region": "About this home, after Resident-Only Amenities / Superlative Service",
+          "sheetSha256": "e9bea75866faa81515ad1b6c9942bed5b43eaec689e773a599a1d010d2d9ba57",
+          "originalFile": "045-properties-your-royal-lifestyle-with-sublime-views-and-space-2-390-no-preference-full.png",
+          "originalSha256": "bad72dc403e2fc5413b20dd782390da7885a00421c84188bdab701cefb44b9d4",
+          "reviewLevel": "scaled-structural-overview"
+        }
+      ]
+    },
+    {
+      "reviewer": "/root/filters_ux",
+      "id": "filters-overview-duplicate-paragraph-02",
+      "severity": "minor",
+      "status": "open",
+      "observation": "The VELA property entry repeats a consecutive paragraph beginning Life at the Marina Residences moves like the gentle flow of water in About the development.",
+      "evidence": [
+        {
+          "sheet": "full-390-016.png",
+          "route": "/properties/vela-dorchester-collection/",
+          "viewportWidth": 390,
+          "state": "full",
+          "region": "About the development, consecutive Marina Residences paragraphs",
+          "sheetSha256": "8e37aaff0ae380d75da426cec51cadf39a90f5ad8a610f3bc5954d3773125279",
+          "originalFile": "183-properties-vela-dorchester-collection-390-no-preference-full.png",
+          "originalSha256": "a0489fd9cb703d56c2d031e1a8c070cafeb7d6dd59015b1c9644d14dfcb59dbb",
+          "reviewLevel": "scaled-structural-overview"
+        }
+      ]
+    },
+    {
+      "reviewer": "/root/filters_ux",
+      "id": "filters-overview-gallery-space-03",
+      "severity": "observation",
+      "status": "open",
+      "observation": "The Atlantis and AVA development profiles show an unfilled upper-left region in the A closer look thumbnail mosaic while other cells display photographs. The overview alone does not establish whether this is intentional layout, capture/lazy state, or a runtime defect.",
+      "evidence": [
+        {
+          "sheet": "full-390-020.png",
+          "route": "/developments/atlantis/",
+          "viewportWidth": 390,
+          "state": "full",
+          "region": "A closer look thumbnail mosaic, upper-left area",
+          "sheetSha256": "5d4eb005e695936a23391f3311fe7bf38218fc949752205c4cde92374eb020d3",
+          "originalFile": "239-developments-atlantis-390-no-preference-full.png",
+          "originalSha256": "9647825ab1f472c011290f2eeb43db741bce50eb24df2315bc48cf99d0cb65b4",
+          "reviewLevel": "scaled-structural-overview"
+        },
+        {
+          "sheet": "full-390-020.png",
+          "route": "/developments/ava-at-palm/",
+          "viewportWidth": 390,
+          "state": "full",
+          "region": "A closer look thumbnail mosaic, upper-left area",
+          "sheetSha256": "5d4eb005e695936a23391f3311fe7bf38218fc949752205c4cde92374eb020d3",
+          "originalFile": "241-developments-ava-at-palm-390-no-preference-full.png",
+          "originalSha256": "12f1510dc4650abeddd83f6a085ff7d9d30c915d6847fac0ba20da02a24f0f47",
+          "reviewLevel": "scaled-structural-overview"
+        }
+      ],
+      "resolution": "Pending parent source/native-scroll verification; no runtime source changed by this reviewer."
+    },
+    {
+      "reviewer": "/root/navigation_motion",
+      "id": "NAV-CONTENT-001",
+      "severity": "minor",
+      "status": "open",
+      "observation": "The Aurora property record repeats the same descriptive paragraph before At a glance.",
+      "routes": [
+        "/properties/serenity-mansions-aurora/"
+      ],
+      "renderedText": "At Serenity Mansions Aurora, the beauty of nature is ever-present. Each residence is positioned to offer panoramic views, whether it’s the lush greenery of Tilal Al Ghaf or the sparkling waters of the community’s central lagoon. These homes are designed to provide an idyllic living experience, where the boundary between indoor luxury and the natural world is beautifully blurred. Enjoy serene vistas from every corner of your home, with private outdoor spaces that invite you to embrace the peaceful surroundings.",
+      "evidence": [
+        "full-390-013.png"
+      ],
+      "verificationLimit": "Rendered-text transcription; byte-exact source punctuation and origin pending source review."
+    },
+    {
+      "reviewer": "/root/navigation_motion",
+      "id": "NAV-CONTENT-002",
+      "severity": "minor",
+      "status": "open",
+      "observation": "The Waterfront property record repeats a descriptive paragraph before At a glance; the development page repeats it in two consecutive story sections with different headings.",
+      "routes": [
+        "/properties/serenity-mansions-waterfront-collection/",
+        "/developments/serenity-mansions-waterfront-collection/"
+      ],
+      "renderedText": "The Serenity Mansions Waterfront Collection offers luxurious and thoughtfully designed residences. Each home features expansive living spaces with floor-to-ceiling windows that frame stunning water views. The interiors are customisable, allowing you to create a space that reflects your unique style and preferences. Enjoy the best of living by the water, with private outdoor areas perfect for relaxation or entertaining.",
+      "evidence": [
+        "full-390-013.png",
+        "full-390-021.png"
+      ],
+      "verificationLimit": "Rendered-text transcription; byte-exact source punctuation and origin pending source review."
+    },
+    {
+      "reviewer": "/root/qa_interaction_audit",
+      "id": "qa-development-gallery-empty-cells",
+      "severity": "observation",
+      "status": "open",
+      "observation": "The four development galleries in full-1440-031 contain large diagonal empty cells. Large story photos are visible, but the gallery layout/loading needs confirmation before accepting those regions.",
+      "evidence": [
+        "full-1440-031.png",
+        "/developments/orla/",
+        "/developments/serenity-mansions-aurora/",
+        "/developments/serenity-mansions-waterfront-collection/",
+        "/developments/six-senses/"
+      ]
+    },
+    {
+      "reviewer": "/root/qa_interaction_audit",
+      "id": "qa-aurora-amenity-image-variation",
+      "severity": "observation",
+      "status": "open",
+      "observation": "Aurora's amenities section displays an image only on its first card; the two other cards are text-only. Confirm intended source coverage/layout before treating the asymmetry as a defect.",
+      "evidence": [
+        "full-1440-031.png",
+        "/developments/serenity-mansions-aurora/"
+      ]
+    },
+    {
+      "reviewer": "/root/qa_interaction_audit",
+      "id": "qa-chedi-description-paragraph-fragments",
+      "severity": "minor",
+      "status": "open",
+      "observation": "The Chedi description visibly splits 'Refining' and 'grandeur, ...' into separate paragraphs; a later paragraph begins 'for personal reflection'. Review imported paragraph boundaries for complete prose.",
+      "evidence": [
+        "full-390-014.png",
+        "/properties/the-chedi-private-residences/"
+      ]
+    }
+  ],
+  "nativePNGBytesVerified": false,
+  "accepted": false,
+  "limitations": [
+    "Source report, all 520 native PNG byte hashes/dimensions and remote path existence remain for the separately queued complete validator.",
+    "Explicit actual-view receipts establish overview coverage only; unresolved development paint findings remain pending viewport confirmation."
+  ]
+}
