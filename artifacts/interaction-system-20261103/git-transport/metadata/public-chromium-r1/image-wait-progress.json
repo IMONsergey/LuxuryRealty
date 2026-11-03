@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 1,
+  "view": "004-catalogue-1440-no-preference",
+  "sourceHead": "84638a11ccf24be8389d6bf7e52d1fec47bc85d1",
+  "engine": "chromium",
+  "startedAt": "2026-11-03T18:12:34.492Z",
+  "scrollY": 210,
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "images": [
+    {
+      "src": "https://luxury-realty-imon-jrsjy0sj5-cdo-2844s-projects.vercel.app/assets/imgGroup1.svg",
+      "srcset": "",
+      "alt": "",
+      "complete": true,
+      "naturalWidth": 41,
+      "naturalHeight": 41,
+      "rect": {
+        "x": 157.5,
+        "y": 16.5,
+        "width": 41,
+        "height": 41
+      }
+    },
+    {
+      "src": "https://luxury-realty-imon-jrsjy0sj5-cdo-2844s-projects.vercel.app/assets/imgGroup48096582.svg",
+      "srcset": "",
+      "alt": "",
+      "complete": true,
+      "naturalWidth": 104,
+      "naturalHeight": 15,
+      "rect": {
+        "x": 660.5,
+        "y": 29.3125,
+        "width": 104,
+        "height": 15.375
+      }
+    },
+    {
+      "src": "https://luxury-realty-imon-jrsjy0sj5-cdo-2844s-projects.vercel.app/assets/photo-537e59705139e1d0.webp",
+      "srcset": "/assets/photo-537e59705139e1d0-480.webp 480w, /assets/photo-537e59705139e1d0-800.webp 800w, /assets/photo-537e59705139e1d0.webp 1024w",
+      "alt": "",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 960,
+      "rect": {
+        "x": 0,
+        "y": -210,
+        "width": 1425,
+        "height": 420
+      }
+    },
+    {
+      "src": "https://luxury-realty-imon-jrsjy0sj5-cdo-2844s-projects.vercel.app/assets/hero-search.svg",
+      "srcset": "",
+      "alt": "",
+      "complete": true,
+      "naturalWidth": 25,
+      "naturalHeight": 25,
+      "rect": {
+        "x": 697.71875,
+        "y": 304,
+        "width": 20,
+        "height": 20
+      }
+    },
+    {
+      "src": "https://luxury-realty-imon-jrsjy0sj5-cdo-2844s-projects.vercel.app/assets/hero-filter.svg",
+      "srcset": "",
+      "alt": "",
+      "complete": true,
+      "naturalWidth": 20,
+      "naturalHeight": 18,
+      "rect": {
+        "x": 1179.5,
+        "y": 305,
+        "width": 18,
+        "height": 18
+      }
+    },
+    {
+      "src": "https://luxury-realty-imon-jrsjy0sj5-cdo-2844s-projects.vercel.app/media/42f078d0799fc8484e53-480.webp",
+      "srcset": "/media/42f078d0799fc8484e53-480.webp 480w, /media/42f078d0799fc8484e53-960.webp 960w, /media/42f078d0799fc8484e53-1800.webp 1800w",
+      "alt": "Palm View | Duplex Bespoke Garden Home",
+      "complete": true,
+      "naturalWidth": 414,
+      "naturalHeight": 276,
+      "rect": {
+        "x": 158.5,
+        "y": 468,
+        "width": 349.328125,
+        "height": 279.453125
+      }
+    },
+    {
+      "src": "https://luxury-realty-imon-jrsjy0sj5-cdo-2844s-projects.vercel.app/media/15bf3183cbd6577e0da5-480.webp",
+      "srcset": "/media/15bf3183cbd6577e0da5-480.webp 480w, /media/15bf3183cbd6577e0da5-960.webp 960w, /media/15bf3183cbd6577e0da5-1800.webp 1800w",
+      "alt": "Renovation Opportunity | High Number | Iconic View",
+      "complete": true,
+      "naturalWidth": 414,
+      "naturalHeight": 275,
+      "rect": {
+        "x": 537.828125,
+        "y": 468,
+        "width": 349.328125,
+        "height": 279.453125
+      }
+    },
+    {
+      "src": "https://luxury-realty-imon-jrsjy0sj5-cdo-2844s-projects.vercel.app/media/0bd73814e1b18f505f07-480.webp",
+      "srcset": "/media/0bd73814e1b18f505f07-480.webp 480w, /media/0bd73814e1b18f505f07-960.webp 960w, /media/0bd73814e1b18f505f07-1800.webp 1800w",
+      "alt": "1-of-1 Palm View Renovation | Incredible Must-See!",
+      "complete": true,
+      "naturalWidth": 414,
+      "naturalHeight": 276,
+      "rect": {
+        "x": 917.15625,
+        "y": 468,
+        "width": 349.34375,
+        "height": 279.46875
+      }
+    },
+    {
+      "src": "https://luxury-realty-imon-jrsjy0sj5-cdo-2844s-projects.vercel.app/media/1df5d44c653b47c2d917-480.webp",
+      "srcset": "/media/1df5d44c653b47c2d917-480.webp 480w, /media/1df5d44c653b47c2d917-960.webp 960w, /media/1df5d44c653b47c2d917-1800.webp 1800w",
+      "alt": "3BR Duplex Loft | Amazing Upgrade | Must-be-Viewed",
+      "complete": true,
+      "naturalWidth": 414,
+      "naturalHeight": 276,
+      "rect": {
+        "x": 158.5,
+        "y": 994.34375,
+        "width": 349.328125,
+        "height": 279.453125
+      }
+    },
+    {
+      "src": "https://luxury-realty-imon-jrsjy0sj5-cdo-2844s-projects.vercel.app/media/658162b03de55c68790d-480.webp",
+      "srcset": "/media/658162b03de55c68790d-480.webp 480w, /media/658162b03de55c68790d-960.webp 960w, /media/658162b03de55c68790d-1800.webp 1800w",
+      "alt": "3BR Duplex | Private Pool | Viewing Essential",
+      "complete": true,
+      "naturalWidth": 414,
+      "naturalHeight": 276,
+      "rect": {
+        "x": 537.828125,
+        "y": 994.34375,
+        "width": 349.328125,
+        "height": 279.453125
+      }
+    },
+    {
+      "src": "https://luxury-realty-imon-jrsjy0sj5-cdo-2844s-projects.vercel.app/media/4c983ea6c511bcbb02e6-480.webp",
+      "srcset": "/media/4c983ea6c511bcbb02e6-480.webp 480w, /media/4c983ea6c511bcbb02e6-960.webp 960w, /media/4c983ea6c511bcbb02e6-1800.webp 1800w",
+      "alt": "A refined minimalist sanctuary with serene views",
+      "complete": true,
+      "naturalWidth": 414,
+      "naturalHeight": 276,
+      "rect": {
+        "x": 917.15625,
+        "y": 994.34375,
+        "width": 349.34375,
+        "height": 279.46875
+      }
+    }
+  ],
+  "steps": [
+    {
+      "name": "image-decode",
+      "timeoutMs": 15000,
+      "startedAt": "2026-11-03T18:12:34.503Z",
+      "status": "complete",
+      "elapsedMs": 9
+    },
+    {
+      "name": "two-paint-frames",
+      "timeoutMs": 3000,
+      "startedAt": "2026-11-03T18:12:34.514Z",
+      "status": "complete",
+      "elapsedMs": 30
+    }
+  ],
+  "phase": "two-paint-frames",
+  "status": "complete"
+}

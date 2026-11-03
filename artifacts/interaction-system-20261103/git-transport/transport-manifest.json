@@ -3780,6 +3780,372 @@
       "parts": [
         "artifacts/interaction-system-20261103/git-transport/chunks/scoped-content-public-r1/006-vela-dorchester-collection-390-description.png/001.b64"
       ]
+    },
+    {
+      "key": "validation-r15/public-focused.log",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r15/public-focused.log",
+      "bytes": 913,
+      "sha256": "373dda7716b23ffb0a7bc54e3df4ddc0f5c996dc92070aeb5e395699c866dd32",
+      "parts": [],
+      "textPath": "artifacts/interaction-system-20261103/git-transport/metadata/validation-r15/public-focused.log"
+    },
+    {
+      "key": "validation-r15/report.json",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r15/report.json",
+      "bytes": 25409,
+      "sha256": "cf7b5e17562f2309941b467a428520a9218644e67c4caa907409868468627e43",
+      "parts": [],
+      "textPath": "artifacts/interaction-system-20261103/git-transport/metadata/validation-r15/report.json"
+    },
+    {
+      "key": "public-chromium-r1/route-receipts.json",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/public-chromium-r1/route-receipts.json",
+      "bytes": 755632,
+      "sha256": "0e735e9f2b3d6138afd9954cbc940dec11370992f18097aca6afc0ba8ca2fbd3",
+      "parts": [],
+      "textPath": "artifacts/interaction-system-20261103/git-transport/metadata/public-chromium-r1/route-receipts.json"
+    },
+    {
+      "key": "public-chromium-r1/image-wait-progress.json",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/public-chromium-r1/image-wait-progress.json",
+      "bytes": 5846,
+      "sha256": "2a2083997f1c44446ed758600366cd83dcbf28f384c34db206faba6ea2edbb2f",
+      "parts": [],
+      "textPath": "artifacts/interaction-system-20261103/git-transport/metadata/public-chromium-r1/image-wait-progress.json"
+    },
+    {
+      "key": "public-chromium-r1/visual-audit-report.json",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/public-chromium-r1/visual-audit-report.json",
+      "bytes": 778498,
+      "sha256": "9adc533aa163f252b4340edcd7c083672197f4a60fac9c911a1980194f547e35",
+      "parts": [],
+      "textPath": "artifacts/interaction-system-20261103/git-transport/metadata/public-chromium-r1/visual-audit-report.json"
+    },
+    {
+      "key": "public-chromium-r1/canonical-routes.json",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/public-chromium-r1/canonical-routes.json",
+      "bytes": 7653,
+      "sha256": "0193098f0f19307b0ee95a79e86b4017718c66fcfd54eb96141a2722201293fc",
+      "parts": [],
+      "textPath": "artifacts/interaction-system-20261103/git-transport/metadata/public-chromium-r1/canonical-routes.json"
+    },
+    {
+      "key": "public-chromium-r1/001-home-390-no-preference-top.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/public-chromium-r1/001-home-390-no-preference-top.png",
+      "bytes": 311747,
+      "sha256": "3490c2c8eef729e1c175b69f7de3e7f2c58adf92802b1a4aead83742c5e3d0d9",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/public-chromium-r1/001-home-390-no-preference-top.png/001.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/public-chromium-r1/001-home-390-no-preference-top.png/002.b64"
+      ]
+    },
+    {
+      "key": "public-chromium-r1/001-home-390-no-preference-content.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/public-chromium-r1/001-home-390-no-preference-content.png",
+      "bytes": 229467,
+      "sha256": "5f85734367ba3ec5f6caa4b8f795c93430cec7b061e3f036b86826a76d0b6fa6",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/public-chromium-r1/001-home-390-no-preference-content.png/001.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/public-chromium-r1/001-home-390-no-preference-content.png/002.b64"
+      ]
+    },
+    {
+      "key": "public-chromium-r1/001-home-390-no-preference-hero-filters.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/public-chromium-r1/001-home-390-no-preference-hero-filters.png",
+      "bytes": 53439,
+      "sha256": "95a32e0dee7533482380f26a3a93354e7715358f8780b29e94ad0d352af673e8",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/public-chromium-r1/001-home-390-no-preference-hero-filters.png/001.b64"
+      ]
+    },
+    {
+      "key": "public-chromium-r1/001-home-390-no-preference-hero-filters-error.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/public-chromium-r1/001-home-390-no-preference-hero-filters-error.png",
+      "bytes": 48314,
+      "sha256": "47f0150f8bb0e4f26ccb642a40734c514b3605595716889eb8e04108745f3a52",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/public-chromium-r1/001-home-390-no-preference-hero-filters-error.png/001.b64"
+      ]
+    },
+    {
+      "key": "public-chromium-r1/001-home-390-no-preference-hero-filters-lower.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/public-chromium-r1/001-home-390-no-preference-hero-filters-lower.png",
+      "bytes": 55847,
+      "sha256": "6be32787b37014bfa6de9510bc4727d0a9e579a345479478ac3f78416e4d7007",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/public-chromium-r1/001-home-390-no-preference-hero-filters-lower.png/001.b64"
+      ]
+    },
+    {
+      "key": "public-chromium-r1/001-home-390-no-preference-menu.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/public-chromium-r1/001-home-390-no-preference-menu.png",
+      "bytes": 94259,
+      "sha256": "c949c59d56329f020600b3eed0a42dced40538635aced3f467c9e352b0c0ffe4",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/public-chromium-r1/001-home-390-no-preference-menu.png/001.b64"
+      ]
+    },
+    {
+      "key": "public-chromium-r1/001-home-390-no-preference-service-expanded.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/public-chromium-r1/001-home-390-no-preference-service-expanded.png",
+      "bytes": 47129,
+      "sha256": "01f747a688ddee62cf5f37f9b55536f5b51c32aaef5ece5a3bfdddc4cbe8f634",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/public-chromium-r1/001-home-390-no-preference-service-expanded.png/001.b64"
+      ]
+    },
+    {
+      "key": "public-chromium-r1/002-home-1440-no-preference-top.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/public-chromium-r1/002-home-1440-no-preference-top.png",
+      "bytes": 981669,
+      "sha256": "f62a0d97674e4be1b6414966d4689e73f821bc0c62721695f982713430d36efd",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/public-chromium-r1/002-home-1440-no-preference-top.png/001.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/public-chromium-r1/002-home-1440-no-preference-top.png/002.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/public-chromium-r1/002-home-1440-no-preference-top.png/003.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/public-chromium-r1/002-home-1440-no-preference-top.png/004.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/public-chromium-r1/002-home-1440-no-preference-top.png/005.b64"
+      ]
+    },
+    {
+      "key": "public-chromium-r1/002-home-1440-no-preference-content.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/public-chromium-r1/002-home-1440-no-preference-content.png",
+      "bytes": 693480,
+      "sha256": "7d0c0c799d1e87602abab0d8ee9f3d4c9bd0c0eec34faf4eaf08c7c03e6a7bd4",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/public-chromium-r1/002-home-1440-no-preference-content.png/001.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/public-chromium-r1/002-home-1440-no-preference-content.png/002.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/public-chromium-r1/002-home-1440-no-preference-content.png/003.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/public-chromium-r1/002-home-1440-no-preference-content.png/004.b64"
+      ]
+    },
+    {
+      "key": "public-chromium-r1/002-home-1440-no-preference-hero-filters.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/public-chromium-r1/002-home-1440-no-preference-hero-filters.png",
+      "bytes": 461479,
+      "sha256": "8655d3652f8a1d6c71388e191646e88699bc2054253dee97e1d7ef0fee6ee66f",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/public-chromium-r1/002-home-1440-no-preference-hero-filters.png/001.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/public-chromium-r1/002-home-1440-no-preference-hero-filters.png/002.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/public-chromium-r1/002-home-1440-no-preference-hero-filters.png/003.b64"
+      ]
+    },
+    {
+      "key": "public-chromium-r1/002-home-1440-no-preference-hero-filters-error.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/public-chromium-r1/002-home-1440-no-preference-hero-filters-error.png",
+      "bytes": 466344,
+      "sha256": "cf13b5282a460a75ef4fb1cbc0844a44b575cadb7732a12479d859e59e9e8a64",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/public-chromium-r1/002-home-1440-no-preference-hero-filters-error.png/001.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/public-chromium-r1/002-home-1440-no-preference-hero-filters-error.png/002.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/public-chromium-r1/002-home-1440-no-preference-hero-filters-error.png/003.b64"
+      ]
+    },
+    {
+      "key": "public-chromium-r1/002-home-1440-no-preference-hero-filters-lower.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/public-chromium-r1/002-home-1440-no-preference-hero-filters-lower.png",
+      "bytes": 377960,
+      "sha256": "05b69bcb3d3d90398af0bcc54f90bb3a2fbeffd0192f21839bc40c3d3948d552",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/public-chromium-r1/002-home-1440-no-preference-hero-filters-lower.png/001.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/public-chromium-r1/002-home-1440-no-preference-hero-filters-lower.png/002.b64"
+      ]
+    },
+    {
+      "key": "public-chromium-r1/002-home-1440-no-preference-menu.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/public-chromium-r1/002-home-1440-no-preference-menu.png",
+      "bytes": 245889,
+      "sha256": "cbd2609d0d818b83fed73afacb1a6c4a0a606d59126ae9bced74733e1d0068b2",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/public-chromium-r1/002-home-1440-no-preference-menu.png/001.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/public-chromium-r1/002-home-1440-no-preference-menu.png/002.b64"
+      ]
+    },
+    {
+      "key": "public-chromium-r1/002-home-1440-no-preference-service-expanded.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/public-chromium-r1/002-home-1440-no-preference-service-expanded.png",
+      "bytes": 103388,
+      "sha256": "04266b358cf45bb823c297e29a6e344b9809ac67db05696ca2b93728dae74108",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/public-chromium-r1/002-home-1440-no-preference-service-expanded.png/001.b64"
+      ]
+    },
+    {
+      "key": "public-chromium-r1/003-catalogue-390-no-preference-top.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/public-chromium-r1/003-catalogue-390-no-preference-top.png",
+      "bytes": 151490,
+      "sha256": "6917b9f19d1ebe834fe3364191b34c260adec85179c6c37896e1cd66b2914218",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/public-chromium-r1/003-catalogue-390-no-preference-top.png/001.b64"
+      ]
+    },
+    {
+      "key": "public-chromium-r1/003-catalogue-390-no-preference-content.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/public-chromium-r1/003-catalogue-390-no-preference-content.png",
+      "bytes": 280155,
+      "sha256": "abc22be78068ffd4cb030ae38b1e13c6dcaed6d34cd1d5ae4acb857a7c6d8711",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/public-chromium-r1/003-catalogue-390-no-preference-content.png/001.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/public-chromium-r1/003-catalogue-390-no-preference-content.png/002.b64"
+      ]
+    },
+    {
+      "key": "public-chromium-r1/003-catalogue-390-no-preference-catalogue-filters.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/public-chromium-r1/003-catalogue-390-no-preference-catalogue-filters.png",
+      "bytes": 43306,
+      "sha256": "b8482d88b5a733919312afca8b9bfe080447539375f700d6355a691b3d51a4b4",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/public-chromium-r1/003-catalogue-390-no-preference-catalogue-filters.png/001.b64"
+      ]
+    },
+    {
+      "key": "public-chromium-r1/003-catalogue-390-no-preference-catalogue-applied-controls.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/public-chromium-r1/003-catalogue-390-no-preference-catalogue-applied-controls.png",
+      "bytes": 159859,
+      "sha256": "754158a75bdba1aadab4e913a3807836f3fdedc46959cdac2ddbd477bd37b2d8",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/public-chromium-r1/003-catalogue-390-no-preference-catalogue-applied-controls.png/001.b64"
+      ]
+    },
+    {
+      "key": "public-chromium-r1/003-catalogue-390-no-preference-catalogue-applied.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/public-chromium-r1/003-catalogue-390-no-preference-catalogue-applied.png",
+      "bytes": 221558,
+      "sha256": "db4774b9c8bc0845ad1f91dc8159210d41746a4fc702242eacdfc6f91acd216b",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/public-chromium-r1/003-catalogue-390-no-preference-catalogue-applied.png/001.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/public-chromium-r1/003-catalogue-390-no-preference-catalogue-applied.png/002.b64"
+      ]
+    },
+    {
+      "key": "public-chromium-r1/003-catalogue-390-no-preference-catalogue-empty.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/public-chromium-r1/003-catalogue-390-no-preference-catalogue-empty.png",
+      "bytes": 33408,
+      "sha256": "dbcbf768daa007039d01aa7c314ac45dc759f4a60caf562e44f42c32cfa68f88",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/public-chromium-r1/003-catalogue-390-no-preference-catalogue-empty.png/001.b64"
+      ]
+    },
+    {
+      "key": "public-chromium-r1/003-catalogue-390-no-preference-catalogue-filters-error.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/public-chromium-r1/003-catalogue-390-no-preference-catalogue-filters-error.png",
+      "bytes": 35770,
+      "sha256": "46a370cf6077babc072cc6e2fe328ff5018ec04ed9e847d71093459730e74fbf",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/public-chromium-r1/003-catalogue-390-no-preference-catalogue-filters-error.png/001.b64"
+      ]
+    },
+    {
+      "key": "public-chromium-r1/003-catalogue-390-no-preference-catalogue-invalid-url.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/public-chromium-r1/003-catalogue-390-no-preference-catalogue-invalid-url.png",
+      "bytes": 44741,
+      "sha256": "1ccbc582ac76b5e777f562039fdd67110e08481b7d319e15a5a31f69098591b0",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/public-chromium-r1/003-catalogue-390-no-preference-catalogue-invalid-url.png/001.b64"
+      ]
+    },
+    {
+      "key": "public-chromium-r1/003-catalogue-390-no-preference-catalogue-filters-lower.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/public-chromium-r1/003-catalogue-390-no-preference-catalogue-filters-lower.png",
+      "bytes": 34566,
+      "sha256": "8f43d313e5f31680a59d20c62f0a3886d14e30d5c6629a7c9edd456c863a76f7",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/public-chromium-r1/003-catalogue-390-no-preference-catalogue-filters-lower.png/001.b64"
+      ]
+    },
+    {
+      "key": "public-chromium-r1/004-catalogue-1440-no-preference-top.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/public-chromium-r1/004-catalogue-1440-no-preference-top.png",
+      "bytes": 649382,
+      "sha256": "6a7c6dde5d955dce9a870374581bbf77110b943cfc2a859273d39acb95eb4909",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/public-chromium-r1/004-catalogue-1440-no-preference-top.png/001.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/public-chromium-r1/004-catalogue-1440-no-preference-top.png/002.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/public-chromium-r1/004-catalogue-1440-no-preference-top.png/003.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/public-chromium-r1/004-catalogue-1440-no-preference-top.png/004.b64"
+      ]
+    },
+    {
+      "key": "public-chromium-r1/004-catalogue-1440-no-preference-content.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/public-chromium-r1/004-catalogue-1440-no-preference-content.png",
+      "bytes": 920382,
+      "sha256": "5c6c664d61d4a5bf09a55161d789ecebd3c58400d5a89489268079155cde7436",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/public-chromium-r1/004-catalogue-1440-no-preference-content.png/001.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/public-chromium-r1/004-catalogue-1440-no-preference-content.png/002.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/public-chromium-r1/004-catalogue-1440-no-preference-content.png/003.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/public-chromium-r1/004-catalogue-1440-no-preference-content.png/004.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/public-chromium-r1/004-catalogue-1440-no-preference-content.png/005.b64"
+      ]
+    },
+    {
+      "key": "public-chromium-r1/004-catalogue-1440-no-preference-catalogue-filters.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/public-chromium-r1/004-catalogue-1440-no-preference-catalogue-filters.png",
+      "bytes": 223592,
+      "sha256": "80589aa0331222506b1695b172b6a4009c9dc7008f8cfa64bf11996ed34dc120",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/public-chromium-r1/004-catalogue-1440-no-preference-catalogue-filters.png/001.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/public-chromium-r1/004-catalogue-1440-no-preference-catalogue-filters.png/002.b64"
+      ]
+    },
+    {
+      "key": "public-chromium-r1/004-catalogue-1440-no-preference-catalogue-applied-controls.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/public-chromium-r1/004-catalogue-1440-no-preference-catalogue-applied-controls.png",
+      "bytes": 479949,
+      "sha256": "0ed6c3ed55fe6e7aba6aaf80330f41f958913aa594654793bba8c1cb4c7ebde4",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/public-chromium-r1/004-catalogue-1440-no-preference-catalogue-applied-controls.png/001.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/public-chromium-r1/004-catalogue-1440-no-preference-catalogue-applied-controls.png/002.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/public-chromium-r1/004-catalogue-1440-no-preference-catalogue-applied-controls.png/003.b64"
+      ]
+    },
+    {
+      "key": "public-chromium-r1/004-catalogue-1440-no-preference-catalogue-applied.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/public-chromium-r1/004-catalogue-1440-no-preference-catalogue-applied.png",
+      "bytes": 784542,
+      "sha256": "93664b182c6f79e98641ffb063ebc3d9b214b3e12fda1e26b534411bee22b9a1",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/public-chromium-r1/004-catalogue-1440-no-preference-catalogue-applied.png/001.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/public-chromium-r1/004-catalogue-1440-no-preference-catalogue-applied.png/002.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/public-chromium-r1/004-catalogue-1440-no-preference-catalogue-applied.png/003.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/public-chromium-r1/004-catalogue-1440-no-preference-catalogue-applied.png/004.b64"
+      ]
+    },
+    {
+      "key": "public-chromium-r1/004-catalogue-1440-no-preference-catalogue-empty.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/public-chromium-r1/004-catalogue-1440-no-preference-catalogue-empty.png",
+      "bytes": 150876,
+      "sha256": "6846f0947451a800480ed0247a0d631e815c5b810b02d13c282a52c2b6588018",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/public-chromium-r1/004-catalogue-1440-no-preference-catalogue-empty.png/001.b64"
+      ]
+    },
+    {
+      "key": "public-chromium-r1/004-catalogue-1440-no-preference-catalogue-filters-error.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/public-chromium-r1/004-catalogue-1440-no-preference-catalogue-filters-error.png",
+      "bytes": 118183,
+      "sha256": "3e9fdef448b27d107ffc18ce297a6e1c641cef28e4eebd4bb1bdced00a242de5",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/public-chromium-r1/004-catalogue-1440-no-preference-catalogue-filters-error.png/001.b64"
+      ]
+    },
+    {
+      "key": "public-chromium-r1/004-catalogue-1440-no-preference-catalogue-invalid-url.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/public-chromium-r1/004-catalogue-1440-no-preference-catalogue-invalid-url.png",
+      "bytes": 157985,
+      "sha256": "48a8fef13a4dda03f8e3109bc32216bccc87ff3df9427cb84ba718cde494fa17",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/public-chromium-r1/004-catalogue-1440-no-preference-catalogue-invalid-url.png/001.b64"
+      ]
+    },
+    {
+      "key": "public-chromium-r1/004-catalogue-1440-no-preference-catalogue-filters-lower.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/public-chromium-r1/004-catalogue-1440-no-preference-catalogue-filters-lower.png",
+      "bytes": 178080,
+      "sha256": "fbf3f9a879c55b3b9c40653a5fd6f402971eda0e445782a72d3e2da928f6ad18",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/public-chromium-r1/004-catalogue-1440-no-preference-catalogue-filters-lower.png/001.b64"
+      ]
     }
   ],
   "validationR9": {
@@ -4648,5 +5014,137 @@
     "sourceUnchanged": true,
     "staticBundleUnchanged": true,
     "finishedAt": "2026-11-03T18:06:08Z"
+  },
+  "validationR15": {
+    "startedAt": "2026-11-03T18:10:30Z",
+    "sourceHead": "84638a11ccf24be8389d6bf7e52d1fec47bc85d1",
+    "runtimeSourceHead": "a484ab78629f4129080abb7c8be938c573c4e1a8",
+    "staticBundle": {
+      "count": 146,
+      "sha256": "ddd32f0f1f4169cac9271b644f4e9fdfa47130501c7a18836ac91346f1e6113e"
+    },
+    "stages": [
+      {
+        "name": "public-focused",
+        "exitCode": 0,
+        "seconds": 130.05,
+        "log": "artifacts/interaction-system-20261103/validation-r15/public-focused.log"
+      }
+    ],
+    "complete": true,
+    "passed": true,
+    "releaseAcceptance": false,
+    "humanReview": "pending-final-scoped-and-public-screenshot-review",
+    "preview": {
+      "url": "https://luxury-realty-imon-jrsjy0sj5-cdo-2844s-projects.vercel.app",
+      "sha": "84638a11ccf24be8389d6bf7e52d1fec47bc85d1",
+      "runtimeSourceHead": "a484ab78629f4129080abb7c8be938c573c4e1a8",
+      "branch": "feat/interaction-system-20261103",
+      "deploymentId": "dpl_8RtQs3eh4RPHDqkuVVWo6pGLqM8y",
+      "projectId": "prj_9iSUC97pBvn9DoD6blM9mAZm6dMu",
+      "teamId": "team_eJReJ6RtdOT99uZ8iGJFHX3r",
+      "stateVerified": "READY",
+      "target": "preview",
+      "bindingMethod": "Vercel get_deployment withGitRepoInfo=true",
+      "verifiedAt": "2026-11-03T18:01:17.304Z"
+    },
+    "inheritedCheckBuild": {
+      "report": "artifacts/interaction-system-20261103/validation-r13/report.json",
+      "sourceHead": "a484ab78629f4129080abb7c8be938c573c4e1a8",
+      "stages": [
+        {
+          "name": "check",
+          "exitCode": 0,
+          "seconds": 18.44,
+          "log": "artifacts/interaction-system-20261103/validation-r13/check.log"
+        },
+        {
+          "name": "build",
+          "exitCode": 0,
+          "seconds": 12.63,
+          "log": "artifacts/interaction-system-20261103/validation-r13/build.log"
+        }
+      ],
+      "currentSourceDelta": [
+        "scripts/content-output-audit.py"
+      ],
+      "reason": "The built runtime is unchanged. The auditor now classifies the already verified anonymous VELA map as a map and checks it in the contained map section; all photograph/map coverage assertions remain enforced."
+    },
+    "inheritedEvidence": {
+      "sourceHead": "532cd2fc19dcf9ddaa1809616a47ebaee86eec88",
+      "runtimeSourceDelta": [
+        "src/data/content.ts"
+      ],
+      "allPageRoutes": 130,
+      "allPageViews": 260,
+      "reviewedOverviewSheets": 90,
+      "webkitUnionViews": 35,
+      "webkitUniqueChecks": 87,
+      "reason": "Only six property descriptions, a Waterfront repeated story and VELA map classification changed; shared CSS, client scripts, controls, source data and assets remain byte-identical."
+    },
+    "builtOutputDelta": {
+      "comparisonSourceHead": "532cd2fc19dcf9ddaa1809616a47ebaee86eec88",
+      "changedFiles": [
+        "developments/serenity-mansions-waterfront-collection/index.html",
+        "developments/vela/index.html",
+        "properties/celebrated-designer-duplex-with-private-pool/index.html",
+        "properties/serenity-mansions-aurora/index.html",
+        "properties/serenity-mansions-waterfront-collection/index.html",
+        "properties/the-chedi-private-residences/index.html",
+        "properties/vela-dorchester-collection/index.html",
+        "properties/your-royal-lifestyle-with-sublime-views-and-space-2/index.html"
+      ],
+      "expectedChangedFiles": [
+        "developments/serenity-mansions-waterfront-collection/index.html",
+        "developments/vela/index.html",
+        "properties/celebrated-designer-duplex-with-private-pool/index.html",
+        "properties/serenity-mansions-aurora/index.html",
+        "properties/serenity-mansions-waterfront-collection/index.html",
+        "properties/the-chedi-private-residences/index.html",
+        "properties/vela-dorchester-collection/index.html",
+        "properties/your-royal-lifestyle-with-sublime-views-and-space-2/index.html"
+      ],
+      "exactlyScoped": true,
+      "unchangedCanonicalRouteCount": 122
+    },
+    "inheritedFinalContentChecks": {
+      "report": "artifacts/interaction-system-20261103/validation-r14/report.json",
+      "sha256": "491876569f6f1ad39f2066b2f303530dfcff31451ee30fd360889eaeeb082626",
+      "stages": [
+        {
+          "name": "content-output",
+          "exitCode": 0,
+          "seconds": 14.73,
+          "log": "artifacts/interaction-system-20261103/validation-r14/content-output.log"
+        },
+        {
+          "name": "scoped-content-public",
+          "exitCode": 0,
+          "seconds": 26.5,
+          "log": "artifacts/interaction-system-20261103/validation-r14/scoped-content-public.log"
+        },
+        {
+          "name": "preview-smoke",
+          "exitCode": 0,
+          "seconds": 25.51,
+          "log": "artifacts/interaction-system-20261103/validation-r14/preview-smoke.log"
+        }
+      ],
+      "reason": "These three stages passed on the exact same source and static bundle. Only the public harness invocation flag is corrected from QA_FAIL_FAST=1 to 0. The original aborted invocation remains preserved."
+    },
+    "publicSummary": {
+      "views": 4,
+      "checks": 24,
+      "screenshots": 36,
+      "findings": 0,
+      "pageErrors": 0,
+      "consoleErrors": 0,
+      "assetFailures": 0,
+      "blockedWrites": 0
+    },
+    "sourceHeadAfter": "84638a11ccf24be8389d6bf7e52d1fec47bc85d1",
+    "sourceUnchanged": true,
+    "staticBundleUnchanged": true,
+    "finishedAt": "2026-11-03T18:12:41Z"
   }
 }
