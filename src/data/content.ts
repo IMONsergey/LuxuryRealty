@@ -80,7 +80,9 @@ export function propertyDescriptionHtml(id:string,html:string):string {
   html=html.replace(`<p>${first}</p><p>${second}</p>`,`<p>${first}</p>`);
  }
  if(id==='the-chedi-private-residences'){
-  html=html.replace('Redefining </p><p>grandeur','Redefining grandeur')
+  html=html.replace('glass faÇade','glass façade')
+   .replace('masterfully designedby','masterfully designed by')
+   .replace('Redefining </p><p>grandeur','Redefining grandeur')
    .replace('elegant arrival \u00a0</p><p>experience','elegant arrival experience')
    .replace('serene atmosphere </p><p>for personal reflection.','serene atmosphere for personal reflection.');
  }
