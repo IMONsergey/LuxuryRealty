@@ -1,0 +1,55 @@
+{
+  "url": "https://luxury-realty-imon-pycl583o8-cdo-2844s-projects.vercel.app",
+  "sourceCommit": "1215df84b946ac31d12d36dd1d116cc3197f6a29",
+  "deploymentId": "dpl_5mGJwwTfww1Uzy6Fv9QxVJoC8Y1y",
+  "projectId": "prj_9iSUC97pBvn9DoD6blM9mAZm6dMu",
+  "teamId": "team_eJReJ6RtdOT99uZ8iGJFHX3r",
+  "readyState": "READY",
+  "target": "preview",
+  "verifiedAt": "2026-11-03T12:09:05.542Z",
+  "verification": "Vercel get_deployment: READY, exact project/source commit, target null, only feature-branch alias.",
+  "checkedAt": "2026-11-03T12:09:54.295229+00:00",
+  "scope": "GET/HEAD external preview smoke; no enquiry or third-party delivery",
+  "summary": {
+    "pages": 130,
+    "mediaSamples": 14,
+    "sourceAliases": 20,
+    "errors": 0
+  },
+  "passed": true,
+  "screenshots": [
+    {
+      "file": "preview-home-1440.png",
+      "route": "/",
+      "width": 1440,
+      "height": 900,
+      "sha256": "6595ba714068b925f21515b85aa18bf02b5d2bc1aaddf99ed2a3286bdb996648",
+      "bytes": 1038955
+    },
+    {
+      "file": "preview-catalogue-1440.png",
+      "route": "/properties/",
+      "width": 1440,
+      "height": 900,
+      "sha256": "0557f9bf2d48fe5c223da9cb962f399e924f2e1acfea75308300b78163cdb0bb",
+      "bytes": 509192
+    },
+    {
+      "file": "preview-home-390.png",
+      "route": "/",
+      "width": 390,
+      "height": 844,
+      "sha256": "ff9da7aa5c3bd40ad3615bf78176c636f5e6e14411fb7068b360564b116a724b",
+      "bytes": 330252
+    },
+    {
+      "file": "preview-catalogue-390.png",
+      "route": "/properties/",
+      "width": 390,
+      "height": 844,
+      "sha256": "6fa413f03e496b559a6b06431a55fa3bd224683547e0e8dde704879cfb22dcd8",
+      "bytes": 112174
+    }
+  ],
+  "reportSha256": "5eca54841bcecfa8ef367d66c14fe477c439aae3fbd9198a2663fcf76dc31f83"
+}

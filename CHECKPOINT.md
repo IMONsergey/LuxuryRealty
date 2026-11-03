@@ -198,3 +198,9 @@ Preview coordination is also delegated to the active `/root/qa_recovery` monitor
 ## 2026-11-03: final source-content release
 
 The full interaction gate 20261103T101612-48b273b939 passed: 22 unit tests, 16 groups per Chromium/WebKit/Firefox, 18 visual groups, complete output audit. A final standalone old logo in the homepage About card was replaced with the existing Luxury Realty identity. Fresh typecheck/test/build/output audit and a scoped 1440/390 brand/navigation check passed; final manifest and evidence are in docs/content-migration/verification/brand/. Raw baseline log bytes are preserved in gate.log.gz. Only the authorized content/source-migration-20261103 branch is being committed/pushed for a Vercel preview; production, DNS and enquiry backend configuration are unchanged.
+
+## 2026-11-03: content preview externally verified
+
+Verified preview: https://luxury-realty-imon-pycl583o8-cdo-2844s-projects.vercel.app
+
+Deployed source commit: 1215df84b946ac31d12d36dd1d116cc3197f6a29. Vercel READY/exact commit confirmed through the authenticated connector. The serialized external GET/HEAD probe passed all 130 canonical pages, 20 scoped aliases, sampled local media and hero byte ranges, plus unknown-path 404. Reports and deployment receipt are in docs/content-migration/verification/preview/. External Chromium screenshots of home/catalogue at1440/390 are also preserved for visual review. No real enquiry was sent. Production alias remains unchanged.
