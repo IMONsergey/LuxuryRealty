@@ -1,0 +1,535 @@
+{
+  "schemaVersion": 1,
+  "stage": "final-chedi-public",
+  "engine": "chromium",
+  "sourceHead": "f5731c313c410747c8beb76a468df3671aa5975a",
+  "planSourceCommit": "f5731c313c410747c8beb76a468df3671aa5975a",
+  "expectedContentSha256": "0a635b417dbf725395ab2d40aa1d1363ec25ac2a29aa762ab9f241c530738311",
+  "preview": "https://luxury-realty-imon-zcda5yh6x-cdo-2844s-projects.vercel.app",
+  "sourceBindingVerifiedByHelper": false,
+  "targetBinding": "QA_EXPECTED_HEAD is recorded only. Root must independently verify the exact READY preview/deployment and built source before this run.",
+  "startedAt": "2026-11-03T18:22:11.012Z",
+  "queueCgroup": "0::/user.slice/user-1000.slice/user@1000.service/imon.slice/imon-jobs.slice/imon-job@20261103T182114-9a9269bac8.service",
+  "harnessSha256": "5598fba908f4a06d418000fdcb4a2d0f09f6906529b5fbb23661c65183b1d831",
+  "plan": {
+    "path": "/tmp/luxury-final-chedi-proof-plan.json",
+    "sha256": "4b65c6347f599019627738caa8a77df9941cc87f699cf59ed3ce0906f18242e5"
+  },
+  "assetMap": {
+    "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/src/data/imported-media.json",
+    "sha256": "748370bbf75d9211c6c785473c2f40f59128b44c960017b7cae9062db073793f"
+  },
+  "options": {
+    "viewportWidths": [
+      390,
+      1440
+    ],
+    "viewportHeights": {
+      "390": 844,
+      "1440": 1000
+    },
+    "deviceScaleFactor": 1,
+    "reducedMotion": "no-preference",
+    "serviceWorkers": "block",
+    "timeoutMs": 300000,
+    "primaryScrollInset": 112,
+    "fullPage": false,
+    "imageWaitScope": "intersects the current viewport on both axes; current modal only if present"
+  },
+  "plannedViews": [
+    {
+      "route": "/properties/the-chedi-private-residences/",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "route": "/properties/the-chedi-private-residences/",
+      "width": 1440,
+      "height": 1000
+    }
+  ],
+  "views": [
+    {
+      "key": "001-the-chedi-private-residences-390",
+      "route": "/properties/the-chedi-private-residences/",
+      "width": 390,
+      "height": 844,
+      "startedAt": "2026-11-03T18:22:11.639Z",
+      "complete": true,
+      "checks": [
+        {
+          "name": "No unexpected open modal",
+          "passed": true,
+          "actual": 0,
+          "expected": 0
+        },
+        {
+          "name": "Exact ordered paragraphs",
+          "passed": true,
+          "actual": [
+            "For over three decades, The Chedi has been synonymous with timeless elegance, refined hospitality, and seamless integration of heritage and modernity. From the pristine shores of Oman to the cultural vibrance of Japan, The Chedi’s global portfolio of award-winning destinations embodies a unique philosophy of understated luxury. Now, this esteemed legacy arrives in Dubai with The Chedi Private Residences—a landmark development offering an unprecedented lifestyle experience.",
+            "Ideally located on Sheikh Zayed Road, this groundbreaking development is the world’s first standalone private branded residence under The Chedi name.",
+            "Soaring 240 meters over 52 floors, this architectural marvel, with its sleek glass façade, is masterfully designed by the award-winning Studio Bruno Guelaff. Redefining grandeur, The Chedi Private Residences presents an exclusive collection of sky villas and world-class amenities, offering a lifestyle beyond the extraordinary.",
+            "Discover an exclusive collection of expansive residences, ranging from two- to five-bedroom villas and duplexes to the extraordinary triplex Pinnacle Mansion—a one-of-a-kind masterpiece crowning the building. Experience unparalleled luxury and design in every detail.",
+            "The Chedi Private Residences perfectly balances this captivating energy and sophistication with the serenity of an exclusive retreat. From the elegant arrival experience to the exclusive rooftop residents’ Sky Social, every space is thoughtfully crafted to foster meaningful connections while providing a serene atmosphere for personal reflection. Each area achieves a harmonious balance, seamlessly blending opportunities for social engagement with moments of tranquil solitude.",
+            "The Chedi Private Residences offers an exceptional range of premium amenities across three distinct levels: Ground Social, Resort Social, and Sky Social. Each level is meticulously designed to enrich the resident experience, offering curated spaces for relaxation, entertainment, and social engagement. The Ground and Resort levels feature a blend of essential amenities and leisure spaces, while the Sky Social level offers an exclusive atmosphere with an adults-only infinity pool, Omakase experience, Sky Bar & Lounge, ensuring a luxurious living experience at every turn."
+          ],
+          "expected": [
+            "For over three decades, The Chedi has been synonymous with timeless elegance, refined hospitality, and seamless integration of heritage and modernity. From the pristine shores of Oman to the cultural vibrance of Japan, The Chedi’s global portfolio of award-winning destinations embodies a unique philosophy of understated luxury. Now, this esteemed legacy arrives in Dubai with The Chedi Private Residences—a landmark development offering an unprecedented lifestyle experience.",
+            "Ideally located on Sheikh Zayed Road, this groundbreaking development is the world’s first standalone private branded residence under The Chedi name.",
+            "Soaring 240 meters over 52 floors, this architectural marvel, with its sleek glass façade, is masterfully designed by the award-winning Studio Bruno Guelaff. Redefining grandeur, The Chedi Private Residences presents an exclusive collection of sky villas and world-class amenities, offering a lifestyle beyond the extraordinary.",
+            "Discover an exclusive collection of expansive residences, ranging from two- to five-bedroom villas and duplexes to the extraordinary triplex Pinnacle Mansion—a one-of-a-kind masterpiece crowning the building. Experience unparalleled luxury and design in every detail.",
+            "The Chedi Private Residences perfectly balances this captivating energy and sophistication with the serenity of an exclusive retreat. From the elegant arrival experience to the exclusive rooftop residents’ Sky Social, every space is thoughtfully crafted to foster meaningful connections while providing a serene atmosphere for personal reflection. Each area achieves a harmonious balance, seamlessly blending opportunities for social engagement with moments of tranquil solitude.",
+            "The Chedi Private Residences offers an exceptional range of premium amenities across three distinct levels: Ground Social, Resort Social, and Sky Social. Each level is meticulously designed to enrich the resident experience, offering curated spaces for relaxation, entertainment, and social engagement. The Ground and Resort levels feature a blend of essential amenities and leisure spaces, while the Sky Social level offers an exclusive atmosphere with an adults-only infinity pool, Omakase experience, Sky Bar & Lounge, ensuring a luxurious living experience at every turn."
+          ]
+        },
+        {
+          "name": "Exact ordered list items",
+          "passed": true,
+          "actual": [],
+          "expected": []
+        },
+        {
+          "name": "No empty list items",
+          "passed": true,
+          "actual": 0,
+          "expected": 0
+        },
+        {
+          "name": "description: horizontal document overflow",
+          "passed": true,
+          "actual": true,
+          "expected": true
+        },
+        {
+          "name": "description: visible fonts loaded",
+          "passed": true,
+          "actual": true,
+          "expected": true
+        },
+        {
+          "name": "joined-paragraph-3: horizontal document overflow",
+          "passed": true,
+          "actual": true,
+          "expected": true
+        },
+        {
+          "name": "joined-paragraph-3: visible fonts loaded",
+          "passed": true,
+          "actual": true,
+          "expected": true
+        }
+      ],
+      "frames": [
+        "001-the-chedi-private-residences-390-description.png",
+        "001-the-chedi-private-residences-390-joined-paragraph-3.png"
+      ],
+      "dom": {
+        "paragraphs": [
+          "For over three decades, The Chedi has been synonymous with timeless elegance, refined hospitality, and seamless integration of heritage and modernity. From the pristine shores of Oman to the cultural vibrance of Japan, The Chedi’s global portfolio of award-winning destinations embodies a unique philosophy of understated luxury. Now, this esteemed legacy arrives in Dubai with The Chedi Private Residences—a landmark development offering an unprecedented lifestyle experience.",
+          "Ideally located on Sheikh Zayed Road, this groundbreaking development is the world’s first standalone private branded residence under The Chedi name.",
+          "Soaring 240 meters over 52 floors, this architectural marvel, with its sleek glass façade, is masterfully designed by the award-winning Studio Bruno Guelaff. Redefining grandeur, The Chedi Private Residences presents an exclusive collection of sky villas and world-class amenities, offering a lifestyle beyond the extraordinary.",
+          "Discover an exclusive collection of expansive residences, ranging from two- to five-bedroom villas and duplexes to the extraordinary triplex Pinnacle Mansion—a one-of-a-kind masterpiece crowning the building. Experience unparalleled luxury and design in every detail.",
+          "The Chedi Private Residences perfectly balances this captivating energy and sophistication with the serenity of an exclusive retreat. From the elegant arrival experience to the exclusive rooftop residents’ Sky Social, every space is thoughtfully crafted to foster meaningful connections while providing a serene atmosphere for personal reflection. Each area achieves a harmonious balance, seamlessly blending opportunities for social engagement with moments of tranquil solitude.",
+          "The Chedi Private Residences offers an exceptional range of premium amenities across three distinct levels: Ground Social, Resort Social, and Sky Social. Each level is meticulously designed to enrich the resident experience, offering curated spaces for relaxation, entertainment, and social engagement. The Ground and Resort levels feature a blend of essential amenities and leisure spaces, while the Sky Social level offers an exclusive atmosphere with an adults-only infinity pool, Omakase experience, Sky Bar & Lounge, ensuring a luxurious living experience at every turn."
+        ],
+        "listItems": [],
+        "emptyListItems": 0
+      },
+      "finishedAt": "2026-11-03T18:22:14.485Z"
+    },
+    {
+      "key": "002-the-chedi-private-residences-1440",
+      "route": "/properties/the-chedi-private-residences/",
+      "width": 1440,
+      "height": 1000,
+      "startedAt": "2026-11-03T18:22:14.519Z",
+      "complete": true,
+      "checks": [
+        {
+          "name": "No unexpected open modal",
+          "passed": true,
+          "actual": 0,
+          "expected": 0
+        },
+        {
+          "name": "Exact ordered paragraphs",
+          "passed": true,
+          "actual": [
+            "For over three decades, The Chedi has been synonymous with timeless elegance, refined hospitality, and seamless integration of heritage and modernity. From the pristine shores of Oman to the cultural vibrance of Japan, The Chedi’s global portfolio of award-winning destinations embodies a unique philosophy of understated luxury. Now, this esteemed legacy arrives in Dubai with The Chedi Private Residences—a landmark development offering an unprecedented lifestyle experience.",
+            "Ideally located on Sheikh Zayed Road, this groundbreaking development is the world’s first standalone private branded residence under The Chedi name.",
+            "Soaring 240 meters over 52 floors, this architectural marvel, with its sleek glass façade, is masterfully designed by the award-winning Studio Bruno Guelaff. Redefining grandeur, The Chedi Private Residences presents an exclusive collection of sky villas and world-class amenities, offering a lifestyle beyond the extraordinary.",
+            "Discover an exclusive collection of expansive residences, ranging from two- to five-bedroom villas and duplexes to the extraordinary triplex Pinnacle Mansion—a one-of-a-kind masterpiece crowning the building. Experience unparalleled luxury and design in every detail.",
+            "The Chedi Private Residences perfectly balances this captivating energy and sophistication with the serenity of an exclusive retreat. From the elegant arrival experience to the exclusive rooftop residents’ Sky Social, every space is thoughtfully crafted to foster meaningful connections while providing a serene atmosphere for personal reflection. Each area achieves a harmonious balance, seamlessly blending opportunities for social engagement with moments of tranquil solitude.",
+            "The Chedi Private Residences offers an exceptional range of premium amenities across three distinct levels: Ground Social, Resort Social, and Sky Social. Each level is meticulously designed to enrich the resident experience, offering curated spaces for relaxation, entertainment, and social engagement. The Ground and Resort levels feature a blend of essential amenities and leisure spaces, while the Sky Social level offers an exclusive atmosphere with an adults-only infinity pool, Omakase experience, Sky Bar & Lounge, ensuring a luxurious living experience at every turn."
+          ],
+          "expected": [
+            "For over three decades, The Chedi has been synonymous with timeless elegance, refined hospitality, and seamless integration of heritage and modernity. From the pristine shores of Oman to the cultural vibrance of Japan, The Chedi’s global portfolio of award-winning destinations embodies a unique philosophy of understated luxury. Now, this esteemed legacy arrives in Dubai with The Chedi Private Residences—a landmark development offering an unprecedented lifestyle experience.",
+            "Ideally located on Sheikh Zayed Road, this groundbreaking development is the world’s first standalone private branded residence under The Chedi name.",
+            "Soaring 240 meters over 52 floors, this architectural marvel, with its sleek glass façade, is masterfully designed by the award-winning Studio Bruno Guelaff. Redefining grandeur, The Chedi Private Residences presents an exclusive collection of sky villas and world-class amenities, offering a lifestyle beyond the extraordinary.",
+            "Discover an exclusive collection of expansive residences, ranging from two- to five-bedroom villas and duplexes to the extraordinary triplex Pinnacle Mansion—a one-of-a-kind masterpiece crowning the building. Experience unparalleled luxury and design in every detail.",
+            "The Chedi Private Residences perfectly balances this captivating energy and sophistication with the serenity of an exclusive retreat. From the elegant arrival experience to the exclusive rooftop residents’ Sky Social, every space is thoughtfully crafted to foster meaningful connections while providing a serene atmosphere for personal reflection. Each area achieves a harmonious balance, seamlessly blending opportunities for social engagement with moments of tranquil solitude.",
+            "The Chedi Private Residences offers an exceptional range of premium amenities across three distinct levels: Ground Social, Resort Social, and Sky Social. Each level is meticulously designed to enrich the resident experience, offering curated spaces for relaxation, entertainment, and social engagement. The Ground and Resort levels feature a blend of essential amenities and leisure spaces, while the Sky Social level offers an exclusive atmosphere with an adults-only infinity pool, Omakase experience, Sky Bar & Lounge, ensuring a luxurious living experience at every turn."
+          ]
+        },
+        {
+          "name": "Exact ordered list items",
+          "passed": true,
+          "actual": [],
+          "expected": []
+        },
+        {
+          "name": "No empty list items",
+          "passed": true,
+          "actual": 0,
+          "expected": 0
+        },
+        {
+          "name": "description: horizontal document overflow",
+          "passed": true,
+          "actual": true,
+          "expected": true
+        },
+        {
+          "name": "description: visible fonts loaded",
+          "passed": true,
+          "actual": true,
+          "expected": true
+        }
+      ],
+      "frames": [
+        "002-the-chedi-private-residences-1440-description.png"
+      ],
+      "dom": {
+        "paragraphs": [
+          "For over three decades, The Chedi has been synonymous with timeless elegance, refined hospitality, and seamless integration of heritage and modernity. From the pristine shores of Oman to the cultural vibrance of Japan, The Chedi’s global portfolio of award-winning destinations embodies a unique philosophy of understated luxury. Now, this esteemed legacy arrives in Dubai with The Chedi Private Residences—a landmark development offering an unprecedented lifestyle experience.",
+          "Ideally located on Sheikh Zayed Road, this groundbreaking development is the world’s first standalone private branded residence under The Chedi name.",
+          "Soaring 240 meters over 52 floors, this architectural marvel, with its sleek glass façade, is masterfully designed by the award-winning Studio Bruno Guelaff. Redefining grandeur, The Chedi Private Residences presents an exclusive collection of sky villas and world-class amenities, offering a lifestyle beyond the extraordinary.",
+          "Discover an exclusive collection of expansive residences, ranging from two- to five-bedroom villas and duplexes to the extraordinary triplex Pinnacle Mansion—a one-of-a-kind masterpiece crowning the building. Experience unparalleled luxury and design in every detail.",
+          "The Chedi Private Residences perfectly balances this captivating energy and sophistication with the serenity of an exclusive retreat. From the elegant arrival experience to the exclusive rooftop residents’ Sky Social, every space is thoughtfully crafted to foster meaningful connections while providing a serene atmosphere for personal reflection. Each area achieves a harmonious balance, seamlessly blending opportunities for social engagement with moments of tranquil solitude.",
+          "The Chedi Private Residences offers an exceptional range of premium amenities across three distinct levels: Ground Social, Resort Social, and Sky Social. Each level is meticulously designed to enrich the resident experience, offering curated spaces for relaxation, entertainment, and social engagement. The Ground and Resort levels feature a blend of essential amenities and leisure spaces, while the Sky Social level offers an exclusive atmosphere with an adults-only infinity pool, Omakase experience, Sky Bar & Lounge, ensuring a luxurious living experience at every turn."
+        ],
+        "listItems": [],
+        "emptyListItems": 0
+      },
+      "finishedAt": "2026-11-03T18:22:15.823Z"
+    }
+  ],
+  "frames": [
+    {
+      "file": "001-the-chedi-private-residences-390-description.png",
+      "view": "001-the-chedi-private-residences-390",
+      "route": "/properties/the-chedi-private-residences/",
+      "url": "https://luxury-realty-imon-zcda5yh6x-cdo-2844s-projects.vercel.app/properties/the-chedi-private-residences/",
+      "kind": "description",
+      "sourceHead": "f5731c313c410747c8beb76a468df3671aa5975a",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "deviceScaleFactor": 1,
+      "bytes": 61030,
+      "sha256": "0e639f30a27794c1352c1bcc6495b76974a1732d9f409d8142e6fa95be0eb436",
+      "selector": ".property-description",
+      "targetIndex": 0,
+      "targetRect": {
+        "x": 24,
+        "y": 111.703125,
+        "width": 327,
+        "height": 1605.875
+      },
+      "scrollY": 2136,
+      "documentHeight": 7989,
+      "geometry": {
+        "scrollY": 2136,
+        "documentWidth": 375,
+        "bodyWidth": 375,
+        "viewportWidth": 390,
+        "documentHeight": 7989,
+        "fonts": [
+          {
+            "font": "normal 400 40px SF",
+            "loaded": true
+          },
+          {
+            "font": "normal 400 14px Graphik, Arial, sans-serif",
+            "loaded": true
+          }
+        ]
+      },
+      "images": [
+        {
+          "src": "https://luxury-realty-imon-zcda5yh6x-cdo-2844s-projects.vercel.app/assets/imgGroup1.svg",
+          "alt": "",
+          "complete": true,
+          "naturalWidth": 41,
+          "naturalHeight": 41,
+          "fit": "fill",
+          "rect": {
+            "x": 24,
+            "y": 12.5,
+            "width": 41,
+            "height": 41
+          }
+        },
+        {
+          "src": "https://luxury-realty-imon-zcda5yh6x-cdo-2844s-projects.vercel.app/assets/imgGroup48096582.svg",
+          "alt": "",
+          "complete": true,
+          "naturalWidth": 104,
+          "naturalHeight": 15,
+          "fit": "contain",
+          "rect": {
+            "x": 118.5,
+            "y": 22.78125,
+            "width": 138,
+            "height": 20.421875
+          }
+        },
+        {
+          "src": "https://luxury-realty-imon-zcda5yh6x-cdo-2844s-projects.vercel.app/media/2ecedda0ff9af51caa1f-1600.webp",
+          "alt": "The Chedi Private Residences - photograph 3",
+          "complete": true,
+          "naturalWidth": 342,
+          "naturalHeight": 155,
+          "fit": "cover",
+          "rect": {
+            "x": 24,
+            "y": -206.015625,
+            "width": 327,
+            "height": 267.71875
+          }
+        }
+      ],
+      "humanReview": "pending"
+    },
+    {
+      "file": "001-the-chedi-private-residences-390-joined-paragraph-3.png",
+      "view": "001-the-chedi-private-residences-390",
+      "route": "/properties/the-chedi-private-residences/",
+      "url": "https://luxury-realty-imon-zcda5yh6x-cdo-2844s-projects.vercel.app/properties/the-chedi-private-residences/",
+      "kind": "joined-paragraph-3",
+      "sourceHead": "f5731c313c410747c8beb76a468df3671aa5975a",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "deviceScaleFactor": 1,
+      "bytes": 50867,
+      "sha256": "7f105858c3a6fa82ae9696670e8e2ec7bc72c63d6d4162c326a0d91823739f33",
+      "selector": ".property-description .property-richtext p",
+      "targetIndex": 2,
+      "targetRect": {
+        "x": 24,
+        "y": 111.609375,
+        "width": 327,
+        "height": 186.15625
+      },
+      "scrollY": 2692,
+      "documentHeight": 7989,
+      "geometry": {
+        "scrollY": 2692,
+        "documentWidth": 375,
+        "bodyWidth": 375,
+        "viewportWidth": 390,
+        "documentHeight": 7989,
+        "fonts": [
+          {
+            "font": "normal 400 14px Graphik, Arial, sans-serif",
+            "loaded": true
+          }
+        ]
+      },
+      "images": [
+        {
+          "src": "https://luxury-realty-imon-zcda5yh6x-cdo-2844s-projects.vercel.app/assets/imgGroup1.svg",
+          "alt": "",
+          "complete": true,
+          "naturalWidth": 41,
+          "naturalHeight": 41,
+          "fit": "fill",
+          "rect": {
+            "x": 24,
+            "y": 12.5,
+            "width": 41,
+            "height": 41
+          }
+        },
+        {
+          "src": "https://luxury-realty-imon-zcda5yh6x-cdo-2844s-projects.vercel.app/assets/imgGroup48096582.svg",
+          "alt": "",
+          "complete": true,
+          "naturalWidth": 104,
+          "naturalHeight": 15,
+          "fit": "contain",
+          "rect": {
+            "x": 118.5,
+            "y": 22.78125,
+            "width": 138,
+            "height": 20.421875
+          }
+        }
+      ],
+      "humanReview": "pending"
+    },
+    {
+      "file": "002-the-chedi-private-residences-1440-description.png",
+      "view": "002-the-chedi-private-residences-1440",
+      "route": "/properties/the-chedi-private-residences/",
+      "url": "https://luxury-realty-imon-zcda5yh6x-cdo-2844s-projects.vercel.app/properties/the-chedi-private-residences/",
+      "kind": "description",
+      "sourceHead": "f5731c313c410747c8beb76a468df3671aa5975a",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "deviceScaleFactor": 1,
+      "bytes": 158794,
+      "sha256": "511f35a722f78e2fed7b06c3cd842ef9f1e8045303fc52f68535a4d58788eae2",
+      "selector": ".property-description",
+      "targetIndex": 0,
+      "targetRect": {
+        "x": 157.5,
+        "y": 112.328125,
+        "width": 760,
+        "height": 1015.734375
+      },
+      "scrollY": 1533,
+      "documentHeight": 5288,
+      "geometry": {
+        "scrollY": 1533,
+        "documentWidth": 1425,
+        "bodyWidth": 1425,
+        "viewportWidth": 1440,
+        "documentHeight": 5288,
+        "fonts": [
+          {
+            "font": "normal 400 10px Graphik, Arial, sans-serif",
+            "loaded": true
+          },
+          {
+            "font": "normal 400 32px SF",
+            "loaded": true
+          },
+          {
+            "font": "normal 500 16px Graphik",
+            "loaded": true
+          },
+          {
+            "font": "normal 400 11px Graphik, Arial, sans-serif",
+            "loaded": true
+          },
+          {
+            "font": "normal 400 13px Graphik, Arial, sans-serif",
+            "loaded": true
+          },
+          {
+            "font": "normal 400 12px Graphik, Arial, sans-serif",
+            "loaded": true
+          },
+          {
+            "font": "normal 400 52px SF",
+            "loaded": true
+          },
+          {
+            "font": "normal 400 16px Graphik, Arial, sans-serif",
+            "loaded": true
+          }
+        ]
+      },
+      "images": [
+        {
+          "src": "https://luxury-realty-imon-zcda5yh6x-cdo-2844s-projects.vercel.app/assets/imgGroup1.svg",
+          "alt": "",
+          "complete": true,
+          "naturalWidth": 41,
+          "naturalHeight": 41,
+          "fit": "fill",
+          "rect": {
+            "x": 157.5,
+            "y": 16.5,
+            "width": 41,
+            "height": 41
+          }
+        },
+        {
+          "src": "https://luxury-realty-imon-zcda5yh6x-cdo-2844s-projects.vercel.app/assets/imgGroup48096582.svg",
+          "alt": "",
+          "complete": true,
+          "naturalWidth": 104,
+          "naturalHeight": 15,
+          "fit": "contain",
+          "rect": {
+            "x": 660.5,
+            "y": 29.3125,
+            "width": 104,
+            "height": 15.375
+          }
+        },
+        {
+          "src": "https://luxury-realty-imon-zcda5yh6x-cdo-2844s-projects.vercel.app/media/c466c1cdc3d14ffe1d4d-349.webp",
+          "alt": "Matthew Cooke",
+          "complete": true,
+          "naturalWidth": 53,
+          "naturalHeight": 53,
+          "fit": "cover",
+          "rect": {
+            "x": 1005.5,
+            "y": 290,
+            "width": 54,
+            "height": 54
+          }
+        },
+        {
+          "src": "https://luxury-realty-imon-zcda5yh6x-cdo-2844s-projects.vercel.app/media/31373301be7150c325cf-1600.webp",
+          "alt": "The Chedi Private Residences - photograph 2",
+          "complete": true,
+          "naturalWidth": 365,
+          "naturalHeight": 165,
+          "fit": "cover",
+          "rect": {
+            "x": 157.5,
+            "y": -381.109375,
+            "width": 368,
+            "height": 423.4375
+          }
+        },
+        {
+          "src": "https://luxury-realty-imon-zcda5yh6x-cdo-2844s-projects.vercel.app/media/2ecedda0ff9af51caa1f-1600.webp",
+          "alt": "The Chedi Private Residences - photograph 3",
+          "complete": true,
+          "naturalWidth": 365,
+          "naturalHeight": 165,
+          "fit": "cover",
+          "rect": {
+            "x": 549.5,
+            "y": -381.109375,
+            "width": 368,
+            "height": 423.4375
+          }
+        }
+      ],
+      "humanReview": "pending"
+    }
+  ],
+  "findings": [],
+  "errors": [],
+  "pageErrors": [],
+  "consoleErrors": [],
+  "assetFailures": [],
+  "blockedWrites": [],
+  "abortedRequests": [],
+  "complete": true,
+  "machineChecksPassed": true,
+  "passed": true,
+  "humanReview": "pending",
+  "releaseAcceptance": false,
+  "limitations": [
+    "Native PNGs require a separate actual visual review.",
+    "This bounded content regression does not repeat the full interaction/motion matrix.",
+    "Offscreen lazy images are not awaited; original gallery/map inventories are checked separately.",
+    "No real enquiry or other non-GET/HEAD request is permitted."
+  ],
+  "finishedAt": "2026-11-03T18:22:15.950Z",
+  "elapsedMs": 4938
+}

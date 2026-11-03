@@ -4146,6 +4146,129 @@
       "parts": [
         "artifacts/interaction-system-20261103/git-transport/chunks/public-chromium-r1/004-catalogue-1440-no-preference-catalogue-filters-lower.png/001.b64"
       ]
+    },
+    {
+      "key": "validation-r16/check.log",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r16/check.log",
+      "bytes": 3818,
+      "sha256": "67350b1766d15c84d301f0daa1197f8b7e4e3e7e11350eb355f0d0d8dd2a5503",
+      "parts": [],
+      "textPath": "artifacts/interaction-system-20261103/git-transport/metadata/validation-r16/check.log"
+    },
+    {
+      "key": "validation-r16/static-bundle-before.json",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r16/static-bundle-before.json",
+      "bytes": 24636,
+      "sha256": "86a831721081797583e4cf252b95f3fe477f09736c0340dd328d0406c01009d0",
+      "parts": [],
+      "textPath": "artifacts/interaction-system-20261103/git-transport/metadata/validation-r16/static-bundle-before.json"
+    },
+    {
+      "key": "validation-r16/build.log",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r16/build.log",
+      "bytes": 21191,
+      "sha256": "08286d2919ed6377d32dff5bc6bead7c50565dab2458759062e2e0f3e4de7f49",
+      "parts": [],
+      "textPath": "artifacts/interaction-system-20261103/git-transport/metadata/validation-r16/build.log"
+    },
+    {
+      "key": "validation-r16/content-output.log",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r16/content-output.log",
+      "bytes": 498,
+      "sha256": "88568143046b1c6ae31651355b503e2edceb19689c830bbb530fa75a1d285c25",
+      "parts": [],
+      "textPath": "artifacts/interaction-system-20261103/git-transport/metadata/validation-r16/content-output.log"
+    },
+    {
+      "key": "validation-r16/preview-smoke.log",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r16/preview-smoke.log",
+      "bytes": 214,
+      "sha256": "456773fea6cae8c18657318fd61a00523a4cd60a18cbde91f2f66a8c4f295ccd",
+      "parts": [],
+      "textPath": "artifacts/interaction-system-20261103/git-transport/metadata/validation-r16/preview-smoke.log"
+    },
+    {
+      "key": "validation-r16/source-diff.patch",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r16/source-diff.patch",
+      "bytes": 807,
+      "sha256": "c3c4a13e17ca21d8d370f4021b02fe8f0fd5c0431a73bd7afe73aaaef5cee5a5",
+      "parts": [],
+      "textPath": "artifacts/interaction-system-20261103/git-transport/metadata/validation-r16/source-diff.patch"
+    },
+    {
+      "key": "validation-r16/final-chedi-public.log",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r16/final-chedi-public.log",
+      "bytes": 335,
+      "sha256": "397e708069dc4c0fd0ff51e276759fccb1d265232e4ed908c9607d2fa2504c89",
+      "parts": [],
+      "textPath": "artifacts/interaction-system-20261103/git-transport/metadata/validation-r16/final-chedi-public.log"
+    },
+    {
+      "key": "validation-r16/preview-smoke.json",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r16/preview-smoke.json",
+      "bytes": 200345,
+      "sha256": "4cceea0bc8f2776e3fdb81e795d8966d3cb3ee68aa969eba986b934abcc17b47",
+      "parts": [],
+      "textPath": "artifacts/interaction-system-20261103/git-transport/metadata/validation-r16/preview-smoke.json"
+    },
+    {
+      "key": "validation-r16/static-bundle-after.json",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r16/static-bundle-after.json",
+      "bytes": 24636,
+      "sha256": "29a277c8c645753bd4e374742f9330a6f325fb7548ab43f12a9940d6275c0c12",
+      "parts": [],
+      "textPath": "artifacts/interaction-system-20261103/git-transport/metadata/validation-r16/static-bundle-after.json"
+    },
+    {
+      "key": "validation-r16/report.json",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r16/report.json",
+      "bytes": 35895,
+      "sha256": "ff90138b7cea2a397154a9e90387a5ce8a40a3391a7e042bfa04cce0660ee77e",
+      "parts": [],
+      "textPath": "artifacts/interaction-system-20261103/git-transport/metadata/validation-r16/report.json"
+    },
+    {
+      "key": "validation-r16/content-output-audit.json",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r16/content-output-audit.json",
+      "bytes": 639581,
+      "sha256": "6ea050a64f239bb2a3e86d099a5e66be477d9c45cf9f44e39130dfe0ecae3345",
+      "parts": [],
+      "textPath": "artifacts/interaction-system-20261103/git-transport/metadata/validation-r16/content-output-audit.json"
+    },
+    {
+      "key": "final-chedi-public-r1/001-the-chedi-private-residences-390-joined-paragraph-3.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/final-chedi-public-r1/001-the-chedi-private-residences-390-joined-paragraph-3.png",
+      "bytes": 50867,
+      "sha256": "7f105858c3a6fa82ae9696670e8e2ec7bc72c63d6d4162c326a0d91823739f33",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/final-chedi-public-r1/001-the-chedi-private-residences-390-joined-paragraph-3.png/001.b64"
+      ]
+    },
+    {
+      "key": "final-chedi-public-r1/001-the-chedi-private-residences-390-description.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/final-chedi-public-r1/001-the-chedi-private-residences-390-description.png",
+      "bytes": 61030,
+      "sha256": "0e639f30a27794c1352c1bcc6495b76974a1732d9f409d8142e6fa95be0eb436",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/final-chedi-public-r1/001-the-chedi-private-residences-390-description.png/001.b64"
+      ]
+    },
+    {
+      "key": "final-chedi-public-r1/002-the-chedi-private-residences-1440-description.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/final-chedi-public-r1/002-the-chedi-private-residences-1440-description.png",
+      "bytes": 158794,
+      "sha256": "511f35a722f78e2fed7b06c3cd842ef9f1e8045303fc52f68535a4d58788eae2",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/final-chedi-public-r1/002-the-chedi-private-residences-1440-description.png/001.b64"
+      ]
+    },
+    {
+      "key": "final-chedi-public-r1/report.json",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/final-chedi-public-r1/report.json",
+      "bytes": 28954,
+      "sha256": "5db22269a1383d61766c17bc7d72ae641d612ed33ef4348e277e8d3663b7749a",
+      "parts": [],
+      "textPath": "artifacts/interaction-system-20261103/git-transport/metadata/final-chedi-public-r1/report.json"
     }
   ],
   "validationR9": {
@@ -5146,5 +5269,162 @@
     "sourceUnchanged": true,
     "staticBundleUnchanged": true,
     "finishedAt": "2026-11-03T18:12:41Z"
+  },
+  "validationR16": {
+    "startedAt": "2026-11-03T18:21:15Z",
+    "sourceHead": "f5731c313c410747c8beb76a468df3671aa5975a",
+    "runtimeSourceHead": "f5731c313c410747c8beb76a468df3671aa5975a",
+    "priorSourceHead": "84638a11ccf24be8389d6bf7e52d1fec47bc85d1",
+    "preview": {
+      "url": "https://luxury-realty-imon-zcda5yh6x-cdo-2844s-projects.vercel.app",
+      "sha": "f5731c313c410747c8beb76a468df3671aa5975a",
+      "runtimeSourceHead": "f5731c313c410747c8beb76a468df3671aa5975a",
+      "branch": "feat/interaction-system-20261103",
+      "deploymentId": "dpl_BBtY66ugp3ZLNoqFs4dugbb6tr7P",
+      "projectId": "prj_9iSUC97pBvn9DoD6blM9mAZm6dMu",
+      "teamId": "team_eJReJ6RtdOT99uZ8iGJFHX3r",
+      "stateVerified": "READY",
+      "target": "preview",
+      "bindingMethod": "Vercel get_deployment withGitRepoInfo=true",
+      "verifiedAt": "2026-11-03T18:22:05.661Z"
+    },
+    "stages": [
+      {
+        "name": "check",
+        "exitCode": 0,
+        "seconds": 19.34,
+        "log": "artifacts/interaction-system-20261103/validation-r16/check.log"
+      },
+      {
+        "name": "build",
+        "exitCode": 0,
+        "seconds": 13.7,
+        "log": "artifacts/interaction-system-20261103/validation-r16/build.log"
+      },
+      {
+        "name": "content-output",
+        "exitCode": 0,
+        "seconds": 8.39,
+        "log": "artifacts/interaction-system-20261103/validation-r16/content-output.log"
+      },
+      {
+        "name": "final-chedi-public",
+        "exitCode": 0,
+        "seconds": 7.99,
+        "log": "artifacts/interaction-system-20261103/validation-r16/final-chedi-public.log"
+      },
+      {
+        "name": "preview-smoke",
+        "exitCode": 0,
+        "seconds": 28.11,
+        "log": "artifacts/interaction-system-20261103/validation-r16/preview-smoke.log"
+      }
+    ],
+    "complete": true,
+    "passed": true,
+    "releaseAcceptance": false,
+    "humanReview": "pending-final-chedi-text-review",
+    "inheritedUiValidation": {
+      "report": "validation-r15/report.json",
+      "sha256": "cf7b5e17562f2309941b467a428520a9218644e67c4caa907409868468627e43",
+      "sourceHead": "84638a11ccf24be8389d6bf7e52d1fec47bc85d1",
+      "publicSummary": {
+        "views": 4,
+        "checks": 24,
+        "screenshots": 36,
+        "findings": 0,
+        "pageErrors": 0,
+        "consoleErrors": 0,
+        "assetFailures": 0,
+        "blockedWrites": 0
+      },
+      "priorPreview": {
+        "url": "https://luxury-realty-imon-jrsjy0sj5-cdo-2844s-projects.vercel.app",
+        "sha": "84638a11ccf24be8389d6bf7e52d1fec47bc85d1",
+        "runtimeSourceHead": "a484ab78629f4129080abb7c8be938c573c4e1a8",
+        "branch": "feat/interaction-system-20261103",
+        "deploymentId": "dpl_8RtQs3eh4RPHDqkuVVWo6pGLqM8y",
+        "projectId": "prj_9iSUC97pBvn9DoD6blM9mAZm6dMu",
+        "teamId": "team_eJReJ6RtdOT99uZ8iGJFHX3r",
+        "stateVerified": "READY",
+        "target": "preview",
+        "bindingMethod": "Vercel get_deployment withGitRepoInfo=true",
+        "verifiedAt": "2026-11-03T18:01:17.304Z"
+      },
+      "sourceDelta": [
+        "src/data/content.ts"
+      ],
+      "reason": "Only two literal spelling/spacing corrections in the existing Chedi description normalization. Shared styles, scripts, templates, data records and assets are byte-identical. Built HTML equality is checked below."
+    },
+    "inheritedFinalContentChecks": {
+      "report": "artifacts/interaction-system-20261103/validation-r14/report.json",
+      "sha256": "491876569f6f1ad39f2066b2f303530dfcff31451ee30fd360889eaeeb082626",
+      "stages": [
+        {
+          "name": "content-output",
+          "exitCode": 0,
+          "seconds": 14.73,
+          "log": "artifacts/interaction-system-20261103/validation-r14/content-output.log"
+        },
+        {
+          "name": "scoped-content-public",
+          "exitCode": 0,
+          "seconds": 26.5,
+          "log": "artifacts/interaction-system-20261103/validation-r14/scoped-content-public.log"
+        },
+        {
+          "name": "preview-smoke",
+          "exitCode": 0,
+          "seconds": 25.51,
+          "log": "artifacts/interaction-system-20261103/validation-r14/preview-smoke.log"
+        }
+      ],
+      "reason": "These three stages passed on the exact same source and static bundle. Only the public harness invocation flag is corrected from QA_FAIL_FAST=1 to 0. The original aborted invocation remains preserved."
+    },
+    "inheritedEvidence": {
+      "sourceHead": "532cd2fc19dcf9ddaa1809616a47ebaee86eec88",
+      "runtimeSourceDelta": [
+        "src/data/content.ts"
+      ],
+      "allPageRoutes": 130,
+      "allPageViews": 260,
+      "reviewedOverviewSheets": 90,
+      "webkitUnionViews": 35,
+      "webkitUniqueChecks": 87,
+      "reason": "Only six property descriptions, a Waterfront repeated story and VELA map classification changed; shared CSS, client scripts, controls, source data and assets remain byte-identical."
+    },
+    "builtOutputDelta": {
+      "comparisonSourceHead": "84638a11ccf24be8389d6bf7e52d1fec47bc85d1",
+      "changedFiles": [
+        "properties/the-chedi-private-residences/index.html"
+      ],
+      "exactlyScoped": true,
+      "unchangedCanonicalRouteCount": 129,
+      "allStylesScriptsAndAssetsUnchanged": true
+    },
+    "staticBundle": {
+      "count": 146,
+      "sha256": "0e91917dce871b6f4a6fdd0b7348629a7f5a7fa9349849e87e1125b81e70cc1a"
+    },
+    "scopedSummary": {
+      "views": 2,
+      "frames": 3,
+      "findings": 0,
+      "errors": 0,
+      "pageErrors": 0,
+      "consoleErrors": 0,
+      "assetFailures": 0,
+      "blockedWrites": 0
+    },
+    "smokeSummary": {
+      "pages": 130,
+      "mediaSamples": 14,
+      "sourceAliases": 20,
+      "errors": 0
+    },
+    "sourceHeadAfter": "f5731c313c410747c8beb76a468df3671aa5975a",
+    "sourceUnchanged": true,
+    "staticBundleUnchanged": true,
+    "finishedAt": "2026-11-03T18:22:46Z"
   }
 }
