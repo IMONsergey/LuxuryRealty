@@ -537,8 +537,16 @@ async function resultIds(expected){
  await page.waitForFunction(ids=>JSON.stringify([...document.querySelectorAll('[data-property-grid] [data-property-card]:not([hidden])')].map(card=>card.dataset.id))===JSON.stringify(ids),expected,{timeout:5000});
 }
 async function visitFocused(route){
- const response=await page.goto(base+route,{waitUntil:'domcontentloaded'});
- assert.equal(response?.status(),200,route);
+ const before=new URL(page.url()),target=new URL(route,base);
+ const response=await page.goto(target.href,{waitUntil:'domcontentloaded'});
+ if(response===null){
+  assert.equal(before.origin,target.origin,'A response is required when origin changes');
+  assert.equal(before.pathname,target.pathname,'A response is required when document path changes');
+  assert.equal(before.search,target.search,'A response is required when the document query changes');
+  assert.notEqual(before.hash,target.hash,'A null response is allowed only for an actual fragment change');
+  assert.equal(page.url(),target.href,'Same-document navigation must reach the exact requested fragment');
+ }else assert.equal(response?.status(),200,route);
+ (active.navigationChecks??=[]).push({from:before.href,requested:target.href,actual:page.url(),mode:response===null?'same-document-fragment':'http-document',httpStatus:response?.status()??null});
  await page.locator('main h1').waitFor({state:'visible'});
  if(await page.locator('[data-catalogue]').count())await page.locator('[data-catalogue][data-initialized=true]').waitFor({state:'attached'});
  await settleUI();await visibleImages();
@@ -674,6 +682,7 @@ async function catalogueJourney(){
   await resultCount(expected.length);await resultIds(expected.slice(0,24).map(p=>p.id));await unlocked();
   assert.equal(new URL(page.url()).searchParams.get('location'),fixture.location);assert.deepEqual(new URL(page.url()).searchParams.getAll('type'),[fixture.type]);
   assert.equal(await page.locator('[data-active-filters] button').count(),2);assert.equal(await page.locator('[data-filter-badge]').innerText(),'2');
+  await frame('[data-catalogue] .collection-controls','catalogue-applied-controls');await inspectGeometry('catalogue-applied-controls');
   await frame('[data-results-start]','catalogue-applied');await inspectGeometry('catalogue-applied');
   const appliedURL=page.url();await page.reload({waitUntil:'domcontentloaded'});await resultCount(expected.length);await resultIds(expected.slice(0,24).map(p=>p.id));assert.equal(page.url(),appliedURL);
   await page.getByRole('button',{name:'Remove filter: '+fixture.type,exact:true}).click();
@@ -746,7 +755,7 @@ async function writeReviewIndex(){
   findings:report.findings.filter(finding=>finding.view===view.key),
   pageErrors:report.pageErrors.filter(error=>error.view===view.key),assetFailures:report.assetFailures.filter(error=>error.view===view.key),
   screenshots:report.screenshots.filter(screenshot=>screenshot.view===view.key),
-  measurements:view.measurements,filterGeometry:view.filterGeometry,formReachability:view.formReachability,motionTraces:view.motionTraces,focusTraces:view.focusTraces,frameContexts:view.frameContexts
+  measurements:view.measurements,filterGeometry:view.filterGeometry,formReachability:view.formReachability,motionTraces:view.motionTraces,focusTraces:view.focusTraces,frameContexts:view.frameContexts,navigationChecks:view.navigationChecks
  }));
  await writeFile(path.join(output,'route-receipts.json'),JSON.stringify({schemaVersion:1,stage,engine,sourceHead,humanReview:'pending',plannedViews:matrix.length,actualViews:receipts.length,receipts},null,2)+'\n');
  const sections=receipts.map(view=>'<section><h2>'+escape(view.route)+' · '+view.width+'px · '+escape(view.motion)+'</h2><p>'+escape(view.key)+' — '+(view.complete?'Captured':'INCOMPLETE')+' · '+view.findings.length+' findings · '+view.checks.length+' interaction checks</p>'+(view.error?'<pre>'+escape(view.error)+'</pre>':'')+'<div class="frames">'+view.screenshots.map(shot=>'<figure><a href="'+escape(shot.file)+'"><img loading="lazy" src="'+escape(shot.file)+'" alt="'+escape(view.route+' '+shot.kind)+'"></a><figcaption><a href="'+escape(shot.file)+'">'+escape(shot.kind)+'</a> · '+shot.bytes+' bytes<br><code>'+escape(shot.sha256)+'</code></figcaption></figure>').join('')+'</div></section>').join('\n');
