@@ -1,0 +1,25 @@
+CAPTURE 001-home-320-reduce /
+CAPTURE 002-home-320-no-preference /
+CAPTURE 003-home-390-reduce /
+CAPTURE 004-home-390-no-preference /
+CAPTURE 005-home-768-reduce /
+CAPTURE 006-home-768-no-preference /
+CAPTURE 007-home-1440-reduce /
+CAPTURE 008-home-1440-no-preference /
+CAPTURE 009-catalogue-320-reduce /properties/
+CAPTURE 010-catalogue-320-no-preference /properties/
+CAPTURE 011-catalogue-390-reduce /properties/
+CAPTURE 012-catalogue-390-no-preference /properties/
+CAPTURE 013-catalogue-768-reduce /properties/
+CAPTURE 014-catalogue-768-no-preference /properties/
+CAPTURE 015-catalogue-1440-reduce /properties/
+CAPTURE 016-catalogue-1440-no-preference /properties/
+CAPTURE 017-property-320-no-preference /properties/renovation-opportunity-high-number-iconic-view/
+{
+  "complete": false,
+  "machineChecksPassed": false,
+  "humanReview": "pending",
+  "fullMatrix": true,
+  "error": "Error: Audit deadline exceeded\n    at file:///home/sergey/Projects/LuxuryRealty-visual-20261103/scripts/interaction-system-qa.mjs:858:20",
+  "report": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/focused-webkit-r5/visual-audit-report.json"
+}
