@@ -195,3 +195,26 @@ exist only in `public/`.
 For a future refresh, collect a separate dated snapshot, review its changes and
 document any new corrections before regenerating content. The current scripts
 do not automatically publish, change DNS or synchronize a live CMS.
+
+## Verified preview and final acceptance
+
+The tested preview is https://luxury-realty-imon-krgo7x01u-cdo-2844s-projects.vercel.app/
+from commit `c6e3ddab1480ce5ab28a1710a94c291c0b96e8d6`. Vercel reports READY
+for the intended project and feature branch, with a preview target. This commit
+adds verification documentation to application commit
+`1215df84b946ac31d12d36dd1d116cc3197f6a29`; all 84 checked source inputs are
+identical. The public GET/HEAD audit passed 130 pages, 20 source aliases and
+14 media samples, including hero byte-range delivery, with zero errors.
+Four external home/catalogue screenshots at 1440/390 were visually reviewed.
+
+The release job `20261103T104235-708d8a7d2e` retains its actual failed status:
+its last file-set assertion included one newly generated, untracked Python
+bytecode cache. Both public audits and all source hashes had passed. The cache
+was removed, and a separate read-only recovery confirmed the same 84 tracked
+inputs, no added/removed source files, unchanged hashes and a clean worktree.
+No application code or test assertion was changed to obtain that result, and
+the completed public checks were reused without an unnecessary rerun. Exact
+acceptance and recovery details are in `verification/preview/final-release-receipt.json`;
+the current public report is `verification/preview/preview-smoke-current.json`.
+The production deployment remains `dpl_E29JFCJRTGFQ2JV6XdwcTxpYuR78` at
+`d48f91e4d007bc1fdf89114b70b34a2960b84a8a`.
