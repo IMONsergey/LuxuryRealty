@@ -1,0 +1,256 @@
+{
+  "schemaVersion": 1,
+  "status": "planned-not-run",
+  "sourceCommit": "a484ab78629f4129080abb7c8be938c573c4e1a8",
+  "baseCommit": "532cd2fc19dcf9ddaa1809616a47ebaee86eec88",
+  "onlyChangedRuntimePath": "src/data/content.ts",
+  "contentBlobSha": "7773df05fb47e0640703e507b6504d51273c74bf",
+  "contentSha256": "6d2639e5c411eb9fc472c1232924569d1c2f5b50cde7cf732e19e122ccd326d5",
+  "normalization": "For DOM text comparisons only: textContent.replace(/\\s+/g, \" \").trim(); exact ordered arrays after whitespace normalization. Do not lowercase/fuzzy-match.",
+  "descriptionHtmlHashMeaning": "Optional build-level hash of propertyDescriptionHtml output before browser HTML serialization; not a direct innerHTML assertion.",
+  "prerequisites": [
+    "root fast-forwards frozen workstation after existing QA completes",
+    "npm run check and production build",
+    "built source fingerprint matches this source commit"
+  ],
+  "checks": [
+    {
+      "route": "/properties/your-royal-lifestyle-with-sublime-views-and-space-2/",
+      "kind": "property",
+      "descriptionSelector": ".property-description .property-richtext",
+      "paragraphSelector": ".property-description .property-richtext p",
+      "expectedParagraphs": [
+        "Luxury Realty, the #1 market expert and former developer sales team, reveals the rental availability of a remarkable 3-bedroom + maid's room private residence within the iconic Atlantis The Royal Residences on the world-famous Palm Jumeirah, Dubai.",
+        "The Residence:",
+        "Spanning an incredibly spacious 3,429 sqft (318.5 sqm), this special home boasts sublime Dubai skyline and open sea views. Handpicked as the original development show home, it is flawlessly finished, fully furnished, and exquisitely decorated. Benefiting from exclusive upgrades far above the standard specification, this property stands out as a fabulous trophy asset or a premier long-term investment.",
+        "World-Class Dining & 5-Star Perks:",
+        "As a revered Resident in this ultra-luxury destination, you receive the coveted Black Tier privilege, providing 30% off standard costs. Indulge in the opulent hotel spa and savor culinary masterpieces by Michelin-starred and celebrity chefs at the hotel's renowned restaurants, including:",
+        "Exclusive Resident-Only Amenities:",
+        "Enjoy complete privacy in a discreet realm entirely separated from the hotel. Residents have exclusive access to a world of amenities designed for ultimate comfort and leisure:",
+        "This is an opportunity like no other.",
+        "Contact the Luxury Realty team without delay to find out more!"
+      ],
+      "listItemSelector": ".property-description .property-richtext li",
+      "expectedListItems": [
+        "Dinner by Heston Blumenthal",
+        "Jaleo by José Andrés",
+        "La Mar by Gastón Acurio",
+        "Estiatorio Milos by Costas Spiliadis",
+        "Ariana's Persian Kitchen",
+        "Nobu Beach Club",
+        "Carbone",
+        "Ling Ling",
+        "Recreation: Private beachfront, indoor and outdoor pools, tennis court, and an outdoor BBQ/kitchen.",
+        "Wellness: State-of-the-art Technogym suite, sauna, steam room, and private treatment room.",
+        "Leisure & Work: Elegant lounge, library, and fully equipped business rooms.",
+        "Supreme Service: Round-the-clock concierge and valet, plus on-demand a la carte services including in-room dining, housekeeping, and laundry."
+      ],
+      "expectedEmptyListItems": 0,
+      "expectedDescriptionHtmlSha256": "c7a655e91969f54d1c2161eea5252a11fa778e5564ac1a070f70ffca7d41d7a9"
+    },
+    {
+      "route": "/properties/celebrated-designer-duplex-with-private-pool/",
+      "kind": "property",
+      "descriptionSelector": ".property-description .property-richtext",
+      "paragraphSelector": ".property-description .property-richtext p",
+      "expectedParagraphs": [
+        "Luxury Realty — the home of mansions, penthouses, and branded residences — presents an exquisite opportunity to acquire one of the finest two-bedroom duplex Sky Courts at Atlantis The Royal Residences. As the number one sales and rental agency and former developer sales team for Atlantis The Royal, we are uniquely placed to offer this exceptional home.",
+        "Located on the Crescent Road of the Palm Jumeirah, this landmark spans two wings. The hotel offers an incredible array of celebrity chef and Michelin-starred restaurants — such as Dinner by Heston Blumenthal, Estiatorio Milos, La Mar by Gastón Acurio, Ariana's Persian Kitchen, Carbone and Nobu by the Beach — plus a world class spa, boutiques such as Louis Vuitton, extensive resort beachfront, dancing fire-and-water fountain, and one of Dubai's highest infinity pools with incredible Dubai skyline and open sea views.",
+        "The residences offer exclusivity and privacy, with facilities including:",
+        "Residents also enjoy white-glove À la carte service from Atlantis The Royal, including housekeeping, laundry and in-home dining, plus Black-tier membership privileges such as a 30% discount across the resort.",
+        "This impressive home measures circa 4,500 sq ft (418 sqm) of internal living area, balcony and terrace with private pool. Available for immediate occupation, brand-new and never occupied, it was masterfully curated by the acclaimed Rigby & Rigby design house of London.",
+        "It suits a resident who values privacy, exclusivity and a calm, well-heeled lifestyle, with outstanding hospitality next door whenever the mood calls for it.",
+        "Luxury Realty invites expressions of interest — contact us for details and a private viewing by appointment."
+      ],
+      "listItemSelector": ".property-description .property-richtext li",
+      "expectedListItems": [
+        "Private access drive, 24/7 concierge and valet",
+        "Residents' lounge, library and business rooms",
+        "Two outdoor pools, cabanas, BBQ, tennis and paddle courts",
+        "Landscaped gardens, private beach, 20m indoor lap pool",
+        "Technogym fitness suite, sauna, steam rooms, spa and Zen garden"
+      ],
+      "expectedEmptyListItems": 0,
+      "expectedDescriptionHtmlSha256": "fb376521734acb46b40d7ee9fbf923bbf8ca2aa56e6404d572f229b318cd8766"
+    },
+    {
+      "route": "/properties/serenity-mansions-aurora/",
+      "kind": "property",
+      "descriptionSelector": ".property-description .property-richtext",
+      "paragraphSelector": ".property-description .property-richtext p",
+      "expectedParagraphs": [
+        "Crafted to stand as an iconic example of luxury in Dubai, Serenity Mansions Aurora offers a collection of bespoke residences designed with meticulous attention to detail. These homes seamlessly blend expansive living spaces with elevated design, complemented by state-of-the-art amenities and personalised services.",
+        "Serenity Mansions Aurora is situated within the prestigious Tilal Al Ghaf community, an exceptional residential area known for its stunning lagoon and lush green surroundings. These exclusive residences offer a serene retreat with architecture that marries modern luxury with nature's tranquillity. The homes provide uninterrupted views of the landscaped gardens, ensuring a private and peaceful living environment while still being just minutes away from the vibrant energy of Dubai.",
+        "At Serenity Mansions Aurora, the beauty of nature is ever-present. Each residence is positioned to offer panoramic views, whether it’s the lush greenery of Tilal Al Ghaf or the sparkling waters of the community's central lagoon. These homes are designed to provide an idyllic living experience, where the boundary between indoor luxury and the natural world is beautifully blurred. Enjoy serene vistas from every corner of your home, with private outdoor spaces that invite you to embrace the peaceful surroundings."
+      ],
+      "listItemSelector": ".property-description .property-richtext li",
+      "expectedListItems": [],
+      "expectedEmptyListItems": 0,
+      "expectedDescriptionHtmlSha256": "5126520d42c12458c7c5c2f24880bca457ad27bc2d12e736d5472185d3e095f0"
+    },
+    {
+      "route": "/properties/serenity-mansions-waterfront-collection/",
+      "kind": "property",
+      "descriptionSelector": ".property-description .property-richtext",
+      "paragraphSelector": ".property-description .property-richtext p",
+      "expectedParagraphs": [
+        "Designed by the award-winning SAOTA & BLINK to be an emblem of luxury on Dubai’s waterfront, Serenity Mansions Waterfront Collection offers a selection of elegant residences. Each home is crafted with a focus on both form and function, featuring expansive layouts, premium finishes, and breathtaking views of the surrounding water and landscape.",
+        "Located within the Tilal Al Ghaf community, the Serenity Mansions Waterfront Collection is a true testament to luxury living. These residences are designed to provide a seamless connection between the indoor spaces and the lagoon's tranquil waters. Residents can enjoy uninterrupted views of the lagoon and lush landscapes, making these homes an oasis of peace within Dubai’s bustling cityscape. Experience the perfect blend of natural beauty and sophisticated design.",
+        "The Serenity Mansions Waterfront Collection offers luxurious and thoughtfully designed residences. Each home features expansive living spaces with floor-to-ceiling windows framing stunning water views. The interiors are customizable, allowing you to create a space that reflects your unique style and preferences. Enjoy the serenity of living by the water, with private outdoor areas perfect for relaxation or entertaining.",
+        "Serenity Mansions Waterfront Collection is designed to be a private retreat for its residents. The community offers a range of premium amenities, including a state-of-the-art fitness centre, exclusive dining options, and lush, landscaped gardens. The residences blend modern design and natural beauty, with every detail meticulously crafted to offer the highest level of comfort and luxury. Experience the best waterfront living in one of Dubai’s most exclusive neighbourhoods."
+      ],
+      "listItemSelector": ".property-description .property-richtext li",
+      "expectedListItems": [],
+      "expectedEmptyListItems": 0,
+      "expectedDescriptionHtmlSha256": "27a9b93679f7936486d3d973326020a79cb313c843ef15bceee11b354a4287c8"
+    },
+    {
+      "route": "/properties/the-chedi-private-residences/",
+      "kind": "property",
+      "descriptionSelector": ".property-description .property-richtext",
+      "paragraphSelector": ".property-description .property-richtext p",
+      "expectedParagraphs": [
+        "For over three decades, The Chedi has been synonymous with timeless elegance, refined hospitality, and seamless integration of heritage and modernity. From the pristine shores of Oman to the cultural vibrance of Japan, The Chedi’s global portfolio of award-winning destinations embodies a unique philosophy of understated luxury. Now, this esteemed legacy arrives in Dubai with The Chedi Private Residences—a landmark development offering an unprecedented lifestyle experience.",
+        "Ideally located on Sheikh Zayed Road, this groundbreaking development is the world’s first standalone private branded residence under The Chedi name.",
+        "Soaring 240 meters over 52 floors, this architectural marvel, with its sleek glass faÇade, is masterfully designedby the award-winning Studio Bruno Guelaff. Redefining grandeur, The Chedi Private Residences presents an exclusive collection of sky villas and world-class amenities, offering a lifestyle beyond the extraordinary.",
+        "Discover an exclusive collection of expansive residences, ranging from two- to five-bedroom villas and duplexes to the extraordinary triplex Pinnacle Mansion—a one-of-a-kind masterpiece crowning the building. Experience unparalleled luxury and design in every detail.",
+        "The Chedi Private Residences perfectly balances this captivating energy and sophistication with the serenity of an exclusive retreat. From the elegant arrival experience to the exclusive rooftop residents’ Sky Social, every space is thoughtfully crafted to foster meaningful connections while providing a serene atmosphere for personal reflection. Each area achieves a harmonious balance, seamlessly blending opportunities for social engagement with moments of tranquil solitude.",
+        "The Chedi Private Residences offers an exceptional range of premium amenities across three distinct levels: Ground Social, Resort Social, and Sky Social. Each level is meticulously designed to enrich the resident experience, offering curated spaces for relaxation, entertainment, and social engagement. The Ground and Resort levels feature a blend of essential amenities and leisure spaces, while the Sky Social level offers an exclusive atmosphere with an adults-only infinity pool, Omakase experience, Sky Bar & Lounge, ensuring a luxurious living experience at every turn."
+      ],
+      "listItemSelector": ".property-description .property-richtext li",
+      "expectedListItems": [],
+      "expectedEmptyListItems": 0,
+      "expectedDescriptionHtmlSha256": "489c0871ec1047a7ace74fea7cfbecb6ee9faa334058196ed14254ca06a08211"
+    },
+    {
+      "route": "/properties/vela-dorchester-collection/",
+      "kind": "property",
+      "descriptionSelector": ".property-description .property-richtext",
+      "paragraphSelector": ".property-description .property-richtext p",
+      "expectedParagraphs": [
+        "Rising high above the gentle flow of the Marasi Bay, VELA, Dorchester Collection, Dubai, is a sublime celebration of contemporary waterfront in Dubai.",
+        "Inspiring architecture, spacious design and wonderful views meet to create a place of true beauty.",
+        "Bringing together the vibrancy of Downtown Dubai with the peace and prestige of the Marasi Bay waterfront, VELA presents a doorway to an elevated way of life, immersed in beauty and surrounded by energy.",
+        "The immediate access to the tranquility of the sea, directly from your own marina mooring is extremely special.",
+        "Rising at 150-metre-tall, VELA provides a gross floor area of 272,860 sq. ft. spread over 30 floors. The 38 residences range in size from 4,253 sq. ft. to 11,727 sq. ft. and encompass sumptuous penthouses and three- and four-bedroom properties, some with double height living spaces and private terrace pools.",
+        "The tower is crowned by the Sky Palace which covers 22,992 sq. ft. spread over 3 floors with two swimming pools, grand terraces, a private gym and majlis.",
+        "VELA has been crafted by award-winning practice Foster + Partners, the masterminds behind Apple’s California headquarters, France’s dramatic Millau Viaduct and London’s ‘Gherkin’ tower. The firm has garnered various awards, including the coveted Pritzker Prize in 1999.",
+        "Life at the Marina Residences moves like the gentle flow of water. Here, the energy of the Marasi Marina fuels a lively pace of life that dances its own path through the promenade. For this is a new way of living in the city of Dubai, full of fresh moments that calm the mind and free the spirit.",
+        "Spectacularly located in the Burj Khalifa District, VELA is the latest addition to upcoming ultra-luxury waterfront destination, curated with discretion and discernment by Dubai’s defining developer.",
+        "Drawing success from the neighboring The Lana Hotel and Residences, Dorchester Collection, Dubai, and inspired to reshape Marasi Bay, VELA embodies the higher realms of possibility and sophistication that is set to define this iconic destination."
+      ],
+      "listItemSelector": ".property-description .property-richtext li",
+      "expectedListItems": [],
+      "expectedEmptyListItems": 0,
+      "expectedDescriptionHtmlSha256": "de2057bb386aa5ae46a31a0a4f4864ca512d47bb7f274106f6a3bd461720f343"
+    },
+    {
+      "route": "/developments/serenity-mansions-waterfront-collection/",
+      "kind": "development",
+      "storySelector": "#project-design article",
+      "expectedStoryCount": 5,
+      "headingSelector": "#project-design article h2",
+      "expectedHeadings": [
+        "A Premier Waterfront Residence in Dubai",
+        "Customisation & Excellence in Every Detail",
+        "A Sanctuary of Peace and Luxury",
+        "Celebrate Life by the Water",
+        "Your Waterfront Dream Awaits"
+      ],
+      "paragraphSelector": "#project-design .editorial-prose p",
+      "expectedParagraphs": [
+        "Located within the Tilal Al Ghaf community, the Serenity Mansions Waterfront Collection is a true testament to luxury living. These residences are designed to provide a seamless connection between the indoor spaces and the lagoon's tranquil waters. Residents can enjoy uninterrupted views of the lagoon and lush landscapes, making these homes an oasis of peace within Dubai’s bustling cityscape. Experience the perfect blend of natural beauty and sophisticated design.",
+        "The Serenity Mansions Waterfront Collection offers luxurious and thoughtfully designed residences. Each home features expansive living spaces with floor-to-ceiling windows that frame stunning water views. The interiors are customisable, allowing you to create a space that reflects your unique style and preferences. Enjoy the serenity of living by the water, with private outdoor areas perfect for relaxation or entertaining.",
+        "Serenity Mansions Waterfront Collection is designed to be a private retreat for its residents. The community offers a range of premium amenities, including a state-of-the-art fitness centre, exclusive dining options, and lush, landscaped gardens. The residences blend modern design and natural beauty, with every detail meticulously crafted to offer the highest level of comfort and luxury. Experience the best waterfront living in one of Dubai’s most exclusive neighbourhoods.",
+        "Nestled along the tranquil lagoon, Serenity Mansions Waterfront Collection is a celebration of luxurious waterfront living. The community’s design reflects the harmony between water and land, offering residents a peaceful escape from the city.",
+        "Invest in the Serenity Mansions Waterfront Collection, where luxury meets tranquillity. These exclusive residences offer a unique opportunity to own a piece of Dubai’s premier waterfront property."
+      ],
+      "absentStoryHeading": "Where Every Detail Reflects Excellence",
+      "galleryInventorySelector": "#project-gallery [data-gallery]",
+      "galleryInventoryField": "image",
+      "expectedGalleryImageUrls": [
+        "https://cdn.prod.website-files.com/66a8e4e8bd6f32dc468081cf/66f2428295b118dcf7f74744_5.png",
+        "https://cdn.prod.website-files.com/66a8e4e8bd6f32dc468081cf/66f2428479fe5542be005258_6.png",
+        "https://cdn.prod.website-files.com/66a8e4e8bd6f32dc468081cf/66f242886507371d8390f1d1_7.png",
+        "https://cdn.prod.website-files.com/66a8e4e8bd6f32dc468081cf/66f2439b4d7fc91fbb0003e3_23.png",
+        "https://cdn.prod.website-files.com/66a8e4e8bd6f32dc468081cf/66f2439b59bd29790b49a00b_24.png",
+        "https://cdn.prod.website-files.com/66a8e4e8bd6f32dc468081cf/66f2439bb4095016e7c8cea8_25.png",
+        "https://cdn.prod.website-files.com/66a8e4e8bd6f32dc468081cf/66f243e0496e66eec03a7998_39.png",
+        "https://cdn.prod.website-files.com/66a8e4e8bd6f32dc468081cf/66f24443468f4c8140a823b9_41.png",
+        "https://cdn.prod.website-files.com/66a8e4e8bd6f32dc468081cf/66f2443babea599a40bcbb35_40.png",
+        "https://cdn.prod.website-files.com/66a8e4e8bd6f32dc468081cf/66f244d3186ea9f6230ba6dd_51.png"
+      ],
+      "expectedGalleryPhotographCount": 10,
+      "expectedRenderedGalleryThumbCount": 6
+    },
+    {
+      "route": "/developments/vela/",
+      "kind": "development",
+      "storySelector": "#project-design article",
+      "expectedStoryCount": 6,
+      "headingSelector": "#project-design article h2",
+      "expectedHeadings": [
+        "Duality of City and Sea",
+        "Vivid impressions",
+        "VELA’s Amenities",
+        "Architectural Excellence",
+        "An Address That Speaks Volumes",
+        "Exclusivity at First Sight"
+      ],
+      "paragraphSelector": "#project-design .editorial-prose p",
+      "expectedParagraphs": [
+        "In a re-imagined approach to urban living, Marasi Bay into Dubai’s upcoming ultra-luxury waterfront destination, envisioned with discretion and discernment by Dubai’s defining developer. Occupying the most fascinating and promising location in Burj Khalifa District, here innovation and expertise converge to celebrate the best of waterfront living, fuelled by the unstoppable flow of Dubai.",
+        "Rising high above the gentle flow of the Marasi Bay, VELA, Dorchester Collection, Dubai, is a sublime celebration of contemporary waterfront in Dubai. Inspiring architecture, spacious design and wonderful views meet to create a place of true beauty.",
+        "Revel in the infinity lap pool that appears to float effortlessly above the marina or simply relax on the sun deck while admiring the infinite cityscape and the vast expanse of water beyond. The triple-height gym offers breathtaking panoramic views of the Marina. These are accompanied by a cinema room, children’s play areas, impeccably furnished meeting rooms, and a private spa suite and salon.",
+        "Rising at 150-metre-tall, VELA provides a gross floor area of 272,860 sq. ft. spread over 30 floors. The 38 residences range in size from 4,253 sq. ft. to 11,727 sq. ft. and encompass sumptuous penthouses and three- and four-bedroom properties, some with double height living spaces and private terrace pools. The tower is crowned by the Sky Palace which covers 22,992 sq. ft. spread over 3 floors with two swimming pools, grand terraces, a private gym and majlis.",
+        "Spectacularly located in the Burj Khalifa District, VELA is the latest addition to upcoming ultra-luxury waterfront destination, curated with discretion and discernment by Dubai’s defining developer. Drawing success from the neighboring The Lana Hotel and Residences, Dorchester Collection, Dubai, and inspired to reshape Marasi Bay, VELA embodies the higher realms of possibility and sophistication that is set to define this iconic destination.",
+        "Invest in VELA at Palm Jumeirah and experience the ultimate in innovative luxury living. With its cutting-edge design and state-of-the-art wellness facilities, VELA is a sanctuary of health and luxury managed by the renowned Dorchester Collection. Register your interest now to explore how VELA can elevate your lifestyle. Secure your future in this exceptional Dubai property."
+      ],
+      "galleryInventorySelector": "#project-gallery [data-gallery]",
+      "galleryInventoryField": "image",
+      "expectedGalleryImageUrls": [
+        "https://cdn.prod.website-files.com/66a8e4e8bd6f32dc468081cf/6708c6a1d9a603c18ba6700a_10.png",
+        "https://cdn.prod.website-files.com/66a8e4e8bd6f32dc468081cf/6708c6c010e61baef3c783fd_5.png",
+        "https://cdn.prod.website-files.com/66a8e4e8bd6f32dc468081cf/6708c6dfd0931279c9675322_23.png",
+        "https://cdn.prod.website-files.com/66a8e4e8bd6f32dc468081cf/6708c6ea3911c95f30f10e9e_11.png",
+        "https://cdn.prod.website-files.com/66a8e4e8bd6f32dc468081cf/6708c6f3baf25a5688122579_14.png",
+        "https://cdn.prod.website-files.com/66a8e4e8bd6f32dc468081cf/6708c6ff704eb564a72a1282_15.png",
+        "https://cdn.prod.website-files.com/66a8e4e8bd6f32dc468081cf/6708c71007ba94822258eb76_13.png",
+        "https://cdn.prod.website-files.com/66a8e4e8bd6f32dc468081cf/6708c7481f54a24d574d3665_19.png",
+        "https://cdn.prod.website-files.com/66a8e4e8bd6f32dc468081cf/6708c7757b297fc5f33ff910_9.png",
+        "https://cdn.prod.website-files.com/66a8e4e8bd6f32dc468081cf/6708c79a7b297fc5f3401238_6.png",
+        "https://cdn.prod.website-files.com/66a8e4e8bd6f32dc468081cf/6708c79db15a8d99fdffc757_2.png",
+        "https://cdn.prod.website-files.com/66a8e4e8bd6f32dc468081cf/6708c7b81f54a24d574da05a_17.png",
+        "https://cdn.prod.website-files.com/66a8e4e8bd6f32dc468081cf/6708c7d3228d218fbea36183_24.png"
+      ],
+      "expectedGalleryPhotographCount": 13,
+      "expectedRenderedGalleryThumbCount": 6,
+      "locationMapSelector": "#project-location .development-location-map",
+      "expectedLocationMapSourceUrls": [
+        "https://cdn.prod.website-files.com/66a8e4e8bd6f32dc468081cf/6708c7af4363d574b654f03e_20.png"
+      ],
+      "expectedAssetUnionCount": 14,
+      "mustRemainPhotoUrl": "https://cdn.prod.website-files.com/66a8e4e8bd6f32dc468081cf/6708c7b81f54a24d574da05a_17.png",
+      "captureLocationMap": true
+    }
+  ],
+  "visualScope": {
+    "widths": [
+      390,
+      1440
+    ],
+    "routes": 8,
+    "plannedRouteWidthCases": 16,
+    "capture": "One native viewport per route/width with description or story positioned 112px below the viewport top. VELA additionally captures its contained location map; Chedi may capture two confirmed joined-paragraph positions when they are outside the primary viewport.",
+    "review": [
+      "no repeated paragraphs/stray bullets",
+      "joined Chedi sentences flow in the same paragraph",
+      "body typography/spacing and At a glance or next-section transition remain consistent",
+      "Waterfront story photographs visible and gallery inventory retained"
+    ],
+    "imageWaitScope": "Wait for images within the currently captured viewport/current modal; keep complete gallery data inventory assertion separately."
+  },
+  "noRealEnquiryWrites": true,
+  "releaseAcceptance": false,
+  "assetMapRequirement": "The runner receives QA_ASSET_MAP pointing to the unchanged src/data/imported-media.json. Compare location map anchor href to assetMap[sourceUrl].src; gallery data-gallery[].image retains original source URLs and can be compared directly."
+}

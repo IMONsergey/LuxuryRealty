@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "/root/filters_ux",
+  "status": "complete-for-assigned-native-inspections",
+  "completedAt": "2026-11-03T17:46:45.099625+00:00",
+  "captureBinding": {
+    "sourceHead": "532cd2fc19dcf9ddaa1809616a47ebaee86eec88",
+    "preview": "https://luxury-realty-imon-jvah4quvl-cdo-2844s-projects.vercel.app",
+    "captureReportPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/development-native-r1/report.json",
+    "captureReportSha256": "1c85994f6bac73dffe778fb4a60c19a7751a7adffe1f7ce8c0e6d9f6b91586d7",
+    "transportRepository": "IMONsergey/LuxuryRealty",
+    "transportImmutableRef": "e180dba2be6be1036e71deb0bbebfbec031e51c5",
+    "transportManifestPath": "artifacts/interaction-system-20261103/git-transport/transport-manifest.json"
+  },
+  "supplements": {
+    "receiptPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/review-receipts/all-pages-filters-r1.json",
+    "receiptSha256": "2c16f34dbc4900922757d84e98bc564d9745808909a5106fd5f7eee34b6b72e4",
+    "originalReceiptUnchanged": true,
+    "findingId": "filters-overview-gallery-space-03"
+  },
+  "nativeInspections": [
+    {
+      "file": "atlantis-390-gallery-row-1.png",
+      "sha256": "9492cc6c773c58a1aeea28b4b3ad02b99140cdebf12fbe75420aadd0440bdf75",
+      "bytes": 260122,
+      "viewedAt": "2026-11-03T17:45:41.439Z",
+      "route": "/developments/atlantis/",
+      "viewportWidth": 390,
+      "viewportHeight": 844,
+      "state": "gallery-row-1",
+      "scrollY": 7470,
+      "region": "entire viewport PNG",
+      "method": "Sequential local tools.view_image(detail=original) and image(..., original); native PNG decoded from immutable Git transport and SHA-256 verified against both transport metadata and probe report.",
+      "actuallyViewed": true,
+      "reviewLevel": "native-viewport",
+      "decision": "no-blocker-observed",
+      "observations": [
+        "The native 390×844 viewport shows all six Atlantis gallery photographs in a complete two-column, three-row grid.",
+        "The previously unfilled upper-left cell contains a rendered tower/pool photograph. Gaps between tiles are consistent; no blank gallery cell or overlapping tile is visible.",
+        "The next Location section begins below the complete mosaic. The fixed header remains separate from the photographs."
+      ]
+    },
+    {
+      "file": "ava-at-palm-390-gallery-row-1.png",
+      "sha256": "63594e932a72b9061c547018f773db6d5f31c0b3ef81955e04ad1827f6b8b463",
+      "bytes": 274857,
+      "viewedAt": "2026-11-03T17:45:57.189Z",
+      "route": "/developments/ava-at-palm/",
+      "viewportWidth": 390,
+      "viewportHeight": 844,
+      "state": "gallery-row-1",
+      "scrollY": 6947,
+      "region": "entire viewport PNG",
+      "method": "Sequential local tools.view_image(detail=original) and image(..., original); native PNG decoded from immutable Git transport and SHA-256 verified against both transport metadata and probe report.",
+      "actuallyViewed": true,
+      "reviewLevel": "native-viewport",
+      "decision": "no-blocker-observed",
+      "observations": [
+        "The native 390×844 viewport shows all six AVA gallery photographs in a complete two-column, three-row grid.",
+        "The previously unfilled upper-left cell contains a rendered waterfront tower photograph. All remaining cells are painted, with consistent gutters and no overlap.",
+        "The Your next step section begins below the complete mosaic. The visible gallery itself contains no blank region."
+      ]
+    }
+  ],
+  "findingResolutions": [
+    {
+      "id": "filters-overview-gallery-space-03",
+      "previousStatus": "open",
+      "status": "not-a-defect",
+      "scope": [
+        {
+          "route": "/developments/atlantis/",
+          "viewportWidth": 390,
+          "state": "gallery after actual scroll"
+        },
+        {
+          "route": "/developments/ava-at-palm/",
+          "viewportWidth": 390,
+          "state": "gallery after actual scroll"
+        }
+      ],
+      "resolution": "Both actual native viewport captures show a complete painted 2×3 gallery, including the upper-left image that was unfilled in the scaled full-page overview. The apparent empty-cell issue is not reproduced in the visible runtime after scrolling on either reviewed route. No runtime source change is required for this observation. The original overview receipt remains a historical record of its captured state.",
+      "evidence": [
+        {
+          "file": "atlantis-390-gallery-row-1.png",
+          "sha256": "9492cc6c773c58a1aeea28b4b3ad02b99140cdebf12fbe75420aadd0440bdf75",
+          "route": "/developments/atlantis/",
+          "viewportWidth": 390
+        },
+        {
+          "file": "ava-at-palm-390-gallery-row-1.png",
+          "sha256": "63594e932a72b9061c547018f773db6d5f31c0b3ef81955e04ad1827f6b8b463",
+          "route": "/developments/ava-at-palm/",
+          "viewportWidth": 390
+        }
+      ]
+    }
+  ],
+  "probeMachineSummary": {
+    "complete": true,
+    "passed": true,
+    "frameCount": 48,
+    "paintSampleCount": 132,
+    "errorCount": 0,
+    "allSelectedPhotosPainted": true,
+    "interpretation": "Reported machine scope; this reviewer visually opened only the two native PNGs listed above."
+  },
+  "coverage": {
+    "assignedNativeFrameCount": 2,
+    "actualViewedNativeFrameCount": 2,
+    "unreadAssignedFrames": [],
+    "routes": [
+      "/developments/atlantis/",
+      "/developments/ava-at-palm/"
+    ]
+  },
+  "limitations": [
+    "This supplemental review covers two native mobile gallery viewport states at 390×844 only.",
+    "No desktop, VELA, Aurora amenities or remaining development gallery screenshot is claimed as visually inspected by this reviewer here.",
+    "The original all-pages overview receipt and its hashes were not changed. The two minor content findings in that receipt are not resolved by this gallery review.",
+    "Static frames confirm painted content and layout in the captured viewport; they do not establish animation quality or broader release acceptance."
+  ],
+  "releaseAcceptance": false
+}

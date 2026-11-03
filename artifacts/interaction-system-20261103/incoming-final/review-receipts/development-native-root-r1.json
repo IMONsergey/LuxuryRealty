@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "/root",
+  "createdAt": "2026-11-03T17:47:01.099Z",
+  "sourceHead": "532cd2fc19dcf9ddaa1809616a47ebaee86eec88",
+  "preview": "https://luxury-realty-imon-jvah4quvl-cdo-2844s-projects.vercel.app",
+  "artifactRef": "e180dba2be6be1036e71deb0bbebfbec031e51c5",
+  "inspectionLevel": "native-viewport-actual-image",
+  "reviewed": [
+    {
+      "file": "development-native-r1/vela-1440-story-1.png",
+      "sha256": "0e376033ba3625857cc293c83253b568cf3df527401be0824c0927c015fb0604",
+      "bytes": 505974,
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "route": "/developments/vela/",
+      "decision": "no-blank-image-observed",
+      "note": "Pool and terrace photograph fully painted within the page container; no blank image area."
+    },
+    {
+      "file": "development-native-r1/vela-1440-story-2.png",
+      "sha256": "b6eb602f396be6ab25bed15ce88e6d81e7f0fd1adc334e7a53d5ef7cbe80f73b",
+      "bytes": 867567,
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "route": "/developments/vela/",
+      "decision": "no-blank-image-observed",
+      "note": "Facade photograph painted; lower heading/copy align to the shared columns."
+    },
+    {
+      "file": "development-native-r1/vela-1440-story-3.png",
+      "sha256": "96212ac09c171ce4656082bee733708c5c4322a95aec4e482c199c4be8d9cc28",
+      "bytes": 598760,
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "route": "/developments/vela/",
+      "decision": "separate-finding-recorded",
+      "note": "Image is painted. It is a location map, incorrectly cropped with photo cover treatment; recorded as a separate real content classification defect ROOT-VELA-MAP-02."
+    },
+    {
+      "file": "development-native-r1/vela-1440-story-4.png",
+      "sha256": "c71bfb06a8692224c0a5b29d9fa2d07a02ec86eb4fc97eb2dd4a42c1d20d80b3",
+      "bytes": 947735,
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "route": "/developments/vela/",
+      "decision": "no-blank-image-observed",
+      "note": "Wide architectural photo painted, with clean transition to the film section."
+    },
+    {
+      "file": "development-native-r1/vela-1440-gallery-row-1.png",
+      "sha256": "16ded0433bf298a6fcc4799cc52ba895bb2637aa774a03728f7ff6b7bf2e2413",
+      "bytes": 1143978,
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "route": "/developments/vela/",
+      "decision": "no-blank-image-observed",
+      "note": "First and second gallery rows show all four photos, aligned gutters and no blank cells."
+    },
+    {
+      "file": "development-native-r1/vela-1440-gallery-row-2.png",
+      "sha256": "697cd85363f55eaf49dd6d1b2c328cb2fe18e063d918f38c5ef10b34f8c60ff2",
+      "bytes": 1186047,
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "route": "/developments/vela/",
+      "decision": "no-blank-image-observed",
+      "note": "Second and third gallery rows show all four photos; no diagonal missing tiles."
+    },
+    {
+      "file": "development-native-r1/vela-1440-gallery-row-3.png",
+      "sha256": "02624cdcc5db796a5606b1be583699aa5a643b1cb1910e34cf1ffc574b50835c",
+      "bytes": 620592,
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "route": "/developments/vela/",
+      "decision": "no-blank-image-observed",
+      "note": "Last gallery row contains both photos and ends cleanly above the enquiry section."
+    }
+  ],
+  "resolutions": [
+    {
+      "findingId": "ROOT-DEV-PAINT-01",
+      "status": "not-reproduced-in-native-viewport",
+      "reason": "All four VELA story areas and all three gallery rows paint images in actual scrolled 1440px viewport captures. The blank full-page overview does not represent the page after normal viewport exposure.",
+      "runtimeChangeRequired": false
+    }
+  ],
+  "findings": [
+    {
+      "id": "ROOT-VELA-MAP-02",
+      "severity": "minor",
+      "status": "open",
+      "route": "/developments/vela/",
+      "message": "Anonymous 20.png is a location map but filename-only map detection treats it as a photograph, causing cover cropping. Reclassify this exact known image as a map and preserve it in the existing contained location section."
+    }
+  ],
+  "releaseAcceptance": false
+}

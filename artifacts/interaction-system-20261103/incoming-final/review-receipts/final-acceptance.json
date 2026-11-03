@@ -1,0 +1,301 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "/root",
+  "createdAt": "2026-11-03T18:25:58.791540+00:00",
+  "accepted": true,
+  "acceptanceScope": "Verified feature-branch preview and observed UI/content findings; no production promotion is implied.",
+  "sourceHead": "f5731c313c410747c8beb76a468df3671aa5975a",
+  "runtimeSourceHead": "f5731c313c410747c8beb76a468df3671aa5975a",
+  "branch": "feat/interaction-system-20261103",
+  "preview": {
+    "url": "https://luxury-realty-imon-zcda5yh6x-cdo-2844s-projects.vercel.app",
+    "sha": "f5731c313c410747c8beb76a468df3671aa5975a",
+    "runtimeSourceHead": "f5731c313c410747c8beb76a468df3671aa5975a",
+    "branch": "feat/interaction-system-20261103",
+    "deploymentId": "dpl_BBtY66ugp3ZLNoqFs4dugbb6tr7P",
+    "projectId": "prj_9iSUC97pBvn9DoD6blM9mAZm6dMu",
+    "teamId": "team_eJReJ6RtdOT99uZ8iGJFHX3r",
+    "stateVerified": "READY",
+    "target": "preview",
+    "bindingMethod": "Vercel get_deployment withGitRepoInfo=true",
+    "verifiedAt": "2026-11-03T18:22:05.661Z"
+  },
+  "validationReport": "validation-r16/report.json",
+  "validationReportSha256": "ff90138b7cea2a397154a9e90387a5ce8a40a3391a7e042bfa04cce0660ee77e",
+  "inheritedValidationReports": [
+    {
+      "path": "validation-r15/report.json",
+      "sha256": "cf7b5e17562f2309941b467a428520a9218644e67c4caa907409868468627e43",
+      "stages": [
+        "public-focused"
+      ]
+    },
+    {
+      "path": "validation-r14/report.json",
+      "sha256": "491876569f6f1ad39f2066b2f303530dfcff31451ee30fd360889eaeeb082626",
+      "stages": [
+        "content-output",
+        "scoped-content-public",
+        "preview-smoke"
+      ]
+    }
+  ],
+  "sourceInheritance": {
+    "broadReviewSource": "532cd2fc19dcf9ddaa1809616a47ebaee86eec88",
+    "initialContentCorrectionSource": "84638a11ccf24be8389d6bf7e52d1fec47bc85d1",
+    "initialContentRuntimeSource": "a484ab78629f4129080abb7c8be938c573c4e1a8",
+    "r14ChangedCanonicalPages": 8,
+    "r14UnchangedCanonicalPages": 122,
+    "r16ChangedCanonicalPages": 1,
+    "r16UnchangedCanonicalPages": 129,
+    "sharedStylesClientScriptsTemplatesAndRawRecordsUnchangedByContentCorrections": true,
+    "finalStaticBundle": {
+      "count": 146,
+      "sha256": "0e91917dce871b6f4a6fdd0b7348629a7f5a7fa9349849e87e1125b81e70cc1a"
+    },
+    "proof": "Exact source snapshots and static bundle entry comparisons in r14-r16; older screenshot receipts retain their actual capture sources."
+  },
+  "coverage": {
+    "canonicalRoutes": 130,
+    "allPageViewportWidths": [
+      390,
+      1440
+    ],
+    "allPageViews": 260,
+    "allPageOriginalPngCount": 520,
+    "actualOverviewSheetsReviewedByAgents": 90,
+    "focusedChromiumViews": 35,
+    "focusedWebKitUniqueViews": 35,
+    "focusedWebKitUniqueChecks": 87,
+    "finalPublicUiViews": 4,
+    "finalPublicUiChecks": 24,
+    "finalPublicUiNativeScreenshotsReviewed": 20,
+    "scopedContentViews": 16,
+    "scopedContentNativeScreenshotsReviewed": 19,
+    "finalChediViews": 2,
+    "finalChediNativeScreenshotsReviewed": 3,
+    "finalPreviewSmoke": {
+      "pages": 130,
+      "mediaSamples": 14,
+      "sourceAliases": 20,
+      "errors": 0
+    }
+  },
+  "reviewReceipts": [
+    {
+      "file": "all-pages-root-r1.json",
+      "bytes": 106707,
+      "sha256": "e71a05939ea063550eca5f7a90c749f3de9d5bcda9d11474663ae2582c8f75be",
+      "reviewer": "/root"
+    },
+    {
+      "file": "all-pages-filters-r1.json",
+      "bytes": 105406,
+      "sha256": "2c16f34dbc4900922757d84e98bc564d9745808909a5106fd5f7eee34b6b72e4",
+      "reviewer": "/root/filters_ux"
+    },
+    {
+      "file": "all-pages-navigation-r1.json",
+      "bytes": 104085,
+      "sha256": "59c76a80843974fc11352884b8b7531ff6acfcc408262d8660889e3519c604ef",
+      "reviewer": "/root/navigation_motion"
+    },
+    {
+      "file": "all-pages-qa-r1.json",
+      "bytes": 107171,
+      "sha256": "ccb3f4badbfc2f10e1045e6d1af5647035517599f5f631dfa3a6980ea4d5dba1",
+      "reviewer": "/root/qa_interaction_audit"
+    },
+    {
+      "file": "development-native-root-r1.json",
+      "bytes": 4227,
+      "sha256": "5b2e5c1125ccbdced238603e362346a4dd3826f939285c405ba4c37306ef1f5e",
+      "reviewer": "/root"
+    },
+    {
+      "file": "development-native-filters-r1.json",
+      "bytes": 6151,
+      "sha256": "55b0c83da437191d81ffec361ed0727ce6a52dade7041c4f483edace6d1fbcf2",
+      "reviewer": "/root/filters_ux"
+    },
+    {
+      "file": "development-native-qa-r1.json",
+      "bytes": 20816,
+      "sha256": "ecac2a40dcbf99ca368a732dad0012f402f5c0122f0d82abd9ade916cbebc1c7",
+      "reviewer": "/root/qa_interaction_audit"
+    },
+    {
+      "file": "aurora-native-review-r1.json",
+      "bytes": 13288,
+      "sha256": "29fb4d15e0745bc6a2010c86d9e41d64142b66a945ea77785dcc7082c7642782",
+      "reviewer": "/root/qa_interaction_audit"
+    },
+    {
+      "file": "scoped-final-filters-r1.json",
+      "bytes": 31635,
+      "sha256": "06cce57690b96a3bee259eb61cf4ab7e5b5a62f90fc4b2f9e568faea5d02ea62",
+      "reviewer": "/root/filters_ux"
+    },
+    {
+      "file": "scoped-final-navigation-r1.json",
+      "bytes": 13887,
+      "sha256": "4724c4717854cd29abb7d27596d255b8995004e3bb884705a037e76e8d14c00b",
+      "reviewer": "/root/navigation_motion"
+    },
+    {
+      "file": "final-map-root-r1.json",
+      "bytes": 1133,
+      "sha256": "39e9ed276e8fcdf2c3956263b3839962764af244323e587784f39148afa4eb5c",
+      "reviewer": "/root"
+    },
+    {
+      "file": "final-public-root-r1.json",
+      "bytes": 5025,
+      "sha256": "8cfd04b8a251dc9e9ac828aa54a3cdaf5b44e12addc587e31d8089a8b860e9ef",
+      "reviewer": "/root"
+    },
+    {
+      "file": "final-public-mobile-r1.json",
+      "bytes": 22758,
+      "sha256": "0a119530bc6db579c9885b08ac88f021fbe5a885ec96c3c37a9c96e3ea7e3d62",
+      "reviewer": "/root/qa_interaction_audit"
+    },
+    {
+      "file": "final-chedi-navigation-r1.json",
+      "bytes": 5863,
+      "sha256": "9404d6f226b7cfa900a0120ce343bcae4e58c448dc073310f94d70968c01706e",
+      "reviewer": "/root/navigation_motion"
+    }
+  ],
+  "resolvedFindings": [
+    {
+      "id": "ROOT-DEV-PAINT-01",
+      "status": "not-reproduced-in-native-viewport",
+      "evidenceReceipt": "development-native-root-r1.json",
+      "reason": "All four VELA story areas and three gallery rows paint in actual viewport exposure."
+    },
+    {
+      "id": "filters-overview-empty-bullet-01",
+      "status": "fixed",
+      "evidenceReceipt": "scoped-final-filters-r1.json",
+      "reason": "The full published ordered list contains no empty item. Assigned native frames confirm the visible description layout; the removed lower list item is verified by DOM."
+    },
+    {
+      "id": "filters-overview-duplicate-paragraph-02",
+      "status": "fixed",
+      "evidenceReceipt": "scoped-final-filters-r1.json",
+      "reason": "The full VELA description DOM matches the ordered deduplicated paragraphs. The old duplicate location lies below the native screenshot."
+    },
+    {
+      "id": "filters-overview-gallery-space-03",
+      "status": "not-reproduced-in-native-viewport",
+      "evidenceReceipt": "development-native-filters-r1.json",
+      "reason": "Actual Atlantis and AVA mobile gallery images are filled."
+    },
+    {
+      "id": "NAV-CONTENT-001",
+      "status": "fixed",
+      "evidenceReceipt": "scoped-final-filters-r1.json",
+      "reason": "Aurora has three distinct description paragraphs, confirmed in published DOM and the desktop viewport."
+    },
+    {
+      "id": "NAV-CONTENT-002",
+      "status": "fixed",
+      "evidenceReceipt": "scoped-final-navigation-r1.json",
+      "reason": "Waterfront property and development repeated text is removed; distinct source photographs are retained. Exact DOM and gallery inventory checks passed."
+    },
+    {
+      "id": "qa-development-gallery-empty-cells",
+      "status": "not-reproduced-in-native-viewport",
+      "evidenceReceipt": "development-native-qa-r1.json",
+      "reason": "Twelve native desktop gallery screenshots show the assigned ORLA, Aurora, Waterfront and Six Senses rows filled."
+    },
+    {
+      "id": "qa-aurora-amenity-image-variation",
+      "status": "not-reproduced-in-native-viewport",
+      "evidenceReceipt": "aurora-native-review-r1.json",
+      "reason": "All three feature photographs appear at 390 and 1440 pixels; six files represent four unique visual states."
+    },
+    {
+      "id": "qa-chedi-description-paragraph-fragments",
+      "status": "fixed",
+      "evidenceReceipt": "final-chedi-navigation-r1.json",
+      "reason": "Three broken sentence boundaries are joined; the final six paragraphs are exact, with the two additional spelling/spacing corrections."
+    },
+    {
+      "id": "ROOT-VELA-MAP-02",
+      "status": "fixed",
+      "evidenceReceipt": "final-map-root-r1.json",
+      "reason": "The known anonymous map is shown in a contained location frame at both widths, with all thirteen photographs and the map retained."
+    },
+    {
+      "id": "SCOPED-NAV-SOURCE-001",
+      "status": "fixed",
+      "evidenceReceipt": "final-chedi-navigation-r1.json",
+      "reason": "The final Chedi description now uses glass façade and masterfully designed by, confirmed in all three original-resolution screenshots."
+    }
+  ],
+  "additionalCopyCorrections": {
+    "route": "/properties/the-chedi-private-residences/",
+    "changes": [
+      "glass faÇade -> glass façade",
+      "masterfully designedby -> masterfully designed by"
+    ],
+    "paragraphCount": 6,
+    "evidenceReceipt": "final-chedi-navigation-r1.json"
+  },
+  "openFindings": [],
+  "selectedScreenshots": [
+    {
+      "file": "public-chromium-r1/002-home-1440-no-preference-hero-filters.png",
+      "filename": "hero-filters-desktop.png",
+      "sha256": "8655d3652f8a1d6c71388e191646e88699bc2054253dee97e1d7ef0fee6ee66f",
+      "sourceHead": "84638a11ccf24be8389d6bf7e52d1fec47bc85d1",
+      "runtimeSourceHead": "a484ab78629f4129080abb7c8be938c573c4e1a8"
+    },
+    {
+      "file": "public-chromium-r1/004-catalogue-1440-no-preference-catalogue-applied-controls.png",
+      "filename": "catalogue-desktop.png",
+      "sha256": "0ed6c3ed55fe6e7aba6aaf80330f41f958913aa594654793bba8c1cb4c7ebde4",
+      "sourceHead": "84638a11ccf24be8389d6bf7e52d1fec47bc85d1",
+      "runtimeSourceHead": "a484ab78629f4129080abb7c8be938c573c4e1a8"
+    },
+    {
+      "file": "public-chromium-r1/001-home-390-no-preference-hero-filters.png",
+      "filename": "hero-filters-mobile.png",
+      "sha256": "95a32e0dee7533482380f26a3a93354e7715358f8780b29e94ad0d352af673e8",
+      "sourceHead": "84638a11ccf24be8389d6bf7e52d1fec47bc85d1",
+      "runtimeSourceHead": "a484ab78629f4129080abb7c8be938c573c4e1a8"
+    },
+    {
+      "file": "scoped-content-public-r1/016-vela-1440-location-map.png",
+      "filename": "vela-map-desktop.png",
+      "sha256": "8ec8909ff191e6e4d4c5574a7a134a07c82b03da402a517a546d6f3dd0fab804",
+      "sourceHead": "84638a11ccf24be8389d6bf7e52d1fec47bc85d1",
+      "runtimeSourceHead": "a484ab78629f4129080abb7c8be938c573c4e1a8"
+    },
+    {
+      "file": "scoped-content-public-r1/008-vela-390-location-map.png",
+      "filename": "vela-map-mobile.png",
+      "sha256": "18fe8f359d3e501a2f5afdd80c1c0460c9381814882d935dfb29c4151eb57c56",
+      "sourceHead": "84638a11ccf24be8389d6bf7e52d1fec47bc85d1",
+      "runtimeSourceHead": "a484ab78629f4129080abb7c8be938c573c4e1a8"
+    },
+    {
+      "file": "final-chedi-public-r1/002-the-chedi-private-residences-1440-description.png",
+      "filename": "chedi-description-desktop.png",
+      "sha256": "511f35a722f78e2fed7b06c3cd842ef9f1e8045303fc52f68535a4d58788eae2",
+      "sourceHead": "f5731c313c410747c8beb76a468df3671aa5975a",
+      "runtimeSourceHead": "f5731c313c410747c8beb76a468df3671aa5975a"
+    }
+  ],
+  "limitations": [
+    "All-page review establishes structural coverage from overview sheets; it is not a claim of reading every character of all 520 originals at native scale.",
+    "Native image receipts describe the visible viewport. Full ordered DOM checks independently verify long text and removed lower duplicates.",
+    "Chromium and WebKit are automated browser engines; physical iPhones and every Safari version were not manually tested.",
+    "No real enquiry was sent. Submission failure/retry/idempotency scenarios used mock responses; external delivery was not certified.",
+    "Screenshots establish static states; named interaction and normal/reduced-motion checks support behavior, not every intermediate animation frame.",
+    "Original image resolution and all device pixel ratios were not re-certified. The retained source-CDN literal warning has its original raw audit record.",
+    "Production, main and DNS were not modified."
+  ]
+}

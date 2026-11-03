@@ -1,0 +1,827 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "/root/filters_ux",
+  "status": "complete-for-assigned-native-inspections",
+  "completedAt": "2026-11-03T18:15:08.942Z",
+  "captureBinding": {
+    "sourceHead": "84638a11ccf24be8389d6bf7e52d1fec47bc85d1",
+    "runtimeCommit": "a484ab78629f4129080abb7c8be938c573c4e1a8",
+    "preview": "https://luxury-realty-imon-jrsjy0sj5-cdo-2844s-projects.vercel.app",
+    "reportPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/scoped-content-public-r1/report.json",
+    "reportSha256": "68bd613aa6d50d9fc56a2ef0a42aecbc570b3133b4d82b80672edbc7792a6de7",
+    "transportImmutableRef": "c38d7b3e770be4c6a1a5700ed21c3a578665f26a",
+    "sourceBindingVerifiedByHelper": false,
+    "sourceBindingNote": "Capture helper records the declared source; parent independently bound the READY preview to the source. This reviewer did not repeat that deployment verification.",
+    "parentReportedDeploymentId": "dpl_8RtQs3eh4RPHDqkuVVWo6pGLqM8y",
+    "harnessSha256": "f2219548508f63cf9f11280285f462465424f016bf7c4f11d58d89dec5b77d97",
+    "planSha256": "a885f09996ce95e164577177a1c503171e934ab0a6f0377cc87be852cbf40710"
+  },
+  "nativeInspections": [
+    {
+      "file": "scoped-content-public-r1/001-your-royal-lifestyle-with-sublime-views-and-space-2-390-description.png",
+      "sha256": "56e15e5e5795976242f3a3608da1ca8bb559a034c4ca361c56cf1cda432b60d4",
+      "bytes": 59335,
+      "viewedAt": "2026-11-03T18:12:49.250Z",
+      "route": "/properties/your-royal-lifestyle-with-sublime-views-and-space-2/",
+      "url": "https://luxury-realty-imon-jrsjy0sj5-cdo-2844s-projects.vercel.app/properties/your-royal-lifestyle-with-sublime-views-and-space-2/",
+      "viewportWidth": 390,
+      "viewportHeight": 844,
+      "deviceScaleFactor": 1,
+      "state": "description",
+      "scrollY": 1989,
+      "targetRect": {
+        "x": 24,
+        "y": 111.765625,
+        "width": 327,
+        "height": 1747.875
+      },
+      "region": "entire viewport PNG",
+      "method": "Sequential local view_image at original detail after decoding immutable transport chunks and checking exact SHA-256 and byte count.",
+      "reviewLevel": "native-viewport",
+      "actuallyViewed": true,
+      "decision": "no-blocker-observed",
+      "observations": [
+        "The visible start of the description fits the 390px viewport with clear heading hierarchy, consistent side padding, readable paragraph measure, and no horizontal clipping.",
+        "The fixed header, brand, and menu control remain aligned above the section.",
+        "The original empty list item is below this viewport; this image alone does not visually prove its removal."
+      ]
+    },
+    {
+      "file": "scoped-content-public-r1/009-your-royal-lifestyle-with-sublime-views-and-space-2-1440-description.png",
+      "sha256": "c06d6aeae70a7cbda014735e86fa8a56de39385ca9ed4fcca87056e82cf6a50c",
+      "bytes": 132128,
+      "viewedAt": "2026-11-03T18:12:57.354Z",
+      "route": "/properties/your-royal-lifestyle-with-sublime-views-and-space-2/",
+      "url": "https://luxury-realty-imon-jrsjy0sj5-cdo-2844s-projects.vercel.app/properties/your-royal-lifestyle-with-sublime-views-and-space-2/",
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "deviceScaleFactor": 1,
+      "state": "description",
+      "scrollY": 1473,
+      "targetRect": {
+        "x": 157.5,
+        "y": 112.234375,
+        "width": 760,
+        "height": 1384.078125
+      },
+      "region": "entire viewport PNG",
+      "method": "Sequential local view_image at original detail after decoding immutable transport chunks and checking exact SHA-256 and byte count.",
+      "reviewLevel": "native-viewport",
+      "actuallyViewed": true,
+      "decision": "no-blocker-observed",
+      "observations": [
+        "The description and enquiry card form a balanced two-column layout at 1440px; heading, paragraph line lengths, list indentation, price, agent, and actions fit without overlaps.",
+        "The visible dining list contains text for every visible bullet.",
+        "The list continues at the bottom edge, so the former empty item at its lower end is not fully covered by this frame."
+      ]
+    },
+    {
+      "file": "scoped-content-public-r1/002-celebrated-designer-duplex-with-private-pool-390-description.png",
+      "sha256": "136c4b8ca7d7a0d7f879c1e57b37378b483b0169c91deb1dfdfe418fb82c09b9",
+      "bytes": 56846,
+      "viewedAt": "2026-11-03T18:13:03.131Z",
+      "route": "/properties/celebrated-designer-duplex-with-private-pool/",
+      "url": "https://luxury-realty-imon-jrsjy0sj5-cdo-2844s-projects.vercel.app/properties/celebrated-designer-duplex-with-private-pool/",
+      "viewportWidth": 390,
+      "viewportHeight": 844,
+      "deviceScaleFactor": 1,
+      "state": "description",
+      "scrollY": 2011,
+      "targetRect": {
+        "x": 24,
+        "y": 112.265625,
+        "width": 327,
+        "height": 1635.875
+      },
+      "region": "entire viewport PNG",
+      "method": "Sequential local view_image at original detail after decoding immutable transport chunks and checking exact SHA-256 and byte count.",
+      "reviewLevel": "native-viewport",
+      "actuallyViewed": true,
+      "decision": "no-blocker-observed",
+      "observations": [
+        "The mobile description starts below the fixed header with consistent margins and paragraph spacing; long sentences wrap cleanly within the viewport.",
+        "The visible text reaches the facilities-list introduction without clipping or stray punctuation at paragraph boundaries.",
+        "The facilities list itself falls below this frame, so removal of its formerly empty item requires the separate full DOM check."
+      ]
+    },
+    {
+      "file": "scoped-content-public-r1/010-celebrated-designer-duplex-with-private-pool-1440-description.png",
+      "sha256": "f4ab6757fd49f17ba1e8b1cfdab03f7dc2ad2911ca51656c427b854f56090623",
+      "bytes": 148497,
+      "viewedAt": "2026-11-03T18:13:19.178Z",
+      "route": "/properties/celebrated-designer-duplex-with-private-pool/",
+      "url": "https://luxury-realty-imon-jrsjy0sj5-cdo-2844s-projects.vercel.app/properties/celebrated-designer-duplex-with-private-pool/",
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "deviceScaleFactor": 1,
+      "state": "description",
+      "scrollY": 1473,
+      "targetRect": {
+        "x": 157.5,
+        "y": 112.234375,
+        "width": 760,
+        "height": 1059.34375
+      },
+      "region": "entire viewport PNG",
+      "method": "Sequential local view_image at original detail after decoding immutable transport chunks and checking exact SHA-256 and byte count.",
+      "reviewLevel": "native-viewport",
+      "actuallyViewed": true,
+      "decision": "no-blocker-observed",
+      "observations": [
+        "Desktop typography, paragraph spacing, and the price/enquiry card fit cleanly without overlap.",
+        "The complete visible facilities list has five populated bullets and transitions directly into the following paragraph; no empty bullet remains in this visible list.",
+        "The description continues below the viewport; no claim is made about its unshown lower paragraphs."
+      ]
+    },
+    {
+      "file": "scoped-content-public-r1/003-serenity-mansions-aurora-390-description.png",
+      "sha256": "7c71adda6bf6f3d0443ef85be3275953a19c6f7d22a9ad2b3010f3751255e360",
+      "bytes": 60457,
+      "viewedAt": "2026-11-03T18:13:25.528Z",
+      "route": "/properties/serenity-mansions-aurora/",
+      "url": "https://luxury-realty-imon-jrsjy0sj5-cdo-2844s-projects.vercel.app/properties/serenity-mansions-aurora/",
+      "viewportWidth": 390,
+      "viewportHeight": 844,
+      "deviceScaleFactor": 1,
+      "state": "description",
+      "scrollY": 2024,
+      "targetRect": {
+        "x": 24,
+        "y": 112.109375,
+        "width": 327,
+        "height": 954.8125
+      },
+      "region": "entire viewport PNG",
+      "method": "Sequential local view_image at original detail after decoding immutable transport chunks and checking exact SHA-256 and byte count.",
+      "reviewLevel": "native-viewport",
+      "actuallyViewed": true,
+      "decision": "no-blocker-observed",
+      "observations": [
+        "The two-line development heading and description maintain consistent mobile spacing and readable wrapping.",
+        "The first two paragraphs are distinct; the third begins below them without a repeated block or unexpected empty gap.",
+        "Only the upper part of this long description is visible; full-paragraph deduplication is separately checked by the DOM assertions."
+      ]
+    },
+    {
+      "file": "scoped-content-public-r1/011-serenity-mansions-aurora-1440-description.png",
+      "sha256": "bcdaf8c87f0a0d378443f8c5b94e51336f11e188f505704fd2f6311a6f2387bb",
+      "bytes": 141972,
+      "viewedAt": "2026-11-03T18:13:32.504Z",
+      "route": "/properties/serenity-mansions-aurora/",
+      "url": "https://luxury-realty-imon-jrsjy0sj5-cdo-2844s-projects.vercel.app/properties/serenity-mansions-aurora/",
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "deviceScaleFactor": 1,
+      "state": "description",
+      "scrollY": 1401,
+      "targetRect": {
+        "x": 157.5,
+        "y": 112.328125,
+        "width": 760,
+        "height": 615.4375
+      },
+      "region": "entire viewport PNG",
+      "method": "Sequential local view_image at original detail after decoding immutable transport chunks and checking exact SHA-256 and byte count.",
+      "reviewLevel": "native-viewport",
+      "actuallyViewed": true,
+      "decision": "no-blocker-observed",
+      "observations": [
+        "All three description paragraphs are visible once, in order, followed directly by the At a glance section.",
+        "The removed repeated block does not remain between the final paragraph and the next section.",
+        "The single-line heading, left-column text, and project-price/enquiry card have consistent spacing and no overlap."
+      ]
+    },
+    {
+      "file": "scoped-content-public-r1/004-serenity-mansions-waterfront-collection-390-description.png",
+      "sha256": "2e8259d5954c26af4775aa3f12a1211574a3f0cb0b78fbc64ccb6c975a68920c",
+      "bytes": 69551,
+      "viewedAt": "2026-11-03T18:13:39.220Z",
+      "route": "/properties/serenity-mansions-waterfront-collection/",
+      "url": "https://luxury-realty-imon-jrsjy0sj5-cdo-2844s-projects.vercel.app/properties/serenity-mansions-waterfront-collection/",
+      "viewportWidth": 390,
+      "viewportHeight": 844,
+      "deviceScaleFactor": 1,
+      "state": "description",
+      "scrollY": 2071,
+      "targetRect": {
+        "x": 24,
+        "y": 112.40625,
+        "width": 327,
+        "height": 1242.75
+      },
+      "region": "entire viewport PNG",
+      "method": "Sequential local view_image at original detail after decoding immutable transport chunks and checking exact SHA-256 and byte count.",
+      "reviewLevel": "native-viewport",
+      "actuallyViewed": true,
+      "decision": "no-blocker-observed",
+      "observations": [
+        "The mobile heading wraps in two lines with a clear separation from the description; text stays within the consistent side margins.",
+        "The first and second paragraphs are distinct and the third begins without an inserted repeated block.",
+        "This viewport does not include the full third paragraph or the end of the description."
+      ]
+    },
+    {
+      "file": "scoped-content-public-r1/012-serenity-mansions-waterfront-collection-1440-description.png",
+      "sha256": "1f81dabeea422abb167305e783f775d675d81638fdc45f5d0555855233311189",
+      "bytes": 166944,
+      "viewedAt": "2026-11-03T18:13:44.652Z",
+      "route": "/properties/serenity-mansions-waterfront-collection/",
+      "url": "https://luxury-realty-imon-jrsjy0sj5-cdo-2844s-projects.vercel.app/properties/serenity-mansions-waterfront-collection/",
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "deviceScaleFactor": 1,
+      "state": "description",
+      "scrollY": 1467,
+      "targetRect": {
+        "x": 157.5,
+        "y": 112.328125,
+        "width": 760,
+        "height": 759
+      },
+      "region": "entire viewport PNG",
+      "method": "Sequential local view_image at original detail after decoding immutable transport chunks and checking exact SHA-256 and byte count.",
+      "reviewLevel": "native-viewport",
+      "actuallyViewed": true,
+      "decision": "no-blocker-observed",
+      "observations": [
+        "The complete four-paragraph description is visible once in order, followed by At a glance; no repeated concluding block remains.",
+        "The paragraph column and project-price/enquiry card remain aligned and visually separated without crowding.",
+        "All visible text and actions fit within the 1440px viewport."
+      ]
+    },
+    {
+      "file": "scoped-content-public-r1/006-vela-dorchester-collection-390-description.png",
+      "sha256": "3af553f4344cb335b1c1875cd6c5039e99d3c87659cb5477c9d2af07939eb214",
+      "bytes": 60398,
+      "viewedAt": "2026-11-03T18:13:50.665Z",
+      "route": "/properties/vela-dorchester-collection/",
+      "url": "https://luxury-realty-imon-jrsjy0sj5-cdo-2844s-projects.vercel.app/properties/vela-dorchester-collection/",
+      "viewportWidth": 390,
+      "viewportHeight": 844,
+      "deviceScaleFactor": 1,
+      "state": "description",
+      "scrollY": 2016,
+      "targetRect": {
+        "x": 24,
+        "y": 112.203125,
+        "width": 327,
+        "height": 1640.6875
+      },
+      "region": "entire viewport PNG",
+      "method": "Sequential local view_image at original detail after decoding immutable transport chunks and checking exact SHA-256 and byte count.",
+      "reviewLevel": "native-viewport",
+      "actuallyViewed": true,
+      "decision": "no-blocker-observed",
+      "observations": [
+        "The two-line heading and short paragraphs fit the mobile text column cleanly with consistent vertical spacing.",
+        "The visible introduction contains no duplicate paragraph or unexplained gap.",
+        "The longer final paragraph continues below the viewport, so the end of the description is not visually covered by this mobile frame."
+      ]
+    },
+    {
+      "file": "scoped-content-public-r1/014-vela-dorchester-collection-1440-description.png",
+      "sha256": "519c0ceb0965b4abc817fe360502f6658ac8eaa8335c7a70ef1b5179877bdade",
+      "bytes": 154541,
+      "viewedAt": "2026-11-03T18:14:03.790Z",
+      "route": "/properties/vela-dorchester-collection/",
+      "url": "https://luxury-realty-imon-jrsjy0sj5-cdo-2844s-projects.vercel.app/properties/vela-dorchester-collection/",
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "deviceScaleFactor": 1,
+      "state": "description",
+      "scrollY": 1444,
+      "targetRect": {
+        "x": 157.5,
+        "y": 112.328125,
+        "width": 760,
+        "height": 1134.125
+      },
+      "region": "entire viewport PNG",
+      "method": "Sequential local view_image at original detail after decoding immutable transport chunks and checking exact SHA-256 and byte count.",
+      "reviewLevel": "native-viewport",
+      "actuallyViewed": true,
+      "decision": "no-blocker-observed",
+      "observations": [
+        "The desktop description has a clear heading, consistent paragraph rhythm, and a separate enquiry card without overlap.",
+        "The visible introduction, residence dimensions, Sky Palace, and architect paragraphs each appear once.",
+        "The final marina paragraph continues beyond the bottom edge; absence of any repeat further below is supported by the complete DOM check, not by this viewport alone."
+      ]
+    }
+  ],
+  "machineEvidence": {
+    "method": "Read the existing capture report; no tests were rerun by this reviewer.",
+    "reportSha256": "68bd613aa6d50d9fc56a2ef0a42aecbc570b3133b4d82b80672edbc7792a6de7",
+    "selectedViewCount": 10,
+    "selectedNamedCheckCount": 60,
+    "selectedViews": [
+      {
+        "key": "001-your-royal-lifestyle-with-sublime-views-and-space-2-390",
+        "route": "/properties/your-royal-lifestyle-with-sublime-views-and-space-2/",
+        "width": 390,
+        "complete": true,
+        "checks": [
+          {
+            "name": "No unexpected open modal",
+            "passed": true,
+            "actual": 0,
+            "expected": 0
+          },
+          {
+            "name": "Exact ordered paragraphs",
+            "passed": true,
+            "actualItemCount": 9,
+            "expectedItemCount": 9
+          },
+          {
+            "name": "Exact ordered list items",
+            "passed": true,
+            "actualItemCount": 12,
+            "expectedItemCount": 12
+          },
+          {
+            "name": "No empty list items",
+            "passed": true,
+            "actual": 0,
+            "expected": 0
+          },
+          {
+            "name": "description: horizontal document overflow",
+            "passed": true,
+            "actual": true,
+            "expected": true
+          },
+          {
+            "name": "description: visible fonts loaded",
+            "passed": true,
+            "actual": true,
+            "expected": true
+          }
+        ]
+      },
+      {
+        "key": "002-celebrated-designer-duplex-with-private-pool-390",
+        "route": "/properties/celebrated-designer-duplex-with-private-pool/",
+        "width": 390,
+        "complete": true,
+        "checks": [
+          {
+            "name": "No unexpected open modal",
+            "passed": true,
+            "actual": 0,
+            "expected": 0
+          },
+          {
+            "name": "Exact ordered paragraphs",
+            "passed": true,
+            "actualItemCount": 7,
+            "expectedItemCount": 7
+          },
+          {
+            "name": "Exact ordered list items",
+            "passed": true,
+            "actualItemCount": 5,
+            "expectedItemCount": 5
+          },
+          {
+            "name": "No empty list items",
+            "passed": true,
+            "actual": 0,
+            "expected": 0
+          },
+          {
+            "name": "description: horizontal document overflow",
+            "passed": true,
+            "actual": true,
+            "expected": true
+          },
+          {
+            "name": "description: visible fonts loaded",
+            "passed": true,
+            "actual": true,
+            "expected": true
+          }
+        ]
+      },
+      {
+        "key": "003-serenity-mansions-aurora-390",
+        "route": "/properties/serenity-mansions-aurora/",
+        "width": 390,
+        "complete": true,
+        "checks": [
+          {
+            "name": "No unexpected open modal",
+            "passed": true,
+            "actual": 0,
+            "expected": 0
+          },
+          {
+            "name": "Exact ordered paragraphs",
+            "passed": true,
+            "actualItemCount": 3,
+            "expectedItemCount": 3
+          },
+          {
+            "name": "Exact ordered list items",
+            "passed": true,
+            "actualItemCount": 0,
+            "expectedItemCount": 0
+          },
+          {
+            "name": "No empty list items",
+            "passed": true,
+            "actual": 0,
+            "expected": 0
+          },
+          {
+            "name": "description: horizontal document overflow",
+            "passed": true,
+            "actual": true,
+            "expected": true
+          },
+          {
+            "name": "description: visible fonts loaded",
+            "passed": true,
+            "actual": true,
+            "expected": true
+          }
+        ]
+      },
+      {
+        "key": "004-serenity-mansions-waterfront-collection-390",
+        "route": "/properties/serenity-mansions-waterfront-collection/",
+        "width": 390,
+        "complete": true,
+        "checks": [
+          {
+            "name": "No unexpected open modal",
+            "passed": true,
+            "actual": 0,
+            "expected": 0
+          },
+          {
+            "name": "Exact ordered paragraphs",
+            "passed": true,
+            "actualItemCount": 4,
+            "expectedItemCount": 4
+          },
+          {
+            "name": "Exact ordered list items",
+            "passed": true,
+            "actualItemCount": 0,
+            "expectedItemCount": 0
+          },
+          {
+            "name": "No empty list items",
+            "passed": true,
+            "actual": 0,
+            "expected": 0
+          },
+          {
+            "name": "description: horizontal document overflow",
+            "passed": true,
+            "actual": true,
+            "expected": true
+          },
+          {
+            "name": "description: visible fonts loaded",
+            "passed": true,
+            "actual": true,
+            "expected": true
+          }
+        ]
+      },
+      {
+        "key": "006-vela-dorchester-collection-390",
+        "route": "/properties/vela-dorchester-collection/",
+        "width": 390,
+        "complete": true,
+        "checks": [
+          {
+            "name": "No unexpected open modal",
+            "passed": true,
+            "actual": 0,
+            "expected": 0
+          },
+          {
+            "name": "Exact ordered paragraphs",
+            "passed": true,
+            "actualItemCount": 10,
+            "expectedItemCount": 10
+          },
+          {
+            "name": "Exact ordered list items",
+            "passed": true,
+            "actualItemCount": 0,
+            "expectedItemCount": 0
+          },
+          {
+            "name": "No empty list items",
+            "passed": true,
+            "actual": 0,
+            "expected": 0
+          },
+          {
+            "name": "description: horizontal document overflow",
+            "passed": true,
+            "actual": true,
+            "expected": true
+          },
+          {
+            "name": "description: visible fonts loaded",
+            "passed": true,
+            "actual": true,
+            "expected": true
+          }
+        ]
+      },
+      {
+        "key": "009-your-royal-lifestyle-with-sublime-views-and-space-2-1440",
+        "route": "/properties/your-royal-lifestyle-with-sublime-views-and-space-2/",
+        "width": 1440,
+        "complete": true,
+        "checks": [
+          {
+            "name": "No unexpected open modal",
+            "passed": true,
+            "actual": 0,
+            "expected": 0
+          },
+          {
+            "name": "Exact ordered paragraphs",
+            "passed": true,
+            "actualItemCount": 9,
+            "expectedItemCount": 9
+          },
+          {
+            "name": "Exact ordered list items",
+            "passed": true,
+            "actualItemCount": 12,
+            "expectedItemCount": 12
+          },
+          {
+            "name": "No empty list items",
+            "passed": true,
+            "actual": 0,
+            "expected": 0
+          },
+          {
+            "name": "description: horizontal document overflow",
+            "passed": true,
+            "actual": true,
+            "expected": true
+          },
+          {
+            "name": "description: visible fonts loaded",
+            "passed": true,
+            "actual": true,
+            "expected": true
+          }
+        ]
+      },
+      {
+        "key": "010-celebrated-designer-duplex-with-private-pool-1440",
+        "route": "/properties/celebrated-designer-duplex-with-private-pool/",
+        "width": 1440,
+        "complete": true,
+        "checks": [
+          {
+            "name": "No unexpected open modal",
+            "passed": true,
+            "actual": 0,
+            "expected": 0
+          },
+          {
+            "name": "Exact ordered paragraphs",
+            "passed": true,
+            "actualItemCount": 7,
+            "expectedItemCount": 7
+          },
+          {
+            "name": "Exact ordered list items",
+            "passed": true,
+            "actualItemCount": 5,
+            "expectedItemCount": 5
+          },
+          {
+            "name": "No empty list items",
+            "passed": true,
+            "actual": 0,
+            "expected": 0
+          },
+          {
+            "name": "description: horizontal document overflow",
+            "passed": true,
+            "actual": true,
+            "expected": true
+          },
+          {
+            "name": "description: visible fonts loaded",
+            "passed": true,
+            "actual": true,
+            "expected": true
+          }
+        ]
+      },
+      {
+        "key": "011-serenity-mansions-aurora-1440",
+        "route": "/properties/serenity-mansions-aurora/",
+        "width": 1440,
+        "complete": true,
+        "checks": [
+          {
+            "name": "No unexpected open modal",
+            "passed": true,
+            "actual": 0,
+            "expected": 0
+          },
+          {
+            "name": "Exact ordered paragraphs",
+            "passed": true,
+            "actualItemCount": 3,
+            "expectedItemCount": 3
+          },
+          {
+            "name": "Exact ordered list items",
+            "passed": true,
+            "actualItemCount": 0,
+            "expectedItemCount": 0
+          },
+          {
+            "name": "No empty list items",
+            "passed": true,
+            "actual": 0,
+            "expected": 0
+          },
+          {
+            "name": "description: horizontal document overflow",
+            "passed": true,
+            "actual": true,
+            "expected": true
+          },
+          {
+            "name": "description: visible fonts loaded",
+            "passed": true,
+            "actual": true,
+            "expected": true
+          }
+        ]
+      },
+      {
+        "key": "012-serenity-mansions-waterfront-collection-1440",
+        "route": "/properties/serenity-mansions-waterfront-collection/",
+        "width": 1440,
+        "complete": true,
+        "checks": [
+          {
+            "name": "No unexpected open modal",
+            "passed": true,
+            "actual": 0,
+            "expected": 0
+          },
+          {
+            "name": "Exact ordered paragraphs",
+            "passed": true,
+            "actualItemCount": 4,
+            "expectedItemCount": 4
+          },
+          {
+            "name": "Exact ordered list items",
+            "passed": true,
+            "actualItemCount": 0,
+            "expectedItemCount": 0
+          },
+          {
+            "name": "No empty list items",
+            "passed": true,
+            "actual": 0,
+            "expected": 0
+          },
+          {
+            "name": "description: horizontal document overflow",
+            "passed": true,
+            "actual": true,
+            "expected": true
+          },
+          {
+            "name": "description: visible fonts loaded",
+            "passed": true,
+            "actual": true,
+            "expected": true
+          }
+        ]
+      },
+      {
+        "key": "014-vela-dorchester-collection-1440",
+        "route": "/properties/vela-dorchester-collection/",
+        "width": 1440,
+        "complete": true,
+        "checks": [
+          {
+            "name": "No unexpected open modal",
+            "passed": true,
+            "actual": 0,
+            "expected": 0
+          },
+          {
+            "name": "Exact ordered paragraphs",
+            "passed": true,
+            "actualItemCount": 10,
+            "expectedItemCount": 10
+          },
+          {
+            "name": "Exact ordered list items",
+            "passed": true,
+            "actualItemCount": 0,
+            "expectedItemCount": 0
+          },
+          {
+            "name": "No empty list items",
+            "passed": true,
+            "actual": 0,
+            "expected": 0
+          },
+          {
+            "name": "description: horizontal document overflow",
+            "passed": true,
+            "actual": true,
+            "expected": true
+          },
+          {
+            "name": "description: visible fonts loaded",
+            "passed": true,
+            "actual": true,
+            "expected": true
+          }
+        ]
+      }
+    ]
+  },
+  "priorFindingDispositions": [
+    {
+      "id": "filters-overview-empty-bullet-01",
+      "status": "resolved",
+      "resolution": "The public rendered DOM at both widths has exactly 12 expected populated list items and zero empty list items. The assigned viewport images show the upper description only; the former empty item after Resident-Only Amenities lies below both frames. Closure is based on the complete DOM assertion, with surrounding layout separately inspected.",
+      "visualRegionCovered": false,
+      "machineChecks": [
+        "Exact ordered list items",
+        "No empty list items"
+      ],
+      "evidenceViews": [
+        "001-your-royal-lifestyle-with-sublime-views-and-space-2-390",
+        "009-your-royal-lifestyle-with-sublime-views-and-space-2-1440"
+      ]
+    },
+    {
+      "id": "filters-overview-duplicate-paragraph-02",
+      "status": "resolved",
+      "resolution": "The public rendered DOM at both widths has exactly the 10 expected VELA paragraphs, with the Marina Residences paragraph appearing once. The desktop image ends within its first occurrence and cannot show the former repeated block below. Closure is based on the full ordered-paragraph assertion; the visible description layout was inspected separately.",
+      "visualRegionCovered": false,
+      "machineChecks": [
+        "Exact ordered paragraphs"
+      ],
+      "evidenceViews": [
+        "006-vela-dorchester-collection-390",
+        "014-vela-dorchester-collection-1440"
+      ]
+    }
+  ],
+  "additionalVerifiedChanges": [
+    {
+      "route": "/properties/celebrated-designer-duplex-with-private-pool/",
+      "observation": "Desktop frame 010 visibly contains five populated facilities bullets followed immediately by the next paragraph. Mobile lower list remains outside the assigned frame.",
+      "visualConfirmation": "complete list visible at 1440",
+      "machineConfirmation": "Exact ordered list items and No empty list items passed at both widths."
+    },
+    {
+      "route": "/properties/serenity-mansions-aurora/",
+      "observation": "Desktop frame 011 shows all three distinct paragraphs, then At a glance.",
+      "visualConfirmation": "complete description visible at 1440",
+      "machineConfirmation": "Exact ordered paragraphs passed at both widths."
+    },
+    {
+      "route": "/properties/serenity-mansions-waterfront-collection/",
+      "observation": "Desktop frame 012 shows all four distinct paragraphs, then At a glance.",
+      "visualConfirmation": "complete description visible at 1440",
+      "machineConfirmation": "Exact ordered paragraphs passed at both widths."
+    }
+  ],
+  "findings": [],
+  "coverage": {
+    "assignedImageCount": 10,
+    "actualViewedImageCount": 10,
+    "uniqueRouteCount": 5,
+    "viewportWidths": [
+      390,
+      1440
+    ],
+    "unreadImages": [],
+    "nativeInspectionCount": 10
+  },
+  "limitations": [
+    "This receipt covers the visible viewport of each assigned PNG, not every offscreen pixel or all interactions on the route.",
+    "Long mobile descriptions and parts of the Royal Lifestyle and VELA desktop descriptions continue beyond the captured frame. Complete rendered-DOM assertions are distinguished from actual visual coverage.",
+    "The public interaction retry and the final preview acceptance are recorded separately; this receipt does not represent their outcome.",
+    "Previous overview receipts are immutable and remain unchanged. These findings are resolved only for this source and public preview."
+  ],
+  "releaseAcceptance": false
+}

@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "status": "planned-not-run",
+  "sourceCommit": "f5731c313c410747c8beb76a468df3671aa5975a",
+  "baseCommit": "84638a11ccf24be8389d6bf7e52d1fec47bc85d1",
+  "onlyChangedRuntimePath": "src/data/content.ts",
+  "contentBlobSha": "f7719af47fc050169e9ebc7ba6664bf4390fbf11",
+  "contentSha256": "0a635b417dbf725395ab2d40aa1d1363ec25ac2a29aa762ab9f241c530738311",
+  "derivedFrom": {
+    "originalProofPlanPath": "/workspace/scratch/81f7012ea52e/luxury-review/proposals/scoped-content-cleanup-proof-plan.json",
+    "originalProofPlanSha256": "a885f09996ce95e164577177a1c503171e934ab0a6f0377cc87be852cbf40710",
+    "originalRuntimeSourceCommit": "a484ab78629f4129080abb7c8be938c573c4e1a8",
+    "originalExpectedFixtureEvidence": "scoped-content-public-r1/report.json",
+    "originalExpectedFixtureEvidenceSha256": "68bd613aa6d50d9fc56a2ef0a42aecbc570b3133b4d82b80672edbc7792a6de7"
+  },
+  "normalization": "For DOM text comparisons only: textContent.replace(/\\s+/g, \" \").trim(); exact ordered arrays after whitespace normalization. Do not lowercase/fuzzy-match.",
+  "checks": [
+    {
+      "route": "/properties/the-chedi-private-residences/",
+      "kind": "property",
+      "descriptionSelector": ".property-description .property-richtext",
+      "paragraphSelector": ".property-description .property-richtext p",
+      "expectedParagraphs": [
+        "For over three decades, The Chedi has been synonymous with timeless elegance, refined hospitality, and seamless integration of heritage and modernity. From the pristine shores of Oman to the cultural vibrance of Japan, The Chedi’s global portfolio of award-winning destinations embodies a unique philosophy of understated luxury. Now, this esteemed legacy arrives in Dubai with The Chedi Private Residences—a landmark development offering an unprecedented lifestyle experience.",
+        "Ideally located on Sheikh Zayed Road, this groundbreaking development is the world’s first standalone private branded residence under The Chedi name.",
+        "Soaring 240 meters over 52 floors, this architectural marvel, with its sleek glass façade, is masterfully designed by the award-winning Studio Bruno Guelaff. Redefining grandeur, The Chedi Private Residences presents an exclusive collection of sky villas and world-class amenities, offering a lifestyle beyond the extraordinary.",
+        "Discover an exclusive collection of expansive residences, ranging from two- to five-bedroom villas and duplexes to the extraordinary triplex Pinnacle Mansion—a one-of-a-kind masterpiece crowning the building. Experience unparalleled luxury and design in every detail.",
+        "The Chedi Private Residences perfectly balances this captivating energy and sophistication with the serenity of an exclusive retreat. From the elegant arrival experience to the exclusive rooftop residents’ Sky Social, every space is thoughtfully crafted to foster meaningful connections while providing a serene atmosphere for personal reflection. Each area achieves a harmonious balance, seamlessly blending opportunities for social engagement with moments of tranquil solitude.",
+        "The Chedi Private Residences offers an exceptional range of premium amenities across three distinct levels: Ground Social, Resort Social, and Sky Social. Each level is meticulously designed to enrich the resident experience, offering curated spaces for relaxation, entertainment, and social engagement. The Ground and Resort levels feature a blend of essential amenities and leisure spaces, while the Sky Social level offers an exclusive atmosphere with an adults-only infinity pool, Omakase experience, Sky Bar & Lounge, ensuring a luxurious living experience at every turn."
+      ],
+      "listItemSelector": ".property-description .property-richtext li",
+      "expectedListItems": [],
+      "expectedEmptyListItems": 0
+    }
+  ],
+  "sourceCopyCorrection": {
+    "changedParagraphIndices": [
+      2
+    ],
+    "literalReplacements": [
+      [
+        "glass faÇade",
+        "glass façade"
+      ],
+      [
+        "masterfully designedby",
+        "masterfully designed by"
+      ]
+    ],
+    "unchangedParagraphCount": 6,
+    "rawJsonChanged": false
+  },
+  "visualScope": {
+    "widths": [
+      390,
+      1440
+    ],
+    "routes": 1,
+    "plannedRouteWidthCases": 2,
+    "capture": "Native description viewport, with the third paragraph positioned 112px below the viewport top when it is not fully visible. Inspect façade and designed by at both widths; existing three sentence joins must remain continuous.",
+    "review": [
+      "Correct lowercase cedilla in façade",
+      "A normal space between designed and by",
+      "Six paragraphs remain in their exact prior order",
+      "Body line-height, gutters and desktop enquiry card remain contained"
+    ]
+  },
+  "noRealEnquiryWrites": true,
+  "releaseAcceptance": false
+}
