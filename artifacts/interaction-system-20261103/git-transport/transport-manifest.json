@@ -3298,6 +3298,14 @@
       "parts": [
         "artifacts/interaction-system-20261103/git-transport/chunks/development-native-r1/vela-390-story-4.png/001.b64"
       ]
+    },
+    {
+      "key": "validation-r11/report.json",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r11/report.json",
+      "bytes": 20806,
+      "sha256": "5e00744a13f3544cbda654a51bee6623b2dd658e440f608a65b5b27136fa3f83",
+      "parts": [],
+      "textPath": "artifacts/interaction-system-20261103/git-transport/metadata/validation-r11/report.json"
     }
   ],
   "validationR9": {
@@ -3913,5 +3921,25 @@
     "allSelectedPhotosPainted": true,
     "errors": [],
     "sourceHead": "532cd2fc19dcf9ddaa1809616a47ebaee86eec88"
+  },
+  "validationR11": {
+    "startedAt": "2026-11-03T17:45:14Z",
+    "sourceHead": "532cd2fc19dcf9ddaa1809616a47ebaee86eec88",
+    "staticBundleBefore": {
+      "count": 146,
+      "sha256": "32c37060a6f76e780e74004ea1efc25c9bdd04c5038b16101d5117bf7a16bbf5"
+    },
+    "stages": [],
+    "complete": false,
+    "passed": false,
+    "error": "",
+    "staticBundleAfter": {
+      "count": 146,
+      "sha256": "32c37060a6f76e780e74004ea1efc25c9bdd04c5038b16101d5117bf7a16bbf5"
+    },
+    "sourceHeadAfter": "532cd2fc19dcf9ddaa1809616a47ebaee86eec88",
+    "sourceUnchanged": true,
+    "staticBundleUnchanged": true,
+    "finishedAt": "2026-11-03T17:45:14Z"
   }
 }
