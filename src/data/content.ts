@@ -57,8 +57,32 @@ function isPhotograph(image:SourceImage):boolean {
   &&!isLocationMap(image);
 }
 
-/** Repair source spacing in this listing without changing the archived source or its particulars. */
+// Match these complete source paragraphs only; keep the first wording and all linked photographs.
+const waterfrontParagraph="The Serenity Mansions Waterfront Collection offers luxurious and thoughtfully designed residences. Each home features expansive living spaces with floor-to-ceiling windows that frame stunning water views. The interiors are customisable, allowing you to create a space that reflects your unique style and preferences. Enjoy the serenity of living by the water, with private outdoor areas perfect for relaxation or entertaining.";
+const waterfrontFramingParagraph=waterfrontParagraph.replace('windows that frame','windows framing');
+function projectParagraphKey(slug:string,paragraph:string):string {
+ return slug==='serenity-mansions-waterfront-collection'&&paragraph===waterfrontFramingParagraph?waterfrontParagraph:paragraph;
+}
+
+/** Render-only source cleanup; preserve the archived data and every retained paragraph's wording. */
 export function propertyDescriptionHtml(id:string,html:string):string {
+ let previousParagraph='',previousEnd=0;
+ html=html.replace(/<p\b[^>]*>[\s\S]*?<\/p>/gi,(paragraph:string,offset:number,source:string)=>{
+  const repeated=paragraph===previousParagraph&&source.slice(previousEnd,offset).trim()==='';
+  previousParagraph=paragraph;
+  previousEnd=offset+paragraph.length;
+  return repeated?'':paragraph;
+ }).replace(/<li\b[^>]*>\s*<\/li>/gi,'');
+ if(id==='serenity-mansions-waterfront-collection'){
+  const first=waterfrontFramingParagraph.replace('customisable','customizable');
+  const second=waterfrontParagraph.replace('customisable','customizable');
+  html=html.replace(`<p>${first}</p><p>${second}</p>`,`<p>${first}</p>`);
+ }
+ if(id==='the-chedi-private-residences'){
+  html=html.replace('Redefining </p><p>grandeur','Redefining grandeur')
+   .replace('elegant arrival \u00a0</p><p>experience','elegant arrival experience')
+   .replace('serene atmosphere </p><p>for personal reflection.','serene atmosphere for personal reflection.');
+ }
  if(id!=='orla-dorchester-collection')return html;
  const spacing:Record<string,string>={
   'Situatedon':'Situated on','Jumeriah':'Jumeirah','ORLAoccupies':'ORLA occupies',
@@ -119,16 +143,16 @@ export function getProjectContent(projectId:string):ProjectContent {
   const paragraphs=section.paragraphs.map(brandText).filter(Boolean);
   if(headings.length>1){
    paragraphs.forEach((paragraph,index)=>{
-    const duplicate=paragraphIndex.get(paragraph);
+    const duplicate=paragraphIndex.get(projectParagraphKey(slug,paragraph));
     if(duplicate){duplicate.images.push(...sectionPhotos);return;}
     const block={id:`${section.id}-${index+1}`,heading:brandText(headings[Math.min(index,headings.length-1)].text),paragraphs:[paragraph],images:[...sectionPhotos]};
-    story.push(block);paragraphIndex.set(paragraph,block);
+    story.push(block);paragraphIndex.set(projectParagraphKey(slug,paragraph),block);
    });
   }else if(paragraphs.length){
-   const existing=paragraphIndex.get(paragraphs[0]);
+   const existing=paragraphIndex.get(projectParagraphKey(slug,paragraphs[0]));
    if(existing){existing.images.push(...sectionPhotos);continue;}
    const block={id:section.id,heading:brandText(section.heading),paragraphs,images:[...sectionPhotos]};
-   story.push(block);paragraphs.forEach(paragraph=>paragraphIndex.set(paragraph,block));
+   story.push(block);paragraphs.forEach(paragraph=>paragraphIndex.set(projectParagraphKey(slug,paragraph),block));
   }
  }
  story.forEach(block=>{block.images=block.images.filter((photo,index,all)=>all.findIndex(other=>other.url===photo.url)===index);});
@@ -151,3 +175,4 @@ export const team=sourceAgents.map(person=>({
  ...normaliseAgentContact(person),
  videoUrl:person.videoUrls.find(url=>/^https:\/\/player\.vimeo\.com\/video\/\d+/.test(url))?.replace('player.vimeo.com/video/','vimeo.com/').split('?')[0]||null,
 }));
+
