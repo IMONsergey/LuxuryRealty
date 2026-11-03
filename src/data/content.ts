@@ -175,4 +175,3 @@ export const team=sourceAgents.map(person=>({
  ...normaliseAgentContact(person),
  videoUrl:person.videoUrls.find(url=>/^https:\/\/player\.vimeo\.com\/video\/\d+/.test(url))?.replace('player.vimeo.com/video/','vimeo.com/').split('?')[0]||null,
 }));
-
