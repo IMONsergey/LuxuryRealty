@@ -1,0 +1,40 @@
+{
+  "at": "2026-11-03T12:15:49.196628+00:00",
+  "passed": true,
+  "commit": "c6e3ddab1480ce5ab28a1710a94c291c0b96e8d6",
+  "deploymentId": "dpl_DMsiZhHYCUMMMCFx6BgUgbiv1vEB",
+  "url": "https://luxury-realty-imon-krgo7x01u-cdo-2844s-projects.vercel.app",
+  "environment": "preview",
+  "publicChecks": {
+    "pages": 130,
+    "mediaSamples": 14,
+    "sourceAliases": 20,
+    "errors": 0
+  },
+  "sourceFiles": 84,
+  "sourceDrift": [],
+  "previewSmokeSha256": "9b4992e071e3220a520fcb99451a2db6896718cb18913219752daaf63670d7c0",
+  "recovery": {
+    "job": "20261103T104235-708d8a7d2e",
+    "originalJobState": "failed",
+    "reason": "A generated untracked Python bytecode cache was included in the publication file-set assertion. All source hashes and external smoke checks passed. Removed only the generated cache and reran the file-set, commit and clean-worktree assertions. No checks or runtime files were altered.",
+    "removedCache": "scripts/__pycache__/content-preview-smoke.cpython-312.pyc",
+    "removedCacheSha256": "171ae3f0a8c5f53cef9b49daf2437ce01c56c1ba4ff8761aef52db7a712b80fc",
+    "externalChecksReused": true,
+    "externalChecksRerun": false
+  },
+  "rootIndependentVerification": {
+    "at": "2026-11-03T12:20:10.809833+00:00",
+    "trackedInputs": 84,
+    "addedTrackedInputs": [],
+    "removedTrackedInputs": [],
+    "changedInputHashes": [],
+    "vercelDeploymentId": "dpl_DMsiZhHYCUMMMCFx6BgUgbiv1vEB",
+    "vercelReadyState": "READY",
+    "vercelTarget": null,
+    "verifiedCommit": "c6e3ddab1480ce5ab28a1710a94c291c0b96e8d6",
+    "productionDeploymentId": "dpl_E29JFCJRTGFQ2JV6XdwcTxpYuR78",
+    "productionCommit": "d48f91e4d007bc1fdf89114b70b34a2960b84a8a",
+    "verificationMethod": "Independent authenticated Vercel reads and read-only comparison of tracked source files against the accepted manifest."
+  }
+}
