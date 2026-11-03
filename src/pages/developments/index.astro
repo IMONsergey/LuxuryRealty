@@ -1,5 +1,6 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import Icon from '../../components/Icon.astro';
 import Picture from '../../components/Picture.astro';
 import ProjectCard from '../../components/ProjectCard.astro';
 import PropertyCard from '../../components/PropertyCard.astro';
@@ -7,11 +8,15 @@ import Consultation from '../../components/Consultation.astro';
 import {projects,currentProperties} from '../../data/site';
 import '../../styles/content.css';
 const opportunities=currentProperties.filter(property=>property.isDevelopment);
+const profiledProjects=new Set(projects.map(project=>project.id));
+const additionalOpportunities=opportunities.filter(property=>!property.projectId||!profiledProjects.has(property.projectId));
 ---
 <Layout title="Residential developments in Dubai" description="Explore AVA, ORLA, Atlantis The Royal, Six Senses Dubai Marina, VELA and the Serenity Mansions collections.">
- <section class="page-hero developments-hero"><div class="page-hero-back"><Picture name="img1" eager /></div><div class="container"><p class="eyebrow">Extraordinary perspectives</p><h1>Developments<br/>in Dubai</h1><p>Explore the architecture, residences and setting of Dubai’s distinctive residential communities.</p></div></section>
- <nav class="container development-directory" aria-label="Jump to a development">{projects.map(project=><a href={'#development-'+project.id}><span>{project.name}</span><small>{project.location}</small></a>)}</nav>
- <section class="container developments-collection" aria-label="Residential development profiles"><div class="project-stack">{projects.map(project=><ProjectCard project={project} />)}</div></section>
- {opportunities.length>0&&<section class="container development-opportunities" aria-labelledby="opportunities-heading"><div class="section-heading"><h2 id="opportunities-heading">New development<br/>opportunities.</h2><p>Explore project enquiries across the collection. Current residence options, specifications and terms are available from your advisor.</p></div><div class="development-opportunity-grid">{opportunities.map(property=><PropertyCard property={property} />)}</div><a class="text-link" href="/properties/?purpose=developments">View new development enquiries</a></section>}
+ <section class="page-hero developments-hero"><div class="page-hero-back"><Picture name="img1" sizes="(max-width: 700px) 1125px, 1600px" eager /></div><div class="container"><p class="eyebrow">Extraordinary perspectives</p><h1>Developments<br/>in Dubai</h1><p>Explore the architecture, residences and setting of Dubai’s distinctive residential communities.</p></div></section>
+ <section class="container developments-collection" aria-label="Residential development profiles">
+  <div class="development-collection-heading"><p class="eyebrow">{projects.length} residential developments</p><a class="text-link" href="/properties/?purpose=developments">View development enquiries <Icon name="arrow-up-right" size={18} /></a></div>
+  <div class="project-grid">{projects.map(project=><ProjectCard project={project} compact />)}</div>
+ </section>
+ {additionalOpportunities.length>0&&<section class="container development-opportunities" aria-labelledby="opportunities-heading"><div class="section-heading"><h2 id="opportunities-heading">More developments</h2><p>Further places to consider. Your advisor can help with current residence options, specifications and availability.</p></div><div class="development-opportunity-grid">{additionalOpportunities.map(property=><PropertyCard property={property} />)}</div><a class="text-link" href="/properties/?purpose=developments">View all {opportunities.length} development enquiries <Icon name="arrow-up-right" size={18} /></a></section>}
  <Consultation />
 </Layout>

@@ -1,0 +1,39 @@
+{
+  "reviewer": "root",
+  "at": "2026-11-03T13:27:45.610906+00:00",
+  "sourceFingerprint": "af3b95b2b2cc8f89d72a394f334ee07045ec9665be855e0846dbebca17f9f828",
+  "accepted": true,
+  "scope": "Final corrections plus previously independently reviewed complete85-state matrix and50-state affected-template verification. Acceptance is based on actual PNGs, not only bounds tests.",
+  "reviewedScreenshots": [
+    {
+      "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/global-visual-final-20261103/round-2/visual/007-developments-390-content.png",
+      "sha256": "ce0f98350bb54f89e2d040cc2ed0d9582e1674690ad39f2ee28209982cc8eeab"
+    },
+    {
+      "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/global-visual-final-20261103/round-2/visual/010-developments-1440-content.png",
+      "sha256": "b01cb8a17a90e71ee7fae838d5db32ed7981f9c37ef2e854eefcd033cb9261ae"
+    },
+    {
+      "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/global-visual-final-20261103/round-2/visual/003-home-768-menu.png",
+      "sha256": "12f3d5d9132c85854b006c3fa03232aedb785b4ccacbc293f51c5611afd8998b"
+    },
+    {
+      "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/global-visual-final-20261103/round-2/visual/020-project-serenity-mansions-aurora-768-content.png",
+      "sha256": "968eb8592ba6b16ac817b2daea9c735a2ac24392dd453d99506ca43d5c5a9b01"
+    },
+    {
+      "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/global-visual-final-20261103/round-2/visual/021-project-serenity-mansions-aurora-1440-content.png",
+      "sha256": "0c687a4f125a1171408d390e8ac514603335728a3b95f7a47668ac2e39f2a181"
+    },
+    {
+      "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/global-visual-final-20261103/round-2/visual/032-insights-1440-content.png",
+      "sha256": "c83d65baa9957da8bd8deaeea7a96c75502432a0bde238b5f1567b0f3d66f97a"
+    }
+  ],
+  "findings": "Smooth compact shade, left-aligned mobile captions, whole email domain, Aurora heading/prose columns, balanced two-column insight grid and aligned arrows accepted. Prior catalogue/advisor/gallery/form/team fixes have independent scoped receipts.",
+  "limits": [
+    "Representative template and difficult-record coverage, not manual inspection of every one of110property pages.",
+    "DPR1 screenshot/physical metrics; source poster/project hero resolution ceilings retained.",
+    "Feature preview only; no production or real enquiry actions."
+  ]
+}

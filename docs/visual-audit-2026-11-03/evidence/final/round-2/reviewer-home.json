@@ -1,0 +1,98 @@
+{
+  "type": "assistant-visual-review",
+  "reviewer": "/root/visual_capture_matrix",
+  "at": "2026-11-03T13:29:08.465542+00:00",
+  "round": "global-visual-final-20261103/round-2",
+  "method": "Exact fresh PNGs opened and visually inspected via Desktop Commander; separate pixel metrics read existing receipt and actual built asset binaries. No new browser launched by reviewer.",
+  "sourceReport": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/global-visual-final-20261103/round-2/visual/visual-audit-report.json",
+  "sourceReportSha256": "fc6e1341735931b014f616dfd7caf87b93d028259df00761a8d9de3502e64c41",
+  "sourceHead": "b1e9ac15f598d1646220764f3ef7e2945eaa3c5a",
+  "sourceSummary": {
+    "views": 32,
+    "completeViews": 32,
+    "screenshots": 98,
+    "errors": 0,
+    "warnings": 0,
+    "pageErrors": 0,
+    "consoleErrors": 0,
+    "assetFailures": 0,
+    "blockedWrites": 0,
+    "humanReview": "pending"
+  },
+  "reviewed": [
+    {
+      "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/global-visual-final-20261103/round-2/visual/003-home-768-menu.png",
+      "sha256": "12f3d5d9132c85854b006c3fa03232aedb785b4ccacbc293f51c5611afd8998b",
+      "status": "accepted-for-described-visible-scope",
+      "scope": "Controlled email line break after @; whole luxuryresidences.com domain, no orphan com, no viewport overflow. Navigation rows, contact block, CTA and close remain separated."
+    },
+    {
+      "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/global-visual-final-20261103/round-2/visual/002-home-390-content.png",
+      "sha256": "e8205a6687da778c04a8982e31736ea8f9050fd4aaf10a6d5a976da576e6c9cd",
+      "status": "accepted-for-described-visible-scope",
+      "scope": "Consultation typography, CTA and border contained. Insights first card aligns with heading and 24px gutter."
+    },
+    {
+      "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/global-visual-final-20261103/round-2/visual/005-home-1440-content.png",
+      "sha256": "935e4ab75f7e0ef4d5eb1d94f7302cdd37d415eb209fd22dbf399a6cfcdf46d2",
+      "status": "accepted-for-described-visible-scope",
+      "scope": "Consultation text and CTA separated; Insights first card aligns with shared container edge and subsequent cards retain regular spacing."
+    },
+    {
+      "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/global-visual-final-20261103/round-2/visual/002-home-390-full.png",
+      "sha256": "557eb3b568c9b26bfe09c92a2a2ea39c8e28a7da22250c61d9254ec6e60a039c",
+      "status": "accepted-for-described-visible-scope",
+      "scope": "Home selection and Insights first cards align with page gutter; heading, CTA and footer wrapping readable. Existing section composition preserved."
+    },
+    {
+      "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/global-visual-final-20261103/round-2/visual/005-home-1440-full.png",
+      "sha256": "ec2690962c402e7d23923645072f04c390e18603562921f0e382d69c276de831",
+      "status": "accepted-for-described-visible-scope",
+      "scope": "Authored staggered selection rhythm and portrait ratios preserved; Insights initial position and body spacing stay aligned with container."
+    },
+    {
+      "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/global-visual-final-20261103/round-2/visual/032-insights-1440-content.png",
+      "sha256": "c83d65baa9957da8bd8deaeea7a96c75502432a0bde238b5f1567b0f3d66f97a",
+      "status": "accepted-for-described-visible-scope",
+      "scope": "Two-column grid, sharp enough source images, readable headings and copy, consistent gaps and row CTA alignment."
+    },
+    {
+      "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/global-visual-final-20261103/round-2/visual/032-insights-1440-full.png",
+      "sha256": "ac5906620c1f82dcaf5ec954b5aec38832782ec4bfdf7a0694f0c1c9caad60e1",
+      "status": "accepted-for-described-visible-scope",
+      "scope": "All four article cards and final subscribe/footer layout checked; source images readable, no observed overlap or clipped text."
+    }
+  ],
+  "acceptedForScopedReviewPaths": [
+    "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/global-visual-final-20261103/round-2/visual/003-home-768-menu.png",
+    "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/global-visual-final-20261103/round-2/visual/002-home-390-content.png",
+    "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/global-visual-final-20261103/round-2/visual/005-home-1440-content.png",
+    "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/global-visual-final-20261103/round-2/visual/002-home-390-full.png",
+    "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/global-visual-final-20261103/round-2/visual/005-home-1440-full.png",
+    "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/global-visual-final-20261103/round-2/visual/032-insights-1440-content.png",
+    "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/global-visual-final-20261103/round-2/visual/032-insights-1440-full.png"
+  ],
+  "blockingFindingsInReviewedScope": [],
+  "closedFinding": "Tablet menu email no longer leaves om as an orphaned second line.",
+  "metrics": [
+    {
+      "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/global-visual-final-20261103/round-2/visual/image-metrics.json",
+      "sha256": "9615b0bf8882d2a8e64b16c47037db34f7e6234793b3dfb0813d901bece44db2"
+    },
+    {
+      "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/global-visual-final-20261103/round-2/visual/image-metrics-design-assets.json",
+      "sha256": "d7dffe1a3eba189ac18f0179d707bed440dd70876dd5e6a420778b6ed8a15c57"
+    }
+  ],
+  "humanApproval": false,
+  "publishApproval": false,
+  "overallSiteAcceptance": false,
+  "limits": [
+    "This is a scoped assistant review of seven exact PNG files, not all pages or all browsers.",
+    "Full-page images can be downsampled by the viewer; physical scale is separately calculated from exact binaries or imported-media metadata.",
+    "Reduced-motion captures do not prove external film playback or motion quality.",
+    "Source-resolution limits remain for home hero at1920 and the seven project heroes at1440; imported metrics preserve these facts.",
+    "Other reviewers own the project/Aurora/layout and property form/gallery scopes.",
+    "No source, test script, original report or screenshot was changed."
+  ]
+}

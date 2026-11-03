@@ -1,7 +1,7 @@
 ---
 import Icon from './Icon.astro';
-interface Props {href?:string;label?:string;variant?:'solid'|'outline'|'text';context?:string;class?:string;}
-const {href,label,variant='solid',context,class:className=''}=Astro.props;
+interface Props {href?:string;label?:string;variant?:'solid'|'outline'|'text';context?:string;enquiryLabel?:string;class?:string;}
+const {href,label,variant='solid',context,enquiryLabel,class:className=''}=Astro.props;
 const Tag=href?'a':'button';
 ---
-<Tag href={href} type={href?undefined:'button'} class:list={['button','button--'+variant,className]} data-enquiry={href?undefined:(context||label||"Private consultation")}><span>{label}<slot /></span><span class="button-arrow" aria-hidden="true"><Icon name="arrow-right" /></span></Tag>
+<Tag href={href} type={href?undefined:'button'} class:list={['button','button--'+variant,className]} data-enquiry={href?undefined:(context||label||"Private consultation")} data-enquiry-label={href?undefined:enquiryLabel}><span>{label}<slot /></span><span class="button-arrow" aria-hidden="true"><Icon name="arrow-right" /></span></Tag>

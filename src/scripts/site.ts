@@ -75,7 +75,7 @@ $$<HTMLButtonElement>('[data-enquiry]').forEach(button=>button.addEventListener(
  const context=button.dataset.enquiry||'Private consultation';
  const form=$<HTMLFormElement>('[data-enquiry-form]',enquiry);
  if(form?.dataset.sending==='true'){openDialog(enquiry,button);return;}
- const label=$('[data-enquiry-context]',enquiry);if(label)label.textContent=context;
+ const label=$('[data-enquiry-context]',enquiry);if(label)label.textContent=button.dataset.enquiryLabel||context;
  if(form){form.dataset.context=context;
   if(form.dataset.complete==='true'){
    form.reset();form.dataset.complete='false';form.dataset.submissionId=crypto.randomUUID();

@@ -2,15 +2,15 @@
 import Icon from './Icon.astro';
 import {projects,asset} from '../data/site';
 import Picture from './Picture.astro';
-interface Props {project:typeof projects[number];}
-const {project:p}=Astro.props;
+interface Props {project:typeof projects[number];compact?:boolean;}
+const {project:p,compact=false}=Astro.props;
 const image=asset(p.image),width=image.renderWidth||image.width,height=image.renderHeight||image.height;
 if(!width||!height)throw new Error('Missing project card image dimensions: '+p.image);
 const ratio=width/height;
 const coverWidth=(cardHeight:number)=>Number((cardHeight*ratio).toFixed(2));
 const sizes=`(max-width: 700px) max(100vw, ${coverWidth(430)}px), (max-width: 1000px) max(100vw, ${coverWidth(440)}px), max(100vw, ${coverWidth(481)}px)`;
 ---
-<a class="project-card" href={'/developments/'+p.id+'/'} id={'development-'+p.id} data-reveal>
+<a class:list={['project-card',{'project-card--compact':compact}]} href={'/developments/'+p.id+'/'} id={'development-'+p.id} data-reveal>
  <Picture name={p.image} alt={p.name+' architecture'} sizes={sizes} style={'object-position:'+p.position} />
  <div class="project-shade"></div>
  <div class="project-title"><p class="eyebrow">Residential development</p><h3>{p.name}</h3><p>{p.subtitle}</p></div>

@@ -15,6 +15,10 @@ const base=process.env.BASE_URL||`http://127.0.0.1:${port}`;
 assert.ok(['127.0.0.1','localhost','::1','[::1]'].includes(new URL(base).hostname),'This mock-only suite must target a loopback preview');
 const output=path.resolve(process.env.QA_OUTPUT_DIR||'artifacts/content-migration');
 const properties=JSON.parse(await readFile('src/data/properties.json','utf8'));
+const approvedCaseTitles=new Map([
+ ['EXCEPTIONAL 3BR-LOFT | DESIGNER UPGRADE | SEA VIEW','Exceptional 3BR-loft | Designer upgrade | Sea view'],
+ ['UPGRADED 2BR | MARINA VIEW | INVESTOR DEAL','Upgraded 2BR | Marina view | Investor deal'],
+]);
 const archived=p=>/sold|rented|archived|withdrawn/i.test(p.saleStatus||p.status);
 const current=properties.filter(p=>!archived(p));
 const buy=current.filter(p=>p.purpose==='buy'&&!p.isDevelopment);
@@ -118,6 +122,16 @@ async function mediaAndMenu(width){
 async function catalogueCounts(width){
  await visit('/properties/');
  assert.equal(await page.locator('[data-property-card]').count(),110);await count(49);await ids(buy.slice(0,24).map(p=>p.id));
+ const cardTitles=await page.locator('[data-property-card]').evaluateAll(cards=>cards.map(card=>({id:card.dataset.id,raw:card.dataset.title,search:card.dataset.search,heading:card.querySelector('.property-card-heading h3')?.textContent?.trim(),detail:card.querySelector('.property-card-detail')?.textContent?.trim()||''})));
+ const titleWords=value=>value.replace(/[|·]/g,' ').replace(/\s+/g,' ').trim();
+ for(const property of properties){
+  const card=cardTitles.find(card=>card.id===property.id);assert.ok(card,property.id);
+  assert.equal(card.raw,property.title,'Raw sort title is preserved: '+property.id);
+  assert.ok(card.search.includes(property.title),'Raw search title is preserved: '+property.id);
+  assert.equal(titleWords([card.heading,card.detail].filter(Boolean).join(' ')),titleWords(approvedCaseTitles.get(property.title)||property.title),'All title phrases remain visible with only reviewed casing: '+property.id);
+  assert.ok(![card.heading,card.detail].join(' ').includes('|'),'Source separators are presentation only: '+property.id);
+ }
+
  await page.locator('.purpose-tabs button[data-purpose=rent]').click();await count(26);assert.equal(await page.locator('[data-property-card]:not([hidden])[data-development=true]').count(),0);
  await page.locator('.purpose-tabs button[data-purpose=developments]').click();await count(9);assert.equal(await page.locator('[data-property-card]:not([hidden])[data-development=true]').count(),9);
  await page.locator('.purpose-tabs button[data-purpose=all]').click();await count(84);
@@ -202,7 +216,12 @@ async function projectResidences(width){
 }
 async function galleryAndFilm(width){
  await visit('/properties/'+detailFixture.id+'/');
- assert.equal(await page.locator('.property-main h1').innerText(),detailFixture.title);
+ const titleParts=(approvedCaseTitles.get(detailFixture.title)||detailFixture.title).split('|').map(part=>part.replace(/\s+/g,' ').trim()).filter(Boolean);
+ assert.equal(await page.locator('.property-heading h1').innerText(),titleParts[0],'Primary source title is visible');
+ const subtitle=page.locator('.property-title-detail');
+ assert.equal(await subtitle.count(),titleParts.length>1?1:0,'A subtitle exists only when the source has supporting phrases');
+ if(titleParts.length>1)assert.equal(await subtitle.innerText(),titleParts.slice(1).join(' · '),'Every supporting phrase remains visible');
+ assert.ok((await page.title()).startsWith(detailFixture.title+' | '),'The complete original SEO title remains unchanged');
  assert.ok((await page.locator('.property-richtext').innerText()).length>100,'The original property description is rendered');
  const trigger=page.locator('.property-hero [data-gallery]'),photos=JSON.parse(await trigger.getAttribute('data-gallery'));
  assert.equal(photos.length,detailFixture.photos.length);assert.ok(photos.length>=5);
@@ -231,6 +250,13 @@ async function galleryAndFilm(width){
 }
 async function enquiry(width){
  const trigger=page.locator('.property-advisor [data-enquiry]');await trigger.click();await dialog('enquiry-dialog');
+ const sourceContext=await trigger.getAttribute('data-enquiry'),displayLabel=await trigger.getAttribute('data-enquiry-label');
+ assert.ok(displayLabel&&!displayLabel.includes((await page.url()).split('/').filter(Boolean).at(-1)),'The visible enquiry label does not expose the property slug');
+ const contextLabel=page.locator('[data-enquiry-context]');
+ assert.equal(await contextLabel.textContent(),displayLabel,'The form retains the exact readable property label');
+ assert.equal(await contextLabel.evaluate(node=>getComputedStyle(node).textTransform),'uppercase','The enquiry eyebrow uses the intended uppercase presentation');
+ assert.equal(await contextLabel.innerText(),displayLabel.toUpperCase(),'The rendered enquiry eyebrow shows every label character in the intended case');
+ assert.equal(await page.locator('#enquiry-dialog [data-enquiry-form]').getAttribute('data-context'),sourceContext,'The stable submission context remains unchanged');
  const form=page.locator('#enquiry-dialog [data-enquiry-form]'),submit=form.locator('[type=submit]');
  const initialCount=report.mockedEnquiries.length;
  await submit.click();assert.equal(report.mockedEnquiries.length,initialCount);assert.equal(await form.locator('[aria-invalid=true]').count(),3);

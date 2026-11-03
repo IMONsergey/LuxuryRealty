@@ -1,13 +1,20 @@
-/* Real catalogue records use the established Luxury Realty typography and palette. */
+/* The source title stays in data attributes; its phrases form a readable hierarchy. */
 .property-card-link{display:flex;flex-direction:column}
+.property-card .property-media{flex:none}
 .property-card .property-info{display:flex;flex-direction:column;flex:1;min-width:0}
-.property-card .property-info h3{font-size:clamp(19px,1.75vw,23px);font-weight:400;line-height:1.4;overflow-wrap:anywhere}
-.property-card .property-price{display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 5px;font-size:17px;line-height:1.5;margin-block:12px 8px}
+.property-card-heading{min-width:0}
+.property-card .property-info h3{font-size:clamp(19px,1.75vw,23px);font-weight:400;line-height:1.3;overflow-wrap:break-word}
 .property-card-location{color:var(--muted);font-size:11px;letter-spacing:.04em;line-height:1.6;margin-bottom:9px}
+.property-card-detail{font-size:12px;line-height:1.65;color:var(--muted);margin-top:10px;overflow-wrap:break-word}
+.property-card-footer{margin-top:auto;padding-top:22px}
+.property-card .property-price{display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 5px;font-size:17px;line-height:1.5;margin:0 0 10px}
 .property-price-period{font-size:11px;color:var(--muted);white-space:nowrap}
 .property-reference{color:var(--muted);font-size:10px;line-height:1.6;margin-top:10px;overflow-wrap:anywhere}
-.property-card .property-specs{line-height:1.8}
-.property-card--compact .property-info h3{padding-bottom:12px;margin-bottom:0}
+.property-card .property-specs{display:flex;flex-wrap:wrap;gap:4px 10px;line-height:1.7;margin:0}
+.property-card .property-specs>span{display:inline-flex;align-items:baseline;gap:10px;white-space:nowrap}
+.property-card .property-specs>span:not(:last-child):after{content:'·';opacity:.6}
+.property-card--compact .property-info h3{border:0;padding:0;margin:0}
+.property-card--compact .property-card-footer{margin-top:18px;padding-top:16px;border-top:1px solid var(--border)}
 .property-card--archived .property-tags span{border:1px solid #ffffff50;background:#0d0d11dd}
 .property-media-empty{height:100%;width:100%;min-height:220px;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:20px;background:linear-gradient(140deg,#26262d,var(--panel));color:var(--gold);font-size:12px;letter-spacing:.04em}
 .property-media-empty .ui-icon{opacity:.65}
@@ -90,6 +97,46 @@
 .property-page .advisor-email{display:block;margin-top:20px;color:var(--gold);font-size:11px;line-height:1.7;overflow-wrap:anywhere;text-decoration:underline;text-underline-offset:4px}
 .property-page .advisor-reference{font-size:10px;line-height:1.8;color:var(--muted);margin-top:18px;padding-top:15px;border-top:1px solid #ffffff18;overflow-wrap:anywhere}
 @media(max-width:1100px){.catalogue .sort-label{width:100%;justify-content:flex-end}.catalogue .sort-label select{max-width:260px}.property-location-panel{display:block}.property-location-panel>.button{margin-top:25px}.property-page .advisor-price{font-size:29px}}
-@media(max-width:900px){.catalogue .sort-label{width:auto;margin-left:auto;justify-content:initial}.catalogue .filter-status{grid-column:1/-1}.catalogue .filter-form>.button{width:100%}.property-page .advisor-period,.property-page .advisor-reference{grid-column:1}.property-page .advisor-email{grid-column:2}.property-page .advisor-sticky>.button:first-of-type{grid-row:2 / span 1;align-self:start}.property-page .advisor-sticky>.button:nth-of-type(2){grid-row:3 / span 1;align-self:start}.property-page .advisor-disclaimer{grid-row:auto}.property-page .advisor-profile{grid-row:auto}.property-amenities{gap:20px 35px}}
+@media(max-width:900px){.catalogue .sort-label{width:auto;margin-left:auto;justify-content:initial}.catalogue .filter-status{grid-column:1/-1}.catalogue .filter-form>.button{width:100%}.property-amenities{gap:20px 35px}}
 @media(max-width:700px){.property-card .property-info h3{font-size:22px}.property-card .property-price{font-size:17px}.property-card-location{font-size:11px}.catalogue-top{gap:20px 10px}.catalogue .purpose-tabs{width:100%;display:grid;grid-template-columns:1fr 1fr;border-radius:4px}.catalogue .purpose-tabs button{font-size:13px;padding:12px 10px;min-height:47px}.catalogue .purpose-tabs button:nth-child(odd){border-right:1px solid #ffffff18}.catalogue .purpose-tabs button:nth-child(-n+2){border-bottom:1px solid #ffffff18}.catalogue .result-count{flex:auto;min-width:0;font-size:12px}.catalogue .sort-label{width:auto;max-width:70%;margin-left:auto;gap:8px;font-size:11px}.catalogue .sort-label select{max-width:170px;min-width:0;margin-left:0;padding:11px 20px 11px 10px;font-size:11px}.catalogue .filter-form{gap:0}.catalogue .feature-options{max-height:250px}.catalogue-pagination{margin-top:35px;gap:18px}.catalogue-pagination nav{gap:6px}.catalogue-pagination nav button{min-width:36px;padding-inline:9px;font-size:11px}.filter-chip{font-size:10px;min-height:40px}.active-filters{gap:8px;margin-bottom:22px}.property-archive-tag{top:100px;left:24px;font-size:12px}.property-hero--empty{height:400px}.property-address{font-size:13px;margin-top:20px}.property-archive-notice{font-size:13px;padding:17px 20px}.property-development-note{font-size:14px}.property-richtext{font-size:14px;margin-top:25px;line-height:1.9}.property-richtext p,.property-richtext li{line-height:1.9}.property-richtext h2,.property-richtext h3,.property-richtext h4{font-size:27px}.property-overview,.property-films,.property-features{margin-top:45px}.property-overview h2,.property-films h2,.property-project-link h2{font-size:37px}.property-facts{gap:0 22px;margin-top:24px}.property-facts>div{padding-block:17px}.property-facts dd{font-size:19px}.property-films .section-heading>p{margin-top:15px}.property-film-links{gap:12px}.property-film-links .button{width:100%;min-width:0}.property-amenities{gap:20px 22px}.property-amenities li{font-size:12px;gap:10px}.property-location-panel{padding:23px}.property-location-panel>div>p:not(.eyebrow){font-size:13px}.property-project-link{padding-block:28px}.property-page .advisor-price{font-size:34px}.property-page .advisor-email{font-size:12px}.property-page .advisor-reference{font-size:11px}.property-page .advisor-period{font-size:13px}}
 @media(max-width:370px){.catalogue .sort-label{width:100%;max-width:none;justify-content:space-between}.catalogue .sort-label select{flex:1;max-width:none}.property-amenities{grid-template-columns:1fr}.property-facts{column-gap:18px}.property-page .advisor-price{font-size:29px}}
+
+
+/* Keep the price and advisor immediately after the property heading on small screens.
+   The actions are an explicit group, so button and anchor tag order cannot collide. */
+.property-page .property-content{grid-template-areas:"heading advisor" "main advisor";row-gap:36px;align-items:start}
+.property-page .property-heading{grid-area:heading;min-width:0}
+.property-page .property-main{grid-area:main;min-width:0}
+.property-page .property-advisor{grid-area:advisor;align-self:stretch;min-width:0}
+.property-heading h1{font:400 60px/1.1 SF;letter-spacing:-.015em;overflow-wrap:break-word}
+.property-title-detail{font:300 24px/1.45 SF;color:#d6d6db;margin-top:18px;max-width:40ch;overflow-wrap:break-word}
+.property-heading .property-address{margin-top:16px}
+.property-heading .property-pills{margin-bottom:0}
+.property-page .property-main>.property-gallery-grid:first-child{margin-top:0}
+.property-page .property-project-link,.property-page .property-location-block{margin-top:60px}
+.property-page .advisor-summary{min-width:0}
+.property-page .advisor-summary>.eyebrow{font-size:10px;letter-spacing:.05em;color:var(--muted)}
+.property-page .advisor-profile{margin:24px 0 0;padding-top:20px}
+.property-page .advisor-actions{display:grid;gap:12px;margin-top:24px;min-width:0}
+.property-page .advisor-actions>*{grid-column:auto;grid-row:auto;min-width:0}
+.property-page .advisor-actions>.button{width:100%;min-width:0;font-size:13px;gap:10px;padding-inline:16px;margin:0}
+.property-page .advisor-actions>.advisor-email{margin-top:4px;font-size:12px}
+.property-page .advisor-actions>.advisor-disclaimer{margin-top:6px;font-size:11px}
+.property-page .advisor-actions>.advisor-reference{margin-top:6px}
+@media(max-width:1100px){.property-heading h1{font-size:50px}}
+@media(max-width:900px){
+ .property-page .property-content{grid-template-areas:"heading" "advisor" "main";row-gap:36px}
+ .property-page .advisor-sticky{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:28px;align-items:start}
+ .property-page .advisor-actions{margin-top:0}
+ .property-page .advisor-summary,.property-page .advisor-actions{grid-column:auto;grid-row:auto}
+}
+@media(max-width:700px){
+ .property-heading h1{font-size:43px}
+ .property-title-detail{font-size:21px;line-height:1.45;margin-top:15px}
+ .property-page .property-content{row-gap:30px}
+ .property-page .property-project-link,.property-page .property-location-block{margin-top:45px}
+ .property-page .advisor-sticky{display:block}
+ .property-page .advisor-actions{margin-top:24px}
+ .property-page .advisor-actions>.button{font-size:15px}
+ .property-card-detail{font-size:13px}
+}

@@ -2,11 +2,12 @@
 import Icon from './Icon.astro';
 import {articles} from '../data/articles';
 import Picture from './Picture.astro';
-interface Props {article:typeof articles[number];}
-const {article:a}=Astro.props;
+interface Props {article:typeof articles[number];wide?:boolean;}
+const {article:a,wide=false}=Astro.props;
+const imageSizes=wide?'(max-width: 700px) calc(100vw - 48px), (max-width: 1200px) calc(67vw - 63px), (min-width: 1700px) 900px, 720px':'(max-width: 700px) calc(100vw - 48px), 350px';
 ---
 <article class="insight-card"><a href={'/insights/'+a.id+'/'}>
- <div class="insight-image"><Picture name={a.image} alt="" sizes="(max-width: 700px) calc(100vw - 48px), 350px" /></div>
+ <div class="insight-image"><Picture name={a.image} alt="" sizes={imageSizes} /></div>
  <p class="insight-meta">{a.category}<span>{a.minutes} min read</span></p>
  <h3>{a.title}</h3><p class="insight-excerpt">{a.excerpt}</p>
  <span class="insight-arrow" aria-hidden="true"><Icon name="arrow-up-right" size={20} /></span>

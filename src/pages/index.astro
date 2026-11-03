@@ -20,7 +20,7 @@ const storyImages=storyPhotos.map((image,i)=>({src:asset(image.url).src,alt:i===
 ---
 <Layout bodyClass="home-page">
  <section class="home-hero" aria-labelledby="home-title">
-  <div class="home-hero-image" data-hero-parallax><Picture name={heroPoster} alt="Dubai’s waterfront residences" sizes="(max-width: 700px) 1500px, 100vw" eager /><video data-hero-film data-src="/media/luxury-hero.mp4" muted loop playsinline preload="none" poster={asset(heroPoster).src} aria-hidden="true" tabindex="-1"></video><div></div></div>
+  <div class="home-hero-image" data-hero-parallax><Picture name={heroPoster} alt="Dubai’s waterfront residences" sizes="(max-width: 1600px) 1600px, 100vw" eager /><video data-hero-film data-src="/media/luxury-hero.mp4" muted loop playsinline preload="none" poster={asset(heroPoster).src} aria-hidden="true" tabindex="-1"></video><div></div></div>
   <div class="container hero-content">
    <button class="hero-film-control" type="button" data-hero-film-control aria-label="Play background film" aria-pressed="false"><span class="hero-film-dot" aria-hidden="true"></span><span data-hero-film-label>Play film</span></button>
    <h1 id="home-title" data-hero-title aria-label="Elegant luxury properties in the heart of Dubai"><span>Elegant Luxury </span><span>properties in the heart</span></h1>
@@ -42,7 +42,7 @@ const storyImages=storyPhotos.map((image,i)=>({src:asset(image.url).src,alt:i===
   <div class="container selection-actions"><div class="rail-controls"><button class="round-control" type="button" data-rail-prev=".selection-rail" aria-label="Previous properties"><Icon name="arrow-left" /></button><button class="round-control" type="button" data-rail-next=".selection-rail" aria-label="Next properties"><Icon name="arrow-right" /></button></div><Button href="/properties/" variant="text">Explore the collection</Button></div>
  </section>
  <section class="home-developments" aria-labelledby="developments-title">
-  <div class="development-sculpture"><Picture name="img1" /></div>
+  <div class="development-sculpture"><Picture name="img1" sizes="(max-width: 700px) 1125px, 1600px" /></div>
   <div class="container">
    <div class="section-heading" data-reveal><h2 id="developments-title">New developments<br/>in Dubai</h2><p>Discover extraordinary places to call home. A considered collection of residences, architecture and distinctive perspectives on life in Dubai.</p></div>
    <div class="project-stack">{projects.slice(0,3).map(project=><ProjectCard project={project} />)}</div>

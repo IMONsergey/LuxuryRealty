@@ -44,15 +44,47 @@ export function pageParagraphs(slug:string,sectionId?:string):string[] {
  const source=pageContent(slug).sections.filter(section=>!sectionId||section.id===sectionId);
  return [...new Set(source.flatMap(section=>section.paragraphs).map(brandText).filter(Boolean))];
 }
+function imageFilename(image:SourceImage):string {
+ const filename=image.url.split('/').pop()?.split('?')[0]||'';
+ try{return decodeURIComponent(filename);}catch{return filename;}
+}
+function isLocationMap(image:SourceImage):boolean {
+ return /(?:^|[\s_-])map(?:[\s_.()-]|$)/i.test(imageFilename(image));
+}
 function isPhotograph(image:SourceImage):boolean {
- return /\.(?:jpe?g|png|webp|avif)(?:\?|$)/i.test(image.url)&&!/logo|placeholder|white%402x|atrr-colour|google[-_% ]*map|google%20map|location[-_% ]*map/i.test(image.url);
+ return /\.(?:jpe?g|png|webp|avif)(?:\?|$)/i.test(image.url)
+  &&!/logo|placeholder|white@2x|atrr-colour/i.test(imageFilename(image))
+  &&!isLocationMap(image);
+}
+
+/** Repair source spacing in this listing without changing the archived source or its particulars. */
+export function propertyDescriptionHtml(id:string,html:string):string {
+ if(id!=='orla-dorchester-collection')return html;
+ const spacing:Record<string,string>={
+  'Situatedon':'Situated on','Jumeriah':'Jumeirah','ORLAoccupies':'ORLA occupies',
+  'Dubai’sarchipelago':'Dubai’s archipelago','Yourresidence':'Your residence',
+  'outdoorblend':'outdoor blend','streamsthrough':'streams through','thesun':'the sun',
+  'offthe':'off the','Offeringthe':'Offering the','ofresidents':'of residents',
+  'luxurymansion':'luxury mansion','servicefrom':'service from','ORLAimmerses':'ORLA immerses',
+  'withyour':'with your','conceptualisedthrough':'conceptualised through',
+  'waterfeatures':'water features','positiveenergy':'positive energy','Organicby':'Organic by',
+  'windflow':'wind flow','residencesand':'residences and','sunsetexperiences':'sunset experiences',
+  'EachORLA':'Each ORLA','homewith':'home with','experience,stepping':'experience, stepping',
+  'moments,for':'moments, for','entrancesare':'entrances are','howguests':'how guests',
+  'ORLA’s85':'ORLA’s 85','andfour-bedroom':'and four-bedroom','Eachhave':'Each have',
+  'thebest':'the best','suitevery':'suit every','Aniconic':'An iconic','PalmJumeirah':'Palm Jumeirah',
+  'finestrestaurants':'finest restaurants','therest':'the rest','Palm’screscent':'Palm’s crescent',
+  'uninterrupted270-degree':'uninterrupted 270-degree','turquoisewaters':'turquoise waters',
+ };
+ return Object.entries(spacing).reduce((text,[from,to])=>text.replaceAll(from,to),html)
+  .replace(/(?:<br\s*\/?>(?:\s*)){1,2}/gi,'</p><p>');
 }
 export interface ProjectStory {id:string;heading:string;paragraphs:string[];images:SourceImage[];}
 export interface ProjectFeature {heading:string;body:string;image?:SourceImage;}
 export interface ProjectContent {
  sourceUrl:string;sourceHash:string;title:string;intro:string;heroImage:string;
  story:ProjectStory[];features:ProjectFeature[];featureTitle:string;
- photos:SourceImage[];mapUrl:string|null;brochureUrl:string|null;floorplansUrl:string|null;
+ photos:SourceImage[];locationImages:SourceImage[];mapUrl:string|null;brochureUrl:string|null;floorplansUrl:string|null;
  filmUrl?:string;
 }
 export function getProjectContent(projectId:string):ProjectContent {
@@ -64,6 +96,8 @@ export function getProjectContent(projectId:string):ProjectContent {
  const heroPhotos=first.images.slice(1).filter(isPhotograph);
  const photographs=[...heroPhotos,...source.sections.slice(1).flatMap(section=>section.images).filter(isPhotograph)];
  const photos=photographs.filter((photo,index)=>photographs.findIndex(other=>other.url===photo.url)===index);
+ const locationImages=source.sections.flatMap(section=>section.images).filter(isLocationMap)
+  .filter((image,index,all)=>all.findIndex(other=>other.url===image.url)===index);
  if(!photos.length)throw new Error('Missing development photographs: '+projectId);
  const story:ProjectStory[]=[];
  const features:ProjectFeature[]=[];
@@ -101,7 +135,7 @@ export function getProjectContent(projectId:string):ProjectContent {
  const intro=slug==='six-senses'?'Residences above the Dubai Marina skyline.':brandText(source.hero.description);
  const filmUrl=source.sections.flatMap(section=>section.videos).find(video=>/^https:\/\/dl\.dropboxusercontent\.com\/.+\.mp4(?:\?|$)/i.test(video.url))?.url;
  return {sourceUrl:source.sourceUrl,sourceHash:source.sourceHash,title:brandText(source.hero.title),intro,heroImage:heroPhotos[0]?.url||photos[0].url,filmUrl,
-  story,features,featureTitle,photos,mapUrl:source.mapUrl,brochureUrl:source.brochureUrl,floorplansUrl:source.floorplansUrl};
+  story,features,featureTitle,photos,locationImages,mapUrl:source.mapUrl,brochureUrl:source.brochureUrl,floorplansUrl:source.floorplansUrl};
 }
 
 export const agencyServices=(pageContent('services').services||[]).map(service=>({title:brandText(service.title),body:brandText(service.body)}));

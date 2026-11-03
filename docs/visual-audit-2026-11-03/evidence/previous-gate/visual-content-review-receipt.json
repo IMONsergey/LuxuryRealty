@@ -1,0 +1,263 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "/root/visual_content_audit",
+  "recordedAt": "2026-11-03 13:17:25 UTC",
+  "method": "Direct visual inspection of returned PNG images. Automated test results are not treated as visual acceptance.",
+  "repository": "/home/sergey/Projects/LuxuryRealty-visual-20261103",
+  "sourceMutationStatus": "Frozen after the agreed continuous compact-card gradient and single-opening-article fixes. Final focused visual retest pending.",
+  "rounds": [
+    {
+      "round": 2,
+      "artifactDirectory": "artifacts/global-visual-20261103/round-2/visual",
+      "reviewedFileCount": 41,
+      "reviewedFiles": [
+        "029-developments-390-content.png",
+        "030-developments-768-content.png",
+        "032-developments-1440-content.png",
+        "017-project-enquiries-390-content.png",
+        "044-project-serenity-mansions-waterfront-collection-390-top.png",
+        "044-project-serenity-mansions-waterfront-collection-390-detail.png",
+        "043-project-serenity-mansions-aurora-1440-detail.png",
+        "033-project-atlantis-390-content.png",
+        "034-project-atlantis-768-content.png",
+        "036-project-atlantis-1440-content.png",
+        "037-project-ava-at-palm-390-content.png",
+        "051-about-390-content.png",
+        "052-about-768-content.png",
+        "054-about-1440-content.png",
+        "054-about-1440-team-biography.png",
+        "055-services-390-content.png",
+        "056-services-768-content.png",
+        "058-services-1440-content.png",
+        "060-sell-720-form-validation.png",
+        "063-sell-1440-content.png",
+        "059-sell-390-form-validation.png",
+        "038-project-ava-at-palm-1440-top.png",
+        "039-project-orla-390-top.png",
+        "047-project-six-senses-390-top.png",
+        "049-project-vela-390-top.png",
+        "045-project-serenity-mansions-waterfront-collection-768-top.png",
+        "035-project-atlantis-1024-top.png",
+        "033-project-atlantis-390-detail.png",
+        "038-project-ava-at-palm-1440-detail.png",
+        "040-project-orla-1440-detail.png",
+        "048-project-six-senses-1440-content.png",
+        "050-project-vela-1440-content.png",
+        "042-project-serenity-mansions-aurora-768-content.png",
+        "041-project-serenity-mansions-aurora-390-content.png",
+        "046-project-serenity-mansions-waterfront-collection-1440-content.png",
+        "039-project-orla-390-content.png",
+        "031-developments-1024-top.png",
+        "053-about-1024-top.png",
+        "057-services-1024-top.png",
+        "062-sell-1024-top.png",
+        "061-sell-768-content.png"
+      ],
+      "acceptedObservations": [
+        {
+          "files": [
+            "044-project-serenity-mansions-waterfront-collection-390-top.png",
+            "045-project-serenity-mansions-waterfront-collection-768-top.png",
+            "035-project-atlantis-1024-top.png",
+            "038-project-ava-at-palm-1440-top.png",
+            "039-project-orla-390-top.png",
+            "047-project-six-senses-390-top.png",
+            "049-project-vela-390-top.png"
+          ],
+          "observation": "Project hero titles and subtitles fit within their visible regions; no observed title/header/CTA overlaps."
+        },
+        {
+          "files": [
+            "044-project-serenity-mansions-waterfront-collection-390-detail.png",
+            "043-project-serenity-mansions-aurora-1440-detail.png"
+          ],
+          "observation": "Both inspected Serenity location maps are fully contained without visible cropping."
+        },
+        {
+          "files": [
+            "033-project-atlantis-390-content.png",
+            "034-project-atlantis-768-content.png",
+            "036-project-atlantis-1440-content.png",
+            "037-project-ava-at-palm-390-content.png",
+            "039-project-orla-390-content.png",
+            "048-project-six-senses-1440-content.png",
+            "050-project-vela-1440-content.png",
+            "046-project-serenity-mansions-waterfront-collection-1440-content.png"
+          ],
+          "observation": "Inspected paired or mobile opening story sections have legible headings and paragraphs with no clipping."
+        },
+        {
+          "files": [
+            "055-services-390-content.png",
+            "056-services-768-content.png",
+            "058-services-1440-content.png"
+          ],
+          "observation": "Service numbering, headings, text and action buttons retain coherent alignment across the inspected widths."
+        },
+        {
+          "files": [
+            "059-sell-390-form-validation.png",
+            "060-sell-720-form-validation.png",
+            "061-sell-768-content.png",
+            "063-sell-1440-content.png"
+          ],
+          "observation": "Inspected sale enquiry forms, consent and validation messages do not overlap; tablet layout stacks correctly."
+        },
+        {
+          "files": [
+            "031-developments-1024-top.png",
+            "053-about-1024-top.png",
+            "057-services-1024-top.png",
+            "062-sell-1024-top.png"
+          ],
+          "observation": "The inspected 1024px hero and initial content regions fit without visible clipping."
+        }
+      ],
+      "findings": [
+        {
+          "id": "VC-01",
+          "priority": "P1",
+          "files": [
+            "029-developments-390-content.png",
+            "030-developments-768-content.png",
+            "032-developments-1440-content.png",
+            "038-project-ava-at-palm-1440-detail.png",
+            "040-project-orla-1440-detail.png"
+          ],
+          "observation": "White compact-card titles and subtitles lose contrast over pale sky, especially AVA and ORLA.",
+          "status": "First correction inspected in R3; follow-up continuous-gradient correction awaits final focused PNG review."
+        },
+        {
+          "id": "VC-02",
+          "priority": "P2",
+          "files": [
+            "029-developments-390-content.png"
+          ],
+          "observation": "Mobile compact-card location block aligns to the right with the CTA instead of the left content edge.",
+          "status": "Corrected and visually accepted in R3."
+        },
+        {
+          "id": "VC-03",
+          "priority": "P2",
+          "files": [
+            "051-about-390-content.png",
+            "052-about-768-content.png",
+            "054-about-1440-content.png"
+          ],
+          "observation": "Mixed circular source photos and rectangular frames make the small team portrait module inconsistent.",
+          "status": "Corrected and visually accepted in R3."
+        },
+        {
+          "id": "VC-04",
+          "priority": "P2",
+          "files": [
+            "052-about-768-content.png"
+          ],
+          "observation": "Single-column compact team module at tablet width leaves substantial unused horizontal space.",
+          "status": "Corrected and visually accepted in R3."
+        },
+        {
+          "id": "VC-05",
+          "priority": "P2",
+          "files": [
+            "042-project-serenity-mansions-aurora-768-content.png"
+          ],
+          "observation": "A single opening story article occupies only the first column of a two-column parent grid, leaving the right half empty.",
+          "status": "Scoped CSS correction implemented after R3 freeze lifted; final focused PNG review pending."
+        }
+      ],
+      "editorialObservations": [
+        {
+          "files": [
+            "046-project-serenity-mansions-waterfront-collection-1440-content.png"
+          ],
+          "observation": "Two source paragraphs about customization closely repeat their meaning. Retained as source content; not a blocking layout finding."
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "artifactDirectory": "artifacts/global-visual-20261103/round-3/visual",
+      "reviewedFileCount": 8,
+      "reviewedFiles": [
+        "021-developments-390-content.png",
+        "022-developments-768-content.png",
+        "024-developments-1440-content.png",
+        "043-about-390-content.png",
+        "044-about-768-content.png",
+        "046-about-1440-content.png",
+        "043-about-390-team-biography.png",
+        "046-about-1440-team-biography.png"
+      ],
+      "acceptedObservations": [
+        {
+          "files": [
+            "021-developments-390-content.png"
+          ],
+          "observation": "Mobile compact-card location now aligns left and CTA remains aligned right."
+        },
+        {
+          "files": [
+            "021-developments-390-content.png",
+            "022-developments-768-content.png",
+            "024-developments-1440-content.png"
+          ],
+          "observation": "Top compact-card text is visibly more legible. The abrupt gradient transition is separately rejected below."
+        },
+        {
+          "files": [
+            "043-about-390-content.png",
+            "044-about-768-content.png",
+            "046-about-1440-content.png"
+          ],
+          "observation": "Circular team portraits are consistent; tablet two-column grid fits all inspected names and roles without collisions."
+        },
+        {
+          "files": [
+            "043-about-390-team-biography.png",
+            "046-about-1440-team-biography.png"
+          ],
+          "observation": "Expanded Daria biography, contact links and subsequent CTA remain legible and separated."
+        }
+      ],
+      "findings": [
+        {
+          "id": "VC-06",
+          "priority": "P2",
+          "files": [
+            "021-developments-390-content.png",
+            "022-developments-768-content.png",
+            "024-developments-1440-content.png"
+          ],
+          "observation": "The short local title-background fade produces a conspicuous horizontal dark band, particularly on AVA and ORLA.",
+          "status": "Replaced with a continuous card-wide gradient after R3 pause; final focused PNG review pending."
+        }
+      ]
+    }
+  ],
+  "pendingFinalReview": {
+    "artifactDirectory": "artifacts/global-visual-final-20261103/round-1/visual",
+    "requestedScope": [
+      "Developments compact cards at 390/768/1440",
+      "Aurora opening section at 390/768/1440",
+      "Related compact cards on AVA and ORLA"
+    ],
+    "fixes": [
+      "Continuous compact-card shade: black alpha .60 at 0%, .56 at 62%, .72 at 100%; title background transparent.",
+      "At min-width 701px, a lone opening article spans both parent columns and uses an internal heading/prose two-column grid with inherited gap."
+    ],
+    "sourceCodeScope": "src/styles/content.css",
+    "staticEvidence": [
+      "git diff --check passed for content.css",
+      "Balanced CSS braces: 266/266",
+      "Built HTML showed one opening article only for Serenity Mansions Aurora; all six other project pages showed two."
+    ],
+    "contrastCalculation": "White text over a pure-white source image under black alpha .56 has a calculated contrast ratio of 4.94:1. This is a worst-case compositing calculation, not a pixel measurement or a claim of full-page WCAG conformance."
+  },
+  "limitations": [
+    "Only the listed files were visually reviewed. No full-matrix visual acceptance is claimed.",
+    "Some 1024px captures contain only hero/initial content; they do not establish a review of the entire page body.",
+    "The 036-project-atlantis-1440-full.png read failed with Connection closed and is excluded from reviewedFiles.",
+    "No browser, build, or full test suite was launched by this reviewer during this image-review phase."
+  ]
+}

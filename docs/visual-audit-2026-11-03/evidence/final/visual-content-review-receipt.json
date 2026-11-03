@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "/root/visual_content_audit",
+  "recordedAt": "2026-11-03 13:26:52 UTC",
+  "jobId": "20261103T131542-a6e3f5a6cd",
+  "round": 2,
+  "repository": "/home/sergey/Projects/LuxuryRealty-visual-20261103",
+  "artifactDirectory": "artifacts/global-visual-final-20261103/round-2/visual",
+  "method": "Direct visual inspection of the ten returned PNG images listed below. This acceptance is independent of machine checks.",
+  "status": "accepted_for_targeted_scope",
+  "reviewedFileCount": 10,
+  "reviewedFiles": [
+    "007-developments-390-content.png",
+    "008-developments-768-content.png",
+    "010-developments-1440-content.png",
+    "019-project-serenity-mansions-aurora-390-content.png",
+    "020-project-serenity-mansions-aurora-768-content.png",
+    "021-project-serenity-mansions-aurora-1440-content.png",
+    "016-project-ava-at-palm-1440-detail.png",
+    "018-project-orla-1440-detail.png",
+    "015-project-ava-at-palm-390-detail.png",
+    "017-project-orla-390-detail.png"
+  ],
+  "accepted": [
+    {
+      "findingIds": [
+        "VC-01",
+        "VC-06"
+      ],
+      "files": [
+        "007-developments-390-content.png",
+        "008-developments-768-content.png",
+        "010-developments-1440-content.png"
+      ],
+      "observation": "Compact-card title and subtitle text remains legible. The conspicuous horizontal title-background band is gone; the continuous shade preserves visible architectural detail."
+    },
+    {
+      "findingIds": [
+        "VC-02"
+      ],
+      "files": [
+        "007-developments-390-content.png"
+      ],
+      "observation": "Mobile compact-card location aligns left while the CTA stays aligned right. No title/footer collisions observed."
+    },
+    {
+      "findingIds": [
+        "VC-05"
+      ],
+      "files": [
+        "019-project-serenity-mansions-aurora-390-content.png",
+        "020-project-serenity-mansions-aurora-768-content.png",
+        "021-project-serenity-mansions-aurora-1440-content.png"
+      ],
+      "observation": "The sole opening article now spans the full parent grid at tablet/desktop, with heading left and prose right; mobile retains a readable stacked flow. No clipping or text intersections observed."
+    },
+    {
+      "findingIds": [
+        "VC-01",
+        "VC-06"
+      ],
+      "files": [
+        "016-project-ava-at-palm-1440-detail.png",
+        "018-project-orla-1440-detail.png"
+      ],
+      "observation": "The visible upper regions of related compact cards use the same smooth, legible shading with aligned card tops and no abrupt gradient band."
+    },
+    {
+      "findingIds": [],
+      "files": [
+        "015-project-ava-at-palm-390-detail.png",
+        "017-project-orla-390-detail.png"
+      ],
+      "observation": "Enquiry headings, action buttons and the related-section heading remain separated and legible on mobile."
+    }
+  ],
+  "outstandingDefectsWithinInspectedScope": [],
+  "earlierAcceptedFindings": {
+    "receipt": "artifacts/global-visual-20261103/visual-content-review-receipt.json",
+    "findingIds": [
+      "VC-03",
+      "VC-04"
+    ],
+    "note": "Team framing and tablet two-column layout were visually accepted in main R3; final content.css corrections target only project cards and lone opening stories."
+  },
+  "limitations": [
+    "The AVA/ORLA mobile detail images show only the top edge of related cards. They do not constitute a full mobile related-card inspection.",
+    "The related-card desktop images show card upper regions; complete compact-card geometry was inspected on the developments listing at the same component styles.",
+    "Only the ten listed PNGs were visually reviewed in this final pass. No claim is made that all 32 final states were manually inspected by this reviewer.",
+    "No browser, build or test suite was launched by this reviewer."
+  ],
+  "pngSha256": {
+    "007-developments-390-content.png": "ce0f98350bb54f89e2d040cc2ed0d9582e1674690ad39f2ee28209982cc8eeab",
+    "008-developments-768-content.png": "a2b8d1441e00db25b154da838d1497b698da0d03a7bef4a6c1534581b7f1b84f",
+    "010-developments-1440-content.png": "b01cb8a17a90e71ee7fae838d5db32ed7981f9c37ef2e854eefcd033cb9261ae",
+    "019-project-serenity-mansions-aurora-390-content.png": "56f400e8041b2e7dfea208f20491a7ead57bc9d79924dd47ae3decc8690fb5ae",
+    "020-project-serenity-mansions-aurora-768-content.png": "968eb8592ba6b16ac817b2daea9c735a2ac24392dd453d99506ca43d5c5a9b01",
+    "021-project-serenity-mansions-aurora-1440-content.png": "0c687a4f125a1171408d390e8ac514603335728a3b95f7a47668ac2e39f2a181",
+    "016-project-ava-at-palm-1440-detail.png": "94c181fcb8defe413c30a195cafcb5f891350bbe15edd13bedc7b96742aea922",
+    "018-project-orla-1440-detail.png": "3033faf1f4afe55bca882a248d1a8c49a3e77e49b5cce944a3ec979c94b0d932",
+    "015-project-ava-at-palm-390-detail.png": "994df41eaa11e2c4a950bbad712d76f8e35b179c43e9f3ab71b7964b37b185bd",
+    "017-project-orla-390-detail.png": "6755d9d6ba3e8ceb6175c9fed676aa273a1d506de027fdf5c1cbdece5ba9a0c9"
+  },
+  "gateStateAtReceipt": {
+    "phase": "awaiting_visual_review",
+    "round": 2,
+    "sourceFingerprint": "af3b95b2b2cc8f89d72a394f334ee07045ec9665be855e0846dbebca17f9f828"
+  }
+}

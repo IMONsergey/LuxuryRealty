@@ -876,7 +876,13 @@ class Audit:
                            route=route, expectedCount=len(expected), actualCount=len(actual),
                            missing=sorted(expected - actual), unexpected=sorted(actual - expected))
         aliases = {'atlantis-the-royal': 'atlantis', 'ava': 'ava-at-palm'}
-        excluded = re.compile(r'logo|placeholder|white%402x|atrr-colour|google[-_% ]*map|google%20map|location[-_% ]*map', re.I)
+        excluded = re.compile(r'logo|placeholder|white@2x|atrr-colour', re.I)
+        location_map = re.compile(r'(?:^|[\s_-])map(?:[\s_.()-]|$)', re.I)
+
+        def image_filename(image):
+            return unquote(urlsplit(image.get('url', '')).path.rsplit('/', 1)[-1])
+
+        location_receipts = []
         for project in source_projects:
             if not project.get('publicationEligible'):
                 continue
@@ -887,13 +893,45 @@ class Audit:
                 # The first image in each original project hero is its wordmark.
                 sources.extend(images[1:] if index == 0 else images)
             expected = {image['url'] for image in sources if re.search(r'\.(?:jpe?g|png|webp|avif)(?:\?|$)', image.get('url', ''), re.I)
-                        and not excluded.search(image['url'])}
+                        and not excluded.search(image_filename(image))
+                        and not location_map.search(image_filename(image))}
+            expected_maps = {image['url'] for section in sections for image in section.get('images', [])
+                             if location_map.search(image_filename(image))}
             route = '/developments/' + aliases.get(project['slug'], project['slug']) + '/'
             actual = self.gallery_sources[route]
             if expected != actual:
                 self.error('project_gallery_coverage', 'Built project gallery differs from its source photographs (wordmarks/maps excluded)',
                            route=route, expectedCount=len(expected), actualCount=len(actual),
                            missing=sorted(expected - actual), unexpected=sorted(actual - expected))
+
+
+            if expected_maps:
+                # A location map must be an actual rendered <img>, not only an
+                # og:image, srcset candidate, link or unused media-manifest entry.
+                document = self.docs.get(self.physical(route, navigation=True))
+                image_paths = set()
+                if document:
+                    for ref in document.refs:
+                        if ref['attribute'] != 'img:src':
+                            continue
+                        local = self.local_url(ref['url'], route)
+                        if local:
+                            image_paths.add(urlsplit(local).path)
+                if not document or 'project-location' not in document.ids:
+                    self.error('project_location_section_missing', 'Source location maps need a rendered project location section', route=route)
+                mapped = []
+                for source in sorted(expected_maps):
+                    entry = self.manifest.get(source)
+                    src = entry.get('src') if isinstance(entry, dict) else None
+                    if not src or src not in image_paths:
+                        self.error('project_location_map_coverage', 'Source location map is absent as its mapped img on the built project page',
+                                   route=route, sourceUrl=source, expectedSrc=src)
+                    else:
+                        mapped.append({'sourceUrl': source, 'src': src})
+                self.counts['projectLocationMapsChecked'] += len(expected_maps)
+                location_receipts.append({'route': route, 'expectedCount': len(expected_maps),
+                                          'actualMappedImgCount': len(mapped), 'images': mapped})
+        self.report['projectLocationMaps'] = location_receipts
 
     def inspect_static_code(self):
         for path in sorted(self.output.rglob('*')):

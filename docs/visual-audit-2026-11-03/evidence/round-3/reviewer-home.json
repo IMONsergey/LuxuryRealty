@@ -1,0 +1,110 @@
+{
+  "type": "assistant-visual-review",
+  "reviewer": "/root/visual_capture_matrix",
+  "at": "2026-11-03T13:14:24.417155+00:00",
+  "round": "round-3",
+  "method": "Fresh PNG files opened and visually inspected via Desktop Commander; no browser or build launched.",
+  "sourceReport": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/global-visual-20261103/round-3/visual/visual-audit-report.json",
+  "sourceReportSha256": "70c82d4788376c8ef2e7bf1560cdbed4db0c322e13bae85ab2c4b1bbcd45acd2",
+  "sourceSummary": {
+    "views": 50,
+    "completeViews": 50,
+    "screenshots": 154,
+    "errors": 0,
+    "warnings": 1,
+    "pageErrors": 0,
+    "consoleErrors": 0,
+    "assetFailures": 0,
+    "blockedWrites": 0,
+    "humanReview": "pending"
+  },
+  "imageMetrics": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/global-visual-20261103/round-3/visual/image-metrics.json",
+  "imageMetricsSha256": "5cfbb09b691877245cc1d8ae724770e28bad37a0e7d822350ba966bffcf65165",
+  "acceptedForScopedReviewPaths": [
+    "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/global-visual-20261103/round-3/visual/002-home-390-content.png",
+    "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/global-visual-20261103/round-3/visual/003-home-768-content.png",
+    "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/global-visual-20261103/round-3/visual/005-home-1440-content.png",
+    "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/global-visual-20261103/round-3/visual/003-home-768-top.png",
+    "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/global-visual-20261103/round-3/visual/002-home-390-menu.png",
+    "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/global-visual-20261103/round-3/visual/005-home-1440-menu.png",
+    "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/global-visual-20261103/round-3/visual/002-home-390-full.png",
+    "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/global-visual-20261103/round-3/visual/005-home-1440-full.png"
+  ],
+  "reviewed": [
+    {
+      "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/global-visual-20261103/round-3/visual/002-home-390-content.png",
+      "sha256": "e8205a6687da778c04a8982e31736ea8f9050fd4aaf10a6d5a976da576e6c9cd",
+      "status": "accepted-for-described-visible-scope",
+      "scope": "Consultation text, button, container edges; Insights first card aligned with heading."
+    },
+    {
+      "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/global-visual-20261103/round-3/visual/003-home-768-content.png",
+      "sha256": "5550dd89546e5ecc510fabe238f364a48c39fc53db158241a9741d0dc63946cd",
+      "status": "accepted-for-described-visible-scope",
+      "scope": "Consultation two-column layout, CTA separation; Insights initial gutter and readable card text."
+    },
+    {
+      "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/global-visual-20261103/round-3/visual/005-home-1440-content.png",
+      "sha256": "935e4ab75f7e0ef4d5eb1d94f7302cdd37d415eb209fd22dbf399a6cfcdf46d2",
+      "status": "accepted-for-described-visible-scope",
+      "scope": "Consultation typography, button, background; Insights initial gutter and card spacing."
+    },
+    {
+      "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/global-visual-20261103/round-3/visual/003-home-768-top.png",
+      "sha256": "ad89e49c6e4ccb166944375a5b9aa2517ee80330ebc060154824e9524eddad74",
+      "status": "accepted-for-described-visible-scope",
+      "scope": "Hero heading, italic, body, search and header geometry; poster quality remains bounded by original source."
+    },
+    {
+      "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/global-visual-20261103/round-3/visual/002-home-390-menu.png",
+      "sha256": "6e1da51ef5340dff350af63c74a98b77aefea0ccd9217ae957e6f42f772e4b09",
+      "status": "accepted-for-described-visible-scope",
+      "scope": "All nine navigation rows, close button, label wrapping and outer edges."
+    },
+    {
+      "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/global-visual-20261103/round-3/visual/005-home-1440-menu.png",
+      "sha256": "8f8558bd160b00a18158c9402e3718ae7e584035f8dd4df9b8078b80ed844fae",
+      "status": "accepted-for-described-visible-scope",
+      "scope": "Visible navigation rows, contact text and close control; below-fold content not visually accepted from this frame."
+    },
+    {
+      "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/global-visual-20261103/round-3/visual/002-home-390-full.png",
+      "sha256": "557eb3b568c9b26bfe09c92a2a2ea39c8e28a7da22250c61d9254ec6e60a039c",
+      "status": "accepted-for-described-visible-scope",
+      "scope": "Selection card and Insights initial edge, text wrapping, CTA alignment; overall home section flow."
+    },
+    {
+      "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/global-visual-20261103/round-3/visual/005-home-1440-full.png",
+      "sha256": "ec2690962c402e7d23923645072f04c390e18603562921f0e382d69c276de831",
+      "status": "accepted-for-described-visible-scope",
+      "scope": "Preserved staggered selection composition and portrait ratios; Insights initial edge, card titles and spacing."
+    },
+    {
+      "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/global-visual-20261103/round-3/visual/003-home-768-menu.png",
+      "sha256": "4a1da249ffbef26b4342dc4e5b0d4b71112cb5303b92ea110e18192fa4e89870",
+      "status": "needs-fix",
+      "scope": "Tablet navigation contact column",
+      "finding": "Email wraps as contactus@luxuryresidences.c / om. A controlled break after @ with a whole domain is required for a clean text block. No viewport clipping observed."
+    }
+  ],
+  "humanApproval": false,
+  "publishApproval": false,
+  "overallSiteAcceptance": false,
+  "confirmedFacts": {
+    "insightRailInitialScrollLeft": 0,
+    "firstCardXAt390": 24,
+    "firstCardXAt768": 32,
+    "firstCardXAt1440": 157.5,
+    "hero768Variant": "/media/8283c2884344b120a546-1280.webp",
+    "hero768PhysicalCoverFactorAtDPR1": 1.256944,
+    "homePortraitPalm960CoverFactorAtDPR1": 0.800312
+  },
+  "limits": [
+    "Acceptance applies only to listed visible scopes in the exact hashed PNG files.",
+    "Full-page images are downsampled for display; bitmap enlargement comes from the separate manifest-based postprocessor.",
+    "Desktop menu lower content is below the captured fold; source provides overflow-y:auto and sticky close, but no desktop bottom screenshot was reviewed.",
+    "Reduced-motion single Chromium screenshots do not validate film playback, all browsers, real devices, or user acceptance.",
+    "Root reported additional development-only Aurora opening and shade findings outside this review; this receipt does not close them.",
+    "Source image resolution limits remain; no image-generation or artificial upscale was performed."
+  ]
+}

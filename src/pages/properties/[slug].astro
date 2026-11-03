@@ -6,9 +6,12 @@ import Button from '../../components/Button.astro';
 import PropertyCard from '../../components/PropertyCard.astro';
 import FilmButton from '../../components/FilmButton.astro';
 import {properties,projects,propertyPhotos,asset,price,site,type Property} from '../../data/site';
+import {propertyPresentation} from '../../data/property-presentation';
+import {propertyDescriptionHtml} from '../../data/content';
 import '../../styles/catalogue.css';
 export function getStaticPaths(){return properties.map(property=>({params:{slug:property.id},props:{property}}));}
 const {property:p}=Astro.props as {property:Property};
+const presentation=propertyPresentation(p.title);
 const gallery=propertyPhotos(p).filter(photo=>Boolean(photo.image)).map(photo=>({...photo,src:asset(photo.image).src}));
 const heroImage=gallery[0]?asset(gallery[0].image):null;
 const heroWidth=heroImage?.renderWidth||heroImage?.width,heroHeight=heroImage?.renderHeight||heroImage?.height;
@@ -34,6 +37,7 @@ const facts=[
  {label:'Building',value:p.building},
 ].filter(fact=>Boolean(fact.value));
 const enquiryContext=((archived?'Similar properties: ':p.isDevelopment?'Development enquiry: ':'Private viewing: ')+(p.reference||p.id)+' | '+p.title).slice(0,200);
+const enquiryLabel=(archived?'Similar homes':p.isDevelopment?'Residence enquiry':'Private viewing')+' · '+presentation.heading;
 const agent=p.agent;
 const advisorPhone=(agent?.phone||site.phoneHref||'').replace(/[^+\d]/g,'');
 const advisorEmail=agent?.email||site.email;
@@ -64,36 +68,42 @@ const mapSearch=p.address||[p.building,p.location,'Dubai'].filter(Boolean).join(
   <div class="container property-hero-actions">{gallery.length>0&&<button type="button" class="pill-button" data-gallery={JSON.stringify(gallery)} data-gallery-title={p.title}>{gallery.length===1?'View photo':'View all '+gallery.length+' photos'} <span aria-hidden="true"><Icon name="arrow-up-right" size={20} /></span></button>}<button type="button" class="pill-button pill-button--dark" data-share>Share <span aria-hidden="true"><Icon name="arrow-up-right" size={20} /></span></button></div>
  </section>
  <div class="container property-content">
-  <article class="property-main">
+  <header class="property-heading">
    <a href={returnUrl} class="back-link" data-property-return={p.id}><Icon name="arrow-left" /> Back to the collection</a>
    <p class="eyebrow property-area">{[purposeLabel,p.location||p.building].filter(Boolean).join(' · ')}</p>
-   <h1>{p.title}</h1>
+   <h1>{presentation.heading}</h1>
+   {presentation.detail&&<p class="property-title-detail">{presentation.detail}</p>}
    {p.address&&<p class="property-address">{p.address}</p>}
    {archived&&<p class="property-archive-notice" role="note">This property is marked {status.toLowerCase()} and is shown as part of our archive. Our team can help you explore similar homes.</p>}
    {p.dataNotes?.map(note=><p class="property-development-note" role="note">{note}</p>)}
    {!p.isDevelopment&&<ul class="property-pills">{p.type&&<li>{p.type}</li>}{p.bedrooms!==null&&p.bedrooms!==undefined&&<li>{p.bedrooms===0?'Studio':p.bedrooms+' '+(p.bedrooms===1?'bed':'beds')}</li>}{p.bathrooms!==null&&p.bathrooms!==undefined&&p.bathrooms>0&&<li>{p.bathrooms+' '+(p.bathrooms===1?'bath':'baths')}</li>}{p.area!==null&&p.area>0&&<li>{new Intl.NumberFormat('en-US').format(p.area)} sq.ft</li>}</ul>}
    {p.isDevelopment&&<p class="property-development-note">Explore the development and enquire about individual residences, layouts and current availability.</p>}
+  </header>
+  <aside class="property-advisor" aria-label="Price and your property advisor"><div class="advisor-sticky">
+   <div class="advisor-summary">
+    <p class="eyebrow">{archived?'Last listed price':p.isDevelopment?'Published project price':p.purpose==='rent'?'Rental price':'Property price'}</p>
+    <p class="advisor-price">{price(p.price)}</p>
+    {p.price!==null&&p.price>0&&period&&<p class="advisor-period">{'per '+p.pricePeriod}</p>}
+    <p class="advisor-note">{archived?'Archived listing':p.isDevelopment?'Individual residence prices and specifications on enquiry':'Price and availability confirmed on enquiry'}</p>
+    <div class="advisor-profile">{agent?.image&&<Picture name={agent.image} alt={agent.name} sizes="54px" />}<div><h2>{agent?.name||site.name}</h2><p>{agent?.role||'Your property advisor'}</p></div></div>
+   </div>
+   <div class="advisor-actions">
+    <Button context={enquiryContext} enquiryLabel={enquiryLabel} class="advisor-primary">{archived?'Find similar homes':p.isDevelopment?'Enquire about residences':'Arrange a viewing'}</Button>
+    {advisorPhone&&<a class="button button--outline advisor-call" href={'tel:'+advisorPhone}><span>{agent?.phone?'Call the advisor':'Call the team'}</span><span aria-hidden="true"><Icon name="arrow-up-right" size={20} /></span></a>}
+    {advisorEmail&&<a class="advisor-email" href={'mailto:'+advisorEmail}>{advisorEmail}</a>}
+    <p class="advisor-disclaimer">{archived?'Tell us what you liked about this property and we will help you build a new shortlist.':'Share your preferred date and any questions. A viewing is confirmed separately.'}</p>
+    {p.reference&&<p class="advisor-reference">Reference: {p.reference}</p>}
+   </div>
+  </div></aside>
+  <article class="property-main">
    {gallery.length>1&&<div class:list={['property-gallery-grid',{'property-gallery-grid--single':gallery.length===2}]}>{gallery.slice(1,3).map((photo,i)=><button type="button" data-gallery={JSON.stringify(gallery)} data-gallery-index={i+1} data-gallery-title={p.title} aria-label={'Open photograph '+(i+2)+' of '+p.title}><Picture name={photo.image} alt={photo.alt} sizes="(max-width: 700px) calc(100vw - 48px), 365px" /><span aria-hidden="true"><Icon name="arrow-up-right" size={20} /></span></button>)}</div>}
-   <section class="property-description" aria-labelledby="description-title"><h2 id="description-title">{p.isDevelopment?'About the development':'About this home'}</h2>{p.descriptionHtml?<div class="property-richtext" set:html={p.descriptionHtml} />:<p>Contact our team for further property information and to discuss your requirements.</p>}</section>
+   <section class="property-description" aria-labelledby="description-title"><h2 id="description-title">{p.isDevelopment?'About the development':'About this home'}</h2>{p.descriptionHtml?<div class="property-richtext" set:html={propertyDescriptionHtml(p.id,p.descriptionHtml)} />:<p>Contact our team for further property information and to discuss your requirements.</p>}</section>
    <section class="property-overview" aria-labelledby="overview-title"><h2 id="overview-title">At a glance</h2><dl class="property-facts">{facts.map(fact=><div><dt>{fact.label}</dt><dd>{fact.value}</dd></div>)}</dl></section>
    {videos.length>0&&<section class="property-films" aria-labelledby="films-title"><div class="section-heading"><h2 id="films-title">A closer look</h2><p>Explore the property on film.</p></div><div class="property-film-links">{videos.map((video,index)=><FilmButton url={video.url} title={p.title} label={videos.length===1?'Watch property film':'Watch film '+(index+1)} />)}</div></section>}
    {p.features.length>0&&<section class="property-features" aria-labelledby="features-title"><h2 id="features-title">Features & amenities</h2><ul class="property-amenities">{p.features.map(feature=><li><Icon name="plus" size={16} /><span>{feature}</span></li>)}</ul></section>}
-   <div class="brochure-banner"><h3>{archived?'Find your next home.':'Make it personal.'}</h3><Button context={enquiryContext}>{archived?'Request similar homes':p.isDevelopment?'Request residence details':'Arrange a private viewing'}</Button></div>
    {project&&<section class="property-project-link"><p class="eyebrow">The development</p><h2>{project.name}</h2><p>Explore the architecture, residences and amenities of {project.name}.</p><Button href={'/developments/'+project.id+'/'} variant="outline">Discover the development</Button></section>}
    {(p.location||p.address||p.building)&&<section class="property-location-block"><div class="section-heading"><h2>Location</h2></div><div class="property-location-panel"><div><p class="eyebrow">{p.location||'Dubai'}</p><p>{p.address||p.building}</p><p class="collection-note">The exact residence and viewing arrangements are confirmed with your advisor.</p></div><a class="button button--outline" href={'https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(mapSearch)} target="_blank" rel="noopener noreferrer"><span>Explore the area</span><span aria-hidden="true"><Icon name="arrow-up-right" size={20} /></span></a></div></section>}
   </article>
-  <aside class="property-advisor"><div class="advisor-sticky">
-   <p class="eyebrow">{archived?'Last listed price':p.isDevelopment?'Published project price':p.purpose==='rent'?'Rental price':'Property price'}</p>
-   <p class="advisor-price">{price(p.price)}</p>
-   {p.price!==null&&p.price>0&&period&&<p class="advisor-period">{'per '+p.pricePeriod}</p>}
-   <p class="advisor-note">{archived?'Archived listing':p.isDevelopment?'Individual residence prices and specifications on enquiry':'Price and availability confirmed on enquiry'}</p>
-   <div class="advisor-profile">{agent?.image&&<Picture name={agent.image} alt={agent.name} sizes="54px" />}<div><h2>{agent?.name||site.name}</h2><p>{agent?.role||'Your property advisor'}</p></div></div>
-   <Button context={enquiryContext}>{archived?'Find similar homes':p.isDevelopment?'Enquire about residences':'Arrange a viewing'}</Button>
-   {advisorPhone&&<a class="button button--outline" href={'tel:'+advisorPhone}><span>{agent?.phone?'Call the advisor':'Call the team'}</span><span aria-hidden="true"><Icon name="arrow-up-right" size={20} /></span></a>}
-   {advisorEmail&&<a class="advisor-email" href={'mailto:'+advisorEmail}>{advisorEmail}</a>}
-   <p class="advisor-disclaimer">{archived?'Tell us what you liked about this property and we will help you build a new shortlist.':'Share your preferred date and any questions. A viewing is confirmed separately.'}</p>
-   {p.reference&&<p class="advisor-reference">Reference: {p.reference}</p>}
-  </div></aside>
  </div>
  {related.length>0&&<section class="container related-properties section-space"><div class="section-heading"><h2>{p.isDevelopment?'More developments':'You may also like'}</h2><a class="text-link" href={collectionUrl}>View the collection <Icon name="arrow-right" /></a></div><div class="related-grid">{related.map(property=><PropertyCard property={property} />)}</div></section>}
 </Layout>

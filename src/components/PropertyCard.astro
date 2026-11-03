@@ -1,10 +1,22 @@
 ---
-import {price,type Property} from '../data/site';
+import {asset,price,type Property} from '../data/site';
+import {propertyPresentation} from '../data/property-presentation';
 import Picture from './Picture.astro';
 import Icon from './Icon.astro';
 import '../styles/catalogue.css';
 interface Props {property:Property;compact?:boolean;class?:string;hidden?:boolean;}
 const {property:p,compact=false,class:className='',hidden=false}=Astro.props;
+const presentation=propertyPresentation(p.title);
+const imageAsset=p.image?asset(p.image):null;
+const imageAspect=imageAsset?(imageAsset.renderWidth||imageAsset.width||1)/(imageAsset.renderHeight||imageAsset.height||1):1;
+// Cover needs enough source pixels for the authored portrait crop, not only its visible width.
+const mobileCover=Math.max(1,imageAspect*(compact?380/342:285/342));
+const mobileCoverSize=`calc(${Number((100*mobileCover).toFixed(3))}vw - ${Number((48*mobileCover).toFixed(3))}px)`;
+const imageSizes=compact
+ ? `(max-width: 700px) ${mobileCoverSize}, ${Math.ceil(Math.max(350,513*imageAspect))}px`
+ : imageAspect>2
+  ? `(max-width: 700px) ${mobileCoverSize}, (max-width: 1000px) 45vw, 414px`
+  : '(max-width: 700px) calc(100vw - 48px), (max-width: 1000px) 45vw, 414px';
 const sourceStatus=(p.saleStatus||p.status||'Listed').trim();
 const archived=/\b(sold|rented|archived|withdrawn|unavailable)\b|off[ -]market/i.test(sourceStatus);
 const status=archived?sourceStatus.toLowerCase():'current';
@@ -16,16 +28,21 @@ const search=[p.title,p.subtitle,p.address,p.location,p.type,p.reference,!p.isDe
 <article class:list={['property-card',{'property-card--compact':compact,'property-card--archived':archived},className]} hidden={hidden} data-property-card data-id={p.id} data-purpose={p.purpose} data-development={String(Boolean(p.isDevelopment))} data-location={p.location||''} data-type={p.type||''} data-bedrooms={p.isDevelopment?'':p.bedrooms??''} data-price={p.price??''} data-features={JSON.stringify(p.features||[])} data-status={status} data-search={search} data-title={p.title}>
  <a href={'/properties/'+p.id+'/'} class="property-card-link">
   <div class="property-media">
-   {p.image?<Picture name={p.image} alt={p.title} sizes="(max-width: 700px) calc(100vw - 48px), (max-width: 1000px) 45vw, 414px" />:<div class="property-media-empty"><Icon name="building" size={38} /><span>Photography on request</span></div>}
+   {p.image?<Picture name={p.image} alt={p.title} sizes={imageSizes} />:<div class="property-media-empty"><Icon name="building" size={38} /><span>Photography on request</span></div>}
    <div class="property-tags"><span>{label}</span></div>
   </div>
   <div class="property-info">
-   <p class="property-card-location">{p.location||p.subtitle||'Dubai'}</p>
-   <h3>{p.title}</h3>
-   <p class="property-price">{price(p.price)}{p.price&&p.price>0&&period?<span class="property-price-period">{period}</span>:null}</p>
-   {specs.length>0&&<p class="property-specs">{specs.join(' · ')}</p>}
-   {p.isDevelopment&&<p class="property-reference">Project enquiry · Residence details on request</p>}
-   {p.reference&&<p class="property-reference">Ref. {p.reference}</p>}
+   <div class="property-card-heading">
+    <p class="property-card-location">{p.location||p.subtitle||'Dubai'}</p>
+    <h3>{presentation.heading}</h3>
+    {presentation.detail&&<p class="property-card-detail">{presentation.detail}</p>}
+   </div>
+   <div class="property-card-footer">
+    <p class="property-price">{price(p.price)}{p.price&&p.price>0&&period?<span class="property-price-period">{period}</span>:null}</p>
+    {specs.length>0&&<p class="property-specs">{specs.map(spec=><span>{spec}{' '}</span>)}</p>}
+    {p.isDevelopment&&<p class="property-reference">Residence details on request</p>}
+    {p.reference&&<p class="property-reference">Ref. {p.reference}</p>}
+   </div>
   </div>
  </a>
 </article>

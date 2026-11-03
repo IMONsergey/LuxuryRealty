@@ -1,0 +1,382 @@
+{
+  "schemaVersion": 1,
+  "type": "manual-properties-visual-review-receipt",
+  "reviewer": "/root/visual_css_audit",
+  "receiptCreatedAt": "2026-11-03T13:19:12.645144+00:00",
+  "reviewOnly": true,
+  "artifactOnlyWrite": true,
+  "newBrowserChecksPerformed": false,
+  "sourceFilesModifiedByThisReceipt": [],
+  "newScreenshotsCreatedByThisReceipt": [],
+  "scopeAccepted": true,
+  "overall": false,
+  "failClosed": true,
+  "notAFinalGateApproval": true,
+  "overallReason": "Accepts only explicitly listed, previously captured round-3 frames and narrowly described contracts. Does not approve the entire site, unseen states or the separate final gate job.",
+  "excludedFinalJob": "20261103T131542-a6e3f5a6cd",
+  "captureBinding": {
+    "round": 3,
+    "sourceRoot": "/home/sergey/Projects/LuxuryRealty-visual-20261103",
+    "sourceHead": "b1e9ac15f598d1646220764f3ef7e2945eaa3c5a",
+    "sourceMode": "explicit-existing-static-build",
+    "captureStartedAt": "2026-11-03T13:07:33.711Z",
+    "captureFinishedAt": "2026-11-03T13:10:36.973Z",
+    "sourceDrift": [],
+    "captureReport": {
+      "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/global-visual-20261103/round-3/visual/visual-audit-report.json",
+      "sha256": "70c82d4788376c8ef2e7bf1560cdbed4db0c322e13bae85ab2c4b1bbcd45acd2"
+    },
+    "staticBundle": {
+      "root": "/home/sergey/Projects/LuxuryRealty-visual-20261103/.vercel/output/static",
+      "count": 145,
+      "sha256": "57c1429d98f0fcc6d2bf4814e2bb35dd2ff1947abb68eab8263a8e51b9721327",
+      "manifest": "static-bundle-before.json"
+    },
+    "capturedSourceHashes": {
+      "src/components/PropertyCard.astro": "42e11e9426d5b01fe788d0f01774d165b4836294520f175400dc210f709d62d7",
+      "src/pages/properties/[slug].astro": "d9a6e490517fb803209869cd2a8a5ef7e89b74abc3f4a82dc75928b0db0d2a7d",
+      "src/styles/catalogue.css": "180317ba1646f7969727ec20d01af355450751768cd157ce51c6a5f91037c940",
+      "src/styles/global.css": "0939afc21d2597817916aaf4b3cef2b0f8aafb264617eaed5f616545706f3d64",
+      "src/data/property-presentation.ts": "6ce7a862e0c03e6ff49d63f13284d264e6c37877e098a131ab209f4824db2480",
+      "src/components/Button.astro": "1ea401a6f641418d99be12a48f880dc529fd8a7ace179f2dba43a4d22b8e4ad4",
+      "src/scripts/site.ts": "3926ad3e92d5e0d5571febe7b73c340e26515f6ae4698771efafced0ea50ecda"
+    }
+  },
+  "reviewedScreenshotCount": 9,
+  "screenshots": [
+    {
+      "file": "008-catalogue-390-content.png",
+      "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/global-visual-20261103/round-3/visual/008-catalogue-390-content.png",
+      "sha256": "06c094f4c9064c070c5b8f95e3ef93033587c2bb0ca9e3266b8dc3b9ba6e5826",
+      "actuallyViewed": true,
+      "reviewMethod": "Manual inspection of rendered PNG via Desktop Commander in this session",
+      "scope": "catalogue",
+      "scopeAccepted": true,
+      "finding": "390 px, one-column card: photo, heading, supporting phrase, price and specifications stay inside the gutter without observed overlap."
+    },
+    {
+      "file": "009-catalogue-768-content.png",
+      "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/global-visual-20261103/round-3/visual/009-catalogue-768-content.png",
+      "sha256": "2c3906acae7b40c8651e8cc6e74145ecb5d5f57018eee0032ed8d4211c2903c5",
+      "actuallyViewed": true,
+      "reviewMethod": "Manual inspection of rendered PNG via Desktop Commander in this session",
+      "scope": "catalogue",
+      "scopeAccepted": true,
+      "finding": "768 px, two-column cards: equal photo heights and aligned price/specification rows; visible title phrases remain readable."
+    },
+    {
+      "file": "011-catalogue-1440-content.png",
+      "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/global-visual-20261103/round-3/visual/011-catalogue-1440-content.png",
+      "sha256": "0f61d7064a8dd42e47718ecf94d05cb0046954ddffef8a96297cf43dc684b514",
+      "actuallyViewed": true,
+      "reviewMethod": "Manual inspection of rendered PNG via Desktop Commander in this session",
+      "scope": "catalogue",
+      "scopeAccepted": true,
+      "finding": "1440 px, sidebar and two-column grid: first-row prices and metadata align; title hierarchy is clear."
+    },
+    {
+      "file": "017-property-768-content.png",
+      "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/global-visual-20261103/round-3/visual/017-property-768-content.png",
+      "sha256": "c662a3125b827f0d8f25b05ea83858cbb91ed3246be6419ea98a7c11b2540269",
+      "actuallyViewed": true,
+      "reviewMethod": "Manual inspection of rendered PNG via Desktop Commander in this session",
+      "scope": "property-advisor",
+      "scopeAccepted": true,
+      "finding": "768 px, price/advisor at left; viewing/call/email at right. Actions are separated and appear before property photographs and description."
+    },
+    {
+      "file": "015-property-320-gallery.png",
+      "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/global-visual-20261103/round-3/visual/015-property-320-gallery.png",
+      "sha256": "4fadbfcf6f5a9ece0fcc881447ace5f6d547f7a7494143dcc77dd7648deb94b0",
+      "actuallyViewed": true,
+      "reviewMethod": "Manual inspection of rendered PNG via Desktop Commander in this session",
+      "scope": "gallery",
+      "scopeAccepted": true,
+      "finding": "320 px, complete wrapped title and one-line counter. Close, previous/next controls and caption are visible without overlap."
+    },
+    {
+      "file": "016-property-390-gallery.png",
+      "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/global-visual-20261103/round-3/visual/016-property-390-gallery.png",
+      "sha256": "64ff8cadbc26b0b1e93495efa58d403bb186a81406735527190e2030b9e40c1b",
+      "actuallyViewed": true,
+      "reviewMethod": "Manual inspection of rendered PNG via Desktop Commander in this session",
+      "scope": "gallery",
+      "scopeAccepted": true,
+      "finding": "390 px, one-line counter and complete two-line title. Close and navigation do not overlap title, image or caption."
+    },
+    {
+      "file": "015-property-320-enquiry.png",
+      "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/global-visual-20261103/round-3/visual/015-property-320-enquiry.png",
+      "sha256": "28dedec88996c55e2d3e8c407a66a87be6581f75fc48e62aca9080598bb0a5f9",
+      "actuallyViewed": true,
+      "reviewMethod": "Manual inspection of rendered PNG via Desktop Commander in this session",
+      "scope": "enquiry",
+      "scopeAccepted": true,
+      "finding": "320 px, readable context label and full heading. Initial fields and submit fit within the modal frame."
+    },
+    {
+      "file": "015-property-320-enquiry-validation-submit.png",
+      "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/global-visual-20261103/round-3/visual/015-property-320-enquiry-validation-submit.png",
+      "sha256": "bca75cfe28b694efb7678c33b6db465bd81cafd405e8a69a8ad1fb6b1e143282",
+      "actuallyViewed": true,
+      "reviewMethod": "Manual inspection of rendered PNG via Desktop Commander in this session",
+      "scope": "enquiry-validation",
+      "scopeAccepted": true,
+      "finding": "320 px, validation followed by scrolling reaches submit and overall status. Close remains available and field errors remain readable."
+    },
+    {
+      "file": "016-property-390-enquiry-validation-submit.png",
+      "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/global-visual-20261103/round-3/visual/016-property-390-enquiry-validation-submit.png",
+      "sha256": "033ba08647118adb1c1872674f70fb6af74854e5fab43537d1151262f0bfe3c3",
+      "actuallyViewed": true,
+      "reviewMethod": "Manual inspection of rendered PNG via Desktop Commander in this session",
+      "scope": "enquiry-validation",
+      "scopeAccepted": true,
+      "finding": "390 px, scrolling reaches submit while close and field errors remain visible. Overall status is below this specific frame and is not accepted from this frame alone."
+    }
+  ],
+  "titleAssertionExplanations": [
+    {
+      "name": "Source title completeness and approved presentation casing",
+      "explanation": "The former raw-H1 assumption is replaced by an exact primary heading plus every supporting phrase in the same order. Catalogue checks cover all 110 records: original data-title is exact, data-search retains the original title, and joined visible heading/detail equals the source after separator/whitespace normalization and only the two explicit case mappings below. The detail fixture retains the complete original SEO title. Unit checks retain every word and punctuation other than presentation separators, remain case-sensitive for the other 108 records, and protect ORLA/VELA/3BR/2BR.",
+      "allowedCaseMappings": [
+        {
+          "source": "EXCEPTIONAL 3BR-LOFT | DESIGNER UPGRADE | SEA VIEW",
+          "display": "Exceptional 3BR-loft | Designer upgrade | Sea view"
+        },
+        {
+          "source": "UPGRADED 2BR | MARINA VIEW | INVESTOR DEAL",
+          "display": "Upgraded 2BR | Marina view | Investor deal"
+        }
+      ],
+      "contractNotWeakened": true,
+      "implementation": {
+        "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/src/data/property-presentation.ts",
+        "sha256": "6ce7a862e0c03e6ff49d63f13284d264e6c37877e098a131ab209f4824db2480"
+      },
+      "unitContract": {
+        "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/tests/property-presentation.test.mjs",
+        "sha256": "b94fc80602ccccce9774b2d2d23f716a96f697793bb1c73305be8189daa79a3a"
+      },
+      "browserContract": {
+        "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/scripts/content-browser-qa.mjs",
+        "sha256": "717f99741c1cc0424f2bd73bea077482234e43a0371e1beceec1dacb21b37a15"
+      },
+      "limitation": "All-110 completeness is code/test evidence, not a claim of manually viewing all 110 rendered property pages."
+    },
+    {
+      "name": "Readable enquiry label and CSS uppercase presentation",
+      "explanation": "Round-2 failed because Playwright innerText includes text-transform:uppercase while the expected label used mixed case. The corrected contract checks exact textContent against data-enquiry-label, exact computed uppercase text transform, and exact rendered innerText against the same label in uppercase. It still requires no property slug in the visible label and exact preservation of submission data-context. UUID/retry/receipt checks were not changed.",
+      "contractNotWeakened": true,
+      "browserContract": {
+        "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/scripts/content-browser-qa.mjs",
+        "sha256": "717f99741c1cc0424f2bd73bea077482234e43a0371e1beceec1dacb21b37a15"
+      },
+      "functionalEvidence": {
+        "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/global-visual-20261103/round-3/functional/chromium-report.json",
+        "sha256": "636ada55f2ddcc619633a34f5b68761d32bde7636f5a805f7dc4575be65fc5a8"
+      },
+      "functionalOk": true,
+      "functionalChangedSources": [],
+      "limitation": "Functional assertions are separate from visual acceptance of the explicitly listed PNGs."
+    }
+  ],
+  "physicalImageEvidence": {
+    "sourceFile": {
+      "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/global-visual-20261103/round-3/visual/image-metrics.json",
+      "sha256": "5cfbb09b691877245cc1d8ae724770e28bad37a0e7d822350ba966bffcf65165"
+    },
+    "analysisOwner": "/root/visual_capture_matrix",
+    "method": {
+      "assetMatching": "All manifest fallback src paths and every variants[].src path",
+      "physicalDimensions": "Manifest variant width/height; fallback metadata only when no variant entry provides it",
+      "devicePixelRatio": 1,
+      "devicePixelRatioEvidence": "Original capture preferences.deviceScaleFactor",
+      "coverScale": "max(observed box width / encoded bitmap width, observed box height / encoded bitmap height) * DPR",
+      "containScale": "min(observed box width / encoded bitmap width, observed box height / encoded bitmap height) * DPR",
+      "thresholds": {
+        "bitmapEnlargement": 1.0,
+        "largeEnlargement": 1.4,
+        "epsilon": 1e-06
+      }
+    },
+    "selectedObservations": [
+      {
+        "case": "compact Palm View desktop",
+        "observationId": 79,
+        "view": "003-home-768",
+        "src": "/media/42f078d0799fc8484e53-960.webp",
+        "alt": "Palm View | Duplex Bespoke Garden Home",
+        "physicalPixels": {
+          "width": 960.0,
+          "height": 641.0
+        },
+        "observedRect": {
+          "x": 32,
+          "y": 1410.39,
+          "width": 350,
+          "height": 513,
+          "right": 382,
+          "bottom": 1923.39
+        },
+        "bitmapDevicePixelScale": {
+          "x": 0.800312,
+          "y": 0.800312,
+          "max": 0.800312,
+          "devicePixelRatio": 1.0
+        },
+        "dimensionBasis": "manifest variants",
+        "naturalDimensionsUsedForPixelScale": false,
+        "scopeAccepted": true
+      },
+      {
+        "case": "compact Palm View 320",
+        "observationId": 5,
+        "view": "001-home-320",
+        "src": "/media/42f078d0799fc8484e53-480.webp",
+        "alt": "Palm View | Duplex Bespoke Garden Home",
+        "physicalPixels": {
+          "width": 480.0,
+          "height": 321.0
+        },
+        "observedRect": {
+          "x": 24,
+          "y": 1136.22,
+          "width": 272,
+          "height": 302.22,
+          "right": 296,
+          "bottom": 1438.44
+        },
+        "bitmapDevicePixelScale": {
+          "x": 0.941495,
+          "y": 0.941495,
+          "max": 0.941495,
+          "devicePixelRatio": 1.0
+        },
+        "dimensionBasis": "manifest variants",
+        "naturalDimensionsUsedForPixelScale": false,
+        "scopeAccepted": true
+      },
+      {
+        "case": "compact 1-of-1 Palm desktop",
+        "observationId": 136,
+        "view": "004-home-1024",
+        "src": "/media/0bd73814e1b18f505f07-960.webp",
+        "alt": "1-of-1 Palm View Renovation | Incredible Must-See!",
+        "physicalPixels": {
+          "width": 960.0,
+          "height": 641.0
+        },
+        "observedRect": {
+          "x": 800,
+          "y": 1436.89,
+          "width": 350,
+          "height": 453,
+          "right": 1150,
+          "bottom": 1889.89
+        },
+        "bitmapDevicePixelScale": {
+          "x": 0.706708,
+          "y": 0.706708,
+          "max": 0.706708,
+          "devicePixelRatio": 1.0
+        },
+        "dimensionBasis": "manifest variants",
+        "naturalDimensionsUsedForPixelScale": false,
+        "scopeAccepted": true
+      },
+      {
+        "case": "compact 3BR Duplex desktop",
+        "observationId": 166,
+        "view": "005-home-1440",
+        "src": "/media/1df5d44c653b47c2d917-960.webp",
+        "alt": "3BR Duplex Loft | Amazing Upgrade | Must-be-Viewed",
+        "physicalPixels": {
+          "width": 960.0,
+          "height": 641.0
+        },
+        "observedRect": {
+          "x": 1297.5,
+          "y": 1573.39,
+          "width": 350,
+          "height": 513,
+          "right": 1647.5,
+          "bottom": 2086.39
+        },
+        "bitmapDevicePixelScale": {
+          "x": 0.800312,
+          "y": 0.800312,
+          "max": 0.800312,
+          "devicePixelRatio": 1.0
+        },
+        "dimensionBasis": "manifest variants",
+        "naturalDimensionsUsedForPixelScale": false,
+        "scopeAccepted": true
+      },
+      {
+        "case": "wide ONE mobile catalogue",
+        "observationId": 454,
+        "view": "013-project-enquiries-390",
+        "src": "/media/47b3a9a9c5c1e0fecd96-960.webp",
+        "alt": "ONE, Dorchester Collection",
+        "physicalPixels": {
+          "width": 960.0,
+          "height": 387.0
+        },
+        "observedRect": {
+          "x": 24,
+          "y": 1725.16,
+          "width": 327,
+          "height": 272.5,
+          "right": 351,
+          "bottom": 1997.66
+        },
+        "bitmapDevicePixelScale": {
+          "x": 0.704134,
+          "y": 0.704134,
+          "max": 0.704134,
+          "devicePixelRatio": 1.0
+        },
+        "dimensionBasis": "manifest variants",
+        "naturalDimensionsUsedForPixelScale": false,
+        "scopeAccepted": true
+      },
+      {
+        "case": "wide VELA mobile catalogue",
+        "observationId": 460,
+        "view": "013-project-enquiries-390",
+        "src": "/media/add5ea7ebc1151788d44-960.webp",
+        "alt": "VELA",
+        "physicalPixels": {
+          "width": 960.0,
+          "height": 387.0
+        },
+        "observedRect": {
+          "x": 24,
+          "y": 4795,
+          "width": 327,
+          "height": 272.5,
+          "right": 351,
+          "bottom": 5067.5
+        },
+        "bitmapDevicePixelScale": {
+          "x": 0.704134,
+          "y": 0.704134,
+          "max": 0.704134,
+          "devicePixelRatio": 1.0
+        },
+        "dimensionBasis": "manifest variants",
+        "naturalDimensionsUsedForPixelScale": false,
+        "scopeAccepted": true
+      }
+    ],
+    "scopeAccepted": true,
+    "limitation": "Only these selected compact/wide-card cases are accepted for source pixel sufficiency. The source file has other observations and source ceilings outside this review. CSS layout, crop ratios and authored staggering were not changed by the sizes adjustment."
+  },
+  "limits": [
+    "Manual visual acceptance applies only to visible pixels in the nine listed frames. No claim is made for offscreen content or unseen states.",
+    "The 390 validation-submit frame does not show the overall status; the 320 validation-submit frame does.",
+    "This receipt does not rerun browsers, builds, functional tests or captures and does not approve the separate final 32-case gate.",
+    "Original capture and image-metrics reports are referenced and hashed without modification."
+  ]
+}
