@@ -8,6 +8,7 @@ import Button from '../components/Button.astro';
 import PropertyCard from '../components/PropertyCard.astro';
 import ProjectCard from '../components/ProjectCard.astro';
 import Consultation from '../components/Consultation.astro';
+import FilterDialog from '../components/FilterDialog.astro';
 import InsightCard from '../components/InsightCard.astro';
 import {properties,projects,services,asset,isArchived} from '../data/site';
 import {pageContent} from '../data/content';
@@ -29,13 +30,14 @@ const storyImages=storyPhotos.map((image,i)=>({src:asset(image.url).src,alt:i===
    <form class="hero-search" action="/properties/" method="get" role="search" aria-label="Find a property">
     <label class="search-purpose"><span class="sr-only">Property collection</span><select name="purpose"><option value="buy">Buy</option><option value="rent">Rent</option><option value="developments">New projects</option></select><span aria-hidden="true"><img src="/assets/hero-chevron.svg" width="17" height="17" alt="" /></span></label>
     <label class="search-query"><span class="sr-only">Property or location</span><img src="/assets/hero-search.svg" width="25" height="25" alt="" aria-hidden="true" /><input name="q" type="search" placeholder="Enter a location, community or property" maxlength="100" /></label>
-    <a class="search-filter" href="/properties/#filters" aria-label="Open advanced property filters"><img src="/assets/hero-filter.svg" width="20" height="18" alt="" aria-hidden="true" /></a>
+    <a class="search-filter" href="/properties/#filters" data-hero-filter-open aria-controls="hero-filter-dialog" aria-haspopup="dialog" aria-label="Open advanced property filters"><img src="/assets/hero-filter.svg" width="20" height="18" alt="" aria-hidden="true" /></a>
     <button type="submit">Search</button>
    </form>
-   <a class="hero-mobile-search button button--solid" href="/properties/"><span>Find your perfect property</span><span aria-hidden="true"><Icon name="arrow-right" /></span></a>
+   <a class="hero-mobile-search button button--solid" href="/properties/#filters" data-hero-filter-open aria-controls="hero-filter-dialog" aria-haspopup="dialog"><span>Find your perfect property</span><span aria-hidden="true"><Icon name="arrow-right" /></span></a>
    <a class="hero-scroll" href="#selection"><span>Scroll to discover</span><span aria-hidden="true"><Icon name="arrow-down" /></span></a>
   </div>
  </section>
+ <FilterDialog context="hero" />
  <section class="selections" id="selection" aria-labelledby="selection-title">
   <div class="selection-heading container" data-reveal><h2 id="selection-title">Real Estate</h2><Lettering name="selections" text="Selections" /><p>Distinctive homes. Exceptional locations.</p></div>
   <div class="selection-rail" data-rail aria-label="Selected properties" tabindex="0">{selection.map(p=><PropertyCard property={p} compact />)}</div>

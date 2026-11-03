@@ -82,24 +82,36 @@ async function count(expected){await page.waitForFunction(expected=>document.que
 async function visibleIds(){return page.locator('[data-property-grid] [data-property-card]:not([hidden])').evaluateAll(nodes=>nodes.map(node=>node.dataset.id));}
 async function ids(expected){await page.waitForFunction(expected=>JSON.stringify(Array.from(document.querySelectorAll('[data-property-grid] [data-property-card]:not([hidden])')).map(node=>node.dataset.id))===JSON.stringify(expected),expected);}
 async function openFilters(){
- // Wait for the mobile initializer before inspecting the native disclosure.
- // Firefox can give the form a box while its actual controls are hidden.
  await page.locator('[data-catalogue][data-initialized="true"]').waitFor({state:'attached'});
- const disclosure=page.locator('.filter-disclosure');
- if(!await disclosure.evaluate(element=>element.open))await disclosure.locator(':scope > summary').click();
- await page.waitForFunction(()=>document.querySelector('.filter-disclosure')?.open===true);
+ if(!await page.locator('#catalogue-filter-dialog').evaluate(element=>element.open))await page.locator('[data-filter-open]').click();
+ await dialog('catalogue-filter-dialog');
  await page.locator('[data-filters] [name=location]').waitFor({state:'visible'});
 }
-async function checkValue(name,value){const locator=page.locator('[data-filters] [name="'+name+'"]');const values=await locator.evaluateAll(elements=>elements.map(element=>element.value));const index=values.indexOf(value);assert.ok(index>=0,`Missing visible filter ${name}=${value}`);await locator.nth(index).check();}
+async function applyFilters(){
+ await page.locator('[data-filters] [data-filter-apply]').click();
+ await dialog('catalogue-filter-dialog',false);
+}
+async function openFeatureOptions(){
+ const groups=await page.locator('[data-filters] details').all();
+ for(const group of groups)if(await group.locator('[name=features]').count()&&!await group.evaluate(node=>node.open))await group.locator(':scope > summary').click();
+}
+async function checkValue(name,value){const locator=page.locator('[data-filters] [name="'+name+'"]');const values=await locator.evaluateAll(elements=>elements.map(element=>element.value));const index=values.indexOf(value);assert.ok(index>=0,`Missing visible filter ${name}=${value}`);const input=locator.nth(index);if(!await input.isChecked())await input.locator('..').click();assert.equal(await input.isChecked(),true);}
 async function galleryPhoto(index,total){await page.waitForFunction(({index,total})=>{const image=document.querySelector('[data-gallery-image]');return document.querySelector('[data-gallery-counter]')?.textContent===index+' / '+total&&image?.complete&&image.naturalWidth>0&&!document.querySelector('.gallery-stage')?.hasAttribute('aria-busy');},{index,total});}
 async function idleForm(){await page.waitForFunction(()=>document.querySelector('#enquiry-dialog form')?.dataset.sending==='false');}
 async function mediaAndMenu(width){
  await visit('/');
  if(width===1440){
   const hero=page.locator('.hero-search');await hero.locator('[name=purpose]').selectOption('rent');await hero.locator('[name=q]').fill('Palm Jumeirah');
-  const advanced=new URL(await hero.locator('.search-filter').evaluate(node=>node.href));assert.equal(advanced.searchParams.get('purpose'),'rent');assert.equal(advanced.searchParams.get('q'),'Palm Jumeirah');assert.equal(advanced.hash,'#filters');
+  await hero.locator('[data-hero-filter-open]').click();await dialog('hero-filter-dialog');
+  const draft=page.locator('[data-hero-filters]');
+  assert.equal(await draft.evaluate(form=>new FormData(form).get('purpose')),'rent','The hero modal retains the entered transaction');
+  assert.equal(await draft.locator('[name=q]').inputValue(),'Palm Jumeirah','The hero modal retains the entered query');
+  await page.keyboard.press('Escape');await dialog('hero-filter-dialog',false);
   await page.setViewportSize({width:390,height:844});const mobile=page.locator('.hero-mobile-search');await mobile.waitFor({state:'visible'});
-  const mobileURL=new URL(await mobile.evaluate(node=>node.href));assert.equal(mobileURL.pathname,'/properties/');assert.equal(mobileURL.searchParams.get('purpose'),'rent','Mobile CTA retains the desktop transaction');assert.equal(mobileURL.searchParams.get('q'),'Palm Jumeirah','Mobile CTA retains the desktop query');assert.equal(mobileURL.hash,'');
+  await mobile.click();await dialog('hero-filter-dialog');
+  assert.equal(await draft.evaluate(form=>new FormData(form).get('purpose')),'rent','Mobile CTA retains the desktop transaction');
+  assert.equal(await draft.locator('[name=q]').inputValue(),'Palm Jumeirah','Mobile CTA retains the desktop query');
+  await page.keyboard.press('Escape');await dialog('hero-filter-dialog',false);
   await page.setViewportSize({width:1440,height:900});await hero.locator('[name=purpose]').selectOption('buy');await hero.locator('[name=q]').fill('');
  }
  const video=page.locator('[data-hero-film]'),control=page.locator('[data-hero-film-control]');
@@ -132,14 +144,14 @@ async function catalogueCounts(width){
   assert.ok(![card.heading,card.detail].join(' ').includes('|'),'Source separators are presentation only: '+property.id);
  }
 
- await page.locator('.purpose-tabs button[data-purpose=rent]').click();await count(26);assert.equal(await page.locator('[data-property-card]:not([hidden])[data-development=true]').count(),0);
- await page.locator('.purpose-tabs button[data-purpose=developments]').click();await count(9);assert.equal(await page.locator('[data-property-card]:not([hidden])[data-development=true]').count(),9);
- await page.locator('.purpose-tabs button[data-purpose=all]').click();await count(84);
- await openFilters();await page.locator('[name=status]').selectOption('archived');await count(26);await ids(old.slice(0,24).map(p=>p.id));
- await page.locator('[name=status]').selectOption('sold');await count(17);
- await page.locator('[name=status]').selectOption('rented');await count(9);
- await page.locator('[name=status]').selectOption('all');await count(110);
- await page.locator('[name=status]').selectOption('current');await page.locator('.purpose-tabs button[data-purpose=buy]').click();await count(49);await overflow();
+ await page.locator('[data-catalogue] button[data-purpose=rent]').click();await count(26);assert.equal(await page.locator('[data-property-card]:not([hidden])[data-development=true]').count(),0);
+ await page.locator('[data-catalogue] button[data-purpose=developments]').click();await count(9);assert.equal(await page.locator('[data-property-card]:not([hidden])[data-development=true]').count(),9);
+ await page.locator('[data-catalogue] button[data-purpose=all]').click();await count(84);
+ for(const [status,expected] of [['archived',26],['sold',17],['rented',9],['all',110]]){
+  await openFilters();await openFeatureOptions();await page.locator('[data-filters] [name=status]').selectOption(status);await applyFilters();await count(expected);
+  if(status==='archived')await ids(old.slice(0,24).map(p=>p.id));
+ }
+ await openFilters();await openFeatureOptions();await page.locator('[data-filters] [name=status]').selectOption('current');await applyFilters();await page.locator('[data-catalogue] button[data-purpose=buy]').click();await count(49);await overflow();
  await screenshot('catalogue-'+width);
  await page.evaluate(()=>sessionStorage.removeItem('luxury-realty:catalogue'));
  const archivedFixture=old[0];await visit('/properties/'+archivedFixture.id+'/');
@@ -147,23 +159,34 @@ async function catalogueCounts(width){
 }
 async function combinedFilters(width){
  await visit('/properties/');await openFilters();
- const fixture=filterFixture,chosenFeatures=fixture.features.slice(0,2);
- await page.locator('[name=location]').selectOption(fixture.location);
+ const form=page.locator('[data-filters]'),fixture=filterFixture,chosenFeatures=fixture.features.slice(0,2);
+ await form.locator('[name=location]').selectOption(fixture.location);
  await checkValue('type',fixture.type);await checkValue('bedrooms',String(fixture.bedrooms));
- await page.locator('[name=minPrice]').fill(String(fixture.price));await page.locator('[name=maxPrice]').fill(String(fixture.price));
- if(!await page.locator('.filter-features').evaluate(node=>node.open))await page.locator('.filter-features > summary').click();
- for(const feature of chosenFeatures)await checkValue('features',feature);
- await page.locator('[data-filters] [type=submit]').click();
+ await form.locator('[name=minPrice]').fill(String(fixture.price));await form.locator('[name=maxPrice]').fill(String(fixture.price));
+ await openFeatureOptions();for(const feature of chosenFeatures)await checkValue('features',feature);
+ await applyFilters();
  const expected=buy.filter(p=>p.location===fixture.location&&p.type===fixture.type&&p.bedrooms===fixture.bedrooms&&p.price===fixture.price&&chosenFeatures.every(feature=>p.features.includes(feature))).map(p=>p.id);
  assert.ok(expected.includes(fixture.id));await count(expected.length);await ids(expected.slice(0,24));
  const url=page.url();await page.reload({waitUntil:'domcontentloaded'});await count(expected.length);await ids(expected.slice(0,24));assert.equal(comparableURL(page.url()),comparableURL(url));
- await openFilters();for(const feature of chosenFeatures){const inputs=page.locator('[name=features]');const values=await inputs.evaluateAll(nodes=>nodes.map(node=>node.value));assert.equal(await inputs.nth(values.indexOf(feature)).isChecked(),true);}
- await page.locator('[name=minPrice]').fill('9000000');await page.locator('[name=maxPrice]').fill('8000000');await page.locator('[data-filters] [type=submit]').click();
- await page.waitForFunction(()=>document.querySelector('[data-price-error]')?.textContent.includes('maximum price'));assert.deepEqual(await visibleIds(),[],'An invalid range cannot broaden results');assert.equal(await page.locator('[name=minPrice]').getAttribute('aria-invalid'),'true');
- await page.reload({waitUntil:'domcontentloaded'});await page.waitForFunction(()=>document.querySelector('[data-price-error]')?.textContent.includes('maximum price'));assert.deepEqual(await visibleIds(),[]);
+ await openFilters();for(const feature of chosenFeatures){const inputs=form.locator('[name=features]');const values=await inputs.evaluateAll(nodes=>nodes.map(node=>node.value));assert.equal(await inputs.nth(values.indexOf(feature)).isChecked(),true);}
+ // Invalid drafts cannot alter the applied result set or leak into history.
+ await form.locator('[name=minPrice]').fill('9000000');await form.locator('[name=maxPrice]').fill('8000000');
+ await page.waitForFunction(()=>/maximum price/i.test(document.querySelector('[data-filters] [data-price-error]')?.textContent||''));
+ assert.equal(await form.locator('[data-filter-apply]').isDisabled(),true,'Invalid draft cannot be applied');
+ assert.equal(await form.locator('[name=minPrice]').getAttribute('aria-invalid'),'true');
+ assert.equal(comparableURL(page.url()),comparableURL(url));await count(expected.length);await ids(expected.slice(0,24));
+ await page.keyboard.press('Escape');await dialog('catalogue-filter-dialog',false);
+ await openFilters();assert.equal(Number((await form.locator('[name=minPrice]').inputValue()).replace(/[,\s]/g,'')),fixture.price,'Cancelled invalid draft is discarded');
+ await page.keyboard.press('Escape');await dialog('catalogue-filter-dialog',false);
+ // A directly linked invalid range still fails closed and survives reload.
+ await visit('/properties/?minPrice=9000000&maxPrice=8000000');assert.equal(await page.locator('[data-result-count]').innerText(),'Check your price range');assert.deepEqual(await visibleIds(),[],'An invalid URL range cannot broaden results');
+ assert.match(await page.locator('[data-empty-title]').innerText(),/price range/i);
+ const invalidURL=comparableURL(page.url());await page.reload({waitUntil:'domcontentloaded'});await page.waitForFunction(()=>document.querySelector('[data-result-count]')?.textContent==='Check your price range');assert.deepEqual(await visibleIds(),[]);assert.equal(comparableURL(page.url()),invalidURL);
  await page.locator('[data-empty-reset]').click();await count(49);
- await page.locator('.purpose-tabs button[data-purpose=rent]').click();await openFilters();await page.locator('[name=q]').fill('NoMatchingResidenceXYZ');await page.locator('[data-filters] [type=submit]').click();await count(0);await page.locator('[data-empty-reset]').click();await count(26);assert.equal(await page.locator('.purpose-tabs button[data-purpose=rent]').getAttribute('aria-pressed'),'true','Reset preserves rent');
- await page.locator('.purpose-tabs button[data-purpose=developments]').click();await openFilters();await page.locator('[name=q]').fill('NoMatchingResidenceXYZ');await page.locator('[data-filters] [type=submit]').click();await count(0);await openFilters();await page.locator('[data-filters] [type=reset]').click();await count(9);assert.equal(await page.locator('.purpose-tabs button[data-purpose=developments]').getAttribute('aria-pressed'),'true','Reset preserves developments');
+ await page.locator('[data-catalogue] button[data-purpose=rent]').click();await openFilters();await form.locator('[name=q]').fill('NoMatchingResidenceXYZ');await applyFilters();await count(0);await page.locator('[data-empty-reset]').click();await count(26);assert.equal(await page.locator('[data-catalogue] button[data-purpose=rent]').getAttribute('aria-pressed'),'true','Clear applied filters preserves rent');
+ await page.locator('[data-catalogue] button[data-purpose=developments]').click();await openFilters();await form.locator('[name=q]').fill('NoMatchingResidenceXYZ');await applyFilters();await count(0);
+ const emptyURL=comparableURL(page.url());await openFilters();await form.locator('[data-filter-reset]').click();await count(0);assert.equal(comparableURL(page.url()),emptyURL,'Reset only changes the draft');
+ assert.equal(await form.evaluate(node=>new FormData(node).get('purpose')),'developments','Reset draft preserves the transaction');await applyFilters();await count(9);assert.equal(await page.locator('[data-catalogue] button[data-purpose=developments]').getAttribute('aria-pressed'),'true','Applied reset preserves developments');
  await visit('/properties/?bedrooms=2');const exactBeds=buy.filter(p=>p.bedrooms===2);await count(exactBeds.length);assert.ok(buy.some(p=>p.bedrooms>2),'The fixture distinguishes exact from minimum bedrooms');assert.equal(await page.locator('[data-property-card]:not([hidden])').evaluateAll(nodes=>nodes.every(node=>node.dataset.bedrooms==='2')),true);
  await overflow();
 }
@@ -207,7 +230,7 @@ async function projectResidences(width){
  assert.equal(target.pathname,'/properties/');assert.equal(target.searchParams.get('purpose'),'all','The mixed project collection must preserve sale and rental offers');
  assert.ok(target.searchParams.get('q'),'The link retains the project query');
  await explore.click();await page.waitForURL(url=>comparableURL(url)===comparableURL(target));await count(26);
- assert.equal(await page.locator('.purpose-tabs button[data-purpose=all]').getAttribute('aria-pressed'),'true');
+ assert.equal(await page.locator('[data-catalogue] button[data-purpose=all]').getAttribute('aria-pressed'),'true');
  assert.equal(await page.locator('[name=status]').inputValue(),'current');
  await ids(matches.slice(0,24).map(property=>property.id));await screenshot('atlantis-matching-'+width);
  await page.getByRole('button',{name:'Page 2',exact:true}).click();await ids(matches.slice(24).map(property=>property.id));await count(26);
@@ -262,7 +285,7 @@ async function enquiry(width){
  await submit.click();assert.equal(report.mockedEnquiries.length,initialCount);assert.equal(await form.locator('[aria-invalid=true]').count(),3);
  await form.locator('[name=name]').fill('Content QA');await form.locator('[name=email]').fill('content-qa@example.invalid');await form.locator('[name=phone]').fill('+10000000000');await form.locator('[name=message]').fill('Synthetic migration verification. No real enquiry.');await form.locator('[name=consent]').check();
  apiMode='unavailable';await submit.click();await idleForm();assert.equal(report.mockedEnquiries.length,initialCount+1);assert.match(await form.locator('.form-status').innerText(),/Synthetic storage unavailable/);assert.equal(await form.locator('[name=email]').inputValue(),'content-qa@example.invalid');
- await page.keyboard.press('Escape');await trigger.click();await dialog('enquiry-dialog');apiMode='wrong-receipt';await submit.click();await idleForm();assert.notEqual(await form.getAttribute('data-complete'),'true');assert.match(await form.locator('.form-status').innerText(),/could not be confirmed/);
+ await page.keyboard.press('Escape');await dialog('enquiry-dialog',false);await trigger.click();await dialog('enquiry-dialog');apiMode='wrong-receipt';await submit.click();await idleForm();assert.notEqual(await form.getAttribute('data-complete'),'true');assert.match(await form.locator('.form-status').innerText(),/could not be confirmed/);
  const first=report.mockedEnquiries[initialCount],second=report.mockedEnquiries[initialCount+1];assert.equal(second.submissionId,first.submissionId,'Unchanged retry keeps UUID');assert.equal(second.startedAt,first.startedAt);
  await form.locator('[name=message]').fill('Changed synthetic migration verification. No real enquiry.');apiMode='field-error';await submit.click();await idleForm();const third=report.mockedEnquiries[initialCount+2];assert.notEqual(third.submissionId,first.submissionId,'Edited payload gets a new UUID');assert.equal(await form.locator('[name=email]').getAttribute('aria-invalid'),'true');
  heldResponse=new Promise(resolve=>releasePending=resolve);apiMode='held-success';await submit.click();await page.waitForFunction(()=>document.querySelector('#enquiry-dialog form')?.dataset.sending==='true');
@@ -327,7 +350,7 @@ try {
 } catch(error){
  report.error=timeout?'The 285 second suite deadline elapsed. '+errorText(error):errorText(error);process.exitCode=1;
  if(page&&!page.isClosed()){
-  try{report.failureState=await page.evaluate(()=>({url:location.href,result:document.querySelector('[data-result-count]')?.textContent,form:document.querySelector('[data-filters]')?Array.from(new FormData(document.querySelector('[data-filters]')).entries()):null,tabs:Array.from(document.querySelectorAll('.purpose-tabs button')).map(button=>({purpose:button.dataset.purpose,pressed:button.getAttribute('aria-pressed')})),visibleCards:document.querySelectorAll('[data-property-grid] [data-property-card]:not([hidden])').length,focus:document.activeElement?.outerHTML.slice(0,500)}));await screenshot('failure');}catch{}
+  try{report.failureState=await page.evaluate(()=>({url:location.href,result:document.querySelector('[data-result-count]')?.textContent,form:document.querySelector('[data-filters]')?Array.from(new FormData(document.querySelector('[data-filters]')).entries()):null,tabs:Array.from(document.querySelectorAll('[data-catalogue] button[data-purpose]')).map(button=>({purpose:button.dataset.purpose,pressed:button.getAttribute('aria-pressed')})),visibleCards:document.querySelectorAll('[data-property-grid] [data-property-card]:not([hidden])').length,focus:document.activeElement?.outerHTML.slice(0,500)}));await screenshot('failure');}catch{}
  }
 }
 finally {

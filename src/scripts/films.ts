@@ -48,5 +48,6 @@ export function setupFilms(open:OpenDialog){
    stage.append(video);void video.play().catch(()=>{status.textContent='Press play to watch the film.';});
   }
  }));
+ dialog.addEventListener('lr:dialog-closing',cleanup);
  dialog.addEventListener('close',cleanup);
 }

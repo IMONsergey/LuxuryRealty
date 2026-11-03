@@ -1,0 +1,51 @@
+---
+import Icon from './Icon.astro';
+import {properties} from '../data/site';
+import {defaultFilters,filterOptions,matchingProperties,propertyFilterRecord} from '../data/property-filters';
+import '../styles/filters.css';
+interface Props {context:'hero'|'catalogue';}
+const {context}=Astro.props;
+const id=context==='hero'?'hero-filter-dialog':'catalogue-filter-dialog';
+const records=properties.map(propertyFilterRecord);
+const options=filterOptions(records);
+const count=matchingProperties(records,defaultFilters()).length;
+const statusLabel=(status:string)=>status==='current'?'Current listings':status==='all'?'All records':status==='archived'?'Sold & rented':status.charAt(0).toUpperCase()+status.slice(1);
+const indexJson=JSON.stringify(records).replace(/</g,'\\u003c').replace(/\u2028/g,'\\u2028').replace(/\u2029/g,'\\u2029');
+---
+<dialog id={id} class="filter-dialog" data-filter-dialog={context} aria-labelledby={id+'-title'}>
+ <form class="property-filter-form" data-filters={context==='catalogue'?true:undefined} data-hero-filters={context==='hero'?true:undefined} method="get" action="/properties/" novalidate aria-label="Advanced property search">
+  <header class="filter-dialog-heading">
+   <div><p class="eyebrow">Your property search</p><h2 id={id+'-title'}>{context==='hero'?'Find your next address':'Refine your search'}</h2></div>
+   <button class="round-control filter-dialog-close" type="button" data-close-dialog aria-label="Close property filters"><Icon name="close" size={20} /></button>
+  </header>
+  <div class="filter-dialog-body">
+   <fieldset class="search-section search-purpose-section"><legend>I’m looking to</legend><div class="filter-purpose-options">
+    {[['buy','Buy'],['rent','Rent'],['developments','New projects'],['all','Explore all']].map(([value,label])=><label><input type="radio" name="purpose" value={value} checked={value==='buy'} /><span>{label}</span></label>)}
+   </div></fieldset>
+   <div class="search-section filter-location-row">
+    <label class="search-field"><span>Property or community</span><input type="search" name="q" maxlength="100" placeholder="Name, area or reference" autocomplete="off" /></label>
+    <label class="search-field"><span>Location</span><span class="search-select"><select name="location"><option value="">All locations</option>{options.location.map(location=><option value={location}>{location}</option>)}</select><Icon name="chevron-down" size={18} /></span></label>
+   </div>
+   <fieldset class="search-section"><legend>Property type</legend><div class="filter-choice-options">{options.type.map(type=><label><input type="checkbox" name="type" value={type} /><span>{type}</span></label>)}</div></fieldset>
+   {options.bedrooms.length>0&&<fieldset class="search-section"><legend>Bedrooms</legend><div class="filter-bedroom-options">{options.bedrooms.map(value=><label><input type="checkbox" name="bedrooms" value={value} aria-label={value==='0'?'Studio':value==='8+'?'8 or more bedrooms':value+' '+(value==='1'?'bedroom':'bedrooms')} /><span>{value==='0'?'Studio':value}</span></label>)}</div></fieldset>}
+   <fieldset class="search-section search-price-section"><legend>Price range <span class="filter-legend-note">AED</span></legend>
+    <div class="filter-budget-row">
+     <label class="search-field"><span>Minimum</span><span class="search-money"><span aria-hidden="true">AED</span><input type="text" name="minPrice" inputmode="numeric" maxlength="30" placeholder="No minimum" aria-describedby={id+'-price-error'} /></span></label>
+     <span class="budget-separator" aria-hidden="true"></span>
+     <label class="search-field"><span>Maximum</span><span class="search-money"><span aria-hidden="true">AED</span><input type="text" name="maxPrice" inputmode="numeric" maxlength="30" placeholder="No maximum" aria-describedby={id+'-price-error'} /></span></label>
+    </div>
+    <p class="field-error filter-range-error" id={id+'-price-error'} data-price-error role="status" aria-live="polite"></p>
+    <p class="filter-help" data-rental-price-note hidden>Rental prices use the period shown on each listing.</p>
+   </fieldset>
+   <details class="filter-extra" data-motion-disclosure><summary><span>More preferences</span><span class="filter-extra-hint">Amenities & availability</span><Icon name="plus" size={18} /></summary><div class="filter-extra-body">
+    {options.features.length>0&&<fieldset class="search-section filter-amenities"><legend>Features & amenities</legend><p class="filter-help">Homes must include every selected feature.</p><div class="filter-feature-options">{options.features.map(feature=><label><input type="checkbox" name="features" value={feature} /><span class="filter-check" aria-hidden="true"></span><span>{feature}</span></label>)}</div></fieldset>}
+    <label class="search-field filter-status-field"><span>Listing status</span><span class="search-select"><select name="status">{options.status.map(status=><option value={status}>{statusLabel(status)}</option>)}</select><Icon name="chevron-down" size={18} /></span></label>
+   </div></details>
+  </div>
+  <footer class="filter-dialog-footer">
+   <div class="filter-footer-meta"><p data-filter-count role="status" aria-live="polite" aria-atomic="true" data-count={count}>{count} properties match</p><button type="reset" class="filter-reset" data-filter-reset>Reset filters</button></div>
+   <button class="button button--solid filter-apply" type="submit" data-filter-apply><span>Show properties</span><span class="button-arrow" aria-hidden="true"><Icon name="arrow-right" size={20} /></span></button>
+  </footer>
+ </form>
+ {context==='hero'&&<script type="application/json" data-filter-index="hero" set:html={indexJson} />}
+</dialog>

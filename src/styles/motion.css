@@ -1,0 +1,62 @@
+/* Native MPA transitions retain normal links, history, scroll restoration and form navigation.
+   Supported browsers opt in; other engines keep normal document navigation. */
+@view-transition {navigation:auto}
+::view-transition-group(root),
+::view-transition-group(site-header){animation-duration:var(--motion-base,240ms);animation-timing-function:var(--ease-standard,cubic-bezier(.2,.7,.2,1))}
+::view-transition-old(root){animation:page-fade-out var(--motion-fast,160ms) ease-out both;mix-blend-mode:normal}
+::view-transition-new(root){animation:page-fade-in var(--motion-base,240ms) ease-out both;mix-blend-mode:normal}
+::view-transition-old(site-header),
+::view-transition-new(site-header){animation-duration:var(--motion-fast,160ms)}
+::view-transition{pointer-events:none}
+.site-header{view-transition-name:site-header;transition-property:background-color,padding-top,padding-bottom;transition-duration:var(--motion-fast,160ms),var(--motion-base,240ms),var(--motion-base,240ms)}
+
+@keyframes page-fade-out{from{opacity:1}to{opacity:0}}
+@keyframes page-fade-in{from{opacity:0}to{opacity:1}}
+
+/* One dialog lifecycle controls both native modal state and panel animation. */
+dialog[open]{animation:none}
+dialog[data-dialog-state]::backdrop{animation:backdrop-in var(--motion-base,240ms) ease-out both}
+dialog[data-dialog-state=closing]::backdrop{animation:backdrop-out var(--motion-fast,160ms) ease-in both}
+@keyframes backdrop-in{from{opacity:0}to{opacity:1}}
+@keyframes backdrop-out{from{opacity:1}to{opacity:0}}
+html.dialog-open body{padding-inline-end:var(--dialog-scrollbar-compensation,0px)}
+html.dialog-open .site-header{padding-inline-end:var(--dialog-scrollbar-compensation,0px)}
+dialog{scrollbar-width:thin;scrollbar-color:#ffffff32 transparent}
+dialog[open] .menu-grid nav>a{animation:menu-item-in 300ms var(--ease-calm,cubic-bezier(.22,1,.36,1)) both}
+dialog[open] .menu-grid nav>a:nth-child(2){animation-delay:18ms}
+dialog[open] .menu-grid nav>a:nth-child(3){animation-delay:36ms}
+dialog[open] .menu-grid nav>a:nth-child(4){animation-delay:54ms}
+dialog[open] .menu-grid nav>a:nth-child(5){animation-delay:72ms}
+dialog[open] .menu-grid nav>a:nth-child(6){animation-delay:90ms}
+dialog[open] .menu-grid nav>a:nth-child(7){animation-delay:108ms}
+dialog[open] .menu-grid nav>a:nth-child(8){animation-delay:126ms}
+dialog[open] .menu-grid nav>a:nth-child(9){animation-delay:144ms}
+@keyframes menu-item-in{from{opacity:.45;transform:translateY(8px)}to{opacity:1;transform:none}}
+.menu-grid nav>a .nav-arrow{transition:transform var(--motion-base,240ms) var(--ease-calm,cubic-bezier(.22,1,.36,1)),opacity var(--motion-fast,160ms)}
+.menu-grid nav>a .nav-number{transition:color var(--motion-fast,160ms)}
+.menu-grid nav>a:focus-visible .nav-arrow{transform:translate(3px,-3px)}
+.menu-grid nav>a:focus-visible .nav-number{color:var(--gold)}
+
+/* Feedback stays close to the control: small movement, no cursor or scroll effects. */
+.round-control,.menu-toggle{transition:background-color var(--motion-fast,160ms),border-color var(--motion-fast,160ms),color var(--motion-fast,160ms),transform var(--motion-base,240ms) var(--ease-calm,cubic-bezier(.22,1,.36,1))}
+.round-control:active:not(:disabled),.menu-toggle:active{transform:scale(.96)}
+.round-control[data-close-dialog] .ui-icon{transition:transform var(--motion-base,240ms) var(--ease-calm,cubic-bezier(.22,1,.36,1))}
+.button:active:not(:disabled){transform:translateY(0) scale(.985)}
+.property-media>img,.project-card>img,.insight-image img{transition-duration:650ms;transition-timing-function:var(--ease-calm,cubic-bezier(.22,1,.36,1))}
+.service-symbol .ui-icon,.filter-group summary .ui-icon{transition:transform var(--motion-base,240ms) var(--ease-calm,cubic-bezier(.22,1,.36,1))}
+.hero-scroll .ui-icon{transition:transform var(--motion-base,240ms) var(--ease-calm,cubic-bezier(.22,1,.36,1))}
+.footer-nav a,.footer-nav button,.footer-contacts a,.footer-bottom a{transition:color var(--motion-fast,160ms)}
+a.text-link,a.back-link{transition:color var(--motion-fast,160ms),text-decoration-color var(--motion-fast,160ms)}
+.form-fields input,.form-fields textarea{transition:border-color var(--motion-fast,160ms),background-color var(--motion-fast,160ms),box-shadow var(--motion-fast,160ms)}
+@media(hover:hover) and (pointer:fine){
+ .menu-grid nav>a:hover .nav-arrow{transform:translate(3px,-3px)}
+ .menu-grid nav>a:hover .nav-number{color:var(--gold)}
+ .round-control[data-close-dialog]:hover .ui-icon{transform:rotate(90deg)}
+ .hero-scroll:hover .ui-icon{transform:translateY(4px)}
+}
+@media(prefers-reduced-motion:reduce){
+ @view-transition{navigation:none}
+ ::view-transition-group(*),::view-transition-old(*),::view-transition-new(*){animation:none!important}
+ dialog[data-dialog-state]::backdrop,dialog[open] .menu-grid nav>a{animation:none}
+ .menu-grid nav>a .nav-arrow,.round-control .ui-icon,.round-control,.menu-toggle,.hero-scroll .ui-icon,.button{transform:none!important}
+}

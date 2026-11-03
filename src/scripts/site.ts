@@ -1,5 +1,8 @@
 import {gsap} from 'gsap';
-import './catalogue';
+import {setupCatalogue} from './catalogue';
+import {setupHeroFilters} from './hero-filters';
+import {setupDialogs,openDialog,closeDialog} from './dialogs';
+import {setupMotion} from './motion';
 import './hero-film';
 import {setupFilms} from './films';
 import {ScrollTrigger} from 'gsap/ScrollTrigger';
@@ -13,53 +16,18 @@ function toast(message:string){
  node.textContent=message;node.classList.add('is-visible');
  clearTimeout(toastTimer);toastTimer=setTimeout(()=>node.classList.remove('is-visible'),4200);
 }
-// Advanced search continues the criteria already entered in the hero.
-const heroSearch=$<HTMLFormElement>('.hero-search');
-if(heroSearch){
- const advanced=$<HTMLAnchorElement>('.search-filter',heroSearch);
- const mobileSearch=$<HTMLAnchorElement>('.hero-mobile-search');
- const updateAdvanced=()=>{
-  const data=new FormData(heroSearch),params=new URLSearchParams();
-  const purpose=String(data.get('purpose')||'buy'),query=String(data.get('q')||'').trim();
-  if(['rent','developments'].includes(purpose))params.set('purpose',purpose);
-  if(query)params.set('q',query);
-  const url='/properties/'+(params.size?'?'+params.toString():'');
-  if(advanced)advanced.href=url+'#filters';
-  if(mobileSearch)mobileSearch.href=url;
- };
- heroSearch.addEventListener('input',updateAdvanced);heroSearch.addEventListener('change',updateAdvanced);
- advanced?.addEventListener('click',updateAdvanced);mobileSearch?.addEventListener('click',updateAdvanced);window.addEventListener('pageshow',updateAdvanced);updateAdvanced();
-}
-const dialogTriggers=new WeakMap<HTMLDialogElement,HTMLElement>();
-function openDialog(dialog:HTMLDialogElement,trigger?:HTMLElement){
- const previous=trigger?.closest<HTMLDialogElement>('dialog[open]');
- const returnTarget=previous&&previous!==dialog?dialogTriggers.get(previous):trigger;
- $$<HTMLDialogElement>('dialog[open]').forEach(other=>{if(other!==dialog)other.close();});
- if(returnTarget)dialogTriggers.set(dialog,returnTarget);
- if(!dialog.open){dialog.showModal();dialog.scrollTo({top:0,left:0,behavior:'instant'});}
- document.body.classList.add('dialog-open');document.documentElement.classList.add('dialog-open');
-}
-$$<HTMLDialogElement>('dialog').forEach(dialog=>{
- dialog.addEventListener('close',()=>{
-  const anyOpen=!!$('dialog[open]');document.body.classList.toggle('dialog-open',anyOpen);document.documentElement.classList.toggle('dialog-open',anyOpen);
-  if(dialog.id==='site-menu')$('.menu-toggle')?.setAttribute('aria-expanded','false');
-  const trigger=dialogTriggers.get(dialog);
-  if(trigger?.isConnected&&!$('dialog[open]'))trigger.focus({preventScroll:true});
- });
- dialog.addEventListener('click',event=>{
-  if(event.target===dialog){
-   const r=dialog.getBoundingClientRect();const e=event as MouseEvent;
-   if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close();
-  }
- });
-});
+setupDialogs();
+setupCatalogue(openDialog,closeDialog);
+setupHeroFilters(openDialog,closeDialog);
 setupFilms(openDialog);
-$$<HTMLButtonElement>('[data-close-dialog]').forEach(button=>button.addEventListener('click',()=>button.closest('dialog')?.close()));
 const menu=$<HTMLDialogElement>('#site-menu');
 $('.menu-toggle')?.addEventListener('click',event=>{
- if(menu){openDialog(menu,event.currentTarget as HTMLElement);$('.menu-toggle')?.setAttribute('aria-expanded','true');}
+ if(menu)openDialog(menu,event.currentTarget as HTMLElement);
 });
-$$<HTMLAnchorElement>('#site-menu nav a').forEach(link=>link.addEventListener('click',()=>menu?.close()));
+$$<HTMLAnchorElement>('#site-menu nav a').forEach(link=>link.addEventListener('click',event=>{
+ if(event.button!==0||event.metaKey||event.ctrlKey||event.shiftKey||event.altKey)return;
+ if(menu)closeDialog(menu,{immediate:true,restoreFocus:false});
+}));
 function syncCurrentNavigation(){
  const currentPurpose=new URLSearchParams(location.search).get('purpose')||'buy';
  $$<HTMLAnchorElement>('#site-menu nav a').forEach(link=>{
@@ -352,54 +320,64 @@ motion.add('(prefers-reduced-motion: no-preference)',()=>{
  const title=$('[data-hero-title]');
  // History restoration should not replay the opening scene below the fold.
  if(title&&scrollY<100){
-  const intro=gsap.timeline({defaults:{duration:.9,ease:'power3.out',clearProps:'transform,opacity'}});
-  intro.from(title.children,{y:26,opacity:0,stagger:.1},0);
+  const intro=gsap.timeline({defaults:{duration:.65,ease:'power3.out',clearProps:'transform,opacity'}});
+  intro.from(title.children,{y:20,opacity:0,stagger:.08},0);
   intro.from('.hero-lettering',{y:16,opacity:0},.15);
   intro.from('.hero-intro',{y:18,opacity:0},.25);
  }
- $$<HTMLElement>('[data-reveal]').forEach(element=>gsap.from(element,{y:28,opacity:.2,duration:.85,ease:'power2.out',clearProps:'transform,opacity',scrollTrigger:{trigger:element,start:'top 92%',once:true}}));
 });
 motion.add('(min-width:1000px) and (hover:hover) and (pointer:fine) and (prefers-reduced-motion: no-preference)',()=>{
  const hero=$('[data-hero-parallax]');
- if(hero)gsap.to(hero,{y:90,ease:'none',scrollTrigger:{trigger:'.home-hero',start:'top top',end:'bottom top',scrub:.45}});
+ if(hero)gsap.to(hero,{y:48,ease:'none',scrollTrigger:{trigger:'.home-hero',start:'top top',end:'bottom top',scrub:.45}});
 });
 
-// Native details stay usable without JS; enhancement preserves rapid reversals and reduced motion.
-const services=$$<HTMLDetailsElement>('.service');
-const serviceStates=new Map<HTMLDetailsElement,{open:boolean;animation:Animation|null}>();
+// Native details remain usable without JS; enhancement supports rapid reversal and reduced motion.
+const disclosures=$$<HTMLDetailsElement>('.service,.team-bio,[data-motion-disclosure]').filter(item=>item.matches('.service')||!item.hasAttribute('name'));
+const disclosureStates=new Map<HTMLDetailsElement,{open:boolean;animation:Animation|null;generation:number}>();
 let refreshFrame=0;
 function refreshMotion(){if(!refreshFrame)refreshFrame=requestAnimationFrame(()=>{
  refreshFrame=0;
- // An empty refresh has no layout to update and can clear WebKit's scroll.
+ // An empty refresh can clear WebKit scroll and has no layout to update.
  if(ScrollTrigger.getAll().length)ScrollTrigger.refresh();
 });}
-function setService(service:HTMLDetailsElement,open:boolean){
- const state=serviceStates.get(service)!;const summary=$<HTMLElement>('summary',service)!;
- const currentHeight=service.getBoundingClientRect().height;
- state.animation?.cancel();state.animation=null;state.open=open;service.dataset.motionOpen=String(open);
- if(open)service.open=true;
- service.style.height='';
- const endHeight=open?service.getBoundingClientRect().height:summary.getBoundingClientRect().height+parseFloat(getComputedStyle(service).borderTopWidth)+parseFloat(getComputedStyle(service).borderBottomWidth);
- const finish=()=>{service.open=state.open;service.style.height='';service.style.overflow='';state.animation=null;refreshMotion();};
- if(reduceMotion.matches||Math.abs(endHeight-currentHeight)<1){finish();return;}
- service.style.overflow='hidden';
- state.animation=service.animate([{height:currentHeight+'px'},{height:endHeight+'px'}],{duration:280,easing:'cubic-bezier(.22,1,.36,1)'});
+function setDisclosure(disclosure:HTMLDetailsElement,open:boolean){
+ const state=disclosureStates.get(disclosure)!;
+ const currentHeight=disclosure.getBoundingClientRect().height;
+ const generation=++state.generation;
+ state.animation?.cancel();state.animation=null;state.open=open;disclosure.dataset.motionOpen=String(open);
+ if(open)disclosure.open=true;
+ disclosure.style.height='';
+ // Measure the native collapsed box as well: team/feature disclosures may include padding.
+ let endHeight=disclosure.getBoundingClientRect().height;
+ if(!open){disclosure.open=false;endHeight=disclosure.getBoundingClientRect().height;disclosure.open=true;}
+ const finish=()=>{if(state.generation!==generation)return;disclosure.open=state.open;disclosure.style.height='';disclosure.style.overflow='';state.animation=null;refreshMotion();};
+ if(reduceMotion.matches||typeof disclosure.animate!=='function'||Math.abs(endHeight-currentHeight)<1){finish();return;}
+ disclosure.style.overflow='hidden';
+ state.animation=disclosure.animate([{height:currentHeight+'px'},{height:endHeight+'px'}],{duration:240,easing:'cubic-bezier(.22,1,.36,1)'});
  state.animation.onfinish=finish;
 }
-services.forEach(service=>{
- service.removeAttribute('name');serviceStates.set(service,{open:service.open,animation:null});
- $<HTMLElement>('summary',service)?.addEventListener('click',event=>{
-  event.preventDefault();const open=!serviceStates.get(service)!.open;
-  if(open)services.forEach(other=>{if(other!==service&&serviceStates.get(other)!.open)setService(other,false);});
-  setService(service,open);
+disclosures.forEach(disclosure=>{
+ if(disclosure.matches('.service'))disclosure.removeAttribute('name');
+ disclosureStates.set(disclosure,{open:disclosure.open,animation:null,generation:0});
+ disclosure.addEventListener('toggle',()=>{const state=disclosureStates.get(disclosure)!;if(!state.animation){state.open=disclosure.open;disclosure.dataset.motionOpen=String(disclosure.open);}});
+ $<HTMLElement>('summary',disclosure)?.addEventListener('click',event=>{
+  event.preventDefault();const open=!disclosureStates.get(disclosure)!.open;
+  if(open&&disclosure.matches('.service'))disclosures.forEach(other=>{if(other!==disclosure&&other.matches('.service')&&disclosureStates.get(other)!.open)setDisclosure(other,false);});
+  setDisclosure(disclosure,open);
  });
 });
+function settleDisclosures(){
+ disclosures.forEach(disclosure=>{const state=disclosureStates.get(disclosure)!;state.generation++;state.animation?.cancel();state.animation=null;disclosure.open=state.open;disclosure.style.height='';disclosure.style.overflow='';});
+}
+window.addEventListener('pagehide',settleDisclosures);
 reduceMotion.addEventListener('change',()=>{
  if(!reduceMotion.matches)return;
- services.forEach(service=>{const state=serviceStates.get(service)!;state.animation?.cancel();state.animation=null;service.open=state.open;service.style.height='';service.style.overflow='';});
+ settleDisclosures();
  if(galleryImage){gsap.killTweensOf(galleryImage);gsap.set(galleryImage,{clearProps:'opacity,transform'});}
  refreshMotion();
 });
 document.fonts.ready.then(refreshMotion);
 window.addEventListener('load',refreshMotion,{once:true});
 window.addEventListener('pageshow',event=>{if(event.persisted)refreshMotion();});
+
+setupMotion();
