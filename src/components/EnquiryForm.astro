@@ -7,7 +7,7 @@ const {context='Private consultation',id='enquiry',compact=false}=Astro.props;
  <div class="form-fields">
   <label for={id+'-name'}>Full name<input id={id+'-name'} name="name" autocomplete="name" placeholder="Your name" required minlength="2" maxlength="100" /><span class="field-error" data-error-for="name"></span></label>
   <label for={id+'-email'}>Email<input id={id+'-email'} name="email" type="email" autocomplete="email" placeholder="you@example.com" required maxlength="254" /><span class="field-error" data-error-for="email"></span></label>
-  <label for={id+'-phone'}>Phone<input id={id+'-phone'} name="phone" type="tel" autocomplete="tel" placeholder="Country code and phone number" maxlength="30" /><span class="field-error" data-error-for="phone"></span></label>
+  <label for={id+'-phone'}>Phone<input id={id+'-phone'} name="phone" type="tel" autocomplete="tel" placeholder="Country code + number" maxlength="30" /><span class="field-error" data-error-for="phone"></span></label>
   <label for={id+'-message'}>What would you like to discuss?<textarea id={id+'-message'} name="message" rows="2" maxlength="2000" placeholder="A property, a preferred date, a question…"></textarea></label>
  </div>
  <div class="honeypot" aria-hidden="true"><label>Website<input name="website" tabindex="-1" autocomplete="off" /></label></div>

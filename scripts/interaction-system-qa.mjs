@@ -265,6 +265,16 @@ async function frame(selector,kind,{optional=false}={}){
   if(optional){active.skippedFrames.push({selector,reason:'Template does not expose this optional region'});return;}
   throw new Error('Expected content region missing: '+selectors.join(' or '));
  }
+ if(await locator.evaluate(element=>Boolean(element.closest('dialog[open]')))){
+  // Native validation has already focused/scrolled the first invalid field.
+  // Keep that real modal state; scrolling window here would move its inert background.
+  const before=await page.evaluate(()=>scrollY);
+  await capture(kind);
+  const after=await page.evaluate(()=>scrollY);
+  (active.frameContexts??=[]).push({kind,selector,context:'native-modal-current-state',windowYBefore:before,windowYAfter:after});
+  assert.equal(after,before,'Modal validation capture must preserve the background scroll position');
+  return;
+ }
  const top=await locator.evaluate(element=>scrollY+element.getBoundingClientRect().top);
  await scrollTo(top-104);
  await capture(kind);
@@ -475,9 +485,29 @@ async function returnedFocus(trigger){
  await page.waitForFunction(element=>document.activeElement===element,await trigger.elementHandle(),{timeout:5000});
 }
 async function focusContained(dialog){
+ const trace={dialog:await dialog.getAttribute('id'),steps:[]};
+ (active.focusTraces??=[]).push(trace);
+ const sample=async key=>{
+  const state=await dialog.evaluate(element=>{
+   const focused=document.activeElement;
+   return {open:element.open,inside:element.contains(focused),documentHasFocus:document.hasFocus(),
+    bodyFocused:focused===document.body,target:{tag:focused?.tagName||null,id:focused?.id||null,
+     name:focused?.getAttribute('name')||null,type:focused?.getAttribute('type')||null}};
+  });
+  trace.steps.push({key,...state});return state;
+ };
+ await sample('before');
  for(let index=0;index<9;index++){
-  await page.keyboard.press(index===0?'Shift+Tab':'Tab');
-  assert.equal(await dialog.evaluate(element=>element.contains(document.activeElement)),true,'Native modal must contain keyboard focus');
+  const key=index===0?'Shift+Tab':'Tab';await page.keyboard.press(key);
+  const state=await sample(key);
+  assert.equal(state.open,true,'Keyboard traversal must not close the native modal');
+  if(state.inside)continue;
+  // Native dialog keyboard traversal permits browser chrome, never background page controls.
+  // Confirmed by the immutable-preview diagnostic: BODY + hasFocus=false, then Tab returns Close.
+  assert.ok(state.bodyFocused&&!state.documentHasFocus,'Focus escaped the modal into the background document: '+JSON.stringify(state));
+  await page.keyboard.press('Tab');
+  const resumed=await sample('Tab:return-from-browser-chrome');
+  assert.ok(resumed.open&&resumed.inside&&resumed.documentHasFocus,'Tab from browser chrome must restore focus within the still-open modal');
  }
 }
 async function fieldValue(form,name){return form.evaluate((node,name)=>new FormData(node).get(name),name);}
@@ -557,7 +587,7 @@ async function backdropClose(dialog,trigger){
  await nativeDialog(await dialog.getAttribute('id'),false);await returnedFocus(trigger);await unlocked();
 }
 async function rapidToggle(dialog,trigger){
- // Repeated real Escape/trigger actions exercise interrupted exit and newly opened state.
+ // Repeated real Escape/trigger actions; reopening occurs after native close.
  for(let i=0;i<3;i++){
   await trigger.click();await page.keyboard.press('Escape');
   await nativeDialog(await dialog.getAttribute('id'),false);
@@ -709,7 +739,7 @@ async function writeReviewIndex(){
   findings:report.findings.filter(finding=>finding.view===view.key),
   pageErrors:report.pageErrors.filter(error=>error.view===view.key),assetFailures:report.assetFailures.filter(error=>error.view===view.key),
   screenshots:report.screenshots.filter(screenshot=>screenshot.view===view.key),
-  measurements:view.measurements,filterGeometry:view.filterGeometry,formReachability:view.formReachability,motionTraces:view.motionTraces
+  measurements:view.measurements,filterGeometry:view.filterGeometry,formReachability:view.formReachability,motionTraces:view.motionTraces,focusTraces:view.focusTraces,frameContexts:view.frameContexts
  }));
  await writeFile(path.join(output,'route-receipts.json'),JSON.stringify({schemaVersion:1,stage,engine,sourceHead,humanReview:'pending',plannedViews:matrix.length,actualViews:receipts.length,receipts},null,2)+'\n');
  const sections=receipts.map(view=>'<section><h2>'+escape(view.route)+' · '+view.width+'px · '+escape(view.motion)+'</h2><p>'+escape(view.key)+' — '+(view.complete?'Captured':'INCOMPLETE')+' · '+view.findings.length+' findings · '+view.checks.length+' interaction checks</p>'+(view.error?'<pre>'+escape(view.error)+'</pre>':'')+'<div class="frames">'+view.screenshots.map(shot=>'<figure><a href="'+escape(shot.file)+'"><img loading="lazy" src="'+escape(shot.file)+'" alt="'+escape(view.route+' '+shot.kind)+'"></a><figcaption><a href="'+escape(shot.file)+'">'+escape(shot.kind)+'</a> · '+shot.bytes+' bytes<br><code>'+escape(shot.sha256)+'</code></figcaption></figure>').join('')+'</div></section>').join('\n');

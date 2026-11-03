@@ -15,7 +15,7 @@ const currentBuy=matchingProperties(records,defaultFilters());
 const initialIds=new Set(currentBuy.slice(0,24).map(property=>property.id));
 ---
 <Layout title="Dubai properties for sale and rent" description="Explore homes for sale and rent in Dubai. Search by community, property type, bedrooms and price, with photographs and details for each residence.">
- <section class="page-hero"><div class="page-hero-back"><Picture name="imgRectangle21" eager /></div><div class="container"><Lettering name="dubai" text="Dubai" /><h1>Real Estate</h1><p>Find a home that reflects the way you want to live.</p></div></section>
+ <section class="page-hero page-hero--collection"><div class="page-hero-back"><Picture name="imgRectangle21" eager /></div><div class="container"><Lettering name="dubai" text="Dubai" /><h1>Real Estate</h1><p>Find a home that reflects the way you want to live.</p></div></section>
  <section class="container catalogue" data-catalogue data-page-size="24" aria-label="Property collection">
   <div class="collection-controls" id="filters">
    <div class="collection-tabs" role="group" aria-label="Transaction type">

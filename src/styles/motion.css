@@ -55,6 +55,7 @@ a.text-link,a.back-link{transition:color var(--motion-fast,160ms),text-decoratio
  .hero-scroll:hover .ui-icon{transform:translateY(4px)}
 }
 @media(prefers-reduced-motion:reduce){
+ dialog{transition:none!important}
  @view-transition{navigation:none}
  ::view-transition-group(*),::view-transition-old(*),::view-transition-new(*){animation:none!important}
  dialog[data-dialog-state]::backdrop,dialog[open] .menu-grid nav>a{animation:none}

@@ -226,3 +226,18 @@
  .collection-sort select{width:175px}
  .collection-filter-trigger{padding-inline:12px;gap:7px}
 }
+
+/* A shorter collection introduction keeps search and the first homes in view. */
+.page-hero.page-hero--collection{min-height:420px;padding:154px 0 52px}
+.page-hero.page-hero--collection .lettering{width:112px;margin-bottom:8px}
+.page-hero.page-hero--collection h1{font-size:clamp(64px,7vw,100px);line-height:1.06}
+.page-hero.page-hero--collection p{font-size:14px;line-height:1.65;margin-top:18px}
+@media(max-width:700px){
+ .page-hero.page-hero--collection{min-height:330px;padding:120px 0 28px}
+ .page-hero.page-hero--collection .lettering{width:104px;margin-bottom:8px}
+ .page-hero.page-hero--collection h1{font-size:clamp(50px,14vw,58px);line-height:1.04}
+ .page-hero.page-hero--collection p{max-width:34ch;margin-top:14px}
+ [data-catalogue] .collection-applied{gap:10px;align-items:flex-start}
+ [data-catalogue] .collection-active-filters{flex:1 1 0;padding-top:14px}
+ [data-catalogue] .collection-clear{margin:14px 0 0;min-height:44px}
+}

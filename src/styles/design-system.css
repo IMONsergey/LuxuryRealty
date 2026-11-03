@@ -58,6 +58,7 @@ body { color: var(--text-primary); }
 .section-space { padding-block: var(--section-gap); }
 .section-heading { margin-bottom: clamp(36px, 4vw, 64px); gap: clamp(28px, 5vw, 64px); }
 .section-heading > p, .muted { color: var(--text-secondary); }
+.article-heading h1, .article-prose h2 { text-wrap: balance; }
 
 /* One control language, with explicit variants and states. */
 .button {
