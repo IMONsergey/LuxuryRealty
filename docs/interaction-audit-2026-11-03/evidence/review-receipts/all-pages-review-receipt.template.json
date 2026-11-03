@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "REPLACE_WITH_ASSIGNED_OWNER",
+  "status": "in-progress",
+  "completedAt": null,
+  "captureBinding": {
+    "sourceHead": "BIND_TO_ACTUAL_SOURCE_HEAD",
+    "captureReportPath": "BIND_TO_ACTUAL_CAPTURE_REPORT",
+    "captureReportSha256": "BIND_TO_ACTUAL_REPORT_SHA256",
+    "sheetManifestPath": "BIND_TO_ACTUAL_SHEET_MANIFEST",
+    "sheetManifestSha256": "BIND_TO_ACTUAL_MANIFEST_SHA256"
+  },
+  "allocationBinding": {
+    "planPath": "all-pages-allocation-plan.json",
+    "planSha256": "BIND_TO_ACTUAL_PLAN_SHA256",
+    "assignedSheets": []
+  },
+  "reviewedSheets": [],
+  "nativeInspections": [],
+  "findings": [],
+  "coverage": {
+    "assignedSheetCount": 0,
+    "actualViewedSheetCount": 0,
+    "unreadSheets": [],
+    "overviewRoutes": [],
+    "overviewRouteWidthStates": [],
+    "nativeInspectionCount": 0
+  },
+  "limitations": [
+    "This template is not review evidence. Add only files and regions actually viewed.",
+    "Scaled whole-page sheets establish structural overview; every character and pixel at native resolution is not claimed.",
+    "Native inspection covers only the enumerated original PNGs or unresized crop regions."
+  ],
+  "releaseAcceptance": false
+}

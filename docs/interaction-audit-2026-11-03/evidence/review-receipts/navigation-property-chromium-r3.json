@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "/root/navigation_motion",
+  "sourceHead": "927684aeca30f858bcb43e998a003ab725ab8061",
+  "runtimeSourceHead": "841fc4ae9927908761e927ce91fca007d455e58d",
+  "engine": "chromium",
+  "report": "artifacts/interaction-system-20261103/focused-chromium-r3/visual-audit-report.json",
+  "reportSha256": "03e02a34444c60fb824dee397ff78a920b7eafde8641e28b2f2ae84d80b505cf",
+  "staticBundleSha256": "b7fc5b938fd20f00fedf78bfeb02751ef3183ebde6524e76a9bd95e62d9c8ddc",
+  "method": "Remote Desktop Commander read_multiple_files; every image block displayed using image(detail=original). Actual visual inspection; no browser or tests launched.",
+  "scope": "Nine enquiry/validation/validation-submit PNGs at 320/390/1440 plus initial gallery PNGs at 320/1440; no-preference motion.",
+  "actualFilesReviewed": 11,
+  "distinctImageHashesReviewed": 10,
+  "files": [
+    {
+      "file": "artifacts/interaction-system-20261103/focused-chromium-r3/017-property-320-no-preference-enquiry.png",
+      "sha256": "d187e64be3458079e91163084a0aedef61a5a65fba586c1c4c644362e833ae17",
+      "actuallyReviewed": true,
+      "reviewScale": "native-detail-original",
+      "assessment": "Short phone hint fully visible; clean wrapping; Close visible. Submit partly below initial viewport.",
+      "width": 320,
+      "height": 844
+    },
+    {
+      "file": "artifacts/interaction-system-20261103/focused-chromium-r3/017-property-320-no-preference-enquiry-validation.png",
+      "sha256": "9a4ff869b843a0dd65ddf4bbd08c4dedcc8551a2dcf7da4a5db33cde73d1d97d",
+      "actuallyReviewed": true,
+      "reviewScale": "native-detail-original",
+      "assessment": "Name focus ring and field errors readable, no collisions; Close visible.",
+      "width": 320,
+      "height": 844
+    },
+    {
+      "file": "artifacts/interaction-system-20261103/focused-chromium-r3/017-property-320-no-preference-enquiry-validation-submit.png",
+      "sha256": "9ee4ecc604d6c9bc5526c72709ac19f72d7ba24aadaf4c83fc7dcf4544d19ff1",
+      "actuallyReviewed": true,
+      "reviewScale": "native-detail-original",
+      "assessment": "Full Send enquiry button, consent error and status visible; Close stays visible.",
+      "width": 320,
+      "height": 844
+    },
+    {
+      "file": "artifacts/interaction-system-20261103/focused-chromium-r3/017-property-320-no-preference-gallery.png",
+      "sha256": "27c1d85d1a03113a2f4e97033b6173afe167fc2da39cddcb6d8beb82fab56b44",
+      "actuallyReviewed": true,
+      "reviewScale": "native-detail-original",
+      "assessment": "Three-line title fits without counter/Close collision; 1 / 18 single line; photo aspect preserved; arrows visible. Caption continues below initial viewport.",
+      "width": 320,
+      "height": 844
+    },
+    {
+      "file": "artifacts/interaction-system-20261103/focused-chromium-r3/018-property-390-no-preference-enquiry.png",
+      "sha256": "508a5953c3e60d7b3b715c624766cff80bf8c0c3ff5db1dc57b31fb06bfacc0c",
+      "actuallyReviewed": true,
+      "reviewScale": "native-detail-original",
+      "assessment": "Short phone hint fully visible; clean single-column form; Close visible. Submit partly below initial viewport.",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "file": "artifacts/interaction-system-20261103/focused-chromium-r3/018-property-390-no-preference-enquiry-validation.png",
+      "sha256": "4e138c954bdaaa24409ada578444a9dbd6f1df61a086a56e1edabb383fe498a2",
+      "actuallyReviewed": true,
+      "reviewScale": "native-detail-original",
+      "assessment": "Labels, errors and consent readable without collisions; Close visible.",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "file": "artifacts/interaction-system-20261103/focused-chromium-r3/018-property-390-no-preference-enquiry-validation-submit.png",
+      "sha256": "3ebdc1526ea423a6b112e875a80af78a75da0ccd36b3bf6b4971ab43ac0250b9",
+      "actuallyReviewed": true,
+      "reviewScale": "native-detail-original",
+      "assessment": "Full Send enquiry button and error status fit; Close stays visible.",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "file": "artifacts/interaction-system-20261103/focused-chromium-r3/019-property-1440-no-preference-enquiry.png",
+      "sha256": "f71c6ebff7bc34763a21374b5c4e6d3cc4a3fa416ae985ea287d6227b2ff7b73",
+      "actuallyReviewed": true,
+      "reviewScale": "native-detail-original",
+      "assessment": "Two-column Email/Phone row; short hint fully visible; full form and submit fit; Close visible.",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "artifacts/interaction-system-20261103/focused-chromium-r3/019-property-1440-no-preference-enquiry-validation.png",
+      "sha256": "69178f206696d02d46214b89af394b74a93cf42cb268788ea1bfe2037d6cd4fc",
+      "actuallyReviewed": true,
+      "reviewScale": "native-detail-original",
+      "assessment": "Focus ring and errors readable; full button/status and Close within viewport.",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "artifacts/interaction-system-20261103/focused-chromium-r3/019-property-1440-no-preference-enquiry-validation-submit.png",
+      "sha256": "69178f206696d02d46214b89af394b74a93cf42cb268788ea1bfe2037d6cd4fc",
+      "actuallyReviewed": true,
+      "reviewScale": "native-detail-original",
+      "assessment": "Actually displayed; byte-identical to desktop validation. Full button/status and Close within viewport.",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "artifacts/interaction-system-20261103/focused-chromium-r3/019-property-1440-no-preference-gallery.png",
+      "sha256": "3b8930d8ec7c25821c7bceb723f356651a6a9e03e8ee612d00438afa494ef319",
+      "actuallyReviewed": true,
+      "reviewScale": "native-detail-original",
+      "assessment": "Single-line title and 1 / 18 separated from Close; centered photograph; arrows and full caption visible.",
+      "width": 1440,
+      "height": 1000
+    }
+  ],
+  "blockingVisualFindings": [],
+  "observations": [
+    {
+      "file": "017-property-320-no-preference-gallery.png",
+      "severity": "minor-layout-polish",
+      "description": "Caption extends below the initial 844px viewport. Existing report records scrollHeight=892/clientHeight=844 on the native dialog. Caption is a direct dialog child, with no authored overflow clipping. This supports an internally scrollable 48px overflow, but no gesture/reachability test was performed. Root received a narrow grid-row suggestion; source remains unchanged."
+    }
+  ],
+  "verifiedCorrection": "Country code + number phone hint fully visible at 320, 390 and 1440, including the desktop half-width field.",
+  "limitations": [
+    "Static states do not establish animation smoothness.",
+    "No WebKit images reviewed.",
+    "No 390 gallery, unrelated pages or all-page sheets included.",
+    "Full/public/all-pages final acceptance is outside this receipt.",
+    "No runtime, scripts or tests changed for this review."
+  ],
+  "reviewedAt": "2026-11-03T16:22:54.167077+00:00",
+  "reportComplete": true,
+  "machineChecksPassed": true
+}

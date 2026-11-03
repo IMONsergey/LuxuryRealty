@@ -1,0 +1,13 @@
+{
+  "url": "https://luxury-realty-imon-zcda5yh6x-cdo-2844s-projects.vercel.app",
+  "sha": "f5731c313c410747c8beb76a468df3671aa5975a",
+  "runtimeSourceHead": "f5731c313c410747c8beb76a468df3671aa5975a",
+  "branch": "feat/interaction-system-20261103",
+  "deploymentId": "dpl_BBtY66ugp3ZLNoqFs4dugbb6tr7P",
+  "projectId": "prj_9iSUC97pBvn9DoD6blM9mAZm6dMu",
+  "teamId": "team_eJReJ6RtdOT99uZ8iGJFHX3r",
+  "stateVerified": "READY",
+  "target": "preview",
+  "bindingMethod": "Vercel get_deployment withGitRepoInfo=true",
+  "verifiedAt": "2026-11-03T18:22:05.661Z"
+}

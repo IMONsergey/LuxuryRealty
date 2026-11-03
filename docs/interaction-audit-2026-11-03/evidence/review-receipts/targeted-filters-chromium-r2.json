@@ -1,0 +1,40 @@
+{
+  "reviewer": "/root/filters_ux",
+  "writtenAt": "2026-11-03T16:10:16.583Z",
+  "sourceCommit": "927684aeca30f858bcb43e998a003ab725ab8061",
+  "runtimeSourceCommit": "841fc4a",
+  "sourceNote": "Parent reports only QA harness changes after runtime commit 841fc4a.",
+  "screenshotDirectory": "artifacts/interaction-system-20261103/targeted-chromium-r2",
+  "engine": "Chromium",
+  "viewportWidth": 390,
+  "method": "Opened and visually inspected the four listed original PNGs with Desktop Commander read_file; no browser or test execution by this reviewer.",
+  "reviewedPngs": [
+    "001-catalogue-390-reduce-catalogue-applied-controls.png",
+    "002-catalogue-390-no-preference-catalogue-applied-controls.png",
+    "001-catalogue-390-reduce-catalogue-filters-lower.png",
+    "002-catalogue-390-no-preference-catalogue-filters-lower.png"
+  ],
+  "observations": [
+    {
+      "scope": "Applied controls; reduce and no-preference",
+      "finding": "The Palm Jumeirah and Apartment chips, their remove icons and Clear all fit together on one row. The filter button badge shows 2, and the count/sort row and property card remain visually separated. No clipped chip text or overlapping action was seen."
+    },
+    {
+      "scope": "Lower catalogue dialog; reduce and no-preference",
+      "finding": "Amenities and listing status remain inside the scrolling body. Header, close button and full footer stay visible; Reset filters and Show properties remain aligned and legible."
+    }
+  ],
+  "resolves": [
+    {
+      "receipt": "targeted-filters-chromium-r1.json",
+      "gap": "Inline chip/Clear all layout had no dedicated visible frame.",
+      "status": "Visually verified at 390px for the two-chip state in both supplied motion modes."
+    }
+  ],
+  "issues": [],
+  "blockersFound": 0,
+  "limits": [
+    "Still-image review does not establish animation timing, focus, URL matching or native Escape behavior.",
+    "This closes only the 390px applied-chip visibility gap. The 320/1440 and WebKit final matrix remains separate."
+  ]
+}

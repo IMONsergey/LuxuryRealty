@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "/root/navigation_motion",
+  "sourceHead": "8cdced95150b35887e8cc4b3a4670b411a4b76da",
+  "engine": "chromium",
+  "report": "artifacts/interaction-system-20261103/gallery-chromium-r1/visual-audit-report.json",
+  "reportSha256": "aa17f6d6bd879a9d9b3db9a62a027aeb5741415e648b652e330dc43639d62f26",
+  "staticBundleSha256": "49505cd75cf2709a018231579814ece9462d399553c0ddebb5e76cfc3fe7e6a6",
+  "method": "One Remote Desktop Commander read_multiple_files batch; all three image blocks displayed using image(detail=original), followed by actual visual inspection. No browser or tests launched.",
+  "scope": "Initial property photo gallery at 320x844, 390x844 and 1440x1000, no-preference motion.",
+  "actualFilesReviewed": 3,
+  "files": [
+    {
+      "file": "artifacts/interaction-system-20261103/gallery-chromium-r1/001-property-320-no-preference-gallery.png",
+      "sha256": "bf266da1c7cfd65b5e7748a850073559459c4ab99e4c9ce68e10090b695c1684",
+      "width": 320,
+      "height": 844,
+      "assessment": "Three-line title fits alongside single-line counter and Close. Photograph preserves aspect ratio. Both arrows and the full two-line caption fit inside the first viewport.",
+      "actuallyReviewed": true,
+      "reviewScale": "native-detail-original"
+    },
+    {
+      "file": "artifacts/interaction-system-20261103/gallery-chromium-r1/002-property-390-no-preference-gallery.png",
+      "sha256": "5b6c321ff41cc05438ab88e1d311eef0161ad848f51269fb1d86158bf6639834",
+      "width": 390,
+      "height": 844,
+      "assessment": "Two-line title, counter and Close do not collide. Photo aspect preserved; both arrows and complete two-line caption fit within the viewport.",
+      "actuallyReviewed": true,
+      "reviewScale": "native-detail-original"
+    },
+    {
+      "file": "artifacts/interaction-system-20261103/gallery-chromium-r1/003-property-1440-no-preference-gallery.png",
+      "sha256": "2683f877872a9fd2c2b2647ca1bc43c7932882284dd394eabce4d8b25672f6c3",
+      "width": 1440,
+      "height": 1000,
+      "assessment": "Single-line title, counter and Close remain separated. Large photograph preserves ratio. Both arrows and full caption visible with adequate separation.",
+      "actuallyReviewed": true,
+      "reviewScale": "native-detail-original"
+    }
+  ],
+  "findings": [],
+  "verifiedCorrection": "The former 320px initial-viewport caption overflow is resolved by the gallery grid layout. All three inspected views show full caption and all controls without inner scrolling.",
+  "supersedesObservationIn": "artifacts/interaction-system-20261103/review-receipts/navigation-property-chromium-r3.json",
+  "limitations": [
+    "Scoped gallery layout acceptance only, not final site acceptance.",
+    "Static PNGs do not verify animation smoothness, gestures or other gallery photos.",
+    "WebKit and all-page screenshots are not part of this receipt.",
+    "No runtime, scripts or tests were edited for this review."
+  ],
+  "dialogGeometry": [
+    {
+      "view": "001-property-320-no-preference",
+      "dialogs": [
+        [
+          {
+            "id": "gallery-dialog",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 320,
+              "height": 844,
+              "right": 320,
+              "bottom": 844
+            },
+            "scrollHeight": 844,
+            "clientHeight": 844
+          }
+        ]
+      ]
+    },
+    {
+      "view": "002-property-390-no-preference",
+      "dialogs": [
+        [
+          {
+            "id": "gallery-dialog",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 390,
+              "height": 844,
+              "right": 390,
+              "bottom": 844
+            },
+            "scrollHeight": 844,
+            "clientHeight": 844
+          }
+        ]
+      ]
+    },
+    {
+      "view": "003-property-1440-no-preference",
+      "dialogs": [
+        [
+          {
+            "id": "gallery-dialog",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1440,
+              "height": 1000,
+              "right": 1440,
+              "bottom": 1000
+            },
+            "scrollHeight": 1000,
+            "clientHeight": 1000
+          }
+        ]
+      ]
+    }
+  ],
+  "reportComplete": true,
+  "machineChecksPassed": true,
+  "reviewedAt": "2026-11-03T16:27:32.398978+00:00"
+}

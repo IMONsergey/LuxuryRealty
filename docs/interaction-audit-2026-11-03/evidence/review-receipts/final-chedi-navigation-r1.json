@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "/root/navigation_motion",
+  "reviewType": "final-chedi-native-screenshot-review",
+  "createdAt": "2026-11-03T18:25:11.876Z",
+  "sourceHead": "f5731c313c410747c8beb76a468df3671aa5975a",
+  "runtimeSourceHead": "f5731c313c410747c8beb76a468df3671aa5975a",
+  "preview": "https://luxury-realty-imon-zcda5yh6x-cdo-2844s-projects.vercel.app",
+  "transport": {
+    "repository": "IMONsergey/LuxuryRealty",
+    "immutableRef": "7865f1d5e6b9efa6c3054c5f2dda1d0eab4533fa",
+    "manifestPath": "artifacts/interaction-system-20261103/git-transport/transport-manifest.json",
+    "losslessBase64Reassembly": true,
+    "allSelectedBytesAndHashesVerified": true,
+    "displayMethod": "Original-resolution lossless PNG data URLs through image(..., original); no resizing or image edits."
+  },
+  "captureReportPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/final-chedi-public-r1/report.json",
+  "captureReportSha256": "5db22269a1383d61766c17bc7d72ae641d612ed33ef4348e277e8d3663b7749a",
+  "proofPlanSha256": "4b65c6347f599019627738caa8a77df9941cc87f699cf59ed3ce0906f18242e5",
+  "harnessSha256": "5598fba908f4a06d418000fdcb4a2d0f09f6906529b5fbb23661c65183b1d831",
+  "counts": {
+    "assignedNativeFrames": 3,
+    "actuallyViewedNativeFrames": 3,
+    "uniqueRoutes": 1,
+    "routeWidthPairs": 2,
+    "overviewSheets": 0
+  },
+  "reviewedFrames": [
+    {
+      "file": "001-the-chedi-private-residences-390-joined-paragraph-3.png",
+      "canonicalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/final-chedi-public-r1/001-the-chedi-private-residences-390-joined-paragraph-3.png",
+      "sha256": "7f105858c3a6fa82ae9696670e8e2ec7bc72c63d6d4162c326a0d91823739f33",
+      "bytes": 50867,
+      "route": "/properties/the-chedi-private-residences/",
+      "kind": "joined-paragraph-3",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scrollY": 2692,
+      "displayDetail": "original",
+      "actuallyViewed": true,
+      "decision": "no-blocker-observed",
+      "findingIds": [],
+      "observations": [
+        "Both corrected spellings are clearly visible in the targeted third paragraph.",
+        "The Redefining grandeur, elegant arrival experience and serene atmosphere for personal reflection joins remain continuous; paragraph spacing is consistent."
+      ]
+    },
+    {
+      "file": "001-the-chedi-private-residences-390-description.png",
+      "canonicalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/final-chedi-public-r1/001-the-chedi-private-residences-390-description.png",
+      "sha256": "0e639f30a27794c1352c1bcc6495b76974a1732d9f409d8142e6fa95be0eb436",
+      "bytes": 61030,
+      "route": "/properties/the-chedi-private-residences/",
+      "kind": "description",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scrollY": 2136,
+      "displayDetail": "original",
+      "actuallyViewed": true,
+      "decision": "no-blocker-observed",
+      "findingIds": [],
+      "observations": [
+        "The visible third paragraph now reads glass façade with a lowercase cedilla and masterfully designed by with a normal space.",
+        "The mobile heading, body gutters and line-height remain consistent; continued content at the viewport edge is ordinary scrolling."
+      ]
+    },
+    {
+      "file": "002-the-chedi-private-residences-1440-description.png",
+      "canonicalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/final-chedi-public-r1/002-the-chedi-private-residences-1440-description.png",
+      "sha256": "511f35a722f78e2fed7b06c3cd842ef9f1e8045303fc52f68535a4d58788eae2",
+      "bytes": 158794,
+      "route": "/properties/the-chedi-private-residences/",
+      "kind": "description",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "scrollY": 1533,
+      "displayDetail": "original",
+      "actuallyViewed": true,
+      "decision": "no-blocker-observed",
+      "findingIds": [],
+      "observations": [
+        "Both corrected terms are visible in the desktop description, with normal word spacing and letter case.",
+        "The description column and sticky enquiry card remain aligned and contained; the original three sentence joins remain continuous."
+      ]
+    }
+  ],
+  "findings": [],
+  "resolvedFindings": [
+    {
+      "id": "SCOPED-NAV-SOURCE-001",
+      "previousReceiptPath": "/workspace/scratch/81f7012ea52e/luxury-review/receipts/scoped-final-navigation-r1.json",
+      "previousReceiptSha256": "4724c4717854cd29abb7d27596d255b8995004e3bb884705a037e76e8d14c00b",
+      "status": "resolved-and-visually-verified",
+      "corrections": [
+        [
+          "glass faÇade",
+          "glass façade"
+        ],
+        [
+          "masterfully designedby",
+          "masterfully designed by"
+        ]
+      ],
+      "evidenceFiles": [
+        "001-the-chedi-private-residences-390-joined-paragraph-3.png",
+        "001-the-chedi-private-residences-390-description.png",
+        "002-the-chedi-private-residences-1440-description.png"
+      ],
+      "previousReceiptChanged": false
+    }
+  ],
+  "machineEvidenceRead": {
+    "reportPassed": true,
+    "views": 2,
+    "frames": 3,
+    "findings": 0,
+    "errors": 0,
+    "pageErrors": 0,
+    "assetFailures": 0,
+    "blockedWrites": 0,
+    "paragraphCount": 6
+  },
+  "limitations": [
+    "This final receipt covers the three Chedi native frames only; earlier site-wide and interaction receipts retain their exact source bindings.",
+    "Static PNGs do not independently establish keyboard or animation behavior.",
+    "Global release acceptance remains owned by root."
+  ],
+  "humanReview": "complete",
+  "scopedVisualAcceptance": true,
+  "releaseAcceptance": false
+}

@@ -1,0 +1,1307 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-11-03T18:28:07Z",
+  "sourceHead": "f5731c313c410747c8beb76a468df3671aa5975a",
+  "runtimeSourceHead": "f5731c313c410747c8beb76a468df3671aa5975a",
+  "branch": "feat/interaction-system-20261103",
+  "preview": {
+    "url": "https://luxury-realty-imon-zcda5yh6x-cdo-2844s-projects.vercel.app",
+    "sha": "f5731c313c410747c8beb76a468df3671aa5975a",
+    "runtimeSourceHead": "f5731c313c410747c8beb76a468df3671aa5975a",
+    "branch": "feat/interaction-system-20261103",
+    "deploymentId": "dpl_BBtY66ugp3ZLNoqFs4dugbb6tr7P",
+    "projectId": "prj_9iSUC97pBvn9DoD6blM9mAZm6dMu",
+    "teamId": "team_eJReJ6RtdOT99uZ8iGJFHX3r",
+    "stateVerified": "READY",
+    "target": "preview",
+    "bindingMethod": "Vercel get_deployment withGitRepoInfo=true",
+    "verifiedAt": "2026-11-03T18:22:05.661Z"
+  },
+  "accepted": true,
+  "fileCount": 140,
+  "files": [
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/review-receipts/all-pages-allocation-bound.json",
+      "originalBytes": 71937,
+      "originalSha256": "a7c869cb8821bfad18c724d8676f984c3c3518e95169bc5e6cf7ea03ec7aa268",
+      "storedPath": "evidence/review-receipts/all-pages-allocation-bound.json",
+      "storedBytes": 71937,
+      "storedSha256": "a7c869cb8821bfad18c724d8676f984c3c3518e95169bc5e6cf7ea03ec7aa268",
+      "encoding": "original"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/review-receipts/all-pages-allocation-plan.json",
+      "originalBytes": 22885,
+      "originalSha256": "bac131988a23688719f738baae2cb5a8e0f85b75a969d4b162b05941a37db966",
+      "storedPath": "evidence/review-receipts/all-pages-allocation-plan.json",
+      "storedBytes": 22885,
+      "storedSha256": "bac131988a23688719f738baae2cb5a8e0f85b75a969d4b162b05941a37db966",
+      "encoding": "original"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/review-receipts/all-pages-coverage.json",
+      "originalBytes": 116471,
+      "originalSha256": "672c8cbd63686127b6ed203ff20583e0c19d670a095bd5ba94f68634d17e0cc2",
+      "storedPath": "evidence/review-receipts/all-pages-coverage.json",
+      "storedBytes": 116471,
+      "storedSha256": "672c8cbd63686127b6ed203ff20583e0c19d670a095bd5ba94f68634d17e0cc2",
+      "encoding": "original"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/review-receipts/all-pages-filters-r1.json",
+      "originalBytes": 105406,
+      "originalSha256": "2c16f34dbc4900922757d84e98bc564d9745808909a5106fd5f7eee34b6b72e4",
+      "storedPath": "evidence/review-receipts/all-pages-filters-r1.json",
+      "storedBytes": 105406,
+      "storedSha256": "2c16f34dbc4900922757d84e98bc564d9745808909a5106fd5f7eee34b6b72e4",
+      "encoding": "original"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/review-receipts/all-pages-navigation-r1.json",
+      "originalBytes": 104085,
+      "originalSha256": "59c76a80843974fc11352884b8b7531ff6acfcc408262d8660889e3519c604ef",
+      "storedPath": "evidence/review-receipts/all-pages-navigation-r1.json",
+      "storedBytes": 104085,
+      "storedSha256": "59c76a80843974fc11352884b8b7531ff6acfcc408262d8660889e3519c604ef",
+      "encoding": "original"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/review-receipts/all-pages-qa-r1.json",
+      "originalBytes": 107171,
+      "originalSha256": "ccb3f4badbfc2f10e1045e6d1af5647035517599f5f631dfa3a6980ea4d5dba1",
+      "storedPath": "evidence/review-receipts/all-pages-qa-r1.json",
+      "storedBytes": 107171,
+      "storedSha256": "ccb3f4badbfc2f10e1045e6d1af5647035517599f5f631dfa3a6980ea4d5dba1",
+      "encoding": "original"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/review-receipts/all-pages-review-receipt.schema.json",
+      "originalBytes": 9101,
+      "originalSha256": "42dbf98f22aae99170da8255868bd349ad5c643c87b2494207ddb5fefd181c46",
+      "storedPath": "evidence/review-receipts/all-pages-review-receipt.schema.json",
+      "storedBytes": 9101,
+      "storedSha256": "42dbf98f22aae99170da8255868bd349ad5c643c87b2494207ddb5fefd181c46",
+      "encoding": "original"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/review-receipts/all-pages-review-receipt.template.json",
+      "originalBytes": 1213,
+      "originalSha256": "36f20cfc6aadc6b6d8a20f2983dbe478c5e0e908d52c9d5fd8462a3dfa3141da",
+      "storedPath": "evidence/review-receipts/all-pages-review-receipt.template.json",
+      "storedBytes": 1213,
+      "storedSha256": "36f20cfc6aadc6b6d8a20f2983dbe478c5e0e908d52c9d5fd8462a3dfa3141da",
+      "encoding": "original"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/review-receipts/all-pages-root-r1.json",
+      "originalBytes": 106707,
+      "originalSha256": "e71a05939ea063550eca5f7a90c749f3de9d5bcda9d11474663ae2582c8f75be",
+      "storedPath": "evidence/review-receipts/all-pages-root-r1.json",
+      "storedBytes": 106707,
+      "storedSha256": "e71a05939ea063550eca5f7a90c749f3de9d5bcda9d11474663ae2582c8f75be",
+      "encoding": "original"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/review-receipts/aurora-native-review-r1.json",
+      "originalBytes": 13288,
+      "originalSha256": "29fb4d15e0745bc6a2010c86d9e41d64142b66a945ea77785dcc7082c7642782",
+      "storedPath": "evidence/review-receipts/aurora-native-review-r1.json",
+      "storedBytes": 13288,
+      "storedSha256": "29fb4d15e0745bc6a2010c86d9e41d64142b66a945ea77785dcc7082c7642782",
+      "encoding": "original"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/review-receipts/development-native-filters-r1.json",
+      "originalBytes": 6151,
+      "originalSha256": "55b0c83da437191d81ffec361ed0727ce6a52dade7041c4f483edace6d1fbcf2",
+      "storedPath": "evidence/review-receipts/development-native-filters-r1.json",
+      "storedBytes": 6151,
+      "storedSha256": "55b0c83da437191d81ffec361ed0727ce6a52dade7041c4f483edace6d1fbcf2",
+      "encoding": "original"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/review-receipts/development-native-qa-r1.json",
+      "originalBytes": 20816,
+      "originalSha256": "ecac2a40dcbf99ca368a732dad0012f402f5c0122f0d82abd9ade916cbebc1c7",
+      "storedPath": "evidence/review-receipts/development-native-qa-r1.json",
+      "storedBytes": 20816,
+      "storedSha256": "ecac2a40dcbf99ca368a732dad0012f402f5c0122f0d82abd9ade916cbebc1c7",
+      "encoding": "original"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/review-receipts/development-native-root-r1.json",
+      "originalBytes": 4227,
+      "originalSha256": "5b2e5c1125ccbdced238603e362346a4dd3826f939285c405ba4c37306ef1f5e",
+      "storedPath": "evidence/review-receipts/development-native-root-r1.json",
+      "storedBytes": 4227,
+      "storedSha256": "5b2e5c1125ccbdced238603e362346a4dd3826f939285c405ba4c37306ef1f5e",
+      "encoding": "original"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/review-receipts/final-acceptance.json",
+      "originalBytes": 12644,
+      "originalSha256": "8533c486996a0a3a45acb05fb81f7356e3392fe95a529dca38687f9e81ce6c63",
+      "storedPath": "evidence/review-receipts/final-acceptance.json",
+      "storedBytes": 12644,
+      "storedSha256": "8533c486996a0a3a45acb05fb81f7356e3392fe95a529dca38687f9e81ce6c63",
+      "encoding": "original"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/review-receipts/final-chedi-navigation-r1.json",
+      "originalBytes": 5863,
+      "originalSha256": "9404d6f226b7cfa900a0120ce343bcae4e58c448dc073310f94d70968c01706e",
+      "storedPath": "evidence/review-receipts/final-chedi-navigation-r1.json",
+      "storedBytes": 5863,
+      "storedSha256": "9404d6f226b7cfa900a0120ce343bcae4e58c448dc073310f94d70968c01706e",
+      "encoding": "original"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/review-receipts/final-map-root-r1.json",
+      "originalBytes": 1133,
+      "originalSha256": "39e9ed276e8fcdf2c3956263b3839962764af244323e587784f39148afa4eb5c",
+      "storedPath": "evidence/review-receipts/final-map-root-r1.json",
+      "storedBytes": 1133,
+      "storedSha256": "39e9ed276e8fcdf2c3956263b3839962764af244323e587784f39148afa4eb5c",
+      "encoding": "original"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/review-receipts/final-public-mobile-r1.json",
+      "originalBytes": 22758,
+      "originalSha256": "0a119530bc6db579c9885b08ac88f021fbe5a885ec96c3c37a9c96e3ea7e3d62",
+      "storedPath": "evidence/review-receipts/final-public-mobile-r1.json",
+      "storedBytes": 22758,
+      "storedSha256": "0a119530bc6db579c9885b08ac88f021fbe5a885ec96c3c37a9c96e3ea7e3d62",
+      "encoding": "original"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/review-receipts/final-public-root-r1.json",
+      "originalBytes": 5025,
+      "originalSha256": "8cfd04b8a251dc9e9ac828aa54a3cdaf5b44e12addc587e31d8089a8b860e9ef",
+      "storedPath": "evidence/review-receipts/final-public-root-r1.json",
+      "storedBytes": 5025,
+      "storedSha256": "8cfd04b8a251dc9e9ac828aa54a3cdaf5b44e12addc587e31d8089a8b860e9ef",
+      "encoding": "original"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/review-receipts/focused-filters-320-chromium-r3.json",
+      "originalBytes": 2397,
+      "originalSha256": "539015f08f1f5486594261c0abedb05f88b90464e815e009145e4a1be3ce8b23",
+      "storedPath": "evidence/review-receipts/focused-filters-320-chromium-r3.json",
+      "storedBytes": 2397,
+      "storedSha256": "539015f08f1f5486594261c0abedb05f88b90464e815e009145e4a1be3ce8b23",
+      "encoding": "original"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/review-receipts/focused-stage-acceptance.json",
+      "originalBytes": 2644,
+      "originalSha256": "b73deb2b60626490e55dd5dc539cd88642cdd2b58e85f7148c4247548aaa43ce",
+      "storedPath": "evidence/review-receipts/focused-stage-acceptance.json",
+      "storedBytes": 2644,
+      "storedSha256": "b73deb2b60626490e55dd5dc539cd88642cdd2b58e85f7148c4247548aaa43ce",
+      "encoding": "original"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/review-receipts/hero-320-focused-r3.json",
+      "originalBytes": 6473,
+      "originalSha256": "861c374d1e17a1d81496a556868d494d7c7361707fe06fafb759f15fe68c104a",
+      "storedPath": "evidence/review-receipts/hero-320-focused-r3.json",
+      "storedBytes": 6473,
+      "storedSha256": "861c374d1e17a1d81496a556868d494d7c7361707fe06fafb759f15fe68c104a",
+      "encoding": "original"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/review-receipts/hero-catalogue-r1.json",
+      "originalBytes": 24055,
+      "originalSha256": "eee0ea2257c68961c3d4b329e6c4b1552394fffe582ecc0c9c5acc41e0f73f11",
+      "storedPath": "evidence/review-receipts/hero-catalogue-r1.json",
+      "storedBytes": 24055,
+      "storedSha256": "eee0ea2257c68961c3d4b329e6c4b1552394fffe582ecc0c9c5acc41e0f73f11",
+      "encoding": "original"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/review-receipts/navigation-gallery-chromium-r1.json",
+      "originalBytes": 4400,
+      "originalSha256": "149e5e367686d12f3c18ef4eb8938fc4f04b2e1d280ae80e771dc065dbe08129",
+      "storedPath": "evidence/review-receipts/navigation-gallery-chromium-r1.json",
+      "storedBytes": 4400,
+      "storedSha256": "149e5e367686d12f3c18ef4eb8938fc4f04b2e1d280ae80e771dc065dbe08129",
+      "encoding": "original"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/review-receipts/navigation-property-chromium-r3.json",
+      "originalBytes": 7086,
+      "originalSha256": "740d62b1fa48696ccff15b42aa0321a3545af344dc72e68b38f55574a2970d0a",
+      "storedPath": "evidence/review-receipts/navigation-property-chromium-r3.json",
+      "storedBytes": 7086,
+      "storedSha256": "740d62b1fa48696ccff15b42aa0321a3545af344dc72e68b38f55574a2970d0a",
+      "encoding": "original"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/review-receipts/navigation-targeted-chromium-r1.json",
+      "originalBytes": 4337,
+      "originalSha256": "69c86e09e74d623fb2ced333728470f4d563c92b88a765fda917c45f5e02d216",
+      "storedPath": "evidence/review-receipts/navigation-targeted-chromium-r1.json",
+      "storedBytes": 4337,
+      "storedSha256": "69c86e09e74d623fb2ced333728470f4d563c92b88a765fda917c45f5e02d216",
+      "encoding": "original"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/review-receipts/root-focused-initial.json",
+      "originalBytes": 3306,
+      "originalSha256": "dff0dca6416537980b461a241c5ddf8d65cca14f080a5e8df5dcf066c20d060c",
+      "storedPath": "evidence/review-receipts/root-focused-initial.json",
+      "storedBytes": 3306,
+      "storedSha256": "dff0dca6416537980b461a241c5ddf8d65cca14f080a5e8df5dcf066c20d060c",
+      "encoding": "original"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/review-receipts/root-native-forms.json",
+      "originalBytes": 1882,
+      "originalSha256": "dfcf76b7d6a50d65b884eec4cce56535b43dc6fd81ba40712ad13a5cd0de02a5",
+      "storedPath": "evidence/review-receipts/root-native-forms.json",
+      "storedBytes": 1882,
+      "storedSha256": "dfcf76b7d6a50d65b884eec4cce56535b43dc6fd81ba40712ad13a5cd0de02a5",
+      "encoding": "original"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/review-receipts/scoped-final-filters-r1.json",
+      "originalBytes": 31635,
+      "originalSha256": "06cce57690b96a3bee259eb61cf4ab7e5b5a62f90fc4b2f9e568faea5d02ea62",
+      "storedPath": "evidence/review-receipts/scoped-final-filters-r1.json",
+      "storedBytes": 31635,
+      "storedSha256": "06cce57690b96a3bee259eb61cf4ab7e5b5a62f90fc4b2f9e568faea5d02ea62",
+      "encoding": "original"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/review-receipts/scoped-final-navigation-r1.json",
+      "originalBytes": 13887,
+      "originalSha256": "4724c4717854cd29abb7d27596d255b8995004e3bb884705a037e76e8d14c00b",
+      "storedPath": "evidence/review-receipts/scoped-final-navigation-r1.json",
+      "storedBytes": 13887,
+      "storedSha256": "4724c4717854cd29abb7d27596d255b8995004e3bb884705a037e76e8d14c00b",
+      "encoding": "original"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/review-receipts/shared-templates-r1.json",
+      "originalBytes": 4554,
+      "originalSha256": "f945a192a0e5f14d74f9c1e1d319538e2518e92992b766d06db0f52620d17d77",
+      "storedPath": "evidence/review-receipts/shared-templates-r1.json",
+      "storedBytes": 4554,
+      "storedSha256": "f945a192a0e5f14d74f9c1e1d319538e2518e92992b766d06db0f52620d17d77",
+      "encoding": "original"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/review-receipts/targeted-filters-chromium-r1.json",
+      "originalBytes": 3556,
+      "originalSha256": "f5c51238407a57fa6bbb3f0477a8596e984ec247e75698b037c05539a31f9ba0",
+      "storedPath": "evidence/review-receipts/targeted-filters-chromium-r1.json",
+      "storedBytes": 3556,
+      "storedSha256": "f5c51238407a57fa6bbb3f0477a8596e984ec247e75698b037c05539a31f9ba0",
+      "encoding": "original"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/review-receipts/targeted-filters-chromium-r2.json",
+      "originalBytes": 2031,
+      "originalSha256": "ad2b3da11aaee073a5c6fbad6ed70e91b4a609100047d1264ae41cdee7d509f5",
+      "storedPath": "evidence/review-receipts/targeted-filters-chromium-r2.json",
+      "storedBytes": 2031,
+      "storedSha256": "ad2b3da11aaee073a5c6fbad6ed70e91b4a609100047d1264ae41cdee7d509f5",
+      "encoding": "original"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/preflight/report.json",
+      "originalBytes": 16191,
+      "originalSha256": "0352f79aedb73f9ab6e0cf0ec6fcee6a610d0003bc2f0b1d2379fa0673612eac",
+      "storedPath": "evidence/reports/preflight/report.json.gz",
+      "storedBytes": 4056,
+      "storedSha256": "fc08c5ed59afccbe28f27e55ee66022a210bdba27d107ce5ca249b832404a240",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/focused-chromium-r3/visual-audit-report.json",
+      "originalBytes": 3424523,
+      "originalSha256": "03e02a34444c60fb824dee397ff78a920b7eafde8641e28b2f2ae84d80b505cf",
+      "storedPath": "evidence/reports/focused-chromium-r3/visual-audit-report.json.gz",
+      "storedBytes": 249618,
+      "storedSha256": "f6328eeef2822143b1f80b048adff93ffc81a5ee68074b1f538da57d37b88232",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/gallery-chromium-r1/visual-audit-report.json",
+      "originalBytes": 246401,
+      "originalSha256": "aa17f6d6bd879a9d9b3db9a62a027aeb5741415e648b652e330dc43639d62f26",
+      "storedPath": "evidence/reports/gallery-chromium-r1/visual-audit-report.json.gz",
+      "storedBytes": 22980,
+      "storedSha256": "19df70bf5c86d9e3f55a605cd10adb6b5c56dc616f34fc0abd86d80c5bb33aeb",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/focused-webkit-r5/visual-audit-report.json",
+      "originalBytes": 2922353,
+      "originalSha256": "b6316c58acf9b7e873817f38d023e17917fd09a80a3a0e4775d5ea44b39a6990",
+      "storedPath": "evidence/reports/focused-webkit-r5/visual-audit-report.json.gz",
+      "storedBytes": 210861,
+      "storedSha256": "fc2a9b84d49c942f5633b141af301c662a0ee6444ea762408e74e7534b5f3897",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/focused-webkit-r6/visual-audit-report.json",
+      "originalBytes": 567512,
+      "originalSha256": "7145428c1bd0c71db1e7d234e1aa516d46d2716ff55409745ac30a3d60a34c14",
+      "storedPath": "evidence/reports/focused-webkit-r6/visual-audit-report.json.gz",
+      "storedBytes": 42669,
+      "storedSha256": "d00364f89545c14295645947fb141c269ff7e66c92cec0cbc6feda4d224661e3",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/all-pages-chromium-r1/visual-audit-report.json",
+      "originalBytes": 5074712,
+      "originalSha256": "2576013b2a5f0f7b69553d046d5a52a926307539a5b48518e4e24105d89a98d7",
+      "storedPath": "evidence/reports/all-pages-chromium-r1/visual-audit-report.json.gz",
+      "storedBytes": 343862,
+      "storedSha256": "8402579150ba85199fb5b88f1955ab0d7a412884bdbbec1c38d1a1a842e251bf",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/all-pages-chromium-r1/canonical-routes.json",
+      "originalBytes": 7653,
+      "originalSha256": "0193098f0f19307b0ee95a79e86b4017718c66fcfd54eb96141a2722201293fc",
+      "storedPath": "evidence/reports/all-pages-chromium-r1/canonical-routes.json.gz",
+      "storedBytes": 2048,
+      "storedSha256": "5a7942924658ac0e1f29ec7022cf953a93512b56986a3a6736fbc1a52da32321",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/all-pages-chromium-r1/review-sheets/sheet-manifest.json",
+      "originalBytes": 1388211,
+      "originalSha256": "7111122f8a953d8e27eafbd92677f98c5a79eb738f5bade30dde9a005ee1f8de",
+      "storedPath": "evidence/reports/all-pages-chromium-r1/review-sheets/sheet-manifest.json.gz",
+      "storedBytes": 106622,
+      "storedSha256": "c21f40196da28298eb0873ae79b35ed7e7adac69dfa2d9bdfe02ce4a66420416",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/development-native-r1/report.json",
+      "originalBytes": 249619,
+      "originalSha256": "1c85994f6bac73dffe778fb4a60c19a7751a7adffe1f7ce8c0e6d9f6b91586d7",
+      "storedPath": "evidence/reports/development-native-r1/report.json.gz",
+      "storedBytes": 10855,
+      "storedSha256": "718b4c8060cc4a81bd947b4602234f5e6870340a4d18289b0ae41a08f6e82657",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/aurora-native-features-r1/report.json",
+      "originalBytes": 14135,
+      "originalSha256": "6b3188145157c76588de33b91af48a53a8db773456b18988e4e18bd68be11268",
+      "storedPath": "evidence/reports/aurora-native-features-r1/report.json.gz",
+      "storedBytes": 1153,
+      "storedSha256": "bceb21018856cb9cf503d7b9ff8dbb21b6c19bb3ed74a09fcee3991200ca0839",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/content-chromium-r5/chromium-report.json",
+      "originalBytes": 14174,
+      "originalSha256": "8f8866ee15bd585e3816e33069e6d612d74536e8f64c73a54d60fa6216b67c4f",
+      "storedPath": "evidence/reports/content-chromium-r5/chromium-report.json.gz",
+      "storedBytes": 4864,
+      "storedSha256": "a2532cc0d3280b8f518d362c01d7c1b99a183f3b1170502091d68537c111c27b",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/content-webkit-r5/webkit-report.json",
+      "originalBytes": 13812,
+      "originalSha256": "21bd8ec3b1be0184b3ab35860bdb79eba0ed9a688e47beb8ab02ec6fab9b94d3",
+      "storedPath": "evidence/reports/content-webkit-r5/webkit-report.json.gz",
+      "storedBytes": 4812,
+      "storedSha256": "f877f9c66f0d2fab8e469a1ee387d7a7d97dca2f71f66dac5fd74df3df23f927",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/scoped-content-public-r1/report.json",
+      "originalBytes": 285992,
+      "originalSha256": "68bd613aa6d50d9fc56a2ef0a42aecbc570b3133b4d82b80672edbc7792a6de7",
+      "storedPath": "evidence/reports/scoped-content-public-r1/report.json.gz",
+      "storedBytes": 24071,
+      "storedSha256": "109df03635598ba65543832c2eb9dd1b2a10dd4199702d913a821ed713091045",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/public-chromium-r1/visual-audit-report.json",
+      "originalBytes": 778498,
+      "originalSha256": "9adc533aa163f252b4340edcd7c083672197f4a60fac9c911a1980194f547e35",
+      "storedPath": "evidence/reports/public-chromium-r1/visual-audit-report.json.gz",
+      "storedBytes": 67223,
+      "storedSha256": "e7d540e390bec576b0d6e17515ace59556cc821652564d9373ff578151b55a24",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/final-chedi-public-r1/report.json",
+      "originalBytes": 28954,
+      "originalSha256": "5db22269a1383d61766c17bc7d72ae641d612ed33ef4348e277e8d3663b7749a",
+      "storedPath": "evidence/reports/final-chedi-public-r1/report.json.gz",
+      "storedBytes": 4025,
+      "storedSha256": "ae7668e97ef5f817abb5f8b470987fc86c4fd25e6d76d70535862f566b443f4c",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r1/build.log",
+      "originalBytes": 21230,
+      "originalSha256": "fd5bf9f1ce039e5e2b7a984677f43c82543b96aac58662dab65a929fc9075345",
+      "storedPath": "evidence/reports/validation-r1/build.log.gz",
+      "storedBytes": 3043,
+      "storedSha256": "66e7e0b03804fb2f23d595d832faad7748ee5fe42bd51fcabd6b68b38934061c",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r1/check.log",
+      "originalBytes": 3818,
+      "originalSha256": "1242221e48264f16ec5a58813a65a673a14d7d2d918797a41d6aca797ebba6d0",
+      "storedPath": "evidence/reports/validation-r1/check.log.gz",
+      "storedBytes": 951,
+      "storedSha256": "6135803c2cf5ab5cd49468f8e84d2a07c19a95a5d606230425f35fb4083dd99d",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r1/content-chromium.log",
+      "originalBytes": 734,
+      "originalSha256": "fd3e4e5f5c795f522c62fd7204c7bf4c7fdc577ece828d3f41b969960ec27c2b",
+      "storedPath": "evidence/reports/validation-r1/content-chromium.log.gz",
+      "storedBytes": 381,
+      "storedSha256": "adfede66f5fde1bd11986f21afe65d6ab1057f15b3f0be93af7a4c753ee6867e",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r1/content-output-audit.json",
+      "originalBytes": 639250,
+      "originalSha256": "d986305cb7a43a6575eb5079b10b355f2a4f5d66832165f830bf61bbdfa5e2b9",
+      "storedPath": "evidence/reports/validation-r1/content-output-audit.json.gz",
+      "storedBytes": 153958,
+      "storedSha256": "1408c5463b394412d5e83b28f3eab1d8c41a00347cee62fc6867d5acd2a06377",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r1/content-output.log",
+      "originalBytes": 522,
+      "originalSha256": "0507a8184185e75e9a42110d365cd5aefad462a74cd796b90c69f0997c0d756a",
+      "storedPath": "evidence/reports/validation-r1/content-output.log.gz",
+      "storedBytes": 333,
+      "storedSha256": "b280627ad3fb36189451b4eda3e0a9d2db27a2231c30e064be03154ad01e506e",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r1/report.json",
+      "originalBytes": 21105,
+      "originalSha256": "234ea8f5b16edc6edc5753868cbf93b324af65fb9450d0a2d547f6a8f59fc16e",
+      "storedPath": "evidence/reports/validation-r1/report.json.gz",
+      "storedBytes": 5287,
+      "storedSha256": "86d2d7b2b68960fb503b707280db68ceabac7009800f0e6496d1569dd090fb2b",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r10/focused-webkit.log",
+      "originalBytes": 1172,
+      "originalSha256": "ecb78d45abf9099e32265deced10a770b2dfd6f97a03c1ccfd2aca251092acbb",
+      "storedPath": "evidence/reports/validation-r10/focused-webkit.log.gz",
+      "storedBytes": 434,
+      "storedSha256": "6c7f866b92921b49b779405c7518dff67c8d466d856536474270d85731acfc3a",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r10/report.json",
+      "originalBytes": 24267,
+      "originalSha256": "46298c5282bc367b67ae780b361c39efe49367d0124f50531776a21412a556e6",
+      "storedPath": "evidence/reports/validation-r10/report.json.gz",
+      "storedBytes": 6323,
+      "storedSha256": "a0d00fd49fb1df00dab92aeb0c9eec49096cb21e902ac7b811982a6e7e6dfd46",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r11/report.json",
+      "originalBytes": 20806,
+      "originalSha256": "5e00744a13f3544cbda654a51bee6623b2dd658e440f608a65b5b27136fa3f83",
+      "storedPath": "evidence/reports/validation-r11/report.json.gz",
+      "storedBytes": 5230,
+      "storedSha256": "0131712453a1e3caed9beba77a2b60c86d34be586178ab083eaf573ff0694b0c",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r12/aurora-native-features.log",
+      "originalBytes": 0,
+      "originalSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "storedPath": "evidence/reports/validation-r12/aurora-native-features.log.gz",
+      "storedBytes": 20,
+      "storedSha256": "f61f27bd17de546264aa58f40f3aafaac7021e0ef69c17f6b1b4cd7664a037ec",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r12/native-coverage-validation.log",
+      "originalBytes": 393,
+      "originalSha256": "59d384b71adef498de90f4623bb0a5d59fd3d5d82f4e17f7e7ff4ee533945bb2",
+      "storedPath": "evidence/reports/validation-r12/native-coverage-validation.log.gz",
+      "storedBytes": 294,
+      "storedSha256": "db050ef1bdb2aeb5988efe3f62d3644720706cd7a231e7c7a8200baef3c09155",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r12/remaining-webkit.log",
+      "originalBytes": 1848,
+      "originalSha256": "501c5ff02e6f01b696db6489a691df7c1ad5935cab205e4161b5432c7cad083b",
+      "storedPath": "evidence/reports/validation-r12/remaining-webkit.log.gz",
+      "storedBytes": 644,
+      "storedSha256": "ec7fbd1db2b221e4c95a166a4fde296a4d57d45df0d060c74ea879d3f9cbcc76",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r12/report.json",
+      "originalBytes": 21946,
+      "originalSha256": "9f5694fa3d7048789d6beca898e1810d1bc955b1d03d9ecabc63b0f458eea1a1",
+      "storedPath": "evidence/reports/validation-r12/report.json.gz",
+      "storedBytes": 5603,
+      "storedSha256": "1eea419872a76a4d907f1eac453bfd3c3a4395df3bfa35cf5de6ce2ff2679582",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r12/webkit-union.json",
+      "originalBytes": 16496,
+      "originalSha256": "229adc484c5ea68ff2ae2cdaaab7a447d2df2bf7d701a595fbc0fe33fbeea1d8",
+      "storedPath": "evidence/reports/validation-r12/webkit-union.json.gz",
+      "storedBytes": 2477,
+      "storedSha256": "4c2c70d6f6617b9d4bea9dfeed6fdf8cd3de19823c158dae22d5627745e7288c",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r12/webkit-union.log",
+      "originalBytes": 662,
+      "originalSha256": "92d85305fc5a33b5337a789717e2a3e9fecaeae4515013def6af4cb65463fed3",
+      "storedPath": "evidence/reports/validation-r12/webkit-union.log.gz",
+      "storedBytes": 390,
+      "storedSha256": "870a4e8bea7dbda5be0e39882c85bf469175a845d5fce2162ecf472ab21acbe0",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r13/build.log",
+      "originalBytes": 21204,
+      "originalSha256": "a0e7f22be6d4f6029afecb0ab6c993f35173a1acbc3b99d439c22f8906388f65",
+      "storedPath": "evidence/reports/validation-r13/build.log.gz",
+      "storedBytes": 2996,
+      "storedSha256": "6b96b3a20dbf7835a248cd09f4c08d1d47cff62c97107d87ca2424852f9e1b5b",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r13/check.log",
+      "originalBytes": 3818,
+      "originalSha256": "a84c2b6a3d35f44c646c8e54a48518a0e9806a72be16c3a893f1ad75ae7d7f85",
+      "storedPath": "evidence/reports/validation-r13/check.log.gz",
+      "storedBytes": 950,
+      "storedSha256": "64c86a512cbfa31e114ca1b072daad94dd45430954d203d849cf454ee539e524",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r13/content-output.log",
+      "originalBytes": 499,
+      "originalSha256": "0a49fcad75d1a750fb67094e8f5cdadf55a5edde7040f96cda5615d8e1451939",
+      "storedPath": "evidence/reports/validation-r13/content-output.log.gz",
+      "storedBytes": 323,
+      "storedSha256": "b73caa53e70e02549f0de0501b85cf340c4ef71087fb82a1e5449bbd9e440754",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r13/report.json",
+      "originalBytes": 32556,
+      "originalSha256": "07dcf5c5e5b8df41a3e9a6176a5d491887e29c9e352d2b950b833253a8d63f2e",
+      "storedPath": "evidence/reports/validation-r13/report.json.gz",
+      "storedBytes": 6214,
+      "storedSha256": "d7e50a03895f0490215512ac799678bc625aeec5e862e849cb8ae3d70c890b8b",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r14/content-output-audit.json",
+      "originalBytes": 639581,
+      "originalSha256": "7c06f9d0a3aeb74dbbbf1d1a47c53a468971aa717852343ddbcfc8d429fdbf30",
+      "storedPath": "evidence/reports/validation-r14/content-output-audit.json.gz",
+      "storedBytes": 154003,
+      "storedSha256": "5d936616c4bf50b370a26fa7ddee1914d00bba514c4c8e230cd2fad481474e6a",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r14/content-output.log",
+      "originalBytes": 498,
+      "originalSha256": "88568143046b1c6ae31651355b503e2edceb19689c830bbb530fa75a1d285c25",
+      "storedPath": "evidence/reports/validation-r14/content-output.log.gz",
+      "storedBytes": 321,
+      "storedSha256": "46576b8d573de0f8859c0138aa525bc4ac7f674c87e81ed2068789f55f57dc2c",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r14/preview-smoke.json",
+      "originalBytes": 200337,
+      "originalSha256": "01b61999e3cc4f74c8fa28f1dfb5aae579f7c821d6bf4d98efc631809b4fded2",
+      "storedPath": "evidence/reports/validation-r14/preview-smoke.json.gz",
+      "storedBytes": 19221,
+      "storedSha256": "ffe31800f14c130f1a13ca48f902382caf81627aefd154af882e70638cf2c47a",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r14/preview-smoke.log",
+      "originalBytes": 214,
+      "originalSha256": "456773fea6cae8c18657318fd61a00523a4cd60a18cbde91f2f66a8c4f295ccd",
+      "storedPath": "evidence/reports/validation-r14/preview-smoke.log.gz",
+      "storedBytes": 179,
+      "storedSha256": "e8f4b337570a9813910480b609283a0f4b981840a850f5f57d279bfd69b1ff76",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r14/prior-content-output-audit.json",
+      "originalBytes": 639655,
+      "originalSha256": "c20e0504c679a9afda1f3ad3bea49c5d75cd55bc7e650f56e3f0a780a71a2e64",
+      "storedPath": "evidence/reports/validation-r14/prior-content-output-audit.json.gz",
+      "storedBytes": 154065,
+      "storedSha256": "19ded8431d5a51fa0cf5a9692e059569f5ec3a3d8fa460c877afe7252bc67d2c",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r14/public-focused.log",
+      "originalBytes": 609,
+      "originalSha256": "84169eba80684c852612b78f8f0205ca7c204272715d7196adf9c1471a15b900",
+      "storedPath": "evidence/reports/validation-r14/public-focused.log.gz",
+      "storedBytes": 395,
+      "storedSha256": "1b79c2c57e0c40ca4794646926d0797f79111f2f3b9f89dee8a46e8c1fa16b79",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r14/report.json",
+      "originalBytes": 35100,
+      "originalSha256": "491876569f6f1ad39f2066b2f303530dfcff31451ee30fd360889eaeeb082626",
+      "storedPath": "evidence/reports/validation-r14/report.json.gz",
+      "storedBytes": 6726,
+      "storedSha256": "7de11e477cfd0e6a4e660318be9904924135ee7593eb7570039cb400c404d51b",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r14/scoped-content-public.log",
+      "originalBytes": 341,
+      "originalSha256": "1da7bec6c59d7c1e1b2af9d22202587faa368f66b0921d9dc1b1f82f4a79d881",
+      "storedPath": "evidence/reports/validation-r14/scoped-content-public.log.gz",
+      "storedBytes": 258,
+      "storedSha256": "e588fe35473816179a6e31f30f051b15f4876b0dcac19b78f2a253a565594567",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r14/static-bundle-after.json",
+      "originalBytes": 24636,
+      "originalSha256": "86a831721081797583e4cf252b95f3fe477f09736c0340dd328d0406c01009d0",
+      "storedPath": "evidence/reports/validation-r14/static-bundle-after.json.gz",
+      "storedBytes": 9013,
+      "storedSha256": "7081a3df83096b0fba5deffb76981a30e8426ad3b5e628ac01e14215960c6bd4",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r14/static-bundle-before.json",
+      "originalBytes": 24636,
+      "originalSha256": "c7bce75032f839cca992f79df5c42f672c26da81b48779436898afdd96dd9d1e",
+      "storedPath": "evidence/reports/validation-r14/static-bundle-before.json.gz",
+      "storedBytes": 9018,
+      "storedSha256": "5ccd40324ef7f961e7e8173daf010f3cfc72daf3edca8adacf5c4cf57628e075",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r15/public-focused.log",
+      "originalBytes": 913,
+      "originalSha256": "373dda7716b23ffb0a7bc54e3df4ddc0f5c996dc92070aeb5e395699c866dd32",
+      "storedPath": "evidence/reports/validation-r15/public-focused.log.gz",
+      "storedBytes": 439,
+      "storedSha256": "e7457becd6e2fd183d612c534cc5d8f7bccd20c1dc11638f09117158c97b1249",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r15/report.json",
+      "originalBytes": 25409,
+      "originalSha256": "cf7b5e17562f2309941b467a428520a9218644e67c4caa907409868468627e43",
+      "storedPath": "evidence/reports/validation-r15/report.json.gz",
+      "storedBytes": 6751,
+      "storedSha256": "06d86c3c48f50e81237ff4f1c9195f31bc6cfb294b9cc60bd5c49e509068e99f",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r16/build.log",
+      "originalBytes": 21191,
+      "originalSha256": "08286d2919ed6377d32dff5bc6bead7c50565dab2458759062e2e0f3e4de7f49",
+      "storedPath": "evidence/reports/validation-r16/build.log.gz",
+      "storedBytes": 2995,
+      "storedSha256": "52b34f544f6bb8a8240bff2626574605a2373646df2ca612402a8efbecc47a68",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r16/check.log",
+      "originalBytes": 3818,
+      "originalSha256": "67350b1766d15c84d301f0daa1197f8b7e4e3e7e11350eb355f0d0d8dd2a5503",
+      "storedPath": "evidence/reports/validation-r16/check.log.gz",
+      "storedBytes": 946,
+      "storedSha256": "a6da3bc16f9630689076a840d23ab8eac4bcd5ab4a9d1e636b8eac6d797492cf",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r16/content-output-audit.json",
+      "originalBytes": 639581,
+      "originalSha256": "6ea050a64f239bb2a3e86d099a5e66be477d9c45cf9f44e39130dfe0ecae3345",
+      "storedPath": "evidence/reports/validation-r16/content-output-audit.json.gz",
+      "storedBytes": 154004,
+      "storedSha256": "db36a14025e8cfc6594917926def02aa56058a5fef31413c5a536359a06c9610",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r16/content-output.log",
+      "originalBytes": 498,
+      "originalSha256": "88568143046b1c6ae31651355b503e2edceb19689c830bbb530fa75a1d285c25",
+      "storedPath": "evidence/reports/validation-r16/content-output.log.gz",
+      "storedBytes": 321,
+      "storedSha256": "46576b8d573de0f8859c0138aa525bc4ac7f674c87e81ed2068789f55f57dc2c",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r16/final-chedi-public.log",
+      "originalBytes": 335,
+      "originalSha256": "397e708069dc4c0fd0ff51e276759fccb1d265232e4ed908c9607d2fa2504c89",
+      "storedPath": "evidence/reports/validation-r16/final-chedi-public.log.gz",
+      "storedBytes": 255,
+      "storedSha256": "a9a426e2c8852048cfe9377440b4a28d1e50cf5f144d3c4d9d67a4072c0589bb",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r16/preview-smoke.json",
+      "originalBytes": 200345,
+      "originalSha256": "4cceea0bc8f2776e3fdb81e795d8966d3cb3ee68aa969eba986b934abcc17b47",
+      "storedPath": "evidence/reports/validation-r16/preview-smoke.json.gz",
+      "storedBytes": 19277,
+      "storedSha256": "943df1ee550dfb5127b7b2b08b4442b06a2816f165390545857903b548855500",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r16/preview-smoke.log",
+      "originalBytes": 214,
+      "originalSha256": "456773fea6cae8c18657318fd61a00523a4cd60a18cbde91f2f66a8c4f295ccd",
+      "storedPath": "evidence/reports/validation-r16/preview-smoke.log.gz",
+      "storedBytes": 179,
+      "storedSha256": "e8f4b337570a9813910480b609283a0f4b981840a850f5f57d279bfd69b1ff76",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r16/report.json",
+      "originalBytes": 35895,
+      "originalSha256": "ff90138b7cea2a397154a9e90387a5ce8a40a3391a7e042bfa04cce0660ee77e",
+      "storedPath": "evidence/reports/validation-r16/report.json.gz",
+      "storedBytes": 7072,
+      "storedSha256": "8543403268b2761662c1a19eeff6c653a71e14b0611c3a2fa467be67d8e5e168",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r16/source-diff.patch",
+      "originalBytes": 807,
+      "originalSha256": "c3c4a13e17ca21d8d370f4021b02fe8f0fd5c0431a73bd7afe73aaaef5cee5a5",
+      "storedPath": "evidence/reports/validation-r16/source-diff.patch.gz",
+      "storedBytes": 387,
+      "storedSha256": "b0ad2a943c458f96737cbc0aa26d7d7908876dc2202c77c4e40ccb943f3b8e2c",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r16/static-bundle-after.json",
+      "originalBytes": 24636,
+      "originalSha256": "29a277c8c645753bd4e374742f9330a6f325fb7548ab43f12a9940d6275c0c12",
+      "storedPath": "evidence/reports/validation-r16/static-bundle-after.json.gz",
+      "storedBytes": 9011,
+      "storedSha256": "3a244c17820f3c5cdc237e0a6a6729b6f6c01b4cc66ef383a2f5e5adbe0711a1",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r16/static-bundle-before.json",
+      "originalBytes": 24636,
+      "originalSha256": "86a831721081797583e4cf252b95f3fe477f09736c0340dd328d0406c01009d0",
+      "storedPath": "evidence/reports/validation-r16/static-bundle-before.json.gz",
+      "storedBytes": 9013,
+      "storedSha256": "7081a3df83096b0fba5deffb76981a30e8426ad3b5e628ac01e14215960c6bd4",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r2/content-chromium.log",
+      "originalBytes": 973,
+      "originalSha256": "d6b7f48af3f1e7da74493790ae6d969d003c8c75d0350333dc342f2f4739955f",
+      "storedPath": "evidence/reports/validation-r2/content-chromium.log.gz",
+      "storedBytes": 489,
+      "storedSha256": "a3fcb0911ac01147d09312f30b5b066c809845cb2d44cdc2c500b87f5998bc70",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r2/report.json",
+      "originalBytes": 20615,
+      "originalSha256": "706e36a05ad95edee5cb4a4ae0b8a4ecfe96df12b93d88a595e6a9346e82bd3e",
+      "storedPath": "evidence/reports/validation-r2/report.json.gz",
+      "storedBytes": 5224,
+      "storedSha256": "21bd038eecaba4bf2a61fcfd27e2c1c990715cee4474dd4b388b8053323c7cbf",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r3/build.log",
+      "originalBytes": 21211,
+      "originalSha256": "9cb83b4219e4ceb63835c00d054a7c212eeeedc10f73ebee88df46e58ac94d9b",
+      "storedPath": "evidence/reports/validation-r3/build.log.gz",
+      "storedBytes": 3003,
+      "storedSha256": "a0bdf72379b9b0d113ee5e3d1872a27912d0ef1488dc003592c07eef3d096ef6",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r3/check.log",
+      "originalBytes": 3818,
+      "originalSha256": "285218b7d9ad5e012e2928846fcc56188d63ccc192aae8bb65b76171763e63f1",
+      "storedPath": "evidence/reports/validation-r3/check.log.gz",
+      "storedBytes": 952,
+      "storedSha256": "cc8fb13094d4a110aeb15e2080cab79ae785b5ae0d3b141b550f37c279c1d6cd",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r3/content-chromium.log",
+      "originalBytes": 132,
+      "originalSha256": "dd9ac822b0d5c4feb0b73493ea8503530ec2c05e3c1216c6a08359b21e309c9f",
+      "storedPath": "evidence/reports/validation-r3/content-chromium.log.gz",
+      "storedBytes": 128,
+      "storedSha256": "e175079084bf53dede0ac43f8cbd04b602f13b2316700655455babd91f108085",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r3/content-output-audit.json",
+      "originalBytes": 639250,
+      "originalSha256": "6bc88f1c102914c3340403a480ca7bd0c4b337d7173ef4525261a6528882819b",
+      "storedPath": "evidence/reports/validation-r3/content-output-audit.json.gz",
+      "storedBytes": 153955,
+      "storedSha256": "78175c22be7e84910a6feea6fa76fefa4be032167d02e34d9b3c2e339ad6723c",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r3/content-output.log",
+      "originalBytes": 522,
+      "originalSha256": "ab5e484203d8ae51089a81f85d526cd13f27d41eb9853442ad2250ae54f18a23",
+      "storedPath": "evidence/reports/validation-r3/content-output.log.gz",
+      "storedBytes": 332,
+      "storedSha256": "142453cd2485b9dfbd4e54eea5ee4c39c9f8ff982fa228529f96c2ab50e06f7f",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r3/report.json",
+      "originalBytes": 10755,
+      "originalSha256": "13187c786b6f66b48341abd2cd54f4af4718562292f118c91b9ee60d97989715",
+      "storedPath": "evidence/reports/validation-r3/report.json.gz",
+      "storedBytes": 5088,
+      "storedSha256": "05e0e89d107c393e7444e4a76a080392a229d9b41e43371cc1b81b3e6cdc345d",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r4/content-chromium.log",
+      "originalBytes": 1356,
+      "originalSha256": "bb43ee015d722dbf3196e267ffe1d2b5d03d66188c1bb714cdf5036ada8d7430",
+      "storedPath": "evidence/reports/validation-r4/content-chromium.log.gz",
+      "storedBytes": 507,
+      "storedSha256": "91b6c531c421e14a312dbe82172fc89a00c1180c18a4c23ecda6ca1b1ae3d2bf",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r4/content-webkit.log",
+      "originalBytes": 1350,
+      "originalSha256": "8f9743a0ac44ddcb32de00e7c110037c1fa354f70447fcbe8b5abd43ce00b51e",
+      "storedPath": "evidence/reports/validation-r4/content-webkit.log.gz",
+      "storedBytes": 506,
+      "storedSha256": "6c7987974164ba0c436f01d44486213694f489bff087630f1356ebb4c38c5070",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r4/focused-chromium.log",
+      "originalBytes": 4212,
+      "originalSha256": "0bf57175f1c6299234c651edd06e6a971322d0db3ac729bf844d1fcb22adfb4b",
+      "storedPath": "evidence/reports/validation-r4/focused-chromium.log.gz",
+      "storedBytes": 896,
+      "storedSha256": "d7198b64033d0a6611273d772e4981853e6642ce36c4233e6854a1fedb9b3da2",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r4/report.json",
+      "originalBytes": 21193,
+      "originalSha256": "44a56ca8684b606b01299ae379c6e56b92e94aa8a93d0a8300825f0e31115ae1",
+      "storedPath": "evidence/reports/validation-r4/report.json.gz",
+      "storedBytes": 5352,
+      "storedSha256": "5a35860090457c76af12ab613a86d3dacc9af93f7ae82be7d392ac0e6af71e88",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r5/build.log",
+      "originalBytes": 21223,
+      "originalSha256": "5dc47d488744d3c42f853a636968c27ef877b47728a40d429b5a0c24179d6ec4",
+      "storedPath": "evidence/reports/validation-r5/build.log.gz",
+      "storedBytes": 3046,
+      "storedSha256": "531f19f9fc6cf0f95fe91bb47e21cb2885e46e79cd23ad7517cb6e397d9fea76",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r5/check.log",
+      "originalBytes": 3818,
+      "originalSha256": "4c6f2b44bd5e1845782232c7715cec09ce3793d6d4d5f9d3e5549359b30da1a1",
+      "storedPath": "evidence/reports/validation-r5/check.log.gz",
+      "storedBytes": 951,
+      "storedSha256": "efe37ef6add4d278de60169da5267b9fb511d5a04644d823bcfc45ca8970b4d4",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r5/content-chromium.log",
+      "originalBytes": 1356,
+      "originalSha256": "cea39457af45021309f102684f3518831a22875dc6379a1902f7a020b482ceb4",
+      "storedPath": "evidence/reports/validation-r5/content-chromium.log.gz",
+      "storedBytes": 507,
+      "storedSha256": "6ccaa32c20742f09aa9e4158aca4a858bd343d03f2238eca4f4934b347b3bf67",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r5/content-output-audit.json",
+      "originalBytes": 639250,
+      "originalSha256": "348a77610bea097066b35dd2b7902d9c92c9cf7f28cdf3bc06c435100bf16955",
+      "storedPath": "evidence/reports/validation-r5/content-output-audit.json.gz",
+      "storedBytes": 153941,
+      "storedSha256": "e847e961aa48fc3278ad5888ccb4f16d89db34f13b7a070dbb88b69d5ac4141b",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r5/content-output.log",
+      "originalBytes": 522,
+      "originalSha256": "947bd4af5e6ea1728537dd999c5be92356f084e3e0c394533eaa0cec55940d40",
+      "storedPath": "evidence/reports/validation-r5/content-output.log.gz",
+      "storedBytes": 333,
+      "storedSha256": "9fe921156a46ea3d03d9ebcf5a3947da2904a61acaa4271ab42bf1e4f8fb30e8",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r5/content-webkit.log",
+      "originalBytes": 1350,
+      "originalSha256": "9dea29dabea9d34408490b80156a942d8ae801c709654ed2c7f6e0aa15ea79f2",
+      "storedPath": "evidence/reports/validation-r5/content-webkit.log.gz",
+      "storedBytes": 506,
+      "storedSha256": "9b60ff9440ed608190e4e8bad1504948a97aa4bbab2dc16774b32920bc18f71c",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r5/focused-chromium.log",
+      "originalBytes": 3098,
+      "originalSha256": "b84132ae2a097aee656263c4c39095976d434880d41a221b677b66331dfb0232",
+      "storedPath": "evidence/reports/validation-r5/focused-chromium.log.gz",
+      "storedBytes": 795,
+      "storedSha256": "dddf31708441a96401004985b7217fa3a8ed3f0dc57387fc8d2890c266fc6f3a",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r5/report.json",
+      "originalBytes": 21463,
+      "originalSha256": "5b2c0c60ed7a99df90eb010374592fe2b435fc6ceeddaa514a69fddbab7a2e1a",
+      "storedPath": "evidence/reports/validation-r5/report.json.gz",
+      "storedBytes": 5330,
+      "storedSha256": "cbb989bd0feb7a4f4dc3d34cf91b056c3d3a39615091b94ef3a339723c5301ed",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r6/build.log",
+      "originalBytes": 21236,
+      "originalSha256": "a61cad039cb3768c9ab850fb4707f944548d5950efa5bf614a4b56e786485c1d",
+      "storedPath": "evidence/reports/validation-r6/build.log.gz",
+      "storedBytes": 3044,
+      "storedSha256": "4dad1117ad94b3d7bcc9bac8422d64a290e0e1e67fdb3a9c43785c74da4a1a0e",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r6/check.log",
+      "originalBytes": 3818,
+      "originalSha256": "0db74d350c5c7da10fd43edd6f92680708fcadcce76dfe9cc365d71a08b46198",
+      "storedPath": "evidence/reports/validation-r6/check.log.gz",
+      "storedBytes": 949,
+      "storedSha256": "72226e625425d6f9e8aa7e3d1162d6baa5690908c0a2af035c67033d39daa30b",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r6/content-output-audit.json",
+      "originalBytes": 639250,
+      "originalSha256": "0e3cb3103b96a18d17fdbd3c9603ee966a6ef4afff4dc6d0580a3cbf79b84e25",
+      "storedPath": "evidence/reports/validation-r6/content-output-audit.json.gz",
+      "storedBytes": 153943,
+      "storedSha256": "006b11b95927c0575100cd739a5fd0d6f421c3aad4ad8c4968d8f293c623bd1b",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r6/content-output.log",
+      "originalBytes": 522,
+      "originalSha256": "ae241c7ffff6ace18afffed28c7b8e84ad5d26376c09be019f7fdd6c3fe276d5",
+      "storedPath": "evidence/reports/validation-r6/content-output.log.gz",
+      "storedBytes": 333,
+      "storedSha256": "0ae4fad268f26f587e16fa6204f2f672e16b67ba15cb5d0d2e49b6f72e538802",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r6/report.json",
+      "originalBytes": 21109,
+      "originalSha256": "b5b9afa7ad491d3a46b4b30904cfe6d30953d5d8cb644138acca7aa856435d74",
+      "storedPath": "evidence/reports/validation-r6/report.json.gz",
+      "storedBytes": 5299,
+      "storedSha256": "515b518183b66911835a8caf264aed722d1b5e94331ba3ecad27ed06fb8532ec",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r6/targeted-chromium.log",
+      "originalBytes": 1794,
+      "originalSha256": "f93ef021595ded117c53108009f76aa520a51230201ded655a6876f7722cd912",
+      "storedPath": "evidence/reports/validation-r6/targeted-chromium.log.gz",
+      "storedBytes": 637,
+      "storedSha256": "47dd99df8a1a729d4f8487f62db0b3503e8bc9a28af2e02f10409e165c88f5b7",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r7/focused-chromium.log",
+      "originalBytes": 2521,
+      "originalSha256": "bda86b50710690c2d6bdeb04cb2e0a8c4c1b283f3845a24792a5b08a4519234b",
+      "storedPath": "evidence/reports/validation-r7/focused-chromium.log.gz",
+      "storedBytes": 740,
+      "storedSha256": "581acf003bbda911d0877330f6588f9e4c7d7a21e18925a3bece0538c6eaf86e",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r7/focused-webkit.log",
+      "originalBytes": 124,
+      "originalSha256": "bc01354fe572023d2c7ad725ff1132f7804fbbac36e261d2b03e3fa7c55c491b",
+      "storedPath": "evidence/reports/validation-r7/focused-webkit.log.gz",
+      "storedBytes": 121,
+      "storedSha256": "91e09db27b224b64b2d6ff63086b95fb59c136cdf8f6355c1eb74fa320c00429",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r7/report.json",
+      "originalBytes": 11530,
+      "originalSha256": "a1835b2d98c0ec05ddc37f2c6c1876f18044b190745601d7a220544f047017e2",
+      "storedPath": "evidence/reports/validation-r7/report.json.gz",
+      "storedBytes": 5325,
+      "storedSha256": "af6c7dd873a9cf413257ff6437a182bf1425a578756164806d8ff349d0e8cf5d",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r7/targeted-chromium.log",
+      "originalBytes": 833,
+      "originalSha256": "2754fbc9bbb288a6ba7d31fce59d6cd72015b01d2314922671a6a7da027c361f",
+      "storedPath": "evidence/reports/validation-r7/targeted-chromium.log.gz",
+      "storedBytes": 426,
+      "storedSha256": "08737b445e9c243993bd72293c1e960b2fef5e5346a07e5c31a74f61cb8f3583",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r8/build.log",
+      "originalBytes": 21249,
+      "originalSha256": "ee6e7631459123edfda483dc178405075bc73e2cf70e29e33d6e49902f97d3e6",
+      "storedPath": "evidence/reports/validation-r8/build.log.gz",
+      "storedBytes": 3054,
+      "storedSha256": "1118df9d3e57fb2428c447772e95e6f261645fc985e620d5ef7d23291d51a288",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r8/check.log",
+      "originalBytes": 3818,
+      "originalSha256": "cb4b0b804df9a53f069a9bc5f0e7883aad7f2a35ba33fe8b7b600a9358475663",
+      "storedPath": "evidence/reports/validation-r8/check.log.gz",
+      "storedBytes": 949,
+      "storedSha256": "910ceddc95ca3a4e2e336c2dcac38efa5a284f5941351753f25afc9cdbe8dc80",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r8/content-output-audit.json",
+      "originalBytes": 639250,
+      "originalSha256": "ca5eba68a7bb6ba28a32b49d677ff5b6fa53e9474839bdae4214b985461cfa72",
+      "storedPath": "evidence/reports/validation-r8/content-output-audit.json.gz",
+      "storedBytes": 153966,
+      "storedSha256": "4b0b490d6462d02068d6cfe632d6bad519b70c384c70fb334d1e42b8767dc39e",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r8/content-output.log",
+      "originalBytes": 522,
+      "originalSha256": "c1f19da102b63b301eafa5661c837894135ac74d74e2b2298548ff347d6a7eca",
+      "storedPath": "evidence/reports/validation-r8/content-output.log.gz",
+      "storedBytes": 333,
+      "storedSha256": "0ef96e78fed9acd0d475fe2a9f884c7ca3b61dd3335ccfc44f6774926b6e6592",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r8/focused-webkit.log",
+      "originalBytes": 1753,
+      "originalSha256": "2f0f70f064729156d9400575158ea4c6087b856ca07b629513891ba2c7bf804c",
+      "storedPath": "evidence/reports/validation-r8/focused-webkit.log.gz",
+      "storedBytes": 622,
+      "storedSha256": "f3bf9817a3611c791e955290805715fa5f1af47a327fee162dfe7304f51a8f35",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r8/gallery-chromium.log",
+      "originalBytes": 1030,
+      "originalSha256": "cb582e2c6b0027bf9b1bdabe93f62d517b5e80fe937bddffa9e369f45c8220a3",
+      "storedPath": "evidence/reports/validation-r8/gallery-chromium.log.gz",
+      "storedBytes": 458,
+      "storedSha256": "8ddd6ea653d4244e37077ca7fe51b24f0239fcdff9edcb08cf69ef01dc66f9eb",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r8/report.json",
+      "originalBytes": 22498,
+      "originalSha256": "e4892060c147411d880738666cbaecd3d391511ae9cbe24b1258c1737df4b939",
+      "storedPath": "evidence/reports/validation-r8/report.json.gz",
+      "storedBytes": 5761,
+      "storedSha256": "2952274477f1631c4c003ef139628a8bf39e54100c4d4f9eb820708e3dc43307",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r8/targeted-webkit.log",
+      "originalBytes": 758,
+      "originalSha256": "3163cfd72ff4348d4cec4fc4cb596171efdbd8df118e0b2e18ecffffbf80a523",
+      "storedPath": "evidence/reports/validation-r8/targeted-webkit.log.gz",
+      "storedBytes": 399,
+      "storedSha256": "2f49b77233e2d7e04afdbafe1830577c6c8017ee2098fead6fd915cadd008937",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r9/all-pages.log",
+      "originalBytes": 34253,
+      "originalSha256": "afeba469caded8d1e82b332eb1279339dac0012977ec26a1333e9e9ac06cf8fc",
+      "storedPath": "evidence/reports/validation-r9/all-pages.log.gz",
+      "storedBytes": 4230,
+      "storedSha256": "cb22c90c3fc8cfa11cac63d0f3ef597c0301694dcd73833d4de9e02db2e91cb7",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r9/report.json",
+      "originalBytes": 23193,
+      "originalSha256": "15be2e48f1f3cfdac15a024723a1048d68a53714da73da834a9090fbb59c77bb",
+      "storedPath": "evidence/reports/validation-r9/report.json.gz",
+      "storedBytes": 5957,
+      "storedSha256": "42d9ba75b40e09619cd61be16950936c18e357eeec3c763ac8536b4a5aa896cc",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r9/review-sheets.log",
+      "originalBytes": 2410,
+      "originalSha256": "77985bb18c7212f08973e192a0fdeee65b84c5093a07ca54ca3f15abc9b0242a",
+      "storedPath": "evidence/reports/validation-r9/review-sheets.log.gz",
+      "storedBytes": 820,
+      "storedSha256": "32153a1ec1babc13dc287294146395859dacf341ea93a354c4e35e83df696702",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r9/targeted-webkit.log",
+      "originalBytes": 765,
+      "originalSha256": "a264e059abcba8213a5bb14ea72670bc3916bb04bceee76ede804336119790e6",
+      "storedPath": "evidence/reports/validation-r9/targeted-webkit.log.gz",
+      "storedBytes": 405,
+      "storedSha256": "f1eaf483e8d8a92f4e39be187581960ad1dc62be768c2088d90579ef2090429e",
+      "encoding": "gzip"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/incoming-final/final-preview-target.json",
+      "originalBytes": 560,
+      "originalSha256": "0c3fcfd5fdbc0e8c7d3179229a1575edc13f7b4d0eaf47430250b164d5b93076",
+      "storedPath": "evidence/source/final-preview-target.json",
+      "storedBytes": 560,
+      "storedSha256": "0c3fcfd5fdbc0e8c7d3179229a1575edc13f7b4d0eaf47430250b164d5b93076",
+      "encoding": "original"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/incoming-final/content-cleanup-proof-plan.json",
+      "originalBytes": 26013,
+      "originalSha256": "a885f09996ce95e164577177a1c503171e934ab0a6f0377cc87be852cbf40710",
+      "storedPath": "evidence/source/content-cleanup-proof-plan.json",
+      "storedBytes": 26013,
+      "storedSha256": "a885f09996ce95e164577177a1c503171e934ab0a6f0377cc87be852cbf40710",
+      "encoding": "original"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/incoming-final/final-chedi-proof-plan.json",
+      "originalBytes": 4880,
+      "originalSha256": "4b65c6347f599019627738caa8a77df9941cc87f699cf59ed3ce0906f18242e5",
+      "storedPath": "evidence/source/final-chedi-proof-plan.json",
+      "storedBytes": 4880,
+      "storedSha256": "4b65c6347f599019627738caa8a77df9941cc87f699cf59ed3ce0906f18242e5",
+      "encoding": "original"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/public-chromium-r1/002-home-1440-no-preference-hero-filters.png",
+      "originalBytes": 461479,
+      "originalSha256": "8655d3652f8a1d6c71388e191646e88699bc2054253dee97e1d7ef0fee6ee66f",
+      "storedPath": "evidence/screenshots/hero-filters-desktop.png",
+      "storedBytes": 461479,
+      "storedSha256": "8655d3652f8a1d6c71388e191646e88699bc2054253dee97e1d7ef0fee6ee66f",
+      "encoding": "original",
+      "captureSourceHead": "84638a11ccf24be8389d6bf7e52d1fec47bc85d1",
+      "captureRuntimeSourceHead": "a484ab78629f4129080abb7c8be938c573c4e1a8",
+      "inheritedBy": "validation-r16: exact one-page Chedi HTML delta; all shared UI output unchanged"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/public-chromium-r1/004-catalogue-1440-no-preference-catalogue-applied-controls.png",
+      "originalBytes": 479949,
+      "originalSha256": "0ed6c3ed55fe6e7aba6aaf80330f41f958913aa594654793bba8c1cb4c7ebde4",
+      "storedPath": "evidence/screenshots/catalogue-desktop.png",
+      "storedBytes": 479949,
+      "storedSha256": "0ed6c3ed55fe6e7aba6aaf80330f41f958913aa594654793bba8c1cb4c7ebde4",
+      "encoding": "original",
+      "captureSourceHead": "84638a11ccf24be8389d6bf7e52d1fec47bc85d1",
+      "captureRuntimeSourceHead": "a484ab78629f4129080abb7c8be938c573c4e1a8",
+      "inheritedBy": "validation-r16: exact one-page Chedi HTML delta; all shared UI output unchanged"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/public-chromium-r1/001-home-390-no-preference-hero-filters.png",
+      "originalBytes": 53439,
+      "originalSha256": "95a32e0dee7533482380f26a3a93354e7715358f8780b29e94ad0d352af673e8",
+      "storedPath": "evidence/screenshots/hero-filters-mobile.png",
+      "storedBytes": 53439,
+      "storedSha256": "95a32e0dee7533482380f26a3a93354e7715358f8780b29e94ad0d352af673e8",
+      "encoding": "original",
+      "captureSourceHead": "84638a11ccf24be8389d6bf7e52d1fec47bc85d1",
+      "captureRuntimeSourceHead": "a484ab78629f4129080abb7c8be938c573c4e1a8",
+      "inheritedBy": "validation-r16: exact one-page Chedi HTML delta; all shared UI output unchanged"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/scoped-content-public-r1/016-vela-1440-location-map.png",
+      "originalBytes": 261978,
+      "originalSha256": "8ec8909ff191e6e4d4c5574a7a134a07c82b03da402a517a546d6f3dd0fab804",
+      "storedPath": "evidence/screenshots/vela-map-desktop.png",
+      "storedBytes": 261978,
+      "storedSha256": "8ec8909ff191e6e4d4c5574a7a134a07c82b03da402a517a546d6f3dd0fab804",
+      "encoding": "original",
+      "captureSourceHead": "84638a11ccf24be8389d6bf7e52d1fec47bc85d1",
+      "captureRuntimeSourceHead": "a484ab78629f4129080abb7c8be938c573c4e1a8",
+      "inheritedBy": "validation-r16: exact one-page Chedi HTML delta; all shared UI output unchanged"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/scoped-content-public-r1/008-vela-390-location-map.png",
+      "originalBytes": 161163,
+      "originalSha256": "18fe8f359d3e501a2f5afdd80c1c0460c9381814882d935dfb29c4151eb57c56",
+      "storedPath": "evidence/screenshots/vela-map-mobile.png",
+      "storedBytes": 161163,
+      "storedSha256": "18fe8f359d3e501a2f5afdd80c1c0460c9381814882d935dfb29c4151eb57c56",
+      "encoding": "original",
+      "captureSourceHead": "84638a11ccf24be8389d6bf7e52d1fec47bc85d1",
+      "captureRuntimeSourceHead": "a484ab78629f4129080abb7c8be938c573c4e1a8",
+      "inheritedBy": "validation-r16: exact one-page Chedi HTML delta; all shared UI output unchanged"
+    },
+    {
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/final-chedi-public-r1/002-the-chedi-private-residences-1440-description.png",
+      "originalBytes": 158794,
+      "originalSha256": "511f35a722f78e2fed7b06c3cd842ef9f1e8045303fc52f68535a4d58788eae2",
+      "storedPath": "evidence/screenshots/chedi-description-desktop.png",
+      "storedBytes": 158794,
+      "storedSha256": "511f35a722f78e2fed7b06c3cd842ef9f1e8045303fc52f68535a4d58788eae2",
+      "encoding": "original",
+      "captureSourceHead": "f5731c313c410747c8beb76a468df3671aa5975a",
+      "captureRuntimeSourceHead": "f5731c313c410747c8beb76a468df3671aa5975a"
+    }
+  ],
+  "notes": [
+    "Original reviewer receipts are immutable; final-acceptance.json resolves findings using the separately recorded later evidence.",
+    "The general public UI and eight-route content screenshots retain their actual 84638 source / a484 runtime bindings. The final Chedi screenshots use f573; inheritance requires the exact one-page output delta in validation-r16.",
+    "Compressed report bytes have separate original and stored SHA256 values.",
+    "Only selected original screenshots are copied here. All 520 originals and 90 overview sheets remain in the task artifacts and lossless review transport."
+  ]
+}

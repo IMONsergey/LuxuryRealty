@@ -1,0 +1,360 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "/root/qa_interaction_audit",
+  "status": "complete-for-assigned-native-gallery-regions",
+  "completedAt": "2026-11-03T17:48:26.304037+00:00",
+  "captureBinding": {
+    "sourceHead": "532cd2fc19dcf9ddaa1809616a47ebaee86eec88",
+    "preview": "https://luxury-realty-imon-jvah4quvl-cdo-2844s-projects.vercel.app",
+    "reportPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/development-native-r1/report.json",
+    "reportSha256": "1c85994f6bac73dffe778fb4a60c19a7751a7adffe1f7ce8c0e6d9f6b91586d7",
+    "artifactGitRef": "e180dba2be6be1036e71deb0bbebfbec031e51c5"
+  },
+  "supplements": {
+    "receiptPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/review-receipts/all-pages-qa-r1.json",
+    "receiptSha256": "ccb3f4badbfc2f10e1045e6d1af5647035517599f5f631dfa3a6980ea4d5dba1",
+    "originalReceiptUnchanged": true,
+    "findingId": "qa-development-gallery-empty-cells",
+    "originalSheet": "full-1440-031.png"
+  },
+  "nativeInspections": [
+    {
+      "file": "orla-1440-gallery-row-1.png",
+      "viewedAt": "2026-11-03T17:45:47.345Z",
+      "actuallyViewed": true,
+      "decision": "no-blank-gallery-cell-observed",
+      "observations": [
+        "Both first-row images are visible: the curved sunset balcony and the waterfront living room. The next row is also painted; no diagonal blank cells."
+      ],
+      "sha256": "4a64e1a2cf85b1ad91d14755b14bcceec183ea8d67bb58016a47e0e7455834e2",
+      "bytes": 1098235,
+      "route": "/developments/orla/",
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "state": "gallery-row-1",
+      "scrollY": 6980,
+      "captureFile": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/development-native-r1/orla-1440-gallery-row-1.png",
+      "localInspectedFile": "/workspace/scratch/81f7012ea52e/luxury-review/development-native-r1/orla-1440-gallery-row-1.png",
+      "reviewLevel": "native-viewport-original",
+      "method": "Lossless exact-SHA Git transport from immutable ref e180dba2be6be1036e71deb0bbebfbec031e51c5; sequential view_image(detail=original) plus image(detail=original).",
+      "viewedAtNote": "Timestamp recorded immediately after the sequential three-frame route inspection.",
+      "region": "entire viewport PNG"
+    },
+    {
+      "file": "orla-1440-gallery-row-2.png",
+      "viewedAt": "2026-11-03T17:45:47.345Z",
+      "actuallyViewed": true,
+      "decision": "no-blank-gallery-cell-observed",
+      "observations": [
+        "Both second-row images are visible: the entrance/vehicle scene and the light living room. The third-row balcony and dusk exterior are also painted."
+      ],
+      "sha256": "a267e28a7541732ef3ac6cae09ab7b166dbf866038a396b351602c891bee24f6",
+      "bytes": 1296283,
+      "route": "/developments/orla/",
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "state": "gallery-row-2",
+      "scrollY": 7411,
+      "captureFile": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/development-native-r1/orla-1440-gallery-row-2.png",
+      "localInspectedFile": "/workspace/scratch/81f7012ea52e/luxury-review/development-native-r1/orla-1440-gallery-row-2.png",
+      "reviewLevel": "native-viewport-original",
+      "method": "Lossless exact-SHA Git transport from immutable ref e180dba2be6be1036e71deb0bbebfbec031e51c5; sequential view_image(detail=original) plus image(detail=original).",
+      "viewedAtNote": "Timestamp recorded immediately after the sequential three-frame route inspection.",
+      "region": "entire viewport PNG"
+    },
+    {
+      "file": "orla-1440-gallery-row-3.png",
+      "viewedAt": "2026-11-03T17:45:47.345Z",
+      "actuallyViewed": true,
+      "decision": "no-blank-gallery-cell-observed",
+      "observations": [
+        "Both third-row images are visible: the curved residence with plunge pool and the landscaped exterior at dusk. The next residences section begins normally below the gallery."
+      ],
+      "sha256": "77ac249cdaaca4e938d69826bfd7196418644abdc38276a46f9c59acc2d3f9ee",
+      "bytes": 787989,
+      "route": "/developments/orla/",
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "state": "gallery-row-3",
+      "scrollY": 7842,
+      "captureFile": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/development-native-r1/orla-1440-gallery-row-3.png",
+      "localInspectedFile": "/workspace/scratch/81f7012ea52e/luxury-review/development-native-r1/orla-1440-gallery-row-3.png",
+      "reviewLevel": "native-viewport-original",
+      "method": "Lossless exact-SHA Git transport from immutable ref e180dba2be6be1036e71deb0bbebfbec031e51c5; sequential view_image(detail=original) plus image(detail=original).",
+      "viewedAtNote": "Timestamp recorded immediately after the sequential three-frame route inspection.",
+      "region": "entire viewport PNG"
+    },
+    {
+      "file": "serenity-mansions-aurora-1440-gallery-row-1.png",
+      "viewedAt": "2026-11-03T17:46:21.092Z",
+      "actuallyViewed": true,
+      "decision": "no-blank-gallery-cell-observed",
+      "observations": [
+        "Both first-row Aurora images are fully visible: the green-fronted villa exterior and dining/kitchen opening onto the pool garden. Bedroom and darker lounge below also paint correctly."
+      ],
+      "sha256": "e6785c4b6bd4097c334805378945b7c09a95bd015dc6cb3659aa29832896dac0",
+      "bytes": 1374373,
+      "route": "/developments/serenity-mansions-aurora/",
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "state": "gallery-row-1",
+      "scrollY": 7053,
+      "captureFile": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/development-native-r1/serenity-mansions-aurora-1440-gallery-row-1.png",
+      "localInspectedFile": "/workspace/scratch/81f7012ea52e/luxury-review/development-native-r1/serenity-mansions-aurora-1440-gallery-row-1.png",
+      "reviewLevel": "native-viewport-original",
+      "method": "Lossless exact-SHA Git transport from immutable ref e180dba2be6be1036e71deb0bbebfbec031e51c5; sequential view_image(detail=original) plus image(detail=original).",
+      "viewedAtNote": "Timestamp recorded immediately after the sequential three-frame route inspection.",
+      "region": "entire viewport PNG"
+    },
+    {
+      "file": "serenity-mansions-aurora-1440-gallery-row-2.png",
+      "viewedAt": "2026-11-03T17:46:21.092Z",
+      "actuallyViewed": true,
+      "decision": "no-blank-gallery-cell-observed",
+      "observations": [
+        "Both second-row images are visible: the bright bedroom and darker lounge. The following stair hall and wardrobe/dressing room are painted in both columns."
+      ],
+      "sha256": "0a0b867153f25c9c2f2666e216fe53a55bc489d85e6eff497125b632adc06d90",
+      "bytes": 1363006,
+      "route": "/developments/serenity-mansions-aurora/",
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "state": "gallery-row-2",
+      "scrollY": 7484,
+      "captureFile": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/development-native-r1/serenity-mansions-aurora-1440-gallery-row-2.png",
+      "localInspectedFile": "/workspace/scratch/81f7012ea52e/luxury-review/development-native-r1/serenity-mansions-aurora-1440-gallery-row-2.png",
+      "reviewLevel": "native-viewport-original",
+      "method": "Lossless exact-SHA Git transport from immutable ref e180dba2be6be1036e71deb0bbebfbec031e51c5; sequential view_image(detail=original) plus image(detail=original).",
+      "viewedAtNote": "Timestamp recorded immediately after the sequential three-frame route inspection.",
+      "region": "entire viewport PNG"
+    },
+    {
+      "file": "serenity-mansions-aurora-1440-gallery-row-3.png",
+      "viewedAt": "2026-11-03T17:46:21.092Z",
+      "actuallyViewed": true,
+      "decision": "no-blank-gallery-cell-observed",
+      "observations": [
+        "Both third-row images are fully visible: the stair hall and dressing room. The location section starts below with its map visible. No diagonal blank gallery cell is reproduced."
+      ],
+      "sha256": "cef5b1dc519ba402da256354e6d65afdbee7ba0f1669ec70aaf38bae9cddcb34",
+      "bytes": 804154,
+      "route": "/developments/serenity-mansions-aurora/",
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "state": "gallery-row-3",
+      "scrollY": 7915,
+      "captureFile": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/development-native-r1/serenity-mansions-aurora-1440-gallery-row-3.png",
+      "localInspectedFile": "/workspace/scratch/81f7012ea52e/luxury-review/development-native-r1/serenity-mansions-aurora-1440-gallery-row-3.png",
+      "reviewLevel": "native-viewport-original",
+      "method": "Lossless exact-SHA Git transport from immutable ref e180dba2be6be1036e71deb0bbebfbec031e51c5; sequential view_image(detail=original) plus image(detail=original).",
+      "viewedAtNote": "Timestamp recorded immediately after the sequential three-frame route inspection.",
+      "region": "entire viewport PNG"
+    },
+    {
+      "file": "serenity-mansions-waterfront-collection-1440-gallery-row-1.png",
+      "viewedAt": "2026-11-03T17:46:59.360Z",
+      "actuallyViewed": true,
+      "decision": "no-blank-gallery-cell-observed",
+      "observations": [
+        "Both first-row Waterfront images are visible: the poolside villa exterior and the walk-in wardrobe. Both cells in the next row also paint; no diagonal gaps."
+      ],
+      "sha256": "94a19bc7629a8d7afccd1e2d58970913e3d430f95b17e56674ddf3ad608b277c",
+      "bytes": 1436868,
+      "route": "/developments/serenity-mansions-waterfront-collection/",
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "state": "gallery-row-1",
+      "scrollY": 7146,
+      "captureFile": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/development-native-r1/serenity-mansions-waterfront-collection-1440-gallery-row-1.png",
+      "localInspectedFile": "/workspace/scratch/81f7012ea52e/luxury-review/development-native-r1/serenity-mansions-waterfront-collection-1440-gallery-row-1.png",
+      "reviewLevel": "native-viewport-original",
+      "method": "Lossless exact-SHA Git transport from immutable ref e180dba2be6be1036e71deb0bbebfbec031e51c5; sequential view_image(detail=original) plus image(detail=original).",
+      "viewedAtNote": "Timestamp recorded immediately after the sequential three-frame route inspection.",
+      "region": "entire viewport PNG"
+    },
+    {
+      "file": "serenity-mansions-waterfront-collection-1440-gallery-row-2.png",
+      "viewedAt": "2026-11-03T17:46:59.360Z",
+      "actuallyViewed": true,
+      "decision": "no-blank-gallery-cell-observed",
+      "observations": [
+        "Both second-row images are fully visible: the lounge/bar and dusk pool elevation. The high-ceiling living room and bedroom below are also painted."
+      ],
+      "sha256": "1dbdf71c706d988e19d49abe2734892fc06b91770f273953d173bc1749425a76",
+      "bytes": 1397518,
+      "route": "/developments/serenity-mansions-waterfront-collection/",
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "state": "gallery-row-2",
+      "scrollY": 7577,
+      "captureFile": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/development-native-r1/serenity-mansions-waterfront-collection-1440-gallery-row-2.png",
+      "localInspectedFile": "/workspace/scratch/81f7012ea52e/luxury-review/development-native-r1/serenity-mansions-waterfront-collection-1440-gallery-row-2.png",
+      "reviewLevel": "native-viewport-original",
+      "method": "Lossless exact-SHA Git transport from immutable ref e180dba2be6be1036e71deb0bbebfbec031e51c5; sequential view_image(detail=original) plus image(detail=original).",
+      "viewedAtNote": "Timestamp recorded immediately after the sequential three-frame route inspection.",
+      "region": "entire viewport PNG"
+    },
+    {
+      "file": "serenity-mansions-waterfront-collection-1440-gallery-row-3.png",
+      "viewedAt": "2026-11-03T17:46:59.360Z",
+      "actuallyViewed": true,
+      "decision": "no-blank-gallery-cell-observed",
+      "observations": [
+        "Both third-row images are fully visible: the tall living room and the dark-panelled bedroom. Location copy and map begin below with normal spacing."
+      ],
+      "sha256": "094613f801b30e4a06d9f78ffae6095fe7daaa625c81ab399f06058d36b1eb34",
+      "bytes": 831847,
+      "route": "/developments/serenity-mansions-waterfront-collection/",
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "state": "gallery-row-3",
+      "scrollY": 8008,
+      "captureFile": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/development-native-r1/serenity-mansions-waterfront-collection-1440-gallery-row-3.png",
+      "localInspectedFile": "/workspace/scratch/81f7012ea52e/luxury-review/development-native-r1/serenity-mansions-waterfront-collection-1440-gallery-row-3.png",
+      "reviewLevel": "native-viewport-original",
+      "method": "Lossless exact-SHA Git transport from immutable ref e180dba2be6be1036e71deb0bbebfbec031e51c5; sequential view_image(detail=original) plus image(detail=original).",
+      "viewedAtNote": "Timestamp recorded immediately after the sequential three-frame route inspection.",
+      "region": "entire viewport PNG"
+    },
+    {
+      "file": "six-senses-1440-gallery-row-1.png",
+      "viewedAt": "2026-11-03T17:48:25.455Z",
+      "actuallyViewed": true,
+      "decision": "no-blank-gallery-cell-observed",
+      "observations": [
+        "Both first-row Six Senses images are fully visible: the tower elevation over the skyline and planted high-level terrace. Both second-row living-room images below also paint correctly."
+      ],
+      "sha256": "ccdb686da28576c2e48b68c31319681ab36362fa6540f7179a5801f755541a3f",
+      "bytes": 1265760,
+      "route": "/developments/six-senses/",
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "state": "gallery-row-1",
+      "scrollY": 6909,
+      "captureFile": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/development-native-r1/six-senses-1440-gallery-row-1.png",
+      "localInspectedFile": "/workspace/scratch/81f7012ea52e/luxury-review/development-native-r1/six-senses-1440-gallery-row-1.png",
+      "reviewLevel": "native-viewport-original",
+      "method": "Lossless exact-SHA Git transport from immutable ref e180dba2be6be1036e71deb0bbebfbec031e51c5; sequential view_image(detail=original) plus image(detail=original).",
+      "viewedAtNote": "Timestamp recorded immediately after the sequential three-frame route inspection.",
+      "region": "entire viewport PNG"
+    },
+    {
+      "file": "six-senses-1440-gallery-row-2.png",
+      "viewedAt": "2026-11-03T17:48:25.455Z",
+      "actuallyViewed": true,
+      "decision": "no-blank-gallery-cell-observed",
+      "observations": [
+        "Both second-row living-room images are visible, including the ocean view and sculptural pendant. Third-row suspended loungers and the high-level city/golf view are also painted."
+      ],
+      "sha256": "b6ce9b133dac497f7113b55bf4a3512051c04d0bd755d18d0b172ef4de40b6f9",
+      "bytes": 1304262,
+      "route": "/developments/six-senses/",
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "state": "gallery-row-2",
+      "scrollY": 7340,
+      "captureFile": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/development-native-r1/six-senses-1440-gallery-row-2.png",
+      "localInspectedFile": "/workspace/scratch/81f7012ea52e/luxury-review/development-native-r1/six-senses-1440-gallery-row-2.png",
+      "reviewLevel": "native-viewport-original",
+      "method": "Lossless exact-SHA Git transport from immutable ref e180dba2be6be1036e71deb0bbebfbec031e51c5; sequential view_image(detail=original) plus image(detail=original).",
+      "viewedAtNote": "Timestamp recorded immediately after the sequential three-frame route inspection.",
+      "region": "entire viewport PNG"
+    },
+    {
+      "file": "six-senses-1440-gallery-row-3.png",
+      "viewedAt": "2026-11-03T17:48:25.455Z",
+      "actuallyViewed": true,
+      "decision": "no-blank-gallery-cell-observed",
+      "observations": [
+        "Both third-row images are fully visible: suspended loungers and the city/golf view from a balcony. The consultation, brochure and floor-plan actions start below with normal spacing."
+      ],
+      "sha256": "ab6d42b12078d2058ea33aaf9d1e2867415e1abc5ea53a5fe92047c5039cbd05",
+      "bytes": 818267,
+      "route": "/developments/six-senses/",
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "state": "gallery-row-3",
+      "scrollY": 7771,
+      "captureFile": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/development-native-r1/six-senses-1440-gallery-row-3.png",
+      "localInspectedFile": "/workspace/scratch/81f7012ea52e/luxury-review/development-native-r1/six-senses-1440-gallery-row-3.png",
+      "reviewLevel": "native-viewport-original",
+      "method": "Lossless exact-SHA Git transport from immutable ref e180dba2be6be1036e71deb0bbebfbec031e51c5; sequential view_image(detail=original) plus image(detail=original).",
+      "viewedAtNote": "Timestamp recorded immediately after the sequential three-frame route inspection.",
+      "region": "entire viewport PNG"
+    }
+  ],
+  "coverage": {
+    "assignedPNGCount": 12,
+    "actualViewedPNGCount": 12,
+    "unreadFiles": [],
+    "routes": [
+      "/developments/orla/",
+      "/developments/serenity-mansions-aurora/",
+      "/developments/serenity-mansions-waterfront-collection/",
+      "/developments/six-senses/"
+    ],
+    "viewportWidths": [
+      1440
+    ],
+    "viewportHeight": 1000,
+    "galleryRowsPerRoute": [
+      1,
+      2,
+      3
+    ],
+    "distinctGalleryCellsVisuallyConfirmed": 24
+  },
+  "findingResolutions": [
+    {
+      "id": "qa-development-gallery-empty-cells",
+      "previousStatus": "open",
+      "status": "not-a-defect",
+      "scope": {
+        "routes": [
+          "/developments/orla/",
+          "/developments/serenity-mansions-aurora/",
+          "/developments/serenity-mansions-waterfront-collection/",
+          "/developments/six-senses/"
+        ],
+        "viewportWidth": 1440,
+        "galleryRows": [
+          1,
+          2,
+          3
+        ]
+      },
+      "resolution": "All six visible gallery cells on each of the four routes are painted with the expected photographs in the three native scrolled viewport frames. No diagonal blank cell is reproduced. The earlier scaled full-page empty-cell observation is not accepted as a product defect for these same-source desktop gallery states.",
+      "evidence": [
+        "orla-1440-gallery-row-1.png",
+        "orla-1440-gallery-row-2.png",
+        "orla-1440-gallery-row-3.png",
+        "serenity-mansions-aurora-1440-gallery-row-1.png",
+        "serenity-mansions-aurora-1440-gallery-row-2.png",
+        "serenity-mansions-aurora-1440-gallery-row-3.png",
+        "serenity-mansions-waterfront-collection-1440-gallery-row-1.png",
+        "serenity-mansions-waterfront-collection-1440-gallery-row-2.png",
+        "serenity-mansions-waterfront-collection-1440-gallery-row-3.png",
+        "six-senses-1440-gallery-row-1.png",
+        "six-senses-1440-gallery-row-2.png",
+        "six-senses-1440-gallery-row-3.png"
+      ],
+      "causalLimit": "This visual review is consistent with an earlier full-page capture/paint artifact, but it does not independently prove the exact capture mechanism."
+    }
+  ],
+  "stillPending": [
+    {
+      "id": "qa-aurora-amenity-image-variation",
+      "status": "open",
+      "reason": "These twelve frames inspect gallery rows, not Aurora amenity cards. Await the separate r11 amenity captures."
+    }
+  ],
+  "newFindings": [],
+  "limitations": [
+    "Only the twelve listed native viewport PNGs were actually inspected in this supplement; other native probe frames are not claimed.",
+    "The 48-frame/132-sample machine probe is separate evidence. Non-uniform pixel samples were not treated as visual acceptance.",
+    "This supplements the source532 all-pages review and does not establish acceptance of later renderer-only cleanup source0d564.",
+    "Interaction behaviour, initial loading under other conditions and every device/browser version are outside this static native image review.",
+    "The original all-pages receipt and its historical observations are preserved; this separate receipt records the scoped resolution."
+  ],
+  "releaseAcceptance": false
+}

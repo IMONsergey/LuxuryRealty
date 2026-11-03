@@ -1,0 +1,29 @@
+{
+  "reviewer": "/root",
+  "sourceHead": "84638a11ccf24be8389d6bf7e52d1fec47bc85d1",
+  "runtimeSourceHead": "a484ab78629f4129080abb7c8be938c573c4e1a8",
+  "preview": "https://luxury-realty-imon-jrsjy0sj5-cdo-2844s-projects.vercel.app",
+  "viewedAt": "2026-11-03 18:11:43 UTC",
+  "files": [
+    {
+      "file": "scoped-content-public-r1/016-vela-1440-location-map.png",
+      "sha256": "8ec8909ff191e6e4d4c5574a7a134a07c82b03da402a517a546d6f3dd0fab804",
+      "bytes": 261978
+    },
+    {
+      "file": "scoped-content-public-r1/008-vela-390-location-map.png",
+      "sha256": "18fe8f359d3e501a2f5afdd80c1c0460c9381814882d935dfb29c4151eb57c56",
+      "bytes": 161163
+    }
+  ],
+  "observations": [
+    "The VELA map is visible in the location section within a padded contained frame at both 390 and 1440 pixels.",
+    "The adjacent location text and CTA remain readable and aligned without horizontal overflow.",
+    "This review resolves the previously observed cover-cropped map placement; physical detail present in the original source map is not recreated."
+  ],
+  "resolves": [
+    "ROOT-VELA-MAP-02"
+  ],
+  "openFindings": []
+}
+

@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "/root",
+  "createdAt": "2026-11-03T18:16:47.152336+00:00",
+  "sourceHead": "84638a11ccf24be8389d6bf7e52d1fec47bc85d1",
+  "runtimeSourceHead": "a484ab78629f4129080abb7c8be938c573c4e1a8",
+  "preview": "https://luxury-realty-imon-jrsjy0sj5-cdo-2844s-projects.vercel.app",
+  "artifactRef": "d8847fc3fcf84a81bab4a8e723766db96a251b10",
+  "report": "public-chromium-r1/visual-audit-report.json",
+  "reportSha256": "9adc533aa163f252b4340edcd7c083672197f4a60fac9c911a1980194f547e35",
+  "reviewed": [
+    {
+      "file": "public-chromium-r1/002-home-1440-no-preference-top.png",
+      "sha256": "f62a0d97674e4be1b6414966d4689e73f821bc0c62721695f982713430d36efd",
+      "bytes": 981669,
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "actualImageViewed": true,
+      "decision": "accepted-for-visible-state",
+      "observations": "Hero heading, supporting copy and single-row search align with the shared container; all search controls and film control remain legible."
+    },
+    {
+      "file": "public-chromium-r1/002-home-1440-no-preference-hero-filters.png",
+      "sha256": "8655d3652f8a1d6c71388e191646e88699bc2054253dee97e1d7ef0fee6ee66f",
+      "bytes": 461479,
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "actualImageViewed": true,
+      "decision": "accepted-for-visible-state",
+      "observations": "Large filter dialog has balanced padding, a clear selected transaction, two-column inputs, grouped chips and fixed visible actions; background is sufficiently dimmed."
+    },
+    {
+      "file": "public-chromium-r1/002-home-1440-no-preference-hero-filters-lower.png",
+      "sha256": "05b69bcb3d3d90398af0bcc54f90bb3a2fbeffd0192f21839bc40c3d3948d552",
+      "bytes": 377960,
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "actualImageViewed": true,
+      "decision": "accepted-for-visible-state",
+      "observations": "Scrolled amenities use an aligned two-column layout; header, close, status select and result/apply footer remain usable."
+    },
+    {
+      "file": "public-chromium-r1/004-catalogue-1440-no-preference-catalogue-filters.png",
+      "sha256": "80589aa0331222506b1695b172b6a4009c9dc7008f8cfa64bf11996ed34dc120",
+      "bytes": 223592,
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "actualImageViewed": true,
+      "decision": "accepted-for-visible-state",
+      "observations": "Catalogue opens the same consistent dialog with the current transaction and a visible live count."
+    },
+    {
+      "file": "public-chromium-r1/004-catalogue-1440-no-preference-catalogue-applied-controls.png",
+      "sha256": "0ed6c3ed55fe6e7aba6aaf80330f41f958913aa594654793bba8c1cb4c7ebde4",
+      "bytes": 479949,
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "actualImageViewed": true,
+      "decision": "accepted-for-visible-state",
+      "observations": "Search, location, filter count, removable chips, result count and sorting align above an even three-column property grid."
+    },
+    {
+      "file": "public-chromium-r1/004-catalogue-1440-no-preference-catalogue-applied.png",
+      "sha256": "93664b182c6f79e98641ffb063ebc3d9b214b3e12fda1e26b534411bee22b9a1",
+      "bytes": 784542,
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "actualImageViewed": true,
+      "decision": "accepted-for-visible-state",
+      "observations": "Photo proportions, column gaps, card edges and price/specification baselines remain consistent despite different title lengths."
+    },
+    {
+      "file": "public-chromium-r1/004-catalogue-1440-no-preference-catalogue-empty.png",
+      "sha256": "6846f0947451a800480ed0247a0d631e815c5b810b02d13c282a52c2b6588018",
+      "bytes": 150876,
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "actualImageViewed": true,
+      "decision": "accepted-for-visible-state",
+      "observations": "Empty results provide a readable explanation, request-selection action and clear-filters action within the page grid."
+    },
+    {
+      "file": "public-chromium-r1/004-catalogue-1440-no-preference-catalogue-filters-error.png",
+      "sha256": "3e9fdef448b27d107ffc18ce297a6e1c641cef28e4eebd4bb1bdced00a242de5",
+      "bytes": 118183,
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "actualImageViewed": true,
+      "decision": "accepted-for-visible-state",
+      "observations": "Invalid price range has visible field borders, an adjacent explanatory message and a visibly disabled apply action; the modal footer remains accessible."
+    }
+  ],
+  "count": 8,
+  "openFindings": [],
+  "releaseAcceptance": false,
+  "limitations": [
+    "These are actual static viewport reviews, not a claim to have watched every intermediate animation frame.",
+    "Any later Chedi-only copy correction needs separate source/build binding; this receipt stays tied to the exact captured source."
+  ]
+}

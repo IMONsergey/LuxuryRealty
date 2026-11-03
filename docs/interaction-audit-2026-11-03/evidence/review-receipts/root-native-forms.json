@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "/root",
+  "sourceHead": "927684aeca30f858bcb43e998a003ab725ab8061",
+  "reviewedAt": "2026-11-03T16:49:56Z",
+  "status": "accepted within listed native form states",
+  "files": [
+    {
+      "path": "artifacts/interaction-system-20261103/focused-chromium-r3/026-contacts-320-no-preference-form-validation.png",
+      "sha256": "7f7dbd6b042a51a64640ffe2c2390cbecddb1f186199f1b4c830316a7bd8ce01"
+    },
+    {
+      "path": "artifacts/interaction-system-20261103/focused-chromium-r3/026-contacts-320-no-preference-form-validation-submit.png",
+      "sha256": "af316869a0fe220e8cb100b551ec9b6bc3def2aa519193f1965e3732040584cf"
+    },
+    {
+      "path": "artifacts/interaction-system-20261103/focused-chromium-r3/024-sell-390-no-preference-form-validation.png",
+      "sha256": "a38deed30223077e7571a9e5a927cb0189a53d2cad47bfb0dd1140d1564db267"
+    },
+    {
+      "path": "artifacts/interaction-system-20261103/focused-chromium-r3/024-sell-390-no-preference-form-validation-submit.png",
+      "sha256": "01a8100e6a32e5086ab4b705f521ec764b82e9de221db525a48dcb792dbc538c"
+    }
+  ],
+  "observations": [
+    "Contact form at320: shortened phone hint is fully legible; labels, required errors and consent text fit without truncation or horizontal overflow. Submit is fully reachable in the submit frame.",
+    "Sale form at390: padded panel, full phone hint, error states and consent fit; submit and arrow fit the viewport.",
+    "Part of the preceding section heading can pass behind the fixed navigation in a deliberately scrolled frame; input labels and errors remain unobstructed."
+  ],
+  "inheritance": "Form runtime and styles are unchanged between927 and532; later runtime delta only affects gallery layout.",
+  "limitations": [
+    "No real enquiry was sent.",
+    "These four still images do not add animation or full-route acceptance."
+  ]
+}

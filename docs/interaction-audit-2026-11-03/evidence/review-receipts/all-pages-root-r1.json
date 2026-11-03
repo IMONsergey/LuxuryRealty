@@ -1,0 +1,2355 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "/root",
+  "status": "complete-for-assigned-overviews",
+  "completedAt": "2026-11-03T17:32:03Z",
+  "captureBinding": {
+    "sourceHead": "532cd2fc19dcf9ddaa1809616a47ebaee86eec88",
+    "captureReportPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/all-pages-chromium-r1/visual-audit-report.json",
+    "captureReportSha256": "2576013b2a5f0f7b69553d046d5a52a926307539a5b48518e4e24105d89a98d7",
+    "sheetManifestPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/all-pages-chromium-r1/review-sheets/sheet-manifest.json",
+    "sheetManifestSha256": "7111122f8a953d8e27eafbd92677f98c5a79eb738f5bade30dde9a005ee1f8de"
+  },
+  "allocationBinding": {
+    "planPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/review-receipts/all-pages-allocation-bound.json",
+    "planSha256": "a7c869cb8821bfad18c724d8676f984c3c3518e95169bc5e6cf7ea03ec7aa268",
+    "assignedSheets": [
+      "top-001.png",
+      "top-005.png",
+      "top-009.png",
+      "top-013.png",
+      "top-017.png",
+      "top-021.png",
+      "top-025.png",
+      "top-029.png",
+      "top-033.png",
+      "full-1440-004.png",
+      "full-1440-008.png",
+      "full-1440-012.png",
+      "full-1440-016.png",
+      "full-1440-020.png",
+      "full-1440-024.png",
+      "full-1440-028.png",
+      "full-1440-032.png",
+      "full-390-003.png",
+      "full-390-007.png",
+      "full-390-011.png",
+      "full-390-015.png",
+      "full-390-019.png",
+      "full-390-catalogue.png"
+    ]
+  },
+  "reviewedSheets": [
+    {
+      "file": "top-001.png",
+      "sha256": "4dda1716eca3eba61bec2cb73f831542f515dd6723ac2fedb1955770e35fa177",
+      "viewedAt": "2026-11-03T17:19:35Z",
+      "method": "Original PNG rendered with view_image(detail=original) and visually inspected after lossless Git transport and exact SHA-256 validation.",
+      "reviewLevel": "scaled-structural-overview",
+      "actuallyViewed": true,
+      "decision": "no-blocker-observed",
+      "overviewCoverage": [
+        {
+          "route": "/",
+          "viewportWidth": 1440,
+          "state": "top",
+          "originalFile": "002-home-1440-no-preference-top.png",
+          "originalSha256": "f62a0d97674e4be1b6414966d4689e73f821bc0c62721695f982713430d36efd",
+          "scaleX": 0.2777777777777778,
+          "scaleY": 0.278
+        },
+        {
+          "route": "/",
+          "viewportWidth": 390,
+          "state": "top",
+          "originalFile": "001-home-390-no-preference-top.png",
+          "originalSha256": "7a9b80a5a782c9fb6fa92186bbfbc60111113e047ca732ed3dd81a23cb183c98",
+          "scaleX": 0.6153846153846154,
+          "scaleY": 0.6149289099526066
+        },
+        {
+          "route": "/properties/",
+          "viewportWidth": 1440,
+          "state": "top",
+          "originalFile": "004-properties-1440-no-preference-top.png",
+          "originalSha256": "7f1e9acabaa882a97297cac73751291b3cd2a1dcf496a254a9b2c643715ed406",
+          "scaleX": 0.2777777777777778,
+          "scaleY": 0.278
+        },
+        {
+          "route": "/properties/",
+          "viewportWidth": 390,
+          "state": "top",
+          "originalFile": "003-properties-390-no-preference-top.png",
+          "originalSha256": "6917b9f19d1ebe834fe3364191b34c260adec85179c6c37896e1cd66b2914218",
+          "scaleX": 0.6153846153846154,
+          "scaleY": 0.6149289099526066
+        },
+        {
+          "route": "/developments/",
+          "viewportWidth": 1440,
+          "state": "top",
+          "originalFile": "006-developments-1440-no-preference-top.png",
+          "originalSha256": "fb3ab0ff3a24f107f9989c6f22d729a859e23a5e5d68200c5599d57a64b80751",
+          "scaleX": 0.2777777777777778,
+          "scaleY": 0.278
+        },
+        {
+          "route": "/developments/",
+          "viewportWidth": 390,
+          "state": "top",
+          "originalFile": "005-developments-390-no-preference-top.png",
+          "originalSha256": "0486a3b6c69763c941217494b35c58e3a97a597105704d8cd9af38cf35c8557d",
+          "scaleX": 0.6153846153846154,
+          "scaleY": 0.6149289099526066
+        },
+        {
+          "route": "/about/",
+          "viewportWidth": 1440,
+          "state": "top",
+          "originalFile": "008-about-1440-no-preference-top.png",
+          "originalSha256": "59b7a18ac30e484e33450cfb3b31d2376b1191d635f3ecdf90addaee65d24111",
+          "scaleX": 0.2777777777777778,
+          "scaleY": 0.278
+        },
+        {
+          "route": "/about/",
+          "viewportWidth": 390,
+          "state": "top",
+          "originalFile": "007-about-390-no-preference-top.png",
+          "originalSha256": "b835474d0ad9b7af6a5594942512969478bf49aa968392eadcc94b77a013afde",
+          "scaleX": 0.6153846153846154,
+          "scaleY": 0.6149289099526066
+        }
+      ],
+      "observations": [
+        "Главная: заголовок, исходный видеокадр и мобильная кнопка поиска образуют ясную иерархию; элементы не пересекаются.",
+        "Каталог: компактная панель поиска, параметры сделки, сортировка и начало карточек помещаются в мобильный поток; desktop сохраняет три колонки.",
+        "Страницы проектов и о компании сохраняют общие поля, крупные заголовки и читабельную композицию."
+      ],
+      "findingIds": []
+    },
+    {
+      "file": "top-005.png",
+      "sha256": "61ebcd78152af09d00305f492820210ec14f8b05ea02874bfc7fdd5a1ef53c67",
+      "viewedAt": "2026-11-03T17:19:35Z",
+      "method": "Original PNG rendered with view_image(detail=original) and visually inspected after lossless Git transport and exact SHA-256 validation.",
+      "reviewLevel": "scaled-structural-overview",
+      "actuallyViewed": true,
+      "decision": "no-blocker-observed",
+      "overviewCoverage": [
+        {
+          "route": "/properties/3br-duplex-private-pool-viewing-essential/",
+          "viewportWidth": 1440,
+          "state": "top",
+          "originalFile": "034-properties-3br-duplex-private-pool-viewing-essential-1440-no-preference-top.png",
+          "originalSha256": "4c4e76a3081fdfdb0bcbc2f343e5eb563a05f4c57707f04a698575c102b40450",
+          "scaleX": 0.2777777777777778,
+          "scaleY": 0.278
+        },
+        {
+          "route": "/properties/3br-duplex-private-pool-viewing-essential/",
+          "viewportWidth": 390,
+          "state": "top",
+          "originalFile": "033-properties-3br-duplex-private-pool-viewing-essential-390-no-preference-top.png",
+          "originalSha256": "18f9f0969b0f432dcefa4ff12abbc8b6033a908795001448fa382f37e860cfd9",
+          "scaleX": 0.6153846153846154,
+          "scaleY": 0.6149289099526066
+        },
+        {
+          "route": "/properties/a-refined-minimalist-sanctuary-with-serene-views/",
+          "viewportWidth": 1440,
+          "state": "top",
+          "originalFile": "036-properties-a-refined-minimalist-sanctuary-with-serene-views-1440-no-preference-top.png",
+          "originalSha256": "4bee1915f578e2fdd9df4aeeeb17ee58ee3a55448e9c8e0fa37e9f94ab423961",
+          "scaleX": 0.2777777777777778,
+          "scaleY": 0.278
+        },
+        {
+          "route": "/properties/a-refined-minimalist-sanctuary-with-serene-views/",
+          "viewportWidth": 390,
+          "state": "top",
+          "originalFile": "035-properties-a-refined-minimalist-sanctuary-with-serene-views-390-no-preference-top.png",
+          "originalSha256": "46f43d474b4c0df85bf739c3f46c07dce320ed2fe36a0ca4bbdc3d0e44e3da0e",
+          "scaleX": 0.6153846153846154,
+          "scaleY": 0.6149289099526066
+        },
+        {
+          "route": "/properties/extraordinary-turnkey-luxury-with-iconic-views/",
+          "viewportWidth": 1440,
+          "state": "top",
+          "originalFile": "038-properties-extraordinary-turnkey-luxury-with-iconic-views-1440-no-preference-top.png",
+          "originalSha256": "ae2fd80c4cd3e789fcb8d4400b4a28a41cdddee22b93e4511358d16f1b1d69cb",
+          "scaleX": 0.2777777777777778,
+          "scaleY": 0.278
+        },
+        {
+          "route": "/properties/extraordinary-turnkey-luxury-with-iconic-views/",
+          "viewportWidth": 390,
+          "state": "top",
+          "originalFile": "037-properties-extraordinary-turnkey-luxury-with-iconic-views-390-no-preference-top.png",
+          "originalSha256": "8d7e3cca59d8f06264354573f434d889e3bc0d242e3ddba24d40f9ea0a3f45a2",
+          "scaleX": 0.6153846153846154,
+          "scaleY": 0.6149289099526066
+        },
+        {
+          "route": "/properties/ava-at-palm-jumeirah-dorchester-collection/",
+          "viewportWidth": 1440,
+          "state": "top",
+          "originalFile": "040-properties-ava-at-palm-jumeirah-dorchester-collection-1440-no-preference-top.png",
+          "originalSha256": "93655049c62d6a8c7567df7744dfb877d03c7cc21373713b23d671b3c1cb4f27",
+          "scaleX": 0.2777777777777778,
+          "scaleY": 0.278
+        },
+        {
+          "route": "/properties/ava-at-palm-jumeirah-dorchester-collection/",
+          "viewportWidth": 390,
+          "state": "top",
+          "originalFile": "039-properties-ava-at-palm-jumeirah-dorchester-collection-390-no-preference-top.png",
+          "originalSha256": "0cf6f219525d0458f17df20dcac19aa8d2e0086bc64efd1475edcd8c69476136",
+          "scaleX": 0.6153846153846154,
+          "scaleY": 0.6149289099526066
+        }
+      ],
+      "observations": [
+        "Четыре объекта/проекта: фотографии, кнопки галереи и Share, хлебная навигация и заголовки выровнены между desktop и mobile.",
+        "Длинные названия естественно продолжаются ниже первого экрана; фиксированной обрезки контейнера или пересечения с кнопками не видно."
+      ],
+      "findingIds": []
+    },
+    {
+      "file": "top-009.png",
+      "sha256": "1fb7e7c756badef4971801861e78a34c4c860b376e4ee0f84e0ab0f0d7c0b623",
+      "viewedAt": "2026-11-03T17:19:35Z",
+      "method": "Original PNG rendered with view_image(detail=original) and visually inspected after lossless Git transport and exact SHA-256 validation.",
+      "reviewLevel": "scaled-structural-overview",
+      "actuallyViewed": true,
+      "decision": "no-blocker-observed",
+      "overviewCoverage": [
+        {
+          "route": "/properties/brand-new-vacant-sea-and-sunset-views-2/",
+          "viewportWidth": 1440,
+          "state": "top",
+          "originalFile": "066-properties-brand-new-vacant-sea-and-sunset-views-2-1440-no-preference-top.png",
+          "originalSha256": "d9273c43e630e77e760bdb636cf3ec3b0d6af0545056c8d675d823a3cc3758a4",
+          "scaleX": 0.2777777777777778,
+          "scaleY": 0.278
+        },
+        {
+          "route": "/properties/brand-new-vacant-sea-and-sunset-views-2/",
+          "viewportWidth": 390,
+          "state": "top",
+          "originalFile": "065-properties-brand-new-vacant-sea-and-sunset-views-2-390-no-preference-top.png",
+          "originalSha256": "30c6a3740fb71a99dfd03cff3277670bfcc8c2524be382d0ec4bd2235fdf215e",
+          "scaleX": 0.6153846153846154,
+          "scaleY": 0.6149289099526066
+        },
+        {
+          "route": "/properties/branded-upgrade-palm-skyline-view-2br-xl-size/",
+          "viewportWidth": 1440,
+          "state": "top",
+          "originalFile": "068-properties-branded-upgrade-palm-skyline-view-2br-xl-size-1440-no-preference-top.png",
+          "originalSha256": "22746d9fa10e5717f3975e8ddd73c1edb1273d432c54b6984b05567f3ca381e0",
+          "scaleX": 0.2777777777777778,
+          "scaleY": 0.278
+        },
+        {
+          "route": "/properties/branded-upgrade-palm-skyline-view-2br-xl-size/",
+          "viewportWidth": 390,
+          "state": "top",
+          "originalFile": "067-properties-branded-upgrade-palm-skyline-view-2br-xl-size-390-no-preference-top.png",
+          "originalSha256": "acbf3853cc0bc509c262a2cadbd3064b69bd3f9adb54f263615225638959ad8c",
+          "scaleX": 0.6153846153846154,
+          "scaleY": 0.6149289099526066
+        },
+        {
+          "route": "/properties/celebrated-designer-duplex-with-private-pool/",
+          "viewportWidth": 1440,
+          "state": "top",
+          "originalFile": "070-properties-celebrated-designer-duplex-with-private-pool-1440-no-preference-top.png",
+          "originalSha256": "d9b35ce961ab7c55251231e5e3c47048b9d70c0eb80426badf8438b28cad7640",
+          "scaleX": 0.2777777777777778,
+          "scaleY": 0.278
+        },
+        {
+          "route": "/properties/celebrated-designer-duplex-with-private-pool/",
+          "viewportWidth": 390,
+          "state": "top",
+          "originalFile": "069-properties-celebrated-designer-duplex-with-private-pool-390-no-preference-top.png",
+          "originalSha256": "c5c03d8ae0cb1a981174bfcb536210e6caded62b0c70a5d4ae6c56cc09fda320",
+          "scaleX": 0.6153846153846154,
+          "scaleY": 0.6149289099526066
+        },
+        {
+          "route": "/properties/city-and-sea-views-fully-furnished-xl-terrace/",
+          "viewportWidth": 1440,
+          "state": "top",
+          "originalFile": "072-properties-city-and-sea-views-fully-furnished-xl-terrace-1440-no-preference-top.png",
+          "originalSha256": "8b0a54056343e8f22dd37855e3de4749bcad066ddae5649a00169edd6047e08b",
+          "scaleX": 0.2777777777777778,
+          "scaleY": 0.278
+        },
+        {
+          "route": "/properties/city-and-sea-views-fully-furnished-xl-terrace/",
+          "viewportWidth": 390,
+          "state": "top",
+          "originalFile": "071-properties-city-and-sea-views-fully-furnished-xl-terrace-390-no-preference-top.png",
+          "originalSha256": "67a4c32ea3c57318ec71066dfdd63406044aaef89f70e35d77ebd05e7cdf8a07",
+          "scaleX": 0.6153846153846154,
+          "scaleY": 0.6149289099526066
+        }
+      ],
+      "observations": [
+        "Четыре карточки объекта используют одинаковую структуру фото, действий, типа сделки, названия и адреса.",
+        "Разные пропорции исходных фотографий корректно заполняют первый экран; подписи и действия контрастны, мобильная колонка не выходит за поля."
+      ],
+      "findingIds": []
+    },
+    {
+      "file": "top-013.png",
+      "sha256": "7e31471d81d351c61cfff17f034024c798356cffb8240076db20814d1f36e1b2",
+      "viewedAt": "2026-11-03T17:20:59Z",
+      "method": "Original PNG rendered with view_image(detail=original) and visually inspected after lossless Git transport and exact SHA-256 validation.",
+      "reviewLevel": "scaled-structural-overview",
+      "actuallyViewed": true,
+      "decision": "no-blocker-observed",
+      "overviewCoverage": [
+        {
+          "route": "/properties/high-floor-palm-paradise-with-city-views-for-rent/",
+          "viewportWidth": 1440,
+          "state": "top",
+          "originalFile": "098-properties-high-floor-palm-paradise-with-city-views-for-rent-1440-no-preference-top.png",
+          "originalSha256": "5a980c2e16cdc143b82ef6f3ea8a8c1d58d21acb67c0ad07db746658cf1b94e8",
+          "scaleX": 0.2777777777777778,
+          "scaleY": 0.278
+        },
+        {
+          "route": "/properties/high-floor-palm-paradise-with-city-views-for-rent/",
+          "viewportWidth": 390,
+          "state": "top",
+          "originalFile": "097-properties-high-floor-palm-paradise-with-city-views-for-rent-390-no-preference-top.png",
+          "originalSha256": "0d39e7d9cdd7b0255cb456630a82326353b06b9c852a7bdc2fee4071556862e5",
+          "scaleX": 0.6153846153846154,
+          "scaleY": 0.6149289099526066
+        },
+        {
+          "route": "/properties/high-floor-palm-paradise-with-incredible-views/",
+          "viewportWidth": 1440,
+          "state": "top",
+          "originalFile": "100-properties-high-floor-palm-paradise-with-incredible-views-1440-no-preference-top.png",
+          "originalSha256": "2711f143b5a1b7254f6ba5d1b057ae436ade05514a060660523312b8edc27e8b",
+          "scaleX": 0.2777777777777778,
+          "scaleY": 0.278
+        },
+        {
+          "route": "/properties/high-floor-palm-paradise-with-incredible-views/",
+          "viewportWidth": 390,
+          "state": "top",
+          "originalFile": "099-properties-high-floor-palm-paradise-with-incredible-views-390-no-preference-top.png",
+          "originalSha256": "50095c95f88a8d5ded5f1c3c9369f4e2c0225fd4448692e6cc8d42811da3aa7e",
+          "scaleX": 0.6153846153846154,
+          "scaleY": 0.6149289099526066
+        },
+        {
+          "route": "/properties/landmark-marina-gate-one-bed-must-be-viewed-2/",
+          "viewportWidth": 1440,
+          "state": "top",
+          "originalFile": "102-properties-landmark-marina-gate-one-bed-must-be-viewed-2-1440-no-preference-top.png",
+          "originalSha256": "94fb1b201d1151bb5d51d492c2b355f159a0e330219a3d71ab4eb03c792ed904",
+          "scaleX": 0.2777777777777778,
+          "scaleY": 0.278
+        },
+        {
+          "route": "/properties/landmark-marina-gate-one-bed-must-be-viewed-2/",
+          "viewportWidth": 390,
+          "state": "top",
+          "originalFile": "101-properties-landmark-marina-gate-one-bed-must-be-viewed-2-390-no-preference-top.png",
+          "originalSha256": "1e31891b7b06e541a75e17497fbe78d1cf828744fb72b313aea8b78b8033af2b",
+          "scaleX": 0.6153846153846154,
+          "scaleY": 0.6149289099526066
+        },
+        {
+          "route": "/properties/large-layout-community-view-maids-room/",
+          "viewportWidth": 1440,
+          "state": "top",
+          "originalFile": "104-properties-large-layout-community-view-maids-room-1440-no-preference-top.png",
+          "originalSha256": "24f372f9beb079e1cafb3381a433b92e97cc5699b774951b892fb17274f03c89",
+          "scaleX": 0.2777777777777778,
+          "scaleY": 0.278
+        },
+        {
+          "route": "/properties/large-layout-community-view-maids-room/",
+          "viewportWidth": 390,
+          "state": "top",
+          "originalFile": "103-properties-large-layout-community-view-maids-room-390-no-preference-top.png",
+          "originalSha256": "8a827905ee97db0f677915f22bd6afad11f373b0489ea6c16da6bcc1865b5939",
+          "scaleX": 0.6153846153846154,
+          "scaleY": 0.6149289099526066
+        }
+      ],
+      "observations": [
+        "Длинные названия High-Floor Palm и Landmark Marina Gate переносятся без выхода за поля; тип сделки и фото-действия расположены последовательно.",
+        "Мобильные шапки и кнопки галереи/поделиться не пересекаются с контентом."
+      ],
+      "findingIds": []
+    },
+    {
+      "file": "top-017.png",
+      "sha256": "2550f5acfeda0d9e5d0ccfeff47774ae9866fde08ca297f249d50a1b1dfd5bc1",
+      "viewedAt": "2026-11-03T17:20:59Z",
+      "method": "Original PNG rendered with view_image(detail=original) and visually inspected after lossless Git transport and exact SHA-256 validation.",
+      "reviewLevel": "scaled-structural-overview",
+      "actuallyViewed": true,
+      "decision": "no-blocker-observed",
+      "overviewCoverage": [
+        {
+          "route": "/properties/partially-upgraded-premium-location-immaculate/",
+          "viewportWidth": 1440,
+          "state": "top",
+          "originalFile": "130-properties-partially-upgraded-premium-location-immaculate-1440-no-preference-top.png",
+          "originalSha256": "e7457e08e2f229985c3ed555a494a00e3755c493f06546a787cafc7df252fe60",
+          "scaleX": 0.2777777777777778,
+          "scaleY": 0.278
+        },
+        {
+          "route": "/properties/partially-upgraded-premium-location-immaculate/",
+          "viewportWidth": 390,
+          "state": "top",
+          "originalFile": "129-properties-partially-upgraded-premium-location-immaculate-390-no-preference-top.png",
+          "originalSha256": "a2312c2bb9ab83797322eafe3c76ebc399dd14dca0144a5007a3d725f3577162",
+          "scaleX": 0.6153846153846154,
+          "scaleY": 0.6149289099526066
+        },
+        {
+          "route": "/properties/penthouse-style-with-skyline-views-at-golf-heights/",
+          "viewportWidth": 1440,
+          "state": "top",
+          "originalFile": "132-properties-penthouse-style-with-skyline-views-at-golf-heights-1440-no-preference-top.png",
+          "originalSha256": "96e39ed0de4b6b174d66a3dd0c75185060160544462873fa12884fee33623e41",
+          "scaleX": 0.2777777777777778,
+          "scaleY": 0.278
+        },
+        {
+          "route": "/properties/penthouse-style-with-skyline-views-at-golf-heights/",
+          "viewportWidth": 390,
+          "state": "top",
+          "originalFile": "131-properties-penthouse-style-with-skyline-views-at-golf-heights-390-no-preference-top.png",
+          "originalSha256": "17c061e748aefda0d2164f111df42ab311912fbcccc36ac664a39059524fbced",
+          "scaleX": 0.6153846153846154,
+          "scaleY": 0.6149289099526066
+        },
+        {
+          "route": "/properties/popular-type-prime-location-prestigious-villa/",
+          "viewportWidth": 1440,
+          "state": "top",
+          "originalFile": "134-properties-popular-type-prime-location-prestigious-villa-1440-no-preference-top.png",
+          "originalSha256": "8c9f6cd8a9dc2a8d170c58323f99849a496d69768a316a21a583a5ccd2de204c",
+          "scaleX": 0.2777777777777778,
+          "scaleY": 0.278
+        },
+        {
+          "route": "/properties/popular-type-prime-location-prestigious-villa/",
+          "viewportWidth": 390,
+          "state": "top",
+          "originalFile": "133-properties-popular-type-prime-location-prestigious-villa-390-no-preference-top.png",
+          "originalSha256": "5586c981d8378384a5e59f7cae4996905a14b55d67e8a09a667ef99bfdb9cb4b",
+          "scaleX": 0.6153846153846154,
+          "scaleY": 0.6149289099526066
+        },
+        {
+          "route": "/properties/high-number-fully-renovated-best-layout/",
+          "viewportWidth": 1440,
+          "state": "top",
+          "originalFile": "136-properties-high-number-fully-renovated-best-layout-1440-no-preference-top.png",
+          "originalSha256": "3af5d51d19f4e03849d55f25c805b4ac8ea16b62b10bf377d14b07767eb07c51",
+          "scaleX": 0.2777777777777778,
+          "scaleY": 0.278
+        },
+        {
+          "route": "/properties/high-number-fully-renovated-best-layout/",
+          "viewportWidth": 390,
+          "state": "top",
+          "originalFile": "135-properties-high-number-fully-renovated-best-layout-390-no-preference-top.png",
+          "originalSha256": "5d57cb94089ad6e3d01a84abbb2cb7157e6d65bfabf6b3ce72d7139b4d61d5d0",
+          "scaleX": 0.6153846153846154,
+          "scaleY": 0.6149289099526066
+        }
+      ],
+      "observations": [
+        "Четыре различающихся объекта используют единый отступ от фото до содержания, одинаковую иерархию и боковую карточку цены на desktop.",
+        "Мобильные подписи и кнопки сохраняют поля, на светлых фото виден поддерживающий контраст градиент."
+      ],
+      "findingIds": []
+    },
+    {
+      "file": "top-021.png",
+      "sha256": "8c224c273773dcd80980708af4a475482372ac2a8ea570533236b3c490abc814",
+      "viewedAt": "2026-11-03T17:20:59Z",
+      "method": "Original PNG rendered with view_image(detail=original) and visually inspected after lossless Git transport and exact SHA-256 validation.",
+      "reviewLevel": "scaled-structural-overview",
+      "actuallyViewed": true,
+      "decision": "no-blocker-observed",
+      "overviewCoverage": [
+        {
+          "route": "/properties/the-chedi-private-residences/",
+          "viewportWidth": 1440,
+          "state": "top",
+          "originalFile": "162-properties-the-chedi-private-residences-1440-no-preference-top.png",
+          "originalSha256": "472c891f9a78b3d78700186584f9a298302c0bb2f1d0ac1b318c8df4e7502acc",
+          "scaleX": 0.2777777777777778,
+          "scaleY": 0.278
+        },
+        {
+          "route": "/properties/the-chedi-private-residences/",
+          "viewportWidth": 390,
+          "state": "top",
+          "originalFile": "161-properties-the-chedi-private-residences-390-no-preference-top.png",
+          "originalSha256": "87397e37235cfe71d474b6775b5cde24ee155fafb3f092c9984dc8c495a4f37f",
+          "scaleX": 0.6153846153846154,
+          "scaleY": 0.6149289099526066
+        },
+        {
+          "route": "/properties/timeless-elegance-awaits-at-palazzo-versace-dubai/",
+          "viewportWidth": 1440,
+          "state": "top",
+          "originalFile": "164-properties-timeless-elegance-awaits-at-palazzo-versace-dubai-1440-no-preference-top.png",
+          "originalSha256": "f9e3437533281f47afca18d060360e0a58a431f7469465349970093208270be5",
+          "scaleX": 0.2777777777777778,
+          "scaleY": 0.278
+        },
+        {
+          "route": "/properties/timeless-elegance-awaits-at-palazzo-versace-dubai/",
+          "viewportWidth": 390,
+          "state": "top",
+          "originalFile": "163-properties-timeless-elegance-awaits-at-palazzo-versace-dubai-390-no-preference-top.png",
+          "originalSha256": "d5a568f8b52781c008f9488fd4c85d6c07f2d47ff9f2752993c53388d5d5e35d",
+          "scaleX": 0.6153846153846154,
+          "scaleY": 0.6149289099526066
+        },
+        {
+          "route": "/properties/triple-storey-fully-renovated-prime-location/",
+          "viewportWidth": 1440,
+          "state": "top",
+          "originalFile": "166-properties-triple-storey-fully-renovated-prime-location-1440-no-preference-top.png",
+          "originalSha256": "c01f63d0ae2d64eec06488cd1ea52fc52289f3abfc78dec9779a1f404d9cd946",
+          "scaleX": 0.2777777777777778,
+          "scaleY": 0.278
+        },
+        {
+          "route": "/properties/triple-storey-fully-renovated-prime-location/",
+          "viewportWidth": 390,
+          "state": "top",
+          "originalFile": "165-properties-triple-storey-fully-renovated-prime-location-390-no-preference-top.png",
+          "originalSha256": "a5b47c135637ba4b933e214d99482353cf31cc34357f4e142677af5eca7aa33d",
+          "scaleX": 0.6153846153846154,
+          "scaleY": 0.6149289099526066
+        },
+        {
+          "route": "/properties/turnkey-renovation-balearic-style-extended/",
+          "viewportWidth": 1440,
+          "state": "top",
+          "originalFile": "168-properties-turnkey-renovation-balearic-style-extended-1440-no-preference-top.png",
+          "originalSha256": "a30aa0e62146133018f265f623b08b87ef1da44c51aa35308d54c47cdb550015",
+          "scaleX": 0.2777777777777778,
+          "scaleY": 0.278
+        },
+        {
+          "route": "/properties/turnkey-renovation-balearic-style-extended/",
+          "viewportWidth": 390,
+          "state": "top",
+          "originalFile": "167-properties-turnkey-renovation-balearic-style-extended-390-no-preference-top.png",
+          "originalSha256": "7fcf9023e1038b09d4150a37587337b665b2dfba2d0d7a9fbb1bf1692f38960e",
+          "scaleX": 0.6153846153846154,
+          "scaleY": 0.6149289099526066
+        }
+      ],
+      "observations": [
+        "Длинные названия Chedi и Palazzo Versace продолжаются ниже границы первого viewport без видимой контейнерной обрезки; верхние фото и действия стабильны.",
+        "Triple Storey и Turnkey Renovation сохраняют общий масштаб заголовков и одинаковые отступы."
+      ],
+      "findingIds": []
+    },
+    {
+      "file": "top-025.png",
+      "sha256": "adcc26481c9726bce8be1b10285ba46d89229f31c675bc47e413a6127629fe46",
+      "viewedAt": "2026-11-03T17:21:20Z",
+      "method": "Original PNG rendered with view_image(detail=original) and visually inspected after lossless Git transport and exact SHA-256 validation.",
+      "reviewLevel": "scaled-structural-overview",
+      "actuallyViewed": true,
+      "decision": "no-blocker-observed",
+      "overviewCoverage": [
+        {
+          "route": "/properties/brand-new-high-floor-palm-and-skyline-view/",
+          "viewportWidth": 1440,
+          "state": "top",
+          "originalFile": "194-properties-brand-new-high-floor-palm-and-skyline-view-1440-no-preference-top.png",
+          "originalSha256": "00674d05fabd3fdb44597e280f7ccc414df9d191f10eba7962dfe18d725363be",
+          "scaleX": 0.2777777777777778,
+          "scaleY": 0.278
+        },
+        {
+          "route": "/properties/brand-new-high-floor-palm-and-skyline-view/",
+          "viewportWidth": 390,
+          "state": "top",
+          "originalFile": "193-properties-brand-new-high-floor-palm-and-skyline-view-390-no-preference-top.png",
+          "originalSha256": "94babdac2d72c545782dd0590f20c789240a4fb9ac37c30f5fe3582f9f2e5e1f",
+          "scaleX": 0.6153846153846154,
+          "scaleY": 0.6149289099526066
+        },
+        {
+          "route": "/properties/brand-new-high-floor-sea-and-sunset-views/",
+          "viewportWidth": 1440,
+          "state": "top",
+          "originalFile": "196-properties-brand-new-high-floor-sea-and-sunset-views-1440-no-preference-top.png",
+          "originalSha256": "ff7d78e42df53f8bc20f97e14ab1575495a6d5cefa6af8307d959273a6be1c6b",
+          "scaleX": 0.2777777777777778,
+          "scaleY": 0.278
+        },
+        {
+          "route": "/properties/brand-new-high-floor-sea-and-sunset-views/",
+          "viewportWidth": 390,
+          "state": "top",
+          "originalFile": "195-properties-brand-new-high-floor-sea-and-sunset-views-390-no-preference-top.png",
+          "originalSha256": "5b2ddf92bb4525ddd1f79b9b7bb8d269fc9dc8525c35196e491bf7c5413e96d1",
+          "scaleX": 0.6153846153846154,
+          "scaleY": 0.6149289099526066
+        },
+        {
+          "route": "/properties/burj-khalifa-views-upgraded-fully-furnished/",
+          "viewportWidth": 1440,
+          "state": "top",
+          "originalFile": "198-properties-burj-khalifa-views-upgraded-fully-furnished-1440-no-preference-top.png",
+          "originalSha256": "318dbf604a408465ad424a99ea372afd2d50bc3be33e64e2ed523ee70fd2fb0d",
+          "scaleX": 0.2777777777777778,
+          "scaleY": 0.278
+        },
+        {
+          "route": "/properties/burj-khalifa-views-upgraded-fully-furnished/",
+          "viewportWidth": 390,
+          "state": "top",
+          "originalFile": "197-properties-burj-khalifa-views-upgraded-fully-furnished-390-no-preference-top.png",
+          "originalSha256": "ec0b4940563bfb836750dd2f0315025c469432ab78923729c67bee4d5180f8bb",
+          "scaleX": 0.6153846153846154,
+          "scaleY": 0.6149289099526066
+        },
+        {
+          "route": "/properties/dual-views-highest-floor-huge-layout/",
+          "viewportWidth": 1440,
+          "state": "top",
+          "originalFile": "200-properties-dual-views-highest-floor-huge-layout-1440-no-preference-top.png",
+          "originalSha256": "b791956b3bf0cc4b0c9598700ded75ca80c8aa8ca4ff38000c10ec642957f4ff",
+          "scaleX": 0.2777777777777778,
+          "scaleY": 0.278
+        },
+        {
+          "route": "/properties/dual-views-highest-floor-huge-layout/",
+          "viewportWidth": 390,
+          "state": "top",
+          "originalFile": "199-properties-dual-views-highest-floor-huge-layout-390-no-preference-top.png",
+          "originalSha256": "29b345989f2e9f926bb660bbf8730865e1f29b41b2f8525d307a2055909aa6ad",
+          "scaleX": 0.6153846153846154,
+          "scaleY": 0.6149289099526066
+        }
+      ],
+      "observations": [
+        "Архивные страницы явно показывают Sold поверх фотографии; бейдж не мешает шапке и фото-действиям.",
+        "Заголовки, адреса и боковые цены выдержаны в общей сетке, мобильные отступы стабильны."
+      ],
+      "findingIds": []
+    },
+    {
+      "file": "top-029.png",
+      "sha256": "64724596ae65669d90dec4001e91c959203235cb8cc27035eefb65267be1ca1c",
+      "viewedAt": "2026-11-03T17:21:20Z",
+      "method": "Original PNG rendered with view_image(detail=original) and visually inspected after lossless Git transport and exact SHA-256 validation.",
+      "reviewLevel": "scaled-structural-overview",
+      "actuallyViewed": true,
+      "decision": "no-blocker-observed",
+      "overviewCoverage": [
+        {
+          "route": "/properties/post-handover-pp-04-layout-palm-view/",
+          "viewportWidth": 1440,
+          "state": "top",
+          "originalFile": "226-properties-post-handover-pp-04-layout-palm-view-1440-no-preference-top.png",
+          "originalSha256": "f2c4e2fb1c53cbe468a0c6b850a3293648b8b64d914ea590ca8d0c32f6bb5706",
+          "scaleX": 0.2777777777777778,
+          "scaleY": 0.278
+        },
+        {
+          "route": "/properties/post-handover-pp-04-layout-palm-view/",
+          "viewportWidth": 390,
+          "state": "top",
+          "originalFile": "225-properties-post-handover-pp-04-layout-palm-view-390-no-preference-top.png",
+          "originalSha256": "3989f319ed4ae778f1c521ee19e950a4cb3b7831f42922bc00cec0213f01c92f",
+          "scaleX": 0.6153846153846154,
+          "scaleY": 0.6149289099526066
+        },
+        {
+          "route": "/properties/private-pool-duplex-1-resale-agency/",
+          "viewportWidth": 1440,
+          "state": "top",
+          "originalFile": "228-properties-private-pool-duplex-1-resale-agency-1440-no-preference-top.png",
+          "originalSha256": "ce33b71ea3ae1baa1fcbf9aa38a0b0dba7a8e812d12da96d8c0acb1e581b846c",
+          "scaleX": 0.2777777777777778,
+          "scaleY": 0.278
+        },
+        {
+          "route": "/properties/private-pool-duplex-1-resale-agency/",
+          "viewportWidth": 390,
+          "state": "top",
+          "originalFile": "227-properties-private-pool-duplex-1-resale-agency-390-no-preference-top.png",
+          "originalSha256": "764b8f9ea4a19ef87b0161a5d5cfdf849fe8e33746ca449032486ff595369221",
+          "scaleX": 0.6153846153846154,
+          "scaleY": 0.6149289099526066
+        },
+        {
+          "route": "/properties/rented-alternatives-available/",
+          "viewportWidth": 1440,
+          "state": "top",
+          "originalFile": "230-properties-rented-alternatives-available-1440-no-preference-top.png",
+          "originalSha256": "52c9c2a47b3502b494b85a285dc83d78a4f22313516ba2022c801b348f9f2a23",
+          "scaleX": 0.2777777777777778,
+          "scaleY": 0.278
+        },
+        {
+          "route": "/properties/rented-alternatives-available/",
+          "viewportWidth": 390,
+          "state": "top",
+          "originalFile": "229-properties-rented-alternatives-available-390-no-preference-top.png",
+          "originalSha256": "5b1a9f62ff8117e9b29eecb10f488ff2881b5ee6a28edaf7e1abdb8e13aaf247",
+          "scaleX": 0.6153846153846154,
+          "scaleY": 0.6149289099526066
+        },
+        {
+          "route": "/properties/sea-view-or-skyline-vistas-now-you-can-have-both/",
+          "viewportWidth": 1440,
+          "state": "top",
+          "originalFile": "232-properties-sea-view-or-skyline-vistas-now-you-can-have-both-1440-no-preference-top.png",
+          "originalSha256": "729266c30820e0c2e1a319466927a24442b7a8fa13444d3f5f2f0721a39d74e2",
+          "scaleX": 0.2777777777777778,
+          "scaleY": 0.278
+        },
+        {
+          "route": "/properties/sea-view-or-skyline-vistas-now-you-can-have-both/",
+          "viewportWidth": 390,
+          "state": "top",
+          "originalFile": "231-properties-sea-view-or-skyline-vistas-now-you-can-have-both-390-no-preference-top.png",
+          "originalSha256": "52ddce6fdd5af304cdc6134120e9a6f0f54db12a7e62b034b3c6934d7b4fb7f3",
+          "scaleX": 0.6153846153846154,
+          "scaleY": 0.6149289099526066
+        }
+      ],
+      "observations": [
+        "Статусы Sold/Rented, фотографии и базовые действия не конкурируют между собой.",
+        "Разные по длине названия занимают нужное количество строк без выхода за ширину мобильной колонки."
+      ],
+      "findingIds": []
+    },
+    {
+      "file": "top-033.png",
+      "sha256": "ad8022f6b175511d104aa1e4c8a1f852200d609511f6f4ac92d1d75471e252c4",
+      "viewedAt": "2026-11-03T17:21:20Z",
+      "method": "Original PNG rendered with view_image(detail=original) and visually inspected after lossless Git transport and exact SHA-256 validation.",
+      "reviewLevel": "scaled-structural-overview",
+      "actuallyViewed": true,
+      "decision": "no-blocker-observed",
+      "overviewCoverage": [
+        {
+          "route": "/insights/the-art-of-a-private-viewing/",
+          "viewportWidth": 1440,
+          "state": "top",
+          "originalFile": "258-insights-the-art-of-a-private-viewing-1440-no-preference-top.png",
+          "originalSha256": "3186c5c678b36e1f8490abed5e32ecf40d414bd50afd9e61bd22edcc0f3c24f5",
+          "scaleX": 0.2777777777777778,
+          "scaleY": 0.278
+        },
+        {
+          "route": "/insights/the-art-of-a-private-viewing/",
+          "viewportWidth": 390,
+          "state": "top",
+          "originalFile": "257-insights-the-art-of-a-private-viewing-390-no-preference-top.png",
+          "originalSha256": "fd2ad48e2b2b725df4df9c88b61aa63ac1d2679fe18b07023cffc766e42dda74",
+          "scaleX": 0.6153846153846154,
+          "scaleY": 0.6149289099526066
+        },
+        {
+          "route": "/insights/architecture-on-palm-jumeirah/",
+          "viewportWidth": 1440,
+          "state": "top",
+          "originalFile": "260-insights-architecture-on-palm-jumeirah-1440-no-preference-top.png",
+          "originalSha256": "92019ace1a49cf3e39cf25f4f3957da962ab479e21cb199ac0aad9d18440a270",
+          "scaleX": 0.2777777777777778,
+          "scaleY": 0.278
+        },
+        {
+          "route": "/insights/architecture-on-palm-jumeirah/",
+          "viewportWidth": 390,
+          "state": "top",
+          "originalFile": "259-insights-architecture-on-palm-jumeirah-390-no-preference-top.png",
+          "originalSha256": "d43dd852477876a7358bf235d6df85fdf67b1619a633116cdc1b38bb6f6ea229",
+          "scaleX": 0.6153846153846154,
+          "scaleY": 0.6149289099526066
+        }
+      ],
+      "observations": [
+        "Две статьи имеют спокойную общую типографику: ссылка возврата, категория, заголовок, вступление и фотография следуют в одном порядке.",
+        "Заголовки на mobile сбалансированы в две строки, крупные изображения не пересекают текстовые блоки."
+      ],
+      "findingIds": []
+    },
+    {
+      "file": "full-1440-004.png",
+      "sha256": "0cfa575a981214c628928fd90cb065fb1ca1805b8a1f9172daf8fca4d56b7c8b",
+      "viewedAt": "2026-11-03T17:21:47Z",
+      "method": "Original PNG rendered with view_image(detail=original) and visually inspected after lossless Git transport and exact SHA-256 validation.",
+      "reviewLevel": "scaled-structural-overview",
+      "actuallyViewed": true,
+      "decision": "no-blocker-observed",
+      "overviewCoverage": [
+        {
+          "route": "/properties/sublime-sea-views-iconic-living/",
+          "viewportWidth": 1440,
+          "state": "full",
+          "originalFile": "028-properties-sublime-sea-views-iconic-living-1440-no-preference-full.png",
+          "originalSha256": "6fe5bd456905261f41462763612f22f8ab17534286e7685b7ce4b0c238b7b948",
+          "scaleX": 0.2777777777777778,
+          "scaleY": 0.2777973258268825
+        },
+        {
+          "route": "/properties/2br-palm-skyline-view-branded-upgrades/",
+          "viewportWidth": 1440,
+          "state": "full",
+          "originalFile": "030-properties-2br-palm-skyline-view-branded-upgrades-1440-no-preference-full.png",
+          "originalSha256": "5c0e2f26a3b5f01dd8cefb12bb6770660ed00cfdf75eb2c97f8fd3f7ce672aad",
+          "scaleX": 0.2777777777777778,
+          "scaleY": 0.2777125607915479
+        },
+        {
+          "route": "/properties/unique-duplex-breath-taking-sea-view/",
+          "viewportWidth": 1440,
+          "state": "full",
+          "originalFile": "032-properties-unique-duplex-breath-taking-sea-view-1440-no-preference-full.png",
+          "originalSha256": "beee8ef2318b698b666108520c0e8a3f65761a12042f96735f40c6cdfc7f4e14",
+          "scaleX": 0.2777777777777778,
+          "scaleY": 0.2778620166793025
+        },
+        {
+          "route": "/properties/3br-duplex-private-pool-viewing-essential/",
+          "viewportWidth": 1440,
+          "state": "full",
+          "originalFile": "034-properties-3br-duplex-private-pool-viewing-essential-1440-no-preference-full.png",
+          "originalSha256": "d015f7fb7b1616377ce23008161dd37eb7ee7800bd0199ef0e82de16f5c944c3",
+          "scaleX": 0.2777777777777778,
+          "scaleY": 0.27772547542835624
+        }
+      ],
+      "observations": [
+        "Четыре полные страницы: основная колонка и карточка агента сохраняют единую сетку; галерейные превью, описание, характеристики, удобства и расположение имеют последовательные интервалы.",
+        "Блоки рекомендаций стоят в три колонки; футер начинается после полного содержания, обрезанных секций не видно."
+      ],
+      "findingIds": []
+    },
+    {
+      "file": "full-1440-008.png",
+      "sha256": "7a23eef2eec57dde87750999a3f1ca9dc1e1a703722d52864d57249b2d27ce43",
+      "viewedAt": "2026-11-03T17:21:47Z",
+      "method": "Original PNG rendered with view_image(detail=original) and visually inspected after lossless Git transport and exact SHA-256 validation.",
+      "reviewLevel": "scaled-structural-overview",
+      "actuallyViewed": true,
+      "decision": "no-blocker-observed",
+      "overviewCoverage": [
+        {
+          "route": "/properties/brand-new-sea-and-sunset-views/",
+          "viewportWidth": 1440,
+          "state": "full",
+          "originalFile": "060-properties-brand-new-sea-and-sunset-views-1440-no-preference-full.png",
+          "originalSha256": "bd215d03429b74bd38c0395be4da81467541c427d74fad14eba4894d32ee9b38",
+          "scaleX": 0.2777777777777778,
+          "scaleY": 0.27776747635824217
+        },
+        {
+          "route": "/properties/brand-new-sea-dubai-eye-and-sunset-views/",
+          "viewportWidth": 1440,
+          "state": "full",
+          "originalFile": "062-properties-brand-new-sea-dubai-eye-and-sunset-views-1440-no-preference-full.png",
+          "originalSha256": "aa13df07a1594971b9f4a2d2d3654f3014da9fe64a86413ef540ed17cd1d875b",
+          "scaleX": 0.2777777777777778,
+          "scaleY": 0.2777161862527716
+        },
+        {
+          "route": "/properties/brand-new-vacant-sea-and-sunset-views/",
+          "viewportWidth": 1440,
+          "state": "full",
+          "originalFile": "064-properties-brand-new-vacant-sea-and-sunset-views-1440-no-preference-full.png",
+          "originalSha256": "bbecc25a91e2a85b30e9a6f445dd4edb62ed4915d42ab84babbe357fc1960d08",
+          "scaleX": 0.2777777777777778,
+          "scaleY": 0.2777266875114953
+        },
+        {
+          "route": "/properties/brand-new-vacant-sea-and-sunset-views-2/",
+          "viewportWidth": 1440,
+          "state": "full",
+          "originalFile": "066-properties-brand-new-vacant-sea-and-sunset-views-2-1440-no-preference-full.png",
+          "originalSha256": "02fbaa936c842ffbc7976128f477beae644504f807f23f70ef394161d0f21941",
+          "scaleX": 0.2777777777777778,
+          "scaleY": 0.27782805429864255
+        }
+      ],
+      "observations": [
+        "В четырех схожих объектах различная длина описания не ломает поток; таблица характеристик, фильм, удобства и местоположение остаются разделены.",
+        "Цена и агент вынесены в спокойную боковую карточку, рекомендации и подвал выдержаны в общей ширине."
+      ],
+      "findingIds": []
+    },
+    {
+      "file": "full-1440-012.png",
+      "sha256": "94cf29647a851860b2bf0883330ae4d66e9a941abaf5b910fe21a513a55924da",
+      "viewedAt": "2026-11-03T17:21:47Z",
+      "method": "Original PNG rendered with view_image(detail=original) and visually inspected after lossless Git transport and exact SHA-256 validation.",
+      "reviewLevel": "scaled-structural-overview",
+      "actuallyViewed": true,
+      "decision": "no-blocker-observed",
+      "overviewCoverage": [
+        {
+          "route": "/properties/genuine-resale-full-sea-and-marina-views/",
+          "viewportWidth": 1440,
+          "state": "full",
+          "originalFile": "092-properties-genuine-resale-full-sea-and-marina-views-1440-no-preference-full.png",
+          "originalSha256": "566194b4cebbfd7bb51f2777a0bdb48f89a6b8a927b2f359f5017e4351bb15a8",
+          "scaleX": 0.2777777777777778,
+          "scaleY": 0.2777155655095185
+        },
+        {
+          "route": "/properties/high-floor-with-best-views-furnished-1-agency/",
+          "viewportWidth": 1440,
+          "state": "full",
+          "originalFile": "094-properties-high-floor-with-best-views-furnished-1-agency-1440-no-preference-full.png",
+          "originalSha256": "e2576a61a8f38a3a2b37964050eabe674955727f94ede0658014553399948403",
+          "scaleX": 0.2777777777777778,
+          "scaleY": 0.2776980996773037
+        },
+        {
+          "route": "/properties/high-floor-2br-sea-view-chic-upgrades/",
+          "viewportWidth": 1440,
+          "state": "full",
+          "originalFile": "096-properties-high-floor-2br-sea-view-chic-upgrades-1440-no-preference-full.png",
+          "originalSha256": "0c3e7e434282d038ee521b136dc86ff1da9bf2215eaf3a90e6a8741e22b12153",
+          "scaleX": 0.2777777777777778,
+          "scaleY": 0.2777968428277282
+        },
+        {
+          "route": "/properties/high-floor-palm-paradise-with-city-views-for-rent/",
+          "viewportWidth": 1440,
+          "state": "full",
+          "originalFile": "098-properties-high-floor-palm-paradise-with-city-views-for-rent-1440-no-preference-full.png",
+          "originalSha256": "f01e7158d1f2bfc66558cfecc525bbf12080cd941d10a368c68bdf656dc99101",
+          "scaleX": 0.2777777777777778,
+          "scaleY": 0.27770800627943487
+        }
+      ],
+      "observations": [
+        "Длинное описание High-Floor Palm и три более коротких страницы доходят до характеристик и футера без наложений или пропусков.",
+        "Заголовки, списки и блоки девелопмента сохраняют видимую иерархию; карточки рекомендаций не выходят из сетки."
+      ],
+      "findingIds": []
+    },
+    {
+      "file": "full-1440-016.png",
+      "sha256": "b66d5f27c9365255c87471c4987d3466a14fb618dbabbdb3b4be21a47587f644",
+      "viewedAt": "2026-11-03T17:21:47Z",
+      "method": "Original PNG rendered with view_image(detail=original) and visually inspected after lossless Git transport and exact SHA-256 validation.",
+      "reviewLevel": "scaled-structural-overview",
+      "actuallyViewed": true,
+      "decision": "no-blocker-observed",
+      "overviewCoverage": [
+        {
+          "route": "/properties/palm-and-marina-skyline-views-private-pool/",
+          "viewportWidth": 1440,
+          "state": "full",
+          "originalFile": "124-properties-palm-and-marina-skyline-views-private-pool-1440-no-preference-full.png",
+          "originalSha256": "8aab59813808a0c2f71409872b39fd923983da197290e5cf9d7fd50dbabeb1c2",
+          "scaleX": 0.2777777777777778,
+          "scaleY": 0.2777207392197125
+        },
+        {
+          "route": "/properties/dorchester-collection-full-palm-view-duplex/",
+          "viewportWidth": 1440,
+          "state": "full",
+          "originalFile": "126-properties-dorchester-collection-full-palm-view-duplex-1440-no-preference-full.png",
+          "originalSha256": "a97ad66736f326b55f9dc34ef8e724c30f44ac0915249641a51f1b8164fad341",
+          "scaleX": 0.2777777777777778,
+          "scaleY": 0.27782772882575074
+        },
+        {
+          "route": "/properties/panoramic-sea-sunset-views-wrap-around-balcony/",
+          "viewportWidth": 1440,
+          "state": "full",
+          "originalFile": "128-properties-panoramic-sea-sunset-views-wrap-around-balcony-1440-no-preference-full.png",
+          "originalSha256": "6ea8281a633ec4f08f059915e31e061b966b5664d358e15e4eb7476063dbedcc",
+          "scaleX": 0.2777777777777778,
+          "scaleY": 0.2777573529411765
+        },
+        {
+          "route": "/properties/partially-upgraded-premium-location-immaculate/",
+          "viewportWidth": 1440,
+          "state": "full",
+          "originalFile": "130-properties-partially-upgraded-premium-location-immaculate-1440-no-preference-full.png",
+          "originalSha256": "ad793f61b6dbafd8fbbfef600a58f0389dd7b82d821b2ce01d9dc452b49a8ff3",
+          "scaleX": 0.2777777777777778,
+          "scaleY": 0.2776787482669836
+        }
+      ],
+      "observations": [
+        "Четыре объекта с разным объемом описаний и удобств имеют полный связный поток от hero до footer.",
+        "Фото-превью, контекст ORLA, Location и похожие объекты расположены последовательно, без неожиданных пустых разрывов внутри содержания."
+      ],
+      "findingIds": []
+    },
+    {
+      "file": "full-1440-020.png",
+      "sha256": "3f363e610f17e839caae31ae9a4b571578f13ac5a461a555f239ed6eb210b688",
+      "viewedAt": "2026-11-03T17:28:59Z",
+      "method": "Original PNG rendered with view_image(detail=original) and visually inspected after lossless Git transport and exact SHA-256 validation.",
+      "reviewLevel": "scaled-structural-overview",
+      "actuallyViewed": true,
+      "decision": "no-blocker-observed",
+      "overviewCoverage": [
+        {
+          "route": "/properties/sought-after-sea-sunset-views-branded-residences/",
+          "viewportWidth": 1440,
+          "state": "full",
+          "originalFile": "156-properties-sought-after-sea-sunset-views-branded-residences-1440-no-preference-full.png",
+          "originalSha256": "375c407344da28a7ff6f0854362c143725cd582fc19e2c554db129c3e6d1c8df",
+          "scaleX": 0.2777777777777778,
+          "scaleY": 0.27781831448376504
+        },
+        {
+          "route": "/properties/spacious-layout-prime-amenities-modern-living/",
+          "viewportWidth": 1440,
+          "state": "full",
+          "originalFile": "158-properties-spacious-layout-prime-amenities-modern-living-1440-no-preference-full.png",
+          "originalSha256": "13f1e5897935a439f19f6eb989d2ce91c0654d05a6a7f28a209d7f17fd50ec95",
+          "scaleX": 0.2777777777777778,
+          "scaleY": 0.27769289533995417
+        },
+        {
+          "route": "/properties/stunning-4br-amazing-bmv-price-move-in-ready/",
+          "viewportWidth": 1440,
+          "state": "full",
+          "originalFile": "160-properties-stunning-4br-amazing-bmv-price-move-in-ready-1440-no-preference-full.png",
+          "originalSha256": "6a955085f4cecd118a0a1f4e152b4a487a9141c2d9c6e3f439701b1ed072a78f",
+          "scaleX": 0.2777777777777778,
+          "scaleY": 0.2777863897070222
+        },
+        {
+          "route": "/properties/the-chedi-private-residences/",
+          "viewportWidth": 1440,
+          "state": "full",
+          "originalFile": "162-properties-the-chedi-private-residences-1440-no-preference-full.png",
+          "originalSha256": "73d05b80faf64bff420b7082049a625cda2f2e12a0be34ba05cfdfd672e24b36",
+          "scaleX": 0.2777777777777778,
+          "scaleY": 0.27786032689450224
+        }
+      ],
+      "observations": [
+        "Три объекта и Chedi development listing имеют полные непрерывные страницы: описания, параметры, удобства, локация и рекомендации.",
+        "Длинные названия/описания не вторгаются в соседнюю карточку агента и не смещают ширину сетки."
+      ],
+      "findingIds": []
+    },
+    {
+      "file": "full-1440-024.png",
+      "sha256": "d149226870db5dae1ebd48475a7cc965a1d4fa191792efec5f6d8a25cf4e7dad",
+      "viewedAt": "2026-11-03T17:28:59Z",
+      "method": "Original PNG rendered with view_image(detail=original) and visually inspected after lossless Git transport and exact SHA-256 validation.",
+      "reviewLevel": "scaled-structural-overview",
+      "actuallyViewed": true,
+      "decision": "no-blocker-observed",
+      "overviewCoverage": [
+        {
+          "route": "/properties/beauty-rarity-and-timeless-elegance-awaits/",
+          "viewportWidth": 1440,
+          "state": "full",
+          "originalFile": "188-properties-beauty-rarity-and-timeless-elegance-awaits-1440-no-preference-full.png",
+          "originalSha256": "bc758ecabdeb04db342518c27bd205cfaefd9357758e2a2514335a1c923b2b98",
+          "scaleX": 0.2777777777777778,
+          "scaleY": 0.27783783783783783
+        },
+        {
+          "route": "/properties/best-price-high-floor-sea-view-large-size/",
+          "viewportWidth": 1440,
+          "state": "full",
+          "originalFile": "190-properties-best-price-high-floor-sea-view-large-size-1440-no-preference-full.png",
+          "originalSha256": "4144fef7e0a50044ac21033f4a6b2816eb589c22e0064d0a49a40b1d80bcdc28",
+          "scaleX": 0.2777777777777778,
+          "scaleY": 0.277724358974359
+        },
+        {
+          "route": "/properties/brand-new-high-floor-full-palm-jumeirah-view/",
+          "viewportWidth": 1440,
+          "state": "full",
+          "originalFile": "192-properties-brand-new-high-floor-full-palm-jumeirah-view-1440-no-preference-full.png",
+          "originalSha256": "3a4d90c98227fda7cb7c77d6de6cb20662eb9a3329d177b1a4b928fbccae95d9",
+          "scaleX": 0.2777777777777778,
+          "scaleY": 0.2777587974034848
+        },
+        {
+          "route": "/properties/brand-new-high-floor-palm-and-skyline-view/",
+          "viewportWidth": 1440,
+          "state": "full",
+          "originalFile": "194-properties-brand-new-high-floor-palm-and-skyline-view-1440-no-preference-full.png",
+          "originalSha256": "85cd7dc147551f02cafd397aa3143b1c65d1aae5f8c20843b1e34624f7b9ce06",
+          "scaleX": 0.2777777777777778,
+          "scaleY": 0.2777479892761394
+        }
+      ],
+      "observations": [
+        "Архивные объекты показывают статус и пояснение недоступности, сохраняя фотографии и корректный порядок нижних секций.",
+        "Секции с фильмом, удобствами и проектом выдерживают общую ширину; рекомендации и футер не обрезаны."
+      ],
+      "findingIds": []
+    },
+    {
+      "file": "full-1440-028.png",
+      "sha256": "6919e98438e670f83635d1ca40e8fc743dc251b3bce538627a90037578f9cf57",
+      "viewedAt": "2026-11-03T17:28:59Z",
+      "method": "Original PNG rendered with view_image(detail=original) and visually inspected after lossless Git transport and exact SHA-256 validation.",
+      "reviewLevel": "scaled-structural-overview",
+      "actuallyViewed": true,
+      "decision": "no-blocker-observed",
+      "overviewCoverage": [
+        {
+          "route": "/properties/live-royally-turnkey-renovated-masterpiece/",
+          "viewportWidth": 1440,
+          "state": "full",
+          "originalFile": "220-properties-live-royally-turnkey-renovated-masterpiece-1440-no-preference-full.png",
+          "originalSha256": "d7509c611c88d76f0cfa5bbbbf45f06e72f959131f375aac42e95612425fdf46",
+          "scaleX": 0.2777777777777778,
+          "scaleY": 0.2777969613259669
+        },
+        {
+          "route": "/properties/modern-design-elie-saab-branded-priced-to-sell/",
+          "viewportWidth": 1440,
+          "state": "full",
+          "originalFile": "222-properties-modern-design-elie-saab-branded-priced-to-sell-1440-no-preference-full.png",
+          "originalSha256": "844c51a1ccd28c8134110f75ee479b6bc9ee20d38c48c208f10a8acb9ecdb889",
+          "scaleX": 0.2777777777777778,
+          "scaleY": 0.2777294097161762
+        },
+        {
+          "route": "/properties/palm-view-amazing-2br-layout-must-be-viewed/",
+          "viewportWidth": 1440,
+          "state": "full",
+          "originalFile": "224-properties-palm-view-amazing-2br-layout-must-be-viewed-1440-no-preference-full.png",
+          "originalSha256": "e374ea56239b4445dd576aae33d68c489bd8cd177224953f280296a7e9a98838",
+          "scaleX": 0.2777777777777778,
+          "scaleY": 0.2777237354085603
+        },
+        {
+          "route": "/properties/post-handover-pp-04-layout-palm-view/",
+          "viewportWidth": 1440,
+          "state": "full",
+          "originalFile": "226-properties-post-handover-pp-04-layout-palm-view-1440-no-preference-full.png",
+          "originalSha256": "cae20f52c4bbebff16f1931384be8cf3a28c309a260dbb933df10694b6e04752",
+          "scaleX": 0.2777777777777778,
+          "scaleY": 0.2777119647994585
+        }
+      ],
+      "observations": [
+        "Четыре архивные страницы различной длины сохраняют единый визуальный поток и заметное действие поиска альтернатив.",
+        "Крупные фотографии, перечисления, блоки проекта и рекомендации располагаются без перекрытий."
+      ],
+      "findingIds": []
+    },
+    {
+      "file": "full-1440-032.png",
+      "sha256": "b288dd4243e679a03f271e0b808ad0fa613c1f7fecc679924e0806c8a3ae5765",
+      "viewedAt": "2026-11-03T17:28:59Z",
+      "method": "Original PNG rendered with view_image(detail=original) and visually inspected after lossless Git transport and exact SHA-256 validation.",
+      "reviewLevel": "scaled-structural-overview",
+      "actuallyViewed": true,
+      "decision": "findings-recorded",
+      "overviewCoverage": [
+        {
+          "route": "/developments/vela/",
+          "viewportWidth": 1440,
+          "state": "full",
+          "originalFile": "252-developments-vela-1440-no-preference-full.png",
+          "originalSha256": "c42ca97ac35fd6daff7a2651057ad7e53a03b0832bed48d0949b118209bae82d",
+          "scaleX": 0.2777777777777778,
+          "scaleY": 0.27775080120423423
+        },
+        {
+          "route": "/insights/spaces-worth-living-in/",
+          "viewportWidth": 1440,
+          "state": "full",
+          "originalFile": "254-insights-spaces-worth-living-in-1440-no-preference-full.png",
+          "originalSha256": "a42c29942797265f694a927eaaf5a960c3ed0ece6d0744de8cfde262a1dd28bb",
+          "scaleX": 0.2777777777777778,
+          "scaleY": 0.27788435187722665
+        },
+        {
+          "route": "/insights/a-home-by-the-water/",
+          "viewportWidth": 1440,
+          "state": "full",
+          "originalFile": "256-insights-a-home-by-the-water-1440-no-preference-full.png",
+          "originalSha256": "27166b58dbc0e69771dfa1f546597be93c2e3f621e826265d81fde2545edcd8a",
+          "scaleX": 0.2777777777777778,
+          "scaleY": 0.2776671408250356
+        },
+        {
+          "route": "/insights/the-art-of-a-private-viewing/",
+          "viewportWidth": 1440,
+          "state": "full",
+          "originalFile": "258-insights-the-art-of-a-private-viewing-1440-no-preference-full.png",
+          "originalSha256": "1e17baee7b827e02f9d7b6d6beaef02f245f9b11ab8aac780f77444865fe6753",
+          "scaleX": 0.2777777777777778,
+          "scaleY": 0.2778594531020288
+        }
+      ],
+      "observations": [
+        "Три статьи полностью видны: текстовая колонка, оглавление, CTA, рекомендации и футер имеют последовательную иерархию.",
+        "На overview VELA несколько story/gallery областей выглядят пустыми при наличии кнопок. Исходное фото и DOM загрузка корректны; требуется отдельная проверка фактического viewport перед приемкой этих областей."
+      ],
+      "findingIds": [
+        "ROOT-DEV-PAINT-01"
+      ]
+    },
+    {
+      "file": "full-390-003.png",
+      "sha256": "7ca3eec8a062a379ae9c6e9b01c44267c5ae06223303ba299bc6437240a9306f",
+      "viewedAt": "2026-11-03T17:29:16Z",
+      "method": "Original PNG rendered with view_image(detail=original) and visually inspected after lossless Git transport and exact SHA-256 validation.",
+      "reviewLevel": "scaled-structural-overview",
+      "actuallyViewed": true,
+      "decision": "no-blocker-observed",
+      "overviewCoverage": [
+        {
+          "route": "/properties/sublime-sea-views-iconic-living/",
+          "viewportWidth": 390,
+          "state": "full",
+          "originalFile": "027-properties-sublime-sea-views-iconic-living-390-no-preference-full.png",
+          "originalSha256": "5e87d89886f78b2e1607272803fa052381907abedcb65a2ae7aed7e3029a164d",
+          "scaleX": 0.6153846153846154,
+          "scaleY": 0.615365551425031
+        },
+        {
+          "route": "/properties/2br-palm-skyline-view-branded-upgrades/",
+          "viewportWidth": 390,
+          "state": "full",
+          "originalFile": "029-properties-2br-palm-skyline-view-branded-upgrades-390-no-preference-full.png",
+          "originalSha256": "d6f3b51adbe1ab39eb8e30e7b92633f94974809dbef3d8e6931b4badf6c10f14",
+          "scaleX": 0.6153846153846154,
+          "scaleY": 0.6154031287605295
+        },
+        {
+          "route": "/properties/unique-duplex-breath-taking-sea-view/",
+          "viewportWidth": 390,
+          "state": "full",
+          "originalFile": "031-properties-unique-duplex-breath-taking-sea-view-390-no-preference-full.png",
+          "originalSha256": "914b90d03b71d88f31b9c195c6768b23818014d464006114395c5c3d61e2a8bb",
+          "scaleX": 0.6153846153846154,
+          "scaleY": 0.6153434194671308
+        },
+        {
+          "route": "/properties/3br-duplex-private-pool-viewing-essential/",
+          "viewportWidth": 390,
+          "state": "full",
+          "originalFile": "033-properties-3br-duplex-private-pool-viewing-essential-390-no-preference-full.png",
+          "originalSha256": "476098487da3a3ab9e841ee1986eed648fe83d322cba8de163e0d96fca5ace3f",
+          "scaleX": 0.6153846153846154,
+          "scaleY": 0.6153341210450308
+        },
+        {
+          "route": "/properties/a-refined-minimalist-sanctuary-with-serene-views/",
+          "viewportWidth": 390,
+          "state": "full",
+          "originalFile": "035-properties-a-refined-minimalist-sanctuary-with-serene-views-390-no-preference-full.png",
+          "originalSha256": "7f4e96978535283356f8234ff28afbfbf5229c052dea29b804b8b61e0e67b491",
+          "scaleX": 0.6153846153846154,
+          "scaleY": 0.6153482880755609
+        },
+        {
+          "route": "/properties/extraordinary-turnkey-luxury-with-iconic-views/",
+          "viewportWidth": 390,
+          "state": "full",
+          "originalFile": "037-properties-extraordinary-turnkey-luxury-with-iconic-views-390-no-preference-full.png",
+          "originalSha256": "b7444771c6a10e2c2fa26934e0462dec851800d446332461983fd028e6c44e09",
+          "scaleX": 0.6153846153846154,
+          "scaleY": 0.6153694386899478
+        }
+      ],
+      "observations": [
+        "Шесть полных мобильных страниц показывают последовательность: hero, название, цена/агент, фото, описание, параметры, удобства, рекомендации и подвал.",
+        "Длинные заголовки и длинное описание penthouse занимают естественную высоту; карточка агента и кнопки вписываются в колонку, текст не обрезан.",
+        "Пояснение о противоречивом количестве спален видно отдельно от основных параметров."
+      ],
+      "findingIds": []
+    },
+    {
+      "file": "full-390-007.png",
+      "sha256": "1dba01a9cf0ec4ccd21df15829ed0863846581b542280050719768888c3e23a4",
+      "viewedAt": "2026-11-03T17:29:36Z",
+      "method": "Original PNG rendered with view_image(detail=original) and visually inspected after lossless Git transport and exact SHA-256 validation.",
+      "reviewLevel": "scaled-structural-overview",
+      "actuallyViewed": true,
+      "decision": "no-blocker-observed",
+      "overviewCoverage": [
+        {
+          "route": "/properties/dual-views-double-height-2027-completion/",
+          "viewportWidth": 390,
+          "state": "full",
+          "originalFile": "075-properties-dual-views-double-height-2027-completion-390-no-preference-full.png",
+          "originalSha256": "669915db8797139f2d2aa994061571c3ddae0383b3b74b3bdf5d0dac4de44ec5",
+          "scaleX": 0.6153846153846154,
+          "scaleY": 0.6154044639401367
+        },
+        {
+          "route": "/properties/duplex-ph-brand-new-unobstructed-views/",
+          "viewportWidth": 390,
+          "state": "full",
+          "originalFile": "077-properties-duplex-ph-brand-new-unobstructed-views-390-no-preference-full.png",
+          "originalSha256": "229d9a195ce259cff19e7324d133d16db795c27127d38beaf342a2c58ff838e8",
+          "scaleX": 0.6153846153846154,
+          "scaleY": 0.6153649495078615
+        },
+        {
+          "route": "/properties/duplex-roof-terrace-golf-and-skyline-views/",
+          "viewportWidth": 390,
+          "state": "full",
+          "originalFile": "079-properties-duplex-roof-terrace-golf-and-skyline-views-390-no-preference-full.png",
+          "originalSha256": "679c30c9f5e3cbc57ff0ebfb9329b979817f60680c8c50878043576a0d194653",
+          "scaleX": 0.6153846153846154,
+          "scaleY": 0.6153846153846154
+        },
+        {
+          "route": "/properties/eden-hills/",
+          "viewportWidth": 390,
+          "state": "full",
+          "originalFile": "081-properties-eden-hills-390-no-preference-full.png",
+          "originalSha256": "b596897cadbfabd947633f2fce5e648922517380a0840d1dff3eb21b3995c570",
+          "scaleX": 0.6153846153846154,
+          "scaleY": 0.6153626090688028
+        },
+        {
+          "route": "/properties/one-of-a-kind-loft-designer-upgrade-sea-view/",
+          "viewportWidth": 390,
+          "state": "full",
+          "originalFile": "083-properties-one-of-a-kind-loft-designer-upgrade-sea-view-390-no-preference-full.png",
+          "originalSha256": "e1b30975362795fc5376d7614d4b951c6a409558c80cc764a74ac38cf0d498e2",
+          "scaleX": 0.6153846153846154,
+          "scaleY": 0.6153356260349
+        },
+        {
+          "route": "/properties/furnished-upgraded-unique-layout-dual-views/",
+          "viewportWidth": 390,
+          "state": "full",
+          "originalFile": "085-properties-furnished-upgraded-unique-layout-dual-views-390-no-preference-full.png",
+          "originalSha256": "b778352d045f6fe2b46479511fdc5d5ef9b79627df0b5e2501afad1ee1517663",
+          "scaleX": 0.6153846153846154,
+          "scaleY": 0.6153660012099214
+        }
+      ],
+      "observations": [
+        "Шесть мобильных страниц с разной длиной названий и описаний сохраняют единую колонку и достаточные интервалы между ценой, действиями и галереей.",
+        "Eden Hills использует корректный вариант проекта с More developments; для жилых объектов рекомендации имеют согласованные карточки.",
+        "Длинные списки и таблицы характеристик читаются по структуре, пересечений и обрезки нижних блоков не видно."
+      ],
+      "findingIds": []
+    },
+    {
+      "file": "full-390-011.png",
+      "sha256": "71cf0c1270c10d48687cd9e485f683e45f8686dccedd8a2715109f212ff1b159",
+      "viewedAt": "2026-11-03T17:30:38Z",
+      "method": "Original PNG rendered with view_image(detail=original) and visually inspected after lossless Git transport and exact SHA-256 validation.",
+      "reviewLevel": "scaled-structural-overview",
+      "actuallyViewed": true,
+      "decision": "no-blocker-observed",
+      "overviewCoverage": [
+        {
+          "route": "/properties/palm-and-marina-skyline-views-private-pool/",
+          "viewportWidth": 390,
+          "state": "full",
+          "originalFile": "123-properties-palm-and-marina-skyline-views-private-pool-390-no-preference-full.png",
+          "originalSha256": "6a57ab08ed03be907611ba86bb7d9046b1d94502e68b8159c9c46ea3a61fe21c",
+          "scaleX": 0.6153846153846154,
+          "scaleY": 0.6153942115768463
+        },
+        {
+          "route": "/properties/dorchester-collection-full-palm-view-duplex/",
+          "viewportWidth": 390,
+          "state": "full",
+          "originalFile": "125-properties-dorchester-collection-full-palm-view-duplex-390-no-preference-full.png",
+          "originalSha256": "06681df9ace66a3f8376c8045dd5f9825ddf579626f50506c112eb3a8911fb36",
+          "scaleX": 0.6153846153846154,
+          "scaleY": 0.6153265383163458
+        },
+        {
+          "route": "/properties/panoramic-sea-sunset-views-wrap-around-balcony/",
+          "viewportWidth": 390,
+          "state": "full",
+          "originalFile": "127-properties-panoramic-sea-sunset-views-wrap-around-balcony-390-no-preference-full.png",
+          "originalSha256": "5b01624c05ebc19d929dc60545a9900b3abdf8621c78f7ffcd45478afeae07ad",
+          "scaleX": 0.6153846153846154,
+          "scaleY": 0.6154352693270118
+        },
+        {
+          "route": "/properties/partially-upgraded-premium-location-immaculate/",
+          "viewportWidth": 390,
+          "state": "full",
+          "originalFile": "129-properties-partially-upgraded-premium-location-immaculate-390-no-preference-full.png",
+          "originalSha256": "fbe075d5f37a230f2184d6dc23fa53efaa0142017fed8525bf2a2eb11b042504",
+          "scaleX": 0.6153846153846154,
+          "scaleY": 0.6154165513423747
+        },
+        {
+          "route": "/properties/penthouse-style-with-skyline-views-at-golf-heights/",
+          "viewportWidth": 390,
+          "state": "full",
+          "originalFile": "131-properties-penthouse-style-with-skyline-views-at-golf-heights-390-no-preference-full.png",
+          "originalSha256": "07a592ea96b80606d0df2193b36885549cee437263180e792bcb4efc565c5967",
+          "scaleX": 0.6153846153846154,
+          "scaleY": 0.6154461784713886
+        },
+        {
+          "route": "/properties/popular-type-prime-location-prestigious-villa/",
+          "viewportWidth": 390,
+          "state": "full",
+          "originalFile": "133-properties-popular-type-prime-location-prestigious-villa-390-no-preference-full.png",
+          "originalSha256": "95cfa3e1f59c06282dd11db27b294145fe8df98162e73fd6f8f86efea53f6cbf",
+          "scaleX": 0.6153846153846154,
+          "scaleY": 0.6153949851712052
+        }
+      ],
+      "observations": [
+        "Шесть объектов сохраняют мобильную иерархию и одинаковую ширину действий, описаний, списков и карточек рекомендаций.",
+        "Большие суммы и длинные адреса не выходят за карточки; нижние блоки ORLA/Location и футеры размещены последовательно.",
+        "На этом листе пустых фото-секций и структурных пересечений не наблюдаю."
+      ],
+      "findingIds": []
+    },
+    {
+      "file": "full-390-015.png",
+      "sha256": "2a53df2cf8d550b0db5fdd1eda0f90b9ad16955932c8e5cedc84048cec00d00c",
+      "viewedAt": "2026-11-03T17:30:55Z",
+      "method": "Original PNG rendered with view_image(detail=original) and visually inspected after lossless Git transport and exact SHA-256 validation.",
+      "reviewLevel": "scaled-structural-overview",
+      "actuallyViewed": true,
+      "decision": "no-blocker-observed",
+      "overviewCoverage": [
+        {
+          "route": "/properties/ultra-high-floor-one-of-a-kind-upgraded-residence/",
+          "viewportWidth": 390,
+          "state": "full",
+          "originalFile": "171-properties-ultra-high-floor-one-of-a-kind-upgraded-residence-390-no-preference-full.png",
+          "originalSha256": "224367fc756c238b9fcdfe3a9ab7ef36d583c27ed3430a2b537f8ca380412762",
+          "scaleX": 0.6153846153846154,
+          "scaleY": 0.6153758929583854
+        },
+        {
+          "route": "/properties/palm-view-sky-court-xl-terrace-upgraded/",
+          "viewportWidth": 390,
+          "state": "full",
+          "originalFile": "173-properties-palm-view-sky-court-xl-terrace-upgraded-390-no-preference-full.png",
+          "originalSha256": "d5980f81e81df81d60a6a1fe465c6c8e97d528a9d3d7c5505d5f7f77498137d4",
+          "scaleX": 0.6153846153846154,
+          "scaleY": 0.615336187358348
+        },
+        {
+          "route": "/properties/ultra-rare-2br-duplex-in-the-iconic-uptown-tower/",
+          "viewportWidth": 390,
+          "state": "full",
+          "originalFile": "175-properties-ultra-rare-2br-duplex-in-the-iconic-uptown-tower-390-no-preference-full.png",
+          "originalSha256": "56452f5174c726d7ad0dc6962486294e13721ef31e79124f87d112920dd19cdc",
+          "scaleX": 0.6153846153846154,
+          "scaleY": 0.6153322440087146
+        },
+        {
+          "route": "/properties/upgraded-2br-marina-view-investor-deal/",
+          "viewportWidth": 390,
+          "state": "full",
+          "originalFile": "177-properties-upgraded-2br-marina-view-investor-deal-390-no-preference-full.png",
+          "originalSha256": "31fd43057eb8717ffd23df11dbf37bd9a1aa3d33208df2e4ee33e108a49345f1",
+          "scaleX": 0.6153846153846154,
+          "scaleY": 0.6153251770766259
+        },
+        {
+          "route": "/properties/best-priced-palm-view-2br-furnished-view-today/",
+          "viewportWidth": 390,
+          "state": "full",
+          "originalFile": "179-properties-best-priced-palm-view-2br-furnished-view-today-390-no-preference-full.png",
+          "originalSha256": "4bd86affd6755d84bce8d2956d45faa4977775668bd6bab40f8c9b82c2ac3f5c",
+          "scaleX": 0.6153846153846154,
+          "scaleY": 0.6154304793703792
+        },
+        {
+          "route": "/properties/upgraded-vacant-furnished-viewing-essential/",
+          "viewportWidth": 390,
+          "state": "full",
+          "originalFile": "181-properties-upgraded-vacant-furnished-viewing-essential-390-no-preference-full.png",
+          "originalSha256": "a4d741bd94133c9e0eb96a6487c509cdbf6289711a46e58b0efc9ec70f2d1891",
+          "scaleX": 0.6153846153846154,
+          "scaleY": 0.615331396153314
+        }
+      ],
+      "observations": [
+        "Шесть полных мобильных страниц: длинные четырехстрочные названия не пересекаются с адресом, параметрами и ценой.",
+        "В карточках агента помещаются длинные email, имя и две кнопки; фотографии и описания не сжимаются фиксированной высотой.",
+        "Таблицы характеристик, длинные списки удобств, рекомендации и подвал сохраняют общий ритм и ширину."
+      ],
+      "findingIds": []
+    },
+    {
+      "file": "full-390-019.png",
+      "sha256": "28568f7533119795ba41ff42c3ad2103ff20e8d32d64580bc70ff7abcb2d24fd",
+      "viewedAt": "2026-11-03T17:31:14Z",
+      "method": "Original PNG rendered with view_image(detail=original) and visually inspected after lossless Git transport and exact SHA-256 validation.",
+      "reviewLevel": "scaled-structural-overview",
+      "actuallyViewed": true,
+      "decision": "no-blocker-observed",
+      "overviewCoverage": [
+        {
+          "route": "/properties/live-royally-turnkey-renovated-masterpiece/",
+          "viewportWidth": 390,
+          "state": "full",
+          "originalFile": "219-properties-live-royally-turnkey-renovated-masterpiece-390-no-preference-full.png",
+          "originalSha256": "3ea1e148c7a39c65a1b7de458173393ebb856d3d2ca4e4aa7926a4914c8996fc",
+          "scaleX": 0.6153846153846154,
+          "scaleY": 0.6154132539091586
+        },
+        {
+          "route": "/properties/modern-design-elie-saab-branded-priced-to-sell/",
+          "viewportWidth": 390,
+          "state": "full",
+          "originalFile": "221-properties-modern-design-elie-saab-branded-priced-to-sell-390-no-preference-full.png",
+          "originalSha256": "d3cb4eefb9c0ec856abc2df061fa96076121e43d0832d5e177664e817723e722",
+          "scaleX": 0.6153846153846154,
+          "scaleY": 0.6153547384774728
+        },
+        {
+          "route": "/properties/palm-view-amazing-2br-layout-must-be-viewed/",
+          "viewportWidth": 390,
+          "state": "full",
+          "originalFile": "223-properties-palm-view-amazing-2br-layout-must-be-viewed-390-no-preference-full.png",
+          "originalSha256": "aa3860fe98ff0e0599b84321322ba73db574f290fab2b81c5b2fed62f636fcc3",
+          "scaleX": 0.6153846153846154,
+          "scaleY": 0.6153578471175037
+        },
+        {
+          "route": "/properties/post-handover-pp-04-layout-palm-view/",
+          "viewportWidth": 390,
+          "state": "full",
+          "originalFile": "225-properties-post-handover-pp-04-layout-palm-view-390-no-preference-full.png",
+          "originalSha256": "be101773a1703255f5bd02a364fbff2b435507de4152eed50714259d2f6d8785",
+          "scaleX": 0.6153846153846154,
+          "scaleY": 0.6153942584931679
+        },
+        {
+          "route": "/properties/private-pool-duplex-1-resale-agency/",
+          "viewportWidth": 390,
+          "state": "full",
+          "originalFile": "227-properties-private-pool-duplex-1-resale-agency-390-no-preference-full.png",
+          "originalSha256": "fd4c75e37e59be6e06807e51e0f522ffe2269a31947f008bd250a1ffefe9dd6b",
+          "scaleX": 0.6153846153846154,
+          "scaleY": 0.6154318712372527
+        },
+        {
+          "route": "/properties/rented-alternatives-available/",
+          "viewportWidth": 390,
+          "state": "full",
+          "originalFile": "229-properties-rented-alternatives-available-390-no-preference-full.png",
+          "originalSha256": "d6d2445c404f7549f272d86d852aac9b8284741fc0a21859760acf19b88b36bf",
+          "scaleX": 0.6153846153846154,
+          "scaleY": 0.6153288201160542
+        }
+      ],
+      "observations": [
+        "Шесть архивных объектов на mobile последовательно показывают Sold/Rented, понятное сообщение архива и действие Find similar homes.",
+        "Цена и контакты агента, полные описания, параметры, рекомендации и подвал сохраняют ширину колонки и не пересекаются.",
+        "Архивные статусы визуально отделены от основного контента и не маскируют фотографии."
+      ],
+      "findingIds": []
+    },
+    {
+      "file": "full-390-catalogue.png",
+      "sha256": "532dd0deb42f22c480b59ab368090d7f12d0c6ed6a704c30acd0a5bbbc273d6b",
+      "viewedAt": "2026-11-03T17:32:03Z",
+      "method": "Original PNG rendered with view_image(detail=original) and visually inspected after lossless Git transport and exact SHA-256 validation.",
+      "reviewLevel": "scaled-structural-overview",
+      "actuallyViewed": true,
+      "decision": "no-blocker-observed",
+      "overviewCoverage": [
+        {
+          "route": "/properties/",
+          "viewportWidth": 390,
+          "state": "full",
+          "originalFile": "003-properties-390-no-preference-full.png",
+          "originalSha256": "c3f2f97ecb1f7a173a043962401f87021a03b1684ef48646470514956e8ec2ec",
+          "scaleX": 0.6153846153846154,
+          "scaleY": 0.6154108887219072
+        }
+      ],
+      "observations": [
+        "Полный мобильный каталог показывает компактный поиск и сортировку, 24 карточки из 49 результатов, пагинацию, консультацию и футер.",
+        "Все карточки сохраняют одну ширину, крупные фотографии и порядок имени/цены/характеристик; длинные названия переносятся без обрезки.",
+        "По всему длинному потоку не видно выпавших карточек, горизонтальных смещений и наложений."
+      ],
+      "findingIds": []
+    }
+  ],
+  "nativeInspections": [],
+  "findings": [
+    {
+      "id": "ROOT-DEV-PAINT-01",
+      "severity": "observation",
+      "status": "open",
+      "observation": "Several VELA story and gallery photo areas are blank in the full-page desktop capture although the underlying image asset is valid and all image DOM entries are loaded with nonzero geometry. Requires real viewport paint confirmation; not assumed to be either a runtime defect or a capture artifact.",
+      "evidence": [
+        "full-1440-032.png",
+        "/developments/vela/",
+        "252-developments-vela-1440-no-preference-full.png"
+      ]
+    }
+  ],
+  "coverage": {
+    "assignedSheetCount": 23,
+    "actualViewedSheetCount": 23,
+    "unreadSheets": [],
+    "overviewRoutes": [
+      "/",
+      "/about/",
+      "/developments/",
+      "/developments/vela/",
+      "/insights/a-home-by-the-water/",
+      "/insights/architecture-on-palm-jumeirah/",
+      "/insights/spaces-worth-living-in/",
+      "/insights/the-art-of-a-private-viewing/",
+      "/properties/",
+      "/properties/2br-palm-skyline-view-branded-upgrades/",
+      "/properties/3br-duplex-private-pool-viewing-essential/",
+      "/properties/a-refined-minimalist-sanctuary-with-serene-views/",
+      "/properties/ava-at-palm-jumeirah-dorchester-collection/",
+      "/properties/beauty-rarity-and-timeless-elegance-awaits/",
+      "/properties/best-price-high-floor-sea-view-large-size/",
+      "/properties/best-priced-palm-view-2br-furnished-view-today/",
+      "/properties/brand-new-high-floor-full-palm-jumeirah-view/",
+      "/properties/brand-new-high-floor-palm-and-skyline-view/",
+      "/properties/brand-new-high-floor-sea-and-sunset-views/",
+      "/properties/brand-new-sea-and-sunset-views/",
+      "/properties/brand-new-sea-dubai-eye-and-sunset-views/",
+      "/properties/brand-new-vacant-sea-and-sunset-views-2/",
+      "/properties/brand-new-vacant-sea-and-sunset-views/",
+      "/properties/branded-upgrade-palm-skyline-view-2br-xl-size/",
+      "/properties/burj-khalifa-views-upgraded-fully-furnished/",
+      "/properties/celebrated-designer-duplex-with-private-pool/",
+      "/properties/city-and-sea-views-fully-furnished-xl-terrace/",
+      "/properties/dorchester-collection-full-palm-view-duplex/",
+      "/properties/dual-views-double-height-2027-completion/",
+      "/properties/dual-views-highest-floor-huge-layout/",
+      "/properties/duplex-ph-brand-new-unobstructed-views/",
+      "/properties/duplex-roof-terrace-golf-and-skyline-views/",
+      "/properties/eden-hills/",
+      "/properties/extraordinary-turnkey-luxury-with-iconic-views/",
+      "/properties/furnished-upgraded-unique-layout-dual-views/",
+      "/properties/genuine-resale-full-sea-and-marina-views/",
+      "/properties/high-floor-2br-sea-view-chic-upgrades/",
+      "/properties/high-floor-palm-paradise-with-city-views-for-rent/",
+      "/properties/high-floor-palm-paradise-with-incredible-views/",
+      "/properties/high-floor-with-best-views-furnished-1-agency/",
+      "/properties/high-number-fully-renovated-best-layout/",
+      "/properties/landmark-marina-gate-one-bed-must-be-viewed-2/",
+      "/properties/large-layout-community-view-maids-room/",
+      "/properties/live-royally-turnkey-renovated-masterpiece/",
+      "/properties/modern-design-elie-saab-branded-priced-to-sell/",
+      "/properties/one-of-a-kind-loft-designer-upgrade-sea-view/",
+      "/properties/palm-and-marina-skyline-views-private-pool/",
+      "/properties/palm-view-amazing-2br-layout-must-be-viewed/",
+      "/properties/palm-view-sky-court-xl-terrace-upgraded/",
+      "/properties/panoramic-sea-sunset-views-wrap-around-balcony/",
+      "/properties/partially-upgraded-premium-location-immaculate/",
+      "/properties/penthouse-style-with-skyline-views-at-golf-heights/",
+      "/properties/popular-type-prime-location-prestigious-villa/",
+      "/properties/post-handover-pp-04-layout-palm-view/",
+      "/properties/private-pool-duplex-1-resale-agency/",
+      "/properties/rented-alternatives-available/",
+      "/properties/sea-view-or-skyline-vistas-now-you-can-have-both/",
+      "/properties/sought-after-sea-sunset-views-branded-residences/",
+      "/properties/spacious-layout-prime-amenities-modern-living/",
+      "/properties/stunning-4br-amazing-bmv-price-move-in-ready/",
+      "/properties/sublime-sea-views-iconic-living/",
+      "/properties/the-chedi-private-residences/",
+      "/properties/timeless-elegance-awaits-at-palazzo-versace-dubai/",
+      "/properties/triple-storey-fully-renovated-prime-location/",
+      "/properties/turnkey-renovation-balearic-style-extended/",
+      "/properties/ultra-high-floor-one-of-a-kind-upgraded-residence/",
+      "/properties/ultra-rare-2br-duplex-in-the-iconic-uptown-tower/",
+      "/properties/unique-duplex-breath-taking-sea-view/",
+      "/properties/upgraded-2br-marina-view-investor-deal/",
+      "/properties/upgraded-vacant-furnished-viewing-essential/"
+    ],
+    "overviewRouteWidthStates": [
+      {
+        "route": "/",
+        "viewportWidth": 1440,
+        "state": "top"
+      },
+      {
+        "route": "/",
+        "viewportWidth": 390,
+        "state": "top"
+      },
+      {
+        "route": "/properties/",
+        "viewportWidth": 1440,
+        "state": "top"
+      },
+      {
+        "route": "/properties/",
+        "viewportWidth": 390,
+        "state": "top"
+      },
+      {
+        "route": "/developments/",
+        "viewportWidth": 1440,
+        "state": "top"
+      },
+      {
+        "route": "/developments/",
+        "viewportWidth": 390,
+        "state": "top"
+      },
+      {
+        "route": "/about/",
+        "viewportWidth": 1440,
+        "state": "top"
+      },
+      {
+        "route": "/about/",
+        "viewportWidth": 390,
+        "state": "top"
+      },
+      {
+        "route": "/properties/3br-duplex-private-pool-viewing-essential/",
+        "viewportWidth": 1440,
+        "state": "top"
+      },
+      {
+        "route": "/properties/3br-duplex-private-pool-viewing-essential/",
+        "viewportWidth": 390,
+        "state": "top"
+      },
+      {
+        "route": "/properties/a-refined-minimalist-sanctuary-with-serene-views/",
+        "viewportWidth": 1440,
+        "state": "top"
+      },
+      {
+        "route": "/properties/a-refined-minimalist-sanctuary-with-serene-views/",
+        "viewportWidth": 390,
+        "state": "top"
+      },
+      {
+        "route": "/properties/extraordinary-turnkey-luxury-with-iconic-views/",
+        "viewportWidth": 1440,
+        "state": "top"
+      },
+      {
+        "route": "/properties/extraordinary-turnkey-luxury-with-iconic-views/",
+        "viewportWidth": 390,
+        "state": "top"
+      },
+      {
+        "route": "/properties/ava-at-palm-jumeirah-dorchester-collection/",
+        "viewportWidth": 1440,
+        "state": "top"
+      },
+      {
+        "route": "/properties/ava-at-palm-jumeirah-dorchester-collection/",
+        "viewportWidth": 390,
+        "state": "top"
+      },
+      {
+        "route": "/properties/brand-new-vacant-sea-and-sunset-views-2/",
+        "viewportWidth": 1440,
+        "state": "top"
+      },
+      {
+        "route": "/properties/brand-new-vacant-sea-and-sunset-views-2/",
+        "viewportWidth": 390,
+        "state": "top"
+      },
+      {
+        "route": "/properties/branded-upgrade-palm-skyline-view-2br-xl-size/",
+        "viewportWidth": 1440,
+        "state": "top"
+      },
+      {
+        "route": "/properties/branded-upgrade-palm-skyline-view-2br-xl-size/",
+        "viewportWidth": 390,
+        "state": "top"
+      },
+      {
+        "route": "/properties/celebrated-designer-duplex-with-private-pool/",
+        "viewportWidth": 1440,
+        "state": "top"
+      },
+      {
+        "route": "/properties/celebrated-designer-duplex-with-private-pool/",
+        "viewportWidth": 390,
+        "state": "top"
+      },
+      {
+        "route": "/properties/city-and-sea-views-fully-furnished-xl-terrace/",
+        "viewportWidth": 1440,
+        "state": "top"
+      },
+      {
+        "route": "/properties/city-and-sea-views-fully-furnished-xl-terrace/",
+        "viewportWidth": 390,
+        "state": "top"
+      },
+      {
+        "route": "/properties/high-floor-palm-paradise-with-city-views-for-rent/",
+        "viewportWidth": 1440,
+        "state": "top"
+      },
+      {
+        "route": "/properties/high-floor-palm-paradise-with-city-views-for-rent/",
+        "viewportWidth": 390,
+        "state": "top"
+      },
+      {
+        "route": "/properties/high-floor-palm-paradise-with-incredible-views/",
+        "viewportWidth": 1440,
+        "state": "top"
+      },
+      {
+        "route": "/properties/high-floor-palm-paradise-with-incredible-views/",
+        "viewportWidth": 390,
+        "state": "top"
+      },
+      {
+        "route": "/properties/landmark-marina-gate-one-bed-must-be-viewed-2/",
+        "viewportWidth": 1440,
+        "state": "top"
+      },
+      {
+        "route": "/properties/landmark-marina-gate-one-bed-must-be-viewed-2/",
+        "viewportWidth": 390,
+        "state": "top"
+      },
+      {
+        "route": "/properties/large-layout-community-view-maids-room/",
+        "viewportWidth": 1440,
+        "state": "top"
+      },
+      {
+        "route": "/properties/large-layout-community-view-maids-room/",
+        "viewportWidth": 390,
+        "state": "top"
+      },
+      {
+        "route": "/properties/partially-upgraded-premium-location-immaculate/",
+        "viewportWidth": 1440,
+        "state": "top"
+      },
+      {
+        "route": "/properties/partially-upgraded-premium-location-immaculate/",
+        "viewportWidth": 390,
+        "state": "top"
+      },
+      {
+        "route": "/properties/penthouse-style-with-skyline-views-at-golf-heights/",
+        "viewportWidth": 1440,
+        "state": "top"
+      },
+      {
+        "route": "/properties/penthouse-style-with-skyline-views-at-golf-heights/",
+        "viewportWidth": 390,
+        "state": "top"
+      },
+      {
+        "route": "/properties/popular-type-prime-location-prestigious-villa/",
+        "viewportWidth": 1440,
+        "state": "top"
+      },
+      {
+        "route": "/properties/popular-type-prime-location-prestigious-villa/",
+        "viewportWidth": 390,
+        "state": "top"
+      },
+      {
+        "route": "/properties/high-number-fully-renovated-best-layout/",
+        "viewportWidth": 1440,
+        "state": "top"
+      },
+      {
+        "route": "/properties/high-number-fully-renovated-best-layout/",
+        "viewportWidth": 390,
+        "state": "top"
+      },
+      {
+        "route": "/properties/the-chedi-private-residences/",
+        "viewportWidth": 1440,
+        "state": "top"
+      },
+      {
+        "route": "/properties/the-chedi-private-residences/",
+        "viewportWidth": 390,
+        "state": "top"
+      },
+      {
+        "route": "/properties/timeless-elegance-awaits-at-palazzo-versace-dubai/",
+        "viewportWidth": 1440,
+        "state": "top"
+      },
+      {
+        "route": "/properties/timeless-elegance-awaits-at-palazzo-versace-dubai/",
+        "viewportWidth": 390,
+        "state": "top"
+      },
+      {
+        "route": "/properties/triple-storey-fully-renovated-prime-location/",
+        "viewportWidth": 1440,
+        "state": "top"
+      },
+      {
+        "route": "/properties/triple-storey-fully-renovated-prime-location/",
+        "viewportWidth": 390,
+        "state": "top"
+      },
+      {
+        "route": "/properties/turnkey-renovation-balearic-style-extended/",
+        "viewportWidth": 1440,
+        "state": "top"
+      },
+      {
+        "route": "/properties/turnkey-renovation-balearic-style-extended/",
+        "viewportWidth": 390,
+        "state": "top"
+      },
+      {
+        "route": "/properties/brand-new-high-floor-palm-and-skyline-view/",
+        "viewportWidth": 1440,
+        "state": "top"
+      },
+      {
+        "route": "/properties/brand-new-high-floor-palm-and-skyline-view/",
+        "viewportWidth": 390,
+        "state": "top"
+      },
+      {
+        "route": "/properties/brand-new-high-floor-sea-and-sunset-views/",
+        "viewportWidth": 1440,
+        "state": "top"
+      },
+      {
+        "route": "/properties/brand-new-high-floor-sea-and-sunset-views/",
+        "viewportWidth": 390,
+        "state": "top"
+      },
+      {
+        "route": "/properties/burj-khalifa-views-upgraded-fully-furnished/",
+        "viewportWidth": 1440,
+        "state": "top"
+      },
+      {
+        "route": "/properties/burj-khalifa-views-upgraded-fully-furnished/",
+        "viewportWidth": 390,
+        "state": "top"
+      },
+      {
+        "route": "/properties/dual-views-highest-floor-huge-layout/",
+        "viewportWidth": 1440,
+        "state": "top"
+      },
+      {
+        "route": "/properties/dual-views-highest-floor-huge-layout/",
+        "viewportWidth": 390,
+        "state": "top"
+      },
+      {
+        "route": "/properties/post-handover-pp-04-layout-palm-view/",
+        "viewportWidth": 1440,
+        "state": "top"
+      },
+      {
+        "route": "/properties/post-handover-pp-04-layout-palm-view/",
+        "viewportWidth": 390,
+        "state": "top"
+      },
+      {
+        "route": "/properties/private-pool-duplex-1-resale-agency/",
+        "viewportWidth": 1440,
+        "state": "top"
+      },
+      {
+        "route": "/properties/private-pool-duplex-1-resale-agency/",
+        "viewportWidth": 390,
+        "state": "top"
+      },
+      {
+        "route": "/properties/rented-alternatives-available/",
+        "viewportWidth": 1440,
+        "state": "top"
+      },
+      {
+        "route": "/properties/rented-alternatives-available/",
+        "viewportWidth": 390,
+        "state": "top"
+      },
+      {
+        "route": "/properties/sea-view-or-skyline-vistas-now-you-can-have-both/",
+        "viewportWidth": 1440,
+        "state": "top"
+      },
+      {
+        "route": "/properties/sea-view-or-skyline-vistas-now-you-can-have-both/",
+        "viewportWidth": 390,
+        "state": "top"
+      },
+      {
+        "route": "/insights/the-art-of-a-private-viewing/",
+        "viewportWidth": 1440,
+        "state": "top"
+      },
+      {
+        "route": "/insights/the-art-of-a-private-viewing/",
+        "viewportWidth": 390,
+        "state": "top"
+      },
+      {
+        "route": "/insights/architecture-on-palm-jumeirah/",
+        "viewportWidth": 1440,
+        "state": "top"
+      },
+      {
+        "route": "/insights/architecture-on-palm-jumeirah/",
+        "viewportWidth": 390,
+        "state": "top"
+      },
+      {
+        "route": "/properties/sublime-sea-views-iconic-living/",
+        "viewportWidth": 1440,
+        "state": "full"
+      },
+      {
+        "route": "/properties/2br-palm-skyline-view-branded-upgrades/",
+        "viewportWidth": 1440,
+        "state": "full"
+      },
+      {
+        "route": "/properties/unique-duplex-breath-taking-sea-view/",
+        "viewportWidth": 1440,
+        "state": "full"
+      },
+      {
+        "route": "/properties/3br-duplex-private-pool-viewing-essential/",
+        "viewportWidth": 1440,
+        "state": "full"
+      },
+      {
+        "route": "/properties/brand-new-sea-and-sunset-views/",
+        "viewportWidth": 1440,
+        "state": "full"
+      },
+      {
+        "route": "/properties/brand-new-sea-dubai-eye-and-sunset-views/",
+        "viewportWidth": 1440,
+        "state": "full"
+      },
+      {
+        "route": "/properties/brand-new-vacant-sea-and-sunset-views/",
+        "viewportWidth": 1440,
+        "state": "full"
+      },
+      {
+        "route": "/properties/brand-new-vacant-sea-and-sunset-views-2/",
+        "viewportWidth": 1440,
+        "state": "full"
+      },
+      {
+        "route": "/properties/genuine-resale-full-sea-and-marina-views/",
+        "viewportWidth": 1440,
+        "state": "full"
+      },
+      {
+        "route": "/properties/high-floor-with-best-views-furnished-1-agency/",
+        "viewportWidth": 1440,
+        "state": "full"
+      },
+      {
+        "route": "/properties/high-floor-2br-sea-view-chic-upgrades/",
+        "viewportWidth": 1440,
+        "state": "full"
+      },
+      {
+        "route": "/properties/high-floor-palm-paradise-with-city-views-for-rent/",
+        "viewportWidth": 1440,
+        "state": "full"
+      },
+      {
+        "route": "/properties/palm-and-marina-skyline-views-private-pool/",
+        "viewportWidth": 1440,
+        "state": "full"
+      },
+      {
+        "route": "/properties/dorchester-collection-full-palm-view-duplex/",
+        "viewportWidth": 1440,
+        "state": "full"
+      },
+      {
+        "route": "/properties/panoramic-sea-sunset-views-wrap-around-balcony/",
+        "viewportWidth": 1440,
+        "state": "full"
+      },
+      {
+        "route": "/properties/partially-upgraded-premium-location-immaculate/",
+        "viewportWidth": 1440,
+        "state": "full"
+      },
+      {
+        "route": "/properties/sought-after-sea-sunset-views-branded-residences/",
+        "viewportWidth": 1440,
+        "state": "full"
+      },
+      {
+        "route": "/properties/spacious-layout-prime-amenities-modern-living/",
+        "viewportWidth": 1440,
+        "state": "full"
+      },
+      {
+        "route": "/properties/stunning-4br-amazing-bmv-price-move-in-ready/",
+        "viewportWidth": 1440,
+        "state": "full"
+      },
+      {
+        "route": "/properties/the-chedi-private-residences/",
+        "viewportWidth": 1440,
+        "state": "full"
+      },
+      {
+        "route": "/properties/beauty-rarity-and-timeless-elegance-awaits/",
+        "viewportWidth": 1440,
+        "state": "full"
+      },
+      {
+        "route": "/properties/best-price-high-floor-sea-view-large-size/",
+        "viewportWidth": 1440,
+        "state": "full"
+      },
+      {
+        "route": "/properties/brand-new-high-floor-full-palm-jumeirah-view/",
+        "viewportWidth": 1440,
+        "state": "full"
+      },
+      {
+        "route": "/properties/brand-new-high-floor-palm-and-skyline-view/",
+        "viewportWidth": 1440,
+        "state": "full"
+      },
+      {
+        "route": "/properties/live-royally-turnkey-renovated-masterpiece/",
+        "viewportWidth": 1440,
+        "state": "full"
+      },
+      {
+        "route": "/properties/modern-design-elie-saab-branded-priced-to-sell/",
+        "viewportWidth": 1440,
+        "state": "full"
+      },
+      {
+        "route": "/properties/palm-view-amazing-2br-layout-must-be-viewed/",
+        "viewportWidth": 1440,
+        "state": "full"
+      },
+      {
+        "route": "/properties/post-handover-pp-04-layout-palm-view/",
+        "viewportWidth": 1440,
+        "state": "full"
+      },
+      {
+        "route": "/developments/vela/",
+        "viewportWidth": 1440,
+        "state": "full"
+      },
+      {
+        "route": "/insights/spaces-worth-living-in/",
+        "viewportWidth": 1440,
+        "state": "full"
+      },
+      {
+        "route": "/insights/a-home-by-the-water/",
+        "viewportWidth": 1440,
+        "state": "full"
+      },
+      {
+        "route": "/insights/the-art-of-a-private-viewing/",
+        "viewportWidth": 1440,
+        "state": "full"
+      },
+      {
+        "route": "/properties/sublime-sea-views-iconic-living/",
+        "viewportWidth": 390,
+        "state": "full"
+      },
+      {
+        "route": "/properties/2br-palm-skyline-view-branded-upgrades/",
+        "viewportWidth": 390,
+        "state": "full"
+      },
+      {
+        "route": "/properties/unique-duplex-breath-taking-sea-view/",
+        "viewportWidth": 390,
+        "state": "full"
+      },
+      {
+        "route": "/properties/3br-duplex-private-pool-viewing-essential/",
+        "viewportWidth": 390,
+        "state": "full"
+      },
+      {
+        "route": "/properties/a-refined-minimalist-sanctuary-with-serene-views/",
+        "viewportWidth": 390,
+        "state": "full"
+      },
+      {
+        "route": "/properties/extraordinary-turnkey-luxury-with-iconic-views/",
+        "viewportWidth": 390,
+        "state": "full"
+      },
+      {
+        "route": "/properties/dual-views-double-height-2027-completion/",
+        "viewportWidth": 390,
+        "state": "full"
+      },
+      {
+        "route": "/properties/duplex-ph-brand-new-unobstructed-views/",
+        "viewportWidth": 390,
+        "state": "full"
+      },
+      {
+        "route": "/properties/duplex-roof-terrace-golf-and-skyline-views/",
+        "viewportWidth": 390,
+        "state": "full"
+      },
+      {
+        "route": "/properties/eden-hills/",
+        "viewportWidth": 390,
+        "state": "full"
+      },
+      {
+        "route": "/properties/one-of-a-kind-loft-designer-upgrade-sea-view/",
+        "viewportWidth": 390,
+        "state": "full"
+      },
+      {
+        "route": "/properties/furnished-upgraded-unique-layout-dual-views/",
+        "viewportWidth": 390,
+        "state": "full"
+      },
+      {
+        "route": "/properties/palm-and-marina-skyline-views-private-pool/",
+        "viewportWidth": 390,
+        "state": "full"
+      },
+      {
+        "route": "/properties/dorchester-collection-full-palm-view-duplex/",
+        "viewportWidth": 390,
+        "state": "full"
+      },
+      {
+        "route": "/properties/panoramic-sea-sunset-views-wrap-around-balcony/",
+        "viewportWidth": 390,
+        "state": "full"
+      },
+      {
+        "route": "/properties/partially-upgraded-premium-location-immaculate/",
+        "viewportWidth": 390,
+        "state": "full"
+      },
+      {
+        "route": "/properties/penthouse-style-with-skyline-views-at-golf-heights/",
+        "viewportWidth": 390,
+        "state": "full"
+      },
+      {
+        "route": "/properties/popular-type-prime-location-prestigious-villa/",
+        "viewportWidth": 390,
+        "state": "full"
+      },
+      {
+        "route": "/properties/ultra-high-floor-one-of-a-kind-upgraded-residence/",
+        "viewportWidth": 390,
+        "state": "full"
+      },
+      {
+        "route": "/properties/palm-view-sky-court-xl-terrace-upgraded/",
+        "viewportWidth": 390,
+        "state": "full"
+      },
+      {
+        "route": "/properties/ultra-rare-2br-duplex-in-the-iconic-uptown-tower/",
+        "viewportWidth": 390,
+        "state": "full"
+      },
+      {
+        "route": "/properties/upgraded-2br-marina-view-investor-deal/",
+        "viewportWidth": 390,
+        "state": "full"
+      },
+      {
+        "route": "/properties/best-priced-palm-view-2br-furnished-view-today/",
+        "viewportWidth": 390,
+        "state": "full"
+      },
+      {
+        "route": "/properties/upgraded-vacant-furnished-viewing-essential/",
+        "viewportWidth": 390,
+        "state": "full"
+      },
+      {
+        "route": "/properties/live-royally-turnkey-renovated-masterpiece/",
+        "viewportWidth": 390,
+        "state": "full"
+      },
+      {
+        "route": "/properties/modern-design-elie-saab-branded-priced-to-sell/",
+        "viewportWidth": 390,
+        "state": "full"
+      },
+      {
+        "route": "/properties/palm-view-amazing-2br-layout-must-be-viewed/",
+        "viewportWidth": 390,
+        "state": "full"
+      },
+      {
+        "route": "/properties/post-handover-pp-04-layout-palm-view/",
+        "viewportWidth": 390,
+        "state": "full"
+      },
+      {
+        "route": "/properties/private-pool-duplex-1-resale-agency/",
+        "viewportWidth": 390,
+        "state": "full"
+      },
+      {
+        "route": "/properties/rented-alternatives-available/",
+        "viewportWidth": 390,
+        "state": "full"
+      },
+      {
+        "route": "/properties/",
+        "viewportWidth": 390,
+        "state": "full"
+      }
+    ],
+    "nativeInspectionCount": 0
+  },
+  "limitations": [
+    "Scaled structural overview; native detail only for separately enumerated originals.",
+    "Existing focused UI native inspections are held in separate source-bound receipts.",
+    "Release acceptance requires resolution of recorded observations and the remaining public/browser gates."
+  ],
+  "releaseAcceptance": false
+}

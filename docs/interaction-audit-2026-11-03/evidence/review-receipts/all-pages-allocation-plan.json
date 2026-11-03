@@ -1,0 +1,715 @@
+{
+  "schemaVersion": 1,
+  "status": "planned-pending-complete-capture-manifest",
+  "createdAt": "2026-11-03T16:02:09.291Z",
+  "captureSourceHead": null,
+  "sheetManifestPath": null,
+  "sheetManifestSha256": null,
+  "expected": {
+    "canonicalRoutes": 130,
+    "routeWidthViews": 260,
+    "sourcePNGs": 520,
+    "sheets": 90,
+    "topPairSheets": 33,
+    "desktopFullSheets": 34,
+    "mobileFullSheets": 23
+  },
+  "source": "Expected output naming of /tmp/luxury-ux-review-sheets.py (sha256 a58df8bf1d286947b687dfa364cdbb7d5335feb29d031a67bd8d6e2a60ac2da1); bind to the actual completed capture manifest before use.",
+  "assignments": [
+    {
+      "owner": "/root",
+      "sheets": [
+        {
+          "file": "top-001.png",
+          "kind": "top-route-pairs",
+          "nativeViewportWidth": null,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "top-005.png",
+          "kind": "top-route-pairs",
+          "nativeViewportWidth": null,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "top-009.png",
+          "kind": "top-route-pairs",
+          "nativeViewportWidth": null,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "top-013.png",
+          "kind": "top-route-pairs",
+          "nativeViewportWidth": null,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "top-017.png",
+          "kind": "top-route-pairs",
+          "nativeViewportWidth": null,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "top-021.png",
+          "kind": "top-route-pairs",
+          "nativeViewportWidth": null,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "top-025.png",
+          "kind": "top-route-pairs",
+          "nativeViewportWidth": null,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "top-029.png",
+          "kind": "top-route-pairs",
+          "nativeViewportWidth": null,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "top-033.png",
+          "kind": "top-route-pairs",
+          "nativeViewportWidth": null,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "full-1440-004.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 1440,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "full-1440-008.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 1440,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "full-1440-012.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 1440,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "full-1440-016.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 1440,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "full-1440-020.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 1440,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "full-1440-024.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 1440,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "full-1440-028.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 1440,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "full-1440-032.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 1440,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "full-390-003.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 390,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "full-390-007.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 390,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "full-390-011.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 390,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "full-390-015.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 390,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "full-390-019.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 390,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "full-390-catalogue.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 390,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        }
+      ],
+      "sheetCount": 23,
+      "counts": {
+        "top": 9,
+        "desktopFull": 8,
+        "mobileFull": 6
+      }
+    },
+    {
+      "owner": "/root/filters_ux",
+      "sheets": [
+        {
+          "file": "top-002.png",
+          "kind": "top-route-pairs",
+          "nativeViewportWidth": null,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "top-006.png",
+          "kind": "top-route-pairs",
+          "nativeViewportWidth": null,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "top-010.png",
+          "kind": "top-route-pairs",
+          "nativeViewportWidth": null,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "top-014.png",
+          "kind": "top-route-pairs",
+          "nativeViewportWidth": null,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "top-018.png",
+          "kind": "top-route-pairs",
+          "nativeViewportWidth": null,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "top-022.png",
+          "kind": "top-route-pairs",
+          "nativeViewportWidth": null,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "top-026.png",
+          "kind": "top-route-pairs",
+          "nativeViewportWidth": null,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "top-030.png",
+          "kind": "top-route-pairs",
+          "nativeViewportWidth": null,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "full-1440-001.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 1440,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "full-1440-005.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 1440,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "full-1440-009.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 1440,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "full-1440-013.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 1440,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "full-1440-017.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 1440,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "full-1440-021.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 1440,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "full-1440-025.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 1440,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "full-1440-029.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 1440,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "full-1440-033.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 1440,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "full-390-004.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 390,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "full-390-008.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 390,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "full-390-012.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 390,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "full-390-016.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 390,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "full-390-020.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 390,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        }
+      ],
+      "sheetCount": 22,
+      "counts": {
+        "top": 8,
+        "desktopFull": 9,
+        "mobileFull": 5
+      }
+    },
+    {
+      "owner": "/root/navigation_motion",
+      "sheets": [
+        {
+          "file": "top-003.png",
+          "kind": "top-route-pairs",
+          "nativeViewportWidth": null,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "top-007.png",
+          "kind": "top-route-pairs",
+          "nativeViewportWidth": null,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "top-011.png",
+          "kind": "top-route-pairs",
+          "nativeViewportWidth": null,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "top-015.png",
+          "kind": "top-route-pairs",
+          "nativeViewportWidth": null,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "top-019.png",
+          "kind": "top-route-pairs",
+          "nativeViewportWidth": null,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "top-023.png",
+          "kind": "top-route-pairs",
+          "nativeViewportWidth": null,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "top-027.png",
+          "kind": "top-route-pairs",
+          "nativeViewportWidth": null,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "top-031.png",
+          "kind": "top-route-pairs",
+          "nativeViewportWidth": null,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "full-1440-002.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 1440,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "full-1440-006.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 1440,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "full-1440-010.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 1440,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "full-1440-014.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 1440,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "full-1440-018.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 1440,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "full-1440-022.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 1440,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "full-1440-026.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 1440,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "full-1440-030.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 1440,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "full-1440-catalogue.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 1440,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "full-390-001.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 390,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "full-390-005.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 390,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "full-390-009.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 390,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "full-390-013.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 390,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "full-390-017.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 390,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "full-390-021.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 390,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        }
+      ],
+      "sheetCount": 23,
+      "counts": {
+        "top": 8,
+        "desktopFull": 9,
+        "mobileFull": 6
+      }
+    },
+    {
+      "owner": "/root/qa_interaction_audit",
+      "sheets": [
+        {
+          "file": "top-004.png",
+          "kind": "top-route-pairs",
+          "nativeViewportWidth": null,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "top-008.png",
+          "kind": "top-route-pairs",
+          "nativeViewportWidth": null,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "top-012.png",
+          "kind": "top-route-pairs",
+          "nativeViewportWidth": null,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "top-016.png",
+          "kind": "top-route-pairs",
+          "nativeViewportWidth": null,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "top-020.png",
+          "kind": "top-route-pairs",
+          "nativeViewportWidth": null,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "top-024.png",
+          "kind": "top-route-pairs",
+          "nativeViewportWidth": null,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "top-028.png",
+          "kind": "top-route-pairs",
+          "nativeViewportWidth": null,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "top-032.png",
+          "kind": "top-route-pairs",
+          "nativeViewportWidth": null,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "full-1440-003.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 1440,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "full-1440-007.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 1440,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "full-1440-011.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 1440,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "full-1440-015.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 1440,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "full-1440-019.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 1440,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "full-1440-023.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 1440,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "full-1440-027.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 1440,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "full-1440-031.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 1440,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "full-390-002.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 390,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "full-390-006.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 390,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "full-390-010.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 390,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "full-390-014.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 390,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "full-390-018.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 390,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        },
+        {
+          "file": "full-390-022.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 390,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started"
+        }
+      ],
+      "sheetCount": 22,
+      "counts": {
+        "top": 8,
+        "desktopFull": 8,
+        "mobileFull": 6
+      }
+    }
+  ],
+  "requiredBeforeReview": [
+    "Verify completed unrestricted 130-route/260-view capture and source commit; no sampled or incomplete capture is eligible.",
+    "Bind this plan to the actual sheet-manifest SHA and verify exact 90-file set; if it differs, regenerate allocation before claiming coverage.",
+    "Read every assigned sheet image. A file listing, generated HTML index, successful command or machine check is not a human review.",
+    "Keep scaled overview coverage separate from actual native PNG or crop inspections. Confirm suspicious details against the native original.",
+    "Save one reviewer receipt using the companion schema. Aggregate actual viewed SHA sets, never the planned counts."
+  ],
+  "aggregateAcceptance": {
+    "allSheetsActuallyViewed": 90,
+    "overviewCoverage": {
+      "uniqueRoutes": 130,
+      "uniqueRouteWidthViews": 260,
+      "uniqueSourcePNGStates": 520,
+      "states": [
+        "top",
+        "full"
+      ]
+    },
+    "nativeDetailCoverage": "Only the exact native files and regions enumerated by reviewer receipts; no whole-site pixel-perfect claim.",
+    "missingOrBlockedItems": "Explicitly list unread sheets/regions and unresolved findings; do not mark global visual acceptance while required sheet coverage is missing."
+  }
+}

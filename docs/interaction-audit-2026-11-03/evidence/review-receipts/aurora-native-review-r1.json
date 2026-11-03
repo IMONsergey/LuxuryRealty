@@ -1,0 +1,212 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "/root/qa_interaction_audit",
+  "status": "complete-for-assigned-native-amenity-regions",
+  "completedAt": "2026-11-03T17:57:14.443814+00:00",
+  "captureBinding": {
+    "sourceHead": "532cd2fc19dcf9ddaa1809616a47ebaee86eec88",
+    "preview": "https://luxury-realty-imon-jvah4quvl-cdo-2844s-projects.vercel.app",
+    "reportPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/aurora-native-features-r1/report.json",
+    "reportSha256": "6b3188145157c76588de33b91af48a53a8db773456b18988e4e18bd68be11268",
+    "artifactGitRef": "d6418c9eab07c4da3767f9f59860f65361b58396"
+  },
+  "supplements": {
+    "receiptPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/review-receipts/all-pages-qa-r1.json",
+    "receiptSha256": "ccb3f4badbfc2f10e1045e6d1af5647035517599f5f631dfa3a6980ea4d5dba1",
+    "originalReceiptUnchanged": true,
+    "findingId": "qa-aurora-amenity-image-variation",
+    "originalSheet": "full-1440-031.png"
+  },
+  "nativeInspections": [
+    {
+      "file": "serenity-mansions-aurora-390-feature-1.png",
+      "sha256": "5f02ce1a44d335315f4ddc19f632928e8630c66310ee30746f92a42dd45ac2f9",
+      "bytes": 306530,
+      "route": "/developments/serenity-mansions-aurora/",
+      "viewportWidth": 390,
+      "viewportHeight": 844,
+      "state": "feature-1",
+      "scrollY": 5558,
+      "captureFile": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/aurora-native-features-r1/serenity-mansions-aurora-390-feature-1.png",
+      "localInspectedFile": "/workspace/scratch/81f7012ea52e/luxury-review/aurora-native-features-r1/serenity-mansions-aurora-390-feature-1.png",
+      "reviewLevel": "native-viewport-original",
+      "region": "amenity cards and their immediate viewport surroundings",
+      "method": "Exact-SHA lossless Git transport; each local PNG opened sequentially using view_image(detail=original). Byte-identical desktop files represent one visually reviewed state.",
+      "actuallyViewed": true,
+      "viewedAt": "2026-11-03T17:57:14.443814+00:00",
+      "viewedAtNote": "Review time recorded after this six-file sequential inspection; the three desktop files are identical and are not counted as three distinct visual states.",
+      "decision": "amenity-photographs-present",
+      "observations": [
+        "The Customisable Interiors card has a fully painted double-height dining/living-room photograph above its heading and paragraph. No empty photo area is visible. The following community card photograph also appears below."
+      ]
+    },
+    {
+      "file": "serenity-mansions-aurora-390-feature-2.png",
+      "sha256": "60cd87a7544a19d2498a2dc759deb9454a8eeae3bb0dc73dad33953af11e31f4",
+      "bytes": 294741,
+      "route": "/developments/serenity-mansions-aurora/",
+      "viewportWidth": 390,
+      "viewportHeight": 844,
+      "state": "feature-2",
+      "scrollY": 5992,
+      "captureFile": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/aurora-native-features-r1/serenity-mansions-aurora-390-feature-2.png",
+      "localInspectedFile": "/workspace/scratch/81f7012ea52e/luxury-review/aurora-native-features-r1/serenity-mansions-aurora-390-feature-2.png",
+      "reviewLevel": "native-viewport-original",
+      "region": "amenity cards and their immediate viewport surroundings",
+      "method": "Exact-SHA lossless Git transport; each local PNG opened sequentially using view_image(detail=original). Byte-identical desktop files represent one visually reviewed state.",
+      "actuallyViewed": true,
+      "viewedAt": "2026-11-03T17:57:14.443814+00:00",
+      "viewedAtNote": "Review time recorded after this six-file sequential inspection; the three desktop files are identical and are not counted as three distinct visual states.",
+      "decision": "amenity-photographs-present",
+      "observations": [
+        "The Exclusive Gated Community card has a fully painted kitchen/dining-to-garden photograph. Its two-line heading and body copy fit the mobile column. The next villa photograph is visible below."
+      ]
+    },
+    {
+      "file": "serenity-mansions-aurora-390-feature-3.png",
+      "sha256": "74370cb3d92ede3f7f143efe11bbabb2955662560a1ef110b4355546721229ee",
+      "bytes": 230436,
+      "route": "/developments/serenity-mansions-aurora/",
+      "viewportWidth": 390,
+      "viewportHeight": 844,
+      "state": "feature-3",
+      "scrollY": 6463,
+      "captureFile": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/aurora-native-features-r1/serenity-mansions-aurora-390-feature-3.png",
+      "localInspectedFile": "/workspace/scratch/81f7012ea52e/luxury-review/aurora-native-features-r1/serenity-mansions-aurora-390-feature-3.png",
+      "reviewLevel": "native-viewport-original",
+      "region": "amenity cards and their immediate viewport surroundings",
+      "method": "Exact-SHA lossless Git transport; each local PNG opened sequentially using view_image(detail=original). Byte-identical desktop files represent one visually reviewed state.",
+      "actuallyViewed": true,
+      "viewedAt": "2026-11-03T17:57:14.443814+00:00",
+      "viewedAtNote": "Review time recorded after this six-file sequential inspection; the three desktop files are identical and are not counted as three distinct visual states.",
+      "decision": "amenity-photographs-present",
+      "observations": [
+        "The Prime Location in Dubai card has a fully painted villa/pool/lawn photograph, followed by its heading and copy. The A closer look section and its gallery trigger follow without a missing amenity-photo gap."
+      ]
+    },
+    {
+      "file": "serenity-mansions-aurora-1440-feature-1.png",
+      "sha256": "ce4a4a540e11ca6fbf4bd042ef65d5789e508b7e7b87e480533e8af8de1028a3",
+      "bytes": 862003,
+      "route": "/developments/serenity-mansions-aurora/",
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "state": "feature-1",
+      "scrollY": 6380,
+      "captureFile": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/aurora-native-features-r1/serenity-mansions-aurora-1440-feature-1.png",
+      "localInspectedFile": "/workspace/scratch/81f7012ea52e/luxury-review/aurora-native-features-r1/serenity-mansions-aurora-1440-feature-1.png",
+      "reviewLevel": "native-viewport-original",
+      "region": "amenity cards and their immediate viewport surroundings",
+      "method": "Exact-SHA lossless Git transport; each local PNG opened sequentially using view_image(detail=original). Byte-identical desktop files represent one visually reviewed state.",
+      "actuallyViewed": true,
+      "viewedAt": "2026-11-03T17:57:14.443814+00:00",
+      "viewedAtNote": "Review time recorded after this six-file sequential inspection; the three desktop files are identical and are not counted as three distinct visual states.",
+      "decision": "amenity-photographs-present",
+      "observations": [
+        "All three amenity photographs are painted in one aligned desktop row: double-height dining/living room, kitchen opening to a garden/pool, and villa exterior with lawn. Each card has a visible heading and paragraph below; the observation that cards two and three were text-only is not reproduced."
+      ],
+      "sameVisualStateAs": "serenity-mansions-aurora-1440-feature-1.png"
+    },
+    {
+      "file": "serenity-mansions-aurora-1440-feature-2.png",
+      "sha256": "ce4a4a540e11ca6fbf4bd042ef65d5789e508b7e7b87e480533e8af8de1028a3",
+      "bytes": 862003,
+      "route": "/developments/serenity-mansions-aurora/",
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "state": "feature-2",
+      "scrollY": 6380,
+      "captureFile": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/aurora-native-features-r1/serenity-mansions-aurora-1440-feature-2.png",
+      "localInspectedFile": "/workspace/scratch/81f7012ea52e/luxury-review/aurora-native-features-r1/serenity-mansions-aurora-1440-feature-2.png",
+      "reviewLevel": "native-viewport-original",
+      "region": "amenity cards and their immediate viewport surroundings",
+      "method": "Exact-SHA lossless Git transport; each local PNG opened sequentially using view_image(detail=original). Byte-identical desktop files represent one visually reviewed state.",
+      "actuallyViewed": true,
+      "viewedAt": "2026-11-03T17:57:14.443814+00:00",
+      "viewedAtNote": "Review time recorded after this six-file sequential inspection; the three desktop files are identical and are not counted as three distinct visual states.",
+      "decision": "amenity-photographs-present",
+      "observations": [
+        "All three amenity photographs are painted in one aligned desktop row: double-height dining/living room, kitchen opening to a garden/pool, and villa exterior with lawn. Each card has a visible heading and paragraph below; the observation that cards two and three were text-only is not reproduced."
+      ],
+      "sameVisualStateAs": "serenity-mansions-aurora-1440-feature-1.png"
+    },
+    {
+      "file": "serenity-mansions-aurora-1440-feature-3.png",
+      "sha256": "ce4a4a540e11ca6fbf4bd042ef65d5789e508b7e7b87e480533e8af8de1028a3",
+      "bytes": 862003,
+      "route": "/developments/serenity-mansions-aurora/",
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "state": "feature-3",
+      "scrollY": 6380,
+      "captureFile": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/aurora-native-features-r1/serenity-mansions-aurora-1440-feature-3.png",
+      "localInspectedFile": "/workspace/scratch/81f7012ea52e/luxury-review/aurora-native-features-r1/serenity-mansions-aurora-1440-feature-3.png",
+      "reviewLevel": "native-viewport-original",
+      "region": "amenity cards and their immediate viewport surroundings",
+      "method": "Exact-SHA lossless Git transport; each local PNG opened sequentially using view_image(detail=original). Byte-identical desktop files represent one visually reviewed state.",
+      "actuallyViewed": true,
+      "viewedAt": "2026-11-03T17:57:14.443814+00:00",
+      "viewedAtNote": "Review time recorded after this six-file sequential inspection; the three desktop files are identical and are not counted as three distinct visual states.",
+      "decision": "amenity-photographs-present",
+      "observations": [
+        "All three amenity photographs are painted in one aligned desktop row: double-height dining/living room, kitchen opening to a garden/pool, and villa exterior with lawn. Each card has a visible heading and paragraph below; the observation that cards two and three were text-only is not reproduced."
+      ],
+      "sameVisualStateAs": "serenity-mansions-aurora-1440-feature-1.png"
+    }
+  ],
+  "coverage": {
+    "assignedFiles": 6,
+    "actualInspectedFiles": 6,
+    "unreadFiles": 0,
+    "uniquePngHashes": 4,
+    "uniqueVisualStates": 4,
+    "routes": [
+      "/developments/serenity-mansions-aurora/"
+    ],
+    "viewportWidths": [
+      390,
+      1440
+    ],
+    "amenityCardsAtEachWidth": 3,
+    "desktopDuplicateExplanation": "All three 1440x1000 captures use scrollY6380 and are byte-identical. The shared viewport shows all three cards together."
+  },
+  "findingResolutions": [
+    {
+      "findingId": "qa-aurora-amenity-image-variation",
+      "previousStatus": "open-observation",
+      "resolution": "not-a-defect",
+      "status": "closed-for-inspected-scope",
+      "scope": {
+        "sourceHead": "532cd2fc19dcf9ddaa1809616a47ebaee86eec88",
+        "route": "/developments/serenity-mansions-aurora/",
+        "viewportWidths": [
+          390,
+          1440
+        ],
+        "regions": [
+          "Customisable Interiors",
+          "Exclusive Gated Community",
+          "Prime Location in Dubai"
+        ]
+      },
+      "reason": "Actual native viewport images show photographs on all three cards at both widths. Source inspection already confirmed all three image URLs; native visual review now rejects the earlier overview-only text-card inference.",
+      "evidenceFiles": [
+        "serenity-mansions-aurora-390-feature-1.png",
+        "serenity-mansions-aurora-390-feature-2.png",
+        "serenity-mansions-aurora-390-feature-3.png",
+        "serenity-mansions-aurora-1440-feature-1.png",
+        "serenity-mansions-aurora-1440-feature-2.png",
+        "serenity-mansions-aurora-1440-feature-3.png"
+      ],
+      "mechanismOfEarlierOverviewAppearance": "Not established by this receipt; no runtime image fix is inferred or required from these inspected states."
+    }
+  ],
+  "newFindings": [],
+  "limitations": [
+    "This supplement reviews the source532 preview shown in captureBinding, not the later a484 renderer cleanup preview.",
+    "Six files represent four unique PNG visual states; the three desktop captures are byte-identical.",
+    "The scope is the three amenity cards at 390 and 1440; it does not claim a pixel-by-pixel review of the entire route or other viewport widths.",
+    "The original all-pages receipt and raw probe report remain immutable. Global release acceptance belongs to the root reviewer."
+  ],
+  "releaseAcceptance": false
+}

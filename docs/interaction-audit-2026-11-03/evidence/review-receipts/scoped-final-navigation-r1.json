@@ -1,0 +1,292 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "/root/navigation_motion",
+  "reviewType": "native-scoped-screenshot-review",
+  "createdAt": "2026-11-03T18:14:13.378Z",
+  "sourceHead": "84638a11ccf24be8389d6bf7e52d1fec47bc85d1",
+  "runtimeSourceHead": "a484ab78629f4129080abb7c8be938c573c4e1a8",
+  "preview": "https://luxury-realty-imon-jrsjy0sj5-cdo-2844s-projects.vercel.app",
+  "transport": {
+    "repository": "IMONsergey/LuxuryRealty",
+    "immutableRef": "c38d7b3e770be4c6a1a5700ed21c3a578665f26a",
+    "manifestPath": "artifacts/interaction-system-20261103/git-transport/transport-manifest.json",
+    "losslessBase64Reassembly": true,
+    "allSelectedBytesAndHashesVerified": true
+  },
+  "captureReportPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/scoped-content-public-r1/report.json",
+  "captureReportSha256": "68bd613aa6d50d9fc56a2ef0a42aecbc570b3133b4d82b80672edbc7792a6de7",
+  "captureOptions": {
+    "viewportWidths": [
+      390,
+      1440
+    ],
+    "viewportHeights": {
+      "390": 844,
+      "1440": 1000
+    },
+    "deviceScaleFactor": 1,
+    "reducedMotion": "no-preference",
+    "serviceWorkers": "block",
+    "timeoutMs": 300000,
+    "primaryScrollInset": 112,
+    "fullPage": false,
+    "imageWaitScope": "intersects the current viewport on both axes; current modal only if present"
+  },
+  "counts": {
+    "assignedNativeFrames": 9,
+    "actuallyViewedNativeFrames": 9,
+    "uniqueRoutes": 3,
+    "routeWidthPairs": 6,
+    "overviewSheets": 0
+  },
+  "reviewedFrames": [
+    {
+      "file": "005-the-chedi-private-residences-390-description.png",
+      "canonicalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/scoped-content-public-r1/005-the-chedi-private-residences-390-description.png",
+      "localPath": "/workspace/scratch/81f7012ea52e/luxury-review/scoped-content-public-r1/005-the-chedi-private-residences-390-description.png",
+      "sha256": "50e9c9cd26e80ce9a6321779d376f546079a32db5850035535ccbd9e11911570",
+      "bytes": 61167,
+      "route": "/properties/the-chedi-private-residences/",
+      "kind": "description",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scrollY": 2136,
+      "displayDetail": "original",
+      "actuallyViewed": true,
+      "decision": "findings-recorded",
+      "findingIds": [
+        "SCOPED-NAV-SOURCE-001"
+      ],
+      "observations": [
+        "The two-line About the development heading and body remain within the mobile gutters.",
+        "The Redefining grandeur join is visible within one paragraph near the lower viewport; the normal viewport edge cuts continuing content, not the document."
+      ]
+    },
+    {
+      "file": "005-the-chedi-private-residences-390-joined-paragraph-3.png",
+      "canonicalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/scoped-content-public-r1/005-the-chedi-private-residences-390-joined-paragraph-3.png",
+      "localPath": "/workspace/scratch/81f7012ea52e/luxury-review/scoped-content-public-r1/005-the-chedi-private-residences-390-joined-paragraph-3.png",
+      "sha256": "df8f5f0941c1e328db9c001472bafd756eba4a3dba75550eaa22ce0bd6b4fdf7",
+      "bytes": 51005,
+      "route": "/properties/the-chedi-private-residences/",
+      "kind": "joined-paragraph-3",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scrollY": 2692,
+      "displayDetail": "original",
+      "actuallyViewed": true,
+      "decision": "findings-recorded",
+      "findingIds": [
+        "SCOPED-NAV-SOURCE-001"
+      ],
+      "observations": [
+        "All three confirmed joins are visually continuous: Redefining grandeur; elegant arrival experience; serene atmosphere for personal reflection.",
+        "The merged paragraph flows with the same line-height and spacing as adjacent paragraphs, without the previous artificial gaps."
+      ]
+    },
+    {
+      "file": "013-the-chedi-private-residences-1440-description.png",
+      "canonicalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/scoped-content-public-r1/013-the-chedi-private-residences-1440-description.png",
+      "localPath": "/workspace/scratch/81f7012ea52e/luxury-review/scoped-content-public-r1/013-the-chedi-private-residences-1440-description.png",
+      "sha256": "5e87ca500bcb91ee629d5e707650ee96b8e9ed4a7e4499aed4af71e157f8aeb6",
+      "bytes": 158963,
+      "route": "/properties/the-chedi-private-residences/",
+      "kind": "description",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "scrollY": 1533,
+      "displayDetail": "original",
+      "actuallyViewed": true,
+      "decision": "findings-recorded",
+      "findingIds": [
+        "SCOPED-NAV-SOURCE-001"
+      ],
+      "observations": [
+        "The three sentence joins are continuous on desktop.",
+        "The sticky enquiry card is aligned and contained alongside the description; the CTA, call action and email do not collide."
+      ]
+    },
+    {
+      "file": "007-serenity-mansions-waterfront-collection-390-story.png",
+      "canonicalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/scoped-content-public-r1/007-serenity-mansions-waterfront-collection-390-story.png",
+      "localPath": "/workspace/scratch/81f7012ea52e/luxury-review/scoped-content-public-r1/007-serenity-mansions-waterfront-collection-390-story.png",
+      "sha256": "66de027ba757a1eb82eb625deba2648efb56699b3f9715e31011511b847a04bd",
+      "bytes": 53114,
+      "route": "/developments/serenity-mansions-waterfront-collection/",
+      "kind": "story",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scrollY": 1601,
+      "displayDetail": "original",
+      "actuallyViewed": true,
+      "decision": "no-blocker-observed",
+      "findingIds": [],
+      "observations": [
+        "The opening story, divider and retained Customisation & Excellence in Every Detail heading form a consistent single-column sequence.",
+        "The long eyebrow and three-line heading remain within the mobile gutter. Lower story text naturally continues below the native viewport."
+      ]
+    },
+    {
+      "file": "015-serenity-mansions-waterfront-collection-1440-story.png",
+      "canonicalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/scoped-content-public-r1/015-serenity-mansions-waterfront-collection-1440-story.png",
+      "localPath": "/workspace/scratch/81f7012ea52e/luxury-review/scoped-content-public-r1/015-serenity-mansions-waterfront-collection-1440-story.png",
+      "sha256": "37c80a7d35aa7d67a1ebfaff2807ced745bdf204d4ac0a84fcbc0ce85f9f91ec",
+      "bytes": 324592,
+      "route": "/developments/serenity-mansions-waterfront-collection/",
+      "kind": "story",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "scrollY": 1507,
+      "displayDetail": "original",
+      "actuallyViewed": true,
+      "decision": "no-blocker-observed",
+      "findingIds": [],
+      "observations": [
+        "The retained Customisation & Excellence in Every Detail block has a balanced heading/body grid; one complete retained paragraph is visible.",
+        "The photograph starts directly after the text block and visibly paints. Full duplicate removal beyond this viewport is supported by the exact DOM assertions, not inferred from the PNG."
+      ]
+    },
+    {
+      "file": "008-vela-390-story.png",
+      "canonicalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/scoped-content-public-r1/008-vela-390-story.png",
+      "localPath": "/workspace/scratch/81f7012ea52e/luxury-review/scoped-content-public-r1/008-vela-390-story.png",
+      "sha256": "19df6977f8dacc510c0335ea0970e1288d0e5dcbebfef443b2e542e0f34d2245",
+      "bytes": 49517,
+      "route": "/developments/vela/",
+      "kind": "story",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scrollY": 1572,
+      "displayDetail": "original",
+      "actuallyViewed": true,
+      "decision": "no-blocker-observed",
+      "findingIds": [],
+      "observations": [
+        "The two opening story headings and bodies stack cleanly with consistent mobile margins.",
+        "The divider and following VELA’s Amenities heading remain aligned; the story continuation below the viewport is expected."
+      ]
+    },
+    {
+      "file": "016-vela-1440-story.png",
+      "canonicalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/scoped-content-public-r1/016-vela-1440-story.png",
+      "localPath": "/workspace/scratch/81f7012ea52e/luxury-review/scoped-content-public-r1/016-vela-1440-story.png",
+      "sha256": "031e135a3171e7c2757ba710adbb79ee06dc9fa1659a71881a01f51774765e64",
+      "bytes": 139312,
+      "route": "/developments/vela/",
+      "kind": "story",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "scrollY": 1507,
+      "displayDetail": "original",
+      "actuallyViewed": true,
+      "decision": "no-blocker-observed",
+      "findingIds": [],
+      "observations": [
+        "The two opening story columns are aligned and readable; the following amenities section uses a consistent heading/body grid.",
+        "The amenities photograph visibly begins below the text. The remaining story is outside this native viewport and was not manually inspected here."
+      ]
+    },
+    {
+      "file": "008-vela-390-location-map.png",
+      "canonicalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/scoped-content-public-r1/008-vela-390-location-map.png",
+      "localPath": "/workspace/scratch/81f7012ea52e/luxury-review/scoped-content-public-r1/008-vela-390-location-map.png",
+      "sha256": "18fe8f359d3e501a2f5afdd80c1c0460c9381814882d935dfb29c4151eb57c56",
+      "bytes": 161163,
+      "route": "/developments/vela/",
+      "kind": "location-map",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scrollY": 7834,
+      "displayDetail": "original",
+      "actuallyViewed": true,
+      "decision": "no-blocker-observed",
+      "findingIds": [],
+      "observations": [
+        "The complete square location map fits inside its framed mobile container with clear internal padding; it is no longer used as a wide cover photograph.",
+        "The location label reads Marasi Bay, Dubai; the Google Maps link and Open the map for a closer look caption remain readable and separate from the image."
+      ]
+    },
+    {
+      "file": "016-vela-1440-location-map.png",
+      "canonicalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/scoped-content-public-r1/016-vela-1440-location-map.png",
+      "localPath": "/workspace/scratch/81f7012ea52e/luxury-review/scoped-content-public-r1/016-vela-1440-location-map.png",
+      "sha256": "8ec8909ff191e6e4d4c5574a7a134a07c82b03da402a517a546d6f3dd0fab804",
+      "bytes": 261978,
+      "route": "/developments/vela/",
+      "kind": "location-map",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "scrollY": 8505,
+      "displayDetail": "original",
+      "actuallyViewed": true,
+      "decision": "no-blocker-observed",
+      "findingIds": [],
+      "observations": [
+        "The entire map is contained in a square desktop frame alongside the location copy; no cover cropping is visible.",
+        "The caption, section divider and subsequent consultation/brochure/floor-plan controls are clearly separated and contained."
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "id": "SCOPED-NAV-SOURCE-001",
+      "category": "inherited-source-copy-note",
+      "severity": "minor",
+      "status": "documented-pending-root-decision",
+      "uiBlocker": false,
+      "route": "/properties/the-chedi-private-residences/",
+      "exactText": [
+        "faÇade",
+        "designedby"
+      ],
+      "description": "These pre-existing source spelling/spacing defects remain visible after the approved three sentence-boundary joins. The joins and layout themselves are correct. Raw source preservation was intentional; no edit was made during this visual review.",
+      "evidenceFiles": [
+        "005-the-chedi-private-residences-390-description.png",
+        "005-the-chedi-private-residences-390-joined-paragraph-3.png",
+        "013-the-chedi-private-residences-1440-description.png"
+      ]
+    }
+  ],
+  "verifiedVisualOutcomes": [
+    "Chedi's three confirmed sentence joins flow continuously on mobile and desktop.",
+    "The retained Waterfront story block has consistent mobile and desktop typography and spacing.",
+    "VELA's map is fully contained in a dedicated location section at both widths, with readable location text and link/caption."
+  ],
+  "machineEvidenceRead": {
+    "reportPassed": true,
+    "views": 16,
+    "frames": 19,
+    "findings": 0,
+    "pageErrors": 0,
+    "assetFailures": 0,
+    "blockedWrites": 0,
+    "distinction": "Exact complete paragraph arrays, Waterfront story count/removal and VELA13-photo+1-map inventory are DOM/report results. Native screenshots show only their captured viewports."
+  },
+  "limitations": [
+    "Only these nine native PNGs were manually reviewed in this receipt; the other scoped frames belong to other reviewers.",
+    "Long descriptions/stories outside the captured viewports were not manually inspected here.",
+    "Static frames do not establish animation or keyboard behavior; those are covered by separate interaction evidence.",
+    "This receipt is not final release acceptance; root owns final public-flow acceptance and any remaining source-copy decision."
+  ],
+  "humanReview": "complete",
+  "layoutDecision": "no-blocker-observed",
+  "releaseAcceptance": false
+}
