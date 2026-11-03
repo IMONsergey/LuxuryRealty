@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import {createRequire} from 'node:module';
 import {createServer} from 'node:http';
 import {createReadStream} from 'node:fs';
-import {mkdir,readFile,readdir,realpath,stat,writeFile} from 'node:fs/promises';
+import {appendFile,mkdir,readFile,readdir,realpath,stat,writeFile} from 'node:fs/promises';
 import {execFileSync} from 'node:child_process';
 import {createHash} from 'node:crypto';
 import path from 'node:path';
@@ -217,16 +217,39 @@ async function settleUI(){
 }
 async function visibleImages(){
  await page.waitForFunction(()=>document.fonts.status==='loaded',null,{timeout:10000});
- await page.waitForFunction(()=>Array.from(document.images).filter(image=>{
-  const r=image.getBoundingClientRect();
-  return Boolean(image.getAttribute('src')||image.getAttribute('srcset'))&&r.width>0&&r.height>0&&r.bottom>0&&r.top<innerHeight&&r.right>0&&r.left<innerWidth&&(typeof image.checkVisibility!=='function'||image.checkVisibility({checkOpacity:true,checkVisibilityCSS:true}));
- }).every(image=>image.complete&&image.naturalWidth>0),null,{timeout:15000});
- await page.evaluate(async()=>{
-  await Promise.all(Array.from(document.images).filter(image=>{
-   const r=image.getBoundingClientRect();return Boolean(image.getAttribute('src'))&&r.width>0&&r.height>0&&r.bottom>0&&r.top<innerHeight&&(typeof image.checkVisibility!=='function'||image.checkVisibility({checkOpacity:true,checkVisibilityCSS:true}));
-  }).map(image=>image.decode()));
-  await new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve)));
- });
+ // One browser-side predicate defines both the required loaded set and decode set.
+ // Offscreen lazy images in a horizontal rail are not part of this viewport.
+ const imagePhase=phase=>{
+  const images=Array.from(document.images).filter(image=>{
+   const r=image.getBoundingClientRect();
+   return Boolean(image.getAttribute('src')||image.getAttribute('srcset'))&&r.width>0&&r.height>0&&r.bottom>0&&r.top<innerHeight&&r.right>0&&r.left<innerWidth&&(typeof image.checkVisibility!=='function'||image.checkVisibility({checkOpacity:true,checkVisibilityCSS:true}));
+  });
+  if(phase==='loaded')return images.every(image=>image.complete&&image.naturalWidth>0);
+  if(phase==='decode')return Promise.all(images.map(image=>image.decode()));
+  return {scrollY:Math.round(scrollY),viewport:{width:innerWidth,height:innerHeight},images:images.map(image=>{
+   const r=image.getBoundingClientRect();
+   return {src:image.currentSrc||image.getAttribute('src')||'',srcset:image.getAttribute('srcset')||'',alt:image.alt,complete:image.complete,naturalWidth:image.naturalWidth,naturalHeight:image.naturalHeight,rect:{x:r.x,y:r.y,width:r.width,height:r.height}};
+  })};
+ };
+ await page.waitForFunction(imagePhase,'loaded',{timeout:15000});
+ const trace={schemaVersion:1,view:active.key,sourceHead,engine,startedAt:new Date().toISOString(),...await page.evaluate(imagePhase,'snapshot'),steps:[]};
+ active.imageWaitTraceFile='image-wait-traces.ndjson';active.imageWaitCount=(active.imageWaitCount||0)+1;
+ const traceFile=path.join(output,active.imageWaitTraceFile);
+ const progressFile=path.join(output,'image-wait-progress.json');
+ const progress=()=>writeFile(progressFile,JSON.stringify(trace,null,2)+'\n');
+ const bounded=async(name,timeout,operation)=>{
+  const step={name,timeoutMs:timeout,startedAt:new Date().toISOString(),status:'pending'};
+  trace.steps.push(step);trace.phase=name;trace.status='pending';
+  await progress();
+  let timer;
+  try{
+   await Promise.race([operation(),new Promise((_,reject)=>{timer=setTimeout(()=>reject(new Error(name+' exceeded '+timeout+'ms at scrollY='+trace.scrollY+' with '+trace.images.length+' selected images; see '+progressFile)),timeout);})]);
+   step.status='complete';trace.status='complete';
+  }catch(error){step.status='failed';trace.status='failed';step.error=errorText(error);throw error;}
+  finally{clearTimeout(timer);step.elapsedMs=Date.now()-Date.parse(step.startedAt);await progress();await appendFile(traceFile,JSON.stringify(trace)+'\n');}
+ };
+ await bounded('image-decode',15000,()=>page.evaluate(imagePhase,'decode'));
+ await bounded('two-paint-frames',3000,()=>page.evaluate(()=>new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve)))));
 }
 async function capture(kind,options={}){
  await settleUI();await visibleImages();
@@ -452,6 +475,15 @@ async function legacyInteractions(){
   await page.locator('#gallery-dialog[open]').waitFor({state:'visible'});
   await page.waitForFunction(()=>{const img=document.querySelector('[data-gallery-image]');return img?.complete&&img.naturalWidth>0;});
   await capture('gallery');await inspectGeometry('gallery');
+  await check('gallery caption fits the viewport without vertical dialog overflow',async()=>{
+   const layout=await page.locator('#gallery-dialog').evaluate(dialog=>{
+    const caption=dialog.querySelector('[data-gallery-caption]'),r=caption.getBoundingClientRect();
+    return {viewportHeight:innerHeight,scrollHeight:dialog.scrollHeight,clientHeight:dialog.clientHeight,caption:{text:caption.textContent.trim(),top:r.top,bottom:r.bottom,width:r.width,height:r.height}};
+   });
+   active.galleryLayout=layout;
+   assert.ok(layout.caption.bottom<=layout.viewportHeight+1,'Gallery caption extends below the viewport: '+layout.caption.bottom+' > '+layout.viewportHeight);
+   assert.ok(layout.scrollHeight<=layout.clientHeight+1,'Gallery requires vertical scrolling: '+layout.scrollHeight+' > '+layout.clientHeight);
+  });
   const counter=await page.locator('#gallery-dialog [data-gallery-counter]').evaluate(element=>{
    const r=element.getBoundingClientRect(),range=document.createRange();range.selectNodeContents(element);
    const lines=[...range.getClientRects()].filter(rect=>rect.width>0&&rect.height>0).map(rect=>Math.round(rect.top));
@@ -755,7 +787,7 @@ async function writeReviewIndex(){
   findings:report.findings.filter(finding=>finding.view===view.key),
   pageErrors:report.pageErrors.filter(error=>error.view===view.key),assetFailures:report.assetFailures.filter(error=>error.view===view.key),
   screenshots:report.screenshots.filter(screenshot=>screenshot.view===view.key),
-  measurements:view.measurements,filterGeometry:view.filterGeometry,formReachability:view.formReachability,motionTraces:view.motionTraces,focusTraces:view.focusTraces,frameContexts:view.frameContexts,navigationChecks:view.navigationChecks
+  measurements:view.measurements,filterGeometry:view.filterGeometry,formReachability:view.formReachability,motionTraces:view.motionTraces,focusTraces:view.focusTraces,frameContexts:view.frameContexts,navigationChecks:view.navigationChecks,imageWaitTraceFile:view.imageWaitTraceFile,imageWaitCount:view.imageWaitCount,galleryLayout:view.galleryLayout
  }));
  await writeFile(path.join(output,'route-receipts.json'),JSON.stringify({schemaVersion:1,stage,engine,sourceHead,humanReview:'pending',plannedViews:matrix.length,actualViews:receipts.length,receipts},null,2)+'\n');
  const sections=receipts.map(view=>'<section><h2>'+escape(view.route)+' · '+view.width+'px · '+escape(view.motion)+'</h2><p>'+escape(view.key)+' — '+(view.complete?'Captured':'INCOMPLETE')+' · '+view.findings.length+' findings · '+view.checks.length+' interaction checks</p>'+(view.error?'<pre>'+escape(view.error)+'</pre>':'')+'<div class="frames">'+view.screenshots.map(shot=>'<figure><a href="'+escape(shot.file)+'"><img loading="lazy" src="'+escape(shot.file)+'" alt="'+escape(view.route+' '+shot.kind)+'"></a><figcaption><a href="'+escape(shot.file)+'">'+escape(shot.kind)+'</a> · '+shot.bytes+' bytes<br><code>'+escape(shot.sha256)+'</code></figcaption></figure>').join('')+'</div></section>').join('\n');

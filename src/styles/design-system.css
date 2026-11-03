@@ -184,6 +184,12 @@ dialog::backdrop { background: #050507b8; backdrop-filter: blur(12px); -webkit-b
 .gallery-toolbar { border-bottom: 1px solid var(--line-subtle); margin-bottom: 16px; }
 .gallery-toolbar [data-gallery-title] { font-weight: 300; }
 .gallery-caption { color: var(--text-secondary); }
+/* The gallery reserves space for the actual title and caption before sizing the image. */
+.gallery-dialog[open] { display: grid; grid-template-rows: auto minmax(0, 1fr) auto; gap: 16px; overflow-y: auto; }
+.gallery-dialog .gallery-toolbar { margin-bottom: 0; min-width: 0; }
+.gallery-dialog .gallery-stage { height: auto; min-height: 0; min-width: 0; }
+.gallery-dialog .gallery-caption { margin: 0 auto; min-width: 0; max-width: min(800px, 100%); }
+
 
 /* Forms share their field geometry, labels, error and keyboard-focus states. */
 .enquiry-form { container-type: inline-size; }
