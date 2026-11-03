@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "/root/qa_interaction_audit",
+  "reviewedAt": "2026-11-03T16:14:31.425151+00:00",
+  "reviewType": "focused-original-PNGs",
+  "status": "reviewed-scope-no-new-visual-blocker",
+  "sourceHead": "927684aeca30f858bcb43e998a003ab725ab8061",
+  "harnessSha256": "c92efb9fbfa0e7f919df5533762140afc51b0dfba70670de848b45e1c86c2572",
+  "captureReport": {
+    "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/focused-chromium-r3/visual-audit-report.json",
+    "snapshotSha256AtReview": "9682dd16b3aecffe51dcf63b0ddde1d40ba5fbff2557b29e1e43fb8b6724ab18",
+    "completeAtReview": false,
+    "bindingNote": "Snapshot of a report still being populated; final matrix and report hash require root aggregation. These six original PNGs were already produced and are individually bound below."
+  },
+  "reviewedFiles": [
+    {
+      "file": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/focused-chromium-r3/001-home-320-reduce-hero-filters.png",
+      "sha256": "b9e6a806da78264e5f19235956058417294bffa2cac36f8d52ab2f1a27fbba09",
+      "width": 320,
+      "height": 844,
+      "route": "/",
+      "viewportWidth": 320,
+      "motion": "reduce",
+      "state": "upper",
+      "reviewLevel": "native-original",
+      "actuallyViewed": true,
+      "viewMethod": "Remote read_file image block rendered at original detail; inspected individually in pairs."
+    },
+    {
+      "file": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/focused-chromium-r3/001-home-320-reduce-hero-filters-error.png",
+      "sha256": "863e7be9887cd66c7a7cca0e39dd8ebd14a1f58f90943a072c039cf2c3415ac9",
+      "width": 320,
+      "height": 844,
+      "route": "/",
+      "viewportWidth": 320,
+      "motion": "reduce",
+      "state": "error",
+      "reviewLevel": "native-original",
+      "actuallyViewed": true,
+      "viewMethod": "Remote read_file image block rendered at original detail; inspected individually in pairs."
+    },
+    {
+      "file": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/focused-chromium-r3/001-home-320-reduce-hero-filters-lower.png",
+      "sha256": "32b10cdea11253b0661f4f582e325bd1388ab3c07dd062132c2179daf74c2e83",
+      "width": 320,
+      "height": 844,
+      "route": "/",
+      "viewportWidth": 320,
+      "motion": "reduce",
+      "state": "lower",
+      "reviewLevel": "native-original",
+      "actuallyViewed": true,
+      "viewMethod": "Remote read_file image block rendered at original detail; inspected individually in pairs."
+    },
+    {
+      "file": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/focused-chromium-r3/002-home-320-no-preference-hero-filters.png",
+      "sha256": "47e9458e2d5edd589c54b2760548e40dca6d5755c5462bd84f3e7d0473f013bc",
+      "width": 320,
+      "height": 844,
+      "route": "/",
+      "viewportWidth": 320,
+      "motion": "no-preference",
+      "state": "upper",
+      "reviewLevel": "native-original",
+      "actuallyViewed": true,
+      "viewMethod": "Remote read_file image block rendered at original detail; inspected individually in pairs."
+    },
+    {
+      "file": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/focused-chromium-r3/002-home-320-no-preference-hero-filters-error.png",
+      "sha256": "f51d88c9f55a0e02eb6984f06abbede16d5d0a6d4e41c13b72c7fa22bfe3092d",
+      "width": 320,
+      "height": 844,
+      "route": "/",
+      "viewportWidth": 320,
+      "motion": "no-preference",
+      "state": "error",
+      "reviewLevel": "native-original",
+      "actuallyViewed": true,
+      "viewMethod": "Remote read_file image block rendered at original detail; inspected individually in pairs."
+    },
+    {
+      "file": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/focused-chromium-r3/002-home-320-no-preference-hero-filters-lower.png",
+      "sha256": "22c7d78a6125bfa95d31107ef616d7379d66986f393460093da4dba29adb2ba9",
+      "width": 320,
+      "height": 844,
+      "route": "/",
+      "viewportWidth": 320,
+      "motion": "no-preference",
+      "state": "lower",
+      "reviewLevel": "native-original",
+      "actuallyViewed": true,
+      "viewMethod": "Remote read_file image block rendered at original detail; inspected individually in pairs."
+    }
+  ],
+  "coverage": {
+    "actualOriginalFilesViewed": 6,
+    "routes": [
+      "/"
+    ],
+    "viewportWidths": [
+      320
+    ],
+    "motions": [
+      "reduce",
+      "no-preference"
+    ],
+    "states": [
+      "upper",
+      "error",
+      "lower"
+    ],
+    "routeWidthMotionViews": 2
+  },
+  "observations": [
+    {
+      "states": [
+        "upper"
+      ],
+      "result": "Heading, Close control, purpose selection, query and location labels fit at 320px. Visible property-type buttons and sticky footer have no overlap."
+    },
+    {
+      "states": [
+        "error"
+      ],
+      "result": "Both price values are fully readable. Validation message wraps to two lines within the panel; count, reset link and disabled Apply presentation remain distinct."
+    },
+    {
+      "states": [
+        "lower"
+      ],
+      "result": "Amenity labels and Listing status fit the scrollable body. Status select sits fully above the fixed footer; Close, count, Reset and Apply remain visible."
+    },
+    {
+      "states": [
+        "upper",
+        "error",
+        "lower"
+      ],
+      "result": "Normal and reduced-motion terminal screenshots use consistent panel geometry. Background-film frame differences do not affect panel readability."
+    }
+  ],
+  "findings": [],
+  "limitations": [
+    "Only the six named PNGs have been visually reviewed in this receipt; the remaining focused matrix, WebKit and all-canonical-page capture are not accepted here.",
+    "Static screenshots establish the rendered state, not motion timing, keyboard behavior or draft semantics; functional evidence belongs to the separately recorded automated run.",
+    "The scrollable panel intentionally clips content beyond its body boundaries. No claim is made that all body content is simultaneously visible.",
+    "No live API writes or browser sessions were performed by this reviewer."
+  ],
+  "humanReview": {
+    "scopeComplete": true,
+    "fullFocusedMatrix": "pending",
+    "allCanonicalPages": "pending"
+  },
+  "releaseAcceptance": false
+}

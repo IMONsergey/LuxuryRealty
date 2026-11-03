@@ -1,0 +1,48 @@
+{
+  "reviewer": "/root/filters_ux",
+  "writtenAt": "2026-11-03T16:14:26.137Z",
+  "sourceCommit": "927684aeca30f858bcb43e998a003ab725ab8061",
+  "runtimeSourceCommit": "841fc4a",
+  "screenshotDirectory": "artifacts/interaction-system-20261103/focused-chromium-r3",
+  "engine": "Chromium",
+  "viewportWidth": 320,
+  "motionPreference": "reduce",
+  "method": "Opened the four listed original PNGs with Desktop Commander read_file and visually inspected them. No old 390px frame was re-opened.",
+  "reviewedPngs": [
+    "009-catalogue-320-reduce-catalogue-filters.png",
+    "009-catalogue-320-reduce-catalogue-applied-controls.png",
+    "009-catalogue-320-reduce-catalogue-filters-error.png",
+    "009-catalogue-320-reduce-catalogue-filters-lower.png"
+  ],
+  "observations": [
+    {
+      "scope": "Dialog upper",
+      "finding": "The heading wraps into two lines, close remains fully visible, and purpose/type choices wrap within the modal width. Count, Reset and the full Show properties button remain visible in the footer."
+    },
+    {
+      "scope": "Applied controls",
+      "finding": "The two applied chips wrap onto separate rows at 320px, retaining their complete labels and remove icons. Clear all stays separate on the right. The narrow location select uses an ellipsis while the selected location is repeated in the full chip. Count and sort stack deliberately; no overlap with the first card is visible."
+    },
+    {
+      "scope": "Price error",
+      "finding": "Both seven-digit price values fit their fields. The validation message fits in two lines; More preferences, Reset and the disabled Apply button stay visible."
+    },
+    {
+      "scope": "Dialog lower",
+      "finding": "Amenity labels and listing status fit the narrow body. The title/close and entire footer remain visible around the scrolled body."
+    }
+  ],
+  "issues": [],
+  "blockersFound": 0,
+  "resolves": [
+    {
+      "receipt": "targeted-filters-chromium-r1.json",
+      "gap": "No reviewed 320px final state.",
+      "status": "Catalogue upper/lower/error/applied controls now visually inspected at 320px in the supplied reduce state."
+    }
+  ],
+  "limits": [
+    "Still images do not establish interaction or animation timing. Parent owns the central functional results.",
+    "Only the four listed case 009 originals were opened. Case 010, desktop 1440 and WebKit are not claimed in this receipt."
+  ]
+}

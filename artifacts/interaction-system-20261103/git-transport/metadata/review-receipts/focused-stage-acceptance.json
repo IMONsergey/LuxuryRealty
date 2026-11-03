@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "sourceHead": "532cd2fc19dcf9ddaa1809616a47ebaee86eec88",
+  "reviewer": "/root",
+  "reviewedAt": "2026-11-03T16:28:14Z",
+  "allPagesAuthorized": true,
+  "status": "Focused visual samples accepted for the next coverage stage; complete machine validation remains mandatory.",
+  "machinePrerequisite": "validation-r9/report.json passed=true and unchanged source",
+  "receipts": [
+    {
+      "file": "root-focused-initial.json",
+      "sha256": "dff0dca6416537980b461a241c5ddf8d65cca14f080a5e8df5dcf066c20d060c"
+    },
+    {
+      "file": "hero-320-focused-r3.json",
+      "sha256": "861c374d1e17a1d81496a556868d494d7c7361707fe06fafb759f15fe68c104a"
+    },
+    {
+      "file": "targeted-filters-chromium-r1.json",
+      "sha256": "f5c51238407a57fa6bbb3f0477a8596e984ec247e75698b037c05539a31f9ba0"
+    },
+    {
+      "file": "targeted-filters-chromium-r2.json",
+      "sha256": "ad2b3da11aaee073a5c6fbad6ed70e91b4a609100047d1264ae41cdee7d509f5"
+    },
+    {
+      "file": "focused-filters-320-chromium-r3.json",
+      "sha256": "539015f08f1f5486594261c0abedb05f88b90464e815e009145e4a1be3ce8b23"
+    },
+    {
+      "file": "navigation-targeted-chromium-r1.json",
+      "sha256": "69c86e09e74d623fb2ced333728470f4d563c92b88a765fda917c45f5e02d216"
+    },
+    {
+      "file": "navigation-property-chromium-r3.json",
+      "sha256": "740d62b1fa48696ccff15b42aa0321a3545af344dc72e68b38f55574a2970d0a"
+    },
+    {
+      "file": "navigation-gallery-chromium-r1.json",
+      "sha256": "149e5e367686d12f3c18ef4eb8938fc4f04b2e1d280ae80e771dc065dbe08129"
+    }
+  ],
+  "additionalRootInspection": {
+    "file": "artifacts/interaction-system-20261103/gallery-chromium-r1/001-property-320-no-preference-gallery.png",
+    "sha256": "bf266da1c7cfd65b5e7748a850073559459c4ab99e4c9ce68e10090b695c1684",
+    "observation": "All long title, photo, counter, Close, arrows and full two-line caption fit at320x844; no scrolling required."
+  },
+  "inheritance": "Filter/form/menu/article screenshots retain their exact historical source SHA. Only gallery layout changed in8cdced9; that layout has fresh3-width captures and both independent/root review.",
+  "limitations": [
+    "Selected native focused screenshots are reviewed, not every screenshot pixel.",
+    "All130 canonical routes still require the upcoming all-page captures and structural overview review.",
+    "WebKit full matrix is pending; next controller must stop if r8 fails."
+  ],
+  "runtimeSourceHead": "8cdced95150b35887e8cc4b3a4670b411a4b76da",
+  "qaOnlyContinuation": "532 changes only the native animation recorder; the accepted runtime and build remain identical to8cd."
+}

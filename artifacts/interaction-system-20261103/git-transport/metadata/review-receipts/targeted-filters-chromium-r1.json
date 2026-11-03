@@ -1,0 +1,54 @@
+{
+  "reviewer": "/root/filters_ux",
+  "writtenAt": "2026-11-03T16:05:48.179Z",
+  "sourceCommit": "841fc4a",
+  "screenshotDirectory": "artifacts/interaction-system-20261103/targeted-chromium-r1",
+  "engine": "Chromium",
+  "viewportWidth": 390,
+  "method": "Each listed original PNG was opened with Desktop Commander read_file and visually inspected. No browser session, build or runtime test was run by this reviewer.",
+  "reviewedPngs": [
+    "001-home-390-reduce-hero-filters.png",
+    "001-home-390-reduce-hero-filters-lower.png",
+    "001-home-390-reduce-hero-filters-error.png",
+    "002-home-390-no-preference-hero-filters.png",
+    "002-home-390-no-preference-hero-filters-lower.png",
+    "002-home-390-no-preference-hero-filters-error.png",
+    "003-catalogue-390-reduce-top.png",
+    "003-catalogue-390-reduce-catalogue-applied.png",
+    "003-catalogue-390-reduce-catalogue-filters.png",
+    "003-catalogue-390-reduce-catalogue-filters-error.png",
+    "003-catalogue-390-reduce-catalogue-empty.png",
+    "003-catalogue-390-reduce-catalogue-invalid-url.png",
+    "003-catalogue-390-reduce-content.png"
+  ],
+  "observations": [
+    {
+      "scope": "Hero dialog; reduce and no-preference upper/lower/error",
+      "finding": "The title and close button remain visible; the complete footer, live count/reset and Apply button fit within the frame. The amenities/status lower state retains the same frame. The invalid price message fits across two lines and the muted disabled Apply state is visible. No new overlap or clipped footer found."
+    },
+    {
+      "scope": "Compact catalogue top",
+      "finding": "The brand lettering and Real Estate title fit the shorter hero. The hero ends at approximately y330 and the first card begins at approximately y673 in the 390-wide capture, bringing its image into the initial viewport. These are visual estimates from the PNG, not DOM measurements."
+    },
+    {
+      "scope": "Catalogue dialog and price error",
+      "finding": "Control spacing, header, close button, price error and footer fit the frame. The error state leaves the reset action visible and distinguishes the disabled Apply button."
+    },
+    {
+      "scope": "Applied catalogue and card content",
+      "finding": "The results header and card content remain coherent after applying. Property title, secondary description, price and specifications stay inside the card."
+    },
+    {
+      "scope": "Empty results and invalid linked price range",
+      "finding": "The respective heading and supporting explanation fit their containers. Request a selection and Clear your filters remain visible and separated. No new visual blocker found in the captured panels."
+    }
+  ],
+  "issues": [],
+  "blockersFound": 0,
+  "incompleteCoverage": [
+    "The catalogue-applied PNG is intentionally scrolled to results; applied chips are mostly above/behind the fixed header. Inline chip/Clear all layout has not been visually certified from this receipt. A dedicated applied-controls capture was requested from root/QA.",
+    "This partial targeted capture contains no reviewed 320/1440 or WebKit state. Those require the forthcoming full matrix.",
+    "The parent reported that the targeted run stopped on a same-document response-null assertion in the QA harness. This receipt validates only the listed visual frames and does not mark the entire run passed.",
+    "Motion smoothness, Escape, native focus restoration, URL state and data matching are not established by still-image review; central interaction checks provide that evidence."
+  ]
+}

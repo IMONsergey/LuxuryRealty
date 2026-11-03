@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "view": "001-home-320-no-preference",
+  "sourceHead": "532cd2fc19dcf9ddaa1809616a47ebaee86eec88",
+  "engine": "webkit",
+  "startedAt": "2026-11-03T16:35:57.678Z",
+  "scrollY": 0,
+  "viewport": {
+    "width": 320,
+    "height": 844
+  },
+  "images": [
+    {
+      "src": "http://127.0.0.1:34897/assets/imgGroup1.svg",
+      "srcset": "",
+      "alt": "",
+      "complete": true,
+      "naturalWidth": 41,
+      "naturalHeight": 41,
+      "rect": {
+        "x": 24,
+        "y": 30.5,
+        "width": 41,
+        "height": 41
+      }
+    },
+    {
+      "src": "http://127.0.0.1:34897/assets/imgGroup48096582.svg",
+      "srcset": "",
+      "alt": "",
+      "complete": true,
+      "naturalWidth": 138,
+      "naturalHeight": 20,
+      "rect": {
+        "x": 91,
+        "y": 40.78125,
+        "width": 138,
+        "height": 20.421875
+      }
+    },
+    {
+      "src": "http://127.0.0.1:34897/assets/imgGroup1.svg",
+      "srcset": "",
+      "alt": "",
+      "complete": true,
+      "naturalWidth": 41,
+      "naturalHeight": 41,
+      "rect": {
+        "x": 24,
+        "y": 26.5,
+        "width": 41,
+        "height": 41
+      }
+    },
+    {
+      "src": "http://127.0.0.1:34897/media/8283c2884344b120a546-1280.webp",
+      "srcset": "/media/8283c2884344b120a546-480.webp 480w, /media/8283c2884344b120a546-960.webp 960w, /media/8283c2884344b120a546-1280.webp 1280w",
+      "alt": "Dubai’s waterfront residences",
+      "complete": true,
+      "naturalWidth": 1600,
+      "naturalHeight": 900,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 320,
+        "height": 844
+      }
+    },
+    {
+      "src": "http://127.0.0.1:34897/assets/lettering-of-dubai.svg",
+      "srcset": "",
+      "alt": "of Dubai",
+      "complete": true,
+      "naturalWidth": 270,
+      "naturalHeight": 69,
+      "rect": {
+        "x": 26,
+        "y": 350,
+        "width": 270,
+        "height": 69.734375
+      }
+    }
+  ],
+  "steps": [
+    {
+      "name": "image-decode",
+      "timeoutMs": 15000,
+      "startedAt": "2026-11-03T16:35:57.738Z",
+      "status": "complete",
+      "elapsedMs": 11
+    },
+    {
+      "name": "two-paint-frames",
+      "timeoutMs": 3000,
+      "startedAt": "2026-11-03T16:35:57.751Z",
+      "status": "complete",
+      "elapsedMs": 38
+    }
+  ],
+  "phase": "two-paint-frames",
+  "status": "complete"
+}

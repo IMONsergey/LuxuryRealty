@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "view": "003-property-1440-no-preference",
+  "sourceHead": "8cdced95150b35887e8cc4b3a4670b411a4b76da",
+  "engine": "chromium",
+  "startedAt": "2026-11-03T16:26:17.666Z",
+  "scrollY": 0,
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "images": [
+    {
+      "src": "http://127.0.0.1:40507/assets/imgGroup1.svg",
+      "srcset": "",
+      "alt": "",
+      "complete": true,
+      "naturalWidth": 41,
+      "naturalHeight": 41,
+      "rect": {
+        "x": 157.5,
+        "y": 47.5,
+        "width": 41,
+        "height": 41
+      }
+    },
+    {
+      "src": "http://127.0.0.1:40507/assets/imgGroup48096582.svg",
+      "srcset": "",
+      "alt": "",
+      "complete": true,
+      "naturalWidth": 104,
+      "naturalHeight": 15,
+      "rect": {
+        "x": 660.5,
+        "y": 60.3125,
+        "width": 104,
+        "height": 15.375
+      }
+    },
+    {
+      "src": "http://127.0.0.1:40507/media/15bf3183cbd6577e0da5-1800.webp",
+      "srcset": "/media/15bf3183cbd6577e0da5-480.webp 480w, /media/15bf3183cbd6577e0da5-960.webp 960w, /media/15bf3183cbd6577e0da5-1800.webp 1800w",
+      "alt": "Renovation Opportunity | High Number | Iconic View - photograph 1",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 956,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1425,
+        "height": 668
+      }
+    },
+    {
+      "src": "http://127.0.0.1:40507/media/06c1738aeaf0feca6ebd-480.webp",
+      "srcset": "/media/06c1738aeaf0feca6ebd-480.webp 480w, /media/06c1738aeaf0feca6ebd-894.webp 894w",
+      "alt": "Shaye Uekermann",
+      "complete": true,
+      "naturalWidth": 54,
+      "naturalHeight": 51,
+      "rect": {
+        "x": 1005.5,
+        "y": 905,
+        "width": 54,
+        "height": 54
+      }
+    },
+    {
+      "src": "http://127.0.0.1:40507/media/15bf3183cbd6577e0da5-1800.webp",
+      "srcset": "",
+      "alt": "Renovation Opportunity | High Number | Iconic View - photograph 1",
+      "complete": true,
+      "naturalWidth": 1800,
+      "naturalHeight": 1195,
+      "rect": {
+        "x": 94,
+        "y": 104.5,
+        "width": 1252,
+        "height": 831.1875
+      }
+    }
+  ],
+  "steps": [
+    {
+      "name": "image-decode",
+      "timeoutMs": 15000,
+      "startedAt": "2026-11-03T16:26:17.673Z",
+      "status": "complete",
+      "elapsedMs": 9
+    },
+    {
+      "name": "two-paint-frames",
+      "timeoutMs": 3000,
+      "startedAt": "2026-11-03T16:26:17.686Z",
+      "status": "complete",
+      "elapsedMs": 58
+    }
+  ],
+  "phase": "two-paint-frames",
+  "status": "complete"
+}

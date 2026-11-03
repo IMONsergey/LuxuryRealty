@@ -1,0 +1,72 @@
+{
+  "reviewer": "/root/navigation_motion",
+  "writtenAt": "2026-11-03T16:05:56.338Z",
+  "screenshotDirectory": "artifacts/interaction-system-20261103/targeted-chromium-r1",
+  "engine": "chromium",
+  "sourceHead": "841fc4ae9927908761e927ce91fca007d455e58d",
+  "report": "artifacts/interaction-system-20261103/targeted-chromium-r1/visual-audit-report.json",
+  "reportSha256": "c900f920c647a453f4c1d1fd5a50d58c8c329e4c98e4fe47f62503f5833a4dd4",
+  "bundleSha256": "b7fc5b938fd20f00fedf78bfeb02751ef3183ebde6524e76a9bd95e62d9c8ddc",
+  "method": "Каждый из четырёх исходных PNG открыт через remote read_file и просмотрен с image detail=original. Это actual native-size detail review, не contact sheet и не вывод по числу файлов.",
+  "reviewedPngs": [
+    {
+      "file": "001-home-390-reduce-menu.png",
+      "sha256": "66ebbb15a8549ca085c910b0cd6e02562923b81c25207f2086582c81f69e66f4",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "motion": "reduce",
+      "kind": "menu"
+    },
+    {
+      "file": "002-home-390-no-preference-menu.png",
+      "sha256": "c949c59d56329f020600b3eed0a42dced40538635aced3f467c9e352b0c0ffe4",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "motion": "no-preference",
+      "kind": "menu"
+    },
+    {
+      "file": "001-home-390-reduce-service-expanded.png",
+      "sha256": "42a7699f9c78ba8ca385987067b549ae430b2551123817d38e6555dbe04447a1",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "motion": "reduce",
+      "kind": "service-expanded"
+    },
+    {
+      "file": "002-home-390-no-preference-service-expanded.png",
+      "sha256": "bc67d80546bb3eaba74f1c36ad8c2dae696272ffbbb457e9288119b9fb725be5",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "motion": "no-preference",
+      "kind": "service-expanded"
+    }
+  ],
+  "assessment": {
+    "status": "reviewed-no-blocker-in-these-four-captured-states",
+    "actualPngCount": 4,
+    "coveredCases": "Главная, ширина 390 px: меню и раскрытый Asset Management в reduced и normal motion.",
+    "menu": "Все 9 пунктов читаемы, разделители и стрелки выровнены. New developments переносится на 2 строки без наложения. Close виден, keyboard focus Our services имеет целый заметный контур внутри viewport.",
+    "service": "Заголовок Asset Management, пояснение и Let's talk читаемы. Последующие длинные заголовки переносятся без пересечения с plus controls. Между раскрытым текстом, CTA и следующим разделителем достаточно места. Geometry в normal/reduce совпадает.",
+    "blockersFound": 0,
+    "issues": []
+  },
+  "observations": [
+    "В service-expanded предыдущая свёрнутая строка Residential Agency частично уходит под fixed header из-за позиции прокрутки кадра; активная строка Asset Management целиком ниже header. По этим PNG это не признано дефектом.",
+    "Normal menu показывает ожидаемое небольшое смещение стрелки у фокусного Our services; reduced snapshot сохраняет её без смещения."
+  ],
+  "limitations": [
+    "Это статические конечные состояния: плавность анимации подтверждается отдельно runtime traces, не этим receipt.",
+    "Только 4 перечисленных PNG вручную просмотрены в этом receipt. Другие ширины, gallery/property states и all-pages review не покрыты.",
+    "Полная focused matrix, публичный preview и финальная приёмка остаются pending. Родительский targeted report имеет complete=false/machineChecksPassed=false; этот receipt не меняет его результат."
+  ],
+  "finalAcceptance": "pending-full-matrix-public-preview-and-all-pages"
+}

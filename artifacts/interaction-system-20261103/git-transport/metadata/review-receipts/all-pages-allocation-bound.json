@@ -1,0 +1,1837 @@
+{
+  "schemaVersion": 1,
+  "status": "bound-to-complete-capture-manifest",
+  "createdAt": "2026-11-03T16:02:09.291Z",
+  "captureSourceHead": "532cd2fc19dcf9ddaa1809616a47ebaee86eec88",
+  "sheetManifestPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/all-pages-chromium-r1/review-sheets/sheet-manifest.json",
+  "sheetManifestSha256": "7111122f8a953d8e27eafbd92677f98c5a79eb738f5bade30dde9a005ee1f8de",
+  "expected": {
+    "canonicalRoutes": 130,
+    "routeWidthViews": 260,
+    "sourcePNGs": 520,
+    "sheets": 90,
+    "topPairSheets": 33,
+    "desktopFullSheets": 34,
+    "mobileFullSheets": 23
+  },
+  "source": "Expected output naming of /tmp/luxury-ux-review-sheets.py (sha256 a58df8bf1d286947b687dfa364cdbb7d5335feb29d031a67bd8d6e2a60ac2da1); bind to the actual completed capture manifest before use.",
+  "assignments": [
+    {
+      "owner": "/root",
+      "sheets": [
+        {
+          "file": "top-001.png",
+          "kind": "top-route-pairs",
+          "nativeViewportWidth": null,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "4dda1716eca3eba61bec2cb73f831542f515dd6723ac2fedb1955770e35fa177",
+          "dimensions": {
+            "width": 1368,
+            "height": 1288
+          },
+          "routes": [
+            "/",
+            "/properties/",
+            "/developments/",
+            "/about/"
+          ],
+          "sourcePNGStateCount": 8
+        },
+        {
+          "file": "top-005.png",
+          "kind": "top-route-pairs",
+          "nativeViewportWidth": null,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "61ebcd78152af09d00305f492820210ec14f8b05ea02874bfc7fdd5a1ef53c67",
+          "dimensions": {
+            "width": 1368,
+            "height": 1288
+          },
+          "routes": [
+            "/properties/3br-duplex-private-pool-viewing-essential/",
+            "/properties/a-refined-minimalist-sanctuary-with-serene-views/",
+            "/properties/extraordinary-turnkey-luxury-with-iconic-views/",
+            "/properties/ava-at-palm-jumeirah-dorchester-collection/"
+          ],
+          "sourcePNGStateCount": 8
+        },
+        {
+          "file": "top-009.png",
+          "kind": "top-route-pairs",
+          "nativeViewportWidth": null,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "1fb7e7c756badef4971801861e78a34c4c860b376e4ee0f84e0ab0f0d7c0b623",
+          "dimensions": {
+            "width": 1368,
+            "height": 1288
+          },
+          "routes": [
+            "/properties/brand-new-vacant-sea-and-sunset-views-2/",
+            "/properties/branded-upgrade-palm-skyline-view-2br-xl-size/",
+            "/properties/celebrated-designer-duplex-with-private-pool/",
+            "/properties/city-and-sea-views-fully-furnished-xl-terrace/"
+          ],
+          "sourcePNGStateCount": 8
+        },
+        {
+          "file": "top-013.png",
+          "kind": "top-route-pairs",
+          "nativeViewportWidth": null,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "7e31471d81d351c61cfff17f034024c798356cffb8240076db20814d1f36e1b2",
+          "dimensions": {
+            "width": 1368,
+            "height": 1288
+          },
+          "routes": [
+            "/properties/high-floor-palm-paradise-with-city-views-for-rent/",
+            "/properties/high-floor-palm-paradise-with-incredible-views/",
+            "/properties/landmark-marina-gate-one-bed-must-be-viewed-2/",
+            "/properties/large-layout-community-view-maids-room/"
+          ],
+          "sourcePNGStateCount": 8
+        },
+        {
+          "file": "top-017.png",
+          "kind": "top-route-pairs",
+          "nativeViewportWidth": null,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "2550f5acfeda0d9e5d0ccfeff47774ae9866fde08ca297f249d50a1b1dfd5bc1",
+          "dimensions": {
+            "width": 1368,
+            "height": 1288
+          },
+          "routes": [
+            "/properties/partially-upgraded-premium-location-immaculate/",
+            "/properties/penthouse-style-with-skyline-views-at-golf-heights/",
+            "/properties/popular-type-prime-location-prestigious-villa/",
+            "/properties/high-number-fully-renovated-best-layout/"
+          ],
+          "sourcePNGStateCount": 8
+        },
+        {
+          "file": "top-021.png",
+          "kind": "top-route-pairs",
+          "nativeViewportWidth": null,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "8c224c273773dcd80980708af4a475482372ac2a8ea570533236b3c490abc814",
+          "dimensions": {
+            "width": 1368,
+            "height": 1288
+          },
+          "routes": [
+            "/properties/the-chedi-private-residences/",
+            "/properties/timeless-elegance-awaits-at-palazzo-versace-dubai/",
+            "/properties/triple-storey-fully-renovated-prime-location/",
+            "/properties/turnkey-renovation-balearic-style-extended/"
+          ],
+          "sourcePNGStateCount": 8
+        },
+        {
+          "file": "top-025.png",
+          "kind": "top-route-pairs",
+          "nativeViewportWidth": null,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "adcc26481c9726bce8be1b10285ba46d89229f31c675bc47e413a6127629fe46",
+          "dimensions": {
+            "width": 1368,
+            "height": 1288
+          },
+          "routes": [
+            "/properties/brand-new-high-floor-palm-and-skyline-view/",
+            "/properties/brand-new-high-floor-sea-and-sunset-views/",
+            "/properties/burj-khalifa-views-upgraded-fully-furnished/",
+            "/properties/dual-views-highest-floor-huge-layout/"
+          ],
+          "sourcePNGStateCount": 8
+        },
+        {
+          "file": "top-029.png",
+          "kind": "top-route-pairs",
+          "nativeViewportWidth": null,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "64724596ae65669d90dec4001e91c959203235cb8cc27035eefb65267be1ca1c",
+          "dimensions": {
+            "width": 1368,
+            "height": 1288
+          },
+          "routes": [
+            "/properties/post-handover-pp-04-layout-palm-view/",
+            "/properties/private-pool-duplex-1-resale-agency/",
+            "/properties/rented-alternatives-available/",
+            "/properties/sea-view-or-skyline-vistas-now-you-can-have-both/"
+          ],
+          "sourcePNGStateCount": 8
+        },
+        {
+          "file": "top-033.png",
+          "kind": "top-route-pairs",
+          "nativeViewportWidth": null,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "ad8022f6b175511d104aa1e4c8a1f852200d609511f6f4ac92d1d75471e252c4",
+          "dimensions": {
+            "width": 1368,
+            "height": 689
+          },
+          "routes": [
+            "/insights/the-art-of-a-private-viewing/",
+            "/insights/architecture-on-palm-jumeirah/"
+          ],
+          "sourcePNGStateCount": 4
+        },
+        {
+          "file": "full-1440-004.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 1440,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "0cfa575a981214c628928fd90cb065fb1ca1805b8a1f9172daf8fca4d56b7c8b",
+          "dimensions": {
+            "width": 1688,
+            "height": 1806
+          },
+          "routes": [
+            "/properties/sublime-sea-views-iconic-living/",
+            "/properties/2br-palm-skyline-view-branded-upgrades/",
+            "/properties/unique-duplex-breath-taking-sea-view/",
+            "/properties/3br-duplex-private-pool-viewing-essential/"
+          ],
+          "sourcePNGStateCount": 4
+        },
+        {
+          "file": "full-1440-008.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 1440,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "7a23eef2eec57dde87750999a3f1ca9dc1e1a703722d52864d57249b2d27ce43",
+          "dimensions": {
+            "width": 1688,
+            "height": 1685
+          },
+          "routes": [
+            "/properties/brand-new-sea-and-sunset-views/",
+            "/properties/brand-new-sea-dubai-eye-and-sunset-views/",
+            "/properties/brand-new-vacant-sea-and-sunset-views/",
+            "/properties/brand-new-vacant-sea-and-sunset-views-2/"
+          ],
+          "sourcePNGStateCount": 4
+        },
+        {
+          "file": "full-1440-012.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 1440,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "94cf29647a851860b2bf0883330ae4d66e9a941abaf5b910fe21a513a55924da",
+          "dimensions": {
+            "width": 1688,
+            "height": 1938
+          },
+          "routes": [
+            "/properties/genuine-resale-full-sea-and-marina-views/",
+            "/properties/high-floor-with-best-views-furnished-1-agency/",
+            "/properties/high-floor-2br-sea-view-chic-upgrades/",
+            "/properties/high-floor-palm-paradise-with-city-views-for-rent/"
+          ],
+          "sourcePNGStateCount": 4
+        },
+        {
+          "file": "full-1440-016.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 1440,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "b66d5f27c9365255c87471c4987d3466a14fb618dbabbdb3b4be21a47587f644",
+          "dimensions": {
+            "width": 1688,
+            "height": 1792
+          },
+          "routes": [
+            "/properties/palm-and-marina-skyline-views-private-pool/",
+            "/properties/dorchester-collection-full-palm-view-duplex/",
+            "/properties/panoramic-sea-sunset-views-wrap-around-balcony/",
+            "/properties/partially-upgraded-premium-location-immaculate/"
+          ],
+          "sourcePNGStateCount": 4
+        },
+        {
+          "file": "full-1440-020.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 1440,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "3f363e610f17e839caae31ae9a4b571578f13ac5a461a555f239ed6eb210b688",
+          "dimensions": {
+            "width": 1688,
+            "height": 1961
+          },
+          "routes": [
+            "/properties/sought-after-sea-sunset-views-branded-residences/",
+            "/properties/spacious-layout-prime-amenities-modern-living/",
+            "/properties/stunning-4br-amazing-bmv-price-move-in-ready/",
+            "/properties/the-chedi-private-residences/"
+          ],
+          "sourcePNGStateCount": 4
+        },
+        {
+          "file": "full-1440-024.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 1440,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "d149226870db5dae1ebd48475a7cc965a1d4fa191792efec5f6d8a25cf4e7dad",
+          "dimensions": {
+            "width": 1688,
+            "height": 1902
+          },
+          "routes": [
+            "/properties/beauty-rarity-and-timeless-elegance-awaits/",
+            "/properties/best-price-high-floor-sea-view-large-size/",
+            "/properties/brand-new-high-floor-full-palm-jumeirah-view/",
+            "/properties/brand-new-high-floor-palm-and-skyline-view/"
+          ],
+          "sourcePNGStateCount": 4
+        },
+        {
+          "file": "full-1440-028.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 1440,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "6919e98438e670f83635d1ca40e8fc743dc251b3bce538627a90037578f9cf57",
+          "dimensions": {
+            "width": 1688,
+            "height": 1882
+          },
+          "routes": [
+            "/properties/live-royally-turnkey-renovated-masterpiece/",
+            "/properties/modern-design-elie-saab-branded-priced-to-sell/",
+            "/properties/palm-view-amazing-2br-layout-must-be-viewed/",
+            "/properties/post-handover-pp-04-layout-palm-view/"
+          ],
+          "sourcePNGStateCount": 4
+        },
+        {
+          "file": "full-1440-032.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 1440,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "b288dd4243e679a03f271e0b808ad0fa613c1f7fecc679924e0806c8a3ae5765",
+          "dimensions": {
+            "width": 1688,
+            "height": 3010
+          },
+          "routes": [
+            "/developments/vela/",
+            "/insights/spaces-worth-living-in/",
+            "/insights/a-home-by-the-water/",
+            "/insights/the-art-of-a-private-viewing/"
+          ],
+          "sourcePNGStateCount": 4
+        },
+        {
+          "file": "full-390-003.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 390,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "7ca3eec8a062a379ae9c6e9b01c44267c5ae06223303ba299bc6437240a9306f",
+          "dimensions": {
+            "width": 1560,
+            "height": 6407
+          },
+          "routes": [
+            "/properties/sublime-sea-views-iconic-living/",
+            "/properties/2br-palm-skyline-view-branded-upgrades/",
+            "/properties/unique-duplex-breath-taking-sea-view/",
+            "/properties/3br-duplex-private-pool-viewing-essential/",
+            "/properties/a-refined-minimalist-sanctuary-with-serene-views/",
+            "/properties/extraordinary-turnkey-luxury-with-iconic-views/"
+          ],
+          "sourcePNGStateCount": 6
+        },
+        {
+          "file": "full-390-007.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 390,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "1dba01a9cf0ec4ccd21df15829ed0863846581b542280050719768888c3e23a4",
+          "dimensions": {
+            "width": 1560,
+            "height": 5255
+          },
+          "routes": [
+            "/properties/dual-views-double-height-2027-completion/",
+            "/properties/duplex-ph-brand-new-unobstructed-views/",
+            "/properties/duplex-roof-terrace-golf-and-skyline-views/",
+            "/properties/eden-hills/",
+            "/properties/one-of-a-kind-loft-designer-upgrade-sea-view/",
+            "/properties/furnished-upgraded-unique-layout-dual-views/"
+          ],
+          "sourcePNGStateCount": 6
+        },
+        {
+          "file": "full-390-011.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 390,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "71cf0c1270c10d48687cd9e485f683e45f8686dccedd8a2715109f212ff1b159",
+          "dimensions": {
+            "width": 1560,
+            "height": 5102
+          },
+          "routes": [
+            "/properties/palm-and-marina-skyline-views-private-pool/",
+            "/properties/dorchester-collection-full-palm-view-duplex/",
+            "/properties/panoramic-sea-sunset-views-wrap-around-balcony/",
+            "/properties/partially-upgraded-premium-location-immaculate/",
+            "/properties/penthouse-style-with-skyline-views-at-golf-heights/",
+            "/properties/popular-type-prime-location-prestigious-villa/"
+          ],
+          "sourcePNGStateCount": 6
+        },
+        {
+          "file": "full-390-015.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 390,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "2a53df2cf8d550b0db5fdd1eda0f90b9ad16955932c8e5cedc84048cec00d00c",
+          "dimensions": {
+            "width": 1560,
+            "height": 5596
+          },
+          "routes": [
+            "/properties/ultra-high-floor-one-of-a-kind-upgraded-residence/",
+            "/properties/palm-view-sky-court-xl-terrace-upgraded/",
+            "/properties/ultra-rare-2br-duplex-in-the-iconic-uptown-tower/",
+            "/properties/upgraded-2br-marina-view-investor-deal/",
+            "/properties/best-priced-palm-view-2br-furnished-view-today/",
+            "/properties/upgraded-vacant-furnished-viewing-essential/"
+          ],
+          "sourcePNGStateCount": 6
+        },
+        {
+          "file": "full-390-019.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 390,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "28568f7533119795ba41ff42c3ad2103ff20e8d32d64580bc70ff7abcb2d24fd",
+          "dimensions": {
+            "width": 1560,
+            "height": 5474
+          },
+          "routes": [
+            "/properties/live-royally-turnkey-renovated-masterpiece/",
+            "/properties/modern-design-elie-saab-branded-priced-to-sell/",
+            "/properties/palm-view-amazing-2br-layout-must-be-viewed/",
+            "/properties/post-handover-pp-04-layout-palm-view/",
+            "/properties/private-pool-duplex-1-resale-agency/",
+            "/properties/rented-alternatives-available/"
+          ],
+          "sourcePNGStateCount": 6
+        },
+        {
+          "file": "full-390-catalogue.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 390,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "532dd0deb42f22c480b59ab368090d7f12d0c6ed6a704c30acd0a5bbbc273d6b",
+          "dimensions": {
+            "width": 440,
+            "height": 9159
+          },
+          "routes": [
+            "/properties/"
+          ],
+          "sourcePNGStateCount": 1
+        }
+      ],
+      "sheetCount": 23,
+      "counts": {
+        "top": 9,
+        "desktopFull": 8,
+        "mobileFull": 6
+      }
+    },
+    {
+      "owner": "/root/filters_ux",
+      "sheets": [
+        {
+          "file": "top-002.png",
+          "kind": "top-route-pairs",
+          "nativeViewportWidth": null,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "2b5e889653f6692bfa2e6b7a9bcdc24dc575076ecd03bc2ddfa8d959f04e0864",
+          "dimensions": {
+            "width": 1368,
+            "height": 1288
+          },
+          "routes": [
+            "/services/",
+            "/sell/",
+            "/contacts/",
+            "/privacy/"
+          ],
+          "sourcePNGStateCount": 8
+        },
+        {
+          "file": "top-006.png",
+          "kind": "top-route-pairs",
+          "nativeViewportWidth": null,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "d62be199c1a27b88e5c0dec55b6d0b7dde68ea47760bdadb1e73d7061cd7aaa9",
+          "dimensions": {
+            "width": 1368,
+            "height": 1288
+          },
+          "routes": [
+            "/properties/beachfront-living-stunning-views-vacant/",
+            "/properties/beautifully-renovated-private-spa-high-number/",
+            "/properties/your-royal-lifestyle-with-sublime-views-and-space-2/",
+            "/properties/best-price-upgraded-furnished-skyline-views/"
+          ],
+          "sourcePNGStateCount": 8
+        },
+        {
+          "file": "top-010.png",
+          "kind": "top-route-pairs",
+          "nativeViewportWidth": null,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "80a61647e3becd883e3d31274b0194bd9ce61646092f3d69d529e19380af6c6a",
+          "dimensions": {
+            "width": 1368,
+            "height": 1288
+          },
+          "routes": [
+            "/properties/close-to-tip-fully-upgraded-prime-location/",
+            "/properties/dual-views-double-height-2027-completion/",
+            "/properties/duplex-ph-brand-new-unobstructed-views/",
+            "/properties/duplex-roof-terrace-golf-and-skyline-views/"
+          ],
+          "sourcePNGStateCount": 8
+        },
+        {
+          "file": "top-014.png",
+          "kind": "top-route-pairs",
+          "nativeViewportWidth": null,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "c06a9c7f75499ac9a3fe429948765f3127a2c1e1a809c2b19d98acf4aaec7ab2",
+          "dimensions": {
+            "width": 1368,
+            "height": 1288
+          },
+          "routes": [
+            "/properties/last-available-3br-duplex-with-private-pool/",
+            "/properties/best-value-huge-terrace-amazing-potential/",
+            "/properties/marina-view-upgraded-furnished-investor-deal/",
+            "/properties/miami-style-stunning-marina-views-beach-access/"
+          ],
+          "sourcePNGStateCount": 8
+        },
+        {
+          "file": "top-018.png",
+          "kind": "top-route-pairs",
+          "nativeViewportWidth": null,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "3c34ff65ca8af609b2bfbb19c99c5c8fa1d1705f5385f73e85e8a3dd47496493",
+          "dimensions": {
+            "width": 1368,
+            "height": 1307
+          },
+          "routes": [
+            "/properties/premium-location-best-value-turnkey-garden-home/",
+            "/properties/www-luxuryresidences-com-properties-private-pool-canal-view-renovated-upgraded/",
+            "/properties/private-pool-furnished-spacious-terrace/",
+            "/properties/exclusive-sea-view-4br-royal-penthouse/"
+          ],
+          "sourcePNGStateCount": 8
+        },
+        {
+          "file": "top-022.png",
+          "kind": "top-route-pairs",
+          "nativeViewportWidth": null,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "dc3edaec86fbad28931cc78309e926b85adfd4953861885a54e131e0c315ec5e",
+          "dimensions": {
+            "width": 1368,
+            "height": 1288
+          },
+          "routes": [
+            "/properties/trophy-4br-garden-suite-with-private-pool/",
+            "/properties/ultra-high-floor-one-of-a-kind-upgraded-residence/",
+            "/properties/palm-view-sky-court-xl-terrace-upgraded/",
+            "/properties/ultra-rare-2br-duplex-in-the-iconic-uptown-tower/"
+          ],
+          "sourcePNGStateCount": 8
+        },
+        {
+          "file": "top-026.png",
+          "kind": "top-route-pairs",
+          "nativeViewportWidth": null,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "2a8f7db1abe39182e2f7bdfe42f77ec2bca6feddc059da5feb6e97324d7b41cb",
+          "dimensions": {
+            "width": 1368,
+            "height": 1288
+          },
+          "routes": [
+            "/properties/duplex-with-private-pool-must-be-viewed/",
+            "/properties/exclusive-high-floor-available-now-furnished/",
+            "/properties/exclusive-lagoon-facing-available-for-viewing/",
+            "/properties/exclusive-top-floor-one-of-a-kind/"
+          ],
+          "sourcePNGStateCount": 8
+        },
+        {
+          "file": "top-030.png",
+          "kind": "top-route-pairs",
+          "nativeViewportWidth": null,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "7ec64cf2676960b90e600c5f307dfbe25a2ecbb5402fdcf690d0374498255643",
+          "dimensions": {
+            "width": 1368,
+            "height": 1288
+          },
+          "routes": [
+            "/properties/sleek-sophisticated-and-move-in-ready/",
+            "/properties/stunning-upgrade-luxury-villa-golf-course-view/",
+            "/properties/super-rare-huge-terrace-furnished-1-agency/",
+            "/developments/atlantis/"
+          ],
+          "sourcePNGStateCount": 8
+        },
+        {
+          "file": "full-1440-001.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 1440,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "857377dd766ca8ed66034eb3d188b62d6833b6e71ec97ccdece8404c40263b27",
+          "dimensions": {
+            "width": 1688,
+            "height": 2666
+          },
+          "routes": [
+            "/",
+            "/developments/",
+            "/about/",
+            "/services/"
+          ],
+          "sourcePNGStateCount": 4
+        },
+        {
+          "file": "full-1440-005.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 1440,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "390c137586b5a7ecdcf7ac021aac2c264e573a7d142bfa7d80df5acae8fad4da",
+          "dimensions": {
+            "width": 1688,
+            "height": 2241
+          },
+          "routes": [
+            "/properties/a-refined-minimalist-sanctuary-with-serene-views/",
+            "/properties/extraordinary-turnkey-luxury-with-iconic-views/",
+            "/properties/ava-at-palm-jumeirah-dorchester-collection/",
+            "/properties/beachfront-living-stunning-views-vacant/"
+          ],
+          "sourcePNGStateCount": 4
+        },
+        {
+          "file": "full-1440-009.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 1440,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "41c1d5e686d6807b1a34d8da0aa5f3e82e838a617aad9236393e0ba0402b295f",
+          "dimensions": {
+            "width": 1688,
+            "height": 1825
+          },
+          "routes": [
+            "/properties/branded-upgrade-palm-skyline-view-2br-xl-size/",
+            "/properties/celebrated-designer-duplex-with-private-pool/",
+            "/properties/city-and-sea-views-fully-furnished-xl-terrace/",
+            "/properties/close-to-tip-fully-upgraded-prime-location/"
+          ],
+          "sourcePNGStateCount": 4
+        },
+        {
+          "file": "full-1440-013.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 1440,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "16b1412dfc1fa3135fd1c4a6cbad8fef8977b20618fc3ff885d63fa9546d4c9b",
+          "dimensions": {
+            "width": 1688,
+            "height": 1960
+          },
+          "routes": [
+            "/properties/high-floor-palm-paradise-with-incredible-views/",
+            "/properties/landmark-marina-gate-one-bed-must-be-viewed-2/",
+            "/properties/large-layout-community-view-maids-room/",
+            "/properties/last-available-3br-duplex-with-private-pool/"
+          ],
+          "sourcePNGStateCount": 4
+        },
+        {
+          "file": "full-1440-017.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 1440,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "53816c0eadef03b84e993247966efcda9ceedad3cd42ff6509c6a06b1c90f902",
+          "dimensions": {
+            "width": 1688,
+            "height": 1628
+          },
+          "routes": [
+            "/properties/penthouse-style-with-skyline-views-at-golf-heights/",
+            "/properties/popular-type-prime-location-prestigious-villa/",
+            "/properties/high-number-fully-renovated-best-layout/",
+            "/properties/premium-location-best-value-turnkey-garden-home/"
+          ],
+          "sourcePNGStateCount": 4
+        },
+        {
+          "file": "full-1440-021.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 1440,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "774e99f7742b5b568a801ad50bcaf483007fc53f78989e03de892c43d06034d3",
+          "dimensions": {
+            "width": 1688,
+            "height": 1820
+          },
+          "routes": [
+            "/properties/timeless-elegance-awaits-at-palazzo-versace-dubai/",
+            "/properties/triple-storey-fully-renovated-prime-location/",
+            "/properties/turnkey-renovation-balearic-style-extended/",
+            "/properties/trophy-4br-garden-suite-with-private-pool/"
+          ],
+          "sourcePNGStateCount": 4
+        },
+        {
+          "file": "full-1440-025.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 1440,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "4cb3c5f9c6fe360cfb1bdc7c9be9182733d9527fa52e2ea1f331535b15d339d8",
+          "dimensions": {
+            "width": 1688,
+            "height": 1817
+          },
+          "routes": [
+            "/properties/brand-new-high-floor-sea-and-sunset-views/",
+            "/properties/burj-khalifa-views-upgraded-fully-furnished/",
+            "/properties/dual-views-highest-floor-huge-layout/",
+            "/properties/duplex-with-private-pool-must-be-viewed/"
+          ],
+          "sourcePNGStateCount": 4
+        },
+        {
+          "file": "full-1440-029.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 1440,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "8e6c4b862e22e32d299a071ea273d644a5a727df6e3b384add7227ae365d7a84",
+          "dimensions": {
+            "width": 1688,
+            "height": 1963
+          },
+          "routes": [
+            "/properties/private-pool-duplex-1-resale-agency/",
+            "/properties/rented-alternatives-available/",
+            "/properties/sea-view-or-skyline-vistas-now-you-can-have-both/",
+            "/properties/sleek-sophisticated-and-move-in-ready/"
+          ],
+          "sourcePNGStateCount": 4
+        },
+        {
+          "file": "full-1440-033.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 1440,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "ea5708da3f059a5e88122030ac8ca5240f5fa7c19f5ca3bb94ee54215e547204",
+          "dimensions": {
+            "width": 440,
+            "height": 1126
+          },
+          "routes": [
+            "/insights/architecture-on-palm-jumeirah/"
+          ],
+          "sourcePNGStateCount": 1
+        },
+        {
+          "file": "full-390-004.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 390,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "e9bea75866faa81515ad1b6c9942bed5b43eaec689e773a599a1d010d2d9ba57",
+          "dimensions": {
+            "width": 1560,
+            "height": 5363
+          },
+          "routes": [
+            "/properties/ava-at-palm-jumeirah-dorchester-collection/",
+            "/properties/beachfront-living-stunning-views-vacant/",
+            "/properties/beautifully-renovated-private-spa-high-number/",
+            "/properties/your-royal-lifestyle-with-sublime-views-and-space-2/",
+            "/properties/best-price-upgraded-furnished-skyline-views/",
+            "/properties/brand-new-high-floor-islands-view/"
+          ],
+          "sourcePNGStateCount": 6
+        },
+        {
+          "file": "full-390-008.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 390,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "390c1997b718e9e6e6fd16d02f37ab6fbd6adcc44fb6cc601fec0c6a9897787c",
+          "dimensions": {
+            "width": 1560,
+            "height": 5607
+          },
+          "routes": [
+            "/properties/garden-apartment-sea-facing-private-pool/",
+            "/properties/garden-apartment-sea-facing-private-pool-2/",
+            "/properties/genuine-resale-full-sea-and-marina-views/",
+            "/properties/high-floor-with-best-views-furnished-1-agency/",
+            "/properties/high-floor-2br-sea-view-chic-upgrades/",
+            "/properties/high-floor-palm-paradise-with-city-views-for-rent/"
+          ],
+          "sourcePNGStateCount": 6
+        },
+        {
+          "file": "full-390-012.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 390,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "41a495874a9ac10e05d9d901f4e27639281685bc4e8bf9ec81e1e1c0b85c7c17",
+          "dimensions": {
+            "width": 1560,
+            "height": 5613
+          },
+          "routes": [
+            "/properties/high-number-fully-renovated-best-layout/",
+            "/properties/premium-location-best-value-turnkey-garden-home/",
+            "/properties/www-luxuryresidences-com-properties-private-pool-canal-view-renovated-upgraded/",
+            "/properties/private-pool-furnished-spacious-terrace/",
+            "/properties/exclusive-sea-view-4br-royal-penthouse/",
+            "/properties/rare-dual-view-skyline-sea-spacious-luxury/"
+          ],
+          "sourcePNGStateCount": 6
+        },
+        {
+          "file": "full-390-016.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 390,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "8e37aaff0ae380d75da426cec51cadf39a90f5ad8a610f3bc5954d3773125279",
+          "dimensions": {
+            "width": 1560,
+            "height": 5438
+          },
+          "routes": [
+            "/properties/vela-dorchester-collection/",
+            "/properties/very-high-number-fully-upgraded-premium-views/",
+            "/properties/beauty-rarity-and-timeless-elegance-awaits/",
+            "/properties/best-price-high-floor-sea-view-large-size/",
+            "/properties/brand-new-high-floor-full-palm-jumeirah-view/",
+            "/properties/brand-new-high-floor-palm-and-skyline-view/"
+          ],
+          "sourcePNGStateCount": 6
+        },
+        {
+          "file": "full-390-020.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 390,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "5d4eb005e695936a23391f3311fe7bf38218fc949752205c4cde92374eb020d3",
+          "dimensions": {
+            "width": 1560,
+            "height": 9224
+          },
+          "routes": [
+            "/properties/sea-view-or-skyline-vistas-now-you-can-have-both/",
+            "/properties/sleek-sophisticated-and-move-in-ready/",
+            "/properties/stunning-upgrade-luxury-villa-golf-course-view/",
+            "/properties/super-rare-huge-terrace-furnished-1-agency/",
+            "/developments/atlantis/",
+            "/developments/ava-at-palm/"
+          ],
+          "sourcePNGStateCount": 6
+        }
+      ],
+      "sheetCount": 22,
+      "counts": {
+        "top": 8,
+        "desktopFull": 9,
+        "mobileFull": 5
+      }
+    },
+    {
+      "owner": "/root/navigation_motion",
+      "sheets": [
+        {
+          "file": "top-003.png",
+          "kind": "top-route-pairs",
+          "nativeViewportWidth": null,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "5972e652c80174e20884c95645a2a0cf0a77f56ffdc6144f8f176e6bda726465",
+          "dimensions": {
+            "width": 1368,
+            "height": 1288
+          },
+          "routes": [
+            "/insights/",
+            "/properties/palm-view-duplex-bespoke-garden-home/",
+            "/properties/renovation-opportunity-high-number-iconic-view/",
+            "/properties/1-of-1-branded-renovation-incredible-must-see/"
+          ],
+          "sourcePNGStateCount": 8
+        },
+        {
+          "file": "top-007.png",
+          "kind": "top-route-pairs",
+          "nativeViewportWidth": null,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "3ffc6c7a07c55b4b9c0fdf7b4fadb3e3cb44182c8e15a190ba0d617a369bc32c",
+          "dimensions": {
+            "width": 1368,
+            "height": 1288
+          },
+          "routes": [
+            "/properties/brand-new-high-floor-islands-view/",
+            "/properties/brand-new-palm-and-garden-view-vacant/",
+            "/properties/brand-new-private-garden-private-pool/",
+            "/properties/brand-new-sea-and-palm-view-corner-unit/"
+          ],
+          "sourcePNGStateCount": 8
+        },
+        {
+          "file": "top-011.png",
+          "kind": "top-route-pairs",
+          "nativeViewportWidth": null,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "bd51e8f2a9d9cd78fccbb4407a4dc76eeb11f712f334ba72c39c8dfc286306a1",
+          "dimensions": {
+            "width": 1368,
+            "height": 1288
+          },
+          "routes": [
+            "/properties/eden-hills/",
+            "/properties/one-of-a-kind-loft-designer-upgrade-sea-view/",
+            "/properties/furnished-upgraded-unique-layout-dual-views/",
+            "/properties/garden-apartment-sea-facing-private-pool/"
+          ],
+          "sourcePNGStateCount": 8
+        },
+        {
+          "file": "top-015.png",
+          "kind": "top-route-pairs",
+          "nativeViewportWidth": null,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "cc93b5c85b5d65a804988449c7eea03f597e1fdf9a668733287671d61dd166b2",
+          "dimensions": {
+            "width": 1368,
+            "height": 1288
+          },
+          "routes": [
+            "/properties/must-be-viewed-rare-2br-sea-and-skyline-views/",
+            "/properties/ultra-luxury-super-rare-dual-view-residence/",
+            "/properties/one-of-a-kind-villa-unique-reimagined-layout/",
+            "/properties/one-at-palm-jumeirah-dorchester-collection/"
+          ],
+          "sourcePNGStateCount": 8
+        },
+        {
+          "file": "top-019.png",
+          "kind": "top-route-pairs",
+          "nativeViewportWidth": null,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "4abd975b05e8864cbdf9e02abe12b3d1a5f303864e435127ead865495ccfdf79",
+          "dimensions": {
+            "width": 1368,
+            "height": 1288
+          },
+          "routes": [
+            "/properties/rare-dual-view-skyline-sea-spacious-luxury/",
+            "/properties/sea-views-michelin-star-dining-and-more/",
+            "/properties/serenity-mansions-aurora/",
+            "/properties/serenity-mansions-waterfront-collection/"
+          ],
+          "sourcePNGStateCount": 8
+        },
+        {
+          "file": "top-023.png",
+          "kind": "top-route-pairs",
+          "nativeViewportWidth": null,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "cc6e1b0af421aa7793a547f1ca2d540efdc8c6fe88e362e37cb5a89c3b5f08c3",
+          "dimensions": {
+            "width": 1368,
+            "height": 1288
+          },
+          "routes": [
+            "/properties/upgraded-2br-marina-view-investor-deal/",
+            "/properties/best-priced-palm-view-2br-furnished-view-today/",
+            "/properties/upgraded-vacant-furnished-viewing-essential/",
+            "/properties/vela-dorchester-collection/"
+          ],
+          "sourcePNGStateCount": 8
+        },
+        {
+          "file": "top-027.png",
+          "kind": "top-route-pairs",
+          "nativeViewportWidth": null,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "d4e122ede6e869c80724a967fb51ebe85fbe95324101140718dc0222ceba0b3e",
+          "dimensions": {
+            "width": 1368,
+            "height": 1288
+          },
+          "routes": [
+            "/properties/furnished-palm-skyline-views-exclusive/",
+            "/properties/furnished-palm-skyline-views-exclusive-2/",
+            "/properties/furnished-palm-and-skyline-views-exclusive/",
+            "/properties/garden-villa-hermes-and-minotti-private-pool/"
+          ],
+          "sourcePNGStateCount": 8
+        },
+        {
+          "file": "top-031.png",
+          "kind": "top-route-pairs",
+          "nativeViewportWidth": null,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "69acbc972ed336fdc3560441b9339854f21b684dc1c6c90a2deb7364a9ac2efa",
+          "dimensions": {
+            "width": 1368,
+            "height": 1288
+          },
+          "routes": [
+            "/developments/ava-at-palm/",
+            "/developments/orla/",
+            "/developments/serenity-mansions-aurora/",
+            "/developments/serenity-mansions-waterfront-collection/"
+          ],
+          "sourcePNGStateCount": 8
+        },
+        {
+          "file": "full-1440-002.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 1440,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "654d6b1b185dd00a9d07f7c48f78477ccc8a1b98dfccae3959fe921a0385b872",
+          "dimensions": {
+            "width": 1688,
+            "height": 1103
+          },
+          "routes": [
+            "/sell/",
+            "/contacts/",
+            "/privacy/",
+            "/insights/"
+          ],
+          "sourcePNGStateCount": 4
+        },
+        {
+          "file": "full-1440-006.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 1440,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "988fdc6ee2f6226c7434d9f554b6e983cabc4870a9545b898baebcdc4b2c1acf",
+          "dimensions": {
+            "width": 1688,
+            "height": 1846
+          },
+          "routes": [
+            "/properties/beautifully-renovated-private-spa-high-number/",
+            "/properties/your-royal-lifestyle-with-sublime-views-and-space-2/",
+            "/properties/best-price-upgraded-furnished-skyline-views/",
+            "/properties/brand-new-high-floor-islands-view/"
+          ],
+          "sourcePNGStateCount": 4
+        },
+        {
+          "file": "full-1440-010.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 1440,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "1df4ce182c9263f14d35d95ca2f856a4c14e2b70c25ce1e15cc637765d9c5bbc",
+          "dimensions": {
+            "width": 1688,
+            "height": 1680
+          },
+          "routes": [
+            "/properties/dual-views-double-height-2027-completion/",
+            "/properties/duplex-ph-brand-new-unobstructed-views/",
+            "/properties/duplex-roof-terrace-golf-and-skyline-views/",
+            "/properties/eden-hills/"
+          ],
+          "sourcePNGStateCount": 4
+        },
+        {
+          "file": "full-1440-014.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 1440,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "e502d9bbde3af70125219e983f2cfa95235ded73e91ed9d2f1f9cff93d5a45a2",
+          "dimensions": {
+            "width": 1688,
+            "height": 1903
+          },
+          "routes": [
+            "/properties/best-value-huge-terrace-amazing-potential/",
+            "/properties/marina-view-upgraded-furnished-investor-deal/",
+            "/properties/miami-style-stunning-marina-views-beach-access/",
+            "/properties/must-be-viewed-rare-2br-sea-and-skyline-views/"
+          ],
+          "sourcePNGStateCount": 4
+        },
+        {
+          "file": "full-1440-018.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 1440,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "e2bfa7c235ccbcca3c9b4a4c99cbe57dba10b14925879d986d507fd2c38972fc",
+          "dimensions": {
+            "width": 1688,
+            "height": 1940
+          },
+          "routes": [
+            "/properties/www-luxuryresidences-com-properties-private-pool-canal-view-renovated-upgraded/",
+            "/properties/private-pool-furnished-spacious-terrace/",
+            "/properties/exclusive-sea-view-4br-royal-penthouse/",
+            "/properties/rare-dual-view-skyline-sea-spacious-luxury/"
+          ],
+          "sourcePNGStateCount": 4
+        },
+        {
+          "file": "full-1440-022.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 1440,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "3082ee5e77a68f2a3f1f96cb2254206168a4d37a29e013d1680596da12afe8df",
+          "dimensions": {
+            "width": 1688,
+            "height": 1915
+          },
+          "routes": [
+            "/properties/ultra-high-floor-one-of-a-kind-upgraded-residence/",
+            "/properties/palm-view-sky-court-xl-terrace-upgraded/",
+            "/properties/ultra-rare-2br-duplex-in-the-iconic-uptown-tower/",
+            "/properties/upgraded-2br-marina-view-investor-deal/"
+          ],
+          "sourcePNGStateCount": 4
+        },
+        {
+          "file": "full-1440-026.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 1440,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "ce6fb434f5609b6108064f1c9370105f3285333d7f5009808d2cc1141eff4ad2",
+          "dimensions": {
+            "width": 1688,
+            "height": 1831
+          },
+          "routes": [
+            "/properties/exclusive-high-floor-available-now-furnished/",
+            "/properties/exclusive-lagoon-facing-available-for-viewing/",
+            "/properties/exclusive-top-floor-one-of-a-kind/",
+            "/properties/furnished-palm-skyline-views-exclusive/"
+          ],
+          "sourcePNGStateCount": 4
+        },
+        {
+          "file": "full-1440-030.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 1440,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "ad9eab7ae9ff3e5964c19fabc3f683849d19de31b7dec9faa725af29acc92564",
+          "dimensions": {
+            "width": 1688,
+            "height": 3560
+          },
+          "routes": [
+            "/properties/stunning-upgrade-luxury-villa-golf-course-view/",
+            "/properties/super-rare-huge-terrace-furnished-1-agency/",
+            "/developments/atlantis/",
+            "/developments/ava-at-palm/"
+          ],
+          "sourcePNGStateCount": 4
+        },
+        {
+          "file": "full-1440-catalogue.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 1440,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "52288b9f3681f98debf3842e942a3ac00f45345c4fdb4bcf80a22e589b48dc29",
+          "dimensions": {
+            "width": 440,
+            "height": 1858
+          },
+          "routes": [
+            "/properties/"
+          ],
+          "sourcePNGStateCount": 1
+        },
+        {
+          "file": "full-390-001.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 390,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "878e28b9688a36174bbce4397be5d323d836f7eedf97bdcfff7469619f727e32",
+          "dimensions": {
+            "width": 1560,
+            "height": 5351
+          },
+          "routes": [
+            "/",
+            "/developments/",
+            "/about/",
+            "/services/",
+            "/sell/",
+            "/contacts/"
+          ],
+          "sourcePNGStateCount": 6
+        },
+        {
+          "file": "full-390-005.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 390,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "af42bd3124ee3514957589583bb5f2d964dcc93fca925e21a49a1ebd73079ff5",
+          "dimensions": {
+            "width": 1560,
+            "height": 4968
+          },
+          "routes": [
+            "/properties/brand-new-palm-and-garden-view-vacant/",
+            "/properties/brand-new-private-garden-private-pool/",
+            "/properties/brand-new-sea-and-palm-view-corner-unit/",
+            "/properties/brand-new-sea-and-palm-view-corner-unit-2/",
+            "/properties/brand-new-sea-and-sunset-views/",
+            "/properties/brand-new-sea-dubai-eye-and-sunset-views/"
+          ],
+          "sourcePNGStateCount": 6
+        },
+        {
+          "file": "full-390-009.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 390,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "52ef568bf2ca6f69598dde915e08c33b68a6cd27d061c28e4cfc43749468a71c",
+          "dimensions": {
+            "width": 1560,
+            "height": 5619
+          },
+          "routes": [
+            "/properties/high-floor-palm-paradise-with-incredible-views/",
+            "/properties/landmark-marina-gate-one-bed-must-be-viewed-2/",
+            "/properties/large-layout-community-view-maids-room/",
+            "/properties/last-available-3br-duplex-with-private-pool/",
+            "/properties/best-value-huge-terrace-amazing-potential/",
+            "/properties/marina-view-upgraded-furnished-investor-deal/"
+          ],
+          "sourcePNGStateCount": 6
+        },
+        {
+          "file": "full-390-013.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 390,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "dffc7c05470fc14ae6d5ba12f42a592c93c7fbf24641fe11d20fad7658d14874",
+          "dimensions": {
+            "width": 1560,
+            "height": 5219
+          },
+          "routes": [
+            "/properties/sea-views-michelin-star-dining-and-more/",
+            "/properties/serenity-mansions-aurora/",
+            "/properties/serenity-mansions-waterfront-collection/",
+            "/properties/six-senses-residences-dubai-marina/",
+            "/properties/sought-after-sea-sunset-views-branded-residences/",
+            "/properties/spacious-layout-prime-amenities-modern-living/"
+          ],
+          "sourcePNGStateCount": 6
+        },
+        {
+          "file": "full-390-017.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 390,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "9d13f5216c1cc2eff938a1d22790592c99597afa75fa8811008a8664005f313c",
+          "dimensions": {
+            "width": 1560,
+            "height": 5367
+          },
+          "routes": [
+            "/properties/brand-new-high-floor-sea-and-sunset-views/",
+            "/properties/burj-khalifa-views-upgraded-fully-furnished/",
+            "/properties/dual-views-highest-floor-huge-layout/",
+            "/properties/duplex-with-private-pool-must-be-viewed/",
+            "/properties/exclusive-high-floor-available-now-furnished/",
+            "/properties/exclusive-lagoon-facing-available-for-viewing/"
+          ],
+          "sourcePNGStateCount": 6
+        },
+        {
+          "file": "full-390-021.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 390,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "3a8e83353ca48c66efea314258d49bdb9fc6b4a976c3665eaf10cbbb8eead2d1",
+          "dimensions": {
+            "width": 1560,
+            "height": 7309
+          },
+          "routes": [
+            "/developments/orla/",
+            "/developments/serenity-mansions-aurora/",
+            "/developments/serenity-mansions-waterfront-collection/",
+            "/developments/six-senses/",
+            "/developments/vela/",
+            "/insights/spaces-worth-living-in/"
+          ],
+          "sourcePNGStateCount": 6
+        }
+      ],
+      "sheetCount": 23,
+      "counts": {
+        "top": 8,
+        "desktopFull": 9,
+        "mobileFull": 6
+      }
+    },
+    {
+      "owner": "/root/qa_interaction_audit",
+      "sheets": [
+        {
+          "file": "top-004.png",
+          "kind": "top-route-pairs",
+          "nativeViewportWidth": null,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "e2f6bfc6879d253d60dfa6880a2b46cbd39c565b873ca25f9db6faf575dca0e4",
+          "dimensions": {
+            "width": 1368,
+            "height": 1288
+          },
+          "routes": [
+            "/properties/1-of-1-palm-view-renovation-incredible-must-see/",
+            "/properties/sublime-sea-views-iconic-living/",
+            "/properties/2br-palm-skyline-view-branded-upgrades/",
+            "/properties/unique-duplex-breath-taking-sea-view/"
+          ],
+          "sourcePNGStateCount": 8
+        },
+        {
+          "file": "top-008.png",
+          "kind": "top-route-pairs",
+          "nativeViewportWidth": null,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "29fff967153aa91607fd20782036a6c56c9c3e9340bd5789b38ecd840b382973",
+          "dimensions": {
+            "width": 1368,
+            "height": 1288
+          },
+          "routes": [
+            "/properties/brand-new-sea-and-palm-view-corner-unit-2/",
+            "/properties/brand-new-sea-and-sunset-views/",
+            "/properties/brand-new-sea-dubai-eye-and-sunset-views/",
+            "/properties/brand-new-vacant-sea-and-sunset-views/"
+          ],
+          "sourcePNGStateCount": 8
+        },
+        {
+          "file": "top-012.png",
+          "kind": "top-route-pairs",
+          "nativeViewportWidth": null,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "c85756cfb587dd36f98aaaec5e8c1f417eb11dcbac2955d64e3e3735f4dd3e7e",
+          "dimensions": {
+            "width": 1368,
+            "height": 1288
+          },
+          "routes": [
+            "/properties/garden-apartment-sea-facing-private-pool-2/",
+            "/properties/genuine-resale-full-sea-and-marina-views/",
+            "/properties/high-floor-with-best-views-furnished-1-agency/",
+            "/properties/high-floor-2br-sea-view-chic-upgrades/"
+          ],
+          "sourcePNGStateCount": 8
+        },
+        {
+          "file": "top-016.png",
+          "kind": "top-route-pairs",
+          "nativeViewportWidth": null,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "a41630ca444a8d92f957ce3c1f33ca8eabbf772d5899c65f3b15709686b04629",
+          "dimensions": {
+            "width": 1368,
+            "height": 1288
+          },
+          "routes": [
+            "/properties/orla-dorchester-collection/",
+            "/properties/palm-and-marina-skyline-views-private-pool/",
+            "/properties/dorchester-collection-full-palm-view-duplex/",
+            "/properties/panoramic-sea-sunset-views-wrap-around-balcony/"
+          ],
+          "sourcePNGStateCount": 8
+        },
+        {
+          "file": "top-020.png",
+          "kind": "top-route-pairs",
+          "nativeViewportWidth": null,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "d8b9b0b1d913e95474118bdbb4ed39c9905e40a9dcd274773c14091f1e09f5dd",
+          "dimensions": {
+            "width": 1368,
+            "height": 1288
+          },
+          "routes": [
+            "/properties/six-senses-residences-dubai-marina/",
+            "/properties/sought-after-sea-sunset-views-branded-residences/",
+            "/properties/spacious-layout-prime-amenities-modern-living/",
+            "/properties/stunning-4br-amazing-bmv-price-move-in-ready/"
+          ],
+          "sourcePNGStateCount": 8
+        },
+        {
+          "file": "top-024.png",
+          "kind": "top-route-pairs",
+          "nativeViewportWidth": null,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "82d4496252e0a24f8ad5360dce679ecc736846cf3a1ef8954603478abf9ceca5",
+          "dimensions": {
+            "width": 1368,
+            "height": 1288
+          },
+          "routes": [
+            "/properties/very-high-number-fully-upgraded-premium-views/",
+            "/properties/beauty-rarity-and-timeless-elegance-awaits/",
+            "/properties/best-price-high-floor-sea-view-large-size/",
+            "/properties/brand-new-high-floor-full-palm-jumeirah-view/"
+          ],
+          "sourcePNGStateCount": 8
+        },
+        {
+          "file": "top-028.png",
+          "kind": "top-route-pairs",
+          "nativeViewportWidth": null,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "ef971005539c97b276f108912914644aa2587c9aa92c4ef949544c08f97f20c5",
+          "dimensions": {
+            "width": 1368,
+            "height": 1288
+          },
+          "routes": [
+            "/properties/high-floor-palm-view-fully-furnished/",
+            "/properties/live-royally-turnkey-renovated-masterpiece/",
+            "/properties/modern-design-elie-saab-branded-priced-to-sell/",
+            "/properties/palm-view-amazing-2br-layout-must-be-viewed/"
+          ],
+          "sourcePNGStateCount": 8
+        },
+        {
+          "file": "top-032.png",
+          "kind": "top-route-pairs",
+          "nativeViewportWidth": null,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "92906f83291c945edcb8e2758faa8ed7fcc0b3b1067396268ff8515a9afcfb00",
+          "dimensions": {
+            "width": 1368,
+            "height": 1288
+          },
+          "routes": [
+            "/developments/six-senses/",
+            "/developments/vela/",
+            "/insights/spaces-worth-living-in/",
+            "/insights/a-home-by-the-water/"
+          ],
+          "sourcePNGStateCount": 8
+        },
+        {
+          "file": "full-1440-003.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 1440,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "d9c64b3c2d059c4268dd4a6a255dbcd5de8abc5938250f439353bab09937130e",
+          "dimensions": {
+            "width": 1688,
+            "height": 1857
+          },
+          "routes": [
+            "/properties/palm-view-duplex-bespoke-garden-home/",
+            "/properties/renovation-opportunity-high-number-iconic-view/",
+            "/properties/1-of-1-branded-renovation-incredible-must-see/",
+            "/properties/1-of-1-palm-view-renovation-incredible-must-see/"
+          ],
+          "sourcePNGStateCount": 4
+        },
+        {
+          "file": "full-1440-007.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 1440,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "bf76ca5a0c646ccdcad3fd04c0f50802b2782532c5df2781c528ed5d3a499107",
+          "dimensions": {
+            "width": 1688,
+            "height": 1696
+          },
+          "routes": [
+            "/properties/brand-new-palm-and-garden-view-vacant/",
+            "/properties/brand-new-private-garden-private-pool/",
+            "/properties/brand-new-sea-and-palm-view-corner-unit/",
+            "/properties/brand-new-sea-and-palm-view-corner-unit-2/"
+          ],
+          "sourcePNGStateCount": 4
+        },
+        {
+          "file": "full-1440-011.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 1440,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "fec0e81ba93fe98e209381c2981b440967fbb6aa8ef90690e71dc19bfd63fefb",
+          "dimensions": {
+            "width": 1688,
+            "height": 1820
+          },
+          "routes": [
+            "/properties/one-of-a-kind-loft-designer-upgrade-sea-view/",
+            "/properties/furnished-upgraded-unique-layout-dual-views/",
+            "/properties/garden-apartment-sea-facing-private-pool/",
+            "/properties/garden-apartment-sea-facing-private-pool-2/"
+          ],
+          "sourcePNGStateCount": 4
+        },
+        {
+          "file": "full-1440-015.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 1440,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "542dafb5ac4b1ae7e82e38a71c4e7ec27d289ecbad454c7527c0018f21a06117",
+          "dimensions": {
+            "width": 1688,
+            "height": 1832
+          },
+          "routes": [
+            "/properties/ultra-luxury-super-rare-dual-view-residence/",
+            "/properties/one-of-a-kind-villa-unique-reimagined-layout/",
+            "/properties/one-at-palm-jumeirah-dorchester-collection/",
+            "/properties/orla-dorchester-collection/"
+          ],
+          "sourcePNGStateCount": 4
+        },
+        {
+          "file": "full-1440-019.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 1440,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "f7f0a0db47bd192237feb0e39ad62bd1a3c22e428231961e0a937d29b8e09967",
+          "dimensions": {
+            "width": 1688,
+            "height": 1670
+          },
+          "routes": [
+            "/properties/sea-views-michelin-star-dining-and-more/",
+            "/properties/serenity-mansions-aurora/",
+            "/properties/serenity-mansions-waterfront-collection/",
+            "/properties/six-senses-residences-dubai-marina/"
+          ],
+          "sourcePNGStateCount": 4
+        },
+        {
+          "file": "full-1440-023.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 1440,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "157321d841d4224427b91441fa2297cc9b93f5a89815fc2479f1824901676531",
+          "dimensions": {
+            "width": 1688,
+            "height": 1790
+          },
+          "routes": [
+            "/properties/best-priced-palm-view-2br-furnished-view-today/",
+            "/properties/upgraded-vacant-furnished-viewing-essential/",
+            "/properties/vela-dorchester-collection/",
+            "/properties/very-high-number-fully-upgraded-premium-views/"
+          ],
+          "sourcePNGStateCount": 4
+        },
+        {
+          "file": "full-1440-027.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 1440,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "e20e1082ab55c835714758e223f181b5119710e46c52fc5c6647103e33122a74",
+          "dimensions": {
+            "width": 1688,
+            "height": 1840
+          },
+          "routes": [
+            "/properties/furnished-palm-skyline-views-exclusive-2/",
+            "/properties/furnished-palm-and-skyline-views-exclusive/",
+            "/properties/garden-villa-hermes-and-minotti-private-pool/",
+            "/properties/high-floor-palm-view-fully-furnished/"
+          ],
+          "sourcePNGStateCount": 4
+        },
+        {
+          "file": "full-1440-031.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 1440,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "3354d165f7ad74ecf60878ff187cd94003154bf01261d1d5f88e623c7af0ab08",
+          "dimensions": {
+            "width": 1688,
+            "height": 3224
+          },
+          "routes": [
+            "/developments/orla/",
+            "/developments/serenity-mansions-aurora/",
+            "/developments/serenity-mansions-waterfront-collection/",
+            "/developments/six-senses/"
+          ],
+          "sourcePNGStateCount": 4
+        },
+        {
+          "file": "full-390-002.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 390,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "bd0b4b1c6ece00db0cd2e04f7176ab59c47dcd394865e959ce04a71dc8cd26b8",
+          "dimensions": {
+            "width": 1560,
+            "height": 5391
+          },
+          "routes": [
+            "/privacy/",
+            "/insights/",
+            "/properties/palm-view-duplex-bespoke-garden-home/",
+            "/properties/renovation-opportunity-high-number-iconic-view/",
+            "/properties/1-of-1-branded-renovation-incredible-must-see/",
+            "/properties/1-of-1-palm-view-renovation-incredible-must-see/"
+          ],
+          "sourcePNGStateCount": 6
+        },
+        {
+          "file": "full-390-006.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 390,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "7b43f2340e9b64b09674e11d297cb759ba1156faa3c05c37e4f00d504296266a",
+          "dimensions": {
+            "width": 1560,
+            "height": 5424
+          },
+          "routes": [
+            "/properties/brand-new-vacant-sea-and-sunset-views/",
+            "/properties/brand-new-vacant-sea-and-sunset-views-2/",
+            "/properties/branded-upgrade-palm-skyline-view-2br-xl-size/",
+            "/properties/celebrated-designer-duplex-with-private-pool/",
+            "/properties/city-and-sea-views-fully-furnished-xl-terrace/",
+            "/properties/close-to-tip-fully-upgraded-prime-location/"
+          ],
+          "sourcePNGStateCount": 6
+        },
+        {
+          "file": "full-390-010.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 390,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "aa5a2816781eeff05dbf38f822b975b30865f17de18a0b6f70035a7db3e774ef",
+          "dimensions": {
+            "width": 1560,
+            "height": 5378
+          },
+          "routes": [
+            "/properties/miami-style-stunning-marina-views-beach-access/",
+            "/properties/must-be-viewed-rare-2br-sea-and-skyline-views/",
+            "/properties/ultra-luxury-super-rare-dual-view-residence/",
+            "/properties/one-of-a-kind-villa-unique-reimagined-layout/",
+            "/properties/one-at-palm-jumeirah-dorchester-collection/",
+            "/properties/orla-dorchester-collection/"
+          ],
+          "sourcePNGStateCount": 6
+        },
+        {
+          "file": "full-390-014.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 390,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "e747e5e21c6386b52e1eaa95909ab59d79a4753a6f7f403a1f4b13de3a093f1d",
+          "dimensions": {
+            "width": 1560,
+            "height": 5624
+          },
+          "routes": [
+            "/properties/stunning-4br-amazing-bmv-price-move-in-ready/",
+            "/properties/the-chedi-private-residences/",
+            "/properties/timeless-elegance-awaits-at-palazzo-versace-dubai/",
+            "/properties/triple-storey-fully-renovated-prime-location/",
+            "/properties/turnkey-renovation-balearic-style-extended/",
+            "/properties/trophy-4br-garden-suite-with-private-pool/"
+          ],
+          "sourcePNGStateCount": 6
+        },
+        {
+          "file": "full-390-018.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 390,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "668206272084d55897b2b729a3db07299bad2885a3941b4ea619c2864c1b807b",
+          "dimensions": {
+            "width": 1560,
+            "height": 5338
+          },
+          "routes": [
+            "/properties/exclusive-top-floor-one-of-a-kind/",
+            "/properties/furnished-palm-skyline-views-exclusive/",
+            "/properties/furnished-palm-skyline-views-exclusive-2/",
+            "/properties/furnished-palm-and-skyline-views-exclusive/",
+            "/properties/garden-villa-hermes-and-minotti-private-pool/",
+            "/properties/high-floor-palm-view-fully-furnished/"
+          ],
+          "sourcePNGStateCount": 6
+        },
+        {
+          "file": "full-390-022.png",
+          "kind": "full-page-overview",
+          "nativeViewportWidth": 390,
+          "reviewLevel": "scaled-structural-overview",
+          "status": "not-started",
+          "sha256": "cb27c931d271c05cacc1b4ba2dd354b1d0b66383fb085fdf5751f8038c6594f1",
+          "dimensions": {
+            "width": 792,
+            "height": 3186
+          },
+          "routes": [
+            "/insights/a-home-by-the-water/",
+            "/insights/the-art-of-a-private-viewing/",
+            "/insights/architecture-on-palm-jumeirah/"
+          ],
+          "sourcePNGStateCount": 3
+        }
+      ],
+      "sheetCount": 22,
+      "counts": {
+        "top": 8,
+        "desktopFull": 8,
+        "mobileFull": 6
+      }
+    }
+  ],
+  "requiredBeforeReview": [
+    "Verify completed unrestricted 130-route/260-view capture and source commit; no sampled or incomplete capture is eligible.",
+    "Bind this plan to the actual sheet-manifest SHA and verify exact 90-file set; if it differs, regenerate allocation before claiming coverage.",
+    "Read every assigned sheet image. A file listing, generated HTML index, successful command or machine check is not a human review.",
+    "Keep scaled overview coverage separate from actual native PNG or crop inspections. Confirm suspicious details against the native original.",
+    "Save one reviewer receipt using the companion schema. Aggregate actual viewed SHA sets, never the planned counts."
+  ],
+  "aggregateAcceptance": {
+    "allSheetsActuallyViewed": 90,
+    "overviewCoverage": {
+      "uniqueRoutes": 130,
+      "uniqueRouteWidthViews": 260,
+      "uniqueSourcePNGStates": 520,
+      "states": [
+        "top",
+        "full"
+      ]
+    },
+    "nativeDetailCoverage": "Only the exact native files and regions enumerated by reviewer receipts; no whole-site pixel-perfect claim.",
+    "missingOrBlockedItems": "Explicitly list unread sheets/regions and unresolved findings; do not mark global visual acceptance while required sheet coverage is missing."
+  },
+  "boundAt": "2026-11-03T17:00:49.619058+00:00",
+  "captureReportPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/all-pages-chromium-r1/visual-audit-report.json",
+  "captureReportSha256": "2576013b2a5f0f7b69553d046d5a52a926307539a5b48518e4e24105d89a98d7",
+  "sourcePlanPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/review-receipts/all-pages-allocation-plan.json",
+  "sourcePlanSha256": "bac131988a23688719f738baae2cb5a8e0f85b75a969d4b162b05941a37db966",
+  "actual": {
+    "canonicalRoutes": 130,
+    "routeWidthViews": 260,
+    "sourcePNGs": 520,
+    "sheets": 90
+  },
+  "sheetHashBinding": "Sheet SHA/dimensions copied from completed generated manifest; final coverage validator rehashes the originals and sheets."
+}

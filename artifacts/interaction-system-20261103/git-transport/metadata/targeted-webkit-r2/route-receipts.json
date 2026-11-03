@@ -1,0 +1,4947 @@
+{
+  "schemaVersion": 1,
+  "stage": "focused",
+  "engine": "webkit",
+  "sourceHead": "532cd2fc19dcf9ddaa1809616a47ebaee86eec88",
+  "humanReview": "pending",
+  "plannedViews": 1,
+  "actualViews": 1,
+  "receipts": [
+    {
+      "key": "001-home-320-no-preference",
+      "route": "/",
+      "width": 320,
+      "height": 844,
+      "motion": "no-preference",
+      "httpStatus": 200,
+      "complete": true,
+      "elapsedMs": 47038,
+      "scrollThrough": {
+        "steps": 13,
+        "documentHeight": 8533
+      },
+      "error": null,
+      "humanReview": "pending",
+      "checks": [
+        {
+          "view": "001-home-320-no-preference",
+          "name": "hero preserves query/purpose; keyboard modal and rendered entrance",
+          "startedAt": "2026-11-03T16:35:27.265Z",
+          "ok": true,
+          "elapsedMs": 4287
+        },
+        {
+          "view": "001-home-320-no-preference",
+          "name": "hero invalid draft is blocked and Escape discards it",
+          "startedAt": "2026-11-03T16:35:31.552Z",
+          "ok": true,
+          "elapsedMs": 5591
+        },
+        {
+          "view": "001-home-320-no-preference",
+          "name": "hero reset affects draft; all filter sections and fixed actions are reachable",
+          "startedAt": "2026-11-03T16:35:37.144Z",
+          "ok": true,
+          "elapsedMs": 5999
+        },
+        {
+          "view": "001-home-320-no-preference",
+          "name": "hero Apply navigates with exact filter state; Back restores an unlocked page",
+          "startedAt": "2026-11-03T16:35:43.143Z",
+          "ok": true,
+          "elapsedMs": 5207
+        },
+        {
+          "view": "001-home-320-no-preference",
+          "name": "service accordion preserves one open section and survives rapid reversal",
+          "startedAt": "2026-11-03T16:35:48.359Z",
+          "ok": true,
+          "elapsedMs": 6185
+        }
+      ],
+      "findings": [],
+      "pageErrors": [],
+      "assetFailures": [],
+      "screenshots": [
+        {
+          "file": "001-home-320-no-preference-top.png",
+          "view": "001-home-320-no-preference",
+          "route": "/",
+          "url": "http://127.0.0.1:34897/",
+          "kind": "top",
+          "viewport": {
+            "width": 320,
+            "height": 844
+          },
+          "documentHeight": 8474,
+          "scrollY": 0,
+          "bytes": 277348,
+          "sha256": "d78d98ebe461b4a0f3f87b9750abc7a63b2200211f427b75328fa4ca8a369b60",
+          "loaded": true,
+          "humanReview": "pending"
+        },
+        {
+          "file": "001-home-320-no-preference-content.png",
+          "view": "001-home-320-no-preference",
+          "route": "/",
+          "url": "http://127.0.0.1:34897/",
+          "kind": "content",
+          "viewport": {
+            "width": 320,
+            "height": 844
+          },
+          "documentHeight": 8533,
+          "scrollY": 6193,
+          "bytes": 194690,
+          "sha256": "e25be6a8559c70d1ad3a7cdf319db618eb7cd8c65a4c979e2e7c371438675116",
+          "loaded": true,
+          "humanReview": "pending"
+        },
+        {
+          "file": "001-home-320-no-preference-hero-filters.png",
+          "view": "001-home-320-no-preference",
+          "route": "/",
+          "url": "http://127.0.0.1:34897/",
+          "kind": "hero-filters",
+          "viewport": {
+            "width": 320,
+            "height": 844
+          },
+          "documentHeight": 8533,
+          "scrollY": 0,
+          "bytes": 59264,
+          "sha256": "c7efa8a1f43a6721a485f6799f807eb632aca25a36302302d0af6977d4bb1c9e",
+          "loaded": true,
+          "humanReview": "pending"
+        },
+        {
+          "file": "001-home-320-no-preference-hero-filters-error.png",
+          "view": "001-home-320-no-preference",
+          "route": "/",
+          "url": "http://127.0.0.1:34897/",
+          "kind": "hero-filters-error",
+          "viewport": {
+            "width": 320,
+            "height": 844
+          },
+          "documentHeight": 8533,
+          "scrollY": 0,
+          "bytes": 58130,
+          "sha256": "756a67a91c44f2a85eda7334def930020de161582bea604cd89e9920b9d31514",
+          "loaded": true,
+          "humanReview": "pending"
+        },
+        {
+          "file": "001-home-320-no-preference-hero-filters-lower.png",
+          "view": "001-home-320-no-preference",
+          "route": "/",
+          "url": "http://127.0.0.1:34897/",
+          "kind": "hero-filters-lower",
+          "viewport": {
+            "width": 320,
+            "height": 844
+          },
+          "documentHeight": 8533,
+          "scrollY": 0,
+          "bytes": 50678,
+          "sha256": "428b56c4946a684891fed405ef06e4fa90311dfc47c293f91c25d70524e18921",
+          "loaded": true,
+          "humanReview": "pending"
+        },
+        {
+          "file": "001-home-320-no-preference-service-expanded.png",
+          "view": "001-home-320-no-preference",
+          "route": "/",
+          "url": "http://127.0.0.1:34897/",
+          "kind": "service-expanded",
+          "viewport": {
+            "width": 320,
+            "height": 844
+          },
+          "documentHeight": 8533,
+          "scrollY": 4092,
+          "bytes": 59612,
+          "sha256": "98d33ed082745276676c946b2ff0ae52c169238d2362452d9d2e91c181198903",
+          "loaded": true,
+          "humanReview": "pending"
+        },
+        {
+          "file": "001-home-320-no-preference-menu.png",
+          "view": "001-home-320-no-preference",
+          "route": "/",
+          "url": "http://127.0.0.1:34897/",
+          "kind": "menu",
+          "viewport": {
+            "width": 320,
+            "height": 844
+          },
+          "documentHeight": 8533,
+          "scrollY": 0,
+          "bytes": 57433,
+          "sha256": "ef858873ae719ac546091668a3b5eea8a5b034d2f882be1e555a0671236c83df",
+          "loaded": true,
+          "humanReview": "pending"
+        }
+      ],
+      "measurements": [
+        {
+          "label": "page-after-scroll",
+          "requiredLoadingScope": "all-rendered-after-scroll",
+          "viewport": {
+            "width": 320,
+            "height": 844
+          },
+          "scrollY": 7689,
+          "documentWidth": 320,
+          "bodyWidth": 320,
+          "documentHeight": 8533,
+          "h1": [
+            "Elegant Luxury properties in the heart"
+          ],
+          "overflow": [],
+          "advisorOverlaps": [],
+          "formOverflows": [],
+          "cardRows": [],
+          "containers": [
+            {
+              "tag": "div",
+              "class": "container hero-content",
+              "text": "Play filmElegant Luxury properties in the heartA boutique real estate agency specialising in penthouses, mansion villas and branded residences in Duba",
+              "rect": {
+                "x": 24,
+                "y": 0,
+                "width": 272,
+                "height": 844,
+                "right": 296,
+                "bottom": 844
+              }
+            },
+            {
+              "tag": "div",
+              "class": "selection-heading container",
+              "text": "Real EstateDistinctive homes. Exceptional locations.",
+              "rect": {
+                "x": 24,
+                "y": 929,
+                "width": 272,
+                "height": 151.8,
+                "right": 296,
+                "bottom": 1080.8
+              }
+            },
+            {
+              "tag": "div",
+              "class": "container selection-actions",
+              "text": "Explore the collection",
+              "rect": {
+                "x": 24,
+                "y": 1718.02,
+                "width": 272,
+                "height": 44,
+                "right": 296,
+                "bottom": 1762.02
+              }
+            },
+            {
+              "tag": "div",
+              "class": "container",
+              "text": "New developmentsin DubaiDiscover extraordinary places to call home. A considered collection of residences, architecture and distinctive perspectives o",
+              "rect": {
+                "x": 24,
+                "y": 2032.02,
+                "width": 272,
+                "height": 1741,
+                "right": 296,
+                "bottom": 3773.02
+              }
+            },
+            {
+              "tag": "section",
+              "class": "container home-services section-space",
+              "text": "Our servicesA personal approach, from your first conversation to a closer look at the right property.01Residential AgencyOperating across prime market",
+              "rect": {
+                "x": 24,
+                "y": 3833.02,
+                "width": 272,
+                "height": 1229,
+                "right": 296,
+                "bottom": 5062.02
+              }
+            },
+            {
+              "tag": "div",
+              "class": "container",
+              "text": "Luxury RealtyAbout our agency An international collective of real estate specialists, headquartered in Dubai. Our philosophy is to offer world class s",
+              "rect": {
+                "x": 24,
+                "y": 5142.02,
+                "width": 272,
+                "height": 1055.86,
+                "right": 296,
+                "bottom": 6197.88
+              }
+            },
+            {
+              "tag": "section",
+              "class": "container consultation",
+              "text": "Real Estateselection agentsConsultation",
+              "rect": {
+                "x": 24,
+                "y": 6297.88,
+                "width": 272,
+                "height": 326.84,
+                "right": 296,
+                "bottom": 6624.72
+              }
+            },
+            {
+              "tag": "div",
+              "class": "container section-heading",
+              "text": "Luxury Realty Insights",
+              "rect": {
+                "x": 24,
+                "y": 6704.72,
+                "width": 272,
+                "height": 90,
+                "right": 296,
+                "bottom": 6794.72
+              }
+            },
+            {
+              "tag": "div",
+              "class": "container insights-more",
+              "text": "All insights",
+              "rect": {
+                "x": 24,
+                "y": 7302.55,
+                "width": 272,
+                "height": 47,
+                "right": 296,
+                "bottom": 7349.55
+              }
+            }
+          ],
+          "rails": [
+            {
+              "class": "selection-rail",
+              "scrollLeft": 0,
+              "first": {
+                "x": 24,
+                "y": 1135.8,
+                "width": 272,
+                "height": 509.22,
+                "right": 296,
+                "bottom": 1645.02
+              },
+              "rect": {
+                "x": 0,
+                "y": 1080.8,
+                "width": 320,
+                "height": 607.22,
+                "right": 320,
+                "bottom": 1688.02
+              }
+            },
+            {
+              "class": "insight-rail",
+              "scrollLeft": 0,
+              "first": {
+                "x": 24,
+                "y": 6830.72,
+                "width": 272,
+                "height": 431.83,
+                "right": 296,
+                "bottom": 7262.55
+              },
+              "rect": {
+                "x": 0,
+                "y": 6830.72,
+                "width": 320,
+                "height": 451.83,
+                "right": 320,
+                "bottom": 7282.55
+              }
+            }
+          ],
+          "images": [
+            {
+              "src": "/assets/imgGroup1.svg",
+              "alt": "",
+              "complete": true,
+              "naturalWidth": 41,
+              "naturalHeight": 41,
+              "objectFit": "fill",
+              "rect": {
+                "x": 24,
+                "y": 7701.5,
+                "width": 41,
+                "height": 41,
+                "right": 65,
+                "bottom": 7742.5
+              },
+              "inViewport": true,
+              "insideActiveDialog": false,
+              "requiredLoaded": true
+            },
+            {
+              "src": "/assets/imgGroup48096582.svg",
+              "alt": "",
+              "complete": true,
+              "naturalWidth": 138,
+              "naturalHeight": 20,
+              "objectFit": "contain",
+              "rect": {
+                "x": 91,
+                "y": 7711.78,
+                "width": 138,
+                "height": 20.42,
+                "right": 229,
+                "bottom": 7732.2
+              },
+              "inViewport": true,
+              "insideActiveDialog": false,
+              "requiredLoaded": true
+            },
+            {
+              "src": "/media/8283c2884344b120a546-1280.webp",
+              "alt": "Dubai’s waterfront residences",
+              "complete": true,
+              "naturalWidth": 1600,
+              "naturalHeight": 900,
+              "objectFit": "cover",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 320,
+                "height": 844,
+                "right": 320,
+                "bottom": 844
+              },
+              "inViewport": false,
+              "insideActiveDialog": false,
+              "requiredLoaded": true
+            },
+            {
+              "src": "/assets/lettering-of-dubai.svg",
+              "alt": "of Dubai",
+              "complete": true,
+              "naturalWidth": 270,
+              "naturalHeight": 69,
+              "objectFit": "fill",
+              "rect": {
+                "x": 26,
+                "y": 350,
+                "width": 270,
+                "height": 69.73,
+                "right": 296,
+                "bottom": 419.73
+              },
+              "inViewport": false,
+              "insideActiveDialog": false,
+              "requiredLoaded": true
+            },
+            {
+              "src": "/assets/lettering-selections.svg",
+              "alt": "Selections",
+              "complete": true,
+              "naturalWidth": 245,
+              "naturalHeight": 43,
+              "objectFit": "fill",
+              "rect": {
+                "x": 37.5,
+                "y": 994,
+                "width": 245,
+                "height": 43.8,
+                "right": 282.5,
+                "bottom": 1037.8
+              },
+              "inViewport": false,
+              "insideActiveDialog": false,
+              "requiredLoaded": true
+            },
+            {
+              "src": "/media/42f078d0799fc8484e53-480.webp",
+              "alt": "Palm View | Duplex Bespoke Garden Home",
+              "complete": true,
+              "naturalWidth": 452,
+              "naturalHeight": 302,
+              "objectFit": "cover",
+              "rect": {
+                "x": 24,
+                "y": 1135.8,
+                "width": 272,
+                "height": 302.22,
+                "right": 296,
+                "bottom": 1438.02
+              },
+              "inViewport": false,
+              "insideActiveDialog": false,
+              "requiredLoaded": true
+            },
+            {
+              "src": "/assets/photo-bf8c08ffa9453cf5.webp",
+              "alt": "",
+              "complete": true,
+              "naturalWidth": 1125,
+              "naturalHeight": 691,
+              "objectFit": "cover",
+              "rect": {
+                "x": -378.41,
+                "y": 1792.02,
+                "width": 1000,
+                "height": 690,
+                "right": 621.59,
+                "bottom": 2482.02
+              },
+              "inViewport": false,
+              "insideActiveDialog": false,
+              "requiredLoaded": true
+            },
+            {
+              "src": "/media/8ab512f8ded39337be36-480.webp",
+              "alt": "Atlantis The Royal Residences architecture",
+              "complete": true,
+              "naturalWidth": 430,
+              "naturalHeight": 430,
+              "objectFit": "cover",
+              "rect": {
+                "x": 25,
+                "y": 2354.02,
+                "width": 270,
+                "height": 428,
+                "right": 295,
+                "bottom": 2782.02
+              },
+              "inViewport": false,
+              "insideActiveDialog": false,
+              "requiredLoaded": true
+            },
+            {
+              "src": "/media/f8a88fd5f031b86d8866-480.webp",
+              "alt": "AVA at Palm Jumeirah architecture",
+              "complete": true,
+              "naturalWidth": 430,
+              "naturalHeight": 430,
+              "objectFit": "cover",
+              "rect": {
+                "x": 25,
+                "y": 2808.02,
+                "width": 270,
+                "height": 428,
+                "right": 295,
+                "bottom": 3236.02
+              },
+              "inViewport": false,
+              "insideActiveDialog": false,
+              "requiredLoaded": true
+            },
+            {
+              "src": "/media/4f01a8557d8982244aa9-480.webp",
+              "alt": "ORLA architecture",
+              "complete": true,
+              "naturalWidth": 430,
+              "naturalHeight": 430,
+              "objectFit": "cover",
+              "rect": {
+                "x": 25,
+                "y": 3262.02,
+                "width": 270,
+                "height": 428,
+                "right": 295,
+                "bottom": 3690.02
+              },
+              "inViewport": false,
+              "insideActiveDialog": false,
+              "requiredLoaded": true
+            },
+            {
+              "src": "/assets/photo-537e59705139e1d0-480.webp",
+              "alt": "",
+              "complete": true,
+              "naturalWidth": 320,
+              "naturalHeight": 213,
+              "objectFit": "cover",
+              "rect": {
+                "x": 0,
+                "y": 5062.02,
+                "width": 320,
+                "height": 1235.86,
+                "right": 320,
+                "bottom": 6297.88
+              },
+              "inViewport": false,
+              "insideActiveDialog": false,
+              "requiredLoaded": true
+            },
+            {
+              "src": "/assets/lettering-about-agency.svg",
+              "alt": "About Agency",
+              "complete": true,
+              "naturalWidth": 245,
+              "naturalHeight": 38,
+              "objectFit": "fill",
+              "rect": {
+                "x": 24,
+                "y": 5142.02,
+                "width": 245,
+                "height": 38.86,
+                "right": 269,
+                "bottom": 5180.88
+              },
+              "inViewport": false,
+              "insideActiveDialog": false,
+              "requiredLoaded": true
+            },
+            {
+              "src": "/media/10995acc638679ddade9-480.webp",
+              "alt": "A private residence in Dubai",
+              "complete": true,
+              "naturalWidth": 400,
+              "naturalHeight": 444,
+              "objectFit": "cover",
+              "rect": {
+                "x": 24,
+                "y": 5347.88,
+                "width": 184.95,
+                "height": 270,
+                "right": 208.95,
+                "bottom": 5617.88
+              },
+              "inViewport": false,
+              "insideActiveDialog": false,
+              "requiredLoaded": true
+            },
+            {
+              "src": "/media/5a900244be167dc5d976-480.webp",
+              "alt": "A waterfront perspective on Dubai",
+              "complete": true,
+              "naturalWidth": 449,
+              "naturalHeight": 578,
+              "objectFit": "cover",
+              "rect": {
+                "x": 138.25,
+                "y": 5477.88,
+                "width": 157.75,
+                "height": 300,
+                "right": 296,
+                "bottom": 5777.88
+              },
+              "inViewport": false,
+              "insideActiveDialog": false,
+              "requiredLoaded": true
+            },
+            {
+              "src": "/assets/imgGroup13.svg",
+              "alt": "",
+              "complete": true,
+              "naturalWidth": 44,
+              "naturalHeight": 44,
+              "objectFit": "fill",
+              "rect": {
+                "x": 34,
+                "y": 5631.94,
+                "width": 44,
+                "height": 44,
+                "right": 78,
+                "bottom": 5675.94
+              },
+              "inViewport": false,
+              "insideActiveDialog": false,
+              "requiredLoaded": true
+            },
+            {
+              "src": "/assets/imgGroup48096582.svg",
+              "alt": "Luxury Realty",
+              "complete": true,
+              "naturalWidth": 94,
+              "naturalHeight": 13,
+              "objectFit": "fill",
+              "rect": {
+                "x": 34,
+                "y": 5685.94,
+                "width": 94.23,
+                "height": 13.94,
+                "right": 128.23,
+                "bottom": 5699.88
+              },
+              "inViewport": false,
+              "insideActiveDialog": false,
+              "requiredLoaded": true
+            },
+            {
+              "src": "/assets/photo-e5e4c8a46d22b551-480.webp",
+              "alt": "",
+              "complete": true,
+              "naturalWidth": 320,
+              "naturalHeight": 320,
+              "objectFit": "cover",
+              "rect": {
+                "x": 25,
+                "y": 6298.88,
+                "width": 270,
+                "height": 324.84,
+                "right": 295,
+                "bottom": 6623.72
+              },
+              "inViewport": false,
+              "insideActiveDialog": false,
+              "requiredLoaded": true
+            },
+            {
+              "src": "/assets/lettering-best-luxury.svg",
+              "alt": "The best luxury",
+              "complete": true,
+              "naturalWidth": 230,
+              "naturalHeight": 32,
+              "objectFit": "fill",
+              "rect": {
+                "x": 45,
+                "y": 6336.88,
+                "width": 230,
+                "height": 32.84,
+                "right": 275,
+                "bottom": 6369.72
+              },
+              "inViewport": false,
+              "insideActiveDialog": false,
+              "requiredLoaded": true
+            },
+            {
+              "src": "/assets/photo-78985d779572f7d9-480.webp",
+              "alt": "",
+              "complete": true,
+              "naturalWidth": 272,
+              "naturalHeight": 164,
+              "objectFit": "cover",
+              "rect": {
+                "x": 24,
+                "y": 6830.72,
+                "width": 272,
+                "height": 198.83,
+                "right": 296,
+                "bottom": 7029.55
+              },
+              "inViewport": false,
+              "insideActiveDialog": false,
+              "requiredLoaded": true
+            },
+            {
+              "src": "/assets/photo-67f92dd0d5a07603-480.webp",
+              "alt": "",
+              "complete": true,
+              "naturalWidth": 320,
+              "naturalHeight": 213,
+              "objectFit": "cover",
+              "rect": {
+                "x": 0,
+                "y": 7429.55,
+                "width": 320,
+                "height": 1103.25,
+                "right": 320,
+                "bottom": 8532.8
+              },
+              "inViewport": true,
+              "insideActiveDialog": false,
+              "requiredLoaded": true
+            },
+            {
+              "src": "/assets/imgGroup13.svg",
+              "alt": "",
+              "complete": true,
+              "naturalWidth": 59,
+              "naturalHeight": 59,
+              "objectFit": "fill",
+              "rect": {
+                "x": 24,
+                "y": 7494.55,
+                "width": 59,
+                "height": 59,
+                "right": 83,
+                "bottom": 7553.55
+              },
+              "inViewport": false,
+              "insideActiveDialog": false,
+              "requiredLoaded": true
+            },
+            {
+              "src": "/assets/lettering-of-dubai-gold.svg",
+              "alt": "of Dubai",
+              "complete": true,
+              "naturalWidth": 121,
+              "naturalHeight": 31,
+              "objectFit": "fill",
+              "rect": {
+                "x": 24,
+                "y": 7700.55,
+                "width": 121,
+                "height": 31.25,
+                "right": 145,
+                "bottom": 7731.8
+              },
+              "inViewport": true,
+              "insideActiveDialog": false,
+              "requiredLoaded": true
+            }
+          ],
+          "headings": [
+            {
+              "tag": "h1",
+              "class": "",
+              "text": "Elegant Luxury properties in the heart",
+              "rect": {
+                "x": 24,
+                "y": 187,
+                "width": 272,
+                "height": 138,
+                "right": 296,
+                "bottom": 325
+              },
+              "fontSize": "42px",
+              "lineHeight": "46.200001px",
+              "fontWeight": "200"
+            },
+            {
+              "tag": "h2",
+              "class": "",
+              "text": "Real Estate",
+              "rect": {
+                "x": 24,
+                "y": 929,
+                "width": 272,
+                "height": 57,
+                "right": 296,
+                "bottom": 986
+              },
+              "fontSize": "54px",
+              "lineHeight": "57.240002px",
+              "fontWeight": "100"
+            },
+            {
+              "tag": "h3",
+              "class": "",
+              "text": "Palm View",
+              "rect": {
+                "x": 24,
+                "y": 1480.02,
+                "width": 272,
+                "height": 28,
+                "right": 296,
+                "bottom": 1508.02
+              },
+              "fontSize": "22px",
+              "lineHeight": "28.6px",
+              "fontWeight": "400"
+            },
+            {
+              "tag": "h3",
+              "class": "",
+              "text": "Renovation Opportunity",
+              "rect": {
+                "x": 320,
+                "y": 1480.02,
+                "width": 272,
+                "height": 28,
+                "right": 592,
+                "bottom": 1508.02
+              },
+              "fontSize": "22px",
+              "lineHeight": "28.6px",
+              "fontWeight": "400"
+            },
+            {
+              "tag": "h3",
+              "class": "",
+              "text": "1-of-1 Palm View Renovation",
+              "rect": {
+                "x": 616,
+                "y": 1480.02,
+                "width": 272,
+                "height": 56,
+                "right": 888,
+                "bottom": 1536.02
+              },
+              "fontSize": "22px",
+              "lineHeight": "28.6px",
+              "fontWeight": "400"
+            },
+            {
+              "tag": "h3",
+              "class": "",
+              "text": "3BR Duplex Loft",
+              "rect": {
+                "x": 912,
+                "y": 1480.02,
+                "width": 272,
+                "height": 28,
+                "right": 1184,
+                "bottom": 1508.02
+              },
+              "fontSize": "22px",
+              "lineHeight": "28.6px",
+              "fontWeight": "400"
+            },
+            {
+              "tag": "h3",
+              "class": "",
+              "text": "3BR Duplex",
+              "rect": {
+                "x": 1208,
+                "y": 1480.02,
+                "width": 272,
+                "height": 28,
+                "right": 1480,
+                "bottom": 1508.02
+              },
+              "fontSize": "22px",
+              "lineHeight": "28.6px",
+              "fontWeight": "400"
+            },
+            {
+              "tag": "h2",
+              "class": "",
+              "text": "New developmentsin Dubai",
+              "rect": {
+                "x": 24,
+                "y": 2032.02,
+                "width": 272,
+                "height": 150,
+                "right": 296,
+                "bottom": 2182.02
+              },
+              "fontSize": "48px",
+              "lineHeight": "50.880001px",
+              "fontWeight": "200"
+            },
+            {
+              "tag": "h3",
+              "class": "",
+              "text": "Atlantis The Royal Residences",
+              "rect": {
+                "x": 49,
+                "y": 2411.02,
+                "width": 222,
+                "height": 117,
+                "right": 271,
+                "bottom": 2528.02
+              },
+              "fontSize": "34px",
+              "lineHeight": "39.099998px",
+              "fontWeight": "300"
+            },
+            {
+              "tag": "h3",
+              "class": "",
+              "text": "AVA at Palm Jumeirah",
+              "rect": {
+                "x": 49,
+                "y": 2865.02,
+                "width": 222,
+                "height": 78,
+                "right": 271,
+                "bottom": 2943.02
+              },
+              "fontSize": "34px",
+              "lineHeight": "39.099998px",
+              "fontWeight": "300"
+            },
+            {
+              "tag": "h3",
+              "class": "",
+              "text": "ORLA",
+              "rect": {
+                "x": 49,
+                "y": 3319.02,
+                "width": 222,
+                "height": 39,
+                "right": 271,
+                "bottom": 3358.02
+              },
+              "fontSize": "34px",
+              "lineHeight": "39.099998px",
+              "fontWeight": "300"
+            },
+            {
+              "tag": "h2",
+              "class": "",
+              "text": "Our services",
+              "rect": {
+                "x": 24,
+                "y": 3913.02,
+                "width": 272,
+                "height": 44,
+                "right": 296,
+                "bottom": 3957.02
+              },
+              "fontSize": "42px",
+              "lineHeight": "44.52px",
+              "fontWeight": "200"
+            },
+            {
+              "tag": "h3",
+              "class": "",
+              "text": "Residential Agency",
+              "rect": {
+                "x": 56.67,
+                "y": 4106.02,
+                "width": 196.33,
+                "height": 68,
+                "right": 253,
+                "bottom": 4174.02
+              },
+              "fontSize": "29px",
+              "lineHeight": "34.799999px",
+              "fontWeight": "300"
+            },
+            {
+              "tag": "h3",
+              "class": "",
+              "text": "Asset Management",
+              "rect": {
+                "x": 56.16,
+                "y": 4472.02,
+                "width": 196.84,
+                "height": 68,
+                "right": 253,
+                "bottom": 4540.02
+              },
+              "fontSize": "29px",
+              "lineHeight": "34.799999px",
+              "fontWeight": "300"
+            },
+            {
+              "tag": "h3",
+              "class": "",
+              "text": "Financial & Legal Services",
+              "rect": {
+                "x": 53.09,
+                "y": 4585.02,
+                "width": 199.91,
+                "height": 68,
+                "right": 253,
+                "bottom": 4653.02
+              },
+              "fontSize": "29px",
+              "lineHeight": "34.799999px",
+              "fontWeight": "300"
+            },
+            {
+              "tag": "h3",
+              "class": "",
+              "text": "Residential Development",
+              "rect": {
+                "x": 53.28,
+                "y": 4698.02,
+                "width": 199.72,
+                "height": 68,
+                "right": 253,
+                "bottom": 4766.02
+              },
+              "fontSize": "29px",
+              "lineHeight": "34.799999px",
+              "fontWeight": "300"
+            },
+            {
+              "tag": "h3",
+              "class": "",
+              "text": "Lifestyle Management",
+              "rect": {
+                "x": 54.38,
+                "y": 4811.02,
+                "width": 198.63,
+                "height": 68,
+                "right": 253,
+                "bottom": 4879.02
+              },
+              "fontSize": "29px",
+              "lineHeight": "34.799999px",
+              "fontWeight": "300"
+            },
+            {
+              "tag": "h2",
+              "class": "",
+              "text": "Luxury Realty",
+              "rect": {
+                "x": 24,
+                "y": 5196.88,
+                "width": 272,
+                "height": 116,
+                "right": 296,
+                "bottom": 5312.88
+              },
+              "fontSize": "55px",
+              "lineHeight": "58.299999px",
+              "fontWeight": "200"
+            },
+            {
+              "tag": "h2",
+              "class": "",
+              "text": "Real Estateselection agents",
+              "rect": {
+                "x": 45,
+                "y": 6381.72,
+                "width": 230,
+                "height": 120,
+                "right": 275,
+                "bottom": 6501.72
+              },
+              "fontSize": "38px",
+              "lineHeight": "40.279999px",
+              "fontWeight": "200"
+            },
+            {
+              "tag": "h2",
+              "class": "",
+              "text": "Luxury Realty Insights",
+              "rect": {
+                "x": 24,
+                "y": 6704.72,
+                "width": 240,
+                "height": 90,
+                "right": 264,
+                "bottom": 6794.72
+              },
+              "fontSize": "43px",
+              "lineHeight": "45.580002px",
+              "fontWeight": "200"
+            },
+            {
+              "tag": "h3",
+              "class": "",
+              "text": "Spaces worth living in",
+              "rect": {
+                "x": 24,
+                "y": 7081.55,
+                "width": 244.8,
+                "height": 31,
+                "right": 268.8,
+                "bottom": 7112.55
+              },
+              "fontSize": "23px",
+              "lineHeight": "31.049999px",
+              "fontWeight": "400"
+            },
+            {
+              "tag": "h3",
+              "class": "",
+              "text": "A different perspective on waterfront living",
+              "rect": {
+                "x": 320,
+                "y": 7081.55,
+                "width": 244.8,
+                "height": 62,
+                "right": 564.8,
+                "bottom": 7143.55
+              },
+              "fontSize": "23px",
+              "lineHeight": "31.049999px",
+              "fontWeight": "400"
+            },
+            {
+              "tag": "h3",
+              "class": "",
+              "text": "The art of a private viewing",
+              "rect": {
+                "x": 616,
+                "y": 7081.55,
+                "width": 244.8,
+                "height": 62,
+                "right": 860.8,
+                "bottom": 7143.55
+              },
+              "fontSize": "23px",
+              "lineHeight": "31.049999px",
+              "fontWeight": "400"
+            },
+            {
+              "tag": "h3",
+              "class": "",
+              "text": "Architecture on Dubai’s waterfront",
+              "rect": {
+                "x": 912,
+                "y": 7081.55,
+                "width": 244.8,
+                "height": 62,
+                "right": 1156.8,
+                "bottom": 7143.55
+              },
+              "fontSize": "23px",
+              "lineHeight": "31.049999px",
+              "fontWeight": "400"
+            }
+          ],
+          "dialogs": [],
+          "invisibleHeadings": [],
+          "toolbarOverlaps": [],
+          "activeDialogId": null
+        },
+        {
+          "label": "service-expanded",
+          "requiredLoadingScope": "viewport-current-surface",
+          "viewport": {
+            "width": 320,
+            "height": 844
+          },
+          "scrollY": 4092,
+          "documentWidth": 320,
+          "bodyWidth": 320,
+          "documentHeight": 8533,
+          "h1": [
+            "Elegant Luxury properties in the heart"
+          ],
+          "overflow": [],
+          "advisorOverlaps": [],
+          "formOverflows": [],
+          "cardRows": [],
+          "containers": [
+            {
+              "tag": "div",
+              "class": "container hero-content",
+              "text": "Play filmElegant Luxury properties in the heartA boutique real estate agency specialising in penthouses, mansion villas and branded residences in Duba",
+              "rect": {
+                "x": 24,
+                "y": 0,
+                "width": 272,
+                "height": 844,
+                "right": 296,
+                "bottom": 844
+              }
+            },
+            {
+              "tag": "div",
+              "class": "selection-heading container",
+              "text": "Real EstateDistinctive homes. Exceptional locations.",
+              "rect": {
+                "x": 24,
+                "y": 929,
+                "width": 272,
+                "height": 151.8,
+                "right": 296,
+                "bottom": 1080.8
+              }
+            },
+            {
+              "tag": "div",
+              "class": "container selection-actions",
+              "text": "Explore the collection",
+              "rect": {
+                "x": 24,
+                "y": 1718.02,
+                "width": 272,
+                "height": 44,
+                "right": 296,
+                "bottom": 1762.02
+              }
+            },
+            {
+              "tag": "div",
+              "class": "container",
+              "text": "New developmentsin DubaiDiscover extraordinary places to call home. A considered collection of residences, architecture and distinctive perspectives o",
+              "rect": {
+                "x": 24,
+                "y": 2032.02,
+                "width": 272,
+                "height": 1741,
+                "right": 296,
+                "bottom": 3773.02
+              }
+            },
+            {
+              "tag": "section",
+              "class": "container home-services section-space",
+              "text": "Our servicesA personal approach, from your first conversation to a closer look at the right property.01Residential AgencyOperating across prime market",
+              "rect": {
+                "x": 24,
+                "y": 3833.02,
+                "width": 272,
+                "height": 1229,
+                "right": 296,
+                "bottom": 5062.02
+              }
+            },
+            {
+              "tag": "div",
+              "class": "container",
+              "text": "Luxury RealtyAbout our agency An international collective of real estate specialists, headquartered in Dubai. Our philosophy is to offer world class s",
+              "rect": {
+                "x": 24,
+                "y": 5142.02,
+                "width": 272,
+                "height": 1055.86,
+                "right": 296,
+                "bottom": 6197.88
+              }
+            },
+            {
+              "tag": "section",
+              "class": "container consultation",
+              "text": "Real Estateselection agentsConsultation",
+              "rect": {
+                "x": 24,
+                "y": 6297.88,
+                "width": 272,
+                "height": 326.84,
+                "right": 296,
+                "bottom": 6624.72
+              }
+            },
+            {
+              "tag": "div",
+              "class": "container section-heading",
+              "text": "Luxury Realty Insights",
+              "rect": {
+                "x": 24,
+                "y": 6704.72,
+                "width": 272,
+                "height": 90,
+                "right": 296,
+                "bottom": 6794.72
+              }
+            },
+            {
+              "tag": "div",
+              "class": "container insights-more",
+              "text": "All insights",
+              "rect": {
+                "x": 24,
+                "y": 7302.55,
+                "width": 272,
+                "height": 47,
+                "right": 296,
+                "bottom": 7349.55
+              }
+            }
+          ],
+          "rails": [
+            {
+              "class": "selection-rail",
+              "scrollLeft": 0,
+              "first": {
+                "x": 24,
+                "y": 1135.8,
+                "width": 272,
+                "height": 509.22,
+                "right": 296,
+                "bottom": 1645.02
+              },
+              "rect": {
+                "x": 0,
+                "y": 1080.8,
+                "width": 320,
+                "height": 607.22,
+                "right": 320,
+                "bottom": 1688.02
+              }
+            },
+            {
+              "class": "insight-rail",
+              "scrollLeft": 0,
+              "first": {
+                "x": 24,
+                "y": 6830.72,
+                "width": 272,
+                "height": 431.83,
+                "right": 296,
+                "bottom": 7262.55
+              },
+              "rect": {
+                "x": 0,
+                "y": 6830.72,
+                "width": 320,
+                "height": 451.83,
+                "right": 320,
+                "bottom": 7282.55
+              }
+            }
+          ],
+          "images": [
+            {
+              "src": "/assets/imgGroup1.svg",
+              "alt": "",
+              "complete": true,
+              "naturalWidth": 41,
+              "naturalHeight": 41,
+              "objectFit": "fill",
+              "rect": {
+                "x": 24,
+                "y": 4104.5,
+                "width": 41,
+                "height": 41,
+                "right": 65,
+                "bottom": 4145.5
+              },
+              "inViewport": true,
+              "insideActiveDialog": false,
+              "requiredLoaded": true
+            },
+            {
+              "src": "/assets/imgGroup48096582.svg",
+              "alt": "",
+              "complete": true,
+              "naturalWidth": 138,
+              "naturalHeight": 20,
+              "objectFit": "contain",
+              "rect": {
+                "x": 91,
+                "y": 4114.78,
+                "width": 138,
+                "height": 20.42,
+                "right": 229,
+                "bottom": 4135.2
+              },
+              "inViewport": true,
+              "insideActiveDialog": false,
+              "requiredLoaded": true
+            },
+            {
+              "src": "/media/8283c2884344b120a546-1280.webp",
+              "alt": "Dubai’s waterfront residences",
+              "complete": true,
+              "naturalWidth": 1600,
+              "naturalHeight": 900,
+              "objectFit": "cover",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 320,
+                "height": 844,
+                "right": 320,
+                "bottom": 844
+              },
+              "inViewport": false,
+              "insideActiveDialog": false,
+              "requiredLoaded": false
+            },
+            {
+              "src": "/assets/lettering-of-dubai.svg",
+              "alt": "of Dubai",
+              "complete": true,
+              "naturalWidth": 270,
+              "naturalHeight": 69,
+              "objectFit": "fill",
+              "rect": {
+                "x": 26,
+                "y": 350,
+                "width": 270,
+                "height": 69.73,
+                "right": 296,
+                "bottom": 419.73
+              },
+              "inViewport": false,
+              "insideActiveDialog": false,
+              "requiredLoaded": false
+            },
+            {
+              "src": "/assets/lettering-selections.svg",
+              "alt": "Selections",
+              "complete": true,
+              "naturalWidth": 245,
+              "naturalHeight": 43,
+              "objectFit": "fill",
+              "rect": {
+                "x": 37.5,
+                "y": 994,
+                "width": 245,
+                "height": 43.8,
+                "right": 282.5,
+                "bottom": 1037.8
+              },
+              "inViewport": false,
+              "insideActiveDialog": false,
+              "requiredLoaded": false
+            },
+            {
+              "src": "/media/42f078d0799fc8484e53-480.webp",
+              "alt": "Palm View | Duplex Bespoke Garden Home",
+              "complete": true,
+              "naturalWidth": 452,
+              "naturalHeight": 302,
+              "objectFit": "cover",
+              "rect": {
+                "x": 24,
+                "y": 1135.8,
+                "width": 272,
+                "height": 302.22,
+                "right": 296,
+                "bottom": 1438.02
+              },
+              "inViewport": false,
+              "insideActiveDialog": false,
+              "requiredLoaded": false
+            },
+            {
+              "src": "/assets/photo-bf8c08ffa9453cf5.webp",
+              "alt": "",
+              "complete": true,
+              "naturalWidth": 1125,
+              "naturalHeight": 691,
+              "objectFit": "cover",
+              "rect": {
+                "x": -378.41,
+                "y": 1792.02,
+                "width": 1000,
+                "height": 690,
+                "right": 621.59,
+                "bottom": 2482.02
+              },
+              "inViewport": false,
+              "insideActiveDialog": false,
+              "requiredLoaded": false
+            },
+            {
+              "src": "/media/8ab512f8ded39337be36-480.webp",
+              "alt": "Atlantis The Royal Residences architecture",
+              "complete": true,
+              "naturalWidth": 430,
+              "naturalHeight": 430,
+              "objectFit": "cover",
+              "rect": {
+                "x": 25,
+                "y": 2354.02,
+                "width": 270,
+                "height": 428,
+                "right": 295,
+                "bottom": 2782.02
+              },
+              "inViewport": false,
+              "insideActiveDialog": false,
+              "requiredLoaded": false
+            },
+            {
+              "src": "/media/f8a88fd5f031b86d8866-480.webp",
+              "alt": "AVA at Palm Jumeirah architecture",
+              "complete": true,
+              "naturalWidth": 430,
+              "naturalHeight": 430,
+              "objectFit": "cover",
+              "rect": {
+                "x": 25,
+                "y": 2808.02,
+                "width": 270,
+                "height": 428,
+                "right": 295,
+                "bottom": 3236.02
+              },
+              "inViewport": false,
+              "insideActiveDialog": false,
+              "requiredLoaded": false
+            },
+            {
+              "src": "/media/4f01a8557d8982244aa9-480.webp",
+              "alt": "ORLA architecture",
+              "complete": true,
+              "naturalWidth": 430,
+              "naturalHeight": 430,
+              "objectFit": "cover",
+              "rect": {
+                "x": 25,
+                "y": 3262.02,
+                "width": 270,
+                "height": 428,
+                "right": 295,
+                "bottom": 3690.02
+              },
+              "inViewport": false,
+              "insideActiveDialog": false,
+              "requiredLoaded": false
+            },
+            {
+              "src": "/assets/photo-537e59705139e1d0-480.webp",
+              "alt": "",
+              "complete": true,
+              "naturalWidth": 320,
+              "naturalHeight": 213,
+              "objectFit": "cover",
+              "rect": {
+                "x": 0,
+                "y": 5062.02,
+                "width": 320,
+                "height": 1235.86,
+                "right": 320,
+                "bottom": 6297.88
+              },
+              "inViewport": false,
+              "insideActiveDialog": false,
+              "requiredLoaded": false
+            },
+            {
+              "src": "/assets/lettering-about-agency.svg",
+              "alt": "About Agency",
+              "complete": true,
+              "naturalWidth": 245,
+              "naturalHeight": 38,
+              "objectFit": "fill",
+              "rect": {
+                "x": 24,
+                "y": 5142.02,
+                "width": 245,
+                "height": 38.86,
+                "right": 269,
+                "bottom": 5180.88
+              },
+              "inViewport": false,
+              "insideActiveDialog": false,
+              "requiredLoaded": false
+            },
+            {
+              "src": "/media/10995acc638679ddade9-480.webp",
+              "alt": "A private residence in Dubai",
+              "complete": true,
+              "naturalWidth": 400,
+              "naturalHeight": 444,
+              "objectFit": "cover",
+              "rect": {
+                "x": 24,
+                "y": 5347.88,
+                "width": 184.95,
+                "height": 270,
+                "right": 208.95,
+                "bottom": 5617.88
+              },
+              "inViewport": false,
+              "insideActiveDialog": false,
+              "requiredLoaded": false
+            },
+            {
+              "src": "/media/5a900244be167dc5d976-480.webp",
+              "alt": "A waterfront perspective on Dubai",
+              "complete": true,
+              "naturalWidth": 449,
+              "naturalHeight": 578,
+              "objectFit": "cover",
+              "rect": {
+                "x": 138.25,
+                "y": 5477.88,
+                "width": 157.75,
+                "height": 300,
+                "right": 296,
+                "bottom": 5777.88
+              },
+              "inViewport": false,
+              "insideActiveDialog": false,
+              "requiredLoaded": false
+            },
+            {
+              "src": "/assets/imgGroup13.svg",
+              "alt": "",
+              "complete": true,
+              "naturalWidth": 44,
+              "naturalHeight": 44,
+              "objectFit": "fill",
+              "rect": {
+                "x": 34,
+                "y": 5631.94,
+                "width": 44,
+                "height": 44,
+                "right": 78,
+                "bottom": 5675.94
+              },
+              "inViewport": false,
+              "insideActiveDialog": false,
+              "requiredLoaded": false
+            },
+            {
+              "src": "/assets/imgGroup48096582.svg",
+              "alt": "Luxury Realty",
+              "complete": true,
+              "naturalWidth": 94,
+              "naturalHeight": 13,
+              "objectFit": "fill",
+              "rect": {
+                "x": 34,
+                "y": 5685.94,
+                "width": 94.23,
+                "height": 13.94,
+                "right": 128.23,
+                "bottom": 5699.88
+              },
+              "inViewport": false,
+              "insideActiveDialog": false,
+              "requiredLoaded": false
+            },
+            {
+              "src": "/assets/photo-e5e4c8a46d22b551-480.webp",
+              "alt": "",
+              "complete": true,
+              "naturalWidth": 320,
+              "naturalHeight": 320,
+              "objectFit": "cover",
+              "rect": {
+                "x": 25,
+                "y": 6298.88,
+                "width": 270,
+                "height": 324.84,
+                "right": 295,
+                "bottom": 6623.72
+              },
+              "inViewport": false,
+              "insideActiveDialog": false,
+              "requiredLoaded": false
+            },
+            {
+              "src": "/assets/lettering-best-luxury.svg",
+              "alt": "The best luxury",
+              "complete": true,
+              "naturalWidth": 230,
+              "naturalHeight": 32,
+              "objectFit": "fill",
+              "rect": {
+                "x": 45,
+                "y": 6336.88,
+                "width": 230,
+                "height": 32.84,
+                "right": 275,
+                "bottom": 6369.72
+              },
+              "inViewport": false,
+              "insideActiveDialog": false,
+              "requiredLoaded": false
+            },
+            {
+              "src": "/assets/photo-78985d779572f7d9-480.webp",
+              "alt": "",
+              "complete": true,
+              "naturalWidth": 272,
+              "naturalHeight": 164,
+              "objectFit": "cover",
+              "rect": {
+                "x": 24,
+                "y": 6830.72,
+                "width": 272,
+                "height": 198.83,
+                "right": 296,
+                "bottom": 7029.55
+              },
+              "inViewport": false,
+              "insideActiveDialog": false,
+              "requiredLoaded": false
+            },
+            {
+              "src": "/assets/photo-67f92dd0d5a07603-480.webp",
+              "alt": "",
+              "complete": true,
+              "naturalWidth": 320,
+              "naturalHeight": 213,
+              "objectFit": "cover",
+              "rect": {
+                "x": 0,
+                "y": 7429.55,
+                "width": 320,
+                "height": 1103.25,
+                "right": 320,
+                "bottom": 8532.8
+              },
+              "inViewport": false,
+              "insideActiveDialog": false,
+              "requiredLoaded": false
+            },
+            {
+              "src": "/assets/imgGroup13.svg",
+              "alt": "",
+              "complete": true,
+              "naturalWidth": 59,
+              "naturalHeight": 59,
+              "objectFit": "fill",
+              "rect": {
+                "x": 24,
+                "y": 7494.55,
+                "width": 59,
+                "height": 59,
+                "right": 83,
+                "bottom": 7553.55
+              },
+              "inViewport": false,
+              "insideActiveDialog": false,
+              "requiredLoaded": false
+            },
+            {
+              "src": "/assets/lettering-of-dubai-gold.svg",
+              "alt": "of Dubai",
+              "complete": true,
+              "naturalWidth": 121,
+              "naturalHeight": 31,
+              "objectFit": "fill",
+              "rect": {
+                "x": 24,
+                "y": 7700.55,
+                "width": 121,
+                "height": 31.25,
+                "right": 145,
+                "bottom": 7731.8
+              },
+              "inViewport": false,
+              "insideActiveDialog": false,
+              "requiredLoaded": false
+            }
+          ],
+          "headings": [
+            {
+              "tag": "h1",
+              "class": "",
+              "text": "Elegant Luxury properties in the heart",
+              "rect": {
+                "x": 24,
+                "y": 187,
+                "width": 272,
+                "height": 138,
+                "right": 296,
+                "bottom": 325
+              },
+              "fontSize": "42px",
+              "lineHeight": "46.200001px",
+              "fontWeight": "200"
+            },
+            {
+              "tag": "h2",
+              "class": "",
+              "text": "Real Estate",
+              "rect": {
+                "x": 24,
+                "y": 929,
+                "width": 272,
+                "height": 57,
+                "right": 296,
+                "bottom": 986
+              },
+              "fontSize": "54px",
+              "lineHeight": "57.240002px",
+              "fontWeight": "100"
+            },
+            {
+              "tag": "h3",
+              "class": "",
+              "text": "Palm View",
+              "rect": {
+                "x": 24,
+                "y": 1480.02,
+                "width": 272,
+                "height": 28,
+                "right": 296,
+                "bottom": 1508.02
+              },
+              "fontSize": "22px",
+              "lineHeight": "28.6px",
+              "fontWeight": "400"
+            },
+            {
+              "tag": "h3",
+              "class": "",
+              "text": "Renovation Opportunity",
+              "rect": {
+                "x": 320,
+                "y": 1480.02,
+                "width": 272,
+                "height": 28,
+                "right": 592,
+                "bottom": 1508.02
+              },
+              "fontSize": "22px",
+              "lineHeight": "28.6px",
+              "fontWeight": "400"
+            },
+            {
+              "tag": "h3",
+              "class": "",
+              "text": "1-of-1 Palm View Renovation",
+              "rect": {
+                "x": 616,
+                "y": 1480.02,
+                "width": 272,
+                "height": 56,
+                "right": 888,
+                "bottom": 1536.02
+              },
+              "fontSize": "22px",
+              "lineHeight": "28.6px",
+              "fontWeight": "400"
+            },
+            {
+              "tag": "h3",
+              "class": "",
+              "text": "3BR Duplex Loft",
+              "rect": {
+                "x": 912,
+                "y": 1480.02,
+                "width": 272,
+                "height": 28,
+                "right": 1184,
+                "bottom": 1508.02
+              },
+              "fontSize": "22px",
+              "lineHeight": "28.6px",
+              "fontWeight": "400"
+            },
+            {
+              "tag": "h3",
+              "class": "",
+              "text": "3BR Duplex",
+              "rect": {
+                "x": 1208,
+                "y": 1480.02,
+                "width": 272,
+                "height": 28,
+                "right": 1480,
+                "bottom": 1508.02
+              },
+              "fontSize": "22px",
+              "lineHeight": "28.6px",
+              "fontWeight": "400"
+            },
+            {
+              "tag": "h2",
+              "class": "",
+              "text": "New developmentsin Dubai",
+              "rect": {
+                "x": 24,
+                "y": 2032.02,
+                "width": 272,
+                "height": 150,
+                "right": 296,
+                "bottom": 2182.02
+              },
+              "fontSize": "48px",
+              "lineHeight": "50.880001px",
+              "fontWeight": "200"
+            },
+            {
+              "tag": "h3",
+              "class": "",
+              "text": "Atlantis The Royal Residences",
+              "rect": {
+                "x": 49,
+                "y": 2411.02,
+                "width": 222,
+                "height": 117,
+                "right": 271,
+                "bottom": 2528.02
+              },
+              "fontSize": "34px",
+              "lineHeight": "39.099998px",
+              "fontWeight": "300"
+            },
+            {
+              "tag": "h3",
+              "class": "",
+              "text": "AVA at Palm Jumeirah",
+              "rect": {
+                "x": 49,
+                "y": 2865.02,
+                "width": 222,
+                "height": 78,
+                "right": 271,
+                "bottom": 2943.02
+              },
+              "fontSize": "34px",
+              "lineHeight": "39.099998px",
+              "fontWeight": "300"
+            },
+            {
+              "tag": "h3",
+              "class": "",
+              "text": "ORLA",
+              "rect": {
+                "x": 49,
+                "y": 3319.02,
+                "width": 222,
+                "height": 39,
+                "right": 271,
+                "bottom": 3358.02
+              },
+              "fontSize": "34px",
+              "lineHeight": "39.099998px",
+              "fontWeight": "300"
+            },
+            {
+              "tag": "h2",
+              "class": "",
+              "text": "Our services",
+              "rect": {
+                "x": 24,
+                "y": 3913.02,
+                "width": 272,
+                "height": 44,
+                "right": 296,
+                "bottom": 3957.02
+              },
+              "fontSize": "42px",
+              "lineHeight": "44.52px",
+              "fontWeight": "200"
+            },
+            {
+              "tag": "h3",
+              "class": "",
+              "text": "Residential Agency",
+              "rect": {
+                "x": 56.67,
+                "y": 4106.02,
+                "width": 196.33,
+                "height": 68,
+                "right": 253,
+                "bottom": 4174.02
+              },
+              "fontSize": "29px",
+              "lineHeight": "34.799999px",
+              "fontWeight": "300"
+            },
+            {
+              "tag": "h3",
+              "class": "",
+              "text": "Asset Management",
+              "rect": {
+                "x": 56.16,
+                "y": 4219.02,
+                "width": 196.84,
+                "height": 68,
+                "right": 253,
+                "bottom": 4287.02
+              },
+              "fontSize": "29px",
+              "lineHeight": "34.799999px",
+              "fontWeight": "300"
+            },
+            {
+              "tag": "h3",
+              "class": "",
+              "text": "Financial & Legal Services",
+              "rect": {
+                "x": 53.09,
+                "y": 4585.02,
+                "width": 199.91,
+                "height": 68,
+                "right": 253,
+                "bottom": 4653.02
+              },
+              "fontSize": "29px",
+              "lineHeight": "34.799999px",
+              "fontWeight": "300"
+            },
+            {
+              "tag": "h3",
+              "class": "",
+              "text": "Residential Development",
+              "rect": {
+                "x": 53.28,
+                "y": 4698.02,
+                "width": 199.72,
+                "height": 68,
+                "right": 253,
+                "bottom": 4766.02
+              },
+              "fontSize": "29px",
+              "lineHeight": "34.799999px",
+              "fontWeight": "300"
+            },
+            {
+              "tag": "h3",
+              "class": "",
+              "text": "Lifestyle Management",
+              "rect": {
+                "x": 54.38,
+                "y": 4811.02,
+                "width": 198.63,
+                "height": 68,
+                "right": 253,
+                "bottom": 4879.02
+              },
+              "fontSize": "29px",
+              "lineHeight": "34.799999px",
+              "fontWeight": "300"
+            },
+            {
+              "tag": "h2",
+              "class": "",
+              "text": "Luxury Realty",
+              "rect": {
+                "x": 24,
+                "y": 5196.88,
+                "width": 272,
+                "height": 116,
+                "right": 296,
+                "bottom": 5312.88
+              },
+              "fontSize": "55px",
+              "lineHeight": "58.299999px",
+              "fontWeight": "200"
+            },
+            {
+              "tag": "h2",
+              "class": "",
+              "text": "Real Estateselection agents",
+              "rect": {
+                "x": 45,
+                "y": 6381.72,
+                "width": 230,
+                "height": 120,
+                "right": 275,
+                "bottom": 6501.72
+              },
+              "fontSize": "38px",
+              "lineHeight": "40.279999px",
+              "fontWeight": "200"
+            },
+            {
+              "tag": "h2",
+              "class": "",
+              "text": "Luxury Realty Insights",
+              "rect": {
+                "x": 24,
+                "y": 6704.72,
+                "width": 240,
+                "height": 90,
+                "right": 264,
+                "bottom": 6794.72
+              },
+              "fontSize": "43px",
+              "lineHeight": "45.580002px",
+              "fontWeight": "200"
+            },
+            {
+              "tag": "h3",
+              "class": "",
+              "text": "Spaces worth living in",
+              "rect": {
+                "x": 24,
+                "y": 7081.55,
+                "width": 244.8,
+                "height": 31,
+                "right": 268.8,
+                "bottom": 7112.55
+              },
+              "fontSize": "23px",
+              "lineHeight": "31.049999px",
+              "fontWeight": "400"
+            },
+            {
+              "tag": "h3",
+              "class": "",
+              "text": "A different perspective on waterfront living",
+              "rect": {
+                "x": 320,
+                "y": 7081.55,
+                "width": 244.8,
+                "height": 62,
+                "right": 564.8,
+                "bottom": 7143.55
+              },
+              "fontSize": "23px",
+              "lineHeight": "31.049999px",
+              "fontWeight": "400"
+            },
+            {
+              "tag": "h3",
+              "class": "",
+              "text": "The art of a private viewing",
+              "rect": {
+                "x": 616,
+                "y": 7081.55,
+                "width": 244.8,
+                "height": 62,
+                "right": 860.8,
+                "bottom": 7143.55
+              },
+              "fontSize": "23px",
+              "lineHeight": "31.049999px",
+              "fontWeight": "400"
+            },
+            {
+              "tag": "h3",
+              "class": "",
+              "text": "Architecture on Dubai’s waterfront",
+              "rect": {
+                "x": 912,
+                "y": 7081.55,
+                "width": 244.8,
+                "height": 62,
+                "right": 1156.8,
+                "bottom": 7143.55
+              },
+              "fontSize": "23px",
+              "lineHeight": "31.049999px",
+              "fontWeight": "400"
+            }
+          ],
+          "dialogs": [],
+          "invisibleHeadings": [],
+          "toolbarOverlaps": [],
+          "activeDialogId": null
+        },
+        {
+          "label": "menu",
+          "requiredLoadingScope": "viewport-current-surface",
+          "viewport": {
+            "width": 320,
+            "height": 844
+          },
+          "scrollY": 0,
+          "documentWidth": 320,
+          "bodyWidth": 320,
+          "documentHeight": 8533,
+          "h1": [
+            "Elegant Luxury properties in the heart"
+          ],
+          "overflow": [],
+          "advisorOverlaps": [],
+          "formOverflows": [],
+          "cardRows": [],
+          "containers": [
+            {
+              "tag": "div",
+              "class": "container hero-content",
+              "text": "Pause filmElegant Luxury properties in the heartA boutique real estate agency specialising in penthouses, mansion villas and branded residences in Dub",
+              "rect": {
+                "x": 24,
+                "y": 0,
+                "width": 272,
+                "height": 844,
+                "right": 296,
+                "bottom": 844
+              }
+            },
+            {
+              "tag": "div",
+              "class": "selection-heading container",
+              "text": "Real EstateDistinctive homes. Exceptional locations.",
+              "rect": {
+                "x": 24,
+                "y": 929,
+                "width": 272,
+                "height": 151.8,
+                "right": 296,
+                "bottom": 1080.8
+              }
+            },
+            {
+              "tag": "div",
+              "class": "container selection-actions",
+              "text": "Explore the collection",
+              "rect": {
+                "x": 24,
+                "y": 1718.02,
+                "width": 272,
+                "height": 44,
+                "right": 296,
+                "bottom": 1762.02
+              }
+            },
+            {
+              "tag": "div",
+              "class": "container",
+              "text": "New developmentsin DubaiDiscover extraordinary places to call home. A considered collection of residences, architecture and distinctive perspectives o",
+              "rect": {
+                "x": 24,
+                "y": 2032.02,
+                "width": 272,
+                "height": 1741,
+                "right": 296,
+                "bottom": 3773.02
+              }
+            },
+            {
+              "tag": "section",
+              "class": "container home-services section-space",
+              "text": "Our servicesA personal approach, from your first conversation to a closer look at the right property.01Residential AgencyOperating across prime market",
+              "rect": {
+                "x": 24,
+                "y": 3833.02,
+                "width": 272,
+                "height": 1229,
+                "right": 296,
+                "bottom": 5062.02
+              }
+            },
+            {
+              "tag": "div",
+              "class": "container",
+              "text": "Luxury RealtyAbout our agency An international collective of real estate specialists, headquartered in Dubai. Our philosophy is to offer world class s",
+              "rect": {
+                "x": 24,
+                "y": 5142.02,
+                "width": 272,
+                "height": 1055.86,
+                "right": 296,
+                "bottom": 6197.88
+              }
+            },
+            {
+              "tag": "section",
+              "class": "container consultation",
+              "text": "Real Estateselection agentsConsultation",
+              "rect": {
+                "x": 24,
+                "y": 6297.88,
+                "width": 272,
+                "height": 326.84,
+                "right": 296,
+                "bottom": 6624.72
+              }
+            },
+            {
+              "tag": "div",
+              "class": "container section-heading",
+              "text": "Luxury Realty Insights",
+              "rect": {
+                "x": 24,
+                "y": 6704.72,
+                "width": 272,
+                "height": 90,
+                "right": 296,
+                "bottom": 6794.72
+              }
+            },
+            {
+              "tag": "div",
+              "class": "container insights-more",
+              "text": "All insights",
+              "rect": {
+                "x": 24,
+                "y": 7302.55,
+                "width": 272,
+                "height": 47,
+                "right": 296,
+                "bottom": 7349.55
+              }
+            }
+          ],
+          "rails": [
+            {
+              "class": "selection-rail",
+              "scrollLeft": 0,
+              "first": {
+                "x": 24,
+                "y": 1135.8,
+                "width": 272,
+                "height": 509.22,
+                "right": 296,
+                "bottom": 1645.02
+              },
+              "rect": {
+                "x": 0,
+                "y": 1080.8,
+                "width": 320,
+                "height": 607.22,
+                "right": 320,
+                "bottom": 1688.02
+              }
+            },
+            {
+              "class": "insight-rail",
+              "scrollLeft": 0,
+              "first": {
+                "x": 24,
+                "y": 6830.72,
+                "width": 272,
+                "height": 431.83,
+                "right": 296,
+                "bottom": 7262.55
+              },
+              "rect": {
+                "x": 0,
+                "y": 6830.72,
+                "width": 320,
+                "height": 451.83,
+                "right": 320,
+                "bottom": 7282.55
+              }
+            }
+          ],
+          "images": [
+            {
+              "src": "/assets/imgGroup1.svg",
+              "alt": "",
+              "complete": true,
+              "naturalWidth": 41,
+              "naturalHeight": 41,
+              "objectFit": "fill",
+              "rect": {
+                "x": 24,
+                "y": 30.5,
+                "width": 41,
+                "height": 41,
+                "right": 65,
+                "bottom": 71.5
+              },
+              "inViewport": true,
+              "insideActiveDialog": false,
+              "requiredLoaded": false
+            },
+            {
+              "src": "/assets/imgGroup48096582.svg",
+              "alt": "",
+              "complete": true,
+              "naturalWidth": 138,
+              "naturalHeight": 20,
+              "objectFit": "contain",
+              "rect": {
+                "x": 91,
+                "y": 40.78,
+                "width": 138,
+                "height": 20.42,
+                "right": 229,
+                "bottom": 61.2
+              },
+              "inViewport": true,
+              "insideActiveDialog": false,
+              "requiredLoaded": false
+            },
+            {
+              "src": "/assets/imgGroup1.svg",
+              "alt": "",
+              "complete": true,
+              "naturalWidth": 41,
+              "naturalHeight": 41,
+              "objectFit": "fill",
+              "rect": {
+                "x": 24,
+                "y": 26.5,
+                "width": 41,
+                "height": 41,
+                "right": 65,
+                "bottom": 67.5
+              },
+              "inViewport": true,
+              "insideActiveDialog": true,
+              "requiredLoaded": true
+            },
+            {
+              "src": "/media/8283c2884344b120a546-1280.webp",
+              "alt": "Dubai’s waterfront residences",
+              "complete": true,
+              "naturalWidth": 1600,
+              "naturalHeight": 900,
+              "objectFit": "cover",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 320,
+                "height": 844,
+                "right": 320,
+                "bottom": 844
+              },
+              "inViewport": true,
+              "insideActiveDialog": false,
+              "requiredLoaded": false
+            },
+            {
+              "src": "/assets/lettering-of-dubai.svg",
+              "alt": "of Dubai",
+              "complete": true,
+              "naturalWidth": 270,
+              "naturalHeight": 69,
+              "objectFit": "fill",
+              "rect": {
+                "x": 26,
+                "y": 350,
+                "width": 270,
+                "height": 69.73,
+                "right": 296,
+                "bottom": 419.73
+              },
+              "inViewport": true,
+              "insideActiveDialog": false,
+              "requiredLoaded": false
+            },
+            {
+              "src": "/assets/lettering-selections.svg",
+              "alt": "Selections",
+              "complete": true,
+              "naturalWidth": 245,
+              "naturalHeight": 43,
+              "objectFit": "fill",
+              "rect": {
+                "x": 37.5,
+                "y": 994,
+                "width": 245,
+                "height": 43.8,
+                "right": 282.5,
+                "bottom": 1037.8
+              },
+              "inViewport": false,
+              "insideActiveDialog": false,
+              "requiredLoaded": false
+            },
+            {
+              "src": "/media/42f078d0799fc8484e53-480.webp",
+              "alt": "Palm View | Duplex Bespoke Garden Home",
+              "complete": true,
+              "naturalWidth": 452,
+              "naturalHeight": 302,
+              "objectFit": "cover",
+              "rect": {
+                "x": 24,
+                "y": 1135.8,
+                "width": 272,
+                "height": 302.22,
+                "right": 296,
+                "bottom": 1438.02
+              },
+              "inViewport": false,
+              "insideActiveDialog": false,
+              "requiredLoaded": false
+            },
+            {
+              "src": "/assets/photo-bf8c08ffa9453cf5.webp",
+              "alt": "",
+              "complete": true,
+              "naturalWidth": 1125,
+              "naturalHeight": 691,
+              "objectFit": "cover",
+              "rect": {
+                "x": -378.41,
+                "y": 1792.02,
+                "width": 1000,
+                "height": 690,
+                "right": 621.59,
+                "bottom": 2482.02
+              },
+              "inViewport": false,
+              "insideActiveDialog": false,
+              "requiredLoaded": false
+            },
+            {
+              "src": "/media/8ab512f8ded39337be36-480.webp",
+              "alt": "Atlantis The Royal Residences architecture",
+              "complete": true,
+              "naturalWidth": 430,
+              "naturalHeight": 430,
+              "objectFit": "cover",
+              "rect": {
+                "x": 25,
+                "y": 2354.02,
+                "width": 270,
+                "height": 428,
+                "right": 295,
+                "bottom": 2782.02
+              },
+              "inViewport": false,
+              "insideActiveDialog": false,
+              "requiredLoaded": false
+            },
+            {
+              "src": "/media/f8a88fd5f031b86d8866-480.webp",
+              "alt": "AVA at Palm Jumeirah architecture",
+              "complete": true,
+              "naturalWidth": 430,
+              "naturalHeight": 430,
+              "objectFit": "cover",
+              "rect": {
+                "x": 25,
+                "y": 2808.02,
+                "width": 270,
+                "height": 428,
+                "right": 295,
+                "bottom": 3236.02
+              },
+              "inViewport": false,
+              "insideActiveDialog": false,
+              "requiredLoaded": false
+            },
+            {
+              "src": "/media/4f01a8557d8982244aa9-480.webp",
+              "alt": "ORLA architecture",
+              "complete": true,
+              "naturalWidth": 430,
+              "naturalHeight": 430,
+              "objectFit": "cover",
+              "rect": {
+                "x": 25,
+                "y": 3262.02,
+                "width": 270,
+                "height": 428,
+                "right": 295,
+                "bottom": 3690.02
+              },
+              "inViewport": false,
+              "insideActiveDialog": false,
+              "requiredLoaded": false
+            },
+            {
+              "src": "/assets/photo-537e59705139e1d0-480.webp",
+              "alt": "",
+              "complete": true,
+              "naturalWidth": 320,
+              "naturalHeight": 213,
+              "objectFit": "cover",
+              "rect": {
+                "x": 0,
+                "y": 5062.02,
+                "width": 320,
+                "height": 1235.86,
+                "right": 320,
+                "bottom": 6297.88
+              },
+              "inViewport": false,
+              "insideActiveDialog": false,
+              "requiredLoaded": false
+            },
+            {
+              "src": "/assets/lettering-about-agency.svg",
+              "alt": "About Agency",
+              "complete": true,
+              "naturalWidth": 245,
+              "naturalHeight": 38,
+              "objectFit": "fill",
+              "rect": {
+                "x": 24,
+                "y": 5142.02,
+                "width": 245,
+                "height": 38.86,
+                "right": 269,
+                "bottom": 5180.88
+              },
+              "inViewport": false,
+              "insideActiveDialog": false,
+              "requiredLoaded": false
+            },
+            {
+              "src": "/media/10995acc638679ddade9-480.webp",
+              "alt": "A private residence in Dubai",
+              "complete": true,
+              "naturalWidth": 400,
+              "naturalHeight": 444,
+              "objectFit": "cover",
+              "rect": {
+                "x": 24,
+                "y": 5347.88,
+                "width": 184.95,
+                "height": 270,
+                "right": 208.95,
+                "bottom": 5617.88
+              },
+              "inViewport": false,
+              "insideActiveDialog": false,
+              "requiredLoaded": false
+            },
+            {
+              "src": "/media/5a900244be167dc5d976-480.webp",
+              "alt": "A waterfront perspective on Dubai",
+              "complete": true,
+              "naturalWidth": 449,
+              "naturalHeight": 578,
+              "objectFit": "cover",
+              "rect": {
+                "x": 138.25,
+                "y": 5477.88,
+                "width": 157.75,
+                "height": 300,
+                "right": 296,
+                "bottom": 5777.88
+              },
+              "inViewport": false,
+              "insideActiveDialog": false,
+              "requiredLoaded": false
+            },
+            {
+              "src": "/assets/imgGroup13.svg",
+              "alt": "",
+              "complete": true,
+              "naturalWidth": 44,
+              "naturalHeight": 44,
+              "objectFit": "fill",
+              "rect": {
+                "x": 34,
+                "y": 5631.94,
+                "width": 44,
+                "height": 44,
+                "right": 78,
+                "bottom": 5675.94
+              },
+              "inViewport": false,
+              "insideActiveDialog": false,
+              "requiredLoaded": false
+            },
+            {
+              "src": "/assets/imgGroup48096582.svg",
+              "alt": "Luxury Realty",
+              "complete": true,
+              "naturalWidth": 94,
+              "naturalHeight": 13,
+              "objectFit": "fill",
+              "rect": {
+                "x": 34,
+                "y": 5685.94,
+                "width": 94.23,
+                "height": 13.94,
+                "right": 128.23,
+                "bottom": 5699.88
+              },
+              "inViewport": false,
+              "insideActiveDialog": false,
+              "requiredLoaded": false
+            },
+            {
+              "src": "/assets/photo-e5e4c8a46d22b551-480.webp",
+              "alt": "",
+              "complete": true,
+              "naturalWidth": 320,
+              "naturalHeight": 320,
+              "objectFit": "cover",
+              "rect": {
+                "x": 25,
+                "y": 6298.88,
+                "width": 270,
+                "height": 324.84,
+                "right": 295,
+                "bottom": 6623.72
+              },
+              "inViewport": false,
+              "insideActiveDialog": false,
+              "requiredLoaded": false
+            },
+            {
+              "src": "/assets/lettering-best-luxury.svg",
+              "alt": "The best luxury",
+              "complete": true,
+              "naturalWidth": 230,
+              "naturalHeight": 32,
+              "objectFit": "fill",
+              "rect": {
+                "x": 45,
+                "y": 6336.88,
+                "width": 230,
+                "height": 32.84,
+                "right": 275,
+                "bottom": 6369.72
+              },
+              "inViewport": false,
+              "insideActiveDialog": false,
+              "requiredLoaded": false
+            },
+            {
+              "src": "/assets/photo-78985d779572f7d9-480.webp",
+              "alt": "",
+              "complete": true,
+              "naturalWidth": 272,
+              "naturalHeight": 164,
+              "objectFit": "cover",
+              "rect": {
+                "x": 24,
+                "y": 6830.72,
+                "width": 272,
+                "height": 198.83,
+                "right": 296,
+                "bottom": 7029.55
+              },
+              "inViewport": false,
+              "insideActiveDialog": false,
+              "requiredLoaded": false
+            },
+            {
+              "src": "/assets/photo-67f92dd0d5a07603-480.webp",
+              "alt": "",
+              "complete": true,
+              "naturalWidth": 320,
+              "naturalHeight": 213,
+              "objectFit": "cover",
+              "rect": {
+                "x": 0,
+                "y": 7429.55,
+                "width": 320,
+                "height": 1103.25,
+                "right": 320,
+                "bottom": 8532.8
+              },
+              "inViewport": false,
+              "insideActiveDialog": false,
+              "requiredLoaded": false
+            },
+            {
+              "src": "/assets/imgGroup13.svg",
+              "alt": "",
+              "complete": true,
+              "naturalWidth": 59,
+              "naturalHeight": 59,
+              "objectFit": "fill",
+              "rect": {
+                "x": 24,
+                "y": 7494.55,
+                "width": 59,
+                "height": 59,
+                "right": 83,
+                "bottom": 7553.55
+              },
+              "inViewport": false,
+              "insideActiveDialog": false,
+              "requiredLoaded": false
+            },
+            {
+              "src": "/assets/lettering-of-dubai-gold.svg",
+              "alt": "of Dubai",
+              "complete": true,
+              "naturalWidth": 121,
+              "naturalHeight": 31,
+              "objectFit": "fill",
+              "rect": {
+                "x": 24,
+                "y": 7700.55,
+                "width": 121,
+                "height": 31.25,
+                "right": 145,
+                "bottom": 7731.8
+              },
+              "inViewport": false,
+              "insideActiveDialog": false,
+              "requiredLoaded": false
+            }
+          ],
+          "headings": [
+            {
+              "tag": "h1",
+              "class": "",
+              "text": "Elegant Luxury properties in the heart",
+              "rect": {
+                "x": 24,
+                "y": 187,
+                "width": 272,
+                "height": 138,
+                "right": 296,
+                "bottom": 325
+              },
+              "fontSize": "42px",
+              "lineHeight": "46.200001px",
+              "fontWeight": "200"
+            },
+            {
+              "tag": "h2",
+              "class": "",
+              "text": "Real Estate",
+              "rect": {
+                "x": 24,
+                "y": 929,
+                "width": 272,
+                "height": 57,
+                "right": 296,
+                "bottom": 986
+              },
+              "fontSize": "54px",
+              "lineHeight": "57.240002px",
+              "fontWeight": "100"
+            },
+            {
+              "tag": "h3",
+              "class": "",
+              "text": "Palm View",
+              "rect": {
+                "x": 24,
+                "y": 1480.02,
+                "width": 272,
+                "height": 28,
+                "right": 296,
+                "bottom": 1508.02
+              },
+              "fontSize": "22px",
+              "lineHeight": "28.6px",
+              "fontWeight": "400"
+            },
+            {
+              "tag": "h3",
+              "class": "",
+              "text": "Renovation Opportunity",
+              "rect": {
+                "x": 320,
+                "y": 1480.02,
+                "width": 272,
+                "height": 28,
+                "right": 592,
+                "bottom": 1508.02
+              },
+              "fontSize": "22px",
+              "lineHeight": "28.6px",
+              "fontWeight": "400"
+            },
+            {
+              "tag": "h3",
+              "class": "",
+              "text": "1-of-1 Palm View Renovation",
+              "rect": {
+                "x": 616,
+                "y": 1480.02,
+                "width": 272,
+                "height": 56,
+                "right": 888,
+                "bottom": 1536.02
+              },
+              "fontSize": "22px",
+              "lineHeight": "28.6px",
+              "fontWeight": "400"
+            },
+            {
+              "tag": "h3",
+              "class": "",
+              "text": "3BR Duplex Loft",
+              "rect": {
+                "x": 912,
+                "y": 1480.02,
+                "width": 272,
+                "height": 28,
+                "right": 1184,
+                "bottom": 1508.02
+              },
+              "fontSize": "22px",
+              "lineHeight": "28.6px",
+              "fontWeight": "400"
+            },
+            {
+              "tag": "h3",
+              "class": "",
+              "text": "3BR Duplex",
+              "rect": {
+                "x": 1208,
+                "y": 1480.02,
+                "width": 272,
+                "height": 28,
+                "right": 1480,
+                "bottom": 1508.02
+              },
+              "fontSize": "22px",
+              "lineHeight": "28.6px",
+              "fontWeight": "400"
+            },
+            {
+              "tag": "h2",
+              "class": "",
+              "text": "New developmentsin Dubai",
+              "rect": {
+                "x": 24,
+                "y": 2032.02,
+                "width": 272,
+                "height": 150,
+                "right": 296,
+                "bottom": 2182.02
+              },
+              "fontSize": "48px",
+              "lineHeight": "50.880001px",
+              "fontWeight": "200"
+            },
+            {
+              "tag": "h3",
+              "class": "",
+              "text": "Atlantis The Royal Residences",
+              "rect": {
+                "x": 49,
+                "y": 2411.02,
+                "width": 222,
+                "height": 117,
+                "right": 271,
+                "bottom": 2528.02
+              },
+              "fontSize": "34px",
+              "lineHeight": "39.099998px",
+              "fontWeight": "300"
+            },
+            {
+              "tag": "h3",
+              "class": "",
+              "text": "AVA at Palm Jumeirah",
+              "rect": {
+                "x": 49,
+                "y": 2865.02,
+                "width": 222,
+                "height": 78,
+                "right": 271,
+                "bottom": 2943.02
+              },
+              "fontSize": "34px",
+              "lineHeight": "39.099998px",
+              "fontWeight": "300"
+            },
+            {
+              "tag": "h3",
+              "class": "",
+              "text": "ORLA",
+              "rect": {
+                "x": 49,
+                "y": 3319.02,
+                "width": 222,
+                "height": 39,
+                "right": 271,
+                "bottom": 3358.02
+              },
+              "fontSize": "34px",
+              "lineHeight": "39.099998px",
+              "fontWeight": "300"
+            },
+            {
+              "tag": "h2",
+              "class": "",
+              "text": "Our services",
+              "rect": {
+                "x": 24,
+                "y": 3913.02,
+                "width": 272,
+                "height": 44,
+                "right": 296,
+                "bottom": 3957.02
+              },
+              "fontSize": "42px",
+              "lineHeight": "44.52px",
+              "fontWeight": "200"
+            },
+            {
+              "tag": "h3",
+              "class": "",
+              "text": "Residential Agency",
+              "rect": {
+                "x": 56.67,
+                "y": 4106.02,
+                "width": 196.33,
+                "height": 68,
+                "right": 253,
+                "bottom": 4174.02
+              },
+              "fontSize": "29px",
+              "lineHeight": "34.799999px",
+              "fontWeight": "300"
+            },
+            {
+              "tag": "h3",
+              "class": "",
+              "text": "Asset Management",
+              "rect": {
+                "x": 56.16,
+                "y": 4219.02,
+                "width": 196.84,
+                "height": 68,
+                "right": 253,
+                "bottom": 4287.02
+              },
+              "fontSize": "29px",
+              "lineHeight": "34.799999px",
+              "fontWeight": "300"
+            },
+            {
+              "tag": "h3",
+              "class": "",
+              "text": "Financial & Legal Services",
+              "rect": {
+                "x": 53.09,
+                "y": 4585.02,
+                "width": 199.91,
+                "height": 68,
+                "right": 253,
+                "bottom": 4653.02
+              },
+              "fontSize": "29px",
+              "lineHeight": "34.799999px",
+              "fontWeight": "300"
+            },
+            {
+              "tag": "h3",
+              "class": "",
+              "text": "Residential Development",
+              "rect": {
+                "x": 53.28,
+                "y": 4698.02,
+                "width": 199.72,
+                "height": 68,
+                "right": 253,
+                "bottom": 4766.02
+              },
+              "fontSize": "29px",
+              "lineHeight": "34.799999px",
+              "fontWeight": "300"
+            },
+            {
+              "tag": "h3",
+              "class": "",
+              "text": "Lifestyle Management",
+              "rect": {
+                "x": 54.38,
+                "y": 4811.02,
+                "width": 198.63,
+                "height": 68,
+                "right": 253,
+                "bottom": 4879.02
+              },
+              "fontSize": "29px",
+              "lineHeight": "34.799999px",
+              "fontWeight": "300"
+            },
+            {
+              "tag": "h2",
+              "class": "",
+              "text": "Luxury Realty",
+              "rect": {
+                "x": 24,
+                "y": 5196.88,
+                "width": 272,
+                "height": 116,
+                "right": 296,
+                "bottom": 5312.88
+              },
+              "fontSize": "55px",
+              "lineHeight": "58.299999px",
+              "fontWeight": "200"
+            },
+            {
+              "tag": "h2",
+              "class": "",
+              "text": "Real Estateselection agents",
+              "rect": {
+                "x": 45,
+                "y": 6381.72,
+                "width": 230,
+                "height": 120,
+                "right": 275,
+                "bottom": 6501.72
+              },
+              "fontSize": "38px",
+              "lineHeight": "40.279999px",
+              "fontWeight": "200"
+            },
+            {
+              "tag": "h2",
+              "class": "",
+              "text": "Luxury Realty Insights",
+              "rect": {
+                "x": 24,
+                "y": 6704.72,
+                "width": 240,
+                "height": 90,
+                "right": 264,
+                "bottom": 6794.72
+              },
+              "fontSize": "43px",
+              "lineHeight": "45.580002px",
+              "fontWeight": "200"
+            },
+            {
+              "tag": "h3",
+              "class": "",
+              "text": "Spaces worth living in",
+              "rect": {
+                "x": 24,
+                "y": 7081.55,
+                "width": 244.8,
+                "height": 31,
+                "right": 268.8,
+                "bottom": 7112.55
+              },
+              "fontSize": "23px",
+              "lineHeight": "31.049999px",
+              "fontWeight": "400"
+            },
+            {
+              "tag": "h3",
+              "class": "",
+              "text": "A different perspective on waterfront living",
+              "rect": {
+                "x": 320,
+                "y": 7081.55,
+                "width": 244.8,
+                "height": 62,
+                "right": 564.8,
+                "bottom": 7143.55
+              },
+              "fontSize": "23px",
+              "lineHeight": "31.049999px",
+              "fontWeight": "400"
+            },
+            {
+              "tag": "h3",
+              "class": "",
+              "text": "The art of a private viewing",
+              "rect": {
+                "x": 616,
+                "y": 7081.55,
+                "width": 244.8,
+                "height": 62,
+                "right": 860.8,
+                "bottom": 7143.55
+              },
+              "fontSize": "23px",
+              "lineHeight": "31.049999px",
+              "fontWeight": "400"
+            },
+            {
+              "tag": "h3",
+              "class": "",
+              "text": "Architecture on Dubai’s waterfront",
+              "rect": {
+                "x": 912,
+                "y": 7081.55,
+                "width": 244.8,
+                "height": 62,
+                "right": 1156.8,
+                "bottom": 7143.55
+              },
+              "fontSize": "23px",
+              "lineHeight": "31.049999px",
+              "fontWeight": "400"
+            }
+          ],
+          "dialogs": [
+            {
+              "id": "site-menu",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 320,
+                "height": 843.98,
+                "right": 320,
+                "bottom": 843.98
+              },
+              "scrollHeight": 1204,
+              "clientHeight": 844
+            }
+          ],
+          "invisibleHeadings": [],
+          "toolbarOverlaps": [],
+          "activeDialogId": "site-menu"
+        }
+      ],
+      "filterGeometry": [
+        {
+          "label": "hero-top",
+          "dialog": {
+            "x": 12,
+            "y": 12,
+            "width": 296,
+            "height": 819.984375,
+            "right": 308,
+            "bottom": 831.984375
+          },
+          "body": {
+            "x": 13,
+            "y": 137,
+            "width": 294,
+            "height": 555.984375,
+            "right": 307,
+            "bottom": 692.984375
+          },
+          "scrollWidth": 294,
+          "clientWidth": 294,
+          "labels": [
+            {
+              "text": "Buy",
+              "x": 36,
+              "y": 197,
+              "width": 122,
+              "height": 44,
+              "right": 158,
+              "bottom": 241
+            },
+            {
+              "text": "Rent",
+              "x": 162,
+              "y": 197,
+              "width": 122,
+              "height": 44,
+              "right": 284,
+              "bottom": 241
+            },
+            {
+              "text": "New projects",
+              "x": 36,
+              "y": 245,
+              "width": 122,
+              "height": 44,
+              "right": 158,
+              "bottom": 289
+            },
+            {
+              "text": "Explore all",
+              "x": 162,
+              "y": 245,
+              "width": 122,
+              "height": 44,
+              "right": 284,
+              "bottom": 289
+            },
+            {
+              "text": "Apartment",
+              "x": 31,
+              "y": 589,
+              "width": 85.40625,
+              "height": 44,
+              "right": 116.40625,
+              "bottom": 633
+            },
+            {
+              "text": "Duplex",
+              "x": 124.40625,
+              "y": 589,
+              "width": 63.921875,
+              "height": 44,
+              "right": 188.328125,
+              "bottom": 633
+            },
+            {
+              "text": "Penthouse",
+              "x": 196.328125,
+              "y": 589,
+              "width": 84.46875,
+              "height": 44,
+              "right": 280.796875,
+              "bottom": 633
+            },
+            {
+              "text": "Villa",
+              "x": 31,
+              "y": 641,
+              "width": 48.140625,
+              "height": 44,
+              "right": 79.140625,
+              "bottom": 685
+            },
+            {
+              "text": "1",
+              "x": 31,
+              "y": 763,
+              "width": 44,
+              "height": 44,
+              "right": 75,
+              "bottom": 807
+            },
+            {
+              "text": "2",
+              "x": 83,
+              "y": 763,
+              "width": 44,
+              "height": 44,
+              "right": 127,
+              "bottom": 807
+            },
+            {
+              "text": "3",
+              "x": 135,
+              "y": 763,
+              "width": 44,
+              "height": 44,
+              "right": 179,
+              "bottom": 807
+            },
+            {
+              "text": "4",
+              "x": 187,
+              "y": 763,
+              "width": 44,
+              "height": 44,
+              "right": 231,
+              "bottom": 807
+            },
+            {
+              "text": "5",
+              "x": 239,
+              "y": 763,
+              "width": 44,
+              "height": 44,
+              "right": 283,
+              "bottom": 807
+            },
+            {
+              "text": "6",
+              "x": 31,
+              "y": 815,
+              "width": 44,
+              "height": 44,
+              "right": 75,
+              "bottom": 859
+            },
+            {
+              "text": "Balcony",
+              "x": 31,
+              "y": 1155,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": 1199
+            },
+            {
+              "text": "Barbeque Area",
+              "x": 31,
+              "y": 1201,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": 1245
+            },
+            {
+              "text": "Built in Wardrobes",
+              "x": 31,
+              "y": 1247,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": 1291
+            },
+            {
+              "text": "Central AC",
+              "x": 31,
+              "y": 1293,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": 1337
+            },
+            {
+              "text": "Children's Play Area",
+              "x": 31,
+              "y": 1339,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": 1383
+            },
+            {
+              "text": "Children's Pool",
+              "x": 31,
+              "y": 1385,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": 1429
+            },
+            {
+              "text": "Concierge",
+              "x": 31,
+              "y": 1431,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": 1475
+            },
+            {
+              "text": "Covered Parking",
+              "x": 31,
+              "y": 1477,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": 1521
+            },
+            {
+              "text": "Furnished",
+              "x": 31,
+              "y": 1523,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": 1567
+            },
+            {
+              "text": "Kitchen Appliances",
+              "x": 31,
+              "y": 1569,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": 1613
+            },
+            {
+              "text": "Lobby in Building",
+              "x": 31,
+              "y": 1615,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": 1659
+            },
+            {
+              "text": "Maid Service",
+              "x": 31,
+              "y": 1661,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": 1705
+            },
+            {
+              "text": "Maids Room",
+              "x": 31,
+              "y": 1707,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": 1751
+            },
+            {
+              "text": "Pets Allowed",
+              "x": 31,
+              "y": 1753,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": 1797
+            },
+            {
+              "text": "Private Garden",
+              "x": 31,
+              "y": 1799,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": 1843
+            },
+            {
+              "text": "Private Gym",
+              "x": 31,
+              "y": 1845,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": 1889
+            },
+            {
+              "text": "Private Jacuzzi",
+              "x": 31,
+              "y": 1891,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": 1935
+            },
+            {
+              "text": "Private Pool",
+              "x": 31,
+              "y": 1937,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": 1981
+            },
+            {
+              "text": "Security",
+              "x": 31,
+              "y": 1983,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": 2027
+            },
+            {
+              "text": "Shared Gym",
+              "x": 31,
+              "y": 2029,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": 2073
+            },
+            {
+              "text": "Shared Pool",
+              "x": 31,
+              "y": 2075,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": 2119
+            },
+            {
+              "text": "Shared Spa",
+              "x": 31,
+              "y": 2121,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": 2165
+            },
+            {
+              "text": "Study",
+              "x": 31,
+              "y": 2167,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": 2211
+            },
+            {
+              "text": "Unfurnished",
+              "x": 31,
+              "y": 2213,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": 2257
+            },
+            {
+              "text": "View Of Landmark",
+              "x": 31,
+              "y": 2259,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": 2303
+            },
+            {
+              "text": "View Of Water",
+              "x": 31,
+              "y": 2305,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": 2349
+            },
+            {
+              "text": "Walk in Closet",
+              "x": 31,
+              "y": 2351,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": 2395
+            }
+          ],
+          "close": {
+            "rect": {
+              "x": 245,
+              "y": 33,
+              "width": 44,
+              "height": 44,
+              "right": 289,
+              "bottom": 77
+            },
+            "inside": true,
+            "hit": true
+          },
+          "apply": {
+            "rect": {
+              "x": 31,
+              "y": 761.984375,
+              "width": 258,
+              "height": 52,
+              "right": 289,
+              "bottom": 813.984375
+            },
+            "inside": true,
+            "hit": true
+          }
+        },
+        {
+          "label": "hero-invalid",
+          "dialog": {
+            "x": 12,
+            "y": 12,
+            "width": 296,
+            "height": 819.984375,
+            "right": 308,
+            "bottom": 831.984375
+          },
+          "body": {
+            "x": 13,
+            "y": 137,
+            "width": 294,
+            "height": 555.984375,
+            "right": 307,
+            "bottom": 692.984375
+          },
+          "scrollWidth": 294,
+          "clientWidth": 294,
+          "labels": [
+            {
+              "text": "Buy",
+              "x": 36,
+              "y": -281,
+              "width": 122,
+              "height": 44,
+              "right": 158,
+              "bottom": -237
+            },
+            {
+              "text": "Rent",
+              "x": 162,
+              "y": -281,
+              "width": 122,
+              "height": 44,
+              "right": 284,
+              "bottom": -237
+            },
+            {
+              "text": "New projects",
+              "x": 36,
+              "y": -233,
+              "width": 122,
+              "height": 44,
+              "right": 158,
+              "bottom": -189
+            },
+            {
+              "text": "Explore all",
+              "x": 162,
+              "y": -233,
+              "width": 122,
+              "height": 44,
+              "right": 284,
+              "bottom": -189
+            },
+            {
+              "text": "Apartment",
+              "x": 31,
+              "y": 111,
+              "width": 85.40625,
+              "height": 44,
+              "right": 116.40625,
+              "bottom": 155
+            },
+            {
+              "text": "Duplex",
+              "x": 124.40625,
+              "y": 111,
+              "width": 63.921875,
+              "height": 44,
+              "right": 188.328125,
+              "bottom": 155
+            },
+            {
+              "text": "Penthouse",
+              "x": 196.328125,
+              "y": 111,
+              "width": 84.46875,
+              "height": 44,
+              "right": 280.796875,
+              "bottom": 155
+            },
+            {
+              "text": "Villa",
+              "x": 31,
+              "y": 163,
+              "width": 48.140625,
+              "height": 44,
+              "right": 79.140625,
+              "bottom": 207
+            },
+            {
+              "text": "1",
+              "x": 31,
+              "y": 285,
+              "width": 44,
+              "height": 44,
+              "right": 75,
+              "bottom": 329
+            },
+            {
+              "text": "2",
+              "x": 83,
+              "y": 285,
+              "width": 44,
+              "height": 44,
+              "right": 127,
+              "bottom": 329
+            },
+            {
+              "text": "3",
+              "x": 135,
+              "y": 285,
+              "width": 44,
+              "height": 44,
+              "right": 179,
+              "bottom": 329
+            },
+            {
+              "text": "4",
+              "x": 187,
+              "y": 285,
+              "width": 44,
+              "height": 44,
+              "right": 231,
+              "bottom": 329
+            },
+            {
+              "text": "5",
+              "x": 239,
+              "y": 285,
+              "width": 44,
+              "height": 44,
+              "right": 283,
+              "bottom": 329
+            },
+            {
+              "text": "6",
+              "x": 31,
+              "y": 337,
+              "width": 44,
+              "height": 44,
+              "right": 75,
+              "bottom": 381
+            },
+            {
+              "text": "Balcony",
+              "x": 31,
+              "y": 727,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": 771
+            },
+            {
+              "text": "Barbeque Area",
+              "x": 31,
+              "y": 773,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": 817
+            },
+            {
+              "text": "Built in Wardrobes",
+              "x": 31,
+              "y": 819,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": 863
+            },
+            {
+              "text": "Central AC",
+              "x": 31,
+              "y": 865,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": 909
+            },
+            {
+              "text": "Children's Play Area",
+              "x": 31,
+              "y": 911,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": 955
+            },
+            {
+              "text": "Children's Pool",
+              "x": 31,
+              "y": 957,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": 1001
+            },
+            {
+              "text": "Concierge",
+              "x": 31,
+              "y": 1003,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": 1047
+            },
+            {
+              "text": "Covered Parking",
+              "x": 31,
+              "y": 1049,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": 1093
+            },
+            {
+              "text": "Furnished",
+              "x": 31,
+              "y": 1095,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": 1139
+            },
+            {
+              "text": "Kitchen Appliances",
+              "x": 31,
+              "y": 1141,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": 1185
+            },
+            {
+              "text": "Lobby in Building",
+              "x": 31,
+              "y": 1187,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": 1231
+            },
+            {
+              "text": "Maid Service",
+              "x": 31,
+              "y": 1233,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": 1277
+            },
+            {
+              "text": "Maids Room",
+              "x": 31,
+              "y": 1279,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": 1323
+            },
+            {
+              "text": "Pets Allowed",
+              "x": 31,
+              "y": 1325,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": 1369
+            },
+            {
+              "text": "Private Garden",
+              "x": 31,
+              "y": 1371,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": 1415
+            },
+            {
+              "text": "Private Gym",
+              "x": 31,
+              "y": 1417,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": 1461
+            },
+            {
+              "text": "Private Jacuzzi",
+              "x": 31,
+              "y": 1463,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": 1507
+            },
+            {
+              "text": "Private Pool",
+              "x": 31,
+              "y": 1509,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": 1553
+            },
+            {
+              "text": "Security",
+              "x": 31,
+              "y": 1555,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": 1599
+            },
+            {
+              "text": "Shared Gym",
+              "x": 31,
+              "y": 1601,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": 1645
+            },
+            {
+              "text": "Shared Pool",
+              "x": 31,
+              "y": 1647,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": 1691
+            },
+            {
+              "text": "Shared Spa",
+              "x": 31,
+              "y": 1693,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": 1737
+            },
+            {
+              "text": "Study",
+              "x": 31,
+              "y": 1739,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": 1783
+            },
+            {
+              "text": "Unfurnished",
+              "x": 31,
+              "y": 1785,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": 1829
+            },
+            {
+              "text": "View Of Landmark",
+              "x": 31,
+              "y": 1831,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": 1875
+            },
+            {
+              "text": "View Of Water",
+              "x": 31,
+              "y": 1877,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": 1921
+            },
+            {
+              "text": "Walk in Closet",
+              "x": 31,
+              "y": 1923,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": 1967
+            }
+          ],
+          "close": {
+            "rect": {
+              "x": 245,
+              "y": 33,
+              "width": 44,
+              "height": 44,
+              "right": 289,
+              "bottom": 77
+            },
+            "inside": true,
+            "hit": true
+          },
+          "apply": {
+            "rect": {
+              "x": 31,
+              "y": 761.984375,
+              "width": 258,
+              "height": 52,
+              "right": 289,
+              "bottom": 813.984375
+            },
+            "inside": true,
+            "hit": true
+          }
+        },
+        {
+          "label": "hero-filters-lower",
+          "dialog": {
+            "x": 12,
+            "y": 12,
+            "width": 296,
+            "height": 819.984375,
+            "right": 308,
+            "bottom": 831.984375
+          },
+          "body": {
+            "x": 13,
+            "y": 137,
+            "width": 294,
+            "height": 555.984375,
+            "right": 307,
+            "bottom": 692.984375
+          },
+          "scrollWidth": 294,
+          "clientWidth": 294,
+          "labels": [
+            {
+              "text": "Buy",
+              "x": 36,
+              "y": -1698,
+              "width": 122,
+              "height": 44,
+              "right": 158,
+              "bottom": -1654
+            },
+            {
+              "text": "Rent",
+              "x": 162,
+              "y": -1698,
+              "width": 122,
+              "height": 44,
+              "right": 284,
+              "bottom": -1654
+            },
+            {
+              "text": "New projects",
+              "x": 36,
+              "y": -1650,
+              "width": 122,
+              "height": 44,
+              "right": 158,
+              "bottom": -1606
+            },
+            {
+              "text": "Explore all",
+              "x": 162,
+              "y": -1650,
+              "width": 122,
+              "height": 44,
+              "right": 284,
+              "bottom": -1606
+            },
+            {
+              "text": "Apartment",
+              "x": 31,
+              "y": -1306,
+              "width": 85.40625,
+              "height": 44,
+              "right": 116.40625,
+              "bottom": -1262
+            },
+            {
+              "text": "Duplex",
+              "x": 124.40625,
+              "y": -1306,
+              "width": 63.921875,
+              "height": 44,
+              "right": 188.328125,
+              "bottom": -1262
+            },
+            {
+              "text": "Penthouse",
+              "x": 196.328125,
+              "y": -1306,
+              "width": 84.46875,
+              "height": 44,
+              "right": 280.796875,
+              "bottom": -1262
+            },
+            {
+              "text": "Villa",
+              "x": 31,
+              "y": -1254,
+              "width": 48.140625,
+              "height": 44,
+              "right": 79.140625,
+              "bottom": -1210
+            },
+            {
+              "text": "1",
+              "x": 31,
+              "y": -1132,
+              "width": 44,
+              "height": 44,
+              "right": 75,
+              "bottom": -1088
+            },
+            {
+              "text": "2",
+              "x": 83,
+              "y": -1132,
+              "width": 44,
+              "height": 44,
+              "right": 127,
+              "bottom": -1088
+            },
+            {
+              "text": "3",
+              "x": 135,
+              "y": -1132,
+              "width": 44,
+              "height": 44,
+              "right": 179,
+              "bottom": -1088
+            },
+            {
+              "text": "4",
+              "x": 187,
+              "y": -1132,
+              "width": 44,
+              "height": 44,
+              "right": 231,
+              "bottom": -1088
+            },
+            {
+              "text": "5",
+              "x": 239,
+              "y": -1132,
+              "width": 44,
+              "height": 44,
+              "right": 283,
+              "bottom": -1088
+            },
+            {
+              "text": "6",
+              "x": 31,
+              "y": -1080,
+              "width": 44,
+              "height": 44,
+              "right": 75,
+              "bottom": -1036
+            },
+            {
+              "text": "Balcony",
+              "x": 31,
+              "y": -691,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": -647
+            },
+            {
+              "text": "Barbeque Area",
+              "x": 31,
+              "y": -645,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": -601
+            },
+            {
+              "text": "Built in Wardrobes",
+              "x": 31,
+              "y": -599,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": -555
+            },
+            {
+              "text": "Central AC",
+              "x": 31,
+              "y": -553,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": -509
+            },
+            {
+              "text": "Children's Play Area",
+              "x": 31,
+              "y": -507,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": -463
+            },
+            {
+              "text": "Children's Pool",
+              "x": 31,
+              "y": -461,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": -417
+            },
+            {
+              "text": "Concierge",
+              "x": 31,
+              "y": -415,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": -371
+            },
+            {
+              "text": "Covered Parking",
+              "x": 31,
+              "y": -369,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": -325
+            },
+            {
+              "text": "Furnished",
+              "x": 31,
+              "y": -323,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": -279
+            },
+            {
+              "text": "Kitchen Appliances",
+              "x": 31,
+              "y": -277,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": -233
+            },
+            {
+              "text": "Lobby in Building",
+              "x": 31,
+              "y": -231,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": -187
+            },
+            {
+              "text": "Maid Service",
+              "x": 31,
+              "y": -185,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": -141
+            },
+            {
+              "text": "Maids Room",
+              "x": 31,
+              "y": -139,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": -95
+            },
+            {
+              "text": "Pets Allowed",
+              "x": 31,
+              "y": -93,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": -49
+            },
+            {
+              "text": "Private Garden",
+              "x": 31,
+              "y": -47,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": -3
+            },
+            {
+              "text": "Private Gym",
+              "x": 31,
+              "y": -1,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": 43
+            },
+            {
+              "text": "Private Jacuzzi",
+              "x": 31,
+              "y": 45,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": 89
+            },
+            {
+              "text": "Private Pool",
+              "x": 31,
+              "y": 91,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": 135
+            },
+            {
+              "text": "Security",
+              "x": 31,
+              "y": 137,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": 181
+            },
+            {
+              "text": "Shared Gym",
+              "x": 31,
+              "y": 183,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": 227
+            },
+            {
+              "text": "Shared Pool",
+              "x": 31,
+              "y": 229,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": 273
+            },
+            {
+              "text": "Shared Spa",
+              "x": 31,
+              "y": 275,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": 319
+            },
+            {
+              "text": "Study",
+              "x": 31,
+              "y": 321,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": 365
+            },
+            {
+              "text": "Unfurnished",
+              "x": 31,
+              "y": 367,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": 411
+            },
+            {
+              "text": "View Of Landmark",
+              "x": 31,
+              "y": 413,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": 457
+            },
+            {
+              "text": "View Of Water",
+              "x": 31,
+              "y": 459,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": 503
+            },
+            {
+              "text": "Walk in Closet",
+              "x": 31,
+              "y": 505,
+              "width": 258,
+              "height": 44,
+              "right": 289,
+              "bottom": 549
+            }
+          ],
+          "close": {
+            "rect": {
+              "x": 245,
+              "y": 33,
+              "width": 44,
+              "height": 44,
+              "right": 289,
+              "bottom": 77
+            },
+            "inside": true,
+            "hit": true
+          },
+          "apply": {
+            "rect": {
+              "x": 31,
+              "y": 761.984375,
+              "width": 258,
+              "height": 52,
+              "right": 289,
+              "bottom": 813.984375
+            },
+            "inside": true,
+            "hit": true
+          }
+        }
+      ],
+      "motionTraces": [
+        {
+          "label": "hero-open",
+          "motion": "no-preference",
+          "opening": true,
+          "completionReason": "settled",
+          "elapsedMs": 2236,
+          "samples": [
+            {
+              "ms": 0,
+              "reason": "armed",
+              "open": false,
+              "opacity": 1,
+              "transform": "none",
+              "height": 0,
+              "running": 0,
+              "state": null,
+              "visibilityState": "visible",
+              "documentHasFocus": true
+            },
+            {
+              "ms": 304,
+              "reason": "animation-frame",
+              "open": false,
+              "opacity": 1,
+              "transform": "none",
+              "height": 0,
+              "running": 0,
+              "state": null,
+              "visibilityState": "visible",
+              "documentHasFocus": true
+            },
+            {
+              "ms": 485,
+              "reason": "animation-frame",
+              "open": false,
+              "opacity": 1,
+              "transform": "none",
+              "height": 0,
+              "running": 0,
+              "state": null,
+              "visibilityState": "visible",
+              "documentHasFocus": true
+            },
+            {
+              "ms": 489,
+              "reason": "animation-frame",
+              "open": false,
+              "opacity": 1,
+              "transform": "none",
+              "height": 0,
+              "running": 0,
+              "state": null,
+              "visibilityState": "visible",
+              "documentHasFocus": true
+            },
+            {
+              "ms": 497,
+              "reason": "animation-frame",
+              "open": false,
+              "opacity": 1,
+              "transform": "none",
+              "height": 0,
+              "running": 0,
+              "state": null,
+              "visibilityState": "visible",
+              "documentHasFocus": true
+            },
+            {
+              "ms": 629,
+              "reason": "attribute",
+              "open": true,
+              "opacity": 0,
+              "transform": "matrix(0.985, 0, 0, 0.985, 0, 14)",
+              "height": 807.6845703125,
+              "running": 2,
+              "state": "opening",
+              "visibilityState": "visible",
+              "documentHasFocus": true,
+              "animations": [
+                {
+                  "type": "CSSAnimation",
+                  "name": "backdrop-in",
+                  "target": "DIALOG#hero-filter-dialog",
+                  "pseudoElement": null,
+                  "playState": "running",
+                  "currentTime": 0,
+                  "duration": 240,
+                  "endTime": 240,
+                  "keyframes": [
+                    {
+                      "composite": "auto",
+                      "computedOffset": 0,
+                      "easing": "ease-out",
+                      "offset": 0,
+                      "opacity": "0"
+                    },
+                    {
+                      "composite": "auto",
+                      "computedOffset": 1,
+                      "easing": "ease-out",
+                      "offset": 1,
+                      "opacity": "1"
+                    }
+                  ]
+                },
+                {
+                  "type": "Animation",
+                  "name": null,
+                  "target": "DIALOG#hero-filter-dialog",
+                  "pseudoElement": null,
+                  "playState": "running",
+                  "currentTime": 0,
+                  "duration": 240,
+                  "endTime": 240,
+                  "keyframes": [
+                    {
+                      "composite": "auto",
+                      "computedOffset": 0,
+                      "easing": "linear",
+                      "offset": null,
+                      "opacity": "0",
+                      "transform": "translateY(14px) scale(0.985)"
+                    },
+                    {
+                      "composite": "auto",
+                      "computedOffset": 1,
+                      "easing": "linear",
+                      "offset": null,
+                      "opacity": "1",
+                      "transform": "none"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "ms": 742,
+              "reason": "animation-frame",
+              "open": true,
+              "opacity": 0.999818,
+              "transform": "matrix(0.999997, 0, 0, 0.999997, 0, 0.002553)",
+              "height": 819.9821166992188,
+              "running": 2,
+              "state": "opening",
+              "visibilityState": "visible",
+              "documentHasFocus": true
+            },
+            {
+              "ms": 966,
+              "reason": "attribute",
+              "open": true,
+              "opacity": 1,
+              "transform": "none",
+              "height": 819.984375,
+              "running": 0,
+              "state": "open",
+              "visibilityState": "visible",
+              "documentHasFocus": true,
+              "animations": [
+                {
+                  "type": "CSSAnimation",
+                  "name": "backdrop-in",
+                  "target": "DIALOG#hero-filter-dialog",
+                  "pseudoElement": null,
+                  "playState": "finished",
+                  "currentTime": 240,
+                  "duration": 240,
+                  "endTime": 240,
+                  "keyframes": [
+                    {
+                      "composite": "auto",
+                      "computedOffset": 0,
+                      "easing": "ease-out",
+                      "offset": 0,
+                      "opacity": "0"
+                    },
+                    {
+                      "composite": "auto",
+                      "computedOffset": 1,
+                      "easing": "ease-out",
+                      "offset": 1,
+                      "opacity": "1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "ms": 1613,
+              "reason": "animation-frame",
+              "open": true,
+              "opacity": 1,
+              "transform": "none",
+              "height": 819.984375,
+              "running": 0,
+              "state": "open",
+              "visibilityState": "visible",
+              "documentHasFocus": true
+            },
+            {
+              "ms": 2217,
+              "reason": "animation-frame",
+              "open": true,
+              "opacity": 1,
+              "transform": "none",
+              "height": 819.984375,
+              "running": 0,
+              "state": "open",
+              "visibilityState": "visible",
+              "documentHasFocus": true
+            },
+            {
+              "ms": 2235,
+              "reason": "animation-frame",
+              "open": true,
+              "opacity": 1,
+              "transform": "none",
+              "height": 819.984375,
+              "running": 0,
+              "state": "open",
+              "visibilityState": "visible",
+              "documentHasFocus": true
+            }
+          ]
+        },
+        {
+          "label": "hero-close",
+          "motion": "no-preference",
+          "opening": false,
+          "completionReason": "settled",
+          "elapsedMs": 1941,
+          "samples": [
+            {
+              "ms": 0,
+              "reason": "armed",
+              "open": true,
+              "opacity": 1,
+              "transform": "none",
+              "height": 819.984375,
+              "running": 0,
+              "state": "open",
+              "visibilityState": "visible",
+              "documentHasFocus": true
+            },
+            {
+              "ms": 11,
+              "reason": "attribute",
+              "open": true,
+              "opacity": 1,
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "height": 819.984375,
+              "running": 2,
+              "state": "closing",
+              "visibilityState": "visible",
+              "documentHasFocus": true,
+              "animations": [
+                {
+                  "type": "CSSAnimation",
+                  "name": "backdrop-out",
+                  "target": "DIALOG#hero-filter-dialog",
+                  "pseudoElement": null,
+                  "playState": "running",
+                  "currentTime": 0,
+                  "duration": 160,
+                  "endTime": 160,
+                  "keyframes": [
+                    {
+                      "composite": "auto",
+                      "computedOffset": 0,
+                      "easing": "ease-in",
+                      "offset": 0,
+                      "opacity": "1"
+                    },
+                    {
+                      "composite": "auto",
+                      "computedOffset": 1,
+                      "easing": "ease-in",
+                      "offset": 1,
+                      "opacity": "0"
+                    }
+                  ]
+                },
+                {
+                  "type": "Animation",
+                  "name": null,
+                  "target": "DIALOG#hero-filter-dialog",
+                  "pseudoElement": null,
+                  "playState": "running",
+                  "currentTime": 0,
+                  "duration": 160,
+                  "endTime": 160,
+                  "keyframes": [
+                    {
+                      "composite": "auto",
+                      "computedOffset": 0,
+                      "easing": "linear",
+                      "offset": null,
+                      "opacity": "1",
+                      "transform": "none"
+                    },
+                    {
+                      "composite": "auto",
+                      "computedOffset": 1,
+                      "easing": "linear",
+                      "offset": null,
+                      "opacity": "0",
+                      "transform": "translateY(8px) scale(0.99)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "ms": 306,
+              "reason": "attribute",
+              "open": false,
+              "opacity": 1,
+              "transform": "none",
+              "height": 0,
+              "running": 0,
+              "state": null,
+              "visibilityState": "visible",
+              "documentHasFocus": true,
+              "animations": []
+            },
+            {
+              "ms": 537,
+              "reason": "animation-frame",
+              "open": false,
+              "opacity": 1,
+              "transform": "none",
+              "height": 0,
+              "running": 0,
+              "state": null,
+              "visibilityState": "visible",
+              "documentHasFocus": true
+            },
+            {
+              "ms": 1718,
+              "reason": "animation-frame",
+              "open": false,
+              "opacity": 1,
+              "transform": "none",
+              "height": 0,
+              "running": 0,
+              "state": null,
+              "visibilityState": "visible",
+              "documentHasFocus": true
+            },
+            {
+              "ms": 1941,
+              "reason": "animation-frame",
+              "open": false,
+              "opacity": 1,
+              "transform": "none",
+              "height": 0,
+              "running": 0,
+              "state": null,
+              "visibilityState": "visible",
+              "documentHasFocus": true
+            }
+          ]
+        }
+      ],
+      "focusTraces": [
+        {
+          "dialog": "hero-filter-dialog",
+          "steps": [
+            {
+              "key": "before",
+              "open": true,
+              "inside": true,
+              "documentHasFocus": true,
+              "bodyFocused": false,
+              "target": {
+                "tag": "BUTTON",
+                "id": null,
+                "name": null,
+                "type": "button"
+              }
+            },
+            {
+              "key": "Shift+Tab",
+              "open": true,
+              "inside": true,
+              "documentHasFocus": true,
+              "bodyFocused": false,
+              "target": {
+                "tag": "DIALOG",
+                "id": "hero-filter-dialog",
+                "name": null,
+                "type": null
+              }
+            },
+            {
+              "key": "Tab",
+              "open": true,
+              "inside": true,
+              "documentHasFocus": true,
+              "bodyFocused": false,
+              "target": {
+                "tag": "BUTTON",
+                "id": null,
+                "name": null,
+                "type": "button"
+              }
+            },
+            {
+              "key": "Tab",
+              "open": true,
+              "inside": true,
+              "documentHasFocus": true,
+              "bodyFocused": false,
+              "target": {
+                "tag": "INPUT",
+                "id": null,
+                "name": "purpose",
+                "type": "radio"
+              }
+            },
+            {
+              "key": "Tab",
+              "open": true,
+              "inside": true,
+              "documentHasFocus": true,
+              "bodyFocused": false,
+              "target": {
+                "tag": "INPUT",
+                "id": null,
+                "name": "q",
+                "type": "search"
+              }
+            },
+            {
+              "key": "Tab",
+              "open": true,
+              "inside": true,
+              "documentHasFocus": true,
+              "bodyFocused": false,
+              "target": {
+                "tag": "SELECT",
+                "id": null,
+                "name": "location",
+                "type": null
+              }
+            },
+            {
+              "key": "Tab",
+              "open": true,
+              "inside": true,
+              "documentHasFocus": true,
+              "bodyFocused": false,
+              "target": {
+                "tag": "INPUT",
+                "id": null,
+                "name": "type",
+                "type": "checkbox"
+              }
+            },
+            {
+              "key": "Tab",
+              "open": true,
+              "inside": true,
+              "documentHasFocus": true,
+              "bodyFocused": false,
+              "target": {
+                "tag": "INPUT",
+                "id": null,
+                "name": "type",
+                "type": "checkbox"
+              }
+            },
+            {
+              "key": "Tab",
+              "open": true,
+              "inside": true,
+              "documentHasFocus": true,
+              "bodyFocused": false,
+              "target": {
+                "tag": "INPUT",
+                "id": null,
+                "name": "type",
+                "type": "checkbox"
+              }
+            },
+            {
+              "key": "Tab",
+              "open": true,
+              "inside": true,
+              "documentHasFocus": true,
+              "bodyFocused": false,
+              "target": {
+                "tag": "INPUT",
+                "id": null,
+                "name": "type",
+                "type": "checkbox"
+              }
+            }
+          ]
+        }
+      ],
+      "imageWaitTraceFile": "image-wait-traces.ndjson",
+      "imageWaitCount": 28
+    }
+  ]
+}

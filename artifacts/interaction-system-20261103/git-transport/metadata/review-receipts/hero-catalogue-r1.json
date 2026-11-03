@@ -1,0 +1,439 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "/root/qa_interaction_audit",
+  "completedAt": "2026-11-03T15:41:04.199916+00:00",
+  "scope": "Focused r1 hero/catalogue viewport originals only; exact 20-file list below",
+  "status": "partial-visual-review-complete",
+  "releaseAcceptance": false,
+  "captureSourceHead": "1cc69a957d9a1c9b4c5852fa57ca05b1b7b766c2",
+  "currentHeadAtReceipt": "5dc919dd92e589442e8598b549a0474db56b8fd3",
+  "captureReport": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/focused-chromium-r1/visual-audit-report.json",
+  "captureReportSha256": "116493af80c6f03a4126325de36a75cb0a1b653b5ac21e75c2dc36e1c83c21cc",
+  "reviewedPNGCount": 20,
+  "reviewedViewCount": 12,
+  "findings": [
+    {
+      "id": "hero-modal-upper-layout",
+      "status": "no-confirmed-defect",
+      "evidenceGroups": [
+        "hero-upper-normal",
+        "hero-upper-reduced-failure-capture"
+      ],
+      "observation": "At 320/390/768/1440 the title, close control, visible choices, count/reset and Apply remain readable with consistent panel grid. No title/action crossing or missing title fragment was observed."
+    },
+    {
+      "id": "catalogue-upper-and-grid",
+      "status": "no-confirmed-defect",
+      "evidenceGroups": [
+        "catalogue-upper-normal",
+        "catalogue-grid-and-page-top-normal"
+      ],
+      "observation": "Catalogue modal matches the home filter system. Reviewed first-row property cards align; visible title phrases and price baselines remain readable. Grid-focused content captures intentionally scroll the preceding count/sort row underneath the fixed site header."
+    },
+    {
+      "id": "home-320-intro-candidate",
+      "status": "false-positive-resolved-no-runtime-change",
+      "initialEvidence": "002-home-320-no-preference-top.png",
+      "resolution": "Parent live-browser native Range probe disproved text clipping. Shrink-to-fit is correct; no hero CSS change was requested.",
+      "proofSource": "Parent /root live-browser DOM Range measurement reported in the current collaboration thread; no separate Range receipt path was supplied.",
+      "actualProbe": {
+        "viewportWidth": 320,
+        "paragraphX": 24,
+        "paragraphRight": 296,
+        "paragraphWidth": 272,
+        "parentWidth": 272,
+        "textLineRights": [
+          238.37,
+          283.31,
+          254.67,
+          69.99
+        ],
+        "documentScrollWidth": 320
+      }
+    },
+    {
+      "id": "native-dialog-focus-boundary",
+      "status": "diagnosed-correct-native-browser-chrome",
+      "diagnosticReport": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/dialog-diagnostic-r1/report.json",
+      "diagnosticSha256": "11d6771cd0895959556431a152f837d7a962d8d1a9ee529994175259e3e91b93",
+      "resolution": "Root diagnostic measured first Close → Shift+Tab → BODY with document.hasFocus=false, then Tab → first Close with document.hasFocus=true. Background controls did not receive focus. The authorized harness adjustment permits only that browser-chrome boundary and requires immediate Tab return inside an open modal; per-key focus receipts were added."
+    },
+    {
+      "id": "reduced-motion-first-frame",
+      "status": "diagnosed-and-runtime-fix-awaiting-r2-verification",
+      "diagnosticReport": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/dialog-diagnostic-r1/report.json",
+      "diagnosticSha256": "11d6771cd0895959556431a152f837d7a962d8d1a9ee529994175259e3e91b93",
+      "resolution": "Root diagnostic identified a CSSTransition on dialog scrollbar-color, duration/endTime 0.01ms, identical keyframes; panel opacity1 and transform none. Runtime reduced-motion rule disables dialog transitions explicitly. The strict zero-finite-animation assertion remains unchanged."
+    }
+  ],
+  "limitations": [
+    "The r1 focused functional run failed early in modal checks. This receipt does not convert those failures into a machine pass.",
+    "The four reduced hero PNGs were incomplete-state captures; their original loaded/accepted flags are preserved and they are identified individually.",
+    "Lower filter sections, invalid-price/error states, catalogue Apply/empty/linked-invalid states and final r2 modal framing have not yet been reviewed here.",
+    "No final all-canonical-page overview or WebKit focused acceptance is implied.",
+    "Screenshots bind the r1 source commit. Later fixes and the final source require their own current run evidence.",
+    "This is viewport-level visual review, not a claim of inspecting every pixel of every full page or judging animation smoothness from still images."
+  ],
+  "frames": [
+    {
+      "file": "002-home-320-no-preference-hero-filters.png",
+      "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/focused-chromium-r1/002-home-320-no-preference-hero-filters.png",
+      "group": "hero-upper-normal",
+      "sha256": "0584f0518695fa453226722986206bf48fc2562823c14e5ef6a69da10ec5e02c",
+      "actualDimensions": {
+        "width": 320,
+        "height": 844
+      },
+      "captureView": "002-home-320-no-preference",
+      "captureKind": "hero-filters",
+      "captureLoadedFlag": true,
+      "captureAcceptedForInspectionFlag": null,
+      "inspectionMethod": "Actual original PNG viewed using remote read_file and image detail=original",
+      "reviewedRegions": "Entire viewport screenshot, including title, visible fields/actions and background context",
+      "result": "No confirmed visual blocker within the reviewed viewport state",
+      "failureCaptureLimitation": false
+    },
+    {
+      "file": "004-home-390-no-preference-hero-filters.png",
+      "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/focused-chromium-r1/004-home-390-no-preference-hero-filters.png",
+      "group": "hero-upper-normal",
+      "sha256": "a9c2bb7c2f595a49cbf39c4d87255f3a0ce453433c0d5f44ad80429a2ecdc294",
+      "actualDimensions": {
+        "width": 390,
+        "height": 844
+      },
+      "captureView": "004-home-390-no-preference",
+      "captureKind": "hero-filters",
+      "captureLoadedFlag": true,
+      "captureAcceptedForInspectionFlag": null,
+      "inspectionMethod": "Actual original PNG viewed using remote read_file and image detail=original",
+      "reviewedRegions": "Entire viewport screenshot, including title, visible fields/actions and background context",
+      "result": "No confirmed visual blocker within the reviewed viewport state",
+      "failureCaptureLimitation": false
+    },
+    {
+      "file": "006-home-768-no-preference-hero-filters.png",
+      "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/focused-chromium-r1/006-home-768-no-preference-hero-filters.png",
+      "group": "hero-upper-normal",
+      "sha256": "1d9b90e94e59381e2612293841a18995ca1fd345f4f00bc4ae03937b72401ce2",
+      "actualDimensions": {
+        "width": 768,
+        "height": 1024
+      },
+      "captureView": "006-home-768-no-preference",
+      "captureKind": "hero-filters",
+      "captureLoadedFlag": true,
+      "captureAcceptedForInspectionFlag": null,
+      "inspectionMethod": "Actual original PNG viewed using remote read_file and image detail=original",
+      "reviewedRegions": "Entire viewport screenshot, including title, visible fields/actions and background context",
+      "result": "No confirmed visual blocker within the reviewed viewport state",
+      "failureCaptureLimitation": false
+    },
+    {
+      "file": "008-home-1440-no-preference-hero-filters.png",
+      "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/focused-chromium-r1/008-home-1440-no-preference-hero-filters.png",
+      "group": "hero-upper-normal",
+      "sha256": "d5e97191b936067a84966ba981c35c780ebe77ef663ed59e536c85d10de74261",
+      "actualDimensions": {
+        "width": 1440,
+        "height": 1000
+      },
+      "captureView": "008-home-1440-no-preference",
+      "captureKind": "hero-filters",
+      "captureLoadedFlag": true,
+      "captureAcceptedForInspectionFlag": null,
+      "inspectionMethod": "Actual original PNG viewed using remote read_file and image detail=original",
+      "reviewedRegions": "Entire viewport screenshot, including title, visible fields/actions and background context",
+      "result": "No confirmed visual blocker within the reviewed viewport state",
+      "failureCaptureLimitation": false
+    },
+    {
+      "file": "002-home-320-no-preference-top.png",
+      "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/focused-chromium-r1/002-home-320-no-preference-top.png",
+      "group": "home-top-normal",
+      "sha256": "5943204f851a0b759432c65b068405bc026ba84d3c86cb39d8aa256b24ec2045",
+      "actualDimensions": {
+        "width": 320,
+        "height": 844
+      },
+      "captureView": "002-home-320-no-preference",
+      "captureKind": "top",
+      "captureLoadedFlag": true,
+      "captureAcceptedForInspectionFlag": null,
+      "inspectionMethod": "Actual original PNG viewed using remote read_file and image detail=original",
+      "reviewedRegions": "Entire viewport screenshot, including title, visible fields/actions and background context",
+      "result": "No confirmed visual blocker within the reviewed viewport state",
+      "failureCaptureLimitation": false
+    },
+    {
+      "file": "004-home-390-no-preference-top.png",
+      "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/focused-chromium-r1/004-home-390-no-preference-top.png",
+      "group": "home-top-normal",
+      "sha256": "e2c9ae513205bf83186597a8a627b5686324e2e5d78d574fd93bbc8a472cd069",
+      "actualDimensions": {
+        "width": 390,
+        "height": 844
+      },
+      "captureView": "004-home-390-no-preference",
+      "captureKind": "top",
+      "captureLoadedFlag": true,
+      "captureAcceptedForInspectionFlag": null,
+      "inspectionMethod": "Actual original PNG viewed using remote read_file and image detail=original",
+      "reviewedRegions": "Entire viewport screenshot, including title, visible fields/actions and background context",
+      "result": "No confirmed visual blocker within the reviewed viewport state",
+      "failureCaptureLimitation": false
+    },
+    {
+      "file": "006-home-768-no-preference-top.png",
+      "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/focused-chromium-r1/006-home-768-no-preference-top.png",
+      "group": "home-top-normal",
+      "sha256": "cf69c7cce0145d81a4c001d44aba781a11ee094c899842dd48e0fbdbbf895101",
+      "actualDimensions": {
+        "width": 768,
+        "height": 1024
+      },
+      "captureView": "006-home-768-no-preference",
+      "captureKind": "top",
+      "captureLoadedFlag": true,
+      "captureAcceptedForInspectionFlag": null,
+      "inspectionMethod": "Actual original PNG viewed using remote read_file and image detail=original",
+      "reviewedRegions": "Entire viewport screenshot, including title, visible fields/actions and background context",
+      "result": "No confirmed visual blocker within the reviewed viewport state",
+      "failureCaptureLimitation": false
+    },
+    {
+      "file": "008-home-1440-no-preference-top.png",
+      "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/focused-chromium-r1/008-home-1440-no-preference-top.png",
+      "group": "home-top-normal",
+      "sha256": "b91f15f87586a070c6583de8e7916a4534b2f2f63c43c43cc2ef65661885998d",
+      "actualDimensions": {
+        "width": 1440,
+        "height": 1000
+      },
+      "captureView": "008-home-1440-no-preference",
+      "captureKind": "top",
+      "captureLoadedFlag": true,
+      "captureAcceptedForInspectionFlag": null,
+      "inspectionMethod": "Actual original PNG viewed using remote read_file and image detail=original",
+      "reviewedRegions": "Entire viewport screenshot, including title, visible fields/actions and background context",
+      "result": "No confirmed visual blocker within the reviewed viewport state",
+      "failureCaptureLimitation": false
+    },
+    {
+      "file": "001-home-320-reduce-incomplete-state.png",
+      "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/focused-chromium-r1/001-home-320-reduce-incomplete-state.png",
+      "group": "hero-upper-reduced-failure-capture",
+      "sha256": "b9e6a806da78264e5f19235956058417294bffa2cac36f8d52ab2f1a27fbba09",
+      "actualDimensions": {
+        "width": 320,
+        "height": 844
+      },
+      "captureView": "001-home-320-reduce",
+      "captureKind": "incomplete-state",
+      "captureLoadedFlag": false,
+      "captureAcceptedForInspectionFlag": false,
+      "inspectionMethod": "Actual original PNG viewed using remote read_file and image detail=original",
+      "reviewedRegions": "Entire viewport screenshot, including title, visible fields/actions and background context",
+      "result": "No confirmed visual blocker within the reviewed viewport state",
+      "failureCaptureLimitation": true
+    },
+    {
+      "file": "003-home-390-reduce-incomplete-state.png",
+      "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/focused-chromium-r1/003-home-390-reduce-incomplete-state.png",
+      "group": "hero-upper-reduced-failure-capture",
+      "sha256": "50e24c0acdadbb6616d718fce2dc595f01a59b41913e7b1baccfc99d4a4736ab",
+      "actualDimensions": {
+        "width": 390,
+        "height": 844
+      },
+      "captureView": "003-home-390-reduce",
+      "captureKind": "incomplete-state",
+      "captureLoadedFlag": false,
+      "captureAcceptedForInspectionFlag": false,
+      "inspectionMethod": "Actual original PNG viewed using remote read_file and image detail=original",
+      "reviewedRegions": "Entire viewport screenshot, including title, visible fields/actions and background context",
+      "result": "No confirmed visual blocker within the reviewed viewport state",
+      "failureCaptureLimitation": true
+    },
+    {
+      "file": "005-home-768-reduce-incomplete-state.png",
+      "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/focused-chromium-r1/005-home-768-reduce-incomplete-state.png",
+      "group": "hero-upper-reduced-failure-capture",
+      "sha256": "c35a6094948b3161e17fd68e8745cfba7bee434930e465de8e5d9185a09d9f73",
+      "actualDimensions": {
+        "width": 768,
+        "height": 1024
+      },
+      "captureView": "005-home-768-reduce",
+      "captureKind": "incomplete-state",
+      "captureLoadedFlag": false,
+      "captureAcceptedForInspectionFlag": false,
+      "inspectionMethod": "Actual original PNG viewed using remote read_file and image detail=original",
+      "reviewedRegions": "Entire viewport screenshot, including title, visible fields/actions and background context",
+      "result": "No confirmed visual blocker within the reviewed viewport state",
+      "failureCaptureLimitation": true
+    },
+    {
+      "file": "007-home-1440-reduce-incomplete-state.png",
+      "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/focused-chromium-r1/007-home-1440-reduce-incomplete-state.png",
+      "group": "hero-upper-reduced-failure-capture",
+      "sha256": "06a93b0531182baa4686dcbd1ebd99eb69f2ec401f3460481740163325593307",
+      "actualDimensions": {
+        "width": 1440,
+        "height": 1000
+      },
+      "captureView": "007-home-1440-reduce",
+      "captureKind": "incomplete-state",
+      "captureLoadedFlag": false,
+      "captureAcceptedForInspectionFlag": false,
+      "inspectionMethod": "Actual original PNG viewed using remote read_file and image detail=original",
+      "reviewedRegions": "Entire viewport screenshot, including title, visible fields/actions and background context",
+      "result": "No confirmed visual blocker within the reviewed viewport state",
+      "failureCaptureLimitation": true
+    },
+    {
+      "file": "010-catalogue-320-no-preference-catalogue-filters.png",
+      "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/focused-chromium-r1/010-catalogue-320-no-preference-catalogue-filters.png",
+      "group": "catalogue-upper-normal",
+      "sha256": "0ce4ff3d03c20f27adbd4133b41274806503376128cb52610e1cb55a4f5325f0",
+      "actualDimensions": {
+        "width": 320,
+        "height": 844
+      },
+      "captureView": "010-catalogue-320-no-preference",
+      "captureKind": "catalogue-filters",
+      "captureLoadedFlag": true,
+      "captureAcceptedForInspectionFlag": null,
+      "inspectionMethod": "Actual original PNG viewed using remote read_file and image detail=original",
+      "reviewedRegions": "Entire viewport screenshot, including title, visible fields/actions and background context",
+      "result": "No confirmed visual blocker within the reviewed viewport state",
+      "failureCaptureLimitation": false
+    },
+    {
+      "file": "012-catalogue-390-no-preference-catalogue-filters.png",
+      "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/focused-chromium-r1/012-catalogue-390-no-preference-catalogue-filters.png",
+      "group": "catalogue-upper-normal",
+      "sha256": "1cfce50c66566793790067e9465be973c36cde0b302d8f0df44d1faf156651b3",
+      "actualDimensions": {
+        "width": 390,
+        "height": 844
+      },
+      "captureView": "012-catalogue-390-no-preference",
+      "captureKind": "catalogue-filters",
+      "captureLoadedFlag": true,
+      "captureAcceptedForInspectionFlag": null,
+      "inspectionMethod": "Actual original PNG viewed using remote read_file and image detail=original",
+      "reviewedRegions": "Entire viewport screenshot, including title, visible fields/actions and background context",
+      "result": "No confirmed visual blocker within the reviewed viewport state",
+      "failureCaptureLimitation": false
+    },
+    {
+      "file": "014-catalogue-768-no-preference-catalogue-filters.png",
+      "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/focused-chromium-r1/014-catalogue-768-no-preference-catalogue-filters.png",
+      "group": "catalogue-upper-normal",
+      "sha256": "a5cc45656dd353b3d4ac0b802dcb628a20cca927342195bd77227ff2655a1d88",
+      "actualDimensions": {
+        "width": 768,
+        "height": 1024
+      },
+      "captureView": "014-catalogue-768-no-preference",
+      "captureKind": "catalogue-filters",
+      "captureLoadedFlag": true,
+      "captureAcceptedForInspectionFlag": null,
+      "inspectionMethod": "Actual original PNG viewed using remote read_file and image detail=original",
+      "reviewedRegions": "Entire viewport screenshot, including title, visible fields/actions and background context",
+      "result": "No confirmed visual blocker within the reviewed viewport state",
+      "failureCaptureLimitation": false
+    },
+    {
+      "file": "016-catalogue-1440-no-preference-catalogue-filters.png",
+      "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/focused-chromium-r1/016-catalogue-1440-no-preference-catalogue-filters.png",
+      "group": "catalogue-upper-normal",
+      "sha256": "d660567f4e6d7e1831f4c7814a8de616e9d5b6cc186914e898ef92c916ca1843",
+      "actualDimensions": {
+        "width": 1440,
+        "height": 1000
+      },
+      "captureView": "016-catalogue-1440-no-preference",
+      "captureKind": "catalogue-filters",
+      "captureLoadedFlag": true,
+      "captureAcceptedForInspectionFlag": null,
+      "inspectionMethod": "Actual original PNG viewed using remote read_file and image detail=original",
+      "reviewedRegions": "Entire viewport screenshot, including title, visible fields/actions and background context",
+      "result": "No confirmed visual blocker within the reviewed viewport state",
+      "failureCaptureLimitation": false
+    },
+    {
+      "file": "012-catalogue-390-no-preference-content.png",
+      "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/focused-chromium-r1/012-catalogue-390-no-preference-content.png",
+      "group": "catalogue-grid-and-page-top-normal",
+      "sha256": "9245b812d38da01f71ffbb045447d29c606b8de6263119722b1ebd1979d92221",
+      "actualDimensions": {
+        "width": 390,
+        "height": 844
+      },
+      "captureView": "012-catalogue-390-no-preference",
+      "captureKind": "content",
+      "captureLoadedFlag": true,
+      "captureAcceptedForInspectionFlag": null,
+      "inspectionMethod": "Actual original PNG viewed using remote read_file and image detail=original",
+      "reviewedRegions": "Entire viewport screenshot, including title, visible fields/actions and background context",
+      "result": "No confirmed visual blocker within the reviewed viewport state",
+      "failureCaptureLimitation": false
+    },
+    {
+      "file": "016-catalogue-1440-no-preference-content.png",
+      "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/focused-chromium-r1/016-catalogue-1440-no-preference-content.png",
+      "group": "catalogue-grid-and-page-top-normal",
+      "sha256": "16fa49cfd325980baa032f0d0a5b4a989df76d8c8a80579b0ed8d8640461bcca",
+      "actualDimensions": {
+        "width": 1440,
+        "height": 1000
+      },
+      "captureView": "016-catalogue-1440-no-preference",
+      "captureKind": "content",
+      "captureLoadedFlag": true,
+      "captureAcceptedForInspectionFlag": null,
+      "inspectionMethod": "Actual original PNG viewed using remote read_file and image detail=original",
+      "reviewedRegions": "Entire viewport screenshot, including title, visible fields/actions and background context",
+      "result": "No confirmed visual blocker within the reviewed viewport state",
+      "failureCaptureLimitation": false
+    },
+    {
+      "file": "010-catalogue-320-no-preference-top.png",
+      "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/focused-chromium-r1/010-catalogue-320-no-preference-top.png",
+      "group": "catalogue-grid-and-page-top-normal",
+      "sha256": "43dfd23c70af884d3a8c550407eeea578c4f7d0acad89cd7285b712dc111b1ae",
+      "actualDimensions": {
+        "width": 320,
+        "height": 844
+      },
+      "captureView": "010-catalogue-320-no-preference",
+      "captureKind": "top",
+      "captureLoadedFlag": true,
+      "captureAcceptedForInspectionFlag": null,
+      "inspectionMethod": "Actual original PNG viewed using remote read_file and image detail=original",
+      "reviewedRegions": "Entire viewport screenshot, including title, visible fields/actions and background context",
+      "result": "No confirmed visual blocker within the reviewed viewport state",
+      "failureCaptureLimitation": false
+    },
+    {
+      "file": "014-catalogue-768-no-preference-top.png",
+      "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/focused-chromium-r1/014-catalogue-768-no-preference-top.png",
+      "group": "catalogue-grid-and-page-top-normal",
+      "sha256": "69d2896f067caca2003b4db21330ef26581943e5520a054c88a5d05eaafbde9c",
+      "actualDimensions": {
+        "width": 768,
+        "height": 1024
+      },
+      "captureView": "014-catalogue-768-no-preference",
+      "captureKind": "top",
+      "captureLoadedFlag": true,
+      "captureAcceptedForInspectionFlag": null,
+      "inspectionMethod": "Actual original PNG viewed using remote read_file and image detail=original",
+      "reviewedRegions": "Entire viewport screenshot, including title, visible fields/actions and background context",
+      "result": "No confirmed visual blocker within the reviewed viewport state",
+      "failureCaptureLimitation": false
+    }
+  ]
+}

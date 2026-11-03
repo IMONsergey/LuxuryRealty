@@ -1,0 +1,81 @@
+{
+  "reviewer": "/root/filters_ux",
+  "writtenAt": "2026-11-03T15:38:41.499Z",
+  "screenshotDirectory": "artifacts/interaction-system-20261103/focused-chromium-r1",
+  "engine": "Chromium",
+  "method": "Opened each listed source PNG with Desktop Commander read_file and visually inspected the returned image. This list comes from actual tool calls; it is not the complete screenshot inventory.",
+  "reviewedPngs": [
+    "020-about-390-no-preference-content.png",
+    "020-about-390-no-preference-team-biography.png",
+    "021-about-1440-no-preference-content.png",
+    "021-about-1440-no-preference-detail.png",
+    "022-services-390-no-preference-top.png",
+    "022-services-390-no-preference-content.png",
+    "023-services-1440-no-preference-content.png",
+    "023-services-1440-no-preference-full.png",
+    "024-sell-390-no-preference-top.png",
+    "024-sell-390-no-preference-content.png",
+    "024-sell-390-no-preference-form-validation-submit.png",
+    "025-sell-768-no-preference-form-validation-submit.png",
+    "026-contacts-320-no-preference-form-validation-submit.png",
+    "027-contacts-390-no-preference-top.png",
+    "027-contacts-390-no-preference-content.png",
+    "028-contacts-1440-no-preference-form-validation-submit.png",
+    "029-developments-390-no-preference-top.png",
+    "029-developments-390-no-preference-content.png",
+    "030-developments-1440-no-preference-top.png",
+    "030-developments-1440-no-preference-content.png",
+    "031-insights-390-no-preference-top.png",
+    "031-insights-390-no-preference-content.png",
+    "032-insights-1440-no-preference-content.png",
+    "032-insights-1440-no-preference-full.png",
+    "033-article-390-no-preference-top.png",
+    "033-article-390-no-preference-content.png",
+    "034-privacy-390-reduce-top.png",
+    "034-privacy-390-reduce-content.png",
+    "035-not-found-390-reduce-top.png",
+    "035-not-found-390-reduce-full.png",
+    "020-about-390-no-preference-top.png",
+    "021-about-1440-no-preference-top.png",
+    "025-sell-768-no-preference-top.png",
+    "033-article-390-no-preference-full.png"
+  ],
+  "assessment": {
+    "coveredCases": "020–035; shared templates on the supplied widths and captured states only.",
+    "observed": "No broken grid, overlapping controls or text clipped by its container was found in these reviewed states, apart from the phone placeholder noted below. Form labels, errors and submit buttons fit the 320/390 captures. About team rows and open biography, service rows, developments cards, insight grids, privacy and 404 remained visually coherent.",
+    "blockersFound": 0
+  },
+  "issues": [
+    {
+      "id": "shared-phone-placeholder",
+      "severity": "minor visual polish",
+      "observedIn": [
+        "024-sell-390-no-preference-form-validation-submit.png",
+        "025-sell-768-no-preference-form-validation-submit.png",
+        "026-contacts-320-no-preference-form-validation-submit.png",
+        "028-contacts-1440-no-preference-form-validation-submit.png"
+      ],
+      "finding": "The long phone placeholder 'Country code and phone number' is truncated in narrow inputs; its visible label and the input control remain usable.",
+      "resolution": "Root reported shortening the placeholder to 'Country code + number'. The change is not part of the reviewed r1 images.",
+      "verification": "Final screenshot verification pending; no post-fix image inspected by this reviewer yet."
+    },
+    {
+      "id": "article-heading-orphans",
+      "severity": "minor visual polish",
+      "observedIn": [
+        "033-article-390-no-preference-top.png",
+        "033-article-390-no-preference-content.png",
+        "033-article-390-no-preference-full.png"
+      ],
+      "finding": "The article title leaves 'in' alone on its second line; the first section heading similarly leaves 'live' alone.",
+      "recommendation": ".article-heading h1,.article-prose h2{text-wrap:balance}, scoped to article headings without changing copy or font sizes.",
+      "resolution": "Root reported applying the scoped article heading balancing before the final build.",
+      "verification": "Final screenshot verification pending; no post-fix image inspected by this reviewer yet."
+    }
+  ],
+  "limits": [
+    "This receipt records visual inspection, not browser interactions, automated accessibility certification or test execution.",
+    "No WebKit images were opened for this receipt.",
+    "The subsequent compact catalogue hero/chips changes are outside these shared-template screenshots and require their own final geometry review."
+  ]
+}

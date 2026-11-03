@@ -1,0 +1,1356 @@
+{
+  "purpose": "Diagnostic only: native dialog focus boundary and first-frame animations",
+  "source": "1cc69a957d9a1c9b4c5852fa57ca05b1b7b766c2",
+  "url": "https://luxury-realty-imon-k7fig3pzn-cdo-2844s-projects.vercel.app/",
+  "modes": [
+    {
+      "motion": "reduce",
+      "trace": [
+        {
+          "ms": 5.899999991059303,
+          "open": false,
+          "reduce": true,
+          "opacity": "1",
+          "transform": "none",
+          "animations": []
+        },
+        {
+          "ms": 210.09999999403954,
+          "open": true,
+          "reduce": true,
+          "opacity": "1",
+          "transform": "none",
+          "animations": [
+            {
+              "kind": "CSSTransition",
+              "property": "scrollbar-color",
+              "playState": "running",
+              "target": {
+                "tag": "DIALOG",
+                "id": "hero-filter-dialog",
+                "class": "filter-dialog"
+              },
+              "pseudoElement": null,
+              "duration": 0.01,
+              "endTime": 0.01,
+              "keyframes": [
+                {
+                  "offset": 0,
+                  "easing": "linear",
+                  "composite": "auto",
+                  "scrollbarColor": "rgba(255, 255, 255, 0.196) rgba(0, 0, 0, 0)",
+                  "computedOffset": 0
+                },
+                {
+                  "offset": 1,
+                  "easing": "linear",
+                  "composite": "auto",
+                  "scrollbarColor": "rgba(255, 255, 255, 0.196) rgba(0, 0, 0, 0)",
+                  "computedOffset": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "focus": [
+        {
+          "label": "initial",
+          "hasFocus": true,
+          "active": {
+            "tag": "BUTTON",
+            "id": "",
+            "class": "round-control filter-dialog-close",
+            "name": null,
+            "type": "button",
+            "label": "Close property filters"
+          },
+          "dialog": "hero-filter-dialog",
+          "open": true
+        },
+        {
+          "label": "0:Shift+Tab",
+          "hasFocus": false,
+          "active": {
+            "tag": "BODY",
+            "id": "",
+            "class": "home-page dialog-open",
+            "name": null,
+            "type": null,
+            "label": null
+          },
+          "dialog": null,
+          "open": true
+        },
+        {
+          "label": "1:Tab",
+          "hasFocus": true,
+          "active": {
+            "tag": "BUTTON",
+            "id": "",
+            "class": "round-control filter-dialog-close",
+            "name": null,
+            "type": "button",
+            "label": "Close property filters"
+          },
+          "dialog": "hero-filter-dialog",
+          "open": true
+        },
+        {
+          "label": "2:Tab",
+          "hasFocus": true,
+          "active": {
+            "tag": "INPUT",
+            "id": "",
+            "class": "",
+            "name": "purpose",
+            "type": "radio",
+            "label": null
+          },
+          "dialog": "hero-filter-dialog",
+          "open": true
+        },
+        {
+          "label": "3:Tab",
+          "hasFocus": true,
+          "active": {
+            "tag": "INPUT",
+            "id": "",
+            "class": "",
+            "name": "q",
+            "type": "search",
+            "label": null
+          },
+          "dialog": "hero-filter-dialog",
+          "open": true
+        },
+        {
+          "label": "4:Tab",
+          "hasFocus": true,
+          "active": {
+            "tag": "SELECT",
+            "id": "",
+            "class": "",
+            "name": "location",
+            "type": null,
+            "label": null
+          },
+          "dialog": "hero-filter-dialog",
+          "open": true
+        },
+        {
+          "label": "5:Tab",
+          "hasFocus": true,
+          "active": {
+            "tag": "INPUT",
+            "id": "",
+            "class": "",
+            "name": "type",
+            "type": "checkbox",
+            "label": null
+          },
+          "dialog": "hero-filter-dialog",
+          "open": true
+        },
+        {
+          "label": "6:Tab",
+          "hasFocus": true,
+          "active": {
+            "tag": "INPUT",
+            "id": "",
+            "class": "",
+            "name": "type",
+            "type": "checkbox",
+            "label": null
+          },
+          "dialog": "hero-filter-dialog",
+          "open": true
+        },
+        {
+          "label": "7:Tab",
+          "hasFocus": true,
+          "active": {
+            "tag": "INPUT",
+            "id": "",
+            "class": "",
+            "name": "type",
+            "type": "checkbox",
+            "label": null
+          },
+          "dialog": "hero-filter-dialog",
+          "open": true
+        },
+        {
+          "label": "8:Tab",
+          "hasFocus": true,
+          "active": {
+            "tag": "INPUT",
+            "id": "",
+            "class": "",
+            "name": "type",
+            "type": "checkbox",
+            "label": null
+          },
+          "dialog": "hero-filter-dialog",
+          "open": true
+        },
+        {
+          "label": "9:Tab",
+          "hasFocus": true,
+          "active": {
+            "tag": "INPUT",
+            "id": "",
+            "class": "",
+            "name": "bedrooms",
+            "type": "checkbox",
+            "label": "1 bedroom"
+          },
+          "dialog": "hero-filter-dialog",
+          "open": true
+        }
+      ],
+      "closed": {
+        "label": "closed",
+        "hasFocus": true,
+        "active": {
+          "tag": "A",
+          "id": "",
+          "class": "hero-mobile-search button button--solid",
+          "name": null,
+          "type": null,
+          "label": null
+        },
+        "dialog": null,
+        "open": false
+      }
+    },
+    {
+      "motion": "no-preference",
+      "trace": [
+        {
+          "ms": 48.5,
+          "open": true,
+          "reduce": false,
+          "opacity": "0",
+          "transform": "matrix(0.985, 0, 0, 0.985, 0, 14)",
+          "animations": [
+            {
+              "kind": "CSSAnimation",
+              "name": "backdrop-in",
+              "playState": "running",
+              "target": {
+                "tag": "DIALOG",
+                "id": "hero-filter-dialog",
+                "class": "filter-dialog"
+              },
+              "pseudoElement": "::backdrop",
+              "duration": 240,
+              "endTime": 240,
+              "keyframes": [
+                {
+                  "offset": 0,
+                  "easing": "ease-out",
+                  "composite": "auto",
+                  "opacity": "0",
+                  "computedOffset": 0
+                },
+                {
+                  "offset": 1,
+                  "easing": "ease-out",
+                  "composite": "auto",
+                  "opacity": "1",
+                  "computedOffset": 1
+                }
+              ]
+            },
+            {
+              "kind": "Animation",
+              "playState": "running",
+              "target": {
+                "tag": "DIALOG",
+                "id": "hero-filter-dialog",
+                "class": "filter-dialog"
+              },
+              "pseudoElement": null,
+              "duration": 240,
+              "endTime": 240,
+              "keyframes": [
+                {
+                  "offset": null,
+                  "easing": "linear",
+                  "composite": "auto",
+                  "opacity": "0",
+                  "transform": "translateY(14px) scale(0.985)",
+                  "computedOffset": 0
+                },
+                {
+                  "offset": null,
+                  "easing": "linear",
+                  "composite": "auto",
+                  "opacity": "1",
+                  "transform": "none",
+                  "computedOffset": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ms": 52.79999999701977,
+          "open": true,
+          "reduce": false,
+          "opacity": "0",
+          "transform": "matrix(0.985, 0, 0, 0.985, 0, 14)",
+          "animations": [
+            {
+              "kind": "CSSAnimation",
+              "name": "backdrop-in",
+              "playState": "running",
+              "target": {
+                "tag": "DIALOG",
+                "id": "hero-filter-dialog",
+                "class": "filter-dialog"
+              },
+              "pseudoElement": "::backdrop",
+              "duration": 240,
+              "endTime": 240,
+              "keyframes": [
+                {
+                  "offset": 0,
+                  "easing": "ease-out",
+                  "composite": "auto",
+                  "opacity": "0",
+                  "computedOffset": 0
+                },
+                {
+                  "offset": 1,
+                  "easing": "ease-out",
+                  "composite": "auto",
+                  "opacity": "1",
+                  "computedOffset": 1
+                }
+              ]
+            },
+            {
+              "kind": "Animation",
+              "playState": "running",
+              "target": {
+                "tag": "DIALOG",
+                "id": "hero-filter-dialog",
+                "class": "filter-dialog"
+              },
+              "pseudoElement": null,
+              "duration": 240,
+              "endTime": 240,
+              "keyframes": [
+                {
+                  "offset": null,
+                  "easing": "linear",
+                  "composite": "auto",
+                  "opacity": "0",
+                  "transform": "translateY(14px) scale(0.985)",
+                  "computedOffset": 0
+                },
+                {
+                  "offset": null,
+                  "easing": "linear",
+                  "composite": "auto",
+                  "opacity": "1",
+                  "transform": "none",
+                  "computedOffset": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ms": 68.79999999701977,
+          "open": true,
+          "reduce": false,
+          "opacity": "0",
+          "transform": "matrix(0.985, 0, 0, 0.985, 0, 14)",
+          "animations": [
+            {
+              "kind": "CSSAnimation",
+              "name": "backdrop-in",
+              "playState": "running",
+              "target": {
+                "tag": "DIALOG",
+                "id": "hero-filter-dialog",
+                "class": "filter-dialog"
+              },
+              "pseudoElement": "::backdrop",
+              "duration": 240,
+              "endTime": 240,
+              "keyframes": [
+                {
+                  "offset": 0,
+                  "easing": "ease-out",
+                  "composite": "auto",
+                  "opacity": "0",
+                  "computedOffset": 0
+                },
+                {
+                  "offset": 1,
+                  "easing": "ease-out",
+                  "composite": "auto",
+                  "opacity": "1",
+                  "computedOffset": 1
+                }
+              ]
+            },
+            {
+              "kind": "Animation",
+              "playState": "running",
+              "target": {
+                "tag": "DIALOG",
+                "id": "hero-filter-dialog",
+                "class": "filter-dialog"
+              },
+              "pseudoElement": null,
+              "duration": 240,
+              "endTime": 240,
+              "keyframes": [
+                {
+                  "offset": null,
+                  "easing": "linear",
+                  "composite": "auto",
+                  "opacity": "0",
+                  "transform": "translateY(14px) scale(0.985)",
+                  "computedOffset": 0
+                },
+                {
+                  "offset": null,
+                  "easing": "linear",
+                  "composite": "auto",
+                  "opacity": "1",
+                  "transform": "none",
+                  "computedOffset": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ms": 87.8999999910593,
+          "open": true,
+          "reduce": false,
+          "opacity": "0.291095",
+          "transform": "matrix(0.989366, 0, 0, 0.989366, 0, 9.92467)",
+          "animations": [
+            {
+              "kind": "CSSAnimation",
+              "name": "backdrop-in",
+              "playState": "running",
+              "target": {
+                "tag": "DIALOG",
+                "id": "hero-filter-dialog",
+                "class": "filter-dialog"
+              },
+              "pseudoElement": "::backdrop",
+              "duration": 240,
+              "endTime": 240,
+              "keyframes": [
+                {
+                  "offset": 0,
+                  "easing": "ease-out",
+                  "composite": "auto",
+                  "opacity": "0",
+                  "computedOffset": 0
+                },
+                {
+                  "offset": 1,
+                  "easing": "ease-out",
+                  "composite": "auto",
+                  "opacity": "1",
+                  "computedOffset": 1
+                }
+              ]
+            },
+            {
+              "kind": "Animation",
+              "playState": "running",
+              "target": {
+                "tag": "DIALOG",
+                "id": "hero-filter-dialog",
+                "class": "filter-dialog"
+              },
+              "pseudoElement": null,
+              "duration": 240,
+              "endTime": 240,
+              "keyframes": [
+                {
+                  "offset": null,
+                  "easing": "linear",
+                  "composite": "auto",
+                  "opacity": "0",
+                  "transform": "translateY(14px) scale(0.985)",
+                  "computedOffset": 0
+                },
+                {
+                  "offset": null,
+                  "easing": "linear",
+                  "composite": "auto",
+                  "opacity": "1",
+                  "transform": "none",
+                  "computedOffset": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ms": 107,
+          "open": true,
+          "reduce": false,
+          "opacity": "0.522112",
+          "transform": "matrix(0.992832, 0, 0, 0.992832, 0, 6.69043)",
+          "animations": [
+            {
+              "kind": "CSSAnimation",
+              "name": "backdrop-in",
+              "playState": "running",
+              "target": {
+                "tag": "DIALOG",
+                "id": "hero-filter-dialog",
+                "class": "filter-dialog"
+              },
+              "pseudoElement": "::backdrop",
+              "duration": 240,
+              "endTime": 240,
+              "keyframes": [
+                {
+                  "offset": 0,
+                  "easing": "ease-out",
+                  "composite": "auto",
+                  "opacity": "0",
+                  "computedOffset": 0
+                },
+                {
+                  "offset": 1,
+                  "easing": "ease-out",
+                  "composite": "auto",
+                  "opacity": "1",
+                  "computedOffset": 1
+                }
+              ]
+            },
+            {
+              "kind": "Animation",
+              "playState": "running",
+              "target": {
+                "tag": "DIALOG",
+                "id": "hero-filter-dialog",
+                "class": "filter-dialog"
+              },
+              "pseudoElement": null,
+              "duration": 240,
+              "endTime": 240,
+              "keyframes": [
+                {
+                  "offset": null,
+                  "easing": "linear",
+                  "composite": "auto",
+                  "opacity": "0",
+                  "transform": "translateY(14px) scale(0.985)",
+                  "computedOffset": 0
+                },
+                {
+                  "offset": null,
+                  "easing": "linear",
+                  "composite": "auto",
+                  "opacity": "1",
+                  "transform": "none",
+                  "computedOffset": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ms": 124.70000000298023,
+          "open": true,
+          "reduce": false,
+          "opacity": "0.690698",
+          "transform": "matrix(0.99536, 0, 0, 0.99536, 0, 4.33023)",
+          "animations": [
+            {
+              "kind": "CSSAnimation",
+              "name": "backdrop-in",
+              "playState": "running",
+              "target": {
+                "tag": "DIALOG",
+                "id": "hero-filter-dialog",
+                "class": "filter-dialog"
+              },
+              "pseudoElement": "::backdrop",
+              "duration": 240,
+              "endTime": 240,
+              "keyframes": [
+                {
+                  "offset": 0,
+                  "easing": "ease-out",
+                  "composite": "auto",
+                  "opacity": "0",
+                  "computedOffset": 0
+                },
+                {
+                  "offset": 1,
+                  "easing": "ease-out",
+                  "composite": "auto",
+                  "opacity": "1",
+                  "computedOffset": 1
+                }
+              ]
+            },
+            {
+              "kind": "Animation",
+              "playState": "running",
+              "target": {
+                "tag": "DIALOG",
+                "id": "hero-filter-dialog",
+                "class": "filter-dialog"
+              },
+              "pseudoElement": null,
+              "duration": 240,
+              "endTime": 240,
+              "keyframes": [
+                {
+                  "offset": null,
+                  "easing": "linear",
+                  "composite": "auto",
+                  "opacity": "0",
+                  "transform": "translateY(14px) scale(0.985)",
+                  "computedOffset": 0
+                },
+                {
+                  "offset": null,
+                  "easing": "linear",
+                  "composite": "auto",
+                  "opacity": "1",
+                  "transform": "none",
+                  "computedOffset": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ms": 161.5,
+          "open": true,
+          "reduce": false,
+          "opacity": "0.804792",
+          "transform": "matrix(0.997072, 0, 0, 0.997072, 0, 2.73291)",
+          "animations": [
+            {
+              "kind": "CSSAnimation",
+              "name": "backdrop-in",
+              "playState": "running",
+              "target": {
+                "tag": "DIALOG",
+                "id": "hero-filter-dialog",
+                "class": "filter-dialog"
+              },
+              "pseudoElement": "::backdrop",
+              "duration": 240,
+              "endTime": 240,
+              "keyframes": [
+                {
+                  "offset": 0,
+                  "easing": "ease-out",
+                  "composite": "auto",
+                  "opacity": "0",
+                  "computedOffset": 0
+                },
+                {
+                  "offset": 1,
+                  "easing": "ease-out",
+                  "composite": "auto",
+                  "opacity": "1",
+                  "computedOffset": 1
+                }
+              ]
+            },
+            {
+              "kind": "Animation",
+              "playState": "running",
+              "target": {
+                "tag": "DIALOG",
+                "id": "hero-filter-dialog",
+                "class": "filter-dialog"
+              },
+              "pseudoElement": null,
+              "duration": 240,
+              "endTime": 240,
+              "keyframes": [
+                {
+                  "offset": null,
+                  "easing": "linear",
+                  "composite": "auto",
+                  "opacity": "0",
+                  "transform": "translateY(14px) scale(0.985)",
+                  "computedOffset": 0
+                },
+                {
+                  "offset": null,
+                  "easing": "linear",
+                  "composite": "auto",
+                  "opacity": "1",
+                  "transform": "none",
+                  "computedOffset": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ms": 176.20000000298023,
+          "open": true,
+          "reduce": false,
+          "opacity": "0.926837",
+          "transform": "matrix(0.998903, 0, 0, 0.998903, 0, 1.02428)",
+          "animations": [
+            {
+              "kind": "CSSAnimation",
+              "name": "backdrop-in",
+              "playState": "running",
+              "target": {
+                "tag": "DIALOG",
+                "id": "hero-filter-dialog",
+                "class": "filter-dialog"
+              },
+              "pseudoElement": "::backdrop",
+              "duration": 240,
+              "endTime": 240,
+              "keyframes": [
+                {
+                  "offset": 0,
+                  "easing": "ease-out",
+                  "composite": "auto",
+                  "opacity": "0",
+                  "computedOffset": 0
+                },
+                {
+                  "offset": 1,
+                  "easing": "ease-out",
+                  "composite": "auto",
+                  "opacity": "1",
+                  "computedOffset": 1
+                }
+              ]
+            },
+            {
+              "kind": "Animation",
+              "playState": "running",
+              "target": {
+                "tag": "DIALOG",
+                "id": "hero-filter-dialog",
+                "class": "filter-dialog"
+              },
+              "pseudoElement": null,
+              "duration": 240,
+              "endTime": 240,
+              "keyframes": [
+                {
+                  "offset": null,
+                  "easing": "linear",
+                  "composite": "auto",
+                  "opacity": "0",
+                  "transform": "translateY(14px) scale(0.985)",
+                  "computedOffset": 0
+                },
+                {
+                  "offset": null,
+                  "easing": "linear",
+                  "composite": "auto",
+                  "opacity": "1",
+                  "transform": "none",
+                  "computedOffset": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ms": 191.70000000298023,
+          "open": true,
+          "reduce": false,
+          "opacity": "0.956857",
+          "transform": "matrix(0.999353, 0, 0, 0.999353, 0, 0.603997)",
+          "animations": [
+            {
+              "kind": "CSSAnimation",
+              "name": "backdrop-in",
+              "playState": "running",
+              "target": {
+                "tag": "DIALOG",
+                "id": "hero-filter-dialog",
+                "class": "filter-dialog"
+              },
+              "pseudoElement": "::backdrop",
+              "duration": 240,
+              "endTime": 240,
+              "keyframes": [
+                {
+                  "offset": 0,
+                  "easing": "ease-out",
+                  "composite": "auto",
+                  "opacity": "0",
+                  "computedOffset": 0
+                },
+                {
+                  "offset": 1,
+                  "easing": "ease-out",
+                  "composite": "auto",
+                  "opacity": "1",
+                  "computedOffset": 1
+                }
+              ]
+            },
+            {
+              "kind": "Animation",
+              "playState": "running",
+              "target": {
+                "tag": "DIALOG",
+                "id": "hero-filter-dialog",
+                "class": "filter-dialog"
+              },
+              "pseudoElement": null,
+              "duration": 240,
+              "endTime": 240,
+              "keyframes": [
+                {
+                  "offset": null,
+                  "easing": "linear",
+                  "composite": "auto",
+                  "opacity": "0",
+                  "transform": "translateY(14px) scale(0.985)",
+                  "computedOffset": 0
+                },
+                {
+                  "offset": null,
+                  "easing": "linear",
+                  "composite": "auto",
+                  "opacity": "1",
+                  "transform": "none",
+                  "computedOffset": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ms": 205.8999999910593,
+          "open": true,
+          "reduce": false,
+          "opacity": "0.975711",
+          "transform": "matrix(0.999636, 0, 0, 0.999636, 0, 0.340047)",
+          "animations": [
+            {
+              "kind": "CSSAnimation",
+              "name": "backdrop-in",
+              "playState": "running",
+              "target": {
+                "tag": "DIALOG",
+                "id": "hero-filter-dialog",
+                "class": "filter-dialog"
+              },
+              "pseudoElement": "::backdrop",
+              "duration": 240,
+              "endTime": 240,
+              "keyframes": [
+                {
+                  "offset": 0,
+                  "easing": "ease-out",
+                  "composite": "auto",
+                  "opacity": "0",
+                  "computedOffset": 0
+                },
+                {
+                  "offset": 1,
+                  "easing": "ease-out",
+                  "composite": "auto",
+                  "opacity": "1",
+                  "computedOffset": 1
+                }
+              ]
+            },
+            {
+              "kind": "Animation",
+              "playState": "running",
+              "target": {
+                "tag": "DIALOG",
+                "id": "hero-filter-dialog",
+                "class": "filter-dialog"
+              },
+              "pseudoElement": null,
+              "duration": 240,
+              "endTime": 240,
+              "keyframes": [
+                {
+                  "offset": null,
+                  "easing": "linear",
+                  "composite": "auto",
+                  "opacity": "0",
+                  "transform": "translateY(14px) scale(0.985)",
+                  "computedOffset": 0
+                },
+                {
+                  "offset": null,
+                  "easing": "linear",
+                  "composite": "auto",
+                  "opacity": "1",
+                  "transform": "none",
+                  "computedOffset": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ms": 225.59999999403954,
+          "open": true,
+          "reduce": false,
+          "opacity": "0.987115",
+          "transform": "matrix(0.999807, 0, 0, 0.999807, 0, 0.180393)",
+          "animations": [
+            {
+              "kind": "CSSAnimation",
+              "name": "backdrop-in",
+              "playState": "running",
+              "target": {
+                "tag": "DIALOG",
+                "id": "hero-filter-dialog",
+                "class": "filter-dialog"
+              },
+              "pseudoElement": "::backdrop",
+              "duration": 240,
+              "endTime": 240,
+              "keyframes": [
+                {
+                  "offset": 0,
+                  "easing": "ease-out",
+                  "composite": "auto",
+                  "opacity": "0",
+                  "computedOffset": 0
+                },
+                {
+                  "offset": 1,
+                  "easing": "ease-out",
+                  "composite": "auto",
+                  "opacity": "1",
+                  "computedOffset": 1
+                }
+              ]
+            },
+            {
+              "kind": "Animation",
+              "playState": "running",
+              "target": {
+                "tag": "DIALOG",
+                "id": "hero-filter-dialog",
+                "class": "filter-dialog"
+              },
+              "pseudoElement": null,
+              "duration": 240,
+              "endTime": 240,
+              "keyframes": [
+                {
+                  "offset": null,
+                  "easing": "linear",
+                  "composite": "auto",
+                  "opacity": "0",
+                  "transform": "translateY(14px) scale(0.985)",
+                  "computedOffset": 0
+                },
+                {
+                  "offset": null,
+                  "easing": "linear",
+                  "composite": "auto",
+                  "opacity": "1",
+                  "transform": "none",
+                  "computedOffset": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ms": 241.5,
+          "open": true,
+          "reduce": false,
+          "opacity": "0.993809",
+          "transform": "matrix(0.999907, 0, 0, 0.999907, 0, 0.0866779)",
+          "animations": [
+            {
+              "kind": "CSSAnimation",
+              "name": "backdrop-in",
+              "playState": "running",
+              "target": {
+                "tag": "DIALOG",
+                "id": "hero-filter-dialog",
+                "class": "filter-dialog"
+              },
+              "pseudoElement": "::backdrop",
+              "duration": 240,
+              "endTime": 240,
+              "keyframes": [
+                {
+                  "offset": 0,
+                  "easing": "ease-out",
+                  "composite": "auto",
+                  "opacity": "0",
+                  "computedOffset": 0
+                },
+                {
+                  "offset": 1,
+                  "easing": "ease-out",
+                  "composite": "auto",
+                  "opacity": "1",
+                  "computedOffset": 1
+                }
+              ]
+            },
+            {
+              "kind": "Animation",
+              "playState": "running",
+              "target": {
+                "tag": "DIALOG",
+                "id": "hero-filter-dialog",
+                "class": "filter-dialog"
+              },
+              "pseudoElement": null,
+              "duration": 240,
+              "endTime": 240,
+              "keyframes": [
+                {
+                  "offset": null,
+                  "easing": "linear",
+                  "composite": "auto",
+                  "opacity": "0",
+                  "transform": "translateY(14px) scale(0.985)",
+                  "computedOffset": 0
+                },
+                {
+                  "offset": null,
+                  "easing": "linear",
+                  "composite": "auto",
+                  "opacity": "1",
+                  "transform": "none",
+                  "computedOffset": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ms": 280,
+          "open": true,
+          "reduce": false,
+          "opacity": "0.999184",
+          "transform": "matrix(0.999988, 0, 0, 0.999988, 0, 0.0114303)",
+          "animations": [
+            {
+              "kind": "CSSAnimation",
+              "name": "backdrop-in",
+              "playState": "running",
+              "target": {
+                "tag": "DIALOG",
+                "id": "hero-filter-dialog",
+                "class": "filter-dialog"
+              },
+              "pseudoElement": "::backdrop",
+              "duration": 240,
+              "endTime": 240,
+              "keyframes": [
+                {
+                  "offset": 0,
+                  "easing": "ease-out",
+                  "composite": "auto",
+                  "opacity": "0",
+                  "computedOffset": 0
+                },
+                {
+                  "offset": 1,
+                  "easing": "ease-out",
+                  "composite": "auto",
+                  "opacity": "1",
+                  "computedOffset": 1
+                }
+              ]
+            },
+            {
+              "kind": "Animation",
+              "playState": "running",
+              "target": {
+                "tag": "DIALOG",
+                "id": "hero-filter-dialog",
+                "class": "filter-dialog"
+              },
+              "pseudoElement": null,
+              "duration": 240,
+              "endTime": 240,
+              "keyframes": [
+                {
+                  "offset": null,
+                  "easing": "linear",
+                  "composite": "auto",
+                  "opacity": "0",
+                  "transform": "translateY(14px) scale(0.985)",
+                  "computedOffset": 0
+                },
+                {
+                  "offset": null,
+                  "easing": "linear",
+                  "composite": "auto",
+                  "opacity": "1",
+                  "transform": "none",
+                  "computedOffset": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ms": 361.5,
+          "open": true,
+          "reduce": false,
+          "opacity": "0.999853",
+          "transform": "matrix(0.999998, 0, 0, 0.999998, 0, 0.00205798)",
+          "animations": [
+            {
+              "kind": "CSSAnimation",
+              "name": "backdrop-in",
+              "playState": "running",
+              "target": {
+                "tag": "DIALOG",
+                "id": "hero-filter-dialog",
+                "class": "filter-dialog"
+              },
+              "pseudoElement": "::backdrop",
+              "duration": 240,
+              "endTime": 240,
+              "keyframes": [
+                {
+                  "offset": 0,
+                  "easing": "ease-out",
+                  "composite": "auto",
+                  "opacity": "0",
+                  "computedOffset": 0
+                },
+                {
+                  "offset": 1,
+                  "easing": "ease-out",
+                  "composite": "auto",
+                  "opacity": "1",
+                  "computedOffset": 1
+                }
+              ]
+            },
+            {
+              "kind": "Animation",
+              "playState": "running",
+              "target": {
+                "tag": "DIALOG",
+                "id": "hero-filter-dialog",
+                "class": "filter-dialog"
+              },
+              "pseudoElement": null,
+              "duration": 240,
+              "endTime": 240,
+              "keyframes": [
+                {
+                  "offset": null,
+                  "easing": "linear",
+                  "composite": "auto",
+                  "opacity": "0",
+                  "transform": "translateY(14px) scale(0.985)",
+                  "computedOffset": 0
+                },
+                {
+                  "offset": null,
+                  "easing": "linear",
+                  "composite": "auto",
+                  "opacity": "1",
+                  "transform": "none",
+                  "computedOffset": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "focus": [
+        {
+          "label": "initial",
+          "hasFocus": true,
+          "active": {
+            "tag": "BUTTON",
+            "id": "",
+            "class": "round-control filter-dialog-close",
+            "name": null,
+            "type": "button",
+            "label": "Close property filters"
+          },
+          "dialog": "hero-filter-dialog",
+          "open": true
+        },
+        {
+          "label": "0:Shift+Tab",
+          "hasFocus": false,
+          "active": {
+            "tag": "BODY",
+            "id": "",
+            "class": "home-page dialog-open",
+            "name": null,
+            "type": null,
+            "label": null
+          },
+          "dialog": null,
+          "open": true
+        },
+        {
+          "label": "1:Tab",
+          "hasFocus": true,
+          "active": {
+            "tag": "BUTTON",
+            "id": "",
+            "class": "round-control filter-dialog-close",
+            "name": null,
+            "type": "button",
+            "label": "Close property filters"
+          },
+          "dialog": "hero-filter-dialog",
+          "open": true
+        },
+        {
+          "label": "2:Tab",
+          "hasFocus": true,
+          "active": {
+            "tag": "INPUT",
+            "id": "",
+            "class": "",
+            "name": "purpose",
+            "type": "radio",
+            "label": null
+          },
+          "dialog": "hero-filter-dialog",
+          "open": true
+        },
+        {
+          "label": "3:Tab",
+          "hasFocus": true,
+          "active": {
+            "tag": "INPUT",
+            "id": "",
+            "class": "",
+            "name": "q",
+            "type": "search",
+            "label": null
+          },
+          "dialog": "hero-filter-dialog",
+          "open": true
+        },
+        {
+          "label": "4:Tab",
+          "hasFocus": true,
+          "active": {
+            "tag": "SELECT",
+            "id": "",
+            "class": "",
+            "name": "location",
+            "type": null,
+            "label": null
+          },
+          "dialog": "hero-filter-dialog",
+          "open": true
+        },
+        {
+          "label": "5:Tab",
+          "hasFocus": true,
+          "active": {
+            "tag": "INPUT",
+            "id": "",
+            "class": "",
+            "name": "type",
+            "type": "checkbox",
+            "label": null
+          },
+          "dialog": "hero-filter-dialog",
+          "open": true
+        },
+        {
+          "label": "6:Tab",
+          "hasFocus": true,
+          "active": {
+            "tag": "INPUT",
+            "id": "",
+            "class": "",
+            "name": "type",
+            "type": "checkbox",
+            "label": null
+          },
+          "dialog": "hero-filter-dialog",
+          "open": true
+        },
+        {
+          "label": "7:Tab",
+          "hasFocus": true,
+          "active": {
+            "tag": "INPUT",
+            "id": "",
+            "class": "",
+            "name": "type",
+            "type": "checkbox",
+            "label": null
+          },
+          "dialog": "hero-filter-dialog",
+          "open": true
+        },
+        {
+          "label": "8:Tab",
+          "hasFocus": true,
+          "active": {
+            "tag": "INPUT",
+            "id": "",
+            "class": "",
+            "name": "type",
+            "type": "checkbox",
+            "label": null
+          },
+          "dialog": "hero-filter-dialog",
+          "open": true
+        },
+        {
+          "label": "9:Tab",
+          "hasFocus": true,
+          "active": {
+            "tag": "INPUT",
+            "id": "",
+            "class": "",
+            "name": "bedrooms",
+            "type": "checkbox",
+            "label": "1 bedroom"
+          },
+          "dialog": "hero-filter-dialog",
+          "open": true
+        }
+      ],
+      "closed": {
+        "label": "closed",
+        "hasFocus": true,
+        "active": {
+          "tag": "A",
+          "id": "",
+          "class": "hero-mobile-search button button--solid",
+          "name": null,
+          "type": null,
+          "label": null
+        },
+        "dialog": null,
+        "open": false
+      }
+    }
+  ],
+  "writes": []
+}

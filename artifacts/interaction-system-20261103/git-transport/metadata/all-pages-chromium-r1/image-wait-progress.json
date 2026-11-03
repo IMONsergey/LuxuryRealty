@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "view": "260-insights-architecture-on-palm-jumeirah-1440-no-preference",
+  "sourceHead": "532cd2fc19dcf9ddaa1809616a47ebaee86eec88",
+  "engine": "chromium",
+  "startedAt": "2026-11-03T16:57:37.021Z",
+  "scrollY": 0,
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "images": [
+    {
+      "src": "http://127.0.0.1:38541/assets/imgGroup1.svg",
+      "srcset": "",
+      "alt": "",
+      "complete": true,
+      "naturalWidth": 41,
+      "naturalHeight": 41,
+      "rect": {
+        "x": 157.5,
+        "y": 47.5,
+        "width": 41,
+        "height": 41
+      }
+    },
+    {
+      "src": "http://127.0.0.1:38541/assets/imgGroup48096582.svg",
+      "srcset": "",
+      "alt": "",
+      "complete": true,
+      "naturalWidth": 104,
+      "naturalHeight": 15,
+      "rect": {
+        "x": 660.5,
+        "y": 60.3125,
+        "width": 104,
+        "height": 15.375
+      }
+    },
+    {
+      "src": "http://127.0.0.1:38541/assets/photo-d66a8edf5db9e5da.webp",
+      "srcset": "/assets/photo-d66a8edf5db9e5da-480.webp 480w, /assets/photo-d66a8edf5db9e5da-800.webp 800w, /assets/photo-d66a8edf5db9e5da-1200.webp 1200w, /assets/photo-d66a8edf5db9e5da.webp 1445w",
+      "alt": "Architecture on Dubai’s waterfront",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 956,
+      "rect": {
+        "x": 157.5,
+        "y": 614.484375,
+        "width": 1110,
+        "height": 600
+      }
+    }
+  ],
+  "steps": [
+    {
+      "name": "image-decode",
+      "timeoutMs": 15000,
+      "startedAt": "2026-11-03T16:57:37.028Z",
+      "status": "complete",
+      "elapsedMs": 5
+    },
+    {
+      "name": "two-paint-frames",
+      "timeoutMs": 3000,
+      "startedAt": "2026-11-03T16:57:37.038Z",
+      "status": "complete",
+      "elapsedMs": 37
+    }
+  ],
+  "phase": "two-paint-frames",
+  "status": "complete"
+}

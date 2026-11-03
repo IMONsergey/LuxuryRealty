@@ -1,0 +1,586 @@
+{
+  "404.html": {
+    "bytes": 15333,
+    "sha256": "e3cb31267bfe6adb6ab7e781abece53ac9a6d4fdab1b3c221e288b489177475c"
+  },
+  "_astro/FilterDialog._EGi5GYI.css": {
+    "bytes": 11623,
+    "sha256": "a49207a0a12347237c1cf4b6ae87ecc353f793d2e2877195e78385f282d2de04"
+  },
+  "_astro/Layout.Vne0kHj5.css": {
+    "bytes": 74309,
+    "sha256": "e47a5eb6e6db61c927536dc1e9df1c2837f0c4d2f546304d5a983307fa82ea1e"
+  },
+  "_astro/Layout.astro_astro_type_script_index_0_lang.CBy868gF.js": {
+    "bytes": 153598,
+    "sha256": "3b00a8e6a8f9462d9c8dd30fe42c643eb80bb65c7ffb34de8ac3243a371d49b9"
+  },
+  "_astro/PropertyCard.Ta7v76Uy.css": {
+    "bytes": 23216,
+    "sha256": "185c2c3d34ad6ba2770046a0529e7a762900a1d04c953124ffa1379e53abd8e5"
+  },
+  "_astro/content.BNqWBexB.css": {
+    "bytes": 17364,
+    "sha256": "671fbe34474ac0c13e534f751fc61906b437472f0f6a8dd55b398236a46f9ead"
+  },
+  "about/index.html": {
+    "bytes": 27725,
+    "sha256": "3792487e3dfb74a4afe42a11051fa2d992574c948b0566b933b96e9c12904e1c"
+  },
+  "contacts/index.html": {
+    "bytes": 19313,
+    "sha256": "0b5bb95d847f547a38009ab30edc3f57079a98f4a8632c6ba145ab3abd069dd8"
+  },
+  "developments/atlantis/index.html": {
+    "bytes": 88926,
+    "sha256": "55991336d4e51b21921976f6fd3dd4eb527d6f7e79ff44582c3978d5e170292e"
+  },
+  "developments/ava-at-palm/index.html": {
+    "bytes": 69990,
+    "sha256": "76af0dc2a70e07313b48fab9c110c06d002ce7b63c16865898507797be6d7146"
+  },
+  "developments/index.html": {
+    "bytes": 31740,
+    "sha256": "4295924f9f53a897a7d1893382f0d7654c7b2092530352c86967d2b69d35dce1"
+  },
+  "developments/orla/index.html": {
+    "bytes": 77368,
+    "sha256": "6ac41586f6a9d7e487ed97c329b9febfa609a5725e08e4e7d99e9b3138941dd1"
+  },
+  "developments/serenity-mansions-aurora/index.html": {
+    "bytes": 69143,
+    "sha256": "ca03f7bb8e335b2e4741e51702a3eef909723caedd6df37398c352a1ec7a8cc1"
+  },
+  "developments/serenity-mansions-waterfront-collection/index.html": {
+    "bytes": 68685,
+    "sha256": "aa602831695f776674a54c09bbd236dbb1e47c9b14d8a1b6bffbe7b518d2f0fa"
+  },
+  "developments/six-senses/index.html": {
+    "bytes": 77541,
+    "sha256": "09176831c0cbf6a144bdff9c2dc20dec6b933e25e650795d6e68c7454e6f40a7"
+  },
+  "developments/vela/index.html": {
+    "bytes": 73170,
+    "sha256": "9c58e355a382cd8e8b4efe9b6fc071084858de671978fde8985df8c4b7ed8772"
+  },
+  "fonts/graphik-bold.woff2": {
+    "bytes": 36136,
+    "sha256": "012a4e294d47f694e64050dabe63124c3e06d763420b504e1edd2f881b7f986b"
+  },
+  "fonts/graphik-light.woff2": {
+    "bytes": 34296,
+    "sha256": "d150441c9900ab7f82bc09efc6335c748dd630fdbf5004c3f51eb3eaeb318a58"
+  },
+  "fonts/graphik-medium.woff2": {
+    "bytes": 35160,
+    "sha256": "3b93c23e544473e321a73af61bcde949bc7f5b3504cea89fb3acb7b77cd10ffb"
+  },
+  "fonts/graphik-regular.woff2": {
+    "bytes": 33000,
+    "sha256": "b8eb31f869d35a3d0b30ed2c77418b15a1b616534933482f3daf6538dc5e3f82"
+  },
+  "fonts/graphik-semibold.woff2": {
+    "bytes": 36292,
+    "sha256": "ea8d56b0738787af3bee5069d58f30d970b6bdc48e79adb8ddc80db9084c396b"
+  },
+  "fonts/sf-light.woff2": {
+    "bytes": 25860,
+    "sha256": "a45bf1adbb874fa372b08480c6777b6e875b0aea7c9bc1c2ce1a2548b6a0f3e0"
+  },
+  "fonts/sf-medium.woff2": {
+    "bytes": 25616,
+    "sha256": "effb23b3a149cb21e3618bdbea46b820e83d9f3cc74697d7761bdcf46e329b2c"
+  },
+  "fonts/sf-regular.woff2": {
+    "bytes": 22644,
+    "sha256": "908ddd7f798ecdee47760022f6dbf54adcd3717b8210292d286587f7f5174c0c"
+  },
+  "fonts/sf-thin.woff2": {
+    "bytes": 25896,
+    "sha256": "e0c2bae5b779b18d2c938d28c8cdf45c0568793141455cc5aa2b3dd59f23b343"
+  },
+  "fonts/sf-ultralight.woff2": {
+    "bytes": 25736,
+    "sha256": "8abfbd17ed05b0661ba97238cd39df873ac9de119b33d3554d6b75063a65cc10"
+  },
+  "index.html": {
+    "bytes": 136843,
+    "sha256": "4724ef8497847a7be6588d0b3ce129ef57e263f2e26d1a0a469b6afbf8bbdc79"
+  },
+  "insights/a-home-by-the-water/index.html": {
+    "bytes": 20861,
+    "sha256": "23a80622de55a04c8d5d5e4de9ada5512d5fac9498b949c3e54949a3783467bd"
+  },
+  "insights/architecture-on-palm-jumeirah/index.html": {
+    "bytes": 20861,
+    "sha256": "9a9f3275e2ec992602992346882422cebc92a491d4e9485f9cfcf9b776050b10"
+  },
+  "insights/index.html": {
+    "bytes": 20743,
+    "sha256": "08b07b4da36912b6d0a933351615d4a9d2011e02fc9011b4b4edfe29a3e8c68c"
+  },
+  "insights/spaces-worth-living-in/index.html": {
+    "bytes": 21127,
+    "sha256": "67ca723d8186816af753ffa17e96101fe6c6d642ebb36b002539236338f994bd"
+  },
+  "insights/the-art-of-a-private-viewing/index.html": {
+    "bytes": 20691,
+    "sha256": "b6d1aefcc19038f5f5628214281d15e8c304e109fb4684866f26a7d3128c94c8"
+  },
+  "privacy/index.html": {
+    "bytes": 16492,
+    "sha256": "ac33026a311d237826ab764a8c39fbf9224bb4672a5c097b67757359554796b7"
+  },
+  "properties/1-of-1-branded-renovation-incredible-must-see/index.html": {
+    "bytes": 51832,
+    "sha256": "ce9a8771ca28e74ca6acee56d212441940a73fef2b18e58474d8d2373b824228"
+  },
+  "properties/1-of-1-palm-view-renovation-incredible-must-see/index.html": {
+    "bytes": 63675,
+    "sha256": "97a4a316dd2900a327ee8a0008c5d4582e54a7cd7d62e02f00de9417d5c48f41"
+  },
+  "properties/2br-palm-skyline-view-branded-upgrades/index.html": {
+    "bytes": 57100,
+    "sha256": "11b9eae8ccb10d3c2abe77f3d1c731025fcda3dc98a58b8540c0a7cc0b49678d"
+  },
+  "properties/3br-duplex-private-pool-viewing-essential/index.html": {
+    "bytes": 60817,
+    "sha256": "6f79c5d95cbba9c38cb6aeeef0125f816b4542139e021ce4c8cd4b3155c21399"
+  },
+  "properties/a-refined-minimalist-sanctuary-with-serene-views/index.html": {
+    "bytes": 54764,
+    "sha256": "2b7407b070386eae6a0e423de07bcbb5d7a035dea4f3f51d83421a50428d19c1"
+  },
+  "properties/ava-at-palm-jumeirah-dorchester-collection/index.html": {
+    "bytes": 41705,
+    "sha256": "e78396d34846569b9d2e5d937cb30b4893e8a12e039a32b16fd6ecf58bea0329"
+  },
+  "properties/beachfront-living-stunning-views-vacant/index.html": {
+    "bytes": 44249,
+    "sha256": "bf609902a99f2ceee49904652609642d43d0f88735b878dc46eea94749c87371"
+  },
+  "properties/beautifully-renovated-private-spa-high-number/index.html": {
+    "bytes": 51920,
+    "sha256": "11fc99da8dec8e1d089cacdbc7a716fe4adef840e40af4abec29ccf315915c2c"
+  },
+  "properties/beauty-rarity-and-timeless-elegance-awaits/index.html": {
+    "bytes": 62669,
+    "sha256": "e019a468fea762a08207ea92937e0e04a8091babc88ac79ec430e9e83c0552cf"
+  },
+  "properties/best-price-high-floor-sea-view-large-size/index.html": {
+    "bytes": 62685,
+    "sha256": "d11b0d3069e9c56bb90f38715085a2c4a98e981418c7d8bba0e49195fef63016"
+  },
+  "properties/best-price-upgraded-furnished-skyline-views/index.html": {
+    "bytes": 63563,
+    "sha256": "9a500c81947a19ffa12ad3e95d802f73c61ae397cb7862d78a8a7203ec3ad06d"
+  },
+  "properties/best-priced-palm-view-2br-furnished-view-today/index.html": {
+    "bytes": 50910,
+    "sha256": "68b29591c41844bea6a238a9e8100ec4d68a7a00ff243791edfdf3e40240da91"
+  },
+  "properties/best-value-huge-terrace-amazing-potential/index.html": {
+    "bytes": 49521,
+    "sha256": "f653a14cbe15cbc1205e1b928c55b2c9cb7cfc22e16b5b020cb33e17c9909813"
+  },
+  "properties/brand-new-high-floor-full-palm-jumeirah-view/index.html": {
+    "bytes": 52085,
+    "sha256": "b5999f5c91582022825c5cc870b8ed2e38add90b5828a4151e712aa9a90a3717"
+  },
+  "properties/brand-new-high-floor-islands-view/index.html": {
+    "bytes": 42041,
+    "sha256": "df3c367d7405eabcc704240c1fa6231253d41f94499c75efead2e842e926d764"
+  },
+  "properties/brand-new-high-floor-palm-and-skyline-view/index.html": {
+    "bytes": 48165,
+    "sha256": "64898bed45002a032a6939857fea91482c4e2cd2a593f9d1d61d667b846ae5bb"
+  },
+  "properties/brand-new-high-floor-sea-and-sunset-views/index.html": {
+    "bytes": 55699,
+    "sha256": "32ed4e0ddc2dd142b9005758d8a0307d6440eb0feb2e7b764ce6f4e33836674b"
+  },
+  "properties/brand-new-palm-and-garden-view-vacant/index.html": {
+    "bytes": 49401,
+    "sha256": "bfdc29144b5b0c608b62fe6946440f7e522caf38980b73797bc5fd1e4b46bc71"
+  },
+  "properties/brand-new-private-garden-private-pool/index.html": {
+    "bytes": 54934,
+    "sha256": "389bafad7ae4d61c812927e5fcad2e3c62aafbee0dc9d9b4ba32791ae3358a56"
+  },
+  "properties/brand-new-sea-and-palm-view-corner-unit-2/index.html": {
+    "bytes": 50761,
+    "sha256": "7bfc3c20741dcbcec77187ef8236e57562745a51b36f6da76a70fa5043ead7c2"
+  },
+  "properties/brand-new-sea-and-palm-view-corner-unit/index.html": {
+    "bytes": 51186,
+    "sha256": "9f10f303befecddaf9ea91effe5777fdf88151fa6c2a7c357fcb738141070156"
+  },
+  "properties/brand-new-sea-and-sunset-views/index.html": {
+    "bytes": 50964,
+    "sha256": "6298914a3be405ef22fda2490d68d664b80c9bc522a0e814f4391692f5664cb8"
+  },
+  "properties/brand-new-sea-dubai-eye-and-sunset-views/index.html": {
+    "bytes": 48433,
+    "sha256": "6375e40a2fdb3944984c2a892a840644e4074c43cfda5d41c63d58fb0b8d1318"
+  },
+  "properties/brand-new-vacant-sea-and-sunset-views-2/index.html": {
+    "bytes": 53155,
+    "sha256": "c6fffc292b7661e1e6ca995a457743b1cff00a964e17ed1b19ab7fca1a865eca"
+  },
+  "properties/brand-new-vacant-sea-and-sunset-views/index.html": {
+    "bytes": 51960,
+    "sha256": "71053db1383df0a82363871c28e7221b053b22ed3364b1ccc237392e86839101"
+  },
+  "properties/branded-upgrade-palm-skyline-view-2br-xl-size/index.html": {
+    "bytes": 55740,
+    "sha256": "fd6e97a8931926b2590e988955292241a5889db5d39bbbbe309a428bb781bc8e"
+  },
+  "properties/burj-khalifa-views-upgraded-fully-furnished/index.html": {
+    "bytes": 57687,
+    "sha256": "c0aa3293d11c3ba1bb8ac189545cee7ff7bba77e0aad863f0a7ae93ecd684e58"
+  },
+  "properties/celebrated-designer-duplex-with-private-pool/index.html": {
+    "bytes": 62167,
+    "sha256": "89d53c60ca84fa1a330fe0edc05ae17f97c0e1b653c460167e48f7b3d1deb42f"
+  },
+  "properties/city-and-sea-views-fully-furnished-xl-terrace/index.html": {
+    "bytes": 49065,
+    "sha256": "841cda9db9effa32d0a8854837619f33e7301b15c232906767ac7f174bbfee9f"
+  },
+  "properties/close-to-tip-fully-upgraded-prime-location/index.html": {
+    "bytes": 45675,
+    "sha256": "01bcb5308270e69f42f14670f7dd88b9226704f848b42162e2266430bbb70547"
+  },
+  "properties/dorchester-collection-full-palm-view-duplex/index.html": {
+    "bytes": 48814,
+    "sha256": "34dd8deb3b22100e52903d87ad4310c5d6cd42747a01b28ea73be14a5170fbe3"
+  },
+  "properties/dual-views-double-height-2027-completion/index.html": {
+    "bytes": 49645,
+    "sha256": "6e9890ab190df5e5b53a7db9d7c00ba0f4a0f8a05af862f2adf688748388169f"
+  },
+  "properties/dual-views-highest-floor-huge-layout/index.html": {
+    "bytes": 63423,
+    "sha256": "b36ece55cf581483aa060744f1d654708e21a9f0a960892b7986ebff89871d86"
+  },
+  "properties/duplex-ph-brand-new-unobstructed-views/index.html": {
+    "bytes": 57611,
+    "sha256": "ecfbb20e9c1be011a773468f958478562b0c2587aa537a4f59449839d6152935"
+  },
+  "properties/duplex-roof-terrace-golf-and-skyline-views/index.html": {
+    "bytes": 62492,
+    "sha256": "3fe47c65dfdc871c7b2f9eddbabf69f98186a3f10d4a8740884c4f202b4e5728"
+  },
+  "properties/duplex-with-private-pool-must-be-viewed/index.html": {
+    "bytes": 53819,
+    "sha256": "f0c728f74488663ea958e8b25cd0eb6b9645dda65bcc39ec508fffc7d6522d64"
+  },
+  "properties/eden-hills/index.html": {
+    "bytes": 53358,
+    "sha256": "8567d77b232c5ee6166a6d8564f0c411a5e6729e7d35b4cca7d623980a8eb259"
+  },
+  "properties/exclusive-high-floor-available-now-furnished/index.html": {
+    "bytes": 53166,
+    "sha256": "2a0b3baef8b8da99eb4348ab3f5243a3f3034156a5d6b853115d377f91b23f80"
+  },
+  "properties/exclusive-lagoon-facing-available-for-viewing/index.html": {
+    "bytes": 55149,
+    "sha256": "52127b4130b5d9b5371d5d22fb77711216b85c42877f295afdb66e45d74e1050"
+  },
+  "properties/exclusive-sea-view-4br-royal-penthouse/index.html": {
+    "bytes": 51727,
+    "sha256": "9610b93ce7f416ad11c21f5e432b268c99c2e184c922c369ac2a432ab025ec77"
+  },
+  "properties/exclusive-top-floor-one-of-a-kind/index.html": {
+    "bytes": 60416,
+    "sha256": "32103fa7af8767742c23f9c7255c9ec3fe9b97929e4aefee6791ff3115a56668"
+  },
+  "properties/extraordinary-turnkey-luxury-with-iconic-views/index.html": {
+    "bytes": 63957,
+    "sha256": "13eb8eb61189a467e33110033990af3fbdfb999506aa57294a0f66c8e8b5b140"
+  },
+  "properties/furnished-palm-and-skyline-views-exclusive/index.html": {
+    "bytes": 55371,
+    "sha256": "0caa3229f2cee513214afe7a79bf424f80f1eb869adf01a616b7fc36ef022d19"
+  },
+  "properties/furnished-palm-skyline-views-exclusive-2/index.html": {
+    "bytes": 62787,
+    "sha256": "0802befb47f815c1b21504d616c5e11d28a76bfe97c42fa8c88326be439cb4c3"
+  },
+  "properties/furnished-palm-skyline-views-exclusive/index.html": {
+    "bytes": 42044,
+    "sha256": "dacf25ce6c36235337f8bc96bded1c0f96c0ea90f32f2ac322d69dd138953f8d"
+  },
+  "properties/furnished-upgraded-unique-layout-dual-views/index.html": {
+    "bytes": 62874,
+    "sha256": "f76fd2d572247783a7b5fd19d5ab230f2bd39c248ed5854ff8dd2218adf6be66"
+  },
+  "properties/garden-apartment-sea-facing-private-pool-2/index.html": {
+    "bytes": 55620,
+    "sha256": "88e2fb22eba980cf81a79cc2134d79548e3615265f5735350e16dd4fcc93d82c"
+  },
+  "properties/garden-apartment-sea-facing-private-pool/index.html": {
+    "bytes": 55399,
+    "sha256": "02b73d1fc2f80c08a6b7981aa9bde95874465b1403f2fb7005c2d2a1bf8cb383"
+  },
+  "properties/garden-villa-hermes-and-minotti-private-pool/index.html": {
+    "bytes": 54602,
+    "sha256": "2ec00214680d8f3e7a40269e94cb6b219ba6bd178f91e472005721738a994a1b"
+  },
+  "properties/genuine-resale-full-sea-and-marina-views/index.html": {
+    "bytes": 46129,
+    "sha256": "c3a899e0bdf2718d61ad71f355ff2f42857941c1b268c2b69c802636199e87b2"
+  },
+  "properties/high-floor-2br-sea-view-chic-upgrades/index.html": {
+    "bytes": 61006,
+    "sha256": "ab37c89756f67f14ce86f242147c4f1ceba9a4d81aadc483f57529af55a95ab3"
+  },
+  "properties/high-floor-palm-paradise-with-city-views-for-rent/index.html": {
+    "bytes": 56305,
+    "sha256": "44acb76e9c4f7576fbe737e3059ae941215c43ed6989b0efcb6787e5e83fcc5a"
+  },
+  "properties/high-floor-palm-paradise-with-incredible-views/index.html": {
+    "bytes": 62462,
+    "sha256": "2328cc36054a6f243e7c050cc2e004f1fb58d103af0198c3d30b48b1bf1e6239"
+  },
+  "properties/high-floor-palm-view-fully-furnished/index.html": {
+    "bytes": 56688,
+    "sha256": "174b20405f1d576e308b1c47bdeb80afca51824b35c4f432b0f5a9e98de5c289"
+  },
+  "properties/high-floor-with-best-views-furnished-1-agency/index.html": {
+    "bytes": 54530,
+    "sha256": "b80a979911a15752ad59732cdf87b19979077a71298f32075f35df141c836f70"
+  },
+  "properties/high-number-fully-renovated-best-layout/index.html": {
+    "bytes": 48647,
+    "sha256": "5ecd0f7ab61ea2d06e4e2b1b656ae7721c725f178c4377a95635f330fc8b06d9"
+  },
+  "properties/index.html": {
+    "bytes": 245099,
+    "sha256": "6b1c24e4a5808b0e6dd750b8607c1d39736da3aca8d19a8450efb45effc8bcc0"
+  },
+  "properties/landmark-marina-gate-one-bed-must-be-viewed-2/index.html": {
+    "bytes": 44863,
+    "sha256": "86040d9452ef6836f6735a1bd02043a2a68fa8dcdd94eda3c4d1926bb2b3d176"
+  },
+  "properties/large-layout-community-view-maids-room/index.html": {
+    "bytes": 45321,
+    "sha256": "318b84171eac878725254c8366330d840566732d220b58435477518252729f0a"
+  },
+  "properties/last-available-3br-duplex-with-private-pool/index.html": {
+    "bytes": 64195,
+    "sha256": "20337672b28537f0a42c2955c7c653c65415f6f9224e9eb9036329a434d1e109"
+  },
+  "properties/live-royally-turnkey-renovated-masterpiece/index.html": {
+    "bytes": 57486,
+    "sha256": "30e245471488ccd0cb3e005735bb35fd8e87b02cc01d25ce6eb9b290045493f2"
+  },
+  "properties/marina-view-upgraded-furnished-investor-deal/index.html": {
+    "bytes": 42809,
+    "sha256": "7fa2bb1f6170b2b4a281aec359a4689b0f76ab79048fb2b6c81e0fc9c8da8f04"
+  },
+  "properties/miami-style-stunning-marina-views-beach-access/index.html": {
+    "bytes": 47445,
+    "sha256": "932899f00f50e31410bc4c8bedb08cce22c135bd6603c78ed3d67094cf473888"
+  },
+  "properties/modern-design-elie-saab-branded-priced-to-sell/index.html": {
+    "bytes": 41016,
+    "sha256": "d613343f103a854d71a1293c0f0dd18846c70b32ba07ae92c021c6359c58399d"
+  },
+  "properties/must-be-viewed-rare-2br-sea-and-skyline-views/index.html": {
+    "bytes": 61884,
+    "sha256": "f3698b8217322dd3f1e4fd0e0083a01a1620064b67e23bbb5d7385cdc6926a2b"
+  },
+  "properties/one-at-palm-jumeirah-dorchester-collection/index.html": {
+    "bytes": 42024,
+    "sha256": "927ae76b0a4aa82e609a916adbbfb978ca60bdbbaaef9cecbaa448e373b98d36"
+  },
+  "properties/one-of-a-kind-loft-designer-upgrade-sea-view/index.html": {
+    "bytes": 50743,
+    "sha256": "fb2880bea0adb2e7972c336f401e8d5b0682c12f830541788c79611abe34544a"
+  },
+  "properties/one-of-a-kind-villa-unique-reimagined-layout/index.html": {
+    "bytes": 51689,
+    "sha256": "493e291531a5aff80a792344247cb591fe2138fbc1026f83ef121edbf6836fcd"
+  },
+  "properties/orla-dorchester-collection/index.html": {
+    "bytes": 41784,
+    "sha256": "4cdb68b84c034495879e7a81246b00dd12c8d90c02e3a0580a20ff8f880f58c2"
+  },
+  "properties/palm-and-marina-skyline-views-private-pool/index.html": {
+    "bytes": 51500,
+    "sha256": "536cde6beaee4ec376fc314f5f80a7630d8cdd65f8417175c3630990c10b4eb4"
+  },
+  "properties/palm-view-amazing-2br-layout-must-be-viewed/index.html": {
+    "bytes": 60115,
+    "sha256": "2d4c2abcce16288c93c89751c48d96257aacd5c12b7e0171da1f91825ec2be0d"
+  },
+  "properties/palm-view-duplex-bespoke-garden-home/index.html": {
+    "bytes": 62910,
+    "sha256": "a87cd57c6ab00c7d1491e43fd754c5e4aa31ee9eaa7e7e1752ed95c02391e3f9"
+  },
+  "properties/palm-view-sky-court-xl-terrace-upgraded/index.html": {
+    "bytes": 55353,
+    "sha256": "28eef8f1421f216b460d79560ca9933d4ff189f088e8ccd29164df12fdb5b803"
+  },
+  "properties/panoramic-sea-sunset-views-wrap-around-balcony/index.html": {
+    "bytes": 50422,
+    "sha256": "c04fd2110ae0dd0c1077c480cbd82286ab957efdeb7a564ab5a7784deb7987a8"
+  },
+  "properties/partially-upgraded-premium-location-immaculate/index.html": {
+    "bytes": 43716,
+    "sha256": "b178e90a6528946f6328378a6743d33fc65ea896c511bd8ef0dcf24b56623c31"
+  },
+  "properties/penthouse-style-with-skyline-views-at-golf-heights/index.html": {
+    "bytes": 51632,
+    "sha256": "42dfb4f85de6d66940336b92f7a78063ab93d9cf3e40bc30855bef1b67b91520"
+  },
+  "properties/popular-type-prime-location-prestigious-villa/index.html": {
+    "bytes": 42537,
+    "sha256": "6d0d9cd394b9ec06f6376e50461f77ed19419ad84b344408bff6de3a9cea6cc9"
+  },
+  "properties/post-handover-pp-04-layout-palm-view/index.html": {
+    "bytes": 45334,
+    "sha256": "5adb4b3f0e890a2ac29a97e2551bb50f8308f53df871961833430badc4d75460"
+  },
+  "properties/premium-location-best-value-turnkey-garden-home/index.html": {
+    "bytes": 48234,
+    "sha256": "f72afab2dd0c11059fffdf7540f44b86b65c30ae7fe56c4e1abdde10c7996136"
+  },
+  "properties/private-pool-duplex-1-resale-agency/index.html": {
+    "bytes": 58987,
+    "sha256": "7e87f244fcd8b7baf5a9a6ea40d54197e7993ee1f1cb74e4b927b05a86870f88"
+  },
+  "properties/private-pool-furnished-spacious-terrace/index.html": {
+    "bytes": 47226,
+    "sha256": "ece053120cef1b289cbded6eeadf0dcbdb9db29f59c122e6b1920e2977b1ec61"
+  },
+  "properties/rare-dual-view-skyline-sea-spacious-luxury/index.html": {
+    "bytes": 53683,
+    "sha256": "7fc50811adb0fe9ec4c6e5a2702af9ccdd5c920b1a5efef267a08a0393a951c5"
+  },
+  "properties/renovation-opportunity-high-number-iconic-view/index.html": {
+    "bytes": 50380,
+    "sha256": "ec05cd21c092613bf4f982db32e6632baf27aa46d2487e6035373d5fa2dea6de"
+  },
+  "properties/rented-alternatives-available/index.html": {
+    "bytes": 55590,
+    "sha256": "2deebd93870649bec73388a8196d77581afa4feaa860d785fc926916970194bc"
+  },
+  "properties/sea-view-or-skyline-vistas-now-you-can-have-both/index.html": {
+    "bytes": 54417,
+    "sha256": "0d32fd8752c697e05757b7ee29456d89ab2c32429297d00a89561108d0ab8e2f"
+  },
+  "properties/sea-views-michelin-star-dining-and-more/index.html": {
+    "bytes": 54344,
+    "sha256": "201656bb7d76d3b61db0f67ff7205c3514c2ebec9628f8da85ae22199b949130"
+  },
+  "properties/serenity-mansions-aurora/index.html": {
+    "bytes": 38929,
+    "sha256": "6e769150f5b873be9f24db6b63334732b9e380797ee7695e7cea38c39d7f83a9"
+  },
+  "properties/serenity-mansions-waterfront-collection/index.html": {
+    "bytes": 41722,
+    "sha256": "53cacebc17e13f420c5f36e10183f357af59cfd2f7fc624677da32719bb5cd6b"
+  },
+  "properties/six-senses-residences-dubai-marina/index.html": {
+    "bytes": 42030,
+    "sha256": "1b99103b2469722dc2e5214ace8d456ccd65777814c002c6182cb341e9c36717"
+  },
+  "properties/sleek-sophisticated-and-move-in-ready/index.html": {
+    "bytes": 56520,
+    "sha256": "6583851c6ff8a0f0d7cddec39af3b307ee0c1eb840c40d1784dff86d0acfe4cc"
+  },
+  "properties/sought-after-sea-sunset-views-branded-residences/index.html": {
+    "bytes": 49585,
+    "sha256": "ce8a541004944dcc3d03c31ddc8ee0049db5634d89f317f32c7914b62b1ceccb"
+  },
+  "properties/spacious-layout-prime-amenities-modern-living/index.html": {
+    "bytes": 47935,
+    "sha256": "c52571fde4e3f4e1c6db631cf2c02651242309a1048089a6c695d7cec3239897"
+  },
+  "properties/stunning-4br-amazing-bmv-price-move-in-ready/index.html": {
+    "bytes": 58979,
+    "sha256": "7356aa30ec399b79818a8ad9b806c8c21ada84a62d49730cddaa8c6defc85999"
+  },
+  "properties/stunning-upgrade-luxury-villa-golf-course-view/index.html": {
+    "bytes": 63937,
+    "sha256": "cd895633e213248bfe414914753c0a489f48a1a0f4f4d357e40a4ede58c9fece"
+  },
+  "properties/sublime-sea-views-iconic-living/index.html": {
+    "bytes": 58257,
+    "sha256": "9fcffef91a6668c3e4a5a2394d49e5a1e056e0a030ab8c74070aa8e21ad8eae8"
+  },
+  "properties/super-rare-huge-terrace-furnished-1-agency/index.html": {
+    "bytes": 57706,
+    "sha256": "4f2df3a460d63b25e14c9f09542cb2843847f5b84babf88272523829764ef152"
+  },
+  "properties/the-chedi-private-residences/index.html": {
+    "bytes": 50363,
+    "sha256": "30087eb3f4263f22e386438768540a66c4bcfe6392cad82e933698bf176d814f"
+  },
+  "properties/timeless-elegance-awaits-at-palazzo-versace-dubai/index.html": {
+    "bytes": 53418,
+    "sha256": "e0cf0761543b9b5e8c237c9b885f76815b69d0b579c3fe2fc001f94b84f6baa3"
+  },
+  "properties/triple-storey-fully-renovated-prime-location/index.html": {
+    "bytes": 53453,
+    "sha256": "c552f35bbf6f7186da4047744e3335076dd226e6c63f913f717b8e122dafef05"
+  },
+  "properties/trophy-4br-garden-suite-with-private-pool/index.html": {
+    "bytes": 65535,
+    "sha256": "c608bd39d34b7f8336e0a7935093f555674f2204ef2e2d7662332006ea495589"
+  },
+  "properties/turnkey-renovation-balearic-style-extended/index.html": {
+    "bytes": 56693,
+    "sha256": "1e0c48da3b4080876b46206721db192f9da971a4f17b184853d56093bc2d7db0"
+  },
+  "properties/ultra-high-floor-one-of-a-kind-upgraded-residence/index.html": {
+    "bytes": 58134,
+    "sha256": "c63400ac80aced82a3e26abf33971ad2f3fa50b21a1c59debce0f5bd32b9ec99"
+  },
+  "properties/ultra-luxury-super-rare-dual-view-residence/index.html": {
+    "bytes": 61782,
+    "sha256": "26201b67bb6a61abb6397ba76cda56394e06493b733a9b0af254bac6945360f0"
+  },
+  "properties/ultra-rare-2br-duplex-in-the-iconic-uptown-tower/index.html": {
+    "bytes": 45632,
+    "sha256": "b5324de117c0dd4230c8015223e4d792595cb41f6c6bf04ba480fb12a012df5e"
+  },
+  "properties/unique-duplex-breath-taking-sea-view/index.html": {
+    "bytes": 50866,
+    "sha256": "7548b83890f2d243895e84d406699bec67dbf28f48fcb8a402e3aca3e022b4eb"
+  },
+  "properties/upgraded-2br-marina-view-investor-deal/index.html": {
+    "bytes": 49778,
+    "sha256": "ac4d6f70887f6c703a4995d5d04871e33979bc06ad2a6b2f237db32be687a31e"
+  },
+  "properties/upgraded-vacant-furnished-viewing-essential/index.html": {
+    "bytes": 50408,
+    "sha256": "4124ef24b1f3474a2026ec64676783441e7d0c572e127b4ccd58e9bb8d94f9a1"
+  },
+  "properties/vela-dorchester-collection/index.html": {
+    "bytes": 40960,
+    "sha256": "79e63e64a799bbb4467568ba189b149545bb9b9fa2050594684450acccb9fa68"
+  },
+  "properties/very-high-number-fully-upgraded-premium-views/index.html": {
+    "bytes": 44350,
+    "sha256": "ab539e102d95e2876eb8e8ee1be0e8f029fe5c580e52843e6a5dfdb59e558afd"
+  },
+  "properties/www-luxuryresidences-com-properties-private-pool-canal-view-renovated-upgraded/index.html": {
+    "bytes": 52804,
+    "sha256": "94f773f9b90c02a6c55c9da355fd2e88f53dae6aef67cb165873fd8628124e98"
+  },
+  "properties/your-royal-lifestyle-with-sublime-views-and-space-2/index.html": {
+    "bytes": 51451,
+    "sha256": "92483dc5bb82b4df4eb93a9caff52c3632b3230078d1594174e872c25319cc27"
+  },
+  "sell/index.html": {
+    "bytes": 19960,
+    "sha256": "8fc4c3fd4970929e28bc46fe503eddc66bf9d3cb6e76d171b2bce2f9ca5ea419"
+  },
+  "services/index.html": {
+    "bytes": 21490,
+    "sha256": "fd3f32cd233436557120cf3926c0318e2782c3f6856cd4eedfce3ea0395dcba8"
+  }
+}

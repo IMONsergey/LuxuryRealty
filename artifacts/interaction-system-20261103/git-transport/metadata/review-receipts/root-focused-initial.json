@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "/root",
+  "reviewedAt": "2026-11-03T16:13:21Z",
+  "sourceHead": "927684aeca30f858bcb43e998a003ab725ab8061",
+  "reviewLevel": "actual original PNGs shown at original resolution",
+  "status": "accepted-within-listed-scope; full release pending",
+  "files": [
+    {
+      "path": "artifacts/interaction-system-20261103/focused-chromium-r3/007-home-1440-reduce-hero-filters.png",
+      "sha256": "06a93b0531182baa4686dcbd1ebd99eb69f2ec401f3460481740163325593307"
+    },
+    {
+      "path": "artifacts/interaction-system-20261103/focused-chromium-r3/007-home-1440-reduce-hero-filters-lower.png",
+      "sha256": "2172b64ca48184320954743876fcb273d04a2e7b19e8932301aad418e9196030"
+    },
+    {
+      "path": "artifacts/interaction-system-20261103/targeted-chromium-r2/002-catalogue-390-no-preference-catalogue-applied-controls.png",
+      "sha256": "167639fa109ec31a2c4af9f8ffd0e499a5141680b7f15b8ed59b026555c4ec51"
+    },
+    {
+      "path": "artifacts/interaction-system-20261103/focused-chromium-r3/016-catalogue-1440-no-preference-catalogue-applied-controls.png",
+      "sha256": "cafa739d7ce200cf59e9eebd2dbee501445d75b925a88d688be2df8bc318c74a"
+    },
+    {
+      "path": "artifacts/interaction-system-20261103/focused-chromium-r3/016-catalogue-1440-no-preference-catalogue-filters.png",
+      "sha256": "80589aa0331222506b1695b172b6a4009c9dc7008f8cfa64bf11996ed34dc120"
+    },
+    {
+      "path": "artifacts/interaction-system-20261103/focused-chromium-r3/033-article-390-no-preference-top.png",
+      "sha256": "c00a77bf90d1391da85ceb98a6baa59b87153e658d0c2f0385b5492d5234c2f5"
+    }
+  ],
+  "observations": [
+    "1440 filter panel: aligned two-column inputs, legible labels, purpose/type/bedroom controls, fixed close/footer; lower preferences and status remain reachable.",
+    "390 applied controls: location, Filters badge2, two removable chips and Clear all align without clipping; sorting/count and first card remain clear. Top purpose row partially behind sticky header at the capture scroll position, not document overflow.",
+    "1440 catalogue controls: compact purpose and search rows, consistent input/button heights, two removable chips, count/sort separation, three aligned cards with stable price baselines and no title clipping.",
+    "390 article: heading has no isolated final preposition; body summary, cover and return navigation are legible with consistent side gutters."
+  ],
+  "limitations": [
+    "This is not a review of every focused screenshot or all canonical routes.",
+    "Still images do not prove temporal motion quality; focused interaction and motion checks remain separate."
+  ],
+  "liveBrowserChecks": {
+    "sourceHead": "841fc4ae9927908761e927ce91fca007d455e58d",
+    "runtimeIdenticalToCurrent": true,
+    "url": "https://luxury-realty-imon-fhuqll61u-cdo-2844s-projects.vercel.app/",
+    "observations": [
+      "390 and1440 hero filter modal visually inspected.",
+      "Search filled with Palm, one Escape closed dialog, restored trigger focus and left homepage URL unchanged.",
+      "Applying Palm Jumeirah +Apartment navigated to matching query and exposed exactly the two expected removable chips."
+    ],
+    "proof": "Session observations; canonical headless PNGs above are the separately hashed image evidence."
+  }
+}
