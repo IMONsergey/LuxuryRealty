@@ -1,0 +1,44 @@
+[
+  {
+    "id": "vela-dorchester-collection",
+    "field": "location",
+    "sourceValue": "Palm Jumeirah",
+    "displayValue": "Marasi Bay",
+    "verifiedOn": "2026-11-03",
+    "evidence": [
+      "https://omniyat.com/residential/vela-dorchester-collection-dubai",
+      "https://www.dorchestercollection.com/residences/vela"
+    ],
+    "reason": "Developer and operator both identify VELA as Marasi Bay."
+  },
+  {
+    "id": "one-of-a-kind-loft-designer-upgrade-sea-view",
+    "field": "bedrooms",
+    "sourceValue": 2,
+    "displayValue": null,
+    "verifiedOn": "2026-11-03",
+    "sourceHash": "bc891ba176a91b07899389b7edfd4caf4fc5fd3fff858a317d8149a520cbf39f",
+    "sourceTitle": "EXCEPTIONAL 3BR-LOFT | DESIGNER UPGRADE | SEA VIEW",
+    "evidence": [
+      "https://www.luxuryresidences.com/properties/one-of-a-kind-loft-designer-upgrade-sea-view"
+    ],
+    "status": "unresolved-source-conflict",
+    "action": "suppressed-pending-confirmation",
+    "reason": "The source sidebar lists 2 bedrooms, while the source title lists 3BR. No corrected count has been verified."
+  },
+  {
+    "id": "unique-duplex-breath-taking-sea-view",
+    "field": "bedrooms",
+    "sourceValue": 2,
+    "displayValue": null,
+    "verifiedOn": "2026-11-03",
+    "sourceHash": "3b7760019e22ffe449eddee62123b3d4dae39374c085db235edbd121c5abfcd6",
+    "sourceTitle": "3BR Duplex Loft | Amazing Upgrade | Must-be-Viewed",
+    "evidence": [
+      "https://www.luxuryresidences.com/properties/unique-duplex-breath-taking-sea-view"
+    ],
+    "status": "unresolved-source-conflict",
+    "action": "suppressed-pending-confirmation",
+    "reason": "The source sidebar lists 2 bedrooms, while the source title lists 3BR. No corrected count has been verified."
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "id": "20261103T101612-48b273b939",
+  "state": "succeeded",
+  "createdAt": "2026-11-03T10:16:12.821290+00:00",
+  "bootId": "8a215e71-874b-4adb-9bab-b69da13400df",
+  "unit": "imon-job@20261103T101612-48b273b939.service",
+  "exitCode": 0,
+  "invocationId": "c53951ab78174f0f80ae469b06db1780",
+  "updatedAt": "2026-11-03T10:23:29.094422+00:00",
+  "startedAt": "2026-11-03T10:17:41.122854+00:00",
+  "runnerPid": 2193935,
+  "finishedAt": "2026-11-03T10:23:28.965953+00:00",
+  "timedOut": false,
+  "logTruncated": false,
+  "diskReserveBreached": false,
+  "diskFreeBytesAtStop": null,
+  "reason": null,
+  "systemdResult": "success",
+  "systemdExitCode": "exited",
+  "systemdExitStatus": "0",
+  "finalizedAt": "2026-11-03T10:23:29.094259+00:00"
+}

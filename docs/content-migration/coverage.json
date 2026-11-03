@@ -1,0 +1,48 @@
+{
+  "capturedAt": "2026-11-03T09:05:37.452237+00:00",
+  "sourceBase": "https://www.luxuryresidences.com/",
+  "sitemapUrl": "https://www.luxuryresidences.com/sitemap.xml",
+  "sitemapSha256": "9a8429108942e2bc5d001ec2a9c9971e7df59d28efe7786a83b81a4f9a6b0e34",
+  "sitemapUrls": 200,
+  "sitemapFetched": 200,
+  "sitemapLivePages": 101,
+  "sitemapNotFound": 99,
+  "additionalDiscoveredUrls": 30,
+  "additionalFetched": 30,
+  "totalFetched": 230,
+  "livePages": 131,
+  "notFoundPages": 99,
+  "unfetchedDiscoveredUrls": [],
+  "listings": 110,
+  "listingCategoryCounts": {
+    "Rent": 35,
+    "Private Residences": 66,
+    "New Developments": 9
+  },
+  "listingAvailabilityCounts": {
+    "Listed": 84,
+    "Rented": 9,
+    "Sold": 17
+  },
+  "listingPurposeCounts": {
+    "rent": 35,
+    "buy": 75
+  },
+  "listingGalleryReferences": 2083,
+  "uniqueListingGalleryUrls": 1803,
+  "listingVideos": 54,
+  "projects": 8,
+  "publishableProjects": 7,
+  "sourceArticles": 4,
+  "publishableSourceArticles": 0,
+  "staticPages": 9,
+  "teamMembers": 7,
+  "notes": [
+    "Public HTML was downloaded. Media URLs extracted; image and video files are not downloaded by this collector.",
+    "All 200 sitemap URLs requested plus 30 current URLs discovered from internal links. 99 sitemap URLs return HTTP 404.",
+    "All 110 discovered live public property pages parsed. Categories include 9 whole-development enquiry listings; do not display their source unit specs as available unit inventory.",
+    "Availability is the visible source card badge: Listed means published without Sold/Rented badge, not independent confirmation of current availability.",
+    "Nine development inquiry entries overlap with seven editorial project pages and must not be merged by count or shown as individual units.",
+    "No forms or leads submitted."
+  ]
+}

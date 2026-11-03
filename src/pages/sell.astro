@@ -1,0 +1,17 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Picture from '../components/Picture.astro';
+import EnquiryForm from '../components/EnquiryForm.astro';
+import Icon from '../components/Icon.astro';
+import {brandText,pageContent,pageParagraphs,sellingSteps} from '../data/content';
+import '../styles/content.css';
+const source=pageContent('sell');
+const lead=brandText(source.sections.find(section=>section.id==='quote_component')?.heading||'');
+const paragraphs=pageParagraphs('sell','quote_component');
+---
+<Layout title="Sell with Luxury Realty" description="A personal approach to selling your Dubai property, from market analysis and photography to viewings, negotiations and conveyancing support.">
+ <section class="page-hero page-hero--left editorial-hero"><div class="page-hero-back"><Picture name="imgRectangle4" eager /></div><div class="container"><p class="eyebrow">A thoughtful route to market</p><h1>Sell with us</h1><p>Your property deserves a considered approach, from its first introduction to the final handover.</p><a class="button button--solid editorial-hero-action" href="#valuation"><span>Request a valuation</span><Icon name="arrow-down" /></a></div></section>
+ <section class="container editorial-intro"><h2>Every home<br/>has a story.</h2><div class="editorial-prose"><p>{lead}</p>{paragraphs.map(paragraph=><p>{paragraph}</p>)}</div></section>
+ <section class="container selling-process" aria-labelledby="selling-heading"><div class="section-heading"><h2 id="selling-heading">From preparation<br/>to completion.</h2><p>A tailored combination of market insight, presentation and personal service.</p></div><ol class="selling-steps">{sellingSteps.map((step,index)=><li><span aria-hidden="true">{String(index+1).padStart(2,'0')}</span><h3>{step}</h3></li>)}</ol></section>
+ <section class="container valuation-section" id="valuation" aria-labelledby="valuation-heading"><div class="editorial-prose"><p class="eyebrow">Start with a conversation</p><h2 id="valuation-heading">What’s next<br/>for your property?</h2><p>Contact us to arrange a complimentary valuation. Include the building or community, property type and your preferred timeframe in your message.</p><p>We will discuss your objectives and the information needed to prepare a considered recommendation.</p></div><div class="contact-form-panel"><h2>Tell us about your home</h2><EnquiryForm id="valuation-enquiry" context="Property valuation and selling enquiry" /></div></section>
+</Layout>

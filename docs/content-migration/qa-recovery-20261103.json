@@ -1,0 +1,380 @@
+{
+  "schemaVersion": 1,
+  "recoveredAt": "2026-11-03T10:16:19.604109+00:00",
+  "project": "Luxury Realty",
+  "repository": "/home/sergey/Projects/LuxuryRealty-content-20261103",
+  "sourceBranch": "content/source-migration-20261103",
+  "scope": "Historical QA recovery and harness corrections only. Fresh final validation remains owned by root.",
+  "jobs": [
+    {
+      "id": "20261103T093448-47f5d4d1ff",
+      "scope": "Historical Chromium interaction run; 14 groups, 1440/390",
+      "state": "succeeded",
+      "exitCode": 0,
+      "startedAt": "2026-11-03T09:34:48.522788+00:00",
+      "finishedAt": "2026-11-03T09:35:54.932436+00:00",
+      "argv": [
+        "env",
+        "ENGINE=chromium",
+        "QA_PORT=14328",
+        "node",
+        "scripts/content-browser-qa.mjs"
+      ],
+      "requestEnv": {
+        "LANG": "C.UTF-8",
+        "TERM": "xterm-256color"
+      },
+      "envFile": null,
+      "requestSha256": "412b9b2c867b2d53d78346924e84ad2b4c80dfcfeabefdb1c143e5b2a5e43da7",
+      "statusSha256": "f16e0f605e4dfeba540b4e70948f7ec3b47634fedad4e2361b8e6d080e712bb6",
+      "outputSha256": "fefa110d5841904cfc34cf082ac81f2831d92788fc62b3d31033396ca241a478"
+    },
+    {
+      "id": "20261103T093652-1518aa19f0",
+      "scope": "Historical WebKit interaction run; 14 groups, 1440/390",
+      "state": "succeeded",
+      "exitCode": 0,
+      "startedAt": "2026-11-03T09:37:02.064723+00:00",
+      "finishedAt": "2026-11-03T09:38:51.564727+00:00",
+      "argv": [
+        "env",
+        "ENGINE=webkit",
+        "QA_PORT=14328",
+        "node",
+        "scripts/content-browser-qa.mjs"
+      ],
+      "requestEnv": {
+        "LANG": "C.UTF-8",
+        "TERM": "xterm-256color"
+      },
+      "envFile": null,
+      "requestSha256": "d25fb59a0b7c1fb3b1471d912f78fe4ac9fa8fd9a175c38c71945890739a803b",
+      "statusSha256": "1efd46aa9ef3a4d5414202549617dc5b252bd3ad4d1c3438c7bbbd288a3ccc10",
+      "outputSha256": "342cd9355e7e3540d21646111dcbea693fecf63f5109f4a1ccb64c203f2ee236"
+    },
+    {
+      "id": "20261103T093932-5b25a2917a",
+      "scope": "Initial Firefox run; failed",
+      "state": "failed",
+      "exitCode": 1,
+      "startedAt": "2026-11-03T09:40:12.358639+00:00",
+      "finishedAt": "2026-11-03T09:40:53.845255+00:00",
+      "argv": [
+        "env",
+        "ENGINE=firefox",
+        "QA_PORT=14328",
+        "node",
+        "scripts/content-browser-qa.mjs"
+      ],
+      "requestEnv": {
+        "LANG": "C.UTF-8",
+        "TERM": "xterm-256color"
+      },
+      "envFile": null,
+      "requestSha256": "238b789f5166625b78b3000e009ddf4c7b5a3afcb3c84aa11cd581f5d60072f2",
+      "statusSha256": "7356e5a1eaecf695d06e2c9ad01a369520f5098232ab0afb10b092f5a7024b35",
+      "outputSha256": "264afb91e795412d7f1ea9ab03784353ed66b16dad2adbfbda98bba72c4bb218"
+    },
+    {
+      "id": "20261103T094228-3cfae74726",
+      "scope": "Firefox diagnostic; 9 groups pass, mobile location select hidden",
+      "state": "failed",
+      "exitCode": 1,
+      "startedAt": "2026-11-03T09:57:40.278896+00:00",
+      "finishedAt": "2026-11-03T09:58:55.597857+00:00",
+      "argv": [
+        "env",
+        "ENGINE=firefox",
+        "QA_PORT=14328",
+        "node",
+        "scripts/content-browser-qa.mjs"
+      ],
+      "requestEnv": {
+        "LANG": "C.UTF-8",
+        "TERM": "xterm-256color"
+      },
+      "envFile": null,
+      "requestSha256": "a6eb884a081fa594ca3052b9f11e2ff0b9b37e5b01ed74183439abef96dfe2a8",
+      "statusSha256": "c78a878acf55d994590c4da810a60c1f0c8e8e1e0dc81a45aacaeb029859550f",
+      "outputSha256": "4b063c8db48c058831a3d5339e21fb741e37e36e3a431998a6573da98d8be9ab"
+    },
+    {
+      "id": "20261103T094425-36ff6b0d9b",
+      "scope": "Check, unit tests, build and built-output audit",
+      "state": "succeeded",
+      "exitCode": 0,
+      "startedAt": "2026-11-03T09:56:56.385859+00:00",
+      "finishedAt": "2026-11-03T09:57:38.604244+00:00",
+      "argv": [
+        "/bin/bash",
+        "-c",
+        "npm run check && npm test && npm run build && /usr/local/bin/imon-python scripts/content-output-audit.py --output .vercel/output/static"
+      ],
+      "requestEnv": {
+        "LANG": "C.UTF-8",
+        "TERM": "xterm-256color"
+      },
+      "envFile": null,
+      "requestSha256": "7468217d8da1f1cf7f4a72e28bb7c9397ee5cb0777b6c0ddc4597a6b306fd914",
+      "statusSha256": "e11e2b4ca2a9693f30b0ff231e66498de2778cb2a2369765db3522e556ede6da",
+      "outputSha256": "68d50199d3e2548653a4482090e178faab4352fd10673a8af96df5dba6c7eb72"
+    },
+    {
+      "id": "20261103T094802-7d0f9d7b9f",
+      "scope": "Additional page visual and native film metadata checks",
+      "state": "succeeded",
+      "exitCode": 0,
+      "startedAt": "2026-11-03T09:54:44.380498+00:00",
+      "finishedAt": "2026-11-03T09:55:21.602460+00:00",
+      "argv": [
+        "env",
+        "QA_PORT=14329",
+        "node",
+        "scripts/content-visual-qa.mjs"
+      ],
+      "requestEnv": {
+        "LANG": "C.UTF-8",
+        "TERM": "xterm-256color"
+      },
+      "envFile": null,
+      "requestSha256": "70b31bfc05c04471ddd1e23b0ebc397aca94368024c45226ecc819ea35b56f0c",
+      "statusSha256": "9c818e063b0b77688cd4157e7dc20c9308a7cc1c8c48f7b375b515472b2cdc62",
+      "outputSha256": "286b33bb65c83a909da815be9c1ba721425aa0332b20351be3330e24a929c686"
+    },
+    {
+      "id": "20261103T100144-62fea705fd",
+      "scope": "Queued Firefox rerun cancelled before start during takeover",
+      "state": "cancelled",
+      "exitCode": 130,
+      "startedAt": null,
+      "finishedAt": "2026-11-03T10:11:57.547979+00:00",
+      "argv": [
+        "env",
+        "ENGINE=firefox",
+        "QA_PORT=14328",
+        "node",
+        "scripts/content-browser-qa.mjs"
+      ],
+      "requestEnv": {
+        "LANG": "C.UTF-8",
+        "TERM": "xterm-256color"
+      },
+      "envFile": null,
+      "requestSha256": "0b548dd7280e799fe897ca6aeccae9992e0081c79eb341b1d740835b448812d4",
+      "statusSha256": "83469d1d8fa3274fac46f2d7f79fcb9873afdd85d5b3a83a47966d7935e253e9",
+      "outputSha256": null,
+      "cancellationReason": "Root takeover: prevent the stale queued rerun and automatic git commit/push from racing with review and corrections. No unrelated jobs were cancelled."
+    },
+    {
+      "id": "20261103T100428-ea58542cf3",
+      "scope": "Queued release script including commit/push cancelled before start during takeover",
+      "state": "cancelled",
+      "exitCode": 130,
+      "startedAt": null,
+      "finishedAt": "2026-11-03T10:11:56.854208+00:00",
+      "argv": [
+        "/bin/bash",
+        "/tmp/luxury-content-release-20261103.sh"
+      ],
+      "requestEnv": {
+        "LANG": "C.UTF-8",
+        "TERM": "xterm-256color"
+      },
+      "envFile": null,
+      "requestSha256": "ee07adf01728a1ebcc8f786b3fdae70d2761d7620b040fa4eab65f9405618798",
+      "statusSha256": "5231fc7969ed87ba7f79138c1abf4d5b0a14cbc6ac0d93d5b09b7943f66f66d4",
+      "outputSha256": null,
+      "cancellationReason": "Root takeover: prevent the stale queued rerun and automatic git commit/push from racing with review and corrections. No unrelated jobs were cancelled."
+    }
+  ],
+  "historicalReports": [
+    {
+      "path": "artifacts/content-migration/chromium-report.json",
+      "sha256": "e75653a0521c8a9a7932033e89e7235a7915f47b8c68e2092515fa9d44f0483a",
+      "startedAt": "2026-11-03T09:34:49.423Z",
+      "finishedAt": "2026-11-03T09:35:50.307Z",
+      "recordedOk": true,
+      "checks": 14,
+      "passedChecks": 14,
+      "screenshots": 11,
+      "sourceHashCount": 10,
+      "currentSourceMismatches": [
+        {
+          "path": "src/pages/index.astro",
+          "recordedSha256": "9807644ec7841be8409423ba8772b48f02adfd33423db7bae2e4840a7f666a85",
+          "currentSha256": "773d6a07d1d000bb26dc47020d7b17c9afbb2b782742dabb9f91fe19ff6b5b32"
+        },
+        {
+          "path": "scripts/content-browser-qa.mjs",
+          "recordedSha256": "777e2dbd0117a71fee9e640bdff56834d0c52cba45d42b5682cfb2b1c6317984",
+          "currentSha256": "ca44f6bafec8a801d6a8d0f101eb789bd995eb46e7ace02e05305ada60adcc58"
+        }
+      ],
+      "currentBuildPassClaim": false
+    },
+    {
+      "path": "artifacts/content-migration/webkit-report.json",
+      "sha256": "4a3f1da815b1c854b758accd52136a405c332dfa321ceaa6f03b847356463083",
+      "startedAt": "2026-11-03T09:37:02.875Z",
+      "finishedAt": "2026-11-03T09:38:47.041Z",
+      "recordedOk": true,
+      "checks": 14,
+      "passedChecks": 14,
+      "screenshots": 11,
+      "sourceHashCount": 10,
+      "currentSourceMismatches": [
+        {
+          "path": "src/pages/index.astro",
+          "recordedSha256": "9807644ec7841be8409423ba8772b48f02adfd33423db7bae2e4840a7f666a85",
+          "currentSha256": "773d6a07d1d000bb26dc47020d7b17c9afbb2b782742dabb9f91fe19ff6b5b32"
+        },
+        {
+          "path": "scripts/content-browser-qa.mjs",
+          "recordedSha256": "777e2dbd0117a71fee9e640bdff56834d0c52cba45d42b5682cfb2b1c6317984",
+          "currentSha256": "ca44f6bafec8a801d6a8d0f101eb789bd995eb46e7ace02e05305ada60adcc58"
+        }
+      ],
+      "currentBuildPassClaim": false
+    },
+    {
+      "path": "artifacts/content-migration/firefox-report.json",
+      "sha256": "69527669bdbe8a5983661bd820a9d45272105266e5be5ff8267e0b442d497bd0",
+      "startedAt": "2026-11-03T09:57:40.926Z",
+      "finishedAt": "2026-11-03T09:58:51.830Z",
+      "recordedOk": false,
+      "checks": 10,
+      "passedChecks": 9,
+      "screenshots": 8,
+      "sourceHashCount": 10,
+      "currentSourceMismatches": [
+        {
+          "path": "src/pages/index.astro",
+          "recordedSha256": "9807644ec7841be8409423ba8772b48f02adfd33423db7bae2e4840a7f666a85",
+          "currentSha256": "773d6a07d1d000bb26dc47020d7b17c9afbb2b782742dabb9f91fe19ff6b5b32"
+        },
+        {
+          "path": "scripts/content-browser-qa.mjs",
+          "recordedSha256": "5d11929fd57d62ff1519a51a9e59a7d0620751a2444064a763bc76eee4002a2d",
+          "currentSha256": "ca44f6bafec8a801d6a8d0f101eb789bd995eb46e7ace02e05305ada60adcc58"
+        }
+      ],
+      "currentBuildPassClaim": false,
+      "failure": "Mobile 390 combinedFilters: locator.selectOption timed out because [name=location] was not visible; desktop seven groups and mobile hero/counts passed."
+    },
+    {
+      "path": "artifacts/content-migration/visual-report.json",
+      "sha256": "46f905bc14501463ee377de94d74d4ebf85cbb524ca29f9874cebcdcea97811a",
+      "startedAt": "2026-11-03T09:54:45.029Z",
+      "finishedAt": "2026-11-03T09:55:18.058Z",
+      "recordedOk": true,
+      "checks": 18,
+      "passedChecks": 18,
+      "screenshots": 20,
+      "sourceHashCount": 13,
+      "currentSourceMismatches": [
+        {
+          "path": "src/pages/index.astro",
+          "recordedSha256": "9807644ec7841be8409423ba8772b48f02adfd33423db7bae2e4840a7f666a85",
+          "currentSha256": "773d6a07d1d000bb26dc47020d7b17c9afbb2b782742dabb9f91fe19ff6b5b32"
+        },
+        {
+          "path": "src/pages/developments/[slug].astro",
+          "recordedSha256": "9b3d2fc8abcfdafd20f8627a237b11851bf2de250cfff83e751069c3d9335832",
+          "currentSha256": "03ff9a32885336bc6e79111ebb00d7570242a8359eae975481071fba24870611"
+        },
+        {
+          "path": "src/data/content.ts",
+          "recordedSha256": "5ac6cb0c70e7a8cdc9e49be01f64b98c4228f048f907d1e043a474545854e952",
+          "currentSha256": "a74006da9a6593f227537eadf5b485e941ba35ac00cfbc9dd0a04f88df2fb269"
+        }
+      ],
+      "currentBuildPassClaim": false,
+      "visualOk": true,
+      "filmWiringOk": true,
+      "nativePlaybackVerified": false,
+      "nativeFilmBoundary": "Wiring and external metadata only. No playback pass is claimed."
+    }
+  ],
+  "historicalOutputAudit": {
+    "path": "artifacts/content-migration/content-output-audit.json",
+    "sha256": "96261b1f1d3f06af095bf915fee162bceabdf9754b8dc0ef6d9596e105074f1d",
+    "generatedAt": "2026-11-03T09:57:30.459791+00:00",
+    "recordedPassed": true,
+    "summary": {
+      "htmlFiles": 131,
+      "assetReferences": 10291,
+      "linkReferencesFound": 2174,
+      "resolvedInternalLinks": 2037,
+      "uniqueGalleryArrays": 118,
+      "galleryItems": 2175,
+      "cssFiles": 3,
+      "javascriptFiles": 1,
+      "canonicalPagesChecked": 130,
+      "uniqueBuiltAssetsChecked": 2374,
+      "manifestFilesHashed": 2305,
+      "errors": 0,
+      "warnings": 1
+    },
+    "warnings": [
+      {
+        "code": "source_cdn_in_executable_script",
+        "message": "A source-CDN literal remains in executable JavaScript; runtime use needs review",
+        "at": ".vercel/output/static/_astro/Layout.astro_astro_type_script_index_0_lang.qdmIIsjW.js"
+      }
+    ],
+    "warningReview": "Read-only code review identified the CDN hostname literal as the native-film URL allowlist in films.ts, not an image hotlink. A fresh built-output audit is still required after runtime changes."
+  },
+  "harnessChange": {
+    "file": "scripts/content-browser-qa.mjs",
+    "sha256": "ca44f6bafec8a801d6a8d0f101eb789bd995eb46e7ace02e05305ada60adcc58",
+    "filters": "Wait for data-catalogue initialization, inspect native details.open, click its visible summary if closed, then wait for the actual location select to be visible. No force interaction or DOM opening is used.",
+    "regression": "At 1440 and 390, click Explore matching properties on /developments/atlantis/. Require purpose=all and a project query; require exactly 26 current individual homes (15 sale, 11 rent), exact IDs across both 24+2 pages, and no development enquiry substitution.",
+    "expectedScenarioGroups": 16,
+    "expectedMockedEnquiries": 8,
+    "expectedMockedFilmDocuments": 2,
+    "assertionsWeakened": false,
+    "newTestsRunByRecoveryAgent": false,
+    "freshPassClaim": false
+  },
+  "isolationReview": {
+    "loopbackOnly": true,
+    "enquiryPostMock": "/api/enquiry on the loopback origin",
+    "otherWriteRequests": "Blocked unless GET, HEAD or OPTIONS",
+    "filmProviders": "Vimeo and YouTube frames mocked in the interaction suite",
+    "secretsRead": false,
+    "realEnquiriesSent": false
+  },
+  "runtimeEvidence": {
+    "harnessEnvName": "PLAYWRIGHT_PACKAGE",
+    "unsupportedAlias": "PLAYWRIGHT_MODULE is not read by this harness",
+    "historicalPackageOverride": null,
+    "historicalEnvFile": null,
+    "defaultPackage": "/home/sergey/.local/share/imon-toolkit/node/node_modules/playwright/package.json",
+    "installedDefaultVersion": "1.58.2",
+    "defaultPackageSha256": "718c91812946dcfbb4b724cfa0084ee3be205c571df09094f218bc4571f43c2b",
+    "defaultBrowsers": [
+      {
+        "name": "chromium",
+        "revision": "1208",
+        "browserVersion": "145.0.7632.6"
+      },
+      {
+        "name": "firefox",
+        "revision": "1509",
+        "browserVersion": "146.0.1"
+      },
+      {
+        "name": "webkit",
+        "revision": "2248",
+        "browserVersion": "26.0"
+      }
+    ],
+    "historicalVersionPinClaim": "No package override or successful final Firefox run is present in the inspected requests/reports. Do not repeat the earlier conversational claim of a pass after version pinning.",
+    "recommendedExplicitEnv": {
+      "PLAYWRIGHT_PACKAGE": "/home/sergey/.local/share/imon-toolkit/node/node_modules/playwright/package.json",
+      "QA_PORT": "14328",
+      "ENGINE": "chromium, then webkit, then firefox in one serialized job"
+    }
+  },
+  "nextGate": "Root freezes runtime and harness, then runs check/unit/build/output audit and the three browser engines sequentially through imon-job. Preserve historical failures; record fresh reports with their full source hashes."
+}

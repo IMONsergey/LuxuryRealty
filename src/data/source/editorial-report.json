@@ -1,0 +1,78 @@
+{
+  "projects": 8,
+  "publicProjects": 7,
+  "articles": 4,
+  "publicSourceArticles": 0,
+  "agents": 7,
+  "staticPages": 9,
+  "articleBodyHashes": {
+    "exquisite-townhouse-project-in-dubai-2023": "c37f41d73807f5368ad2da1843bd37425bf0f587dd5c0b1ad41d5b093bbbc66a",
+    "the-ultra-luxury-bugatti-residences-project-in-dubai-2023": "c37f41d73807f5368ad2da1843bd37425bf0f587dd5c0b1ad41d5b093bbbc66a",
+    "top-10-reasons-to-invest-in-dubai-real-estate": "c37f41d73807f5368ad2da1843bd37425bf0f587dd5c0b1ad41d5b093bbbc66a",
+    "tranio-client-experience-buying-a-dream-apartment-in-dubai-in-24-hours": "c37f41d73807f5368ad2da1843bd37425bf0f587dd5c0b1ad41d5b093bbbc66a"
+  },
+  "projectIssues": {
+    "atlantis-the-royal": [
+      "placeholder-media",
+      "empty-cms-section",
+      "brochure-control-has-no-download-url",
+      "floorplan-control-has-no-download-url"
+    ],
+    "ava": [
+      "placeholder-media",
+      "empty-cms-section",
+      "brochure-control-has-no-download-url",
+      "floorplan-control-has-no-download-url"
+    ],
+    "orla": [
+      "placeholder-media",
+      "empty-cms-section",
+      "brochure-control-has-no-download-url",
+      "floorplan-control-has-no-download-url"
+    ],
+    "serenity-mansions-aurora": [
+      "placeholder-media",
+      "empty-cms-section",
+      "brochure-control-has-no-download-url",
+      "floorplan-control-has-no-download-url"
+    ],
+    "serenity-mansions-waterfront-collection": [
+      "placeholder-media",
+      "empty-cms-section",
+      "brochure-control-has-no-download-url",
+      "floorplan-control-has-no-download-url"
+    ],
+    "six-senses": [
+      "placeholder-media",
+      "empty-cms-section",
+      "brochure-control-has-no-download-url",
+      "floorplan-control-has-no-download-url"
+    ],
+    "template": [
+      "placeholder-copy",
+      "placeholder-media",
+      "empty-cms-section",
+      "placeholder-project-do-not-publish",
+      "brochure-control-has-no-download-url",
+      "floorplan-control-has-no-download-url"
+    ],
+    "vela": [
+      "placeholder-media",
+      "empty-cms-section",
+      "brochure-control-has-no-download-url",
+      "floorplan-control-has-no-download-url"
+    ]
+  },
+  "agentIssues": {
+    "matthew-cooke": [
+      "source-uae-phone-has-unexpected-digit-count-confirm-before-use"
+    ]
+  },
+  "notes": [
+    "All source text preserved under source brand. Rebrand rendering separately; do not modify source evidence.",
+    "Eight projects include one explicit Template placeholder. Seven real project pages have no real brochure or floorplan download URL.",
+    "Four article bodies all describe the unrelated Ohana Abu Dhabi mansion and are not safe to publish under current titles.",
+    "Seven agents are extracted from CMS popup records with actual bios. Repeated static Sabeeha placeholders are excluded.",
+    "Home/buy/rent listing content is owned by separate listings extractor."
+  ]
+}

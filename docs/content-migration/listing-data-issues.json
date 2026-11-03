@@ -1,0 +1,971 @@
+[
+  {
+    "url": "https://www.luxuryresidences.com/properties/1-of-1-branded-renovation-incredible-must-see",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/1-of-1-branded-renovation-incredible-must-see",
+    "field": "agent.phone",
+    "reason": "Source UAE phone has unexpected number of digits; confirm before using call link.",
+    "value": "+9715025402880"
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/1-of-1-palm-view-renovation-incredible-must-see",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/1-of-1-palm-view-renovation-incredible-must-see",
+    "field": "agent.phone",
+    "reason": "Source UAE phone has unexpected number of digits; confirm before using call link.",
+    "value": "+9715025402880"
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/2br-palm-skyline-view-branded-upgrades",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/2br-palm-skyline-view-branded-upgrades",
+    "field": "agent.phone",
+    "reason": "Source UAE phone has unexpected number of digits; confirm before using call link.",
+    "value": "+9715025402880"
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/3br-duplex-private-pool-viewing-essential",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/3br-duplex-private-pool-viewing-essential",
+    "field": "agent.phone",
+    "reason": "Source UAE phone has unexpected number of digits; confirm before using call link.",
+    "value": "+9715025402880"
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/a-refined-minimalist-sanctuary-with-serene-views",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/a-refined-minimalist-sanctuary-with-serene-views",
+    "field": "agent.phone",
+    "reason": "Source UAE phone has unexpected number of digits; confirm before using call link.",
+    "value": "+9715025402880"
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/ava-at-palm-jumeirah-dorchester-collection",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/ava-at-palm-jumeirah-dorchester-collection",
+    "field": "unitSpecifications",
+    "reason": "Source is a whole-development enquiry listing, not an individual unit. Do not present source bedroom/area/price fields as available unit inventory."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/beachfront-living-stunning-views-vacant",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/beautifully-renovated-private-spa-high-number",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/beauty-rarity-and-timeless-elegance-awaits",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/beauty-rarity-and-timeless-elegance-awaits",
+    "field": "agent.phone",
+    "reason": "Source UAE phone has unexpected number of digits; confirm before using call link.",
+    "value": "+9715025402880"
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/best-price-high-floor-sea-view-large-size",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/best-price-high-floor-sea-view-large-size",
+    "field": "agent.phone",
+    "reason": "Source UAE phone has unexpected number of digits; confirm before using call link.",
+    "value": "+9715025402880"
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/best-price-upgraded-furnished-skyline-views",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/best-price-upgraded-furnished-skyline-views",
+    "field": "agent.phone",
+    "reason": "Source UAE phone has unexpected number of digits; confirm before using call link.",
+    "value": "+9715025402880"
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/best-priced-palm-view-2br-furnished-view-today",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/best-priced-palm-view-2br-furnished-view-today",
+    "field": "agent.phone",
+    "reason": "Source UAE phone has unexpected number of digits; confirm before using call link.",
+    "value": "+9715025402880"
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/best-value-huge-terrace-amazing-potential",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/best-value-huge-terrace-amazing-potential",
+    "field": "agent.phone",
+    "reason": "Source UAE phone has unexpected number of digits; confirm before using call link.",
+    "value": "+9715025402880"
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/brand-new-high-floor-full-palm-jumeirah-view",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/brand-new-high-floor-full-palm-jumeirah-view",
+    "field": "agent.phone",
+    "reason": "Source UAE phone has unexpected number of digits; confirm before using call link.",
+    "value": "+9715025402880"
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/brand-new-high-floor-islands-view",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/brand-new-high-floor-palm-and-skyline-view",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/brand-new-high-floor-sea-and-sunset-views",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/brand-new-palm-and-garden-view-vacant",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/brand-new-private-garden-private-pool",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/brand-new-sea-and-palm-view-corner-unit-2",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/brand-new-sea-and-palm-view-corner-unit",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/brand-new-sea-and-sunset-views",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/brand-new-sea-dubai-eye-and-sunset-views",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/brand-new-vacant-sea-and-sunset-views-2",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/brand-new-vacant-sea-and-sunset-views",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/branded-upgrade-palm-skyline-view-2br-xl-size",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/branded-upgrade-palm-skyline-view-2br-xl-size",
+    "field": "agent.phone",
+    "reason": "Source UAE phone has unexpected number of digits; confirm before using call link.",
+    "value": "+9715025402880"
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/burj-khalifa-views-upgraded-fully-furnished",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/celebrated-designer-duplex-with-private-pool",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/celebrated-designer-duplex-with-private-pool",
+    "field": "agent.phone",
+    "reason": "Source UAE phone has unexpected number of digits; confirm before using call link.",
+    "value": "+9715025402880"
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/city-and-sea-views-fully-furnished-xl-terrace",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/city-and-sea-views-fully-furnished-xl-terrace",
+    "field": "agent.phone",
+    "reason": "Source UAE phone has unexpected number of digits; confirm before using call link.",
+    "value": "+9715025402880"
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/close-to-tip-fully-upgraded-prime-location",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/dorchester-collection-full-palm-view-duplex",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/dorchester-collection-full-palm-view-duplex",
+    "field": "agent.phone",
+    "reason": "Source UAE phone has unexpected number of digits; confirm before using call link.",
+    "value": "+9715025402880"
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/dual-views-double-height-2027-completion",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/dual-views-double-height-2027-completion",
+    "field": "agent.phone",
+    "reason": "Source UAE phone has unexpected number of digits; confirm before using call link.",
+    "value": "+9715025402880"
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/dual-views-highest-floor-huge-layout",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/dual-views-highest-floor-huge-layout",
+    "field": "agent.phone",
+    "reason": "Source UAE phone has unexpected number of digits; confirm before using call link.",
+    "value": "+9715025402880"
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/duplex-ph-brand-new-unobstructed-views",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/duplex-roof-terrace-golf-and-skyline-views",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/duplex-roof-terrace-golf-and-skyline-views",
+    "field": "agent.phone",
+    "reason": "Source UAE phone has unexpected number of digits; confirm before using call link.",
+    "value": "+9715025402880"
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/duplex-with-private-pool-must-be-viewed",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/duplex-with-private-pool-must-be-viewed",
+    "field": "agent.phone",
+    "reason": "Source UAE phone has unexpected number of digits; confirm before using call link.",
+    "value": "+9715025402880"
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/eden-hills",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/eden-hills",
+    "field": "agent.phone",
+    "reason": "Source UAE phone has unexpected number of digits; confirm before using call link.",
+    "value": "+9715025402880"
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/eden-hills",
+    "field": "unitSpecifications",
+    "reason": "Source is a whole-development enquiry listing, not an individual unit. Do not present source bedroom/area/price fields as available unit inventory."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/exclusive-high-floor-available-now-furnished",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/exclusive-high-floor-available-now-furnished",
+    "field": "agent.phone",
+    "reason": "Source UAE phone has unexpected number of digits; confirm before using call link.",
+    "value": "+9715025402880"
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/exclusive-lagoon-facing-available-for-viewing",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/exclusive-sea-view-4br-royal-penthouse",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/exclusive-sea-view-4br-royal-penthouse",
+    "field": "agent.phone",
+    "reason": "Source UAE phone has unexpected number of digits; confirm before using call link.",
+    "value": "+9715025402880"
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/exclusive-top-floor-one-of-a-kind",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/exclusive-top-floor-one-of-a-kind",
+    "field": "agent.phone",
+    "reason": "Source UAE phone has unexpected number of digits; confirm before using call link.",
+    "value": "+9715025402880"
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/extraordinary-turnkey-luxury-with-iconic-views",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/extraordinary-turnkey-luxury-with-iconic-views",
+    "field": "agent.phone",
+    "reason": "Source UAE phone has unexpected number of digits; confirm before using call link.",
+    "value": "+9715025402880"
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/furnished-palm-and-skyline-views-exclusive",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/furnished-palm-and-skyline-views-exclusive",
+    "field": "agent.phone",
+    "reason": "Source UAE phone has unexpected number of digits; confirm before using call link.",
+    "value": "+9715025402880"
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/furnished-palm-skyline-views-exclusive-2",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/furnished-palm-skyline-views-exclusive-2",
+    "field": "agent.phone",
+    "reason": "Source UAE phone has unexpected number of digits; confirm before using call link.",
+    "value": "+9715025402880"
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/furnished-palm-skyline-views-exclusive",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/furnished-upgraded-unique-layout-dual-views",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/furnished-upgraded-unique-layout-dual-views",
+    "field": "agent.phone",
+    "reason": "Source UAE phone has unexpected number of digits; confirm before using call link.",
+    "value": "+9715025402880"
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/garden-apartment-sea-facing-private-pool-2",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/garden-apartment-sea-facing-private-pool",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/garden-villa-hermes-and-minotti-private-pool",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/garden-villa-hermes-and-minotti-private-pool",
+    "field": "agent.phone",
+    "reason": "Source UAE phone has unexpected number of digits; confirm before using call link.",
+    "value": "+9715025402880"
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/genuine-resale-full-sea-and-marina-views",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/high-floor-2br-sea-view-chic-upgrades",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/high-floor-2br-sea-view-chic-upgrades",
+    "field": "agent.phone",
+    "reason": "Source UAE phone has unexpected number of digits; confirm before using call link.",
+    "value": "+9715025402880"
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/high-floor-palm-paradise-with-city-views-for-rent",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/high-floor-palm-paradise-with-city-views-for-rent",
+    "field": "agent.phone",
+    "reason": "Source UAE phone has unexpected number of digits; confirm before using call link.",
+    "value": "+9715025402880"
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/high-floor-palm-paradise-with-incredible-views",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/high-floor-palm-paradise-with-incredible-views",
+    "field": "agent.phone",
+    "reason": "Source UAE phone has unexpected number of digits; confirm before using call link.",
+    "value": "+9715025402880"
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/high-floor-palm-view-fully-furnished",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/high-floor-with-best-views-furnished-1-agency",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/high-floor-with-best-views-furnished-1-agency",
+    "field": "agent.phone",
+    "reason": "Source UAE phone has unexpected number of digits; confirm before using call link.",
+    "value": "+9715025402880"
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/high-number-fully-renovated-best-layout",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/landmark-marina-gate-one-bed-must-be-viewed-2",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/large-layout-community-view-maids-room",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/last-available-3br-duplex-with-private-pool",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/last-available-3br-duplex-with-private-pool",
+    "field": "agent.phone",
+    "reason": "Source UAE phone has unexpected number of digits; confirm before using call link.",
+    "value": "+9715025402880"
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/live-royally-turnkey-renovated-masterpiece",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/live-royally-turnkey-renovated-masterpiece",
+    "field": "agent.phone",
+    "reason": "Source UAE phone has unexpected number of digits; confirm before using call link.",
+    "value": "+9715025402880"
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/marina-view-upgraded-furnished-investor-deal",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/miami-style-stunning-marina-views-beach-access",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/modern-design-elie-saab-branded-priced-to-sell",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/modern-design-elie-saab-branded-priced-to-sell",
+    "field": "agent.phone",
+    "reason": "Source UAE phone has unexpected number of digits; confirm before using call link.",
+    "value": "+9715025402880"
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/must-be-viewed-rare-2br-sea-and-skyline-views",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/must-be-viewed-rare-2br-sea-and-skyline-views",
+    "field": "agent.phone",
+    "reason": "Source UAE phone has unexpected number of digits; confirm before using call link.",
+    "value": "+9715025402880"
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/one-at-palm-jumeirah-dorchester-collection",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/one-at-palm-jumeirah-dorchester-collection",
+    "field": "unitSpecifications",
+    "reason": "Source is a whole-development enquiry listing, not an individual unit. Do not present source bedroom/area/price fields as available unit inventory."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/one-of-a-kind-loft-designer-upgrade-sea-view",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/one-of-a-kind-villa-unique-reimagined-layout",
+    "field": "areaSqm",
+    "reason": "Source sqft and sqm values disagree by more than 3%; both preserved, no conversion applied.",
+    "sqft": 6702,
+    "sqm": 63
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/one-of-a-kind-villa-unique-reimagined-layout",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/orla-dorchester-collection",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/orla-dorchester-collection",
+    "field": "unitSpecifications",
+    "reason": "Source is a whole-development enquiry listing, not an individual unit. Do not present source bedroom/area/price fields as available unit inventory."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/palm-and-marina-skyline-views-private-pool",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/palm-view-amazing-2br-layout-must-be-viewed",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/palm-view-amazing-2br-layout-must-be-viewed",
+    "field": "agent.phone",
+    "reason": "Source UAE phone has unexpected number of digits; confirm before using call link.",
+    "value": "+9715025402880"
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/palm-view-duplex-bespoke-garden-home",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/palm-view-sky-court-xl-terrace-upgraded",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/palm-view-sky-court-xl-terrace-upgraded",
+    "field": "agent.phone",
+    "reason": "Source UAE phone has unexpected number of digits; confirm before using call link.",
+    "value": "+9715025402880"
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/panoramic-sea-sunset-views-wrap-around-balcony",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/partially-upgraded-premium-location-immaculate",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/penthouse-style-with-skyline-views-at-golf-heights",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/penthouse-style-with-skyline-views-at-golf-heights",
+    "field": "agent.phone",
+    "reason": "Source UAE phone has unexpected number of digits; confirm before using call link.",
+    "value": "+9715025402880"
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/popular-type-prime-location-prestigious-villa",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/post-handover-pp-04-layout-palm-view",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/premium-location-best-value-turnkey-garden-home",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/private-pool-duplex-1-resale-agency",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/private-pool-duplex-1-resale-agency",
+    "field": "agent.phone",
+    "reason": "Source UAE phone has unexpected number of digits; confirm before using call link.",
+    "value": "+9715025402880"
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/private-pool-furnished-spacious-terrace",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/rare-dual-view-skyline-sea-spacious-luxury",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/rare-dual-view-skyline-sea-spacious-luxury",
+    "field": "agent.phone",
+    "reason": "Source UAE phone has unexpected number of digits; confirm before using call link.",
+    "value": "+9715025402880"
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/renovation-opportunity-high-number-iconic-view",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/rented-alternatives-available",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/rented-alternatives-available",
+    "field": "agent.phone",
+    "reason": "Source UAE phone has unexpected number of digits; confirm before using call link.",
+    "value": "+9715025402880"
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/sea-view-or-skyline-vistas-now-you-can-have-both",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/sea-view-or-skyline-vistas-now-you-can-have-both",
+    "field": "agent.phone",
+    "reason": "Source UAE phone has unexpected number of digits; confirm before using call link.",
+    "value": "+9715025402880"
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/sea-views-michelin-star-dining-and-more",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/sea-views-michelin-star-dining-and-more",
+    "field": "agent.phone",
+    "reason": "Source UAE phone has unexpected number of digits; confirm before using call link.",
+    "value": "+9715025402880"
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/serenity-mansions-aurora",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/serenity-mansions-aurora",
+    "field": "agent.phone",
+    "reason": "Source UAE phone has unexpected number of digits; confirm before using call link.",
+    "value": "+9715025402880"
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/serenity-mansions-aurora",
+    "field": "unitSpecifications",
+    "reason": "Source is a whole-development enquiry listing, not an individual unit. Do not present source bedroom/area/price fields as available unit inventory."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/serenity-mansions-waterfront-collection",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/serenity-mansions-waterfront-collection",
+    "field": "agent.phone",
+    "reason": "Source UAE phone has unexpected number of digits; confirm before using call link.",
+    "value": "+9715025402880"
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/serenity-mansions-waterfront-collection",
+    "field": "unitSpecifications",
+    "reason": "Source is a whole-development enquiry listing, not an individual unit. Do not present source bedroom/area/price fields as available unit inventory."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/six-senses-residences-dubai-marina",
+    "field": "areaSqm",
+    "reason": "Source sqft and sqm values disagree by more than 3%; both preserved, no conversion applied.",
+    "sqft": 2000,
+    "sqm": 202
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/six-senses-residences-dubai-marina",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/six-senses-residences-dubai-marina",
+    "field": "agent.phone",
+    "reason": "Source UAE phone has unexpected number of digits; confirm before using call link.",
+    "value": "+9715025402880"
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/six-senses-residences-dubai-marina",
+    "field": "unitSpecifications",
+    "reason": "Source is a whole-development enquiry listing, not an individual unit. Do not present source bedroom/area/price fields as available unit inventory."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/sleek-sophisticated-and-move-in-ready",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/sleek-sophisticated-and-move-in-ready",
+    "field": "agent.phone",
+    "reason": "Source UAE phone has unexpected number of digits; confirm before using call link.",
+    "value": "+9715025402880"
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/sought-after-sea-sunset-views-branded-residences",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/spacious-layout-prime-amenities-modern-living",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/stunning-4br-amazing-bmv-price-move-in-ready",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/stunning-4br-amazing-bmv-price-move-in-ready",
+    "field": "agent.phone",
+    "reason": "Source UAE phone has unexpected number of digits; confirm before using call link.",
+    "value": "+9715025402880"
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/stunning-upgrade-luxury-villa-golf-course-view",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/stunning-upgrade-luxury-villa-golf-course-view",
+    "field": "agent.phone",
+    "reason": "Source UAE phone has unexpected number of digits; confirm before using call link.",
+    "value": "+9715025402880"
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/sublime-sea-views-iconic-living",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/sublime-sea-views-iconic-living",
+    "field": "agent.phone",
+    "reason": "Source UAE phone has unexpected number of digits; confirm before using call link.",
+    "value": "+9715025402880"
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/super-rare-huge-terrace-furnished-1-agency",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/super-rare-huge-terrace-furnished-1-agency",
+    "field": "agent.phone",
+    "reason": "Source UAE phone has unexpected number of digits; confirm before using call link.",
+    "value": "+9715025402880"
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/the-chedi-private-residences",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/the-chedi-private-residences",
+    "field": "agent.phone",
+    "reason": "Source UAE phone has unexpected number of digits; confirm before using call link.",
+    "value": "+9715025402880"
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/the-chedi-private-residences",
+    "field": "unitSpecifications",
+    "reason": "Source is a whole-development enquiry listing, not an individual unit. Do not present source bedroom/area/price fields as available unit inventory."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/timeless-elegance-awaits-at-palazzo-versace-dubai",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/triple-storey-fully-renovated-prime-location",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/trophy-4br-garden-suite-with-private-pool",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/trophy-4br-garden-suite-with-private-pool",
+    "field": "agent.phone",
+    "reason": "Source UAE phone has unexpected number of digits; confirm before using call link.",
+    "value": "+9715025402880"
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/turnkey-renovation-balearic-style-extended",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/turnkey-renovation-balearic-style-extended",
+    "field": "agent.phone",
+    "reason": "Source UAE phone has unexpected number of digits; confirm before using call link.",
+    "value": "+9715025402880"
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/ultra-high-floor-one-of-a-kind-upgraded-residence",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/ultra-high-floor-one-of-a-kind-upgraded-residence",
+    "field": "agent.phone",
+    "reason": "Source UAE phone has unexpected number of digits; confirm before using call link.",
+    "value": "+9715025402880"
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/ultra-luxury-super-rare-dual-view-residence",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/ultra-luxury-super-rare-dual-view-residence",
+    "field": "agent.phone",
+    "reason": "Source UAE phone has unexpected number of digits; confirm before using call link.",
+    "value": "+9715025402880"
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/ultra-rare-2br-duplex-in-the-iconic-uptown-tower",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/ultra-rare-2br-duplex-in-the-iconic-uptown-tower",
+    "field": "agent.phone",
+    "reason": "Source UAE phone has unexpected number of digits; confirm before using call link.",
+    "value": "+9715025402880"
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/unique-duplex-breath-taking-sea-view",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/upgraded-2br-marina-view-investor-deal",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/upgraded-vacant-furnished-viewing-essential",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/vela-dorchester-collection",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/vela-dorchester-collection",
+    "field": "agent.phone",
+    "reason": "Source UAE phone has unexpected number of digits; confirm before using call link.",
+    "value": "+9715025402880"
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/vela-dorchester-collection",
+    "field": "unitSpecifications",
+    "reason": "Source is a whole-development enquiry listing, not an individual unit. Do not present source bedroom/area/price fields as available unit inventory."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/very-high-number-fully-upgraded-premium-views",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/www-luxuryresidences-com-properties-private-pool-canal-view-renovated-upgraded",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/your-royal-lifestyle-with-sublime-views-and-space-2",
+    "field": "agent.emailHref",
+    "reason": "Source email href is not mailto; use visible email text only."
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/your-royal-lifestyle-with-sublime-views-and-space-2",
+    "field": "agent.phone",
+    "reason": "Source UAE phone has unexpected number of digits; confirm before using call link.",
+    "value": "+9715025402880"
+  }
+]

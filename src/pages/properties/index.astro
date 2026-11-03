@@ -6,24 +6,50 @@ import Lettering from '../../components/Lettering.astro';
 import PropertyCard from '../../components/PropertyCard.astro';
 import Consultation from '../../components/Consultation.astro';
 import {properties} from '../../data/site';
+import '../../styles/catalogue.css';
+const unique=(items:string[])=>[...new Set(items.filter(Boolean))].sort((a,b)=>a.localeCompare(b));
+const locations=unique(properties.map(p=>p.location));
+const types=unique(properties.map(p=>p.type));
+const features=unique(properties.flatMap(p=>p.features||[]));
+const bedrooms=[...new Set(properties.filter(p=>!p.isDevelopment).map(p=>p.bedrooms).filter((value):value is number=>typeof value==='number'&&Number.isFinite(value)&&value>=0).map(value=>Math.min(8,value)))].sort((a,b)=>a-b);
+const archived=(p:typeof properties[number])=>/\b(sold|rented|archived|withdrawn|unavailable)\b|off[ -]market/i.test(p.saleStatus||p.status||'');
+const archivedStatuses=unique(properties.filter(archived).map(p=>(p.saleStatus||p.status).trim().toLowerCase()));
+const currentBuy=properties.filter(p=>p.purpose==='buy'&&!p.isDevelopment&&!archived(p));
+const initialIds=new Set(currentBuy.slice(0,24).map(p=>p.id));
+const statusLabel=(value:string)=>value.charAt(0).toUpperCase()+value.slice(1);
 ---
-<Layout title="Dubai real estate" description="Explore illustrative property previews. Verified listings, locations, pricing and availability are confirmed separately.">
- <section class="page-hero"><div class="page-hero-back"><Picture name="imgRectangle21" eager /></div><div class="container"><Lettering name="dubai" text="Dubai" /><h1>Real Estate</h1><p>A considered selection of exceptional places to call home.</p></div></section>
- <p class="container collection-disclaimer" role="note">Illustrative catalogue preview. These sample entries are not verified property listings. Prices, locations, specifications, images and availability must be confirmed with the owner.</p>
- <section class="container catalogue" data-catalogue aria-label="Property collection">
-  <div class="catalogue-top"><div class="purpose-tabs" role="group" aria-label="Transaction type"><button type="button" data-purpose="buy" aria-pressed="true">Buy examples</button><button type="button" data-purpose="rent" aria-pressed="false">Rent</button></div><p class="result-count" role="status" data-result-count>{properties.length} properties</p><label class="sort-label">Sort by<select name="sort" data-sort><option value="featured">Featured</option><option value="name">Name</option></select></label></div>
+<Layout title="Dubai properties for sale and rent" description="Explore homes for sale and rent in Dubai. Search by community, property type, bedrooms and price, with photographs and details for each residence.">
+ <section class="page-hero"><div class="page-hero-back"><Picture name="imgRectangle21" eager /></div><div class="container"><Lettering name="dubai" text="Dubai" /><h1>Real Estate</h1><p>Find a home that reflects the way you want to live.</p></div></section>
+ <section class="container catalogue" data-catalogue data-page-size="24" aria-label="Property collection">
+  <div class="catalogue-top">
+   <div class="purpose-tabs" role="group" aria-label="Transaction type"><button type="button" data-purpose="buy" aria-pressed="true">Buy</button><button type="button" data-purpose="rent" aria-pressed="false">Rent</button><button type="button" data-purpose="developments" aria-pressed="false">New developments</button><button type="button" data-purpose="all" aria-pressed="false">All</button></div>
+   <p class="result-count" role="status" aria-live="polite" aria-atomic="true" data-result-count>{currentBuy.length} {currentBuy.length===1?'property':'properties'}</p>
+   <label class="sort-label">Sort by<select name="sort" data-sort><option value="featured">Featured</option><option value="price-asc">Price: low to high</option><option value="price-desc">Price: high to low</option><option value="name">Property name</option></select></label>
+  </div>
+  <p class="catalogue-link-notice" data-query-notice role="status" hidden></p>
+  <noscript><p class="catalogue-link-notice">JavaScript is needed to use the filters. All catalogue records are shown below.</p><style is:inline>.catalogue [data-property-card][hidden]{display:block!important}.catalogue [data-pagination],.catalogue [data-page-summary],.catalogue .catalogue-top,.catalogue .catalogue-sidebar{display:none!important}.catalogue .catalogue-layout{display:block}</style></noscript>
   <div class="catalogue-layout">
    <aside class="catalogue-sidebar" id="filters">
     <details class="filter-disclosure" open><summary>Refine your search<span aria-hidden="true"><Icon name="plus" /></span></summary>
-     <form class="filter-form" data-filters method="get" action="/properties/">
+     <form class="filter-form" data-filters method="get" action="/properties/" novalidate>
       <input type="hidden" name="purpose" value="buy" />
-      <label class="filter-label">Name or keyword<input name="q" type="search" placeholder="Search property names" maxlength="100" /></label>
-      <p class="filter-live-note" aria-live="polite">Results update as you refine your search.</p><button class="reset-filters" type="reset">Reset all filters</button>
+      <label class="filter-label">Search properties<input name="q" type="search" placeholder="Name, community or reference" maxlength="100" autocomplete="off" /></label>
+      <label class="filter-label">Location<select name="location"><option value="">All locations</option>{locations.map(location=><option value={location}>{location}</option>)}</select></label>
+      <details class="filter-group" open><summary>Property type<span aria-hidden="true"><Icon name="chevron-down" /></span></summary>{types.map(type=><label><input type="checkbox" name="type" value={type} /><span>{type}</span></label>)}</details>
+      {bedrooms.length>0&&<details class="filter-group" open><summary>Bedrooms<span aria-hidden="true"><Icon name="chevron-down" /></span></summary><div class="bedroom-options">{bedrooms.map(number=><label><input type="checkbox" name="bedrooms" value={number===8?'8+':String(number)} aria-label={number===0?'Studio':number===8?'8 or more bedrooms':number+' '+(number===1?'bedroom':'bedrooms')} /><span>{number===0?'Studio':number===8?'8+':number}</span></label>)}</div></details>}
+      <details class="filter-group" open><summary>Price in AED<span aria-hidden="true"><Icon name="chevron-down" /></span></summary><div class="price-inputs"><label><span>Minimum</span><input type="text" inputmode="numeric" name="minPrice" maxlength="30" placeholder="No minimum" aria-describedby="price-filter-error" /></label><label><span>Maximum</span><input type="text" inputmode="numeric" name="maxPrice" maxlength="30" placeholder="No maximum" aria-describedby="price-filter-error" /></label></div><p class="field-error" id="price-filter-error" data-price-error role="status" aria-live="polite"></p><p class="filter-price-note" data-rental-price-note hidden>Rental prices use the period shown on each listing.</p></details>
+      {features.length>0&&<details class="filter-group filter-features"><summary>Features & amenities<span aria-hidden="true"><Icon name="chevron-down" /></span></summary><div class="feature-options">{features.map(feature=><label><input type="checkbox" name="features" value={feature} /><span>{feature}</span></label>)}</div><p class="filter-price-note">A property must include every selected feature.</p></details>}
+      <label class="filter-label filter-status">Listing status<select name="status"><option value="current">Current listings</option><option value="all">All records</option>{archivedStatuses.length>0&&<option value="archived">Sold & rented</option>}{archivedStatuses.filter(status=>status!=='archived').map(status=><option value={status}>{statusLabel(status)}</option>)}</select></label>
+      <button class="button button--solid" type="submit"><span>Show properties</span><span aria-hidden="true"><Icon name="arrow-right" /></span></button>
+      <button class="reset-filters" type="reset">Reset all filters</button>
      </form>
     </details>
    </aside>
-   <div class="catalogue-results"><div class="property-grid" data-property-grid>{properties.map(property=><PropertyCard property={property} />)}<div class="empty-state" data-no-results hidden><p class="eyebrow">Let’s make it personal</p><h2 data-empty-title>No matching examples</h2><p data-empty-copy>Try fewer filters, or request a tailored selection. All current catalogue entries are illustrative previews.</p><button class="button button--outline" type="button" data-enquiry="Personal property search"><span>Request a selection</span><span aria-hidden="true"><Icon name="arrow-right" /></span></button></div></div>
-    <p class="collection-note">All entries are illustrative examples, not live listings. Verified inventory, prices, specifications and availability must be confirmed separately.</p>
+   <div class="catalogue-results" data-results-start tabindex="-1">
+    <div class="active-filters" data-active-filters aria-label="Selected filters" hidden></div>
+    <div class="property-grid" data-property-grid>{properties.map(property=><PropertyCard property={property} hidden={!initialIds.has(property.id)} />)}<div class="empty-state" data-no-results hidden={currentBuy.length>0}><p class="eyebrow">A more personal search</p><h2 data-empty-title>No matching properties</h2><p data-empty-copy>Try a different location or a wider price range. Our team can also help you find a home that meets your requirements.</p><button class="button button--outline" type="button" data-enquiry="Personal property search"><span>Request a selection</span><span aria-hidden="true"><Icon name="arrow-right" /></span></button><button type="button" class="empty-reset text-link" data-empty-reset>Clear your filters</button></div></div>
+    <div class="catalogue-pagination"><p data-page-summary>{currentBuy.length>0?'Showing 1-'+Math.min(24,currentBuy.length)+' of '+currentBuy.length+' properties':''}</p><nav aria-label="Property pages" data-pagination></nav></div>
+    <p class="collection-note">Price and availability are confirmed on enquiry. Sold and rented homes remain in the archive and can be found using the listing status filter.</p>
    </div>
   </div>
  </section>

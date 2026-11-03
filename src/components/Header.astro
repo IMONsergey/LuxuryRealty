@@ -6,7 +6,7 @@ const current=Astro.url.pathname;
 const isCurrent=(href:string)=>{
  const target=new URL(href,Astro.url);
  if(current!==target.pathname||target.hash)return false;
- return current!=='/properties/'||(Astro.url.searchParams.get('purpose')==='rent'?'rent':'buy')===(target.searchParams.get('purpose')==='rent'?'rent':'buy');
+ return current!=='/properties/'||(Astro.url.searchParams.get('purpose')||'buy')===(target.searchParams.get('purpose')||'buy');
 };
 ---
 <a class="skip-link" href="#main">Skip to content</a>

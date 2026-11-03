@@ -1,0 +1,1594 @@
+{
+  "project": "luxury-realty",
+  "engine": "chromium",
+  "base": "http://127.0.0.1:14329",
+  "startedAt": "2026-11-03T10:22:53.287Z",
+  "sourceHashes": {
+    "src/pages/index.astro": "773d6a07d1d000bb26dc47020d7b17c9afbb2b782742dabb9f91fe19ff6b5b32",
+    "src/pages/about.astro": "7c35b04a76fdf60148c1725d783d5afeafca8694162f455cf482450a23897bfa",
+    "src/pages/services.astro": "03009ccac09582381bafaf2b37ec27a98ac770794c14220b8661f21c6a14a29b",
+    "src/pages/sell.astro": "b7abf62153d32fc75f721d3bfc7682beddfde8661ec5a5a3ea2bb921554ef7c3",
+    "src/pages/contacts.astro": "1dce3251b78c21af8c933e42bbef82f3101f124f36d55de5b55c86f5f0e66f90",
+    "src/pages/developments/index.astro": "bae1a1ddd8bd921b9fb2934130c8374cd5f5f175197ea7e5b19e2190d05aa5fc",
+    "src/pages/developments/[slug].astro": "03ff9a32885336bc6e79111ebb00d7570242a8359eae975481071fba24870611",
+    "src/styles/content.css": "4207c37e9e15e6becb94b86fad9b438d4d71e5a18e1b9c4ba22af9a45de06fba",
+    "src/styles/migration.css": "919d13cc833e1a3aec91fea5aecc63ca7822d2667df157df02dc5e942b3e240d",
+    "src/data/content.ts": "a74006da9a6593f227537eadf5b485e941ba35ac00cfbc9dd0a04f88df2fb269",
+    "src/data/source/projects.json": "af6fd4e1c4afd506a39da3a7e9ddd1980e5084f6d9dca311bac42e442946fb46",
+    "src/scripts/films.ts": "cbbd947eea9c5dd98856621fc63215255d2b2c7638c4f1d0a52ff026a00ff821",
+    "scripts/content-visual-qa.mjs": "9233d05cd0739d8e6695655601ba93076e68848e1e65c1609257aef477d43a05"
+  },
+  "editorialFilmEvidence": "docs/content-migration/video-visual-review.json",
+  "checks": [
+    {
+      "name": "1440-home",
+      "ok": true,
+      "elapsedMs": 2418,
+      "route": "/",
+      "layout": {
+        "viewport": 1440,
+        "document": 1425,
+        "body": 1425,
+        "h1": 1,
+        "title": "Elegant Luxury properties in the heart"
+      },
+      "heroImages": [
+        {
+          "src": "http://127.0.0.1:14329/assets/imgGroup1.svg",
+          "alt": "",
+          "width": 41,
+          "height": 41
+        },
+        {
+          "src": "http://127.0.0.1:14329/assets/imgGroup48096582.svg",
+          "alt": "",
+          "width": 104,
+          "height": 15
+        },
+        {
+          "src": "http://127.0.0.1:14329/media/8283c2884344b120a546-1280.webp",
+          "alt": "Dubai’s waterfront residences",
+          "width": 1440,
+          "height": 810
+        },
+        {
+          "src": "http://127.0.0.1:14329/assets/lettering-of-dubai.svg",
+          "alt": "of Dubai",
+          "width": 302,
+          "height": 78
+        },
+        {
+          "src": "http://127.0.0.1:14329/assets/hero-chevron.svg",
+          "alt": "",
+          "width": 17,
+          "height": 17
+        },
+        {
+          "src": "http://127.0.0.1:14329/assets/hero-search.svg",
+          "alt": "",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "src": "http://127.0.0.1:14329/assets/hero-filter.svg",
+          "alt": "",
+          "width": 20,
+          "height": 18
+        }
+      ],
+      "frames": [
+        {
+          "selector": ".selection-heading",
+          "layout": {
+            "viewport": 1440,
+            "document": 1425,
+            "body": 1425,
+            "h1": 1,
+            "title": "Elegant Luxury properties in the heart"
+          },
+          "visibleImages": [
+            {
+              "src": "http://127.0.0.1:14329/assets/imgGroup1.svg",
+              "alt": "",
+              "width": 41,
+              "height": 41
+            },
+            {
+              "src": "http://127.0.0.1:14329/assets/imgGroup48096582.svg",
+              "alt": "",
+              "width": 104,
+              "height": 15
+            },
+            {
+              "src": "http://127.0.0.1:14329/assets/lettering-selections.svg",
+              "alt": "Selections",
+              "width": 330,
+              "height": 59
+            },
+            {
+              "src": "http://127.0.0.1:14329/media/42f078d0799fc8484e53-480.webp",
+              "alt": "Palm View | Duplex Bespoke Garden Home",
+              "width": 414,
+              "height": 276
+            },
+            {
+              "src": "http://127.0.0.1:14329/media/15bf3183cbd6577e0da5-480.webp",
+              "alt": "Renovation Opportunity | High Number | Iconic View",
+              "width": 414,
+              "height": 275
+            },
+            {
+              "src": "http://127.0.0.1:14329/media/0bd73814e1b18f505f07-480.webp",
+              "alt": "1-of-1 Palm View Renovation | Incredible Must-See!",
+              "width": 414,
+              "height": 276
+            },
+            {
+              "src": "http://127.0.0.1:14329/media/1df5d44c653b47c2d917-480.webp",
+              "alt": "3BR Duplex Loft | Amazing Upgrade | Must-be-Viewed",
+              "width": 414,
+              "height": 276
+            }
+          ]
+        },
+        {
+          "selector": ".story-heading",
+          "layout": {
+            "viewport": 1440,
+            "document": 1425,
+            "body": 1425,
+            "h1": 1,
+            "title": "Elegant Luxury properties in the heart"
+          },
+          "visibleImages": [
+            {
+              "src": "http://127.0.0.1:14329/assets/imgGroup1.svg",
+              "alt": "",
+              "width": 41,
+              "height": 41
+            },
+            {
+              "src": "http://127.0.0.1:14329/assets/imgGroup48096582.svg",
+              "alt": "",
+              "width": 104,
+              "height": 15
+            },
+            {
+              "src": "http://127.0.0.1:14329/assets/photo-537e59705139e1d0.webp",
+              "alt": "",
+              "width": 1440,
+              "height": 960
+            },
+            {
+              "src": "http://127.0.0.1:14329/assets/lettering-about-agency.svg",
+              "alt": "About Agency",
+              "width": 290,
+              "height": 46
+            },
+            {
+              "src": "http://127.0.0.1:14329/media/10995acc638679ddade9-492.webp",
+              "alt": "A private residence in Dubai",
+              "width": 540,
+              "height": 599
+            },
+            {
+              "src": "http://127.0.0.1:14329/media/5a900244be167dc5d976-610.webp",
+              "alt": "A waterfront perspective on Dubai",
+              "width": 710,
+              "height": 912
+            },
+            {
+              "src": "http://127.0.0.1:14329/assets/imgGroup24.svg",
+              "alt": "",
+              "width": 138,
+              "height": 75
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "1440-about",
+      "ok": true,
+      "elapsedMs": 1169,
+      "route": "/about/",
+      "layout": {
+        "viewport": 1440,
+        "document": 1425,
+        "body": 1425,
+        "h1": 1,
+        "title": "Our story"
+      },
+      "heroImages": [
+        {
+          "src": "http://127.0.0.1:14329/assets/imgGroup1.svg",
+          "alt": "",
+          "width": 41,
+          "height": 41
+        },
+        {
+          "src": "http://127.0.0.1:14329/assets/imgGroup48096582.svg",
+          "alt": "",
+          "width": 104,
+          "height": 15
+        },
+        {
+          "src": "http://127.0.0.1:14329/assets/hero-palm-08fa4f93ccc15ce1-q87-1800.webp",
+          "alt": "",
+          "width": 1440,
+          "height": 960
+        }
+      ],
+      "frames": [
+        {
+          "selector": ".team-section .section-heading",
+          "layout": {
+            "viewport": 1440,
+            "document": 1425,
+            "body": 1425,
+            "h1": 1,
+            "title": "Our story"
+          },
+          "visibleImages": [
+            {
+              "src": "http://127.0.0.1:14329/assets/imgGroup1.svg",
+              "alt": "",
+              "width": 41,
+              "height": 41
+            },
+            {
+              "src": "http://127.0.0.1:14329/assets/imgGroup48096582.svg",
+              "alt": "",
+              "width": 104,
+              "height": 15
+            },
+            {
+              "src": "http://127.0.0.1:14329/media/5b9cc13cf4da117190cf-238.webp",
+              "alt": "Nhea Mestio",
+              "width": 350,
+              "height": 350
+            },
+            {
+              "src": "http://127.0.0.1:14329/media/b8f6477688587696b03e-238.webp",
+              "alt": "Sabeeha Bham",
+              "width": 350,
+              "height": 350
+            },
+            {
+              "src": "http://127.0.0.1:14329/media/93f33bd116cf9f505571-480.webp",
+              "alt": "Tyrese Kandler",
+              "width": 349,
+              "height": 349
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "1440-services",
+      "ok": true,
+      "elapsedMs": 749,
+      "route": "/services/",
+      "layout": {
+        "viewport": 1440,
+        "document": 1425,
+        "body": 1425,
+        "h1": 1,
+        "title": "Our services"
+      },
+      "heroImages": [
+        {
+          "src": "http://127.0.0.1:14329/assets/imgGroup1.svg",
+          "alt": "",
+          "width": 41,
+          "height": 41
+        },
+        {
+          "src": "http://127.0.0.1:14329/assets/imgGroup48096582.svg",
+          "alt": "",
+          "width": 104,
+          "height": 15
+        },
+        {
+          "src": "http://127.0.0.1:14329/assets/photo-91c84addd344cd39.webp",
+          "alt": "",
+          "width": 1440,
+          "height": 1440
+        }
+      ],
+      "frames": [
+        {
+          "selector": ".service-detail:first-child",
+          "layout": {
+            "viewport": 1440,
+            "document": 1425,
+            "body": 1425,
+            "h1": 1,
+            "title": "Our services"
+          },
+          "visibleImages": [
+            {
+              "src": "http://127.0.0.1:14329/assets/imgGroup1.svg",
+              "alt": "",
+              "width": 41,
+              "height": 41
+            },
+            {
+              "src": "http://127.0.0.1:14329/assets/imgGroup48096582.svg",
+              "alt": "",
+              "width": 104,
+              "height": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "1440-sell",
+      "ok": true,
+      "elapsedMs": 807,
+      "route": "/sell/",
+      "layout": {
+        "viewport": 1440,
+        "document": 1425,
+        "body": 1425,
+        "h1": 1,
+        "title": "Sell with us"
+      },
+      "heroImages": [
+        {
+          "src": "http://127.0.0.1:14329/assets/imgGroup1.svg",
+          "alt": "",
+          "width": 41,
+          "height": 41
+        },
+        {
+          "src": "http://127.0.0.1:14329/assets/imgGroup48096582.svg",
+          "alt": "",
+          "width": 104,
+          "height": 15
+        },
+        {
+          "src": "http://127.0.0.1:14329/assets/photo-da55f706982bacac.webp",
+          "alt": "",
+          "width": 1440,
+          "height": 2110
+        }
+      ],
+      "frames": [
+        {
+          "selector": ".selling-process .section-heading",
+          "layout": {
+            "viewport": 1440,
+            "document": 1425,
+            "body": 1425,
+            "h1": 1,
+            "title": "Sell with us"
+          },
+          "visibleImages": [
+            {
+              "src": "http://127.0.0.1:14329/assets/imgGroup1.svg",
+              "alt": "",
+              "width": 41,
+              "height": 41
+            },
+            {
+              "src": "http://127.0.0.1:14329/assets/imgGroup48096582.svg",
+              "alt": "",
+              "width": 104,
+              "height": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "1440-contacts",
+      "ok": true,
+      "elapsedMs": 715,
+      "route": "/contacts/",
+      "layout": {
+        "viewport": 1440,
+        "document": 1425,
+        "body": 1425,
+        "h1": 1,
+        "title": "Luxury Realty"
+      },
+      "heroImages": [
+        {
+          "src": "http://127.0.0.1:14329/assets/imgGroup1.svg",
+          "alt": "",
+          "width": 41,
+          "height": 41
+        },
+        {
+          "src": "http://127.0.0.1:14329/assets/imgGroup48096582.svg",
+          "alt": "",
+          "width": 104,
+          "height": 15
+        },
+        {
+          "src": "http://127.0.0.1:14329/assets/photo-91c84addd344cd39.webp",
+          "alt": "",
+          "width": 1440,
+          "height": 1440
+        },
+        {
+          "src": "http://127.0.0.1:14329/assets/lettering-contacts.svg",
+          "alt": "Contacts",
+          "width": 223,
+          "height": 45
+        }
+      ],
+      "frames": [
+        {
+          "selector": ".contact-grid",
+          "layout": {
+            "viewport": 1440,
+            "document": 1425,
+            "body": 1425,
+            "h1": 1,
+            "title": "Luxury Realty"
+          },
+          "visibleImages": [
+            {
+              "src": "http://127.0.0.1:14329/assets/imgGroup1.svg",
+              "alt": "",
+              "width": 41,
+              "height": 41
+            },
+            {
+              "src": "http://127.0.0.1:14329/assets/imgGroup48096582.svg",
+              "alt": "",
+              "width": 104,
+              "height": 15
+            },
+            {
+              "src": "http://127.0.0.1:14329/assets/photo-91c84addd344cd39.webp",
+              "alt": "",
+              "width": 1440,
+              "height": 1440
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "1440-developments",
+      "ok": true,
+      "elapsedMs": 1216,
+      "route": "/developments/",
+      "layout": {
+        "viewport": 1440,
+        "document": 1425,
+        "body": 1425,
+        "h1": 1,
+        "title": "Developmentsin Dubai"
+      },
+      "heroImages": [
+        {
+          "src": "http://127.0.0.1:14329/assets/imgGroup1.svg",
+          "alt": "",
+          "width": 41,
+          "height": 41
+        },
+        {
+          "src": "http://127.0.0.1:14329/assets/imgGroup48096582.svg",
+          "alt": "",
+          "width": 104,
+          "height": 15
+        },
+        {
+          "src": "http://127.0.0.1:14329/assets/photo-bf8c08ffa9453cf5.webp",
+          "alt": "",
+          "width": 1440,
+          "height": 884
+        }
+      ],
+      "frames": [
+        {
+          "selector": ".developments-collection .project-card:first-child",
+          "layout": {
+            "viewport": 1440,
+            "document": 1425,
+            "body": 1425,
+            "h1": 1,
+            "title": "Developmentsin Dubai"
+          },
+          "visibleImages": [
+            {
+              "src": "http://127.0.0.1:14329/assets/imgGroup1.svg",
+              "alt": "",
+              "width": 41,
+              "height": 41
+            },
+            {
+              "src": "http://127.0.0.1:14329/assets/imgGroup48096582.svg",
+              "alt": "",
+              "width": 104,
+              "height": 15
+            },
+            {
+              "src": "http://127.0.0.1:14329/media/8ab512f8ded39337be36-1000.webp",
+              "alt": "Atlantis The Royal Residences architecture",
+              "width": 1440,
+              "height": 1440
+            },
+            {
+              "src": "http://127.0.0.1:14329/media/f8a88fd5f031b86d8866-1000.webp",
+              "alt": "AVA at Palm Jumeirah architecture",
+              "width": 1440,
+              "height": 1440
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "1440-ava",
+      "ok": true,
+      "elapsedMs": 784,
+      "route": "/developments/ava-at-palm/",
+      "layout": {
+        "viewport": 1440,
+        "document": 1425,
+        "body": 1425,
+        "h1": 1,
+        "title": "AVA at Palm Jumeirah"
+      },
+      "heroImages": [
+        {
+          "src": "http://127.0.0.1:14329/assets/imgGroup1.svg",
+          "alt": "",
+          "width": 41,
+          "height": 41
+        },
+        {
+          "src": "http://127.0.0.1:14329/assets/imgGroup48096582.svg",
+          "alt": "",
+          "width": 104,
+          "height": 15
+        },
+        {
+          "src": "http://127.0.0.1:14329/media/f8a88fd5f031b86d8866-1000.webp",
+          "alt": "AVA at Palm Jumeirah architecture",
+          "width": 1440,
+          "height": 1440
+        }
+      ],
+      "frames": [
+        {
+          "selector": ".development-story:first-child",
+          "layout": {
+            "viewport": 1440,
+            "document": 1425,
+            "body": 1425,
+            "h1": 1,
+            "title": "AVA at Palm Jumeirah"
+          },
+          "visibleImages": [
+            {
+              "src": "http://127.0.0.1:14329/assets/imgGroup1.svg",
+              "alt": "",
+              "width": 41,
+              "height": 41
+            },
+            {
+              "src": "http://127.0.0.1:14329/assets/imgGroup48096582.svg",
+              "alt": "",
+              "width": 104,
+              "height": 15
+            },
+            {
+              "src": "http://127.0.0.1:14329/media/6d90609946c2bfc7e97a-1000.webp",
+              "alt": "AVA at Palm Jumeirah residence and setting",
+              "width": 1110,
+              "height": 1110
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "1440-ava-film",
+      "ok": true,
+      "elapsedMs": 5377,
+      "nativeFilm": {
+        "width": 1440,
+        "expectedSource": "https://dl.dropboxusercontent.com/scl/fi/fkh2fh4qa81gpp5vykl1u/ORLA-Dorchester-Collection-Dubai-19_3.mp4?rlkey=4cyt0odfwj76u9xfxi8osis7d&dl=0",
+        "wiringOk": true,
+        "playbackVerified": false,
+        "metadataStatus": "metadata-ready",
+        "probeLimitMs": 4500,
+        "downloadLimitBytesPerSecond": 262144,
+        "receivedBytes": 4072003,
+        "responses": [
+          {
+            "url": "https://dl.dropboxusercontent.com/scl/fi/fkh2fh4qa81gpp5vykl1u/ORLA-Dorchester-Collection-Dubai-19_3.mp4?rlkey=4cyt0odfwj76u9xfxi8osis7d&dl=0",
+            "status": 206,
+            "mimeType": "video/mp4"
+          }
+        ],
+        "networkErrors": [
+          {
+            "error": "net::ERR_ABORTED",
+            "cancelled": true
+          }
+        ],
+        "state": {
+          "src": "https://dl.dropboxusercontent.com/scl/fi/fkh2fh4qa81gpp5vykl1u/ORLA-Dorchester-Collection-Dubai-19_3.mp4?rlkey=4cyt0odfwj76u9xfxi8osis7d&dl=0",
+          "readyState": 3,
+          "networkState": 2,
+          "paused": true,
+          "duration": 13.48,
+          "width": 1920,
+          "height": 1080,
+          "error": null
+        }
+      }
+    },
+    {
+      "name": "1440-six-senses",
+      "ok": true,
+      "elapsedMs": 932,
+      "route": "/developments/six-senses/",
+      "layout": {
+        "viewport": 1440,
+        "document": 1425,
+        "body": 1425,
+        "h1": 1,
+        "title": "Six Senses Residences Dubai Marina"
+      },
+      "heroImages": [
+        {
+          "src": "http://127.0.0.1:14329/assets/imgGroup1.svg",
+          "alt": "",
+          "width": 41,
+          "height": 41
+        },
+        {
+          "src": "http://127.0.0.1:14329/assets/imgGroup48096582.svg",
+          "alt": "",
+          "width": 104,
+          "height": 15
+        },
+        {
+          "src": "http://127.0.0.1:14329/media/088116dd0fe00c4b3fe8-1000.webp",
+          "alt": "Six Senses Residences Dubai Marina architecture",
+          "width": 1440,
+          "height": 1440
+        }
+      ],
+      "frames": [
+        {
+          "selector": ".development-story:first-child",
+          "layout": {
+            "viewport": 1440,
+            "document": 1425,
+            "body": 1425,
+            "h1": 1,
+            "title": "Six Senses Residences Dubai Marina"
+          },
+          "visibleImages": [
+            {
+              "src": "http://127.0.0.1:14329/assets/imgGroup1.svg",
+              "alt": "",
+              "width": 41,
+              "height": 41
+            },
+            {
+              "src": "http://127.0.0.1:14329/assets/imgGroup48096582.svg",
+              "alt": "",
+              "width": 104,
+              "height": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "390-home",
+      "ok": true,
+      "elapsedMs": 1357,
+      "route": "/",
+      "layout": {
+        "viewport": 390,
+        "document": 375,
+        "body": 375,
+        "h1": 1,
+        "title": "Elegant Luxury properties in the heart"
+      },
+      "heroImages": [
+        {
+          "src": "http://127.0.0.1:14329/assets/imgGroup1.svg",
+          "alt": "",
+          "width": 41,
+          "height": 41
+        },
+        {
+          "src": "http://127.0.0.1:14329/assets/imgGroup48096582.svg",
+          "alt": "",
+          "width": 104,
+          "height": 15
+        },
+        {
+          "src": "http://127.0.0.1:14329/media/8283c2884344b120a546-1280.webp",
+          "alt": "Dubai’s waterfront residences",
+          "width": 1500,
+          "height": 843
+        },
+        {
+          "src": "http://127.0.0.1:14329/assets/lettering-of-dubai.svg",
+          "alt": "of Dubai",
+          "width": 302,
+          "height": 78
+        }
+      ],
+      "frames": [
+        {
+          "selector": ".selection-heading",
+          "layout": {
+            "viewport": 390,
+            "document": 375,
+            "body": 375,
+            "h1": 1,
+            "title": "Elegant Luxury properties in the heart"
+          },
+          "visibleImages": [
+            {
+              "src": "http://127.0.0.1:14329/assets/imgGroup1.svg",
+              "alt": "",
+              "width": 41,
+              "height": 41
+            },
+            {
+              "src": "http://127.0.0.1:14329/assets/imgGroup48096582.svg",
+              "alt": "",
+              "width": 104,
+              "height": 15
+            },
+            {
+              "src": "http://127.0.0.1:14329/media/8283c2884344b120a546-1280.webp",
+              "alt": "Dubai’s waterfront residences",
+              "width": 1500,
+              "height": 843
+            },
+            {
+              "src": "http://127.0.0.1:14329/assets/lettering-selections.svg",
+              "alt": "Selections",
+              "width": 330,
+              "height": 59
+            },
+            {
+              "src": "http://127.0.0.1:14329/media/42f078d0799fc8484e53-480.webp",
+              "alt": "Palm View | Duplex Bespoke Garden Home",
+              "width": 342,
+              "height": 228
+            },
+            {
+              "src": "http://127.0.0.1:14329/media/15bf3183cbd6577e0da5-480.webp",
+              "alt": "Renovation Opportunity | High Number | Iconic View",
+              "width": 342,
+              "height": 227
+            }
+          ]
+        },
+        {
+          "selector": ".story-heading",
+          "layout": {
+            "viewport": 390,
+            "document": 375,
+            "body": 375,
+            "h1": 1,
+            "title": "Elegant Luxury properties in the heart"
+          },
+          "visibleImages": [
+            {
+              "src": "http://127.0.0.1:14329/assets/imgGroup1.svg",
+              "alt": "",
+              "width": 41,
+              "height": 41
+            },
+            {
+              "src": "http://127.0.0.1:14329/assets/imgGroup48096582.svg",
+              "alt": "",
+              "width": 104,
+              "height": 15
+            },
+            {
+              "src": "http://127.0.0.1:14329/assets/photo-537e59705139e1d0-480.webp",
+              "alt": "",
+              "width": 389,
+              "height": 259
+            },
+            {
+              "src": "http://127.0.0.1:14329/assets/lettering-about-agency.svg",
+              "alt": "About Agency",
+              "width": 290,
+              "height": 46
+            },
+            {
+              "src": "http://127.0.0.1:14329/media/10995acc638679ddade9-480.webp",
+              "alt": "A private residence in Dubai",
+              "width": 400,
+              "height": 444
+            },
+            {
+              "src": "http://127.0.0.1:14329/media/5a900244be167dc5d976-610.webp",
+              "alt": "A waterfront perspective on Dubai",
+              "width": 500,
+              "height": 642
+            },
+            {
+              "src": "http://127.0.0.1:14329/assets/imgGroup24.svg",
+              "alt": "",
+              "width": 138,
+              "height": 75
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "390-about",
+      "ok": true,
+      "elapsedMs": 777,
+      "route": "/about/",
+      "layout": {
+        "viewport": 390,
+        "document": 375,
+        "body": 375,
+        "h1": 1,
+        "title": "Our story"
+      },
+      "heroImages": [
+        {
+          "src": "http://127.0.0.1:14329/assets/imgGroup1.svg",
+          "alt": "",
+          "width": 41,
+          "height": 41
+        },
+        {
+          "src": "http://127.0.0.1:14329/assets/imgGroup48096582.svg",
+          "alt": "",
+          "width": 104,
+          "height": 15
+        },
+        {
+          "src": "http://127.0.0.1:14329/assets/hero-palm-08fa4f93ccc15ce1-q87-480.webp",
+          "alt": "",
+          "width": 389,
+          "height": 259
+        }
+      ],
+      "frames": [
+        {
+          "selector": ".team-section .section-heading",
+          "layout": {
+            "viewport": 390,
+            "document": 375,
+            "body": 375,
+            "h1": 1,
+            "title": "Our story"
+          },
+          "visibleImages": [
+            {
+              "src": "http://127.0.0.1:14329/assets/imgGroup1.svg",
+              "alt": "",
+              "width": 41,
+              "height": 41
+            },
+            {
+              "src": "http://127.0.0.1:14329/assets/imgGroup48096582.svg",
+              "alt": "",
+              "width": 104,
+              "height": 15
+            },
+            {
+              "src": "http://127.0.0.1:14329/media/5b9cc13cf4da117190cf-238.webp",
+              "alt": "Nhea Mestio",
+              "width": 342,
+              "height": 342
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "390-services",
+      "ok": true,
+      "elapsedMs": 568,
+      "route": "/services/",
+      "layout": {
+        "viewport": 390,
+        "document": 375,
+        "body": 375,
+        "h1": 1,
+        "title": "Our services"
+      },
+      "heroImages": [
+        {
+          "src": "http://127.0.0.1:14329/assets/imgGroup1.svg",
+          "alt": "",
+          "width": 41,
+          "height": 41
+        },
+        {
+          "src": "http://127.0.0.1:14329/assets/imgGroup48096582.svg",
+          "alt": "",
+          "width": 104,
+          "height": 15
+        },
+        {
+          "src": "http://127.0.0.1:14329/assets/photo-91c84addd344cd39-480.webp",
+          "alt": "",
+          "width": 389,
+          "height": 389
+        }
+      ],
+      "frames": [
+        {
+          "selector": ".service-detail:first-child",
+          "layout": {
+            "viewport": 390,
+            "document": 375,
+            "body": 375,
+            "h1": 1,
+            "title": "Our services"
+          },
+          "visibleImages": [
+            {
+              "src": "http://127.0.0.1:14329/assets/imgGroup1.svg",
+              "alt": "",
+              "width": 41,
+              "height": 41
+            },
+            {
+              "src": "http://127.0.0.1:14329/assets/imgGroup48096582.svg",
+              "alt": "",
+              "width": 104,
+              "height": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "390-sell",
+      "ok": true,
+      "elapsedMs": 615,
+      "route": "/sell/",
+      "layout": {
+        "viewport": 390,
+        "document": 375,
+        "body": 375,
+        "h1": 1,
+        "title": "Sell with us"
+      },
+      "heroImages": [
+        {
+          "src": "http://127.0.0.1:14329/assets/imgGroup1.svg",
+          "alt": "",
+          "width": 41,
+          "height": 41
+        },
+        {
+          "src": "http://127.0.0.1:14329/assets/imgGroup48096582.svg",
+          "alt": "",
+          "width": 104,
+          "height": 15
+        },
+        {
+          "src": "http://127.0.0.1:14329/assets/photo-da55f706982bacac-480.webp",
+          "alt": "",
+          "width": 389,
+          "height": 571
+        }
+      ],
+      "frames": [
+        {
+          "selector": ".selling-process .section-heading",
+          "layout": {
+            "viewport": 390,
+            "document": 375,
+            "body": 375,
+            "h1": 1,
+            "title": "Sell with us"
+          },
+          "visibleImages": [
+            {
+              "src": "http://127.0.0.1:14329/assets/imgGroup1.svg",
+              "alt": "",
+              "width": 41,
+              "height": 41
+            },
+            {
+              "src": "http://127.0.0.1:14329/assets/imgGroup48096582.svg",
+              "alt": "",
+              "width": 104,
+              "height": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "390-contacts",
+      "ok": true,
+      "elapsedMs": 722,
+      "route": "/contacts/",
+      "layout": {
+        "viewport": 390,
+        "document": 375,
+        "body": 375,
+        "h1": 1,
+        "title": "Luxury Realty"
+      },
+      "heroImages": [
+        {
+          "src": "http://127.0.0.1:14329/assets/imgGroup1.svg",
+          "alt": "",
+          "width": 41,
+          "height": 41
+        },
+        {
+          "src": "http://127.0.0.1:14329/assets/imgGroup48096582.svg",
+          "alt": "",
+          "width": 104,
+          "height": 15
+        },
+        {
+          "src": "http://127.0.0.1:14329/assets/photo-91c84addd344cd39-480.webp",
+          "alt": "",
+          "width": 389,
+          "height": 389
+        },
+        {
+          "src": "http://127.0.0.1:14329/assets/lettering-contacts.svg",
+          "alt": "Contacts",
+          "width": 223,
+          "height": 45
+        }
+      ],
+      "frames": [
+        {
+          "selector": ".contact-grid",
+          "layout": {
+            "viewport": 390,
+            "document": 375,
+            "body": 375,
+            "h1": 1,
+            "title": "Luxury Realty"
+          },
+          "visibleImages": [
+            {
+              "src": "http://127.0.0.1:14329/assets/imgGroup1.svg",
+              "alt": "",
+              "width": 41,
+              "height": 41
+            },
+            {
+              "src": "http://127.0.0.1:14329/assets/imgGroup48096582.svg",
+              "alt": "",
+              "width": 104,
+              "height": 15
+            },
+            {
+              "src": "http://127.0.0.1:14329/assets/photo-91c84addd344cd39-480.webp",
+              "alt": "",
+              "width": 389,
+              "height": 389
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "390-developments",
+      "ok": true,
+      "elapsedMs": 699,
+      "route": "/developments/",
+      "layout": {
+        "viewport": 390,
+        "document": 375,
+        "body": 375,
+        "h1": 1,
+        "title": "Developmentsin Dubai"
+      },
+      "heroImages": [
+        {
+          "src": "http://127.0.0.1:14329/assets/imgGroup1.svg",
+          "alt": "",
+          "width": 41,
+          "height": 41
+        },
+        {
+          "src": "http://127.0.0.1:14329/assets/imgGroup48096582.svg",
+          "alt": "",
+          "width": 104,
+          "height": 15
+        },
+        {
+          "src": "http://127.0.0.1:14329/assets/photo-bf8c08ffa9453cf5-480.webp",
+          "alt": "",
+          "width": 389,
+          "height": 239
+        }
+      ],
+      "frames": [
+        {
+          "selector": ".developments-collection .project-card:first-child",
+          "layout": {
+            "viewport": 390,
+            "document": 375,
+            "body": 375,
+            "h1": 1,
+            "title": "Developmentsin Dubai"
+          },
+          "visibleImages": [
+            {
+              "src": "http://127.0.0.1:14329/assets/imgGroup1.svg",
+              "alt": "",
+              "width": 41,
+              "height": 41
+            },
+            {
+              "src": "http://127.0.0.1:14329/assets/imgGroup48096582.svg",
+              "alt": "",
+              "width": 104,
+              "height": 15
+            },
+            {
+              "src": "http://127.0.0.1:14329/media/8ab512f8ded39337be36-480.webp",
+              "alt": "Atlantis The Royal Residences architecture",
+              "width": 430,
+              "height": 430
+            },
+            {
+              "src": "http://127.0.0.1:14329/media/f8a88fd5f031b86d8866-480.webp",
+              "alt": "AVA at Palm Jumeirah architecture",
+              "width": 430,
+              "height": 430
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "390-ava",
+      "ok": true,
+      "elapsedMs": 530,
+      "route": "/developments/ava-at-palm/",
+      "layout": {
+        "viewport": 390,
+        "document": 375,
+        "body": 375,
+        "h1": 1,
+        "title": "AVA at Palm Jumeirah"
+      },
+      "heroImages": [
+        {
+          "src": "http://127.0.0.1:14329/assets/imgGroup1.svg",
+          "alt": "",
+          "width": 41,
+          "height": 41
+        },
+        {
+          "src": "http://127.0.0.1:14329/assets/imgGroup48096582.svg",
+          "alt": "",
+          "width": 104,
+          "height": 15
+        },
+        {
+          "src": "http://127.0.0.1:14329/media/f8a88fd5f031b86d8866-960.webp",
+          "alt": "AVA at Palm Jumeirah architecture",
+          "width": 759,
+          "height": 759
+        }
+      ],
+      "frames": [
+        {
+          "selector": ".development-story:first-child",
+          "layout": {
+            "viewport": 390,
+            "document": 375,
+            "body": 375,
+            "h1": 1,
+            "title": "AVA at Palm Jumeirah"
+          },
+          "visibleImages": [
+            {
+              "src": "http://127.0.0.1:14329/assets/imgGroup1.svg",
+              "alt": "",
+              "width": 41,
+              "height": 41
+            },
+            {
+              "src": "http://127.0.0.1:14329/assets/imgGroup48096582.svg",
+              "alt": "",
+              "width": 104,
+              "height": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "390-ava-film",
+      "ok": true,
+      "elapsedMs": 2292,
+      "nativeFilm": {
+        "width": 390,
+        "expectedSource": "https://dl.dropboxusercontent.com/scl/fi/fkh2fh4qa81gpp5vykl1u/ORLA-Dorchester-Collection-Dubai-19_3.mp4?rlkey=4cyt0odfwj76u9xfxi8osis7d&dl=0",
+        "wiringOk": true,
+        "playbackVerified": false,
+        "metadataStatus": "metadata-ready",
+        "probeLimitMs": 4500,
+        "downloadLimitBytesPerSecond": 262144,
+        "receivedBytes": 5934801,
+        "responses": [
+          {
+            "url": "https://dl.dropboxusercontent.com/scl/fi/fkh2fh4qa81gpp5vykl1u/ORLA-Dorchester-Collection-Dubai-19_3.mp4?rlkey=4cyt0odfwj76u9xfxi8osis7d&dl=0",
+            "status": 206,
+            "mimeType": "video/mp4"
+          }
+        ],
+        "networkErrors": [
+          {
+            "error": "net::ERR_ABORTED",
+            "cancelled": true
+          }
+        ],
+        "state": {
+          "src": "https://dl.dropboxusercontent.com/scl/fi/fkh2fh4qa81gpp5vykl1u/ORLA-Dorchester-Collection-Dubai-19_3.mp4?rlkey=4cyt0odfwj76u9xfxi8osis7d&dl=0",
+          "readyState": 3,
+          "networkState": 2,
+          "paused": true,
+          "duration": 13.48,
+          "width": 1920,
+          "height": 1080,
+          "error": null
+        }
+      }
+    },
+    {
+      "name": "390-six-senses",
+      "ok": true,
+      "elapsedMs": 635,
+      "route": "/developments/six-senses/",
+      "layout": {
+        "viewport": 390,
+        "document": 375,
+        "body": 375,
+        "h1": 1,
+        "title": "Six Senses Residences Dubai Marina"
+      },
+      "heroImages": [
+        {
+          "src": "http://127.0.0.1:14329/assets/imgGroup1.svg",
+          "alt": "",
+          "width": 41,
+          "height": 41
+        },
+        {
+          "src": "http://127.0.0.1:14329/assets/imgGroup48096582.svg",
+          "alt": "",
+          "width": 104,
+          "height": 15
+        },
+        {
+          "src": "http://127.0.0.1:14329/media/088116dd0fe00c4b3fe8-960.webp",
+          "alt": "Six Senses Residences Dubai Marina architecture",
+          "width": 759,
+          "height": 759
+        }
+      ],
+      "frames": [
+        {
+          "selector": ".development-story:first-child",
+          "layout": {
+            "viewport": 390,
+            "document": 375,
+            "body": 375,
+            "h1": 1,
+            "title": "Six Senses Residences Dubai Marina"
+          },
+          "visibleImages": [
+            {
+              "src": "http://127.0.0.1:14329/assets/imgGroup1.svg",
+              "alt": "",
+              "width": 41,
+              "height": 41
+            },
+            {
+              "src": "http://127.0.0.1:14329/assets/imgGroup48096582.svg",
+              "alt": "",
+              "width": 104,
+              "height": 15
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "visual-1440-home-selection.png",
+      "route": "/",
+      "selector": ".selection-heading",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 981
+    },
+    {
+      "file": "visual-1440-home-story.png",
+      "route": "/",
+      "selector": ".story-heading",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 6049
+    },
+    {
+      "file": "visual-1440-about-team.png",
+      "route": "/about/",
+      "selector": ".team-section .section-heading",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 2322
+    },
+    {
+      "file": "visual-1440-services-content.png",
+      "route": "/services/",
+      "selector": ".service-detail:first-child",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 921
+    },
+    {
+      "file": "visual-1440-sell-process.png",
+      "route": "/sell/",
+      "selector": ".selling-process .section-heading",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 1167
+    },
+    {
+      "file": "visual-1440-contacts-content.png",
+      "route": "/contacts/",
+      "selector": ".contact-grid",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 510
+    },
+    {
+      "file": "visual-1440-developments-collection.png",
+      "route": "/developments/",
+      "selector": ".developments-collection .project-card:first-child",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 1022
+    },
+    {
+      "file": "visual-1440-ava-design.png",
+      "route": "/developments/ava-at-palm/",
+      "selector": ".development-story:first-child",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 1611
+    },
+    {
+      "file": "visual-1440-ava-native-film.png",
+      "route": "/developments/ava-at-palm/",
+      "selector": "Real paused native player; metadata status: metadata-ready",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 5844
+    },
+    {
+      "file": "visual-1440-six-senses-design.png",
+      "route": "/developments/six-senses/",
+      "selector": ".development-story:first-child",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 1489
+    },
+    {
+      "file": "visual-390-home-selection.png",
+      "route": "/",
+      "selector": ".selection-heading",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scrollY": 839
+    },
+    {
+      "file": "visual-390-home-story.png",
+      "route": "/",
+      "selector": ".story-heading",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scrollY": 5006
+    },
+    {
+      "file": "visual-390-about-team.png",
+      "route": "/about/",
+      "selector": ".team-section .section-heading",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scrollY": 2749
+    },
+    {
+      "file": "visual-390-services-content.png",
+      "route": "/services/",
+      "selector": ".service-detail:first-child",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scrollY": 886
+    },
+    {
+      "file": "visual-390-sell-process.png",
+      "route": "/sell/",
+      "selector": ".selling-process .section-heading",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scrollY": 1152
+    },
+    {
+      "file": "visual-390-contacts-content.png",
+      "route": "/contacts/",
+      "selector": ".contact-grid",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scrollY": 410
+    },
+    {
+      "file": "visual-390-developments-collection.png",
+      "route": "/developments/",
+      "selector": ".developments-collection .project-card:first-child",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scrollY": 1208
+    },
+    {
+      "file": "visual-390-ava-design.png",
+      "route": "/developments/ava-at-palm/",
+      "selector": ".development-story:first-child",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scrollY": 1552
+    },
+    {
+      "file": "visual-390-ava-native-film.png",
+      "route": "/developments/ava-at-palm/",
+      "selector": "Real paused native player; metadata status: metadata-ready",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scrollY": 4780
+    },
+    {
+      "file": "visual-390-six-senses-design.png",
+      "route": "/developments/six-senses/",
+      "selector": ".development-story:first-child",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scrollY": 1381
+    }
+  ],
+  "nativeFilms": [
+    {
+      "width": 1440,
+      "expectedSource": "https://dl.dropboxusercontent.com/scl/fi/fkh2fh4qa81gpp5vykl1u/ORLA-Dorchester-Collection-Dubai-19_3.mp4?rlkey=4cyt0odfwj76u9xfxi8osis7d&dl=0",
+      "wiringOk": true,
+      "playbackVerified": false,
+      "metadataStatus": "metadata-ready",
+      "probeLimitMs": 4500,
+      "downloadLimitBytesPerSecond": 262144,
+      "receivedBytes": 4072003,
+      "responses": [
+        {
+          "url": "https://dl.dropboxusercontent.com/scl/fi/fkh2fh4qa81gpp5vykl1u/ORLA-Dorchester-Collection-Dubai-19_3.mp4?rlkey=4cyt0odfwj76u9xfxi8osis7d&dl=0",
+          "status": 206,
+          "mimeType": "video/mp4"
+        }
+      ],
+      "networkErrors": [
+        {
+          "error": "net::ERR_ABORTED",
+          "cancelled": true
+        }
+      ],
+      "state": {
+        "src": "https://dl.dropboxusercontent.com/scl/fi/fkh2fh4qa81gpp5vykl1u/ORLA-Dorchester-Collection-Dubai-19_3.mp4?rlkey=4cyt0odfwj76u9xfxi8osis7d&dl=0",
+        "readyState": 3,
+        "networkState": 2,
+        "paused": true,
+        "duration": 13.48,
+        "width": 1920,
+        "height": 1080,
+        "error": null
+      }
+    },
+    {
+      "width": 390,
+      "expectedSource": "https://dl.dropboxusercontent.com/scl/fi/fkh2fh4qa81gpp5vykl1u/ORLA-Dorchester-Collection-Dubai-19_3.mp4?rlkey=4cyt0odfwj76u9xfxi8osis7d&dl=0",
+      "wiringOk": true,
+      "playbackVerified": false,
+      "metadataStatus": "metadata-ready",
+      "probeLimitMs": 4500,
+      "downloadLimitBytesPerSecond": 262144,
+      "receivedBytes": 5934801,
+      "responses": [
+        {
+          "url": "https://dl.dropboxusercontent.com/scl/fi/fkh2fh4qa81gpp5vykl1u/ORLA-Dorchester-Collection-Dubai-19_3.mp4?rlkey=4cyt0odfwj76u9xfxi8osis7d&dl=0",
+          "status": 206,
+          "mimeType": "video/mp4"
+        }
+      ],
+      "networkErrors": [
+        {
+          "error": "net::ERR_ABORTED",
+          "cancelled": true
+        }
+      ],
+      "state": {
+        "src": "https://dl.dropboxusercontent.com/scl/fi/fkh2fh4qa81gpp5vykl1u/ORLA-Dorchester-Collection-Dubai-19_3.mp4?rlkey=4cyt0odfwj76u9xfxi8osis7d&dl=0",
+        "readyState": 3,
+        "networkState": 2,
+        "paused": true,
+        "duration": 13.48,
+        "width": 1920,
+        "height": 1080,
+        "error": null
+      }
+    }
+  ],
+  "pageErrors": [],
+  "consoleErrors": [],
+  "assetFailures": [],
+  "blockedWrites": [],
+  "visualOk": true,
+  "filmWiringOk": true,
+  "playbackVerified": false,
+  "ok": true,
+  "finishedAt": "2026-11-03T10:23:25.269Z",
+  "elapsedMs": 31982
+}

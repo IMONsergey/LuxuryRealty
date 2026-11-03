@@ -15,3 +15,8 @@ import EnquiryForm from './EnquiryForm.astro';
  <p class="gallery-caption" data-gallery-caption></p>
 </dialog>
 <div class="toast" role="status" aria-live="polite" data-toast></div>
+<dialog id="film-dialog" class="film-dialog" aria-labelledby="film-title">
+ <div class="film-toolbar"><h2 id="film-title" data-film-heading>Property film</h2><button class="round-control" type="button" data-close-dialog aria-label="Close film"><Icon name="close" /></button></div>
+ <div class="film-stage" data-film-stage></div><p class="film-status" role="status" data-film-status></p>
+ <a class="film-external" data-film-external href="#" target="_blank" rel="noopener noreferrer" hidden>Open the original film</a>
+</dialog>

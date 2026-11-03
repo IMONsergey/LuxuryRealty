@@ -1,0 +1,132 @@
+{
+  "reviewedAt": "2026-11-03T10:12:32.170612+00:00",
+  "repository": "/home/sergey/Projects/LuxuryRealty-content-20261103",
+  "source": "https://www.luxuryresidences.com/",
+  "scope": "Independent source coverage and data integrity review. No repository modifications, site changes or forms submitted.",
+  "sitemap": {
+    "urls": 200,
+    "properties": 179,
+    "projects": 8,
+    "staticAndArticlePages": 13,
+    "sha256": "9a8429108942e2bc5d001ec2a9c9971e7df59d28efe7786a83b81a4f9a6b0e34",
+    "matchesPreviousSnapshot": true
+  },
+  "coverage": {
+    "previousFetched": 230,
+    "previousHttp200": 131,
+    "previousHttp404": 99,
+    "importedPropertyRecords": 110,
+    "currentLinkedPropertyUrls": 102,
+    "unvisitedCurrentLinkedUrls": [],
+    "unimportedCurrentLinkedUrls": [],
+    "unvisitedSitemapUrls": []
+  },
+  "archive": {
+    "file": "docs/content-migration/source-snapshot.tgz",
+    "sha256": "f643ca2f12c7392d686cbaf455a5a5a59b2b3d02ce3efe2f16f75268da15485f",
+    "sizeBytes": 3960397,
+    "matchedHtmlReceipts": 131,
+    "mismatches": []
+  },
+  "normalization": {
+    "file": "src/data/properties.json",
+    "sha256": "f81454f576b14fffc2a914d72bd9623ffb1062e29ed49767e3950dcdb1ae8faa",
+    "matchesPreviousNormalizationReview": true,
+    "uniqueIds": 110,
+    "uniqueSourceUrls": 110
+  },
+  "liveCards": {
+    "parsed": 100,
+    "priceTypeLocationStatusMismatches": [],
+    "documentedTitleAndBedroomDifferences": [
+      {
+        "id": "unique-duplex-breath-taking-sea-view",
+        "field": "bedrooms",
+        "live": 2,
+        "imported": null
+      },
+      {
+        "id": "one-of-a-kind-loft-designer-upgrade-sea-view",
+        "field": "bedrooms",
+        "live": 2,
+        "imported": null
+      },
+      {
+        "id": "landmark-marina-gate-one-bed-must-be-viewed-2",
+        "field": "title",
+        "live": "Landmark Marina Gate 1BR | Must-be-Viewed",
+        "imported": "Landmark Marina Gate One-Bed | Must-be-Viewed"
+      },
+      {
+        "id": "penthouse-style-with-skyline-views-at-golf-heights",
+        "field": "title",
+        "live": "Penthouse | Golf and Skyline Views | Handover Now!",
+        "imported": "Penthouse Style | Skyline Views | Handover Q4 2026"
+      },
+      {
+        "id": "ava-at-palm-jumeirah-dorchester-collection",
+        "field": "title",
+        "live": "AVA at Palm Jumeirah, Dorchester Collection",
+        "imported": "AVA at Palm Jumeirah"
+      }
+    ],
+    "interpretation": [
+      "Two bedroom values were intentionally suppressed because 2BR/3BR conflict in source.",
+      "AVA development title intentionally uses canonical shorter name.",
+      "Landmark Marina Gate and Golf Heights card/meta titles differ from their detail H1; imported titles match detail H1. No inferred handover update."
+    ]
+  },
+  "freshStaticPagesUnchanged": [
+    "https://www.luxuryresidences.com/about",
+    "https://www.luxuryresidences.com/sell",
+    "https://www.luxuryresidences.com/services",
+    "https://www.luxuryresidences.com/privacy-policy-luxury-residence",
+    "https://www.luxuryresidences.com/contact",
+    "https://www.luxuryresidences.com/insights",
+    "https://www.luxuryresidences.com/insights/exquisite-townhouse-project-in-dubai-2023",
+    "https://www.luxuryresidences.com/insights/the-ultra-luxury-bugatti-residences-project-in-dubai-2023",
+    "https://www.luxuryresidences.com/insights/top-10-reasons-to-invest-in-dubai-real-estate",
+    "https://www.luxuryresidences.com/insights/tranio-client-experience-buying-a-dream-apartment-in-dubai-in-24-hours"
+  ],
+  "spotChecks": [
+    {
+      "url": "https://www.luxuryresidences.com/properties/2-bedroom-spacious-layout-prime-location-2",
+      "httpStatus": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.luxuryresidences.com/properties/incredible-price-and-sea-view-must-be-viewed",
+      "httpStatus": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.luxuryresidences.com/properties/your-signature-residence-on-sheikh-zayed-road",
+      "httpStatus": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.luxuryresidences.com/properties/penthouse-style-with-skyline-views-at-golf-heights",
+      "httpStatus": 200,
+      "finalUrl": "https://www.luxuryresidences.com/properties/penthouse-style-with-skyline-views-at-golf-heights",
+      "bytes": 312595,
+      "sha256": "d75e20fd7ef6549355aa5e2eff902a4334c548e79d4575dcfa2fa1ce7f8f39bb",
+      "path": "luxury-research/html/properties__penthouse-style-with-skyline-views-at-golf-heights.html"
+    },
+    {
+      "url": "https://www.luxuryresidences.com/properties/landmark-marina-gate-one-bed-must-be-viewed-2",
+      "httpStatus": 200,
+      "finalUrl": "https://www.luxuryresidences.com/properties/landmark-marina-gate-one-bed-must-be-viewed-2",
+      "bytes": 313467,
+      "sha256": "326ffcaed7ba37d6be0993cefe4cfee59730a611f3a19978e8d5eccfdcf78236",
+      "path": "luxury-research/html/properties__landmark-marina-gate-one-bed-must-be-viewed-2.html"
+    }
+  ],
+  "remainingSourceContentIssues": [
+    "99 source sitemap properties are unavailable (404) with existing receipts; 3 independently sampled still 404.",
+    "All 4 source articles have the same unrelated body; source pages unchanged since original snapshot and publication omission remains justified.",
+    "2 Bahar 4 listings contain conflicting bedroom counts.",
+    "Snapshot prices/availability are not a live inventory feed.",
+    "New legal operator or rebranded contacts have not been supplied; current published operator/contact identity must be retained unless user supplies replacements."
+  ],
+  "recommendation": "Continue existing candidate and verification; do not repeat full source crawl or add speculative property data."
+}

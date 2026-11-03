@@ -6,12 +6,13 @@ interface Props {project:typeof projects[number];}
 const {project:p}=Astro.props;
 const image=asset(p.image),width=image.renderWidth||image.width,height=image.renderHeight||image.height;
 if(!width||!height)throw new Error('Missing project card image dimensions: '+p.image);
-const coverWidth=(cardHeight:number)=>Number((cardHeight*width/height).toFixed(2));
+const ratio=width/height;
+const coverWidth=(cardHeight:number)=>Number((cardHeight*ratio).toFixed(2));
 const sizes=`(max-width: 700px) max(100vw, ${coverWidth(430)}px), (max-width: 1000px) max(100vw, ${coverWidth(440)}px), max(100vw, ${coverWidth(481)}px)`;
 ---
-<a class="project-card" href={'/developments/'+p.id+'/'} data-reveal>
+<a class="project-card" href={'/developments/'+p.id+'/'} id={'development-'+p.id} data-reveal>
  <Picture name={p.image} alt={p.name+' architecture'} sizes={sizes} style={'object-position:'+p.position} />
  <div class="project-shade"></div>
- <div class="project-title"><p class="eyebrow">New development in Dubai</p><h3>{p.name}</h3><p>{p.subtitle}</p></div>
- <div class="project-bottom"><p>Location: {p.location}<br/><span>Availability and prices on enquiry</span></p><span class="button button--outline"><span>View more details</span><span aria-hidden="true"><Icon name="arrow-right" /></span></span></div>
+ <div class="project-title"><p class="eyebrow">Residential development</p><h3>{p.name}</h3><p>{p.subtitle}</p></div>
+ <div class="project-bottom"><p>{p.location}<br/><span>Residences, amenities and setting</span></p><span class="button button--outline"><span>Explore the project</span><span aria-hidden="true"><Icon name="arrow-right" /></span></span></div>
 </a>

@@ -1,0 +1,2005 @@
+[
+  {
+    "url": "https://www.luxuryresidences.com",
+    "resolvedUrl": "https://www.luxuryresidences.com",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/home.html",
+    "bytes": 579087,
+    "sha256": "03bb48bb1d0e8476d895aa80365db23b91a08bc6cf6ab0aef37b4c6273ded3a3",
+    "seconds": 5.114,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/about",
+    "resolvedUrl": "https://www.luxuryresidences.com/about",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/about.html",
+    "bytes": 84507,
+    "sha256": "12897c0f2046c2161ed465ac4447183b66786d28c7a4736e3993382d024ea62d",
+    "seconds": 5.302,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/buy",
+    "resolvedUrl": "https://www.luxuryresidences.com/buy",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/buy.html",
+    "bytes": 473044,
+    "sha256": "1c69d842b1b3bef97faf1a618e365be997df7cd8c28e3e5b1ef3080168db3d5c",
+    "seconds": 5.026,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/contact",
+    "resolvedUrl": "https://www.luxuryresidences.com/contact",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/contact.html",
+    "bytes": 47846,
+    "sha256": "1697a07f87135f0f423d9a4ed80e9d4947f81db983680800f0878d5c60bc4386",
+    "seconds": 5.134,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/insights",
+    "resolvedUrl": "https://www.luxuryresidences.com/insights",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/insights.html",
+    "bytes": 39846,
+    "sha256": "8980b9f25fef96e3d511eefb3279382258143ae8fa3158ba32b68a9c5cab21f3",
+    "seconds": 5.102,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/insights/exquisite-townhouse-project-in-dubai-2023",
+    "resolvedUrl": "https://www.luxuryresidences.com/insights/exquisite-townhouse-project-in-dubai-2023",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/insights__exquisite-townhouse-project-in-dubai-2023.html",
+    "bytes": 55363,
+    "sha256": "f0712899b317c4e736478a63b13ff48ed429f96c2e93e64ff9b4a3852484eed2",
+    "seconds": 0.002,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/insights/the-ultra-luxury-bugatti-residences-project-in-dubai-2023",
+    "resolvedUrl": "https://www.luxuryresidences.com/insights/the-ultra-luxury-bugatti-residences-project-in-dubai-2023",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/insights__the-ultra-luxury-bugatti-residences-project-in-dubai-2023.html",
+    "bytes": 55412,
+    "sha256": "ecade0485b487d5a1c29533483d32070ddb713df3de6297c9592f84102e10d89",
+    "seconds": 0.0,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/insights/top-10-reasons-to-invest-in-dubai-real-estate",
+    "resolvedUrl": "https://www.luxuryresidences.com/insights/top-10-reasons-to-invest-in-dubai-real-estate",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/insights__top-10-reasons-to-invest-in-dubai-real-estate.html",
+    "bytes": 55387,
+    "sha256": "254ed8407a14581b0f7ca8becca7511c9faefae29a0890d1fb01594c7f8f0302",
+    "seconds": 0.001,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/insights/tranio-client-experience-buying-a-dream-apartment-in-dubai-in-24-hours",
+    "resolvedUrl": "https://www.luxuryresidences.com/insights/tranio-client-experience-buying-a-dream-apartment-in-dubai-in-24-hours",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/insights__tranio-client-experience-buying-a-dream-apartment-in-dubai-in-24-hours.html",
+    "bytes": 55513,
+    "sha256": "a09ede83265cfaf2b5e9eed23fe8eaaf7ff1aa572bee68db1872d73df3700e05",
+    "seconds": 0.001,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/privacy-policy-luxury-residence",
+    "resolvedUrl": "https://www.luxuryresidences.com/privacy-policy-luxury-residence",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/privacy-policy-luxury-residence.html",
+    "bytes": 42039,
+    "sha256": "47ddf9e149ba2e1e27bf2128e50153f3b449c4d55ff9befe861fe89d8059778c",
+    "seconds": 5.237,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/projects/atlantis-the-royal",
+    "resolvedUrl": "https://www.luxuryresidences.com/projects/atlantis-the-royal",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/projects__atlantis-the-royal.html",
+    "bytes": 83681,
+    "sha256": "5c4313da5f6a62b5cbf397d33eaf51ffaf199e3afff45fb1db0d8acb155e3bf2",
+    "seconds": 2.773,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/projects/ava",
+    "resolvedUrl": "https://www.luxuryresidences.com/projects/ava",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/projects__ava.html",
+    "bytes": 81397,
+    "sha256": "3c36dbf4d3ac94da0e3340d3142874102a3ec2966385869d2ea0abacab66b1c0",
+    "seconds": 3.564,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/projects/orla",
+    "resolvedUrl": "https://www.luxuryresidences.com/projects/orla",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/projects__orla.html",
+    "bytes": 81414,
+    "sha256": "69d9e55e829f96893a735e39979672e44fe8dee31fe9cc969abf3c301e0d4c63",
+    "seconds": 2.738,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/projects/serenity-mansions-aurora",
+    "resolvedUrl": "https://www.luxuryresidences.com/projects/serenity-mansions-aurora",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/projects__serenity-mansions-aurora.html",
+    "bytes": 82916,
+    "sha256": "d714081e9fba701a751e54e3ecd025707585e50d49fa197f31e4f82bca7b0078",
+    "seconds": 2.872,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/projects/serenity-mansions-waterfront-collection",
+    "resolvedUrl": "https://www.luxuryresidences.com/projects/serenity-mansions-waterfront-collection",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/projects__serenity-mansions-waterfront-collection.html",
+    "bytes": 82335,
+    "sha256": "0a892e76dd8c20d9a7d9d5026aac207348950873fd492486c55cc97bebaf00c5",
+    "seconds": 2.851,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/projects/six-senses",
+    "resolvedUrl": "https://www.luxuryresidences.com/projects/six-senses",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/projects__six-senses.html",
+    "bytes": 82867,
+    "sha256": "d019edfb75fe001e714dda1883e77823b95502b002481a57683ba44e6735dfaa",
+    "seconds": 2.851,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/projects/template",
+    "resolvedUrl": "https://www.luxuryresidences.com/projects/template",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/projects__template.html",
+    "bytes": 64986,
+    "sha256": "5e6b62f92495d660c839b8d73aa653b40a41190124622c7575a06393f90d387f",
+    "seconds": 1.984,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/projects/vela",
+    "resolvedUrl": "https://www.luxuryresidences.com/projects/vela",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/projects__vela.html",
+    "bytes": 82618,
+    "sha256": "d74b9c978875c04c1e4decc8742f7130ca81152def62e02faf6def8eedb45679",
+    "seconds": 6.003,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/1-of-1-branded-renovation-incredible-must-see",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/1-of-1-branded-renovation-incredible-must-see",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__1-of-1-branded-renovation-incredible-must-see.html",
+    "bytes": 316294,
+    "sha256": "aa95dbcb3f4ac982f7a3b6d4f37a96a2aecf71c9fe95e6c869618bcdbd0ffd1e",
+    "seconds": 4.449,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/2-bedroom-spacious-layout-prime-location-2",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 8.27,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/2br-maids-best-quality-beach-access-2",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 8.271,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/3br-dual-views-fully-furnished",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 6.928,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/4br-royal-penthouse-private-pool-skyline-view",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 5.412,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/a-refined-minimalist-sanctuary-with-serene-views",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/a-refined-minimalist-sanctuary-with-serene-views",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__a-refined-minimalist-sanctuary-with-serene-views.html",
+    "bytes": 317769,
+    "sha256": "24e863d9915279e681a05b2488dea18a34b36d8078c551e1b370c63ffb22e0f1",
+    "seconds": 3.146,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/atlantis-royal-gem-unique-home-with-vast-terrace",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 5.952,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/ava-at-palm-jumeirah-dorchester-collection",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/ava-at-palm-jumeirah-dorchester-collection",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__ava-at-palm-jumeirah-dorchester-collection.html",
+    "bytes": 311465,
+    "sha256": "c3605ae06b7f36b0d54abb3841202c8694132935fe3c61296df66b7d9f45c22f",
+    "seconds": 2.98,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/award-winning-villa-brand-new-turnkey",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 6.288,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/bang-olufsen-tv-italian-furniture-skyline-view",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 6.263,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/beauty-rarity-and-timeless-elegance-awaits",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/beauty-rarity-and-timeless-elegance-awaits",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__beauty-rarity-and-timeless-elegance-awaits.html",
+    "bytes": 317365,
+    "sha256": "3d0f64403bcc59cdf95e55abee8e21d88b9de254aae4da35c8c240a446c8ad24",
+    "seconds": 3.465,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/best-atrium-deal-fully-extended-plot-exclusive",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 8.551,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/best-price-high-floor-sea-view-large-size",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/best-price-high-floor-sea-view-large-size",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__best-price-high-floor-sea-view-large-size.html",
+    "bytes": 318150,
+    "sha256": "811eb1db1df061b6f91f519e2524dbb159cd05cf19dc1f501e830c51c8b26777",
+    "seconds": 5.276,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/best-priced-palm-view-2br-furnished-view-today",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/best-priced-palm-view-2br-furnished-view-today",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__best-priced-palm-view-2br-furnished-view-today.html",
+    "bytes": 315309,
+    "sha256": "defdad43c48cd81943a98fdba7abdfbdaaaa042db93f2f0e2dcd3961934daa45",
+    "seconds": 5.225,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/best-value-huge-terrace-amazing-potential",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/best-value-huge-terrace-amazing-potential",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__best-value-huge-terrace-amazing-potential.html",
+    "bytes": 316903,
+    "sha256": "94873643766b8b240b5dab24ef8e514770e5e0bdebf460ad9f1815aaa725d333",
+    "seconds": 5.233,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/boulevard-view-brand-new-unfurnished",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 9.209,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/brand-new-burj-al-arab-and-sea-view",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 6.659,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/brand-new-fully-furnished-vacant-now",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 6.631,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/brand-new-high-floor-full-palm-jumeirah-view",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/brand-new-high-floor-full-palm-jumeirah-view",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__brand-new-high-floor-full-palm-jumeirah-view.html",
+    "bytes": 315811,
+    "sha256": "609c0d12025f211488dcb3df5cf635df398b9fbcadf4550f9e1c1e16c14fec8a",
+    "seconds": 3.474,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/brand-new-high-floor-islands-view",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/brand-new-high-floor-islands-view",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__brand-new-high-floor-islands-view.html",
+    "bytes": 313045,
+    "sha256": "b2c850742bb5a35654507015a32bfb813c93f7cf25dba2fa9d560b98faf6ccc6",
+    "seconds": 3.28,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/brand-new-high-floor-palm-and-skyline-view",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/brand-new-high-floor-palm-and-skyline-view",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__brand-new-high-floor-palm-and-skyline-view.html",
+    "bytes": 314605,
+    "sha256": "448d89233a4204741c3e4bcfef231533c0c74309392310adb1da0a3345eb5993",
+    "seconds": 2.613,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/brand-new-high-floor-sea-and-sunset-views",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/brand-new-high-floor-sea-and-sunset-views",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__brand-new-high-floor-sea-and-sunset-views.html",
+    "bytes": 313605,
+    "sha256": "f7c8d21ead8fceb814766ff6b64ba4138611c6747cd07c375b24b73f585733d1",
+    "seconds": 2.635,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/brand-new-palm-and-garden-view-vacant",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/brand-new-palm-and-garden-view-vacant",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__brand-new-palm-and-garden-view-vacant.html",
+    "bytes": 315517,
+    "sha256": "d3383865a82c3e3657aa0f9b0a9c7c5dee058d7c62993a2708bf800156a3e892",
+    "seconds": 2.528,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/brand-new-palm-views-optional-furnishing",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 5.693,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/brand-new-private-garden-private-pool",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/brand-new-private-garden-private-pool",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__brand-new-private-garden-private-pool.html",
+    "bytes": 320094,
+    "sha256": "2870f430807cc6e53084d82d84697260d43cdf3c873b584a28b4f19f0a8a16bd",
+    "seconds": 2.648,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/brand-new-sea-and-palm-view-corner-unit",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/brand-new-sea-and-palm-view-corner-unit",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__brand-new-sea-and-palm-view-corner-unit.html",
+    "bytes": 318660,
+    "sha256": "18697704d1b244b8ed157445861d6204f3c4ea3f65a6fa4b5308515cebd45fd1",
+    "seconds": 2.772,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/brand-new-sea-and-palm-view-corner-unit-2",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/brand-new-sea-and-palm-view-corner-unit-2",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__brand-new-sea-and-palm-view-corner-unit-2.html",
+    "bytes": 318583,
+    "sha256": "aee64db1bb7e1dd115d78ca9583f1121040cdac12ce0f605a94845552aaa2ef2",
+    "seconds": 2.594,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/brand-new-sea-and-sunset-views",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/brand-new-sea-and-sunset-views",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__brand-new-sea-and-sunset-views.html",
+    "bytes": 317289,
+    "sha256": "a2d82c50b98cca0cb3311c137a413c76c1fe0478a7e3429860ee3241fe3eba6b",
+    "seconds": 3.148,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/brand-new-vacant-sea-and-sunset-views",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/brand-new-vacant-sea-and-sunset-views",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__brand-new-vacant-sea-and-sunset-views.html",
+    "bytes": 315774,
+    "sha256": "b57616227a80162d3b613a565bde2bc7351111521fe1a2b50525893a86b8e753",
+    "seconds": 3.102,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/brand-new-vacant-sea-and-sunset-views-2",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/brand-new-vacant-sea-and-sunset-views-2",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__brand-new-vacant-sea-and-sunset-views-2.html",
+    "bytes": 317838,
+    "sha256": "3c3b0d4e239913b2b509836247dbb2cd8c6fa86601ac5c927c073292ffd861ea",
+    "seconds": 2.911,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/burj-khalifa-view-corner-unit-high-floor",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 5.568,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/burj-khalifa-views-upgraded-fully-furnished",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/burj-khalifa-views-upgraded-fully-furnished",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__burj-khalifa-views-upgraded-fully-furnished.html",
+    "bytes": 317986,
+    "sha256": "aa9c826bc1ec8723fe56898622db55fd3bf2bb52372cc44b3f3e67c684cf9ece",
+    "seconds": 2.793,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/close-to-tip-fully-upgraded-prime-location",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/close-to-tip-fully-upgraded-prime-location",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__close-to-tip-fully-upgraded-prime-location.html",
+    "bytes": 315223,
+    "sha256": "3f6258b87db238462db4e225bc3b27c4f9db0aa35fa7921a8341ea6b177dd7da",
+    "seconds": 2.725,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/completion-q4-2025-sea-and-sunset-views",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 5.377,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/contemporary-classic-newly-renovated-masterpiece",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 5.875,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/contemporary-luxury-with-sea-view-palm-jumeirah",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 5.846,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/contemporary-luxury-with-sea-view-palm-jumeirah-2",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 6.21,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/design-led-beachfront-living-2br-apartment",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 6.257,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/design-led-beachfront-living-2br-apartment-2",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 6.508,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/dorchester-collection-full-palm-view-duplex",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/dorchester-collection-full-palm-view-duplex",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__dorchester-collection-full-palm-view-duplex.html",
+    "bytes": 314564,
+    "sha256": "12fc3c48e72a1fa19a6e8030f5412459b4365dc0ef00fdb650f2504bb249c3c5",
+    "seconds": 3.11,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/dual-views-double-height-2027-completion",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/dual-views-double-height-2027-completion",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__dual-views-double-height-2027-completion.html",
+    "bytes": 315863,
+    "sha256": "80c48ff2de36ac031f9b540c2b6e2d05f874762392caf2dc4104022adb767eb4",
+    "seconds": 3.549,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/dual-views-highest-floor-huge-layout",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/dual-views-highest-floor-huge-layout",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__dual-views-highest-floor-huge-layout.html",
+    "bytes": 318848,
+    "sha256": "c54c394f35ec3e95b20810be8a18a39bf8f70e18a8f5f055f9d6185f9fac8c28",
+    "seconds": 3.445,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/duplex-burj-khalifa-view-high-floor",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 6.34,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/duplex-ph-brand-new-unobstructed-views",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/duplex-ph-brand-new-unobstructed-views",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__duplex-ph-brand-new-unobstructed-views.html",
+    "bytes": 318670,
+    "sha256": "e9dfd06df9629d6679847b8f2a10dcb5f73ee1ff8b4533d0be502d40f5d3dce1",
+    "seconds": 3.005,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/duplex-with-private-pool-must-be-viewed",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/duplex-with-private-pool-must-be-viewed",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__duplex-with-private-pool-must-be-viewed.html",
+    "bytes": 315703,
+    "sha256": "f9a918117dc436f688d858722bac1917ce71c5f74a3097c84ff4680959a54350",
+    "seconds": 3.004,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/eden-hills",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/eden-hills",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__eden-hills.html",
+    "bytes": 317578,
+    "sha256": "e23c879522ab9737903477929a88c3870571404129c1cb9b30df36d4cf80f3f0",
+    "seconds": 3.005,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/elegant-beachfront-living-bluewaters-view",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 6.96,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/exclusive-furnished-beach-and-skyline-view",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 6.37,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/exclusive-high-floor-available-now-furnished",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/exclusive-high-floor-available-now-furnished",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__exclusive-high-floor-available-now-furnished.html",
+    "bytes": 317213,
+    "sha256": "0de1c9a74dcdebef706f98b364f22e5fa73f2b40130a84361c3226c3a13e6e37",
+    "seconds": 3.16,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/exclusive-lagoon-facing-available-for-viewing",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/exclusive-lagoon-facing-available-for-viewing",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__exclusive-lagoon-facing-available-for-viewing.html",
+    "bytes": 315800,
+    "sha256": "725c6a2f53712944f2351d032c3e0799ad386890e1e0376b4eb39a84c6a689f8",
+    "seconds": 3.12,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/exclusive-sea-view-4br-royal-penthouse",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/exclusive-sea-view-4br-royal-penthouse",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__exclusive-sea-view-4br-royal-penthouse.html",
+    "bytes": 316364,
+    "sha256": "86b6b0b020e111705f91c7a1a27e8f090321a809dcb619cd0b7228c8f7d8af33",
+    "seconds": 3.244,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/exclusive-top-floor-one-of-a-kind",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/exclusive-top-floor-one-of-a-kind",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__exclusive-top-floor-one-of-a-kind.html",
+    "bytes": 316225,
+    "sha256": "423754dd8a90def08eaa8ecfa30aa579cc61c9fb8cbfb7436eb33dcb98096785",
+    "seconds": 3.291,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/expertly-redesigned-spacious-bright-villa",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 7.461,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/exquisite-1br-with-direct-golf-course-view",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 7.371,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/exquisite-2-bed-seafront-apartment-sea-views",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 7.356,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/exquisite-brand-new-beach-villa-close-to-tip",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 6.934,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/exquisite-private-home-by-award-winning-designer",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 5.552,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/exquisite-turnkey-2br-duplex-with-private-pool",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 5.508,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/extraordinary-turnkey-luxury-with-iconic-views",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/extraordinary-turnkey-luxury-with-iconic-views",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__extraordinary-turnkey-luxury-with-iconic-views.html",
+    "bytes": 318890,
+    "sha256": "02a774597f333c7ba79b85e6c39df7a04edfb79285bf578b901747c0f6d2debe",
+    "seconds": 2.775,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/first-class-triple-storey-beach-villa",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 5.452,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/front-row-lagoon-view-furnished",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 5.391,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/full-sea-view-high-floor-brand-new",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 6.416,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/fully-extended-high-number-atrium-entry",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 6.416,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/fully-furnished-full-sea-and-palm-view",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 6.409,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/fully-furnished-high-floor-dubai-ain-view",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 6.403,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/fully-furnished-higher-floor-ready-to-move-in",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 11.452,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/fully-furnished-palm-view-vacant",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 8.128,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/fully-furnished-palm-view-vacant-2",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 8.075,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/fully-furnished-renovated-ready-to-move-in",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 8.753,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/fully-furnished-renovated-ready-to-move-in-2",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 8.969,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/fully-furnished-sea-view-vacant",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 8.838,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/fully-renovated-full-sea-view-furnished",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 8.682,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/fully-renovated-sea-view-ready-to-move-in",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 8.634,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/furnished-high-floor-dual-views-xl-terrace",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 7.131,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/furnished-palm-and-dubai-ain-view-high-floor",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 7.061,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/furnished-palm-and-skyline-views-exclusive",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/furnished-palm-and-skyline-views-exclusive",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__furnished-palm-and-skyline-views-exclusive.html",
+    "bytes": 317546,
+    "sha256": "628fe3118e5ace04bfcfd1fb626d1f1eea318cc31b941fd39b151ca8fa38cd84",
+    "seconds": 4.1,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/furnished-palm-skyline-views-exclusive",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/furnished-palm-skyline-views-exclusive",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__furnished-palm-skyline-views-exclusive.html",
+    "bytes": 313797,
+    "sha256": "1b944c78cb5f2c96726c92ff0b45ed3266eaa0dfca232011c4ad56e792a8d8b0",
+    "seconds": 4.074,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/furnished-palm-skyline-views-exclusive-2",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/furnished-palm-skyline-views-exclusive-2",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__furnished-palm-skyline-views-exclusive-2.html",
+    "bytes": 316774,
+    "sha256": "0917b363c208f62d40adca5bf4ba512e87457f645345ff036140e70029db0b4a",
+    "seconds": 12.872,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/furnished-upgraded-unique-layout-dual-views",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/furnished-upgraded-unique-layout-dual-views",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__furnished-upgraded-unique-layout-dual-views.html",
+    "bytes": 318303,
+    "sha256": "14b291ac7c4d98002944f6d8aae558eca5762fe6b1879e3bf5a9a1875b3227c3",
+    "seconds": 12.901,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/garden-apartment-sea-facing-private-pool",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/garden-apartment-sea-facing-private-pool",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__garden-apartment-sea-facing-private-pool.html",
+    "bytes": 317498,
+    "sha256": "b2517a87a7b6c6e1fab055e7b02822c785ff65ead2f1734b16158a9d43817e22",
+    "seconds": 12.813,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/garden-apartment-sea-facing-private-pool-2",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/garden-apartment-sea-facing-private-pool-2",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__garden-apartment-sea-facing-private-pool-2.html",
+    "bytes": 318065,
+    "sha256": "7d2b0c5d9d9c429878a4cbdb7827d2479558c0977ee0768954baf736f0f0639b",
+    "seconds": 12.815,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/garden-villa-hermes-and-minotti-private-pool",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/garden-villa-hermes-and-minotti-private-pool",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__garden-villa-hermes-and-minotti-private-pool.html",
+    "bytes": 317797,
+    "sha256": "36eb4c16fc63b2b374e90e9c11c06e74c0c9e234468e32503bc3638d5de774fa",
+    "seconds": 3.199,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/great-location-golf-community-corner-townhouse",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 6.167,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/high-floor-2br-with-panoramic-city-views",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 6.17,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/high-floor-palm-paradise-with-incredible-views",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/high-floor-palm-paradise-with-incredible-views",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__high-floor-palm-paradise-with-incredible-views.html",
+    "bytes": 317674,
+    "sha256": "ee962f59cdfbd705200f5fa980b68b2958b6756662387074c5c04656da08e524",
+    "seconds": 3.11,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/high-floor-palm-view-fully-furnished",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/high-floor-palm-view-fully-furnished",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__high-floor-palm-view-fully-furnished.html",
+    "bytes": 316467,
+    "sha256": "12ed45346fed65f18d79554ce1ee49137611f2f47eef1992172cd1ad9b03d38e",
+    "seconds": 3.128,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/high-floor-with-best-views-furnished-1-agency",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/high-floor-with-best-views-furnished-1-agency",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__high-floor-with-best-views-furnished-1-agency.html",
+    "bytes": 314891,
+    "sha256": "d134b17c237b8a27adafdfe67579ea6de42ddcdb2f621830edc26231b70e15a1",
+    "seconds": 3.043,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/high-no-immaculate-condition-fully-furnished",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 12.915,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/high-number-finest-sea-views-multiple-options",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 12.901,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/high-number-fully-renovated-best-layout",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/high-number-fully-renovated-best-layout",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__high-number-fully-renovated-best-layout.html",
+    "bytes": 314779,
+    "sha256": "2ad487557440dd792039671477597e6a3c402fa5286c824c5346017ed9c1e68b",
+    "seconds": 8.88,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/incredible-investor-deal-below-market-value",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 12.803,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/incredible-price-and-sea-view-must-be-viewed",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 6.863,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/large-layout-community-view-maids-room",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/large-layout-community-view-maids-room",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__large-layout-community-view-maids-room.html",
+    "bytes": 316862,
+    "sha256": "c5745b86f186d69a112a96926ec159f5828005957e4660799135c9555e65a1c7",
+    "seconds": 2.952,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/large-layout-vacant-on-transfer-unfurnished",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 5.744,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/last-available-3br-duplex-with-private-pool",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/last-available-3br-duplex-with-private-pool",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__last-available-3br-duplex-with-private-pool.html",
+    "bytes": 319101,
+    "sha256": "2e9c88dd4d737981cf61fb192c79e1c5f833b3bfc23603f22ce886de3e5f6fc9",
+    "seconds": 2.979,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/live-moments-from-difc-at-address-zabeel-towers",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 5.94,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/live-royally-in-this-high-floor-palm-view-2br-m",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 5.879,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/live-royally-turnkey-renovated-masterpiece",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/live-royally-turnkey-renovated-masterpiece",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__live-royally-turnkey-renovated-masterpiece.html",
+    "bytes": 315548,
+    "sha256": "69fc3c6fb34b99ceccd5e41fc842121fc7b6bc4c981d68bacc313816f6ee0fd8",
+    "seconds": 2.765,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/luxurious-6-bedroom-private-pool-villa",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 6.105,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/luxury-living-at-five-luxe-dubai-1br-apartment",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 6.055,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/luxury-living-redefined-prime-location-2-bed",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 6.463,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/miami-style-stunning-marina-views-beach-access",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/miami-style-stunning-marina-views-beach-access",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__miami-style-stunning-marina-views-beach-access.html",
+    "bytes": 315632,
+    "sha256": "8d2e976aa5be82b4a829e56f6b63e941545f52a7a905951d3c16afd9e98b199b",
+    "seconds": 3.152,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/modern-design-elie-saab-branded-priced-to-sell",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/modern-design-elie-saab-branded-priced-to-sell",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__modern-design-elie-saab-branded-priced-to-sell.html",
+    "bytes": 310326,
+    "sha256": "ec442b6eed670abe2a40766a33d70d124d0f65d947333e5c7ffbb77d691e36b5",
+    "seconds": 3.583,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/one-at-palm-jumeirah-dorchester-collection",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/one-at-palm-jumeirah-dorchester-collection",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__one-at-palm-jumeirah-dorchester-collection.html",
+    "bytes": 313193,
+    "sha256": "73f7e11f8d10482b20ec1bfab89b85a5e90428e1ca05c1c882f156f0dcdb2146",
+    "seconds": 3.559,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/one-of-a-kind-with-burj-sea-and-skyline-views",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 9.327,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/orla-dorchester-collection",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/orla-dorchester-collection",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__orla-dorchester-collection.html",
+    "bytes": 312566,
+    "sha256": "7b8bef3cd940f256983db0a9b43ee7a5978b5a5159910465d85d832d80242670",
+    "seconds": 3.428,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/palm-and-marina-skyline-views-private-pool",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/palm-and-marina-skyline-views-private-pool",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__palm-and-marina-skyline-views-private-pool.html",
+    "bytes": 318254,
+    "sha256": "996bf68edfd3be5d91f2202352330bb8210815282b413c8e34b4047c62e72ead",
+    "seconds": 3.056,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/palm-and-sea-views-vacant-fully-furnished",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 9.095,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/palm-view-amazing-2br-layout-must-be-viewed",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/palm-view-amazing-2br-layout-must-be-viewed",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__palm-view-amazing-2br-layout-must-be-viewed.html",
+    "bytes": 320390,
+    "sha256": "3137f1e35e66236fd915a85f496924c034733fa18a542bb9c1e508361aefe555",
+    "seconds": 2.88,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/palm-view-duplex-bespoke-garden-home",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/palm-view-duplex-bespoke-garden-home",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__palm-view-duplex-bespoke-garden-home.html",
+    "bytes": 321383,
+    "sha256": "658b5f97f76954fb50fab4554d39cb2a403e50213543ad840da0a4bc4633730d",
+    "seconds": 2.652,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/palm-view-sky-court-xl-terrace-upgraded",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/palm-view-sky-court-xl-terrace-upgraded",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__palm-view-sky-court-xl-terrace-upgraded.html",
+    "bytes": 316093,
+    "sha256": "6771add93cac0b626afd3f8fcbc03e457bfcac7087b68fd66152fd7f9e40af6f",
+    "seconds": 3.297,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/panoramic-sea-sunset-views-wrap-around-balcony",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/panoramic-sea-sunset-views-wrap-around-balcony",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__panoramic-sea-sunset-views-wrap-around-balcony.html",
+    "bytes": 316804,
+    "sha256": "145ff89e3e02f010d6f2a664e8a06b2985d48ac360bdaa08d591bf4ee9426a68",
+    "seconds": 3.252,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/park-and-lagoon-view-handover-soon",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 6.184,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/partial-burj-view-turnkey-bills-included",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 6.552,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/partially-upgraded-premium-location-immaculate",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/partially-upgraded-premium-location-immaculate",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__partially-upgraded-premium-location-immaculate.html",
+    "bytes": 313299,
+    "sha256": "6c8ca972347dccef87fb888e94a1ce50910b867e3976adfe523778dcf9c5a11a",
+    "seconds": 3.088,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/penthouse-style-with-skyline-views-at-golf-heights",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/penthouse-style-with-skyline-views-at-golf-heights",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__penthouse-style-with-skyline-views-at-golf-heights.html",
+    "bytes": 313231,
+    "sha256": "a141b1b872519c82f4879f0621dfedd35804dad4196c1b5c8d9fe90ccaa7d0ae",
+    "seconds": 3.006,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/penthouse-with-panoramic-views-of-burj-khalifa",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 6.42,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/popular-type-prime-location-prestigious-villa",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/popular-type-prime-location-prestigious-villa",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__popular-type-prime-location-prestigious-villa.html",
+    "bytes": 314895,
+    "sha256": "267ac67047dd55d2a42d890748253b23bd344fec266d0c53d68e27ebdd98b3ca",
+    "seconds": 3.545,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/post-handover-pp-04-layout-palm-view",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/post-handover-pp-04-layout-palm-view",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__post-handover-pp-04-layout-palm-view.html",
+    "bytes": 313263,
+    "sha256": "5671e0125c6d409c7c76008f5d393dc5ba52b8a59fe40a24911387d4ede020da",
+    "seconds": 3.472,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/prime-corner-unit-full-marina-skyline-view",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 6.223,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/prime-location-furnished-unobstructed-views",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 6.139,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/prime-location-lagoon-view-5-bedrooms",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 6.068,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/private-beachfront-living-fully-furnished-villa",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 6.187,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/private-pool-duplex-1-resale-agency",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/private-pool-duplex-1-resale-agency",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__private-pool-duplex-1-resale-agency.html",
+    "bytes": 317657,
+    "sha256": "698b426217ae2310132953fb951ae15ab5873ba22f516f86febabde1211e36fa",
+    "seconds": 3.015,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/rare-dual-view-skyline-sea-spacious-luxury",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/rare-dual-view-skyline-sea-spacious-luxury",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__rare-dual-view-skyline-sea-spacious-luxury.html",
+    "bytes": 316459,
+    "sha256": "4eeffb9cc465cadfa06a632acd97e95742878c40ff708b6666588230027d6f56",
+    "seconds": 2.959,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/renovated-g-2-villa-prime-beachfront-living",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 5.796,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/renovated-rare-dual-view-private-beach-access",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 6.312,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/renovation-opportunity-vacant-extended-plot",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 6.299,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/rented-alternatives-available",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/rented-alternatives-available",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__rented-alternatives-available.html",
+    "bytes": 316536,
+    "sha256": "d83cb6b827f0ab227813639615d83d8e672f32059c9bf8906604bb56933cb231",
+    "seconds": 2.92,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/sea-view-or-skyline-vistas-now-you-can-have-both",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/sea-view-or-skyline-vistas-now-you-can-have-both",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__sea-view-or-skyline-vistas-now-you-can-have-both.html",
+    "bytes": 316711,
+    "sha256": "0775dcf3dc0314c13e34096d5bd2752e0db4a283e512f619ea6e91050a6419a9",
+    "seconds": 3.504,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/sea-views-michelin-star-dining-and-more",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/sea-views-michelin-star-dining-and-more",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__sea-views-michelin-star-dining-and-more.html",
+    "bytes": 314695,
+    "sha256": "664916685bb28ae1c6072674abbbcc78d0f1f35f044a45de3eb80efb65bf7ecd",
+    "seconds": 3.417,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/seaside-sophistication-breathtaking-sea-view",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 6.028,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/semi-furnished-palm-view-ready-to-move-in",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 5.928,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/serene-community-views-expansive-modern-layout",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 5.886,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/serenity-mansions-aurora",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/serenity-mansions-aurora",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__serenity-mansions-aurora.html",
+    "bytes": 311813,
+    "sha256": "460a9d108076fdc66e4828b35082049316761f180006679524b33694fcfe4cbf",
+    "seconds": 2.764,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/serenity-mansions-waterfront-collection",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/serenity-mansions-waterfront-collection",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__serenity-mansions-waterfront-collection.html",
+    "bytes": 312723,
+    "sha256": "bf88adf9b0700a0e21831ef0ec59990fe5e0e2b5b993d6764573720a955b84e5",
+    "seconds": 3.175,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/six-senses-residences-dubai-marina",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/six-senses-residences-dubai-marina",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__six-senses-residences-dubai-marina.html",
+    "bytes": 313934,
+    "sha256": "d8cb4ad58431f4ee99a7e4a3f9ccbea929635d22075587e7afaa29904b04ea6e",
+    "seconds": 3.189,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/sky-villa-palm-view-duplex",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 7.313,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/skyline-views-luxury-2br-in-one-b-tower",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 7.227,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/skyline-views-private-pool-duplex-unit",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 7.26,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/sleek-sophisticated-and-move-in-ready",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/sleek-sophisticated-and-move-in-ready",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__sleek-sophisticated-and-move-in-ready.html",
+    "bytes": 317531,
+    "sha256": "f4327d263bb8f5078be9588a623d8274b11285565e0e142cac8ad4daf29a4643",
+    "seconds": 4.153,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/sophisticated-turnkey-indoor-outdoor-living-awaits",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 8.698,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/spacious-2br-maids-canal-view-op",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 8.743,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/spacious-penthouse-with-iconic-burj-khalifa-view",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 8.696,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/stunning-3-br-th-estimated-completion-q4-2026",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 8.67,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/stunning-4br-amazing-bmv-price-move-in-ready",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/stunning-4br-amazing-bmv-price-move-in-ready",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__stunning-4br-amazing-bmv-price-move-in-ready.html",
+    "bytes": 319540,
+    "sha256": "ca79b3d691b8b80ed13d263138c5fa6812d2a5e2df8250b670abda64ee2fe0e0",
+    "seconds": 5.214,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/stunning-upgrade-luxury-villa-golf-course-view",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/stunning-upgrade-luxury-villa-golf-course-view",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__stunning-upgrade-luxury-villa-golf-course-view.html",
+    "bytes": 317356,
+    "sha256": "dfbcce64f233a3b806410215f05e00b5d3eae1109fa0e4ece59bc196fdc6b1c1",
+    "seconds": 5.365,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/super-high-floor-city-skyline-and-sea-views",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 8.163,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/super-rare-5br-maids-skyline-and-sea-views",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 8.073,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/super-rare-huge-terrace-furnished-1-agency",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/super-rare-huge-terrace-furnished-1-agency",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__super-rare-huge-terrace-furnished-1-agency.html",
+    "bytes": 317604,
+    "sha256": "13c7e2c5f2aba2078109f530d494aa15a9d8b3a9ef61a471979ac45771ac61e7",
+    "seconds": 3.055,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/the-chedi-private-residences",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/the-chedi-private-residences",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__the-chedi-private-residences.html",
+    "bytes": 319254,
+    "sha256": "68766cbc623803faeb74c86e19034b13468f8aec893ec279df285570ca302990",
+    "seconds": 2.86,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/the-exceptional-s-tower-4br-handover-2025",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 11.698,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/the-most-spectacular-burj-view-in-downtown",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 11.652,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/timeless-elegance-awaits-at-palazzo-versace-dubai",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/timeless-elegance-awaits-at-palazzo-versace-dubai",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__timeless-elegance-awaits-at-palazzo-versace-dubai.html",
+    "bytes": 317142,
+    "sha256": "59c59b6312954bdadc4699ef08316d9e45af489408c6df9591225aa8f00cfb18",
+    "seconds": 5.108,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/trophy-4br-garden-suite-with-private-pool",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/trophy-4br-garden-suite-with-private-pool",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__trophy-4br-garden-suite-with-private-pool.html",
+    "bytes": 321685,
+    "sha256": "f07fe068de9d357b22272c45bca0a742ff4aeeba7dd76883e91adcf17e791fbb",
+    "seconds": 5.096,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/turn-key-ain-dubai-view-fully-upgraded",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 10.495,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/turnkey-seaside-sanctuary-with-sunset-views",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 10.488,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/ultimate-beachfront-escape-sea-bluewaters-view",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 7.82,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/ultra-high-floor-one-of-a-kind-upgraded-residence",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/ultra-high-floor-one-of-a-kind-upgraded-residence",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__ultra-high-floor-one-of-a-kind-upgraded-residence.html",
+    "bytes": 317848,
+    "sha256": "d204594c04dbf65a687bcaea15332171c29030449880c55595a97b3086479ece",
+    "seconds": 4.093,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/ultra-luxury-branded-living-at-atlantis-the-royal",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 7.555,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/ultra-luxury-super-rare-dual-view-residence",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/ultra-luxury-super-rare-dual-view-residence",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__ultra-luxury-super-rare-dual-view-residence.html",
+    "bytes": 318974,
+    "sha256": "acef9e2669ccc829bb6f6f50ecb9685e03cffd4360747d230131d75430afedc1",
+    "seconds": 3.841,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/ultra-rare-2br-duplex-in-the-iconic-uptown-tower",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/ultra-rare-2br-duplex-in-the-iconic-uptown-tower",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__ultra-rare-2br-duplex-in-the-iconic-uptown-tower.html",
+    "bytes": 312424,
+    "sha256": "d111157ae26abea935c5cd6e00ed9c2c2a0c5f06e95f2fe67aa6a1c1f3e0c4f0",
+    "seconds": 3.777,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/unbeatable-stunning-5-bedroom-villa",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 6.717,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/unfurnished-huge-terrace-private-pool",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 6.688,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/unique-2br-serviced-apartment-full-sea-view",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 6.707,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/vacant-bentley-home-meticulously-upgraded",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 7.052,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/vacant-bentley-home-meticulously-upgraded-2",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 7.135,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/vacant-fully-furnished-sea-view-high-floor",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 7.125,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/vacant-high-floor-prime-location",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 7.044,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/vacant-high-floor-prime-location-2",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 6.343,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/vacant-spacious-full-burj-and-fountain-views",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 7.295,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/vela-dorchester-collection",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/vela-dorchester-collection",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__vela-dorchester-collection.html",
+    "bytes": 309580,
+    "sha256": "3848ce718ea68d6ed5bce277ff1d3d51c65450b750d701d80ef06603dd250eba",
+    "seconds": 3.301,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/versace-luxury-first-time-rental-top-floor",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 7.159,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/very-high-number-fully-extended-and-renovated",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 7.204,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/very-high-number-fully-upgraded-premium-views",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/very-high-number-fully-upgraded-premium-views",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__very-high-number-fully-upgraded-premium-views.html",
+    "bytes": 313567,
+    "sha256": "fa0dff9fd7e9ea4af4f30fa5d61f570976805d9ea3bea6a2c1ffcdbd88d7a439",
+    "seconds": 4.012,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/www-luxuryresidences-com-properties-private-pool-canal-view-renovated-upgraded",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/www-luxuryresidences-com-properties-private-pool-canal-view-renovated-upgraded",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__www-luxuryresidences-com-properties-private-pool-canal-view-renovated-upgraded.html",
+    "bytes": 315837,
+    "sha256": "594a80439c95714aebf6546e7287ab012a17ab2699f5afc8e5818c773fe2a4ae",
+    "seconds": 3.392,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/your-royal-lifestyle-with-sublime-views-and-space",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 6.898,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/your-royal-lifestyle-with-sublime-views-and-space-2",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/your-royal-lifestyle-with-sublime-views-and-space-2",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__your-royal-lifestyle-with-sublime-views-and-space-2.html",
+    "bytes": 317445,
+    "sha256": "b58023b4a0a0d11fd0ee2271ee6db46d6d811c6a87602235fabfb8d38add22e5",
+    "seconds": 3.299,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/your-signature-residence-on-sheikh-zayed-road",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "seconds": 7.779,
+    "httpStatus": 404
+  },
+  {
+    "url": "https://www.luxuryresidences.com/rent",
+    "resolvedUrl": "https://www.luxuryresidences.com/rent",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/rent.html",
+    "bytes": 196858,
+    "sha256": "04b88d0b4b8c78d3ad9064b838c47660136df25f098cdbd0867799d29d1ffccf",
+    "seconds": 2.711,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/sell",
+    "resolvedUrl": "https://www.luxuryresidences.com/sell",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/sell.html",
+    "bytes": 52528,
+    "sha256": "4ea488474930386005a523fd93c7157a6cd56d66d095c6e809202cea09129d00",
+    "seconds": 5.334,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/services",
+    "resolvedUrl": "https://www.luxuryresidences.com/services",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/services.html",
+    "bytes": 40047,
+    "sha256": "cb4ac1f76b1d427a12f0ac96ce8f6c73b5c4f648e5e552526cd43d952acf2ee0",
+    "seconds": 5.262,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/1-of-1-palm-view-renovation-incredible-must-see",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/1-of-1-palm-view-renovation-incredible-must-see",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__1-of-1-palm-view-renovation-incredible-must-see.html",
+    "bytes": 319412,
+    "sha256": "9b4bdc389246185a8a5ae1a0546d76fb12556bfa4bdf4228c35f10a463707577",
+    "seconds": 3.786,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/2br-palm-skyline-view-branded-upgrades",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/2br-palm-skyline-view-branded-upgrades",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__2br-palm-skyline-view-branded-upgrades.html",
+    "bytes": 316929,
+    "sha256": "0cb1639c43000bfb8b6d2cc9c5aa8159929fc05c7b4725c71a1872b6006c1903",
+    "seconds": 3.717,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/3br-duplex-private-pool-viewing-essential",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/3br-duplex-private-pool-viewing-essential",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__3br-duplex-private-pool-viewing-essential.html",
+    "bytes": 317100,
+    "sha256": "6c580c673b5ac33e01abb7981e530de6fc3c09e945e8bddaaf0927d0aca4e668",
+    "seconds": 3.968,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/beachfront-living-stunning-views-vacant",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/beachfront-living-stunning-views-vacant",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__beachfront-living-stunning-views-vacant.html",
+    "bytes": 314441,
+    "sha256": "1d85ebd53198e7d7457c3cb97bb91f49ef3f1672555435d9d442983ee6b3b222",
+    "seconds": 3.637,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/beautifully-renovated-private-spa-high-number",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/beautifully-renovated-private-spa-high-number",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__beautifully-renovated-private-spa-high-number.html",
+    "bytes": 315946,
+    "sha256": "f25bd71089437bb377c08d1be346cd2dc6372ba3ecde71a5d94988163417012c",
+    "seconds": 3.102,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/best-price-upgraded-furnished-skyline-views",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/best-price-upgraded-furnished-skyline-views",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__best-price-upgraded-furnished-skyline-views.html",
+    "bytes": 318685,
+    "sha256": "663911e6b8d31280f56cfb12c7921633348df216e77aecb9720ae79b16b6a3b0",
+    "seconds": 3.111,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/brand-new-sea-dubai-eye-and-sunset-views",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/brand-new-sea-dubai-eye-and-sunset-views",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__brand-new-sea-dubai-eye-and-sunset-views.html",
+    "bytes": 315858,
+    "sha256": "356ddc6d74e7306e6f091f8cf01d412c21470a3b338b8d629da62a930778241f",
+    "seconds": 3.048,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/branded-upgrade-palm-skyline-view-2br-xl-size",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/branded-upgrade-palm-skyline-view-2br-xl-size",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__branded-upgrade-palm-skyline-view-2br-xl-size.html",
+    "bytes": 316482,
+    "sha256": "ad9c83e67712c0c474b69f2453698b8425662b1377b428eb675f8dbc6267f22d",
+    "seconds": 2.759,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/celebrated-designer-duplex-with-private-pool",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/celebrated-designer-duplex-with-private-pool",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__celebrated-designer-duplex-with-private-pool.html",
+    "bytes": 319717,
+    "sha256": "c5fa7afb65db4edf9ab63d0c8687a1351c9025d6e7a92842f6ab503f203f4d69",
+    "seconds": 3.984,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/city-and-sea-views-fully-furnished-xl-terrace",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/city-and-sea-views-fully-furnished-xl-terrace",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__city-and-sea-views-fully-furnished-xl-terrace.html",
+    "bytes": 314481,
+    "sha256": "d21458255c7aeca1546041190fe90fecc4873d4a019774484ec2d143a0c644dc",
+    "seconds": 3.933,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/duplex-roof-terrace-golf-and-skyline-views",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/duplex-roof-terrace-golf-and-skyline-views",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__duplex-roof-terrace-golf-and-skyline-views.html",
+    "bytes": 318217,
+    "sha256": "9e45d77c468f01fe23bb89c3189201c210ce2b2c95a5b25e19d1ec072dd79cd7",
+    "seconds": 3.82,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/genuine-resale-full-sea-and-marina-views",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/genuine-resale-full-sea-and-marina-views",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__genuine-resale-full-sea-and-marina-views.html",
+    "bytes": 314571,
+    "sha256": "088663a2b278779c48bebfbec34983756e6789db35ac3ac62d7fddd637a8c0e6",
+    "seconds": 3.82,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/high-floor-2br-sea-view-chic-upgrades",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/high-floor-2br-sea-view-chic-upgrades",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__high-floor-2br-sea-view-chic-upgrades.html",
+    "bytes": 316350,
+    "sha256": "8f82d3ed064aaa702244255cd2d1b5606dddc35e750d5b135c945d9112d40779",
+    "seconds": 3.528,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/high-floor-palm-paradise-with-city-views-for-rent",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/high-floor-palm-paradise-with-city-views-for-rent",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__high-floor-palm-paradise-with-city-views-for-rent.html",
+    "bytes": 317136,
+    "sha256": "54f7ece60e137509f7dad4d0ebb4038f4212dbb3db325547bfdba8ee45201226",
+    "seconds": 3.516,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/landmark-marina-gate-one-bed-must-be-viewed-2",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/landmark-marina-gate-one-bed-must-be-viewed-2",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__landmark-marina-gate-one-bed-must-be-viewed-2.html",
+    "bytes": 313597,
+    "sha256": "911e9c2eb5d314a90335e564bbde7d507b8cfd668b1f3efd13ed14c34c285e65",
+    "seconds": 3.683,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/marina-view-upgraded-furnished-investor-deal",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/marina-view-upgraded-furnished-investor-deal",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__marina-view-upgraded-furnished-investor-deal.html",
+    "bytes": 313069,
+    "sha256": "175b4face0ecd7c05600f4be946ea96a6220fd51300b4d1194de48c4c8bdef01",
+    "seconds": 3.466,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/must-be-viewed-rare-2br-sea-and-skyline-views",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/must-be-viewed-rare-2br-sea-and-skyline-views",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__must-be-viewed-rare-2br-sea-and-skyline-views.html",
+    "bytes": 319300,
+    "sha256": "b7e71a960bd8ef1a619e7f813139b00ef07b605c628df22e8bf85bea04417cf4",
+    "seconds": 4.036,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/one-of-a-kind-loft-designer-upgrade-sea-view",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/one-of-a-kind-loft-designer-upgrade-sea-view",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__one-of-a-kind-loft-designer-upgrade-sea-view.html",
+    "bytes": 314671,
+    "sha256": "bc891ba176a91b07899389b7edfd4caf4fc5fd3fff858a317d8149a520cbf39f",
+    "seconds": 3.911,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/one-of-a-kind-villa-unique-reimagined-layout",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/one-of-a-kind-villa-unique-reimagined-layout",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__one-of-a-kind-villa-unique-reimagined-layout.html",
+    "bytes": 315563,
+    "sha256": "95bd3dd86de087815580977e05873992564c6a3b3d43f63dc6461327aa2ccfc1",
+    "seconds": 3.942,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/premium-location-best-value-turnkey-garden-home",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/premium-location-best-value-turnkey-garden-home",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__premium-location-best-value-turnkey-garden-home.html",
+    "bytes": 315057,
+    "sha256": "8868dfc3fc8610f3af8147501d3d852f38a3feb9113ebcafffa36ad581faca25",
+    "seconds": 3.728,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/private-pool-furnished-spacious-terrace",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/private-pool-furnished-spacious-terrace",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__private-pool-furnished-spacious-terrace.html",
+    "bytes": 315205,
+    "sha256": "24a8f9801623b618061c62e2993d44ea702130220cf6f488c49338dd5f24a9f4",
+    "seconds": 3.213,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/renovation-opportunity-high-number-iconic-view",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/renovation-opportunity-high-number-iconic-view",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__renovation-opportunity-high-number-iconic-view.html",
+    "bytes": 314701,
+    "sha256": "b9f4edc65019243683c416a930584e5cf8725dc6c694778fe6f8b2d0a07d20c4",
+    "seconds": 3.188,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/sought-after-sea-sunset-views-branded-residences",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/sought-after-sea-sunset-views-branded-residences",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__sought-after-sea-sunset-views-branded-residences.html",
+    "bytes": 315945,
+    "sha256": "910d4b11b505bf13de39410942d5969b3f96509eb14afe11695ba10db6bca652",
+    "seconds": 3.148,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/spacious-layout-prime-amenities-modern-living",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/spacious-layout-prime-amenities-modern-living",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__spacious-layout-prime-amenities-modern-living.html",
+    "bytes": 316226,
+    "sha256": "46cdaef7039f5fe2e6e3d4827a9af2b8479216b8d9c125645ec6319ada74adcd",
+    "seconds": 3.092,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/sublime-sea-views-iconic-living",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/sublime-sea-views-iconic-living",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__sublime-sea-views-iconic-living.html",
+    "bytes": 316149,
+    "sha256": "fd98a335a5f437062369f5178a7748c7b1aed3530d95bbbb6f8d012923b5542a",
+    "seconds": 3.416,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/triple-storey-fully-renovated-prime-location",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/triple-storey-fully-renovated-prime-location",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__triple-storey-fully-renovated-prime-location.html",
+    "bytes": 317717,
+    "sha256": "2c75d6a9bddec3caf6fa5cbde23fcea60856478a813d185daa4026cb7a933d12",
+    "seconds": 3.432,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/turnkey-renovation-balearic-style-extended",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/turnkey-renovation-balearic-style-extended",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__turnkey-renovation-balearic-style-extended.html",
+    "bytes": 315431,
+    "sha256": "0a6e67f89df076e5a8c28f465171e91c5deb066d692d2b2b759e12374682f389",
+    "seconds": 3.418,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/unique-duplex-breath-taking-sea-view",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/unique-duplex-breath-taking-sea-view",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__unique-duplex-breath-taking-sea-view.html",
+    "bytes": 316116,
+    "sha256": "3b7760019e22ffe449eddee62123b3d4dae39374c085db235edbd121c5abfcd6",
+    "seconds": 3.419,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/upgraded-2br-marina-view-investor-deal",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/upgraded-2br-marina-view-investor-deal",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__upgraded-2br-marina-view-investor-deal.html",
+    "bytes": 317659,
+    "sha256": "a0e3802c81415e23726239d78babf9d0d6f093b37d261a95ed578b34df10cc6f",
+    "seconds": 3.096,
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.luxuryresidences.com/properties/upgraded-vacant-furnished-viewing-essential",
+    "resolvedUrl": "https://www.luxuryresidences.com/properties/upgraded-vacant-furnished-viewing-essential",
+    "status": 200,
+    "file": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/properties__upgraded-vacant-furnished-viewing-essential.html",
+    "bytes": 315031,
+    "sha256": "5a00b0afd0fd3055cbca7a5b69caed46ef0d2d055b0db6c4278e81e6520bdec0",
+    "seconds": 3.068,
+    "httpStatus": 200
+  }
+]

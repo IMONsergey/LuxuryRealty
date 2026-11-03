@@ -1,0 +1,2137 @@
+{
+  "checkedAt": "2026-11-03T09:19:08.815786+00:00",
+  "scope": "Source assignment, URL uniqueness, all 50 property-video provider metadata and seven direct-project video HEAD checks. Does not prove playback in every client or validate every frame.",
+  "realProjectPages": 7,
+  "distinctProjectDirectVideoUrls": 7,
+  "propertyVideoEntries": 54,
+  "uniquePropertyVideoUrls": 50,
+  "projectVideos": [
+    {
+      "project": "atlantis-the-royal",
+      "sourcePage": "https://www.luxuryresidences.com/projects/atlantis-the-royal",
+      "url": "https://dl.dropboxusercontent.com/scl/fi/tnor11arnpqrsk606yt0i/2024-01-03-09.01.58.mp4?rlkey=9p9f32bnpwcclynim1jw7p0sz&dl=0",
+      "kind": "video",
+      "filename": "2024-01-03-09.01.58.mp4",
+      "httpCheck": {
+        "requestUrl": "https://dl.dropboxusercontent.com/scl/fi/tnor11arnpqrsk606yt0i/2024-01-03-09.01.58.mp4?rlkey=9p9f32bnpwcclynim1jw7p0sz&dl=0",
+        "status": 200,
+        "resolvedUrl": "https://dl.dropboxusercontent.com/scl/fi/tnor11arnpqrsk606yt0i/2024-01-03-09.01.58.mp4?rlkey=9p9f32bnpwcclynim1jw7p0sz&dl=0",
+        "contentType": "application/json",
+        "contentLength": "5393243"
+      }
+    },
+    {
+      "project": "atlantis-the-royal",
+      "sourcePage": "https://www.luxuryresidences.com/projects/atlantis-the-royal",
+      "url": "https://www.youtube.com/embed/HuK1et5s1SM?si=StCYS1pkkow7dZbl?autoplay=1",
+      "kind": "lightbox",
+      "filename": "HuK1et5s1SM",
+      "httpCheck": {
+        "requestUrl": "https://www.youtube.com/oembed?format=json&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DHuK1et5s1SM",
+        "status": 200,
+        "resolvedUrl": "https://www.youtube.com/oembed?format=json&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DHuK1et5s1SM",
+        "contentType": "application/json",
+        "contentLength": null,
+        "metadata": {
+          "title": "Atlantis The Royal, Dubai",
+          "author_name": "Luxury Residences",
+          "author_url": "https://www.youtube.com/@LuxuryResidences_",
+          "type": "video",
+          "height": 113,
+          "width": 200,
+          "version": "1.0",
+          "provider_name": "YouTube",
+          "provider_url": "https://www.youtube.com/",
+          "thumbnail_height": 360,
+          "thumbnail_width": 480,
+          "thumbnail_url": "https://i.ytimg.com/vi/HuK1et5s1SM/hqdefault.jpg"
+        }
+      }
+    },
+    {
+      "project": "ava",
+      "sourcePage": "https://www.luxuryresidences.com/projects/ava",
+      "url": "https://dl.dropboxusercontent.com/scl/fi/fkh2fh4qa81gpp5vykl1u/ORLA-Dorchester-Collection-Dubai-19_3.mp4?rlkey=4cyt0odfwj76u9xfxi8osis7d&dl=0",
+      "kind": "video",
+      "filename": "ORLA-Dorchester-Collection-Dubai-19_3.mp4",
+      "associationIssue": "The AVA source page points to a file explicitly named ORLA. Identity requires visual verification; do not present as confirmed AVA footage.",
+      "httpCheck": {
+        "requestUrl": "https://dl.dropboxusercontent.com/scl/fi/fkh2fh4qa81gpp5vykl1u/ORLA-Dorchester-Collection-Dubai-19_3.mp4?rlkey=4cyt0odfwj76u9xfxi8osis7d&dl=0",
+        "status": 200,
+        "resolvedUrl": "https://dl.dropboxusercontent.com/scl/fi/fkh2fh4qa81gpp5vykl1u/ORLA-Dorchester-Collection-Dubai-19_3.mp4?rlkey=4cyt0odfwj76u9xfxi8osis7d&dl=0",
+        "contentType": "application/json",
+        "contentLength": "6772534"
+      }
+    },
+    {
+      "project": "orla",
+      "sourcePage": "https://www.luxuryresidences.com/projects/orla",
+      "url": "https://dl.dropboxusercontent.com/scl/fi/n0nqjpng8lhtlga2ykdb9/Frame-6-2.mp4?rlkey=wxvz6mdtyunjgacu1vezp1blm&dl=0",
+      "kind": "video",
+      "filename": "Frame-6-2.mp4",
+      "httpCheck": {
+        "requestUrl": "https://dl.dropboxusercontent.com/scl/fi/n0nqjpng8lhtlga2ykdb9/Frame-6-2.mp4?rlkey=wxvz6mdtyunjgacu1vezp1blm&dl=0",
+        "status": 200,
+        "resolvedUrl": "https://dl.dropboxusercontent.com/scl/fi/n0nqjpng8lhtlga2ykdb9/Frame-6-2.mp4?rlkey=wxvz6mdtyunjgacu1vezp1blm&dl=0",
+        "contentType": "application/json",
+        "contentLength": "6789783"
+      }
+    },
+    {
+      "project": "serenity-mansions-aurora",
+      "sourcePage": "https://www.luxuryresidences.com/projects/serenity-mansions-aurora",
+      "url": "https://dl.dropboxusercontent.com/scl/fi/ubetpvzqwwaq76gmeuj8x/Serenity-Mansions-Aurora-Distinctly-Brilliant.mp4?rlkey=djdsdt2qy0pk3qk81q5mv707i&st=gozdysss&dl=0",
+      "kind": "video",
+      "filename": "Serenity-Mansions-Aurora-Distinctly-Brilliant.mp4",
+      "httpCheck": {
+        "requestUrl": "https://dl.dropboxusercontent.com/scl/fi/ubetpvzqwwaq76gmeuj8x/Serenity-Mansions-Aurora-Distinctly-Brilliant.mp4?rlkey=djdsdt2qy0pk3qk81q5mv707i&st=gozdysss&dl=0",
+        "status": 200,
+        "resolvedUrl": "https://dl.dropboxusercontent.com/scl/fi/ubetpvzqwwaq76gmeuj8x/Serenity-Mansions-Aurora-Distinctly-Brilliant.mp4?rlkey=djdsdt2qy0pk3qk81q5mv707i&st=gozdysss&dl=0",
+        "contentType": "application/json",
+        "contentLength": "9546094"
+      }
+    },
+    {
+      "project": "serenity-mansions-aurora",
+      "sourcePage": "https://www.luxuryresidences.com/projects/serenity-mansions-aurora",
+      "url": "https://www.youtube.com/embed/3ggtB3bdDIQ?si=P3_tG-kqEi0p8rZU?autoplay=1",
+      "kind": "lightbox",
+      "filename": "3ggtB3bdDIQ",
+      "httpCheck": {
+        "requestUrl": "https://www.youtube.com/oembed?format=json&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D3ggtB3bdDIQ",
+        "status": 200,
+        "resolvedUrl": "https://www.youtube.com/oembed?format=json&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D3ggtB3bdDIQ",
+        "contentType": "application/json",
+        "contentLength": null,
+        "metadata": {
+          "title": "Serenity Mansions Aurora",
+          "author_name": "Luxury Residences",
+          "author_url": "https://www.youtube.com/@LuxuryResidences_",
+          "type": "video",
+          "height": 113,
+          "width": 200,
+          "version": "1.0",
+          "provider_name": "YouTube",
+          "provider_url": "https://www.youtube.com/",
+          "thumbnail_height": 360,
+          "thumbnail_width": 480,
+          "thumbnail_url": "https://i.ytimg.com/vi/3ggtB3bdDIQ/hqdefault.jpg"
+        }
+      }
+    },
+    {
+      "project": "serenity-mansions-waterfront-collection",
+      "sourcePage": "https://www.luxuryresidences.com/projects/serenity-mansions-waterfront-collection",
+      "url": "https://dl.dropboxusercontent.com/scl/fi/hzhm84kygqbxrjleyw6o0/Serenity-Mansions-Waterfront-Collection_.mp4?rlkey=mda9hchddljxbflzpnuc9effm&st=gzd66im3&dl=0",
+      "kind": "video",
+      "filename": "Serenity-Mansions-Waterfront-Collection_.mp4",
+      "httpCheck": {
+        "requestUrl": "https://dl.dropboxusercontent.com/scl/fi/hzhm84kygqbxrjleyw6o0/Serenity-Mansions-Waterfront-Collection_.mp4?rlkey=mda9hchddljxbflzpnuc9effm&st=gzd66im3&dl=0",
+        "status": 200,
+        "resolvedUrl": "https://dl.dropboxusercontent.com/scl/fi/hzhm84kygqbxrjleyw6o0/Serenity-Mansions-Waterfront-Collection_.mp4?rlkey=mda9hchddljxbflzpnuc9effm&st=gzd66im3&dl=0",
+        "contentType": "application/json",
+        "contentLength": "13500082"
+      }
+    },
+    {
+      "project": "serenity-mansions-waterfront-collection",
+      "sourcePage": "https://www.luxuryresidences.com/projects/serenity-mansions-waterfront-collection",
+      "url": "https://www.youtube.com/embed/JDN5g17B2m0?si=SQ-RMNcj157Oty-Y?autoplay=1",
+      "kind": "lightbox",
+      "filename": "JDN5g17B2m0",
+      "httpCheck": {
+        "requestUrl": "https://www.youtube.com/oembed?format=json&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DJDN5g17B2m0",
+        "status": 200,
+        "resolvedUrl": "https://www.youtube.com/oembed?format=json&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DJDN5g17B2m0",
+        "contentType": "application/json",
+        "contentLength": null,
+        "metadata": {
+          "title": "Serenity Mansions Waterfront Collection",
+          "author_name": "Luxury Residences",
+          "author_url": "https://www.youtube.com/@LuxuryResidences_",
+          "type": "video",
+          "height": 113,
+          "width": 200,
+          "version": "1.0",
+          "provider_name": "YouTube",
+          "provider_url": "https://www.youtube.com/",
+          "thumbnail_height": 360,
+          "thumbnail_width": 480,
+          "thumbnail_url": "https://i.ytimg.com/vi/JDN5g17B2m0/hqdefault.jpg"
+        }
+      }
+    },
+    {
+      "project": "six-senses",
+      "sourcePage": "https://www.luxuryresidences.com/projects/six-senses",
+      "url": "https://dl.dropboxusercontent.com/scl/fi/qrdg5rfmeu25piszjipbg/Six-Senses-Dubai-Marina-Video-v3.mp4?rlkey=oddwdmv83rhdt5krabw6313qg&e=1&st=bn3e2veo&dl=0",
+      "kind": "video",
+      "filename": "Six-Senses-Dubai-Marina-Video-v3.mp4",
+      "httpCheck": {
+        "requestUrl": "https://dl.dropboxusercontent.com/scl/fi/qrdg5rfmeu25piszjipbg/Six-Senses-Dubai-Marina-Video-v3.mp4?rlkey=oddwdmv83rhdt5krabw6313qg&e=1&st=bn3e2veo&dl=0",
+        "status": 200,
+        "resolvedUrl": "https://dl.dropboxusercontent.com/scl/fi/qrdg5rfmeu25piszjipbg/Six-Senses-Dubai-Marina-Video-v3.mp4?rlkey=oddwdmv83rhdt5krabw6313qg&e=1&st=bn3e2veo&dl=0",
+        "contentType": "application/json",
+        "contentLength": "16362038"
+      }
+    },
+    {
+      "project": "six-senses",
+      "sourcePage": "https://www.luxuryresidences.com/projects/six-senses",
+      "url": "https://www.youtube.com/embed/xmJHnthsgTs?si=UpMJ0sJfg1gopM8V?autoplay=1",
+      "kind": "lightbox",
+      "filename": "xmJHnthsgTs",
+      "httpCheck": {
+        "requestUrl": "https://www.youtube.com/oembed?format=json&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DxmJHnthsgTs",
+        "status": 200,
+        "resolvedUrl": "https://www.youtube.com/oembed?format=json&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DxmJHnthsgTs",
+        "contentType": "application/json",
+        "contentLength": null,
+        "metadata": {
+          "title": "Six Senses Residences Dubai Marina",
+          "author_name": "Luxury Residences",
+          "author_url": "https://www.youtube.com/@LuxuryResidences_",
+          "type": "video",
+          "height": 113,
+          "width": 200,
+          "version": "1.0",
+          "provider_name": "YouTube",
+          "provider_url": "https://www.youtube.com/",
+          "thumbnail_height": 360,
+          "thumbnail_width": 480,
+          "thumbnail_url": "https://i.ytimg.com/vi/xmJHnthsgTs/hqdefault.jpg"
+        }
+      }
+    },
+    {
+      "project": "vela",
+      "sourcePage": "https://www.luxuryresidences.com/projects/vela",
+      "url": "https://dl.dropboxusercontent.com/scl/fi/ox4b3byki1w2inj0pu92l/VELA-Product-Film-Horizontal.mp4?rlkey=2g8u8lc9iinkedjo2e7qvpzf4&dl=0",
+      "kind": "video",
+      "filename": "VELA-Product-Film-Horizontal.mp4",
+      "httpCheck": {
+        "requestUrl": "https://dl.dropboxusercontent.com/scl/fi/ox4b3byki1w2inj0pu92l/VELA-Product-Film-Horizontal.mp4?rlkey=2g8u8lc9iinkedjo2e7qvpzf4&dl=0",
+        "status": 200,
+        "resolvedUrl": "https://dl.dropboxusercontent.com/scl/fi/ox4b3byki1w2inj0pu92l/VELA-Product-Film-Horizontal.mp4?rlkey=2g8u8lc9iinkedjo2e7qvpzf4&dl=0",
+        "contentType": "application/json",
+        "contentLength": "10022733"
+      }
+    }
+  ],
+  "propertyVideos": [
+    {
+      "url": "https://vimeo.com/1241285707?fl=pl&fe=sh",
+      "type": "video",
+      "listings": [
+        {
+          "id": "1-of-1-palm-view-renovation-incredible-must-see",
+          "title": "1-of-1 Palm View Renovation | Incredible Must-See!",
+          "purpose": "buy",
+          "sourceUrl": "https://www.luxuryresidences.com/properties/1-of-1-palm-view-renovation-incredible-must-see"
+        }
+      ],
+      "httpCheck": {
+        "requestUrl": "https://vimeo.com/api/oembed.json?url=https%3A%2F%2Fvimeo.com%2F1241285707",
+        "status": 200,
+        "contentType": "application/json",
+        "metadata": {
+          "type": "video",
+          "version": "1.0",
+          "provider_name": "Vimeo",
+          "provider_url": "https://vimeo.com/",
+          "title": "1-of-1 Palm View Renovation | Incredible Must-See!",
+          "author_name": "Luxury Residences",
+          "author_url": "https://vimeo.com/user193263069",
+          "is_plus": "0",
+          "account_type": "advanced",
+          "width": 426,
+          "height": 240,
+          "duration": 62,
+          "description": "Luxury Residences — the #1 sales and leasing agency at Atlantis The Royal, and former developer sales team — unveils a one-of-one, fully renovated two-bedroom residence with uninterrupted Palm and Skyline views, set within this global icon on the Palm Jumeirah, Dubai.\n\nFinished to an exacting, best-in-class standard with no expense spared, this bespoke trophy home spans a generous 2,056 sqft (191 sqm) and commands uninterrupted views across the Palm, the Dubai skyline, the resort's swimming pools, and its landscaped gardens.\n\nFurnished and finished well beyond developer standard, the residence is ready for immediate occupation — simply bring your suitcase.\n\nExclusive Amenities\n\nPrivate beachfront, indoor and outdoor pools\nAir-conditioned cabanas, outdoor kitchen and BBQ\nTennis court, children's play area, and private gardens\nResident lounge, library, Technogym fitness suite, spa, sauna, and steam room\nRound-the-clock white-glove service, dedicated concierge, and valet\n\nMichelin-Starred Dining, On Your Doorstep\n\nResidents enjoy a preferential 30% dining discount across the resort, moments from a world-class culinary line-up including:\n\nDinner by Heston Blumenthal\nJaleo by José Andrés\nAriana's Persian Kitchen\nLa Mar by Gastón Acurio\nEstiatorio Milos\nNobu by the Beach\nLing Ling — and the resort's spectacular newest arrival, Carbone, fresh in from New York\n\nWords cannot do this masterpiece justice — a viewing is essential to appreciate its quality and value. This is a rare opportunity to secure a lifestyle fit for the one percent of the one percent.\n\nContact Luxury Residences today to arrange your discreet private viewing!",
+          "thumbnail_url": "https://i.vimeocdn.com/video/2219260345-9d5cf27f9fadebe1aa4d0a01117cb3a6ca84140a5d326c06a9e77c658f7d7650-d_295x166?region=us",
+          "thumbnail_width": 295,
+          "thumbnail_height": 166,
+          "thumbnail_url_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F2219260345-9d5cf27f9fadebe1aa4d0a01117cb3a6ca84140a5d326c06a9e77c658f7d7650-d_295x166%3Fregion%3Dus&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+          "upload_date": "2026-10-30 09:07:03",
+          "video_id": 1241285707,
+          "uri": "/videos/1241285707"
+        }
+      }
+    },
+    {
+      "url": "https://vimeo.com/1169922837?fl=tl&fe=ec",
+      "type": "video",
+      "listings": [
+        {
+          "id": "a-refined-minimalist-sanctuary-with-serene-views",
+          "title": "A refined minimalist sanctuary with serene views",
+          "purpose": "buy",
+          "sourceUrl": "https://www.luxuryresidences.com/properties/a-refined-minimalist-sanctuary-with-serene-views"
+        }
+      ],
+      "httpCheck": {
+        "requestUrl": "https://vimeo.com/api/oembed.json?url=https%3A%2F%2Fvimeo.com%2F1169922837",
+        "status": 200,
+        "contentType": "application/json",
+        "metadata": {
+          "type": "video",
+          "version": "1.0",
+          "provider_name": "Vimeo",
+          "provider_url": "https://vimeo.com/",
+          "title": "A REFINED MINIMALIST SANCTUARY WITH SERENE VIEWS",
+          "author_name": "Luxury Residences",
+          "author_url": "https://vimeo.com/user193263069",
+          "is_plus": "0",
+          "account_type": "advanced",
+          "width": 426,
+          "height": 240,
+          "duration": 76,
+          "description": "Experience ultra-luxury with this elevated, 4-bedroom Signature Residence at the globally iconic Atlantis, The Royal Residences located on the Palm Jumeirah, Dubai. Completed in the rarest Rose Gold palette, this exquisite family home is perfectly tailored for the sophisticated resident. \n\nOffered fully furnished, the property features high-end branded appliances and furniture. Impeccably presented in an internationally desired minimalist theme, the home is flooded with natural light and boasts awe-inspiring views of the open sea, Palm Jumeirah, and the Dubai skyline. Subtle design and functional enhancements ensure it must be seen to be truly appreciated.\n\nTo reside at Atlantis, The Royal is to live at one of the world's most coveted addresses, where service, discretion, and style weave seamlessly. Residents enjoy private parking and incredible exclusive amenities:\n\n- Services: 24/7 valet & concierge\n- Wellness: Private indoor/outdoor pools, sauna, steam room, treatment room & Zen garden\n- Leisure: Residents' tennis court, private beachfront & cabanas\n- Social: Business/function rooms, lounge & library\n- Owners receive the elite Black Tier 30% discount level across resort amenities, spa treatments, and world-class dining. \n\nIndulge in Michelin-starred and celebrity chef restaurants at your doorstep including:\n\n- Dinner by Heston Blumenthal\n- Milos\n- La Mar by Gastón Acurio\n- Jaleo by José Andrés\n- Ariana's Persian Kitchen\n- Ling Ling\n- Nobu \n- Carbone\n\nThis is branded residence brilliance—a rare home in an extraordinary destination. We invite expressions of interest and private viewings are available upon request strictly by appointment!",
+          "thumbnail_url": "https://i.vimeocdn.com/video/2128856620-3cf149230015e26497779e3b23d3862c357b9f5fc332407d524bbe7d6d0eec99-d_295x166?region=us",
+          "thumbnail_width": 295,
+          "thumbnail_height": 166,
+          "thumbnail_url_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F2128856620-3cf149230015e26497779e3b23d3862c357b9f5fc332407d524bbe7d6d0eec99-d_295x166%3Fregion%3Dus&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+          "upload_date": "2026-03-03 09:09:44",
+          "video_id": 1169922837,
+          "uri": "/videos/1169922837"
+        }
+      }
+    },
+    {
+      "url": "https://vimeo.com/1240238183?fl=pl&fe=sh",
+      "type": "video",
+      "listings": [
+        {
+          "id": "best-price-upgraded-furnished-skyline-views",
+          "title": "Best Price | Upgraded | Furnished | Skyline Views",
+          "purpose": "buy",
+          "sourceUrl": "https://www.luxuryresidences.com/properties/best-price-upgraded-furnished-skyline-views"
+        }
+      ],
+      "httpCheck": {
+        "requestUrl": "https://vimeo.com/api/oembed.json?url=https%3A%2F%2Fvimeo.com%2F1240238183",
+        "status": 200,
+        "contentType": "application/json",
+        "metadata": {
+          "type": "video",
+          "version": "1.0",
+          "provider_name": "Vimeo",
+          "provider_url": "https://vimeo.com/",
+          "title": "Best Price | Upgraded | Furnished | Skyline Views",
+          "author_name": "Luxury Residences",
+          "author_url": "https://vimeo.com/user193263069",
+          "is_plus": "0",
+          "account_type": "advanced",
+          "width": 426,
+          "height": 240,
+          "duration": 71,
+          "description": "Luxury Residences — the home of mansions, penthouses, and branded residences — presents an exquisite opportunity to acquire a fabulous two-bedroom private residence with Palm and Dubai skyline views at Atlantis The Royal Residences, finished to exacting international standards throughout.\n\nAs the number one sales and rental agency and former developer sales team for Atlantis The Royal, we are uniquely placed to offer this exceptional home.\n\nLocated on Crescent Road, Palm Jumeirah, this landmark spans two wings. The hotel is home to celebrity chef and Michelin-starred restaurants — including Dinner by Heston Blumenthal, Estiatorio Milos, La Mar by Gastón Acurio, Ariana's Persian Kitchen, Carbone and Nobu by the Beach — alongside a world-class spa and wellness centre, boutiques such as Louis Vuitton, a resort beachfront, the dancing fire-and-water fountain, and one of Dubai's highest infinity pools, with spectacular skyline and open sea views.\n\nThe residences offer exclusivity and privacy, with facilities including:\n\nPrivate access drive, 24/7 concierge and valet\nResidents' lounge, library and business rooms\nTwo outdoor pools, cabanas, tennis and paddle courts\nLandscaped gardens, private beach and 20m lap pool\nTechnogym fitness suite, sauna, steam rooms, spa and Zen garden\n\nResidents also enjoy à la carte services from Atlantis The Royal, including housekeeping, laundry and in-home dining, plus Black Tier membership privileges such as a 30% discount across the resort.\n\nThis impressive home measures 2,297 sq ft (213 sqm) and is available for immediate occupation. Brand new and never occupied, it comes fully fitted and furnished by the acclaimed London design house Rigby & Rigby, winners of multiple international design awards.\n\nIt suits a resident who values privacy, exclusivity and a sophisticated lifestyle — with outstanding hospitality next door whenever you desire. \n\nLuxury Residences invites expressions of interest — contact us for details and private viewings.",
+          "thumbnail_url": "https://i.vimeocdn.com/video/2217994663-cc5a6ff2a7d57f797784eb77df43c83fd0e118b2cdb8ac61d31a71c38c41ac8e-d_295x166?region=us",
+          "thumbnail_width": 295,
+          "thumbnail_height": 166,
+          "thumbnail_url_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F2217994663-cc5a6ff2a7d57f797784eb77df43c83fd0e118b2cdb8ac61d31a71c38c41ac8e-d_295x166%3Fregion%3Dus&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+          "upload_date": "2026-10-28 09:26:20",
+          "video_id": 1240238183,
+          "uri": "/videos/1240238183"
+        }
+      }
+    },
+    {
+      "url": "https://vimeo.com/1056724852?share=copy#t=0",
+      "type": "video",
+      "listings": [
+        {
+          "id": "best-priced-palm-view-2br-furnished-view-today",
+          "title": "Upgraded Turnkey | Palm Views | Best Price",
+          "purpose": "buy",
+          "sourceUrl": "https://www.luxuryresidences.com/properties/best-priced-palm-view-2br-furnished-view-today"
+        }
+      ],
+      "httpCheck": {
+        "requestUrl": "https://vimeo.com/api/oembed.json?url=https%3A%2F%2Fvimeo.com%2F1056724852",
+        "status": 200,
+        "resolvedUrl": "https://vimeo.com/api/oembed.json?url=https%3A%2F%2Fvimeo.com%2F1056724852",
+        "contentType": "application/json",
+        "contentLength": "3166",
+        "metadata": {
+          "type": "video",
+          "version": "1.0",
+          "provider_name": "Vimeo",
+          "provider_url": "https://vimeo.com/",
+          "title": "Best Price Palm View 2BR | Furnished  | Upgraded",
+          "author_name": "Luxury Residences",
+          "author_url": "https://vimeo.com/user193263069",
+          "is_plus": "0",
+          "account_type": "advanced",
+          "width": 426,
+          "height": 240,
+          "duration": 86,
+          "description": "Luxury Residences are delighted to bring to market this exquisitely presented fully furnished and upgraded 2 bedroom residence within the globally revered Atlantis, The Royal Residences. \n\nLocated upon the world-famous Palm Jumeirah, this amazing private home within the latest icon of Dubai, is a true credit to the current Owner. \n\nSold upgraded and fully furnished to an exceptional standard including certified artwork from leading local artists, and designed and finished with the finest materials and appliances throughout including a fantastic Bang & Olufsen television system this truly is a rare opportunity for a discerning purchaser to residence within this ultra exclusive destination. \n\nAdditional highlights include Italian marble floors and bathroom fittings, top marque German kitchens with Gaggenau appliances, opulent 3m+ high ceilings, and fabulously designed indoor-outdoor living spaces that complement the incredible Palm, Beach, Pool and Dubai Skyline views the fortunate residents will enjoy.\n\nFurther benefiting from best-in-class amenities such as multiple celebrity chef Michelin starred restaurants, private resort beachfront, infinity sky pool, and resort fire and water dancing fountains.\n\nResidents also enjoy private indoor and outdoor pools, gym, SPA, sauna & steam rooms, function rooms, lounge and library, plus concierge and valet on demand.\n\n• 24/7 concierge and valet service\n• À la carte menu including but not limited to; housekeeping, laundry, nanny service, in-room food, and beverage\n• Gymnasium\n• SPA with sauna & steam rooms\n• Private beach\n• Tennis court\n• Indoor and outdoor swimming pools\n• Children’s soft play area\n• 2 parking spaces\n• Sold Fully Furnished and Upgraded\n• 30% discount within Atlantis, The Royal \n\nPlease contact us today to arrange a viewing",
+          "thumbnail_url": "https://i.vimeocdn.com/video/1982529203-03c80f2039aef87eb48623bf6038f7983ade55d573176ed642de5e445444014d-d_295x166?region=us",
+          "thumbnail_width": 295,
+          "thumbnail_height": 166,
+          "thumbnail_url_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1982529203-03c80f2039aef87eb48623bf6038f7983ade55d573176ed642de5e445444014d-d_295x166%3Fregion%3Dus&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+          "upload_date": "2025-02-14 05:35:17",
+          "video_id": 1056724852,
+          "uri": "/videos/1056724852"
+        }
+      }
+    },
+    {
+      "url": "https://vimeo.com/1103440583?share=copy#t=52.632",
+      "type": "video",
+      "listings": [
+        {
+          "id": "best-value-huge-terrace-amazing-potential",
+          "title": "Lowest Price 3BR | XL Terrace | Vacant",
+          "purpose": "buy",
+          "sourceUrl": "https://www.luxuryresidences.com/properties/best-value-huge-terrace-amazing-potential"
+        }
+      ],
+      "httpCheck": {
+        "requestUrl": "https://vimeo.com/api/oembed.json?url=https%3A%2F%2Fvimeo.com%2F1103440583",
+        "status": 200,
+        "contentType": "application/json",
+        "metadata": {
+          "type": "video",
+          "version": "1.0",
+          "provider_name": "Vimeo",
+          "provider_url": "https://vimeo.com/",
+          "title": "**Best Price 3BR Available with Extended Terrace**",
+          "author_name": "Luxury Residences",
+          "author_url": "https://vimeo.com/user193263069",
+          "is_plus": "0",
+          "account_type": "advanced",
+          "width": 426,
+          "height": 240,
+          "duration": 90,
+          "description": "Experience An Unparalleled Luxury Lifestyle: Atlantis, The Royal Residences\n\nDiscover the epitome of opulence in Dubai's most iconic address. This stunning 3-bedroom plus maid's private residence in Atlantis, The Royal Residences on the Palm Jumeirah offers an unrivalled luxury lifestyle with breath-taking Sea, Palm, and skyline views.\n\nExquisite Living Space;\n\nIndulge in generous living areas spanning 3,671 square feet (341 square meters), featuring:\n- Dual views and a expansive terrace overlooking the private gardens and Arabian Gulf sea.\n- Generous bedroom sizes and a very spacious living room.\n- Luxurious Italian marble within the lounge, kitchen and bathrooms.\n- State-of-the-art German kitchens equipped with premium Gaggenau appliances.\n- Elegant and high quality Italian bathroom fittings.\n- Soaring 3m+ high ceilings creating an atmosphere of grandeur.\n- Seamless indoor-outdoor living with fully retractable window systems.\n- Highly functional back of house area perfect for house staff or storage.\n\nWorld-Class Amenities;\n\nAs a resident, enjoy exclusive access to:\n- Multiple Michelin-starred restaurants\n- Luxurious spa and wellness facilities\n- State-of-the-art business center\n- Valet parking and concierge services\n- Tennis court\n- Business meeting rooms\n- Elegant lounge and library\n- Indoor and outdoor swimming pools\n- Wellness treatment rooms, sauna, and steam facilities\n- 30% discount as a Black Member\n\nKey Selling Points;\n- Global icon of architecture and Dubai's latest landmark.\n- Private and peaceful location within the community with a large terrace overlooking the open sea.\n- Part of a 5-star ultra-luxury resort.\n- Exclusive resident privileges and discounts.\n- Prime location on the world famous Palm Jumeirah.\n\nContact us to schedule your private viewing!",
+          "thumbnail_url": "https://i.vimeocdn.com/video/2039458624-9f4317b687a8d34d35537fd2c5083d74337e0d4ddb93869f7987a942abb9c16c-d_295x166?region=us",
+          "thumbnail_width": 295,
+          "thumbnail_height": 166,
+          "thumbnail_url_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F2039458624-9f4317b687a8d34d35537fd2c5083d74337e0d4ddb93869f7987a942abb9c16c-d_295x166%3Fregion%3Dus&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+          "upload_date": "2025-07-22 07:59:19",
+          "video_id": 1103440583,
+          "uri": "/videos/1103440583"
+        }
+      }
+    },
+    {
+      "url": "https://vimeo.com/1103476442?share=copy#t=7.212",
+      "type": "video",
+      "listings": [
+        {
+          "id": "brand-new-high-floor-full-palm-jumeirah-view",
+          "title": "Brand New | High Floor | Full Palm Jumeirah View",
+          "purpose": "buy",
+          "sourceUrl": "https://www.luxuryresidences.com/properties/brand-new-high-floor-full-palm-jumeirah-view"
+        }
+      ],
+      "httpCheck": {
+        "requestUrl": "https://vimeo.com/api/oembed.json?url=https%3A%2F%2Fvimeo.com%2F1103476442",
+        "status": 200,
+        "contentType": "application/json",
+        "metadata": {
+          "type": "video",
+          "version": "1.0",
+          "provider_name": "Vimeo",
+          "provider_url": "https://vimeo.com/",
+          "title": "Brand New | High Floor | Full Palm Jumeirah View",
+          "author_name": "Luxury Residences",
+          "author_url": "https://vimeo.com/user193263069",
+          "is_plus": "0",
+          "account_type": "advanced",
+          "width": 426,
+          "height": 240,
+          "duration": 61,
+          "description": "Luxury Residences is proud to present this extraordinary four-bedroom, plus maids apartment, located within the exclusive Grand Bleu Towers by Elie Saab, at the prestigious Emaar Beachfront.\n‍\nThis remarkable residence seamlessly combines sophisticated design with luxurious living. Crafted with an unwavering commitment to excellence, the apartment reflects a perfect balance of functionality and style. Each detail has been carefully curated with the finest finishes, while the four bedrooms offer stunning views of some of Dubai’s most iconic landmarks.\n‍\nUpon entering, you are welcomed into an expansive open-plan living and dining area, enhanced by striking floor-to-ceiling windows that bathe the space with natural light combined by a vast 2-meter wide balcony which wraps around the apartment, offering an unparalleled outdoor living experience, ideal for both relaxation and entertaining.\n‍\nProperty Features:\n‍\nSpacious Layout:\nThe apartment boasts a modern design with floor-to-ceiling windows and a private balcony, allowing natural light to flood the interiors while showcasing uninterrupted views of Dubai’s iconic skyline and waterfront.\n‍\nPrime Location:\nSituated in Emaar Beachfront, a premium coastal community in Dubai Harbour, residents enjoy exclusive access to a pristine 1.5 km private beach.\n‍\nWorld-Class Amenities:\nIncludes an infinity pool, fully-equipped gym, tropical garden rooms, chic pool deck, and a dedicated children’s play area for families.\n‍\nDesigner Interiors:\nThe apartment features exclusive interior styling by Elie Saab, blending Art Deco-inspired glamour with contemporary aesthetics.\n‍\nConvenience & Connectivity:\nClose proximity to Sheikh Zayed Road ensures easy access to Dubai Marina Mall, fine dining establishments, yacht clubs, and nearby attractions like JBR and Palm Jumeirah.\n‍\nThis brand-new property offers a unique opportunity to live in one of Dubai’s most sought-after residential towers. Perfect for families or individuals seeking luxury beachfront living combined with urban convenience.\n‍\nPlease get in touch for a private viewing!",
+          "thumbnail_url": "https://i.vimeocdn.com/video/2039500600-b2822777cca25b4fc57ed931865bf2713ad8ec5c050f21b4e56c17e6848b93b3-d_295x166?region=us",
+          "thumbnail_width": 295,
+          "thumbnail_height": 166,
+          "thumbnail_url_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F2039500600-b2822777cca25b4fc57ed931865bf2713ad8ec5c050f21b4e56c17e6848b93b3-d_295x166%3Fregion%3Dus&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+          "upload_date": "2025-07-22 10:01:57",
+          "video_id": 1103476442,
+          "uri": "/videos/1103476442"
+        }
+      }
+    },
+    {
+      "url": "https://vimeo.com/1103747482?share=copy#t=15.647",
+      "type": "video",
+      "listings": [
+        {
+          "id": "brand-new-high-floor-palm-and-skyline-view",
+          "title": "Brand New | High Floor | Palm and Skyline View",
+          "purpose": "buy",
+          "sourceUrl": "https://www.luxuryresidences.com/properties/brand-new-high-floor-palm-and-skyline-view"
+        }
+      ],
+      "httpCheck": {
+        "requestUrl": "https://vimeo.com/api/oembed.json?url=https%3A%2F%2Fvimeo.com%2F1103747482",
+        "status": 200,
+        "contentType": "application/json",
+        "metadata": {
+          "type": "video",
+          "version": "1.0",
+          "provider_name": "Vimeo",
+          "provider_url": "https://vimeo.com/",
+          "title": "Brand New | High Floor | Palm and Skyline View",
+          "author_name": "Luxury Residences",
+          "author_url": "https://vimeo.com/user193263069",
+          "is_plus": "0",
+          "account_type": "advanced",
+          "width": 426,
+          "height": 240,
+          "duration": 78,
+          "description": "Penthouse perfection at The W Residences, Palm Jumeirah\n‍\nIt’s a true privilege to present this exclusive, brand new four-bedroom apartment within the acclaimed W Residences on The Palm Jumeirah. Elevated above the golden shores of the Western Crescent. Offering serene palm, skyline and beach views.\n‍\nProperty Features:\n* 4 bedrooms\n* 5.5 bathrooms\n* Maid's room\n* Two kitchens\n* Media room\n* Unfurnished\n* Total area 6,809 sqft\n* Vacant\n* Brand New\n* High floor\n* Palm, beach and skyline views\n‍\nResidents enjoy a life-enhancing, hotel-inspired lifestyle with 24/7 service from both the neighbouring W Dubai – The Palm and an on-site residential team. Indulge in a host of private amenities and full access to the hotel’s world-class offerings—from fine dining to wellness and leisure experiences.\n‍\nWith only 104 residences across eight grand mansions, this ultra-exclusive enclave is crafted for the discerning few. Every detail—from bespoke interiors to resort-style services—reflects a standard of living that is truly without equal.\n‍\nWelcome to your private sanctuary. Where iconic design meets unrivaled luxury. Get in touch for more information or a private viewing.\n‍",
+          "thumbnail_url": "https://i.vimeocdn.com/video/2039842970-b9a1680c462de1cc4b0ae5f155c3cdf56e710e573dc04222c3d4d266b5da1810-d_295x166?region=us",
+          "thumbnail_width": 295,
+          "thumbnail_height": 166,
+          "thumbnail_url_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F2039842970-b9a1680c462de1cc4b0ae5f155c3cdf56e710e573dc04222c3d4d266b5da1810-d_295x166%3Fregion%3Dus&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+          "upload_date": "2025-07-23 06:51:02",
+          "video_id": 1103747482,
+          "uri": "/videos/1103747482"
+        }
+      }
+    },
+    {
+      "url": "https://vimeo.com/1115129283?fl=pl&fe=sh",
+      "type": "video",
+      "listings": [
+        {
+          "id": "brand-new-high-floor-sea-and-sunset-views",
+          "title": "Brand New | High Floor | Sea and Sunset Views",
+          "purpose": "buy",
+          "sourceUrl": "https://www.luxuryresidences.com/properties/brand-new-high-floor-sea-and-sunset-views"
+        }
+      ],
+      "httpCheck": {
+        "requestUrl": "https://vimeo.com/api/oembed.json?url=https%3A%2F%2Fvimeo.com%2F1115129283",
+        "status": 200,
+        "contentType": "application/json",
+        "metadata": {
+          "type": "video",
+          "version": "1.0",
+          "provider_name": "Vimeo",
+          "provider_url": "https://vimeo.com/",
+          "title": "Brand New | High Floor | Sea And Sunset Views",
+          "author_name": "Luxury Residences",
+          "author_url": "https://vimeo.com/user193263069",
+          "is_plus": "0",
+          "account_type": "advanced",
+          "width": 426,
+          "height": 240,
+          "duration": 101,
+          "description": "Penthouse perfection at The W Residences, Palm Jumeirah\n\nIt’s a true privilege to present this exclusive, brand new five-bedroom apartment within the acclaimed W Residences on The Palm Jumeirah. Elevated above the golden shores of the Western Crescent. Offering serene sea & sunset views.\n\nProperty Details:\n- 5 bedrooms\n- 6.5 bathrooms\n- Maid’s room\n- Two kitchens\n- Media room\n- Unfurnished\n- Total area 7,333 sqft\n- Vacant\n- Brand New\n- Breathtaking sea and sunset views\n\nResidents enjoy a life-enhancing, hotel-inspired lifestyle with 24/7 service from both the neighboring W Dubai – The Palm and an on-site residential team. Indulge in a host of private amenities and full access to the hotel’s world-class offerings—from fine dining to wellness and leisure experiences.\n\nWith only 104 residences across eight grand mansions, this ultra-exclusive enclave is crafted for the discerning few. Every detail—from bespoke interiors to resort-style services—reflects a standard of living that is truly without equal.\n\nWelcome to your private sanctuary. Where iconic design meets unrivaled luxury. Get in touch for more information or a private viewing.",
+          "thumbnail_url": "https://i.vimeocdn.com/video/2054373408-5c1b3e3c658cdf5db8684dc13e6a2ac50afc3de4e905e2ad52835d2d89383cab-d_295x166?region=us",
+          "thumbnail_width": 295,
+          "thumbnail_height": 166,
+          "thumbnail_url_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F2054373408-5c1b3e3c658cdf5db8684dc13e6a2ac50afc3de4e905e2ad52835d2d89383cab-d_295x166%3Fregion%3Dus&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+          "upload_date": "2025-09-02 07:13:54",
+          "video_id": 1115129283,
+          "uri": "/videos/1115129283"
+        }
+      }
+    },
+    {
+      "url": "https://vimeo.com/1112227981?fl=pl&fe=sh",
+      "type": "video",
+      "listings": [
+        {
+          "id": "brand-new-palm-and-garden-view-vacant",
+          "title": "Brand New | Palm and Garden View | Vacant",
+          "purpose": "buy",
+          "sourceUrl": "https://www.luxuryresidences.com/properties/brand-new-palm-and-garden-view-vacant"
+        }
+      ],
+      "httpCheck": {
+        "requestUrl": "https://vimeo.com/api/oembed.json?url=https%3A%2F%2Fvimeo.com%2F1112227981",
+        "status": 200,
+        "contentType": "application/json",
+        "metadata": {
+          "type": "video",
+          "version": "1.0",
+          "provider_name": "Vimeo",
+          "provider_url": "https://vimeo.com/",
+          "title": "Brand New | Palm and Garden View | Vacant",
+          "author_name": "Luxury Residences",
+          "author_url": "https://vimeo.com/user193263069",
+          "is_plus": "0",
+          "account_type": "advanced",
+          "width": 426,
+          "height": 240,
+          "duration": 61,
+          "description": "Penthouse perfection at The W Residences, Palm Jumeirah\n\nIt’s a true privilege to present this exclusive, brand new four-bedroom apartment within the acclaimed W Residences on The Palm Jumeirah. Elevated above the golden shores of the Western Crescent. Offering serene palm and garden views.\n\nProperty Details:\n\n* 4 bedrooms\n* 5.5 bathrooms\n* Maids room\n* Two kitchens\n* Media room\n* Unfurnished\n* Total area 7,617 sqft\n* Vacant\n* Brand New\n* Lower floor level\n* Palm and garden views\n\nResidents enjoy a life-enhancing, hotel-inspired lifestyle with 24/7 service from both the neighbouring W Dubai – The Palm and an on-site residential team. Indulge in a host of private amenities and full access to the hotel’s world-class offerings—from fine dining to wellness and leisure experiences.\n\nWith only 104 residences across eight grand mansions, this ultra-exclusive enclave is crafted for the discerning few. Every detail—from bespoke interiors to resort-style services—reflects a standard of living that is truly without equal.\n\nWelcome to your private sanctuary. Where iconic design meets unrivaled luxury. Get in touch for more information or a private viewing.",
+          "thumbnail_url": "https://i.vimeocdn.com/video/2050409343-833a4c30a1cbc90b371129ef62efacf0b9ce0f7cd477d098985af2ad149e9ac1-d_295x166?region=us",
+          "thumbnail_width": 295,
+          "thumbnail_height": 166,
+          "thumbnail_url_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F2050409343-833a4c30a1cbc90b371129ef62efacf0b9ce0f7cd477d098985af2ad149e9ac1-d_295x166%3Fregion%3Dus&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+          "upload_date": "2025-08-22 04:47:45",
+          "video_id": 1112227981,
+          "uri": "/videos/1112227981"
+        }
+      }
+    },
+    {
+      "url": "https://vimeo.com/1133857768?fl=pl&fe=sh",
+      "type": "video",
+      "listings": [
+        {
+          "id": "brand-new-private-garden-private-pool",
+          "title": "Brand New | Private Garden | Private Pool",
+          "purpose": "buy",
+          "sourceUrl": "https://www.luxuryresidences.com/properties/brand-new-private-garden-private-pool"
+        }
+      ],
+      "httpCheck": {
+        "requestUrl": "https://vimeo.com/api/oembed.json?url=https%3A%2F%2Fvimeo.com%2F1133857768",
+        "status": 200,
+        "contentType": "application/json",
+        "metadata": {
+          "type": "video",
+          "version": "1.0",
+          "provider_name": "Vimeo",
+          "provider_url": "https://vimeo.com/",
+          "title": "Brand New | Private Garden | Private Pool",
+          "author_name": "Luxury Residences",
+          "author_url": "https://vimeo.com/user193263069",
+          "is_plus": "0",
+          "account_type": "advanced",
+          "width": 426,
+          "height": 240,
+          "duration": 62,
+          "description": "Penthouse Perfection at The W Residences, Palm Jumeirah\n\nIt's a true privilege to present this exclusive three-bedroom garden apartment within the acclaimed W Residences on The Palm Jumeirah. Elevated above the golden shores of the Western Crescent, offering views of the sea and sunset.\n\n- 4 bedrooms\n- 6 bathrooms\n- Staff quarters\n- Private garden\n- Private pool\n- Unfurnished\n- Brand new\n- Vacant\n- Total area 14,329 sqft\n- Sea facing\n\nResidents enjoy a life-enhancing, hotel-inspired lifestyle with 24/7 service from both the neighbouring W Dubai - The Palm and an on-site residential team. Indulge in a host of private amenities and full access to the hotel's world-class offerings-from fine dining to wellness and leisure experiences.\n\nWith only 104 residences across eight grand mansions, this ultra-exclusive enclave is crafted for the discerning few. Every detail from bespoke interiors to resort-style services reflects a standard of living that is truly without equal.\n\nWelcome to your private sanctuary. Where iconic design meets unrivalled luxury. Get in touch for more information or a private viewing.",
+          "thumbnail_url": "https://i.vimeocdn.com/video/2078598403-5d0e0659198609915a6b7a7f09910c370928d7e8c5a898799cec3e8c2815a23a-d_295x166?region=us",
+          "thumbnail_width": 295,
+          "thumbnail_height": 166,
+          "thumbnail_url_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F2078598403-5d0e0659198609915a6b7a7f09910c370928d7e8c5a898799cec3e8c2815a23a-d_295x166%3Fregion%3Dus&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+          "upload_date": "2025-11-05 09:59:40",
+          "video_id": 1133857768,
+          "uri": "/videos/1133857768"
+        }
+      }
+    },
+    {
+      "url": "https://vimeo.com/1158783404?fl=pl&fe=sh",
+      "type": "video",
+      "listings": [
+        {
+          "id": "brand-new-sea-and-palm-view-corner-unit",
+          "title": "Brand new | Sea and Palm View | Corner Unit",
+          "purpose": "buy",
+          "sourceUrl": "https://www.luxuryresidences.com/properties/brand-new-sea-and-palm-view-corner-unit"
+        },
+        {
+          "id": "brand-new-sea-and-palm-view-corner-unit-2",
+          "title": "Brand New | Sea and Palm View | Corner Unit",
+          "purpose": "rent",
+          "sourceUrl": "https://www.luxuryresidences.com/properties/brand-new-sea-and-palm-view-corner-unit-2"
+        }
+      ],
+      "httpCheck": {
+        "requestUrl": "https://vimeo.com/api/oembed.json?url=https%3A%2F%2Fvimeo.com%2F1158783404",
+        "status": 200,
+        "contentType": "application/json",
+        "metadata": {
+          "type": "video",
+          "version": "1.0",
+          "provider_name": "Vimeo",
+          "provider_url": "https://vimeo.com/",
+          "title": "Brand new | Sea and Palm View Corner Unit",
+          "author_name": "Luxury Residences",
+          "author_url": "https://vimeo.com/user193263069",
+          "is_plus": "0",
+          "account_type": "advanced",
+          "width": 426,
+          "height": 240,
+          "duration": 96,
+          "description": "It's a true privilege to present this exclusive, brand new four-bedroom apartment within the acclaimed W Residences on The Palm Jumeirah. Elevated above the golden shores of the Western Crescent. Offering serene palm, beach, sea and garden views.\n\nProperty Details:\n* 4 bedrooms\n* 5.5 bathrooms\n* Maids room\n* Two kitchens\n* Media room\n* Unfurnished\n* Total area 7,578 sqft\n* Vacant\n* Brand New\n* Higher floor level\n* Dual palm, beach, sea, sunset and garden views\n\nResidents enjoy a life-enhancing, hotel-inspired lifestyle with 24/7 service from both the neighbouring W Dubai - The Palm and an on-site residential team. Indulge in a host of private amenities and full access to the hotel's world-class offerings-from fine dining to wellness and leisure experiences.\n\nWith only 104 residences across eight grand mansions, this ultra-exclusive enclave is crafted for the discerning few. Every detail— from bespoke interiors to resort-style services—reflects a standard of living that is truly without equal.\n\nWelcome to your private sanctuary. Where iconic design meets unrivaled luxury. Get in touch for more information or a private viewing.",
+          "thumbnail_url": "https://i.vimeocdn.com/video/2112933962-bb5ab6e19f144b96f58bd6dc2819729e7ba30da24bf915daa26f801d6dea91e2-d_295x166?region=us",
+          "thumbnail_width": 295,
+          "thumbnail_height": 166,
+          "thumbnail_url_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F2112933962-bb5ab6e19f144b96f58bd6dc2819729e7ba30da24bf915daa26f801d6dea91e2-d_295x166%3Fregion%3Dus&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+          "upload_date": "2026-01-27 07:47:37",
+          "video_id": 1158783404,
+          "uri": "/videos/1158783404"
+        }
+      }
+    },
+    {
+      "url": "https://vimeo.com/1105759994?fl=pl&fe=sh",
+      "type": "video",
+      "listings": [
+        {
+          "id": "brand-new-sea-and-sunset-views",
+          "title": "Brand New | Sea and Sunset Views",
+          "purpose": "buy",
+          "sourceUrl": "https://www.luxuryresidences.com/properties/brand-new-sea-and-sunset-views"
+        }
+      ],
+      "httpCheck": {
+        "requestUrl": "https://vimeo.com/api/oembed.json?url=https%3A%2F%2Fvimeo.com%2F1105759994",
+        "status": 200,
+        "contentType": "application/json",
+        "metadata": {
+          "type": "video",
+          "version": "1.0",
+          "provider_name": "Vimeo",
+          "provider_url": "https://vimeo.com/",
+          "title": "Brand New | Sea and Sunset Views",
+          "author_name": "Luxury Residences",
+          "author_url": "https://vimeo.com/user193263069",
+          "is_plus": "0",
+          "account_type": "advanced",
+          "width": 426,
+          "height": 240,
+          "duration": 69,
+          "description": "Penthouse perfection at The W Residences, Palm Jumeirah\n‍\nIt’s a true privilege to present this exclusive, brand-new three-bedroom apartment within the acclaimed W Residences on The Palm Jumeirah. Elevated above the golden shores of the Western Crescent. Offering serene sea & sunset views.\n‍\nProperty Features:\n- 3 bedrooms\n- 4.5 bathrooms\n- Maid's room\n- Two kitchens\n- Media room\n- Unfurnished\n- Total area 6,187 sqft\n- Vacant\n- Brand New\n- Sea and sunset views\n‍\nResidents enjoy a life-enhancing, hotel-inspired lifestyle with 24/7 service from both the neighbouring W Dubai – The Palm and an on-site residential team. Indulge in a host of private amenities and full access to the hotel’s world-class offerings—from fine dining to wellness and leisure experiences.\n‍\nWith only 104 residences across eight grand mansions, this ultra-exclusive enclave is crafted for the discerning few. Every detail—from bespoke interiors to resort-style services—reflects a standard of living that is truly without equal.\n‍\nWelcome to your private sanctuary. Where iconic design meets unrivaled luxury. Get in touch for more information or a private viewing.\n‍",
+          "thumbnail_url": "https://i.vimeocdn.com/video/2042359467-7bc3d85b3654703699bf1b52edb90056fbd95af0d48ee0d6f5b0a89663411b21-d_295x166?region=us",
+          "thumbnail_width": 295,
+          "thumbnail_height": 166,
+          "thumbnail_url_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F2042359467-7bc3d85b3654703699bf1b52edb90056fbd95af0d48ee0d6f5b0a89663411b21-d_295x166%3Fregion%3Dus&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+          "upload_date": "2025-07-30 07:53:56",
+          "video_id": 1105759994,
+          "uri": "/videos/1105759994"
+        }
+      }
+    },
+    {
+      "url": "https://vimeo.com/1219802401?fl=tl&fe=ec",
+      "type": "video",
+      "listings": [
+        {
+          "id": "brand-new-sea-dubai-eye-and-sunset-views",
+          "title": "Brand New | Sea, Dubai Eye, and Sunset Views",
+          "purpose": "buy",
+          "sourceUrl": "https://www.luxuryresidences.com/properties/brand-new-sea-dubai-eye-and-sunset-views"
+        }
+      ],
+      "httpCheck": {
+        "requestUrl": "https://vimeo.com/api/oembed.json?url=https%3A%2F%2Fvimeo.com%2F1219802401",
+        "status": 200,
+        "contentType": "application/json",
+        "metadata": {
+          "type": "video",
+          "version": "1.0",
+          "provider_name": "Vimeo",
+          "provider_url": "https://vimeo.com/",
+          "title": "Brand New | Sea, Dubai Eye, and Sunset Views",
+          "author_name": "Luxury Residences",
+          "author_url": "https://vimeo.com/user193263069",
+          "is_plus": "0",
+          "account_type": "advanced",
+          "width": 426,
+          "height": 240,
+          "duration": 57,
+          "description": "Six Senses Residences The Palm, Dubai\n\nAn exceptional branded beachfront residence set on the prestigious West Crescent of Palm Jumeirah, offering panoramic views across the Arabian Gulf, Palm Jumeirah and Dubai’s iconic skyline. Residents enjoy direct beach access alongside the world-renowned Six Senses lifestyle, wellness and hospitality experience.\n\nApartment Details\n- Two bedrooms\n- Two bathrooms\n- Fully equipped kitchen\n- Dedicated laundry room\n- Study\n- Premium Miele appliances\n- 2,019 sq. ft. total area\n- Sea, sunset and Dubai Eye views\n- Lower-floor residence\n\nThe development offers an outstanding collection of world-class amenities, including the Six Senses Spa, fully equipped fitness centre, swimming pools, tennis and padel courts, yoga decks, wellness facilities, restaurants and bars, as well as concierge and valet services.\n\nThis is a rare opportunity to experience private beachfront living within one of Dubai’s most exclusive residential destinations, combining exceptional wellness, privacy and the signature service of Six Senses.\n\nGet in touch for further information or to arrange a private viewing.",
+          "thumbnail_url": "https://i.vimeocdn.com/video/2192090309-6a3d17c727a9088b8c47ad978eac5748a4043cf77ec6e0de25b140abbf56244d-d_295x166?region=us",
+          "thumbnail_width": 295,
+          "thumbnail_height": 166,
+          "thumbnail_url_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F2192090309-6a3d17c727a9088b8c47ad978eac5748a4043cf77ec6e0de25b140abbf56244d-d_295x166%3Fregion%3Dus&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+          "upload_date": "2026-08-20 04:51:00",
+          "video_id": 1219802401,
+          "uri": "/videos/1219802401"
+        }
+      }
+    },
+    {
+      "url": "https://vimeo.com/1105454694?share=copy#t=0",
+      "type": "video",
+      "listings": [
+        {
+          "id": "brand-new-vacant-sea-and-sunset-views",
+          "title": "Brand New | Vacant | Sea and Sunset views",
+          "purpose": "buy",
+          "sourceUrl": "https://www.luxuryresidences.com/properties/brand-new-vacant-sea-and-sunset-views"
+        },
+        {
+          "id": "brand-new-vacant-sea-and-sunset-views-2",
+          "title": "Brand New | Vacant | Sea and Sunset Views",
+          "purpose": "rent",
+          "sourceUrl": "https://www.luxuryresidences.com/properties/brand-new-vacant-sea-and-sunset-views-2"
+        }
+      ],
+      "httpCheck": {
+        "requestUrl": "https://vimeo.com/api/oembed.json?url=https%3A%2F%2Fvimeo.com%2F1105454694",
+        "status": 200,
+        "contentType": "application/json",
+        "metadata": {
+          "type": "video",
+          "version": "1.0",
+          "provider_name": "Vimeo",
+          "provider_url": "https://vimeo.com/",
+          "title": "Brand New | Vacant | Sea and Sunset views",
+          "author_name": "Luxury Residences",
+          "author_url": "https://vimeo.com/user193263069",
+          "is_plus": "0",
+          "account_type": "advanced",
+          "width": 426,
+          "height": 240,
+          "duration": 72,
+          "description": "Penthouse perfection at The W Residences, Palm Jumeirah\n‍\nIt’s a true privilege to present this exclusive, brand new three-bedroom apartment within the acclaimed W Residences on The Palm Jumeirah. Elevated above the golden shores of the Western Crescent. Offering serene sea & sunset views.\n‍\nProperty Details:\n- 3 bedrooms\n- 4.5 bathrooms\n- Maid's room\n- Two kitchens\n- Media room\n- Unfurnished\n- Total area 6,415 sqft\n- Vacant\n- Brand New\n- Breathtaking sea and sunset views\n‍\nResidents enjoy a life-enhancing, hotel-inspired lifestyle with 24/7 service from both the neighbouring W Dubai – The Palm and an on-site residential team. Indulge in a host of private amenities and full access to the hotel’s world-class offerings—from fine dining to wellness and leisure experiences.\n‍\nWith only 104 residences across eight grand mansions, this ultra-exclusive enclave is crafted for the discerning few. Every detail—from bespoke interiors to resort-style services—reflects a standard of living that is truly without equal.\n‍\nWelcome to your private sanctuary. Where iconic design meets unrivaled luxury. Get in touch for more information or a private viewing.\n‍",
+          "thumbnail_url": "https://i.vimeocdn.com/video/2041978976-0e9b99737eefef223e120e56d70e207bd233e23dab1d44cb5dbcba4c114d6507-d_295x166?region=us",
+          "thumbnail_width": 295,
+          "thumbnail_height": 166,
+          "thumbnail_url_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F2041978976-0e9b99737eefef223e120e56d70e207bd233e23dab1d44cb5dbcba4c114d6507-d_295x166%3Fregion%3Dus&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+          "upload_date": "2025-07-29 09:23:37",
+          "video_id": 1105454694,
+          "uri": "/videos/1105454694"
+        }
+      }
+    },
+    {
+      "url": "https://youtu.be/KBzwwcheHrE",
+      "type": "video",
+      "listings": [
+        {
+          "id": "burj-khalifa-views-upgraded-fully-furnished",
+          "title": "Burj Khalifa Views | Upgraded | Fully Furnished",
+          "purpose": "buy",
+          "sourceUrl": "https://www.luxuryresidences.com/properties/burj-khalifa-views-upgraded-fully-furnished"
+        }
+      ],
+      "httpCheck": {
+        "requestUrl": "https://www.youtube.com/oembed?format=json&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DKBzwwcheHrE",
+        "status": 200,
+        "resolvedUrl": "https://www.youtube.com/oembed?format=json&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DKBzwwcheHrE",
+        "contentType": "application/json",
+        "contentLength": null,
+        "metadata": {
+          "title": "Three Bedroom Amazing Apartment in Downtown Dubai",
+          "author_name": "Luxury Residences",
+          "author_url": "https://www.youtube.com/@LuxuryResidences_",
+          "type": "video",
+          "height": 113,
+          "width": 200,
+          "version": "1.0",
+          "provider_name": "YouTube",
+          "provider_url": "https://www.youtube.com/",
+          "thumbnail_height": 360,
+          "thumbnail_width": 480,
+          "thumbnail_url": "https://i.ytimg.com/vi/KBzwwcheHrE/hqdefault.jpg"
+        }
+      }
+    },
+    {
+      "url": "https://vimeo.com/1240208755?share=copy&fl=sv&fe=ci",
+      "type": "video",
+      "listings": [
+        {
+          "id": "celebrated-designer-duplex-with-private-pool",
+          "title": "Celebrated Designer | Duplex with Private Pool",
+          "purpose": "buy",
+          "sourceUrl": "https://www.luxuryresidences.com/properties/celebrated-designer-duplex-with-private-pool"
+        }
+      ],
+      "httpCheck": {
+        "requestUrl": "https://vimeo.com/api/oembed.json?url=https%3A%2F%2Fvimeo.com%2F1240208755",
+        "status": 200,
+        "contentType": "application/json",
+        "metadata": {
+          "type": "video",
+          "version": "1.0",
+          "provider_name": "Vimeo",
+          "provider_url": "https://vimeo.com/",
+          "title": "Celebrated Designer | Duplex with Private Pool",
+          "author_name": "Luxury Residences",
+          "author_url": "https://vimeo.com/user193263069",
+          "is_plus": "0",
+          "account_type": "advanced",
+          "width": 426,
+          "height": 240,
+          "duration": 93,
+          "description": "Luxury Residences — the home of mansions, penthouses, and branded residences — presents an exquisite opportunity to acquire one of the finest two-bedroom duplex Sky Courts at Atlantis The Royal Residences. As the number one sales and rental agency and former developer sales team for Atlantis The Royal, we are uniquely placed to offer this exceptional home.\n\nLocated on the Crescent Road of the Palm Jumeirah, this landmark spans two wings. The hotel offers an incredible array of celebrity chef and Michelin-starred restaurants — such as Dinner by Heston Blumenthal, Estiatorio Milos, La Mar by Gastón Acurio, Ariana's Persian Kitchen, Carbone and Nobu by the Beach — plus a world class spa, boutiques such as Louis Vuitton, extensive resort beachfront, dancing fire-and-water fountain, and one of Dubai's highest infinity pools with incredible Dubai skyline and open sea views.\n\nThe residences offer exclusivity and privacy, with facilities including:\n\n- Private access drive, 24/7 concierge and valet\n- Residents' lounge, library and business rooms\n- Two outdoor pools, cabanas, BBQ, tennis and paddle courts\n- Landscaped gardens, private beach, 20m indoor lap pool\n- Technogym fitness suite, sauna, steam rooms, spa and Zen garden\n\nResidents also enjoy white-glove À la carte service from Atlantis The Royal, including housekeeping, laundry and in-home dining, plus Black-tier membership privileges such as a 30% discount across the resort.\n\nThis impressive home measures circa 4,500 sq ft (418 sqm) of internal living area, balcony and terrace with private pool. Available for immediate occupation, brand-new and never occupied, it was masterfully curated by the acclaimed Rigby & Rigby design house of London.\n\nIt suits a resident who values privacy, exclusivity and a calm, well-heeled lifestyle, with outstanding hospitality next door whenever the mood calls for it.\n\nLuxury Residences invites expressions of interest — contact us for details and a private viewing by appointment.",
+          "thumbnail_url": "https://i.vimeocdn.com/video/2217956524-1c97a38bf075b858ef36fdc184ff41e4e6b1b6349d9dd8cee640ad163d0df205-d_295x166?region=us",
+          "thumbnail_width": 295,
+          "thumbnail_height": 166,
+          "thumbnail_url_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F2217956524-1c97a38bf075b858ef36fdc184ff41e4e6b1b6349d9dd8cee640ad163d0df205-d_295x166%3Fregion%3Dus&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+          "upload_date": "2026-10-28 08:05:46",
+          "video_id": 1240208755,
+          "uri": "/videos/1240208755"
+        }
+      }
+    },
+    {
+      "url": "https://vimeo.com/1233693628?fl=pl&fe=sh",
+      "type": "video",
+      "listings": [
+        {
+          "id": "city-and-sea-views-fully-furnished-xl-terrace",
+          "title": "City and Sea Views | Fully Furnished | XL Terrace",
+          "purpose": "buy",
+          "sourceUrl": "https://www.luxuryresidences.com/properties/city-and-sea-views-fully-furnished-xl-terrace"
+        }
+      ],
+      "httpCheck": {
+        "requestUrl": "https://vimeo.com/api/oembed.json?url=https%3A%2F%2Fvimeo.com%2F1233693628",
+        "status": 200,
+        "contentType": "application/json",
+        "metadata": {
+          "type": "video",
+          "version": "1.0",
+          "provider_name": "Vimeo",
+          "provider_url": "https://vimeo.com/",
+          "title": "City and Sea Views | Fully Furnished | XL Terrace",
+          "author_name": "Luxury Residences",
+          "author_url": "https://vimeo.com/user193263069",
+          "is_plus": "0",
+          "account_type": "advanced",
+          "width": 426,
+          "height": 240,
+          "duration": 59,
+          "description": "Luxury Residences, the home of mansions, penthouses and branded residences, is delighted to present a fantastic opportunity to acquire this two-bedroom private home within, Th8 Palm Dubai Beach Resort, Vignette Collection, superbly located on the Crescent Road of the Palm Jumeirah.\n\nThis excellent apartment offers the future owner an outstanding living experience or investment opportunity, and is offered fully furnished and vacant on transfer.\n\nExtending to 1,624 sqft (151 sqm), the residence features a spacious open-plan living, kitchen and dining layout with two generously proportioned bedrooms and bathrooms. Facing directly towards the Palm island, it enjoys the very best outlook within the development, with an incredibly spacious terrace overlooking the resort beach, pools, and the glimmering city skyline in the distance.\n\nPositioned within the hotel component, the property benefits from access to five-star hotel amenities and services around the clock. \n\nIncredibly well priced for the location, this home allows you to rub shoulders with leading international branded residences at a fraction of the cost, while enjoying one of the world's most in-demand premium beachfront destinations with all the appeal of the surrounding area.\n\nViewing is highly recommended to appreciate this unique opportunity. \n\nPlease contact the team as soon as possible. We look forward to hearing from you!",
+          "thumbnail_url": "https://i.vimeocdn.com/video/2209430777-640b0283d16c954cab58b8335f677d3a8a83d5833f884b6bc455dbe2094d2dae-d_295x166?region=us",
+          "thumbnail_width": 295,
+          "thumbnail_height": 166,
+          "thumbnail_url_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F2209430777-640b0283d16c954cab58b8335f677d3a8a83d5833f884b6bc455dbe2094d2dae-d_295x166%3Fregion%3Dus&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+          "upload_date": "2026-10-07 07:56:35",
+          "video_id": 1233693628,
+          "uri": "/videos/1233693628"
+        }
+      }
+    },
+    {
+      "url": "https://vimeo.com/1128807572/259431719b?fl=pl&fe=sh",
+      "type": "video",
+      "listings": [
+        {
+          "id": "dual-views-highest-floor-huge-layout",
+          "title": "Dual Views | Highest Floor | Huge Layout",
+          "purpose": "buy",
+          "sourceUrl": "https://www.luxuryresidences.com/properties/dual-views-highest-floor-huge-layout"
+        }
+      ],
+      "httpCheck": {
+        "requestUrl": "https://vimeo.com/api/oembed.json?url=https%3A%2F%2Fvimeo.com%2F1128807572%2F259431719b",
+        "status": 200,
+        "contentType": "application/json",
+        "metadata": {
+          "type": "video",
+          "version": "1.0",
+          "provider_name": "Vimeo",
+          "provider_url": "https://vimeo.com/",
+          "title": "Dual Views | Highest Floor | Huge Layout",
+          "author_name": "Luxury Residences",
+          "author_url": "https://vimeo.com/user193263069",
+          "is_plus": "0",
+          "account_type": "advanced",
+          "width": 426,
+          "height": 240,
+          "duration": 77,
+          "description": "Buy and sell with utmost confidence from the former Atlantis, The Royal Residences project sales team and now number one resale agency.\n\nLuxury Residences are pleased to present this one-of-a-kind 5 bedroom signature residence within the next icon of Dubai.\nOffering spectacular Dubai skyline and sea views this is a extremely rare layout.\n\nLocated upon the world-famous Palm Jumeirah, this exquisite property is designed and finished with the finest materials such as Italian marble floors and bathroom fittings, top marque German kitchens and appliances, opulent high ceilings, and fabulously designed indoor-outdoor living spaces that compliment the incredible panoramic views.\n\nFurther benefiting from world-class resort amenities such as multiple celebrity chef restaurants, a private resort beachfront, infinity sky pool, fire and water fountains, this ultra exclusive destination provides the perfect place for discerning clientele to call home.\n\nResidents also benefit from private indoor and outdoor pools, gym, SPA, sauna & steam rooms, function rooms, lounge and library, plus concierge and valet on demand.\n\n• 24/7 concierge and valet service\n• À la carte menu including but not limited to; housekeeping, laundry, nanny service, in-room food, and beverage\n• Gymnasium\n• SPA with sauna & steam rooms\n• Private beach\n• Tennis court\n• Indoor and outdoor swimming pools\n• Children’s soft play area\n• 4 parking spaces\n\nPlease contact us today to arrange a viewing!",
+          "thumbnail_url": "https://i.vimeocdn.com/video/2071989387-9c3aef22d3f9abd0c0aef6fbfb53f2c19811c8ea9ad2ca3c52532e4055d3f37b-d_295x166?region=us",
+          "thumbnail_width": 295,
+          "thumbnail_height": 166,
+          "thumbnail_url_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F2071989387-9c3aef22d3f9abd0c0aef6fbfb53f2c19811c8ea9ad2ca3c52532e4055d3f37b-d_295x166%3Fregion%3Dus&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+          "upload_date": "2025-10-20 06:22:55",
+          "video_id": 1128807572,
+          "uri": "/videos/1128807572"
+        }
+      }
+    },
+    {
+      "url": "https://youtu.be/GPaJlxRO9Ag",
+      "type": "video",
+      "listings": [
+        {
+          "id": "exclusive-lagoon-facing-available-for-viewing",
+          "title": "Exclusive | Lagoon Facing | Available for Viewing",
+          "purpose": "rent",
+          "sourceUrl": "https://www.luxuryresidences.com/properties/exclusive-lagoon-facing-available-for-viewing"
+        }
+      ],
+      "httpCheck": {
+        "requestUrl": "https://www.youtube.com/oembed?format=json&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DGPaJlxRO9Ag",
+        "status": 200,
+        "resolvedUrl": "https://www.youtube.com/oembed?format=json&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DGPaJlxRO9Ag",
+        "contentType": "application/json",
+        "contentLength": null,
+        "metadata": {
+          "title": "Five Bedroom Villa in Chorisia II Villas, Al Barari",
+          "author_name": "Luxury Residences",
+          "author_url": "https://www.youtube.com/@LuxuryResidences_",
+          "type": "video",
+          "height": 113,
+          "width": 200,
+          "version": "1.0",
+          "provider_name": "YouTube",
+          "provider_url": "https://www.youtube.com/",
+          "thumbnail_height": 360,
+          "thumbnail_width": 480,
+          "thumbnail_url": "https://i.ytimg.com/vi/GPaJlxRO9Ag/hqdefault.jpg"
+        }
+      }
+    },
+    {
+      "url": "https://youtu.be/ZIUWHMyJ4i8",
+      "type": "video",
+      "listings": [
+        {
+          "id": "exclusive-top-floor-one-of-a-kind",
+          "title": "Exclusive | Top Floor | One-Of-A-Kind",
+          "purpose": "buy",
+          "sourceUrl": "https://www.luxuryresidences.com/properties/exclusive-top-floor-one-of-a-kind"
+        }
+      ],
+      "httpCheck": {
+        "requestUrl": "https://www.youtube.com/oembed?format=json&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DZIUWHMyJ4i8",
+        "status": 200,
+        "resolvedUrl": "https://www.youtube.com/oembed?format=json&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DZIUWHMyJ4i8",
+        "contentType": "application/json",
+        "contentLength": null,
+        "metadata": {
+          "title": "Four Bedroom Signature Residence in Atlantis The Royal",
+          "author_name": "Luxury Residences",
+          "author_url": "https://www.youtube.com/@LuxuryResidences_",
+          "type": "video",
+          "height": 113,
+          "width": 200,
+          "version": "1.0",
+          "provider_name": "YouTube",
+          "provider_url": "https://www.youtube.com/",
+          "thumbnail_height": 360,
+          "thumbnail_width": 480,
+          "thumbnail_url": "https://i.ytimg.com/vi/ZIUWHMyJ4i8/hqdefault.jpg"
+        }
+      }
+    },
+    {
+      "url": "https://vimeo.com/1103460969?share=copy#t=0",
+      "type": "video",
+      "listings": [
+        {
+          "id": "extraordinary-turnkey-luxury-with-iconic-views",
+          "title": "An Exquisite Residence with Penthouse Prestige",
+          "purpose": "buy",
+          "sourceUrl": "https://www.luxuryresidences.com/properties/extraordinary-turnkey-luxury-with-iconic-views"
+        }
+      ],
+      "httpCheck": {
+        "requestUrl": "https://vimeo.com/api/oembed.json?url=https%3A%2F%2Fvimeo.com%2F1103460969",
+        "status": 200,
+        "contentType": "application/json",
+        "metadata": {
+          "type": "video",
+          "version": "1.0",
+          "provider_name": "Vimeo",
+          "provider_url": "https://vimeo.com/",
+          "title": "An Exquisite Residence with Penthouse Prestige",
+          "author_name": "Luxury Residences",
+          "author_url": "https://vimeo.com/user193263069",
+          "is_plus": "0",
+          "account_type": "advanced",
+          "width": 426,
+          "height": 240,
+          "duration": 147,
+          "description": "Discover unparalleled elegance in this meticulously renovated 4-bedroom, 4-bathroom private residence measuring an impressive 4,740 square feet (440.41 square meters) at Atlantis The Royal Residences, located on the internationally sought-after Palm Jumeirah.\n\nThis turnkey masterpiece underwent an extensive 18-month renovation with an AED 15 million investment, personally overseen by the distinguished family owners for their own use, and executed by the internationally acclaimed XBD Collective.\n\nExquisite Design and Furnishings:\n- Exclusive accessories from Hermes, Baccarat, Lladro, and Lalique\n- Italian-imported furniture from Longhi and Eichholtz\n- Onyx features and a Planika fireplace from Italy\n- Italian mirror TV\n- Murano glass coffee tables by Cornelio Cappellini\n- Bespoke lighting from San Souci\n- Handmade Turkish carpets\n- Designer wallpaper finishes\n- Bespoke joinery in all bedrooms\n- Sahara Noir marble kitchen countertops\n- Custom Barrisol ceiling in the relaxation room\n- Floor-to-ceiling mirrored feature walls\n\nLuxurious Bathrooms:\n- High-end finishes and custom-made fixtures with spa-like features\n- Expansive walk-in showers and freestanding tubs\n- Dual vanities\n- Bespoke Italian marble and elegant lighting\n\nAdvanced Technology:\n- Sonance ceiling speakers\n- Lutron home automation for lighting, TV, and curtain control via iPad\n- Samsung 4K TVs with subwoofers and sound bars\n- Logitech video conferencing equipment in the office area's surround sound system with integrated wall speakers in the media room\n\nGenerous Living Space:\n- Luxurious Italian marble in the front of the house and bathrooms\n- German Siematic kitchens with premium Gaggenau appliances\n- 3m+ high ceilings\n- Fully retractable window systems\n- Private terraces with panoramic views of the Arabian Gulf and Dubai's skyline\n\nPlease contact us to receive further details and to arrange a private viewing by appointment!",
+          "thumbnail_url": "https://i.vimeocdn.com/video/2039484176-353423ca93cd43d55a314245f9a806c983fa2953ca653daa584be3a583677fae-d_295x166?region=us",
+          "thumbnail_width": 295,
+          "thumbnail_height": 166,
+          "thumbnail_url_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F2039484176-353423ca93cd43d55a314245f9a806c983fa2953ca653daa584be3a583677fae-d_295x166%3Fregion%3Dus&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+          "upload_date": "2025-07-22 09:12:34",
+          "video_id": 1103460969,
+          "uri": "/videos/1103460969"
+        }
+      }
+    },
+    {
+      "url": "https://youtu.be/OL6QwJl8JI8",
+      "type": "video",
+      "listings": [
+        {
+          "id": "furnished-palm-and-skyline-views-exclusive",
+          "title": "Furnished | Palm and Skyline Views | Exclusive",
+          "purpose": "buy",
+          "sourceUrl": "https://www.luxuryresidences.com/properties/furnished-palm-and-skyline-views-exclusive"
+        },
+        {
+          "id": "furnished-palm-skyline-views-exclusive-2",
+          "title": "Furnished | Palm & Skyline Views | Exclusive",
+          "purpose": "rent",
+          "sourceUrl": "https://www.luxuryresidences.com/properties/furnished-palm-skyline-views-exclusive-2"
+        }
+      ],
+      "httpCheck": {
+        "requestUrl": "https://www.youtube.com/oembed?format=json&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DOL6QwJl8JI8",
+        "status": 200,
+        "resolvedUrl": "https://www.youtube.com/oembed?format=json&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DOL6QwJl8JI8",
+        "contentType": "application/json",
+        "contentLength": null,
+        "metadata": {
+          "title": "Atlantis The Royal Residences, Palm Jumeirah, Dubai  - Two Bedroom Private Residence For sale",
+          "author_name": "Luxury Residences",
+          "author_url": "https://www.youtube.com/@LuxuryResidences_",
+          "type": "video",
+          "height": 113,
+          "width": 200,
+          "version": "1.0",
+          "provider_name": "YouTube",
+          "provider_url": "https://www.youtube.com/",
+          "thumbnail_height": 360,
+          "thumbnail_width": 480,
+          "thumbnail_url": "https://i.ytimg.com/vi/OL6QwJl8JI8/hqdefault.jpg"
+        }
+      }
+    },
+    {
+      "url": "https://youtu.be/V8c-P76NBeA",
+      "type": "video",
+      "listings": [
+        {
+          "id": "furnished-palm-skyline-views-exclusive",
+          "title": "Furnished | Palm & Skyline Views | Exclusive",
+          "purpose": "rent",
+          "sourceUrl": "https://www.luxuryresidences.com/properties/furnished-palm-skyline-views-exclusive"
+        }
+      ],
+      "httpCheck": {
+        "requestUrl": "https://www.youtube.com/oembed?format=json&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DV8c-P76NBeA",
+        "status": 200,
+        "resolvedUrl": "https://www.youtube.com/oembed?format=json&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DV8c-P76NBeA",
+        "contentType": "application/json",
+        "contentLength": null,
+        "metadata": {
+          "title": "Two Bedroom Private Residence in Atlantis The Royal, Palm Jumeirah",
+          "author_name": "Luxury Residences",
+          "author_url": "https://www.youtube.com/@LuxuryResidences_",
+          "type": "video",
+          "height": 113,
+          "width": 200,
+          "version": "1.0",
+          "provider_name": "YouTube",
+          "provider_url": "https://www.youtube.com/",
+          "thumbnail_height": 360,
+          "thumbnail_width": 480,
+          "thumbnail_url": "https://i.ytimg.com/vi/V8c-P76NBeA/hqdefault.jpg"
+        }
+      }
+    },
+    {
+      "url": "https://vimeo.com/1105744864?fl=pl&fe=sh",
+      "type": "video",
+      "listings": [
+        {
+          "id": "furnished-upgraded-unique-layout-dual-views",
+          "title": "Furnished | Upgraded | Unique Layout | Dual Views",
+          "purpose": "rent",
+          "sourceUrl": "https://www.luxuryresidences.com/properties/furnished-upgraded-unique-layout-dual-views"
+        }
+      ],
+      "httpCheck": {
+        "requestUrl": "https://vimeo.com/api/oembed.json?url=https%3A%2F%2Fvimeo.com%2F1105744864",
+        "status": 200,
+        "contentType": "application/json",
+        "metadata": {
+          "type": "video",
+          "version": "1.0",
+          "provider_name": "Vimeo",
+          "provider_url": "https://vimeo.com/",
+          "title": "Furnished | Upgraded | Unique Layout | Dual Views",
+          "author_name": "Luxury Residences",
+          "author_url": "https://vimeo.com/user193263069",
+          "is_plus": "0",
+          "account_type": "advanced",
+          "width": 426,
+          "height": 240,
+          "duration": 53,
+          "description": "Luxury Residences offer to market this stunning 2 bedroom plus maids room private residence for rent within the next iconic landmark of Dubai.\n‍\nOffering spectacular views over the glittering Dubai skyline, Palm Jumeirah and Arabian Gulf this is an incredible home that comes fully furnished and upgraded in an much sought after unique layout.\n‍\nLocated upon the world-famous Palm Jumeirah, this exquisite property is designed and finished with only the finest materials such as Italian marble floors and bathroom fittings, top marque German kitchens and appliances, opulent high ceilings, and fabulously designed indoor-outdoor living spaces that compliment the incredible views.\n‍\nFurther benefiting from world-class resort amenities such as multiple celebrity chef Michelin starred restaurants, private resort beachfront, infinity sky pool, fire and water dancing fountains, this ultra exclusive destination provides the perfect place for discerning individuals to call home.\n‍\nResidents also benefit from private indoor and outdoor pools, gym, SPA, sauna & steam rooms, function rooms, lounge and library, plus concierge and valet on demand.\n‍\n• 24/7 concierge and valet service\n• À la carte menu including but not limited to; housekeeping, laundry, nanny service, in-room food, and beverage\n• Gymnasium\n• SPA with sauna & steam rooms\n• Private beach\n• Tennis court\n• Indoor and outdoor swimming pools\n• Children’s soft play area\n• 2 parking spaces\n• Fully Furnished & Upgraded\n• Dual Views of the Arabian Gulf & Dubai Skyline",
+          "thumbnail_url": "https://i.vimeocdn.com/video/2042339321-f3c482e434f523cea5368f41c4a86db9280b0a734f09626018ecec470f7b7c48-d_295x166?region=us",
+          "thumbnail_width": 295,
+          "thumbnail_height": 166,
+          "thumbnail_url_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F2042339321-f3c482e434f523cea5368f41c4a86db9280b0a734f09626018ecec470f7b7c48-d_295x166%3Fregion%3Dus&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+          "upload_date": "2025-07-30 06:48:58",
+          "video_id": 1105744864,
+          "uri": "/videos/1105744864"
+        }
+      }
+    },
+    {
+      "url": "https://vimeo.com/1103754260?share=copy#t=0",
+      "type": "video",
+      "listings": [
+        {
+          "id": "garden-apartment-sea-facing-private-pool",
+          "title": "Garden Apartment | Sea Facing | Private Pool",
+          "purpose": "buy",
+          "sourceUrl": "https://www.luxuryresidences.com/properties/garden-apartment-sea-facing-private-pool"
+        },
+        {
+          "id": "garden-apartment-sea-facing-private-pool-2",
+          "title": "Garden Apartment | Sea Facing | Private Pool",
+          "purpose": "rent",
+          "sourceUrl": "https://www.luxuryresidences.com/properties/garden-apartment-sea-facing-private-pool-2"
+        }
+      ],
+      "httpCheck": {
+        "requestUrl": "https://vimeo.com/api/oembed.json?url=https%3A%2F%2Fvimeo.com%2F1103754260",
+        "status": 200,
+        "contentType": "application/json",
+        "metadata": {
+          "type": "video",
+          "version": "1.0",
+          "provider_name": "Vimeo",
+          "provider_url": "https://vimeo.com/",
+          "title": "Garden Apartment | Sea Facing | Private Pool",
+          "author_name": "Luxury Residences",
+          "author_url": "https://vimeo.com/user193263069",
+          "is_plus": "0",
+          "account_type": "advanced",
+          "width": 426,
+          "height": 240,
+          "duration": 92,
+          "description": "Penthouse Perfection at The W Residences, Palm Jumeirah\n‍\nIt’s a true privilege to present this exclusive three-bedroom garden apartment within the acclaimed W Residences on The Palm Jumeirah. Elevated above the golden shores of the Western Crescent, offering views of the sea and sunset.\n- 3 bedrooms\n- 4.5 bathrooms\n- Staff quarters\n- Private garden\n- Private pool\n- Unfurnished\n- Brand new\n- Vacant\n- Total area 10,354 sqft\n- Sea facing\n‍\nResidents enjoy a life-enhancing, hotel-inspired lifestyle with 24/7 service from both the neighbouring W Dubai – The Palm and an on-site residential team. Indulge in a host of private amenities and full access to the hotel’s world-class offerings—from fine dining to wellness and leisure experiences.\n‍\nWith only 104 residences across eight grand mansions, this ultra-exclusive enclave is crafted for the discerning few. Every detail—from bespoke interiors to resort-style services—reflects a standard of living that is truly without equal.\n‍\nWelcome to your private sanctuary. Where iconic design meets unrivaled luxury. Get in touch for more information or a private viewing.\n‍",
+          "thumbnail_url": "https://i.vimeocdn.com/video/2039852760-9eea1e7305bcd4f2842bba11d5a536bd73fb3b59cd6d1b846f5b231b185b45f6-d_295x166?region=us",
+          "thumbnail_width": 295,
+          "thumbnail_height": 166,
+          "thumbnail_url_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F2039852760-9eea1e7305bcd4f2842bba11d5a536bd73fb3b59cd6d1b846f5b231b185b45f6-d_295x166%3Fregion%3Dus&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+          "upload_date": "2025-07-23 07:21:13",
+          "video_id": 1103754260,
+          "uri": "/videos/1103754260"
+        }
+      }
+    },
+    {
+      "url": "https://vimeo.com/1056388286?share=copy",
+      "type": "video",
+      "listings": [
+        {
+          "id": "garden-villa-hermes-and-minotti-private-pool",
+          "title": "Garden Villa | Hermes and Minotti | Private Pool",
+          "purpose": "buy",
+          "sourceUrl": "https://www.luxuryresidences.com/properties/garden-villa-hermes-and-minotti-private-pool"
+        }
+      ],
+      "httpCheck": {
+        "requestUrl": "https://vimeo.com/api/oembed.json?url=https%3A%2F%2Fvimeo.com%2F1056388286",
+        "status": 200,
+        "resolvedUrl": "https://vimeo.com/api/oembed.json?url=https%3A%2F%2Fvimeo.com%2F1056388286",
+        "contentType": "application/json",
+        "contentLength": "2919",
+        "metadata": {
+          "type": "video",
+          "version": "1.0",
+          "provider_name": "Vimeo",
+          "provider_url": "https://vimeo.com/",
+          "title": "Garden Villa | Hermes and Minotti | Private Pool",
+          "author_name": "Luxury Residences",
+          "author_url": "https://vimeo.com/user193263069",
+          "is_plus": "0",
+          "account_type": "advanced",
+          "width": 426,
+          "height": 240,
+          "duration": 133,
+          "description": "Experience the epitome of opulent living in this extraordinary 2-bedroom plus maid's room garden suite at the world's most luxurious experiential resort, Atlantis, The Royal Residences. This one-of-a-kind masterpiece boasts an expansive 3,600 sqft of internal living space, complemented by a lavish private garden and swimming pool, totaling over 9,000 sqft of pure indulgence. \n\nExquisite Design and Unmatched Amenities. Immerse yourself in a world of refined elegance with:\n\n- Private internal elevator for seamless access\n- Exclusive private garage for your prized vehicles\n- Fully integrated German kitchen featuring top-of-the-line Gaggenau appliances\n- Sumptuous Italian marble throughout, exuding timeless sophistication\n- Bespoke furnishings by Minotti and Hermes, elevating every corner\n\nUnrivaled Resident Privileges. As an esteemed resident, indulge in an array of exclusive benefits:\n\n- Black Member status with 30% discount across the resort\n- Private indoor and outdoor pools for residents with private cabanas\n- Secluded beach access \n- Dedicated concierge and valet services\n- State-of-the-art gym equipped with Technogym equipment\n- Tennis court and children's soft play area\n- Business meeting rooms, lounge, and library\n- Multiple Michelin-starred restaurants at your doorstep\n- Bespoke à la carte services including room service, laundry, and housekeeping\n\nThis rare gem represents a once-in-a-lifetime opportunity to own a piece of paradise. Viewings are available strictly by appointment for qualified buyers. Contact us today to register your interest and step into a world of unparalleled luxury and prestige.",
+          "thumbnail_url": "https://i.vimeocdn.com/video/1982129916-c6c3f1f819eb8a99317d3bed556e05bb57a6f8caa7ede0071022638c02e0bce2-d_295x166?region=us",
+          "thumbnail_width": 295,
+          "thumbnail_height": 166,
+          "thumbnail_url_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1982129916-c6c3f1f819eb8a99317d3bed556e05bb57a6f8caa7ede0071022638c02e0bce2-d_295x166%3Fregion%3Dus&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+          "upload_date": "2025-02-13 08:21:50",
+          "video_id": 1056388286,
+          "uri": "/videos/1056388286"
+        }
+      }
+    },
+    {
+      "url": "https://vimeo.com/1109011029?fl=pl&fe=sh",
+      "type": "video",
+      "listings": [
+        {
+          "id": "high-floor-palm-paradise-with-incredible-views",
+          "title": "High-Floor Palm Paradise with Incredible Views",
+          "purpose": "buy",
+          "sourceUrl": "https://www.luxuryresidences.com/properties/high-floor-palm-paradise-with-incredible-views"
+        }
+      ],
+      "httpCheck": {
+        "requestUrl": "https://vimeo.com/api/oembed.json?url=https%3A%2F%2Fvimeo.com%2F1109011029",
+        "status": 200,
+        "contentType": "application/json",
+        "metadata": {
+          "type": "video",
+          "version": "1.0",
+          "provider_name": "Vimeo",
+          "provider_url": "https://vimeo.com/",
+          "title": "High-Floor Palm Paradise with Incredible Views",
+          "author_name": "Luxury Residences",
+          "author_url": "https://vimeo.com/user193263069",
+          "is_plus": "0",
+          "account_type": "advanced",
+          "width": 426,
+          "height": 240,
+          "duration": 76,
+          "description": "Experience Unparalleled Luxury: Atlantis, The Royal Residences\n‍\nDiscover the epitome of opulence in Dubai's most iconic address. This stunning 2-bedroom private residence in Atlantis, The Royal Residences on the Palm Jumeirah offers an unrivalled lifestyle with breath-taking palm and skyline views.\n‍\nExquisite Living Space;\nIndulge in generous living areas spanning 2,383 square feet (221 square meters), featuring:\n- Luxurious Italian marble within the front of house and bathrooms\n- State-of-the-art German kitchens equipped with premium Gaggenau appliances\n- Elegant and high quality Italian bathroom fittings\n- Soaring 3m+ high ceilings creating an atmosphere of grandeur\n- Seamless indoor-outdoor living with fully retractable window systems\n- Private terraces offering panoramic views of Dubai's skyline and the mesmerizing dancing fire and water fountain\n‍\nWorld-Class Amenities;\nAs a resident, enjoy exclusive access to:\n- Multiple Michelin-starred restaurants\n- Luxurious spa and wellness facilities\n- State-of-the-art business center\n- Valet parking and concierge services\n- Tennis court\n- Business meeting rooms\n- Elegant lounge and library\n- Indoor and outdoor swimming pools\n- Wellness treatment rooms, sauna, and steam facilities\n- 30% discount as a Black Member\n‍\nBespoke Services;\nElevate your lifestyle with on-demand services:\n- Housekeeping\n- Laundry\n- Room service for food and beverages\n‍\nKey Selling Points;\n- Owned by the Dubai royal family\n- Global icon of architecture and Dubai's new landmark\n- High-floor residence with unobstructed Skyline and Water views\n- Part of a 5-star ultra-luxury resort\n- Exclusive resident privileges and discounts\n- Prime location on the world famous Palm Jumeirah\n‍\nDon't miss this rare opportunity to own a piece of Dubai's most prestigious address. Atlantis, The Royal Residences - where luxury knows no bounds and every day feels like a 5-star vacation.\n‍\nContact us now to schedule your private viewing and experience the pinnacle of Dubai living!\n‍",
+          "thumbnail_url": "https://i.vimeocdn.com/video/2046424762-4fdd880a2ee5958a6c025d1e576744256894eb05f4726979b21bec0067679ed7-d_295x166?region=us",
+          "thumbnail_width": 295,
+          "thumbnail_height": 166,
+          "thumbnail_url_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F2046424762-4fdd880a2ee5958a6c025d1e576744256894eb05f4726979b21bec0067679ed7-d_295x166%3Fregion%3Dus&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+          "upload_date": "2025-08-11 06:40:40",
+          "video_id": 1109011029,
+          "uri": "/videos/1109011029"
+        }
+      }
+    },
+    {
+      "url": "https://youtu.be/kPKieQ_mOSU",
+      "type": "video",
+      "listings": [
+        {
+          "id": "high-floor-palm-view-fully-furnished",
+          "title": "High Floor | Palm View | Fully Furnished",
+          "purpose": "buy",
+          "sourceUrl": "https://www.luxuryresidences.com/properties/high-floor-palm-view-fully-furnished"
+        }
+      ],
+      "httpCheck": {
+        "requestUrl": "https://www.youtube.com/oembed?format=json&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DkPKieQ_mOSU",
+        "status": 200,
+        "resolvedUrl": "https://www.youtube.com/oembed?format=json&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DkPKieQ_mOSU",
+        "contentType": "application/json",
+        "contentLength": null,
+        "metadata": {
+          "title": "Three Bedroom Penthouse in W Residences The Palm for Sale",
+          "author_name": "Luxury Residences",
+          "author_url": "https://www.youtube.com/@LuxuryResidences_",
+          "type": "video",
+          "height": 113,
+          "width": 200,
+          "version": "1.0",
+          "provider_name": "YouTube",
+          "provider_url": "https://www.youtube.com/",
+          "thumbnail_height": 360,
+          "thumbnail_width": 480,
+          "thumbnail_url": "https://i.ytimg.com/vi/kPKieQ_mOSU/hqdefault.jpg"
+        }
+      }
+    },
+    {
+      "url": "https://vimeo.com/1108111048?fl=pl&fe=sh",
+      "type": "video",
+      "listings": [
+        {
+          "id": "last-available-3br-duplex-with-private-pool",
+          "title": "Last Available 3BR Duplex with Private Pool",
+          "purpose": "buy",
+          "sourceUrl": "https://www.luxuryresidences.com/properties/last-available-3br-duplex-with-private-pool"
+        }
+      ],
+      "httpCheck": {
+        "requestUrl": "https://vimeo.com/api/oembed.json?url=https%3A%2F%2Fvimeo.com%2F1108111048",
+        "status": 200,
+        "contentType": "application/json",
+        "metadata": {
+          "type": "video",
+          "version": "1.0",
+          "provider_name": "Vimeo",
+          "provider_url": "https://vimeo.com/",
+          "title": "***Last Available 3BR Duplex with Private Pool***",
+          "author_name": "Luxury Residences",
+          "author_url": "https://vimeo.com/user193263069",
+          "is_plus": "0",
+          "account_type": "advanced",
+          "width": 426,
+          "height": 240,
+          "duration": 59,
+          "description": "Experience Unlimited Luxury: Atlantis, The Royal Residences\n\nDiscover the epitome of opulence at Dubai's most iconic address. This 3-bedroom duplex sky court private residence within Atlantis, The Royal Residences on the Crescent of the Palm Jumeirah, offers an unrivalled lifestyle with breath-taking sea and skyline views.\n\nExquisite Living Space;\n\nIndulge in generous living areas spread over two floors that span 3,348 internally and an combined 5,343 (496 sq.m) including the terrace and balconies.\n\n- Luxurious Italian marble within the front of house and bathrooms\n- Fully furnished and decorated by an award winning interior designer\n- State-of-the-art German Siematic kitchens equipped with premium Gaggenau appliances\n- Elegant and high quality Italian bathroom fittings by Zuchetti\n- Soaring 3m+ high ceilings creating an atmosphere of grandeur\n- Seamless indoor-outdoor living with fully retractable window systems\n- Private terrace with swimming pool offering panoramic views of Dubai's skyline and the mesmerizing dancing fire and water fountain\n\nWorld-Class Amenities;\n\nAs a resident, enjoy exclusive access to:\n\n- Multiple Michelin-starred restaurants\n- Luxurious spa and wellness facilities with treatment, sauna, and steam rooms\n- Fully equipped business/ meeting rooms\n- Valet parking and concierge services\n- Tennis court\n- Residents lounge and library\n- Indoor and outdoor swimming pools with cabanas\n- Wellness\n- Residents private beachfront\n- 30% discount as a Black Member\n\nBespoke Services;\n\nElevate your lifestyle with on-demand services:\n\n- Housekeeping\n- Laundry\n- Room service for food and beverages\n\nDon't miss this rare opportunity to live within Dubai's most prestigious address. Atlantis, The Royal Residences - where luxury knows no bounds and every day feels like a 5-star vacation.\n\nContact us now to schedule your private viewing of this last available 3BR Sky Court!",
+          "thumbnail_url": "https://i.vimeocdn.com/video/2045282421-7389ff8690a70875c0dc51784de203e23fa9435e3d252c3f597973d61796e96d-d_295x166?region=us",
+          "thumbnail_width": 295,
+          "thumbnail_height": 166,
+          "thumbnail_url_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F2045282421-7389ff8690a70875c0dc51784de203e23fa9435e3d252c3f597973d61796e96d-d_295x166%3Fregion%3Dus&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+          "upload_date": "2025-08-07 10:07:40",
+          "video_id": 1108111048,
+          "uri": "/videos/1108111048"
+        }
+      }
+    },
+    {
+      "url": "https://vimeo.com/1106502389?fl=pl&fe=sh",
+      "type": "video",
+      "listings": [
+        {
+          "id": "live-royally-turnkey-renovated-masterpiece",
+          "title": "Live Royally | Turnkey Renovated Masterpiece",
+          "purpose": "buy",
+          "sourceUrl": "https://www.luxuryresidences.com/properties/live-royally-turnkey-renovated-masterpiece"
+        }
+      ],
+      "httpCheck": {
+        "requestUrl": "https://vimeo.com/api/oembed.json?url=https%3A%2F%2Fvimeo.com%2F1106502389",
+        "status": 200,
+        "contentType": "application/json",
+        "metadata": {
+          "type": "video",
+          "version": "1.0",
+          "provider_name": "Vimeo",
+          "provider_url": "https://vimeo.com/",
+          "title": "Live Royally | Turnkey Renovated Masterpiece",
+          "author_name": "Luxury Residences",
+          "author_url": "https://vimeo.com/user193263069",
+          "is_plus": "0",
+          "account_type": "advanced",
+          "width": 426,
+          "height": 240,
+          "duration": 102,
+          "description": "Luxury Residences present this fully renovated, upgraded and furnished 2 bedrooms + maids room with full Palm and Skyline views from a higher floor.\n\nThis is a one-of-a-kind custom residence with bespoke best-in-class finishing and furnishing throughout and must be seen to be appreciated.\n\nFurther benefiting from world-class resort amenities such as multiple celebrity chef Michelin starred restaurants, private resort beachfront, infinity sky pool, fire and water dancing fountains, this ultra exclusive destination provides the perfect place for discerning individuals to call home.\n\nResidents also benefit from private indoor and outdoor pools, gym, SPA, sauna & steam rooms, function rooms, lounge and library, plus concierge and valet on demand.\n\n• 24/7 concierge and valet service\n• À la carte menu including but not limited to; housekeeping, laundry, nanny service, in-room food, and beverage\n• Gymnasium\n• SPA with sauna & steam rooms\n• Private beach\n• Tennis court\n• Indoor and outdoor swimming pools\n• Children’s soft play area\n• 2 parking spaces\n• Custom Build, Fully Upgraded & Furnished.\n\nArrange your private viewing today and experience the epitome of iconic Dubai living at The Royal Atlantis. We look forward to welcoming you home...",
+          "thumbnail_url": "https://i.vimeocdn.com/video/2043261050-7f52abe71f40b68675ce3d740deab743c9c7de753ca4af51a36112e8c66a99e4-d_295x166?region=us",
+          "thumbnail_width": 295,
+          "thumbnail_height": 166,
+          "thumbnail_url_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F2043261050-7f52abe71f40b68675ce3d740deab743c9c7de753ca4af51a36112e8c66a99e4-d_295x166%3Fregion%3Dus&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+          "upload_date": "2025-08-01 11:33:18",
+          "video_id": 1106502389,
+          "uri": "/videos/1106502389"
+        }
+      }
+    },
+    {
+      "url": "https://vimeo.com/1231608524?share=copy&fl=sv&fe=ci",
+      "type": "video",
+      "listings": [
+        {
+          "id": "palm-and-marina-skyline-views-private-pool",
+          "title": "Palm and Marina Skyline Views | Private Pool",
+          "purpose": "buy",
+          "sourceUrl": "https://www.luxuryresidences.com/properties/palm-and-marina-skyline-views-private-pool"
+        }
+      ],
+      "httpCheck": {
+        "requestUrl": "https://vimeo.com/api/oembed.json?url=https%3A%2F%2Fvimeo.com%2F1231608524",
+        "status": 200,
+        "contentType": "application/json",
+        "metadata": {
+          "type": "video",
+          "version": "1.0",
+          "provider_name": "Vimeo",
+          "provider_url": "https://vimeo.com/",
+          "title": "Palm and Marina Skyline Views | Private Pool",
+          "author_name": "Luxury Residences",
+          "author_url": "https://vimeo.com/user193263069",
+          "is_plus": "0",
+          "account_type": "advanced",
+          "width": 426,
+          "height": 240,
+          "duration": 77,
+          "description": "Luxury Residences are delighted to present this fabulously presented one of one 3 bedroom penthouse with a private pool within the exclusive Six Senses, Palm Jumeirah. Offering spectacular views from the highest floor overlooking the Palm and Marina skyline, this is an incredible opportunity which is very rare and of high demand.\n        \nLocated upon the world-famous Palm Jumeirah, this exquisite property is designed and finished with the finest materials such as Italian marble and bathroom fittings, top marque German kitchens and appliances, opulent high ceilings, and fabulously designed indoor-outdoor living spaces that complement the incredible panoramic views.   \n    \nProperty Details:   \n\n- 3 Bed plus maid's penthouse\n- Private pool\n- Highest floor\n- Unique layout\n- Palm and marina skyline view\n- Unfurnished\n- Internal area 2,861\n- External area 2,280\n- Total area 5,141\n\nFurther benefiting from world-class resort amenities such as prestigious restaurants, private resort beachfront, pools and health facilities. This ultra exclusive destination provides the perfect place for discerning individuals to call home.\n\n- 24/7 concierge and valet service\n- À la carte menu including but not limited to; housekeeping, laundry, nanny service, in-room food, and beverage\n- Gymnasium\n- Health SPA with sauna & steam rooms\n- Private beach\n- Tennis court\n- Swimming pools\n- Children’s soft play area\n- 2 allocated parking spaces\n\nStep into elegance and tranquility. Connect with us for more information.",
+          "thumbnail_url": "https://i.vimeocdn.com/video/2206819112-c66e447b0d506e3d45e4d25b48cab60ce3d9a2ded9f6216ad00eea8391310d38-d_295x166?region=us",
+          "thumbnail_width": 295,
+          "thumbnail_height": 166,
+          "thumbnail_url_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F2206819112-c66e447b0d506e3d45e4d25b48cab60ce3d9a2ded9f6216ad00eea8391310d38-d_295x166%3Fregion%3Dus&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+          "upload_date": "2026-09-30 06:16:00",
+          "video_id": 1231608524,
+          "uri": "/videos/1231608524"
+        }
+      }
+    },
+    {
+      "url": "https://vimeo.com/1051942574",
+      "type": "video",
+      "listings": [
+        {
+          "id": "palm-view-amazing-2br-layout-must-be-viewed",
+          "title": "Palm View | Amazing 2BR+ Layout | Must be Viewed",
+          "purpose": "buy",
+          "sourceUrl": "https://www.luxuryresidences.com/properties/palm-view-amazing-2br-layout-must-be-viewed"
+        }
+      ],
+      "httpCheck": {
+        "requestUrl": "https://vimeo.com/api/oembed.json?url=https%3A%2F%2Fvimeo.com%2F1051942574",
+        "status": 200,
+        "resolvedUrl": "https://vimeo.com/api/oembed.json?url=https%3A%2F%2Fvimeo.com%2F1051942574",
+        "contentType": "application/json",
+        "contentLength": "3266",
+        "metadata": {
+          "type": "video",
+          "version": "1.0",
+          "provider_name": "Vimeo",
+          "provider_url": "https://vimeo.com/",
+          "title": "Palm and Skyline view | Best Layout | Great Deal",
+          "author_name": "Luxury Residences",
+          "author_url": "https://vimeo.com/user193263069",
+          "is_plus": "0",
+          "account_type": "advanced",
+          "width": 426,
+          "height": 240,
+          "duration": 121,
+          "description": "Luxury Residences are thrilled to market this fabulously presented 2 bedroom + maids room private residence within the next iconic building of Dubai located upon the globally renowned Palm Jumeirah.\n\nOffering spectacular views over the Palm and Dubai Skyline this is a truly unique one-of-a-kind opportunity in the market. The property is a credit to the current Owner who has exquisitely decorated and fully furnished this sublime property to an impeccable level.\n\nThis apartment not only offers the best 2BR layout with four windows facing the Palm View but also resides in the highly coveted Tower 1, known for its quick access to the hotel lobby and a pleasant view from the 7th floor. The apartment number, by no coincidence, sums up to the \"Lucky No. 8.\" \n\nThe property comes fitted with the finest materials such as Italian marble floors and bathroom fittings, top of the range German kitchens and Gaggenau appliances, opulent high ceilings, and fabulously designed indoor-outdoor living spaces that compliment the incredible panoramic views. In addition, the property is one of the first to of been recently upgraded with the latest sustainability improvements to give you the lowest running costs and perfect temperature control.  \n\nFurther benefiting from world-class resort amenities such as multiple celebrity chef restaurants, a private resort beachfront, infinity sky pool plus fire and water fountains, this ultra exclusive destination provides the perfect place for discerning Buyers to call home.\n\n- 24/7 Concierge and Valet Service\n- Customizable À La Carte Services including housekeeping, laundry, nanny service, and in-room dining\n- Well-Equipped Gymnasium\n- SPA with Sauna & Steam Rooms\n- Private Beach and Tennis Court\n- Indoor and Outdoor Swimming Pools\n- Children’s Soft Play Area\n- Two Reserved Parking Spaces\n- Elegantly Upgraded & Fully Furnished to the Highest Standards\n\nPlease contact Luxury Residences today to arrange a private viewing!",
+          "thumbnail_url": "https://i.vimeocdn.com/video/1976836578-889459507bcc8338f3aa424c36f2ed75de978980704aa1d9e6aedad5c153ff75-d_295x166?region=us",
+          "thumbnail_width": 295,
+          "thumbnail_height": 166,
+          "thumbnail_url_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1976836578-889459507bcc8338f3aa424c36f2ed75de978980704aa1d9e6aedad5c153ff75-d_295x166%3Fregion%3Dus&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+          "upload_date": "2025-01-30 10:26:48",
+          "video_id": 1051942574,
+          "uri": "/videos/1051942574"
+        }
+      }
+    },
+    {
+      "url": "https://vimeo.com/1179156536?fl=pl&fe=sh",
+      "type": "video",
+      "listings": [
+        {
+          "id": "palm-view-duplex-bespoke-garden-home",
+          "title": "Palm View | Duplex Bespoke Garden Home",
+          "purpose": "buy",
+          "sourceUrl": "https://www.luxuryresidences.com/properties/palm-view-duplex-bespoke-garden-home"
+        }
+      ],
+      "httpCheck": {
+        "requestUrl": "https://vimeo.com/api/oembed.json?url=https%3A%2F%2Fvimeo.com%2F1179156536",
+        "status": 200,
+        "contentType": "application/json",
+        "metadata": {
+          "type": "video",
+          "version": "1.0",
+          "provider_name": "Vimeo",
+          "provider_url": "https://vimeo.com/",
+          "title": "Palm View | Duplex Bespoke Garden Home",
+          "author_name": "Luxury Residences",
+          "author_url": "https://vimeo.com/user193263069",
+          "is_plus": "0",
+          "account_type": "advanced",
+          "width": 426,
+          "height": 240,
+          "duration": 139,
+          "description": "One of one bespoke duplex garden home at The W Residences, Palm Jumeirah\n\nIt's a true privilege to present this exclusive six-bedroom duplex garden apartment within the acclaimed W Residences on The Palm Jumeirah. Elevated above the golden shores of the Western Crescent, offering views of the palm, beach, gardens and iconic Atlantis. \n\n- 6 bedrooms\n- 9 bathrooms\n- Staff quarters\n- Private garden\n- Private pool\n- Fully furnished turn key \n- Bespoke design \n- Brand new\n- Vacant\n- Internal area 12,014 sqft \n- Total area 18,525 sqft\n- Palm facing \n\nResidents enjoy a life-enhancing, hotel-inspired lifestyle with 24/7 service from both the neighbouring W Dubai - The Palm and an on-site residential team. Indulge in a host of private amenities and full access to the hotel's world-class offerings-from fine dining to wellness and leisure experiences.\n\nWith only 104 residences across eight grand mansions, this ultra-exclusive enclave is crafted for the discerning few. Every detail— from bespoke interiors to resort-style services—reflects a standard of living that is truly without equal.\n\nWelcome to your private sanctuary. Where iconic design meets unrivalled luxury. Get in touch for more information or a private viewing.",
+          "thumbnail_url": "https://i.vimeocdn.com/video/2140925107-8e4a0d19eb85a377bf7d577cea5c365740454435f872f8e954563938dd48cdd4-d_295x166?region=us",
+          "thumbnail_width": 295,
+          "thumbnail_height": 166,
+          "thumbnail_url_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F2140925107-8e4a0d19eb85a377bf7d577cea5c365740454435f872f8e954563938dd48cdd4-d_295x166%3Fregion%3Dus&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+          "upload_date": "2026-04-01 05:41:08",
+          "video_id": 1179156536,
+          "uri": "/videos/1179156536"
+        }
+      }
+    },
+    {
+      "url": "https://vimeo.com/1239845489?fl=pl&fe=sh",
+      "type": "video",
+      "listings": [
+        {
+          "id": "penthouse-style-with-skyline-views-at-golf-heights",
+          "title": "Penthouse Style | Skyline Views | Handover Q4 2026",
+          "purpose": "buy",
+          "sourceUrl": "https://www.luxuryresidences.com/properties/penthouse-style-with-skyline-views-at-golf-heights"
+        }
+      ],
+      "httpCheck": {
+        "requestUrl": "https://vimeo.com/api/oembed.json?url=https%3A%2F%2Fvimeo.com%2F1239845489",
+        "status": 200,
+        "contentType": "application/json",
+        "metadata": {
+          "type": "video",
+          "version": "1.0",
+          "provider_name": "Vimeo",
+          "provider_url": "https://vimeo.com/",
+          "title": "Penthouse | Golf and Skyline Views | Handover Now!",
+          "author_name": "Luxury Residences",
+          "author_url": "https://vimeo.com/user193263069",
+          "is_plus": "0",
+          "account_type": "advanced",
+          "width": 426,
+          "height": 240,
+          "duration": 64,
+          "description": "Experience sublime living at Golf Heights by Emaar — an exceptional new address in The Views, neighbouring the tranquil Greens community. This spacious 4-bedroom plus maid’s residence combines elegant design with floor-to-ceiling windows framing sweeping views over Dubai’s striking skyline.              \n       \nCrafted by Emaar Properties, a global leader renowned for world-class destinations such as Downtown Dubai anchored by the Burj Khalifa, the exclusive Emirates Hills and Dubai Hills Estate, and the upcoming Dubai Creek Harbour, Golf Heights continues the legacy of excellence that defines Emaar's communities.      \n      \nResidents will enjoy superb amenities including a temperature-controlled infinity pool with panoramic golf course views, state-of-the-art fitness centre, landscaped recreational decks, children’s play zones, shaded lounges, and secure covered parking. The building also offers elegant lobbies and 24-hour concierge services that elevate everyday living.  \n \nThe Views presents a truly strategic location — minutes from Sheikh Zayed Road and allowing effortless access across the city. The Palm Jumeirah, Dubai Marina, JBR, Business Bay, DIFC, and Downtown Dubai are all within a 15–30 minute drive, ensuring convenience without compromise.\n\nWith handover approaching soon, this residence offers the rare opportunity to secure your place in one of Dubai’s most anticipated new towers — a sanctuary of space, light, and modern sophistication that feels truly penthouse-inspired.\n\nWe are now inviting expressions of interest for this exclusive residence. \n\nFurther details are available upon request.",
+          "thumbnail_url": "https://i.vimeocdn.com/video/2217494411-5c065c2c81f489a9de0799f7b8e39b58b5bc06491f5ad836106c79beacdd2f6b-d_295x166?region=us",
+          "thumbnail_width": 295,
+          "thumbnail_height": 166,
+          "thumbnail_url_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F2217494411-5c065c2c81f489a9de0799f7b8e39b58b5bc06491f5ad836106c79beacdd2f6b-d_295x166%3Fregion%3Dus&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+          "upload_date": "2026-10-27 09:25:20",
+          "video_id": 1239845489,
+          "uri": "/videos/1239845489"
+        }
+      }
+    },
+    {
+      "url": "https://vimeo.com/1206495560?share=copy&fl=sv&fe=ci",
+      "type": "video",
+      "listings": [
+        {
+          "id": "private-pool-furnished-spacious-terrace",
+          "title": "Private Pool | Furnished | Spacious Terrace",
+          "purpose": "rent",
+          "sourceUrl": "https://www.luxuryresidences.com/properties/private-pool-furnished-spacious-terrace"
+        }
+      ],
+      "httpCheck": {
+        "requestUrl": "https://vimeo.com/api/oembed.json?url=https%3A%2F%2Fvimeo.com%2F1206495560",
+        "status": 200,
+        "contentType": "application/json",
+        "metadata": {
+          "type": "video",
+          "version": "1.0",
+          "provider_name": "Vimeo",
+          "provider_url": "https://vimeo.com/",
+          "title": "Private Pool | Furnished | Spacious Terrace",
+          "author_name": "Luxury Residences",
+          "author_url": "https://vimeo.com/user193263069",
+          "is_plus": "0",
+          "account_type": "advanced",
+          "width": 426,
+          "height": 240,
+          "duration": 47,
+          "description": "3BR Luxury Apartment for Rent | Private Pool & Beach Access | JBR\n\nDiscover luxury beachfront living at Sensoria by FIVE, JBR, with this exceptional 3-bedroom residence featuring a private swimming pool, a spacious terrace, and stunning panoramic views of JBR Beach and Bluewaters Island.\n\nDesigned for comfort and upscale living, this residence combines elegant interiors, premium finishes, and exclusive resort-style amenities in one of Dubai’s most desirable waterfront locations.\n\nProperty Features:\n\n- 3 Bedrooms\n- Private Terrace with Swimming Pool\n- Panoramic Sea and Bluewaters Island Views\n- Exclusive Private Beach Access\n- Premium Interiors and High-Quality Finishes\n- French and Japanese Restaurants Within the Development\n- Walking Distance to The Walk at JBR\n\nPrime JBR Location\n\nEnjoy direct access to beachfront living, world-class dining, and the vibrant lifestyle of The Walk at JBR, all within an exclusive residential development.\n\nIdeal for tenants seeking a luxury waterfront home with privacy, premium amenities, and a resort-style lifestyle in Dubai.\n\nContact us today to arrange a private viewing.",
+          "thumbnail_url": "https://i.vimeocdn.com/video/2175354508-60c2a4c2174d6b960575663ac3975c85737f30852d971a46fca7120ce54aa97a-d_295x166?region=us",
+          "thumbnail_width": 295,
+          "thumbnail_height": 166,
+          "thumbnail_url_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F2175354508-60c2a4c2174d6b960575663ac3975c85737f30852d971a46fca7120ce54aa97a-d_295x166%3Fregion%3Dus&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+          "upload_date": "2026-07-02 10:21:57",
+          "video_id": 1206495560,
+          "uri": "/videos/1206495560"
+        }
+      }
+    },
+    {
+      "url": "https://youtu.be/X8jdxDDto-E",
+      "type": "video",
+      "listings": [
+        {
+          "id": "rented-alternatives-available",
+          "title": "Rented | Alternatives Available",
+          "purpose": "rent",
+          "sourceUrl": "https://www.luxuryresidences.com/properties/rented-alternatives-available"
+        }
+      ],
+      "httpCheck": {
+        "requestUrl": "https://www.youtube.com/oembed?format=json&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DX8jdxDDto-E",
+        "status": 200,
+        "resolvedUrl": "https://www.youtube.com/oembed?format=json&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DX8jdxDDto-E",
+        "contentType": "application/json",
+        "contentLength": null,
+        "metadata": {
+          "title": "Three Bedroom Apartment, Atlantis The Royal Residences, Palm Jumeirah",
+          "author_name": "Luxury Residences",
+          "author_url": "https://www.youtube.com/@LuxuryResidences_",
+          "type": "video",
+          "height": 113,
+          "width": 200,
+          "version": "1.0",
+          "provider_name": "YouTube",
+          "provider_url": "https://www.youtube.com/",
+          "thumbnail_height": 360,
+          "thumbnail_width": 480,
+          "thumbnail_url": "https://i.ytimg.com/vi/X8jdxDDto-E/hqdefault.jpg"
+        }
+      }
+    },
+    {
+      "url": "https://youtu.be/3ggtB3bdDIQ",
+      "type": "video",
+      "listings": [
+        {
+          "id": "serenity-mansions-aurora",
+          "title": "Serenity Mansions Aurora",
+          "purpose": "buy",
+          "sourceUrl": "https://www.luxuryresidences.com/properties/serenity-mansions-aurora"
+        }
+      ],
+      "httpCheck": {
+        "requestUrl": "https://www.youtube.com/oembed?format=json&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D3ggtB3bdDIQ",
+        "status": 200,
+        "resolvedUrl": "https://www.youtube.com/oembed?format=json&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D3ggtB3bdDIQ",
+        "contentType": "application/json",
+        "contentLength": null,
+        "metadata": {
+          "title": "Serenity Mansions Aurora",
+          "author_name": "Luxury Residences",
+          "author_url": "https://www.youtube.com/@LuxuryResidences_",
+          "type": "video",
+          "height": 113,
+          "width": 200,
+          "version": "1.0",
+          "provider_name": "YouTube",
+          "provider_url": "https://www.youtube.com/",
+          "thumbnail_height": 360,
+          "thumbnail_width": 480,
+          "thumbnail_url": "https://i.ytimg.com/vi/3ggtB3bdDIQ/hqdefault.jpg"
+        }
+      }
+    },
+    {
+      "url": "https://youtu.be/JDN5g17B2m0",
+      "type": "video",
+      "listings": [
+        {
+          "id": "serenity-mansions-waterfront-collection",
+          "title": "Serenity Mansions Waterfront Collection",
+          "purpose": "buy",
+          "sourceUrl": "https://www.luxuryresidences.com/properties/serenity-mansions-waterfront-collection"
+        }
+      ],
+      "httpCheck": {
+        "requestUrl": "https://www.youtube.com/oembed?format=json&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DJDN5g17B2m0",
+        "status": 200,
+        "resolvedUrl": "https://www.youtube.com/oembed?format=json&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DJDN5g17B2m0",
+        "contentType": "application/json",
+        "contentLength": null,
+        "metadata": {
+          "title": "Serenity Mansions Waterfront Collection",
+          "author_name": "Luxury Residences",
+          "author_url": "https://www.youtube.com/@LuxuryResidences_",
+          "type": "video",
+          "height": 113,
+          "width": 200,
+          "version": "1.0",
+          "provider_name": "YouTube",
+          "provider_url": "https://www.youtube.com/",
+          "thumbnail_height": 360,
+          "thumbnail_width": 480,
+          "thumbnail_url": "https://i.ytimg.com/vi/JDN5g17B2m0/hqdefault.jpg"
+        }
+      }
+    },
+    {
+      "url": "https://youtu.be/xmJHnthsgTs",
+      "type": "video",
+      "listings": [
+        {
+          "id": "six-senses-residences-dubai-marina",
+          "title": "Six Senses Residences Dubai Marina",
+          "purpose": "buy",
+          "sourceUrl": "https://www.luxuryresidences.com/properties/six-senses-residences-dubai-marina"
+        }
+      ],
+      "httpCheck": {
+        "requestUrl": "https://www.youtube.com/oembed?format=json&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DxmJHnthsgTs",
+        "status": 200,
+        "resolvedUrl": "https://www.youtube.com/oembed?format=json&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DxmJHnthsgTs",
+        "contentType": "application/json",
+        "contentLength": null,
+        "metadata": {
+          "title": "Six Senses Residences Dubai Marina",
+          "author_name": "Luxury Residences",
+          "author_url": "https://www.youtube.com/@LuxuryResidences_",
+          "type": "video",
+          "height": 113,
+          "width": 200,
+          "version": "1.0",
+          "provider_name": "YouTube",
+          "provider_url": "https://www.youtube.com/",
+          "thumbnail_height": 360,
+          "thumbnail_width": 480,
+          "thumbnail_url": "https://i.ytimg.com/vi/xmJHnthsgTs/hqdefault.jpg"
+        }
+      }
+    },
+    {
+      "url": "https://vimeo.com/1202125850?share=copy&fl=sv&fe=ci",
+      "type": "video",
+      "listings": [
+        {
+          "id": "stunning-4br-amazing-bmv-price-move-in-ready",
+          "title": "Stunning 4BR | Amazing BMV Price | Move-In Ready",
+          "purpose": "rent",
+          "sourceUrl": "https://www.luxuryresidences.com/properties/stunning-4br-amazing-bmv-price-move-in-ready"
+        }
+      ],
+      "httpCheck": {
+        "requestUrl": "https://vimeo.com/api/oembed.json?url=https%3A%2F%2Fvimeo.com%2F1202125850",
+        "status": 200,
+        "contentType": "application/json",
+        "metadata": {
+          "type": "video",
+          "version": "1.0",
+          "provider_name": "Vimeo",
+          "provider_url": "https://vimeo.com/",
+          "title": "Stunning 4BR | Amazing BMV Price | Move-In Ready",
+          "author_name": "Luxury Residences",
+          "author_url": "https://vimeo.com/user193263069",
+          "is_plus": "0",
+          "account_type": "advanced",
+          "width": 426,
+          "height": 240,
+          "duration": 68,
+          "description": "Luxury Residences, the leading sales and rental agency for Atlantis, The Royal, and its former developer sales team, is pleased to present an extraordinary opportunity to lease a bespoke Signature Residence in Dubai's most iconic global landmark on the Palm Jumeirah.\n\nPROPERTY OVERVIEW:\n\nSize: 4,129 sqft (384 sqm)\nLayout: 4 Bedrooms plus Maid's Room\nCondition: Fully Furnished and Vacant\nViews: Uninterrupted Palm, Dubai Skyline, Sea, and Sunset\n\nSpanning a remarkably spacious 4,129 sqft, this fully furnished trophy home is vacant and ready for immediate occupancy. Priced exceptionally well below recent comparable transactions, this is a highly time-sensitive opportunity to secure a premier residence.\n\nEXCLUSIVE RESIDENT AMENITIES:\n\nExperience a lifestyle curated for the most discerning elite, complete with a preferential 30 percent resident discount across the entire resort.\n\nLeisure and Outdoors: Private beachfront access, exclusive indoor and outdoor pools, air-conditioned cabanas, outdoor kitchen and BBQ facilities, private gardens, a tennis court, and a dedicated children's play area.\n\nWellness and Retreat: State-of-the-art Technogym fitness suite, luxurious spa, sauna, and steam room.\n\nService and Entertainment: Round-the-clock white-glove service, dedicated concierge, valet parking, private resident lounge, and an exclusive library.\n\nMICHELIN-STARRED CULINARY EXCELLENCE:\n\nPositioned mere moments from world-renowned gastronomy, residents enjoy premier access to a curated collection of celebrity chef venues:\n\nDinner by Heston Blumenthal\nJaleo by Jose Andres\nAriana's Persian Kitchen\nLa Mar by Gaston Acurio\nEstiatorio Milos\nNobu by the Beach\nLing Ling\nCarbone (The spectacular new addition, fresh from New York)\n\nContact Luxury Residences today for more details and a private showing!\nWords simply cannot do this property justice. A viewing is strictly essential to fully appreciate the incredible value, uncompromising quality, and prestige of this home.",
+          "thumbnail_url": "https://i.vimeocdn.com/video/2175351470-a0a61331c006e8c8a4330f0691ae8eef85fc07df700d1074d90dbc6213cc4f8c-d_295x166?region=us",
+          "thumbnail_width": 295,
+          "thumbnail_height": 166,
+          "thumbnail_url_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F2175351470-a0a61331c006e8c8a4330f0691ae8eef85fc07df700d1074d90dbc6213cc4f8c-d_295x166%3Fregion%3Dus&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+          "upload_date": "2026-06-17 08:32:23",
+          "video_id": 1202125850,
+          "uri": "/videos/1202125850"
+        }
+      }
+    },
+    {
+      "url": "https://vimeo.com/1113165710?fl=pl&fe=sh",
+      "type": "video",
+      "listings": [
+        {
+          "id": "stunning-upgrade-luxury-villa-golf-course-view",
+          "title": "Stunning Upgrade | Luxury Villa | Golf Course View",
+          "purpose": "buy",
+          "sourceUrl": "https://www.luxuryresidences.com/properties/stunning-upgrade-luxury-villa-golf-course-view"
+        }
+      ],
+      "httpCheck": {
+        "requestUrl": "https://vimeo.com/api/oembed.json?url=https%3A%2F%2Fvimeo.com%2F1113165710",
+        "status": 200,
+        "contentType": "application/json",
+        "metadata": {
+          "type": "video",
+          "version": "1.0",
+          "provider_name": "Vimeo",
+          "provider_url": "https://vimeo.com/",
+          "title": "Stunning Upgrade | Luxury Villa | Golf Course View",
+          "author_name": "Luxury Residences",
+          "author_url": "https://vimeo.com/user193263069",
+          "is_plus": "0",
+          "account_type": "advanced",
+          "width": 426,
+          "height": 240,
+          "duration": 167,
+          "description": "Luxury Residences are thrilled to exclusively market this property and welcome expressions of interest from serious clients at the earliest to avoid missing out.\n\nLocated directly on the Golf Course with an expansive corner plot adjoining the park, this prestigious Fairways Vista B4 type modern villa is one of the very best homes available in the highly sought after Dubai Hills Estate.\n\nIn detail, this exceptional property has been fully renovated by the acclaimed contractor BCI and comes fully furnished to a style and high standard that wonderfully compliments the residence and is rarely seen within Dubai.\n\nCurrently modelled as a 6-bedroom but with scope to return to 7, this property truly is best-in-class and needs to be viewed to be fully appreciated.\n\nOffering panoramic views across the lush 18-hol championship golf course operated by Troon, and with floor to ceiling windows throughout that bask the living areas with natural light, the home provides a real sense of space and tranquility for the residents to enjoy.\n\nThe attention to detail is second-to-none and no expense has been spared with the fit-out and ongoing maintenance of this exquisite \"mini-mansion\".\n\nFurthermore, there is an incredible private garden with huge swimming pool, sunken fire-pit, BBQ and green lawn.\n\nAdd to this that Dubai Hills Estate has established itself as one of the most in-demand family home locations due to the fantastic master plan expertly delivered by Emaar that includes Dubai Hills Mall, King's College School and Hospital, Central Park, Golf Course, plus incredible strategic location just 10 - 15 minutes from hotspots including Downtown, DIFC, Dubai Marina and JBR.\n\n- 6 Beds (Can convert back to 7BR)\n- 7 Bathrooms\n- 10,000 BUA\n- 16,000 Plot\n- Maids & Drivers Room\n- Direct Golf Course Facing\n- Corner Plot adjoining the park\n- Elevator to all floors\n- Private Pool\n- Sunken Fire Pit\n- Pergola & BBQ Area\n\nPlease get in touch for private viewing!",
+          "thumbnail_url": "https://i.vimeocdn.com/video/2051604735-b4f86f9f9c5106cf0b966bb64385505b8ef9a48c4ae563b3f5ad1d10c26bf497-d_295x166?region=us",
+          "thumbnail_width": 295,
+          "thumbnail_height": 166,
+          "thumbnail_url_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F2051604735-b4f86f9f9c5106cf0b966bb64385505b8ef9a48c4ae563b3f5ad1d10c26bf497-d_295x166%3Fregion%3Dus&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+          "upload_date": "2025-08-26 05:14:52",
+          "video_id": 1113165710,
+          "uri": "/videos/1113165710"
+        }
+      }
+    },
+    {
+      "url": "https://vimeo.com/1103450266?share=copy&fl=sv&fe=ci",
+      "type": "video",
+      "listings": [
+        {
+          "id": "sublime-sea-views-iconic-living",
+          "title": "2BR High-Floor | Full Sea View | Vacant",
+          "purpose": "rent",
+          "sourceUrl": "https://www.luxuryresidences.com/properties/sublime-sea-views-iconic-living"
+        }
+      ],
+      "httpCheck": {
+        "requestUrl": "https://vimeo.com/api/oembed.json?url=https%3A%2F%2Fvimeo.com%2F1103450266",
+        "status": 200,
+        "contentType": "application/json",
+        "metadata": {
+          "type": "video",
+          "version": "1.0",
+          "provider_name": "Vimeo",
+          "provider_url": "https://vimeo.com/",
+          "title": "2BR High-Floor | Full Sea View | Vacant",
+          "author_name": "Luxury Residences",
+          "author_url": "https://vimeo.com/user193263069",
+          "is_plus": "0",
+          "account_type": "advanced",
+          "width": 426,
+          "height": 240,
+          "duration": 56,
+          "description": "Luxury Residences, the #1 sales and leasing agency for the iconic Atlantis The Royal Residences on the Palm Jumeirah, Dubai, is delighted to present this fabulous opportunity to lease a two-bedroom, fully fitted, high-floor private home within this landmark development.\n‍\nThe residence boasts Italian marble flooring to the kitchen and living areas, floor-to-ceiling marble and Italian fittings within the bathrooms, and a German kitchen fitted with Gaggenau appliances, all complemented by premium finishing throughout.\n‍\nFull sea views across the Gulf deliver incredible sunsets from this exceptional home!\n‍\nAvailable for immediate move-in, this property is ready for its next discerning tenant.\n‍\nAtlantis The Royal is home to some of the finest culinary destinations in the region, with a who's who of Michelin-starred and celebrity chefs, including:\n‍\n\nEstiatorio Milos\nNobu\nDinner by Heston Blumenthal\nCarbone\nLing Ling by Hakkasan\nJaleo by Jose Andres\n\n‍\nResidents further enjoy private beachfront access, outdoor swimming pools, a tennis court, a soon-to-be-delivered padel court, and private gardens. Internally, residents have access to a lap pool, sauna and steam room, spa treatment room, lounge, library, and business and multifunction rooms, among many other exceptional amenities. Residents also benefit from a 30% discount across the hotel resort.\n‍\nWe expect high demand for this standout property, so please inquire with the team without delay to confirm a private viewing and request further information!\n‍",
+          "thumbnail_url": "https://i.vimeocdn.com/video/2039467866-a6b8c1c2e1334aef677619337238e3d691315d72b141a3eded622831d81be671-d_295x166?region=us",
+          "thumbnail_width": 295,
+          "thumbnail_height": 166,
+          "thumbnail_url_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F2039467866-a6b8c1c2e1334aef677619337238e3d691315d72b141a3eded622831d81be671-d_295x166%3Fregion%3Dus&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+          "upload_date": "2025-07-22 08:35:42",
+          "video_id": 1103450266,
+          "uri": "/videos/1103450266"
+        }
+      }
+    },
+    {
+      "url": "https://youtu.be/H0ucG2UFsj4",
+      "type": "video",
+      "listings": [
+        {
+          "id": "super-rare-huge-terrace-furnished-1-agency",
+          "title": "Super Rare Huge Terrace | Furnished | #1 Agency",
+          "purpose": "buy",
+          "sourceUrl": "https://www.luxuryresidences.com/properties/super-rare-huge-terrace-furnished-1-agency"
+        }
+      ],
+      "httpCheck": {
+        "requestUrl": "https://www.youtube.com/oembed?format=json&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DH0ucG2UFsj4",
+        "status": 200,
+        "resolvedUrl": "https://www.youtube.com/oembed?format=json&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DH0ucG2UFsj4",
+        "contentType": "application/json",
+        "contentLength": null,
+        "metadata": {
+          "title": "Furnished Three Bedroom Apartment in Atlantis The Royal Residences",
+          "author_name": "Luxury Residences",
+          "author_url": "https://www.youtube.com/@LuxuryResidences_",
+          "type": "video",
+          "height": 113,
+          "width": 200,
+          "version": "1.0",
+          "provider_name": "YouTube",
+          "provider_url": "https://www.youtube.com/",
+          "thumbnail_height": 360,
+          "thumbnail_width": 480,
+          "thumbnail_url": "https://i.ytimg.com/vi/H0ucG2UFsj4/hqdefault.jpg"
+        }
+      }
+    },
+    {
+      "url": "https://vimeo.com/1105423788?share=copy#t=56.904",
+      "type": "video",
+      "listings": [
+        {
+          "id": "timeless-elegance-awaits-at-palazzo-versace-dubai",
+          "title": "Timeless Elegance Awaits at Palazzo Versace Dubai",
+          "purpose": "buy",
+          "sourceUrl": "https://www.luxuryresidences.com/properties/timeless-elegance-awaits-at-palazzo-versace-dubai"
+        }
+      ],
+      "httpCheck": {
+        "requestUrl": "https://vimeo.com/api/oembed.json?url=https%3A%2F%2Fvimeo.com%2F1105423788",
+        "status": 200,
+        "contentType": "application/json",
+        "metadata": {
+          "type": "video",
+          "version": "1.0",
+          "provider_name": "Vimeo",
+          "provider_url": "https://vimeo.com/",
+          "title": "Timeless Elegance Awaits at Palazzo Versace Dubai",
+          "author_name": "Luxury Residences",
+          "author_url": "https://vimeo.com/user193263069",
+          "is_plus": "0",
+          "account_type": "advanced",
+          "width": 426,
+          "height": 240,
+          "duration": 66,
+          "description": "Discover where classic sophistication meets contemporary grandeur in this fully 2-bedroom residence at Palazzo Versace Dubai—an icon of luxury, craftsmanship, and style.\n‍\nResidence Features:\n\n2 lavish bedrooms with private en-suite bathrooms\nPrivate balcony with panoramic views of Dubai Creek or landscaped gardens\nGourmet, fully equipped kitchen with modern appliances\nBright open-plan living and dining areas with floor-to-ceiling windows\nPremium branded furnishings and elegant decor inspired by the Versace Home Collection\nHigh-quality marble and parquet flooring\nBuilt-in wardrobes and ample storage\n\n‍\nExclusive Amenities:\n\n5-star concierge and valet services\nResort-style pools, landscaped gardens, sun decks\nState-of-the-art gym and wellness center\nSignature restaurants, bars, and cafés on site\nSecure covered parking and 24/7 security\nDirect access to Dubai Creek promenade\n\n‍\nPrime Location:\n\nNestled in Al Jadaf Waterfront, Culture Village—between Downtown Dubai, Dubai Creek and Dubai International Airport\nClose to top schools, luxury malls, and healthcare facilities\nEasy access to highways and public transit\n\n‍\nOwn a residence where bespoke Italian artistry and world-class hospitality define a lifestyle of unparalleled luxury. Palazzo Versace Dubai is more than a home—it’s a statement of refined living.\n‍\nContact us today to experience the grandeur of Palazzo Versace living!",
+          "thumbnail_url": "https://i.vimeocdn.com/video/2041939144-170b9975f270c38be9daa9cfc204513efda923cbfda85efb6d49803a8d5ad300-d_295x166?region=us",
+          "thumbnail_width": 295,
+          "thumbnail_height": 166,
+          "thumbnail_url_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F2041939144-170b9975f270c38be9daa9cfc204513efda923cbfda85efb6d49803a8d5ad300-d_295x166%3Fregion%3Dus&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+          "upload_date": "2025-07-29 07:33:18",
+          "video_id": 1105423788,
+          "uri": "/videos/1105423788"
+        }
+      }
+    },
+    {
+      "url": "https://vimeo.com/1194050917?share=copy&fl=sv&fe=ci",
+      "type": "video",
+      "listings": [
+        {
+          "id": "trophy-4br-garden-suite-with-private-pool",
+          "title": "Ultimate Trophy 4BR Garden Suite with Private Pool",
+          "purpose": "buy",
+          "sourceUrl": "https://www.luxuryresidences.com/properties/trophy-4br-garden-suite-with-private-pool"
+        }
+      ],
+      "httpCheck": {
+        "requestUrl": "https://vimeo.com/api/oembed.json?url=https%3A%2F%2Fvimeo.com%2F1194050917",
+        "status": 200,
+        "contentType": "application/json",
+        "metadata": {
+          "type": "video",
+          "version": "1.0",
+          "provider_name": "Vimeo",
+          "provider_url": "https://vimeo.com/",
+          "title": "Trophy 4BR Garden Suite with Private Pool",
+          "author_name": "Luxury Residences",
+          "author_url": "https://vimeo.com/user193263069",
+          "is_plus": "0",
+          "account_type": "advanced",
+          "width": 426,
+          "height": 240,
+          "duration": 84,
+          "description": "The Ultimate Trophy Asset: Exclusive Four Bedroom Pool Townhouse at Atlantis, The Royal\n\nLuxury Residences presents a generational opportunity at Atlantis, The Royal Residences, Palm Jumeirah. Bridging the scale of a private villa with the limitless benefits of a five-star destination, this private home represents one of the rarest configurations in the entire resort.\n\nUnrivaled Grandeur & Design: \n\nSpanning two floors, this lavish statement home features an expansive 7,012 sq. ft. (651 sq. m.) of living space and terraces with soaring 4-meter ceilings. Offered in brand-new, never-lived-in condition, the interiors are cloaked in beautifully finished Italian marble. The residence boasts a top-of-the-line German kitchen with Gaggenau appliances, four dedicated parking spaces, and a private internal elevator.\n\nAn Exclusive Outdoor Oasis: \n\nStep outside to a phenomenal 8,000 sq. ft. (743 sq. m.) private garden sanctuary. Complete with your own swimming pool, this sprawling outdoor space offers direct, privileged access to the resort’s lush gardens, main pools, and pristine beachfront.\n\nWorld-Class Resident Amenities & Services: \n\nLive without compromise. Residents enjoy a lifestyle of absolute privilege with exclusive access to:\n\nBespoke Services: Dedicated valet, concierge, resident lounge, library, and business suites.\n\nWellness Facilities: An indoor lap pool, sauna, steam rooms, spa treatment room, and a serene Zen garden.\n\nActive Recreation: A state-of-the-art, Technogym-equipped fitness suite and a private tennis court.\n\nOutdoor Leisure: Outdoor pools with air-conditioned cabanas, plus a dedicated outdoor kitchen, BBQ, and entertainment area.\n\nExclusive Grounds: A private residents' beachfront, manicured gardens, and a children's play area.\n\nÀ La Carte Hotel Services: Housekeeping, laundry, and in-home room service.\n\nBrought to you by Luxury Residences, the #1 sales and leasing expert for the project and former developer sales team.",
+          "thumbnail_url": "https://i.vimeocdn.com/video/2166280203-3c603f62ede753cac6589654e92096f73ca77e37db205f34497db322239e2471-d_295x166?region=us",
+          "thumbnail_width": 295,
+          "thumbnail_height": 166,
+          "thumbnail_url_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F2166280203-3c603f62ede753cac6589654e92096f73ca77e37db205f34497db322239e2471-d_295x166%3Fregion%3Dus&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+          "upload_date": "2026-05-20 11:09:26",
+          "video_id": 1194050917,
+          "uri": "/videos/1194050917"
+        }
+      }
+    },
+    {
+      "url": "https://vimeo.com/1206431739?share=copy&fl=sv&fe=ci",
+      "type": "video",
+      "listings": [
+        {
+          "id": "ultra-high-floor-one-of-a-kind-upgraded-residence",
+          "title": "Ultra High Floor One-Of-A-Kind Upgraded Residence",
+          "purpose": "rent",
+          "sourceUrl": "https://www.luxuryresidences.com/properties/ultra-high-floor-one-of-a-kind-upgraded-residence"
+        }
+      ],
+      "httpCheck": {
+        "requestUrl": "https://vimeo.com/api/oembed.json?url=https%3A%2F%2Fvimeo.com%2F1206431739",
+        "status": 200,
+        "contentType": "application/json",
+        "metadata": {
+          "type": "video",
+          "version": "1.0",
+          "provider_name": "Vimeo",
+          "provider_url": "https://vimeo.com/",
+          "title": "Ultra High Floor One-Of-A-Kind Upgraded Residence",
+          "author_name": "Luxury Residences",
+          "author_url": "https://vimeo.com/user193263069",
+          "is_plus": "0",
+          "account_type": "advanced",
+          "width": 426,
+          "height": 240,
+          "duration": 59,
+          "description": "Luxury Residences — the market's number one sales and leasing expert for the iconic Atlantis, The Royal Residences, and former developer sales team — cordially invite expressions of rental interest for this exemplary 4-bedroom + maid's signature residence, positioned on one of the very highest floors with commanding views across the Arabian Gulf, Palm Jumeirah, and the Dubai skyline.\n\nThis one-of-a-kind private home is available immediately and has been masterfully curated for a discerning tenant who demands the very best. Fully furnished and decorated to a luxurious and stylish design, with an ultra-exclusive demeanour, we highly recommend private viewings to fully appreciate this magnificent property.\n\nAtlantis, The Royal also offers a lifestyle beyond comparison. Residents also enjoy within a dedicated wing:\n\nPrivate indoor and outdoor swimming pools\nPrivate beachfront, cabanas, and BBQ/outdoor kitchen\nTennis and padel courts\nChildren's play area\nTechnogym fitness suite, sauna and steam rooms\nSpa treatment room\nBusiness meeting rooms, lounge and library\n24/7 concierge, security and valet\nÀ la carte service including housekeeping, laundry and in-home dining\n\nOffering the best of both worlds, crossing to the hotel reveals a world-class resort complete with:\n\nMichelin-starred and celebrity-chef dining, including Nobu by the Beach, Carbone, Estiatorio Milos by Costas Spiliadis, and Dinner by Heston Blumenthal\nA phenomenal day spa\nHigh-fashion and fine jewellery boutiques, including Louis Vuitton, Valentino, Graff and Dolce & Gabbana\nMesmerising fire and water dancing fountains\nBlack Tier level membership, offering 30% discount across the resort\n\nPlease do not delay on this excellent opportunity to enter this distinguished address, within one of the most sought-after residences of its kind.\n\nContact the private client team at Luxury Residences to request further details and arrange a private showcasing!",
+          "thumbnail_url": "https://i.vimeocdn.com/video/2175331243-7d23e70c712d83cd3c69568961c2f5ef18ae3015a86f5024c1e645383a97b75b-d_295x166?region=us",
+          "thumbnail_width": 295,
+          "thumbnail_height": 166,
+          "thumbnail_url_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F2175331243-7d23e70c712d83cd3c69568961c2f5ef18ae3015a86f5024c1e645383a97b75b-d_295x166%3Fregion%3Dus&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+          "upload_date": "2026-07-02 06:33:20",
+          "video_id": 1206431739,
+          "uri": "/videos/1206431739"
+        }
+      }
+    },
+    {
+      "url": "https://vimeo.com/1217902234?fl=tl&fe=ec",
+      "type": "video",
+      "listings": [
+        {
+          "id": "unique-duplex-breath-taking-sea-view",
+          "title": "3BR Duplex Loft | Amazing Upgrade | Must-be-Viewed",
+          "purpose": "buy",
+          "sourceUrl": "https://www.luxuryresidences.com/properties/unique-duplex-breath-taking-sea-view"
+        }
+      ],
+      "httpCheck": {
+        "requestUrl": "https://vimeo.com/api/oembed.json?url=https%3A%2F%2Fvimeo.com%2F1217902234",
+        "status": 200,
+        "contentType": "application/json",
+        "metadata": {
+          "type": "video",
+          "version": "1.0",
+          "provider_name": "Vimeo",
+          "provider_url": "https://vimeo.com/",
+          "title": "Unique Duplex | Breath-taking Sea View",
+          "author_name": "Luxury Residences",
+          "author_url": "https://vimeo.com/user193263069",
+          "is_plus": "0",
+          "account_type": "advanced",
+          "width": 426,
+          "height": 240,
+          "duration": 52,
+          "description": "Discover a truly exceptional upgraded duplex apartment, designed for those who appreciate space, style, and strong investment potential.\n\nSet on a high floor, this remarkable 2-bedroom loft features a rare double-height ceiling of approximately 7 metres, creating an impressive sense of volume, natural light, and openness from the moment you step inside.\n\nThe residence is fully furnished with carefully curated designer pieces and boasts a distinctive layout that sets it apart from conventional units on the market. Every detail has been thoughtfully considered to create a sophisticated, contemporary, and completely move-in-ready home.\n\nProperty Features:\n\n- Upgraded duplex apartment\n- Unique and highly desirable layout\n- 160 sqm / 1,724 sqft\n- High floor with stunning Palm and Ain views\n- Fully furnished with designer furniture\n- Approx. 7-metre double-height ceiling\n- Bright and spacious living areas\n- 2 dedicated parking spaces\n- Excellent rental potential\n\nWhether you are an investor seeking a high-performing rental asset or an end user looking for a stylish home with character, impressive volume, and a layout rarely found in Dubai, this property presents an exceptional opportunity.\n\nA truly standout residence that combines architectural character, generous space, exceptional views, and strong long-term value.\n\nContact us today to arrange a private viewing.",
+          "thumbnail_url": "https://i.vimeocdn.com/video/2189701890-ccb734e6a37e4a6b22c79ea2238a224ea9b83ec0d4904667df164fdea1c4452c-d_295x166?region=us",
+          "thumbnail_width": 295,
+          "thumbnail_height": 166,
+          "thumbnail_url_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F2189701890-ccb734e6a37e4a6b22c79ea2238a224ea9b83ec0d4904667df164fdea1c4452c-d_295x166%3Fregion%3Dus&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+          "upload_date": "2026-08-13 04:43:24",
+          "video_id": 1217902234,
+          "uri": "/videos/1217902234"
+        }
+      }
+    },
+    {
+      "url": "https://vimeo.com/1233732964?fl=pl&fe=sh",
+      "type": "video",
+      "listings": [
+        {
+          "id": "upgraded-2br-marina-view-investor-deal",
+          "title": "UPGRADED 2BR | MARINA VIEW | INVESTOR DEAL",
+          "purpose": "buy",
+          "sourceUrl": "https://www.luxuryresidences.com/properties/upgraded-2br-marina-view-investor-deal"
+        }
+      ],
+      "httpCheck": {
+        "requestUrl": "https://vimeo.com/api/oembed.json?url=https%3A%2F%2Fvimeo.com%2F1233732964",
+        "status": 200,
+        "contentType": "application/json",
+        "metadata": {
+          "type": "video",
+          "version": "1.0",
+          "provider_name": "Vimeo",
+          "provider_url": "https://vimeo.com/",
+          "title": "UPGRADED 2BR | MARINA VIEW | INVESTOR DEAL",
+          "author_name": "Luxury Residences",
+          "author_url": "https://vimeo.com/user193263069",
+          "is_plus": "0",
+          "account_type": "advanced",
+          "width": 426,
+          "height": 240,
+          "duration": 55,
+          "description": "A rare opportunity to own a beautifully upgraded 2-bedroom apartment in the heart of Emaar Beachfront, offering spectacular straight-on views of Dubai Marina from a high floor.\n\nFully furnished and presented in excellent condition, this apartment combines a modern coastal lifestyle with strong investment potential. The spacious layout, contemporary interiors and impressive Marina skyline views make it equally attractive as a private residence, holiday home or high-demand rental investment.\n\nProperty Features:\n- 2 Bedrooms; 2 Bathroom \n- Stunning straight Dubai Marina view\n- High floor\n- Fully furnished\n- Upgraded interiors and premium kitchen appliances \n- Vacant on transfer\n- Modern, spacious layout\n- 1 dedicated parking space on M floor\n- Excellent investment opportunity\n\nCity Live by the Beach\n\nEmaar Beachfront is one of Dubai’s most desirable waterfront communities, perfectly positioned between Dubai Marina and Palm Jumeirah. Residents enjoy a relaxed beachfront lifestyle while remaining just minutes away from the city’s key destinations.\n\nWake up by the sea, spend your days on the beach and enjoy Dubai Marina’s iconic skyline from the comfort of your own home.\n\nWith its prime location, modern community, beach access and strong appeal to both residents and holidaymakers, this property represents an excellent opportunity for an investor or end user looking for a premium home on Dubai’s coastline.\n\nVacant on transfer and ready for its new owner.\n\nContact us today to arrange a private viewing.",
+          "thumbnail_url": "https://i.vimeocdn.com/video/2209482084-4e7eabd0d89e7e7690c87bc680267ed9a19fcdc12fafb73aa0fdd5b4cda4dbcd-d_295x166?region=us",
+          "thumbnail_width": 295,
+          "thumbnail_height": 166,
+          "thumbnail_url_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F2209482084-4e7eabd0d89e7e7690c87bc680267ed9a19fcdc12fafb73aa0fdd5b4cda4dbcd-d_295x166%3Fregion%3Dus&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+          "upload_date": "2026-10-07 10:03:35",
+          "video_id": 1233732964,
+          "uri": "/videos/1233732964"
+        }
+      }
+    },
+    {
+      "url": "https://vimeo.com/1233740240?fl=pl&fe=sh",
+      "type": "video",
+      "listings": [
+        {
+          "id": "upgraded-vacant-furnished-viewing-essential",
+          "title": "Upgraded, Vacant & Furnished | Viewing Essential",
+          "purpose": "buy",
+          "sourceUrl": "https://www.luxuryresidences.com/properties/upgraded-vacant-furnished-viewing-essential"
+        }
+      ],
+      "httpCheck": {
+        "requestUrl": "https://vimeo.com/api/oembed.json?url=https%3A%2F%2Fvimeo.com%2F1233740240",
+        "status": 200,
+        "contentType": "application/json",
+        "metadata": {
+          "type": "video",
+          "version": "1.0",
+          "provider_name": "Vimeo",
+          "provider_url": "https://vimeo.com/",
+          "title": "Upgraded, Vacant & Furnished | Viewing Essential",
+          "author_name": "Luxury Residences",
+          "author_url": "https://vimeo.com/user193263069",
+          "is_plus": "0",
+          "account_type": "advanced",
+          "width": 426,
+          "height": 240,
+          "duration": 55,
+          "description": "Luxury Residences is delighted to share details of this fabulous investment opportunity for a recently renovated four-bedroom apartment within one of Dubai Marina's best-located complexes with immediate metro and marina boardwalk access. \n\nThis residence, which spans over 1,613 sqft (150 sqm), is the ideal home for a growing family or an investor looking to profit from a high-yielding long- or short-term rental investment.\n\nKey features:\n\n- Four generously sized bedrooms\n- Multiple bathroom suites\n- Spacious, open-plan living, dining and kitchen area\n- Upgraded terrace with Marina views\n- Delivered in very good condition\n- Vacant and fully furnished\n\nThis opportunity offers a phenomenal value proposition for a property of this size, condition, location and price point - a combination that is not commonplace to find. Expressions of interest without delay are warmly invited.\n\nLuxury Residences looks forward to hearing from you to arrange your own private viewing by appointment, and to share further details upon request!",
+          "thumbnail_url": "https://i.vimeocdn.com/video/2209492263-3464663bc3ffb4ddedab135b41c1fe1fb26b16aeb2d1dc855301f2e1dfc93604-d_295x166?region=us",
+          "thumbnail_width": 295,
+          "thumbnail_height": 166,
+          "thumbnail_url_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F2209492263-3464663bc3ffb4ddedab135b41c1fe1fb26b16aeb2d1dc855301f2e1dfc93604-d_295x166%3Fregion%3Dus&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+          "upload_date": "2026-10-07 10:23:53",
+          "video_id": 1233740240,
+          "uri": "/videos/1233740240"
+        }
+      }
+    },
+    {
+      "url": "https://vimeo.com/1115782242?fl=pl&fe=sh",
+      "type": "video",
+      "listings": [
+        {
+          "id": "www-luxuryresidences-com-properties-private-pool-canal-view-renovated-upgraded",
+          "title": "Private Pool | Canal View | Renovated | Upgraded",
+          "purpose": "buy",
+          "sourceUrl": "https://www.luxuryresidences.com/properties/www-luxuryresidences-com-properties-private-pool-canal-view-renovated-upgraded"
+        }
+      ],
+      "httpCheck": {
+        "requestUrl": "https://vimeo.com/api/oembed.json?url=https%3A%2F%2Fvimeo.com%2F1115782242",
+        "status": 200,
+        "contentType": "application/json",
+        "metadata": {
+          "type": "video",
+          "version": "1.0",
+          "provider_name": "Vimeo",
+          "provider_url": "https://vimeo.com/",
+          "title": "Private Pool | Canal View | Renovated | Upgraded",
+          "author_name": "Luxury Residences",
+          "author_url": "https://vimeo.com/user193263069",
+          "is_plus": "0",
+          "account_type": "advanced",
+          "width": 426,
+          "height": 240,
+          "duration": 136,
+          "description": "Luxury Residences proudly presents this magnificently reimagined 4-bedroom villa, where contemporary elegance meets elevated living. Spanning an impressive 4,325 sq. ft., this residence has been thoughtfully upgraded to offer expansive interiors, modern finishes, and unparalleled comfort, all while enjoying breathtaking canal views in the heart of Business Bay.\n\nStep into a seamless open-plan living space that extends effortlessly onto a sprawling terrace, featuring a private pool, an idyllic retreat for both relaxation and entertaining, set against the stunning backdrop of the Business Bay Canal.\n\nNestled within the prestigious J-One Towers, a striking twin-tower masterpiece by Durar Group, this villa sets a new standard for sophisticated urban living. The development’s iconic & shaped design reflects a commitment to innovation, exclusivity and architectural brilliance.\n\nAs a visionary in Dubai’s luxury real estate landscape, Durar Group is renowned for crafting exceptional residences in prime locations. J-One Towers is a testament to this legacy, offering contemporary design, state-of-the-art amenities, and an unrivaled connection to Dubai’s vibrant lifestyle, with panoramic views of the Dubai Canal and the city’s iconic skyline.\n\nThis is more than a home, it’s a statement of prestige and refinement.\n\n\nProperty Details:\n\n- 4 Bedrooms\n- 5 Bathrooms\n- 3 Parking\n- Open Plan Living\n- Private Pool\n- Private Gym\n- Steam and Sauna\n- Children's Play Area\n- 24/7 Security\n- Maintenance\n- Concierge Services\n\nGet in touch for private viewing!",
+          "thumbnail_url": "https://i.vimeocdn.com/video/2055228297-7a1a5ec61ca97191a7bc1fd52acf2e797ed497c8e71ad2ebb3bcac1be159e5b2-d_295x166?region=us",
+          "thumbnail_width": 295,
+          "thumbnail_height": 166,
+          "thumbnail_url_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F2055228297-7a1a5ec61ca97191a7bc1fd52acf2e797ed497c8e71ad2ebb3bcac1be159e5b2-d_295x166%3Fregion%3Dus&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+          "upload_date": "2025-09-04 06:47:20",
+          "video_id": 1115782242,
+          "uri": "/videos/1115782242"
+        }
+      }
+    }
+  ]
+}

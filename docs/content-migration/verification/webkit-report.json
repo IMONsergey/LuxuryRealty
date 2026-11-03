@@ -1,0 +1,262 @@
+{
+  "project": "luxury-realty",
+  "engine": "webkit",
+  "sourceHashes": {
+    "astro.config.mjs": "95667a65e2d36c64bb116e3e5427670c578fa1a41d6b1b32f58c074ebd87d646",
+    "package.json": "a79d848a3000cb42d4edc56bab69309be5c7f4868df8cfc91f11df73dcdea532",
+    "scripts/content-browser-qa.mjs": "ca44f6bafec8a801d6a8d0f101eb789bd995eb46e7ace02e05305ada60adcc58",
+    "src/components/Button.astro": "97110da59e298745082d1fcb302687e3c19f5a955a09df447b24de91524be243",
+    "src/components/Consultation.astro": "16cb7effe7a604c117860e761d7841229078b7f4035eefc710a3b6d641bca647",
+    "src/components/Dialogs.astro": "a91127faf61b1b44afaa315606a7468b45126b05889bace2719cb058ffefffe4",
+    "src/components/EnquiryForm.astro": "5509b1b8b534cdb1b13d55ce067154c5925bbb18b3a1c42e2d22b7433e835c21",
+    "src/components/FilmButton.astro": "f0e3900eeaa8341728f8b504adbf23f0fbe29e9fecab1c06f724d0834b11a0b6",
+    "src/components/Footer.astro": "11f2e234f97e736d81e64e5ef14486b6da5599261bd11d91ea9aa1c0cb7a7b8f",
+    "src/components/Header.astro": "bee025e0a99dfb52042bf3aa5842aba1f4e1c7aa1a8c584404c0d61184fa0bce",
+    "src/components/Icon.astro": "fb498a40df7f1f8d00ba1fdb1dca01d22cef403b29d0c836c6f613a0d88832a8",
+    "src/components/InsightCard.astro": "0f8d28aa838aba0da9efab0e81f7cea542a1506d84e3245f912440165072ef97",
+    "src/components/Lettering.astro": "4e6df915f51b675795190deb10313404a99a519c7a7067775f43b48748a1ca26",
+    "src/components/Picture.astro": "b8ce4f912987dc9f8a7a673d05287cd4b51af8bf164d852bc6ff8484a7c9d1d9",
+    "src/components/ProjectCard.astro": "5400e73a1c14fb25cfff70c98fccfef5dc8566a57096c99f6c77c04f3230080c",
+    "src/components/PropertyCard.astro": "64cbd6766e49b80f3076b21da870a5d3e695a92b2499f4c797c4c9666a6f69bb",
+    "src/data/agent-contact.ts": "4bcbbe6e540af600d2b76940c45fead80e3f5c25aae77f196323d1948e10fbce",
+    "src/data/articles.ts": "40cb5f66d0c41bc56ad4abf142fbe75fdcc4d46a7afd95ac3cec6a769472e922",
+    "src/data/assets.json": "ddc9a05fca28e52ca1f82f95274ab36e427a27b0fb154d135b8848dce1c806d5",
+    "src/data/catalogue-projects.json": "24999d7d63f69b571a67f9d76cc43060b792e80f628b62adbf065b173282c5d6",
+    "src/data/content.ts": "a74006da9a6593f227537eadf5b485e941ba35ac00cfbc9dd0a04f88df2fb269",
+    "src/data/import-summary.json": "80a29fc3725025ab2e8fbd7cef2ea12f8ef822c897042cdc3c5dd7ede967be01",
+    "src/data/imported-media.json": "748370bbf75d9211c6c785473c2f40f59128b44c960017b7cae9062db073793f",
+    "src/data/properties.json": "f81454f576b14fffc2a914d72bd9623ffb1062e29ed49767e3950dcdb1ae8faa",
+    "src/data/site.ts": "6c88f7af2802e2fcd082d0603637e183049e1d58e0baa05cb0d373a6fb5ad31d",
+    "src/data/source/agents.json": "1203ff9b89d64f6fd1e06d5efcfb6c47868466584b149758f5aa4a56e80af58a",
+    "src/data/source/articles.json": "3ea711bda0cd90728661385b88784c93073d3a002a8b68a729129afcecde43e4",
+    "src/data/source/editorial-report.json": "58998b8ed23cd4a5c3e6872c2c15eef5c93f193cf1e94d0769a2658e3937c46f",
+    "src/data/source/hero-media.json": "a528bda559b4a65460a6d83fdb840da3fc076f366e6a2adf07ff848073d5b6d8",
+    "src/data/source/listings.json": "3d4ca8c1c14a2959ae043fc425b793886a8861e9a184b3bd14b3e48d2b45527f",
+    "src/data/source/media-urls.json": "2134d0560b763dc4fcd17eed93514e6d370d552c76c52fb15ccc2d5ebc7ee370",
+    "src/data/source/projects.json": "af6fd4e1c4afd506a39da3a7e9ddd1980e5084f6d9dca311bac42e442946fb46",
+    "src/data/source/static-pages.json": "827d988054fe64ec5e7c04f2d45fcc53cef5c343c8d99481bc2e121a9a7d47bb",
+    "src/layouts/Layout.astro": "10f5d01665c86028fe2597adb658f7aedb86c833c429874f8f2d6ab8b5a88d48",
+    "src/pages/404.astro": "5bb38f1a656d4fa6e3ffffe9c276f696ae59ebe88910f3cca05bb86ade36c247",
+    "src/pages/about.astro": "7c35b04a76fdf60148c1725d783d5afeafca8694162f455cf482450a23897bfa",
+    "src/pages/api/enquiry.ts": "bb55680d97da8951025ea800649a062e9028afb373d5b1b38b51734021fda335",
+    "src/pages/contacts.astro": "1dce3251b78c21af8c933e42bbef82f3101f124f36d55de5b55c86f5f0e66f90",
+    "src/pages/developments/[slug].astro": "03ff9a32885336bc6e79111ebb00d7570242a8359eae975481071fba24870611",
+    "src/pages/developments/index.astro": "bae1a1ddd8bd921b9fb2934130c8374cd5f5f175197ea7e5b19e2190d05aa5fc",
+    "src/pages/index.astro": "773d6a07d1d000bb26dc47020d7b17c9afbb2b782742dabb9f91fe19ff6b5b32",
+    "src/pages/insights/[slug].astro": "5f955e93ac136131297c6e9c45874b07f75e6e8e06ca6bf21286831b9dcabfad",
+    "src/pages/insights/index.astro": "f3a77f794970e71c601536ea4f03587dee0c68b2cd48bba05e73473ecb7428e3",
+    "src/pages/privacy.astro": "ebf849e984c326f070bb627be712b269fd555fd7377bf3e889aff87a857efe42",
+    "src/pages/properties/[slug].astro": "593dc426db55a927405711f669dc8ff270b4d3e19976c6ec9f07e341421f9d31",
+    "src/pages/properties/index.astro": "bb18f717540717ca2d04abbd0c98316bbd3985e1bfc1db02ffb73c4d9ec67921",
+    "src/pages/sell.astro": "b7abf62153d32fc75f721d3bfc7682beddfde8661ec5a5a3ea2bb921554ef7c3",
+    "src/pages/services.astro": "03009ccac09582381bafaf2b37ec27a98ac770794c14220b8661f21c6a14a29b",
+    "src/pages/sitemap.xml.ts": "9d66687980e491cac5fe79afecc9699b487460fe5b65b1a8bc186407d4e20fff",
+    "src/scripts/catalogue.ts": "cbdf48fcb3e1953c8596fbe56947f962e12acafcc1d925f78e031384cca32fe2",
+    "src/scripts/films.ts": "cbbd947eea9c5dd98856621fc63215255d2b2c7638c4f1d0a52ff026a00ff821",
+    "src/scripts/hero-film.ts": "16c06ddc08ac1432d9bc63c67603af8c3adf3eb9b51c2619036e75cd0c17339c",
+    "src/scripts/site.ts": "206291de62a2df9b0e6512b273f612fe95b326ff97d374bffedd09d2bc72890e",
+    "src/server/enquiry.ts": "8efd0161e0449716997f711b21d4091070dc6daf887028ad64859268d82bfc41",
+    "src/styles/catalogue.css": "ab4c68590d9105817e174264c6bd34bef582d1e67f404c7069157eaaf2e4c580",
+    "src/styles/content.css": "4207c37e9e15e6becb94b86fad9b438d4d71e5a18e1b9c4ba22af9a45de06fba",
+    "src/styles/global.css": "88c2ccd87ac71091dca301f3f7c23d536e9674e2b7b90cc1314fc8759206eeac",
+    "src/styles/home.css": "f32a3bc3fc9079ff9be605ad8ff444c2227debd4f560d89f2596f47e5aab452d",
+    "src/styles/migration.css": "919d13cc833e1a3aec91fea5aecc63ca7822d2667df157df02dc5e942b3e240d",
+    "src/styles/pages.css": "96d2860d2079248c22f0999d3ca0d33a2cfb9f0eed59feab6970f211584a2f69"
+  },
+  "sourceMode": "astro-dev-current-source",
+  "startedAt": "2026-11-03T10:19:26.778Z",
+  "sourceCounts": {
+    "total": 110,
+    "current": 84,
+    "buy": 49,
+    "rent": 26,
+    "developments": 9,
+    "archived": 26
+  },
+  "checks": [
+    {
+      "name": "1440 hero film, reduced motion, menu/dialog keyboard focus",
+      "ok": true,
+      "elapsedMs": 20885
+    },
+    {
+      "name": "1440 catalogue counts, all four purposes and complete archives",
+      "ok": true,
+      "elapsedMs": 4634
+    },
+    {
+      "name": "1440 combined visible filters, exact bedrooms, invalid bounds and reset",
+      "ok": true,
+      "elapsedMs": 13166
+    },
+    {
+      "name": "1440 sorting, pagination, reload, Back and property return focus",
+      "ok": true,
+      "elapsedMs": 6115
+    },
+    {
+      "name": "1440 Atlantis project link retains all 15 sale and 11 rental homes",
+      "ok": true,
+      "elapsedMs": 2716
+    },
+    {
+      "name": "1440 source detail, gallery failure/retry, keyboard and mocked film",
+      "ok": true,
+      "elapsedMs": 3790
+    },
+    {
+      "name": "1440 mocked enquiry failure, retry, UUID and pending request protection",
+      "ok": true,
+      "elapsedMs": 6008
+    },
+    {
+      "name": "1440 company, services, selling, contact, developments and insights routes",
+      "ok": true,
+      "elapsedMs": 5953
+    },
+    {
+      "name": "390 hero film, reduced motion, menu/dialog keyboard focus",
+      "ok": true,
+      "elapsedMs": 14295
+    },
+    {
+      "name": "390 catalogue counts, all four purposes and complete archives",
+      "ok": true,
+      "elapsedMs": 3509
+    },
+    {
+      "name": "390 combined visible filters, exact bedrooms, invalid bounds and reset",
+      "ok": true,
+      "elapsedMs": 11152
+    },
+    {
+      "name": "390 sorting, pagination, reload, Back and property return focus",
+      "ok": true,
+      "elapsedMs": 5722
+    },
+    {
+      "name": "390 Atlantis project link retains all 15 sale and 11 rental homes",
+      "ok": true,
+      "elapsedMs": 2635
+    },
+    {
+      "name": "390 source detail, gallery failure/retry, keyboard and mocked film",
+      "ok": true,
+      "elapsedMs": 2404
+    },
+    {
+      "name": "390 mocked enquiry failure, retry, UUID and pending request protection",
+      "ok": true,
+      "elapsedMs": 2916
+    },
+    {
+      "name": "390 company, services, selling, contact, developments and insights routes",
+      "ok": true,
+      "elapsedMs": 3395
+    }
+  ],
+  "pageErrors": [],
+  "consoleErrors": [
+    {
+      "url": "http://127.0.0.1:14328/api/enquiry",
+      "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)",
+      "expected": true
+    },
+    {
+      "url": "http://127.0.0.1:14328/api/enquiry",
+      "text": "Failed to load resource: the server responded with a status of 422 (Unprocessable Entity)",
+      "expected": true
+    },
+    {
+      "url": "http://127.0.0.1:14328/api/enquiry",
+      "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)",
+      "expected": true
+    },
+    {
+      "url": "http://127.0.0.1:14328/api/enquiry",
+      "text": "Failed to load resource: the server responded with a status of 422 (Unprocessable Entity)",
+      "expected": true
+    }
+  ],
+  "assetFailures": [],
+  "mockedEnquiries": [
+    {
+      "context": "Private viewing: palm-view-duplex-bespoke-garden-home | Palm View | Duplex Bespoke Garden Home",
+      "submissionId": "8ef0777c-5b16-47b3-85cc-bc93f5f71aa2",
+      "startedAt": 1793701223750,
+      "message": "Synthetic migration verification. No real enquiry."
+    },
+    {
+      "context": "Private viewing: palm-view-duplex-bespoke-garden-home | Palm View | Duplex Bespoke Garden Home",
+      "submissionId": "8ef0777c-5b16-47b3-85cc-bc93f5f71aa2",
+      "startedAt": 1793701223750,
+      "message": "Synthetic migration verification. No real enquiry."
+    },
+    {
+      "context": "Private viewing: palm-view-duplex-bespoke-garden-home | Palm View | Duplex Bespoke Garden Home",
+      "submissionId": "ebcc1600-d810-4ece-b74f-d065a0033099",
+      "startedAt": 1793701223750,
+      "message": "Changed synthetic migration verification. No real enquiry."
+    },
+    {
+      "context": "Private viewing: palm-view-duplex-bespoke-garden-home | Palm View | Duplex Bespoke Garden Home",
+      "submissionId": "ebcc1600-d810-4ece-b74f-d065a0033099",
+      "startedAt": 1793701223750,
+      "message": "Changed synthetic migration verification. No real enquiry."
+    },
+    {
+      "context": "Private viewing: palm-view-duplex-bespoke-garden-home | Palm View | Duplex Bespoke Garden Home",
+      "submissionId": "0e82fb5a-8124-4d10-9da1-ad2cd06e176e",
+      "startedAt": 1793701276653,
+      "message": "Synthetic migration verification. No real enquiry."
+    },
+    {
+      "context": "Private viewing: palm-view-duplex-bespoke-garden-home | Palm View | Duplex Bespoke Garden Home",
+      "submissionId": "0e82fb5a-8124-4d10-9da1-ad2cd06e176e",
+      "startedAt": 1793701276653,
+      "message": "Synthetic migration verification. No real enquiry."
+    },
+    {
+      "context": "Private viewing: palm-view-duplex-bespoke-garden-home | Palm View | Duplex Bespoke Garden Home",
+      "submissionId": "71d50bba-0fc3-485c-a86b-5876f7c7be2d",
+      "startedAt": 1793701276653,
+      "message": "Changed synthetic migration verification. No real enquiry."
+    },
+    {
+      "context": "Private viewing: palm-view-duplex-bespoke-garden-home | Palm View | Duplex Bespoke Garden Home",
+      "submissionId": "71d50bba-0fc3-485c-a86b-5876f7c7be2d",
+      "startedAt": 1793701276653,
+      "message": "Changed synthetic migration verification. No real enquiry."
+    }
+  ],
+  "mockedFilms": [
+    {
+      "url": "https://player.vimeo.com/video/1179156536?autoplay=1&dnt=1",
+      "resourceType": "document"
+    },
+    {
+      "url": "https://player.vimeo.com/video/1179156536?autoplay=1&dnt=1",
+      "resourceType": "document"
+    }
+  ],
+  "blockedWrites": [],
+  "screenshots": [
+    "webkit-home-static-1440.png",
+    "webkit-catalogue-1440.png",
+    "webkit-atlantis-matching-1440.png",
+    "webkit-property-1440.png",
+    "webkit-film-dialog-1440.png",
+    "webkit-insights-1440.png",
+    "webkit-home-static-390.png",
+    "webkit-catalogue-390.png",
+    "webkit-atlantis-matching-390.png",
+    "webkit-gallery-error-390.png",
+    "webkit-property-390.png",
+    "webkit-enquiry-confirmed-390.png",
+    "webkit-insights-390.png"
+  ],
+  "ok": true,
+  "changedSources": [],
+  "finishedAt": "2026-11-03T10:21:25.353Z",
+  "elapsedMs": 118575
+}

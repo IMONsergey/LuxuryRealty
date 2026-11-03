@@ -1,0 +1,20 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Picture from '../components/Picture.astro';
+import Button from '../components/Button.astro';
+import {brandText,pageContent,pageParagraphs,team} from '../data/content';
+import '../styles/content.css';
+const story=pageParagraphs('about','story-infocus-wrapper');
+const mission=pageParagraphs('about','section_bottom-content');
+const founder=team.find(person=>person.slug==='matthew-cooke');
+const advisors=team.filter(person=>person.slug!=='matthew-cooke');
+const metrics=(pageContent('about').metrics||[]).filter(metric=>!metric.value.startsWith('1'));
+---
+<Layout title="Our story" description="Meet the people behind Luxury Realty, a Dubai real estate agency specialising in prime residences, penthouses and mansion villas.">
+ <section class="page-hero page-hero--left editorial-hero"><div class="page-hero-back"><Picture name="imgRectangle6" eager /></div><div class="container"><p class="eyebrow">People. Property. Professionalism.</p><h1>Our story</h1><p>{story[1]}</p></div></section>
+ <section class="container editorial-intro" aria-labelledby="story-heading"><div><p class="eyebrow">A personal perspective</p><h2 id="story-heading">Local knowledge.<br/>An international outlook.</h2></div><div class="editorial-prose"><p>{story[0]}</p>{mission.map(paragraph=><p>{paragraph}</p>)}</div></section>
+ {metrics.length>0&&<section class="container agency-record" aria-labelledby="record-heading"><h2 id="record-heading" class="sr-only">The agency’s track record</h2>{metrics.map(metric=><div><p class="agency-record-value">{metric.value}</p><p>{brandText(metric.label)}</p></div>)}</section>}
+ {founder&&<section class="container founder-section" aria-labelledby="founder-heading"><div class="founder-portrait">{founder.photo&&<Picture name={founder.photo} alt={founder.name} sizes="(max-width: 700px) calc(100vw - 48px), 400px" />}<p>{founder.name}<span>{founder.role}</span></p></div><div class="editorial-prose"><p class="eyebrow">A message from our founder</p><h2 id="founder-heading">Relationships<br/>come first.</h2>{founder.bioParagraphs.map(paragraph=><p>{paragraph}</p>)}{founder.videoUrl&&<a class="text-link" href={founder.videoUrl} target="_blank" rel="noopener noreferrer">Watch Matthew’s introduction</a>}</div></section>}
+ <section class="container team-section" aria-labelledby="team-heading"><div class="section-heading"><h2 id="team-heading">Meet the team</h2><p>Personal experience, specialist knowledge and a shared commitment to every client.</p></div><div class="team-grid">{advisors.map(person=><article class="team-card"><div class="team-portrait">{person.photo&&<Picture name={person.photo} alt={person.name} sizes="(max-width: 700px) calc(100vw - 48px), (max-width: 1000px) 45vw, 350px" />}</div><div class="team-card-copy"><h3>{person.name}</h3><p class="team-role">{person.role}</p><details class="team-bio"><summary>About {person.name.split(' ')[0]}</summary><div>{person.bioParagraphs.map(paragraph=><p>{paragraph}</p>)}{person.videoUrl&&<a href={person.videoUrl} target="_blank" rel="noopener noreferrer">Watch introduction</a>}</div></details><div class="team-links">{person.email&&<a href={'mailto:'+person.email}>Email</a>}{person.phone&&<a href={'tel:'+person.phone}>Call</a>}{person.whatsapp&&<a href={person.whatsapp} target="_blank" rel="noopener noreferrer">WhatsApp</a>}</div></div></article>)}</div></section>
+ <section class="container editorial-cta"><div><p class="eyebrow">Your next chapter</p><h2>Let’s find your<br/>place in Dubai.</h2></div><Button context="Introduction to Luxury Realty">Meet your advisor</Button></section>
+</Layout>

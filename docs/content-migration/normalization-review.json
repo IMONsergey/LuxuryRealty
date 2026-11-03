@@ -1,0 +1,33 @@
+{
+  "checkedFileSha256": "f81454f576b14fffc2a914d72bd9623ffb1062e29ed49767e3950dcdb1ae8faa",
+  "recordCount": 110,
+  "sourceRecordCount": 110,
+  "uniquePublicIds": 110,
+  "mismatches": [],
+  "documentedExceptions": [
+    {
+      "id": "unique-duplex-breath-taking-sea-view",
+      "field": "bedrooms",
+      "rawValue": 2,
+      "publicValue": null,
+      "reason": "documented unresolved 3BR/2-bedroom source conflict"
+    },
+    {
+      "id": "one-of-a-kind-loft-designer-upgrade-sea-view",
+      "field": "bedrooms",
+      "rawValue": 2,
+      "publicValue": null,
+      "reason": "documented unresolved 3BR/2-bedroom source conflict"
+    },
+    {
+      "id": "vela-dorchester-collection",
+      "field": "location",
+      "rawValue": "Palm Jumeirah",
+      "publicValue": "Marasi Bay",
+      "reason": "documented developer/operator correction"
+    }
+  ],
+  "galleryReferences": 2083,
+  "propertyVideoEntries": 54,
+  "note": "Independent direct JSON comparison. Application tests and build are owned by root and were not run by the source collector."
+}

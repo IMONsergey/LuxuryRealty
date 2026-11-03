@@ -1,0 +1,353 @@
+Frozen source files: 83
+
+> luxury-realty@1.0.0 check
+> astro check
+
+13:17:45 [types] Generated 232ms
+13:17:45 [check] Getting diagnostics for Astro files in /home/sergey/Projects/LuxuryRealty-content-20261103...
+[96mscripts/content-browser-qa.mjs[0m:[93m156[0m:[93m33[0m - [93mwarning[0m[90m ts(6133): [0m'width' is declared but its value is never read.
+
+[7m156[0m async function historyAndReturn(width){
+[7m   [0m [93m                                ~~~~~[0m
+[96mscripts/content-browser-qa.mjs[0m:[93m134[0m:[93m32[0m - [93mwarning[0m[90m ts(6133): [0m'width' is declared but its value is never read.
+
+[7m134[0m async function combinedFilters(width){
+[7m   [0m [93m                               ~~~~~[0m
+[96mscripts/content-browser-qa.mjs[0m:[93m9[0m:[93m7[0m - [93mwarning[0m[90m ts(6133): [0m'require' is declared but its value is never read.
+
+[7m9[0m const require=createRequire(process.env.PLAYWRIGHT_PACKAGE||'/home/sergey/.local/share/imon-toolkit/node/node_modules/playwright/package.json');
+[7m [0m [93m      ~~~~~~~[0m
+
+[96mtests/enquiry.test.mjs[0m:[93m4[0m:[93m23[0m - [93mwarning[0m[90m ts(6133): [0m'validateEnquiry' is declared but its value is never read.
+
+[7m4[0m import {handleEnquiry,validateEnquiry} from '../src/server/enquiry.ts';
+[7m [0m [93m                      ~~~~~~~~~~~~~~~[0m
+
+Result (51 files):
+- 0 errors
+- 0 warnings
+- 4 hints
+
+
+> luxury-realty@1.0.0 test
+> node --test tests/*.test.mjs
+
+✔ the snapshot accounts for all sitemap URLs and every additionally discovered public page (3.575674ms)
+✔ all 110 source records survive with their own identity, URL and exact HTML hash (5.448737ms)
+✔ price, area, bedroom count and missing bathroom count are never invented or converted (3.164989ms)
+✔ only the two documented 3BR/2-bedroom conflicts suppress their count and explain why (0.995853ms)
+✔ sold, rented and currently listed records retain distinct purposes and archive states (0.932721ms)
+✔ independently checked sale, rental and archived examples retain exact published facts (0.401635ms)
+✔ each photo and video belongs to its own source listing; no repeated template gallery is substituted (7.385351ms)
+✔ separate sale and rental offers are not collapsed merely because their descriptions or images match (1.412567ms)
+✔ Six Senses Palm residences cannot inherit the Dubai Marina project association (0.961221ms)
+✔ project records exclude the source template and retain exact source provenance (1.124883ms)
+✔ imported descriptions have no executable markup or copied legacy embed code (1.752862ms)
+✔ every sourced film is supported and the real unlisted Vimeo path hash survives embedding (6.140386ms)
+✔ team WhatsApp actions use the verified international phone and preserve the raw source (1.319467ms)
+✔ agent contact normalization does not guess missing country codes or unconfirmed channels (0.435255ms)
+✔ valid enquiry is saved once; retry keeps its receipt; changed data cannot overwrite (35.383055ms)
+✔ invalid fields, missing consent and bot field do not reach storage (14.200955ms)
+✔ cross-origin and oversized requests fail before any write (2.268528ms)
+✔ a storage failure cannot produce success; a completed timed-out write is recovered (1.907844ms)
+✔ response does not return personal details or storage paths (1.003642ms)
+✔ retains the actual unlisted Vimeo path hash in the provider embed (2.397059ms)
+✔ retains explicit Vimeo h parameter and does not embed another origin (0.82972ms)
+✔ normalises source YouTube watch links to the same film on the privacy host (0.434896ms)
+ℹ tests 22
+ℹ suites 0
+ℹ pass 22
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1112.065024
+
+> luxury-realty@1.0.0 build
+> astro build
+
+13:17:59 [types] Generated 98ms
+13:18:00 [build] output: "static"
+13:18:00 [build] mode: "server"
+13:18:00 [build] directory: /home/sergey/Projects/LuxuryRealty-content-20261103/dist/
+13:18:00 [build] adapter: @astrojs/vercel
+13:18:00 [build] Collecting build info...
+13:18:00 [build] ✓ Completed in 921ms.
+13:18:01 [build] Building server entrypoints...
+13:18:03 [vite] ✓ built in 2.25s
+13:18:03 [vite] ✓ built in 428ms
+13:18:09 [vite] ✓ built in 5.20s
+
+ prerendering static routes
+13:18:09   ├─ /404.html (+30ms)
+13:18:09   ├─ /about/index.html (+13ms)
+13:18:09   ├─ /buy/index.html (+2ms) (file not created, response body was empty)
+13:18:09   ├─ /contact/index.html (+1ms) (file not created, response body was empty)
+13:18:09   ├─ /contacts/index.html (+18ms)
+13:18:09   ├─ /developments/atlantis/index.html (+28ms)
+13:18:09   ├─ /developments/ava-at-palm/index.html (+10ms)
+13:18:09   ├─ /developments/orla/index.html (+164ms)
+13:18:09   ├─ /developments/serenity-mansions-aurora/index.html (+8ms)
+13:18:09   ├─ /developments/serenity-mansions-waterfront-collection/index.html (+8ms)
+13:18:09   ├─ /developments/six-senses/index.html (+9ms)
+13:18:09   ├─ /developments/vela/index.html (+9ms)
+13:18:09   ├─ /developments/index.html (+12ms)
+13:18:09   ├─ /insights/exquisite-townhouse-project-in-dubai-2023/index.html (+1ms) (file not created, response body was empty)
+13:18:09   ├─ /insights/the-ultra-luxury-bugatti-residences-project-in-dubai-2023/index.html (+0ms) (file not created, response body was empty)
+13:18:09   ├─ /insights/top-10-reasons-to-invest-in-dubai-real-estate/index.html (+1ms) (file not created, response body was empty)
+13:18:09   ├─ /insights/tranio-client-experience-buying-a-dream-apartment-in-dubai-in-24-hours/index.html (+0ms) (file not created, response body was empty)
+13:18:09   ├─ /insights/spaces-worth-living-in/index.html (+6ms)
+13:18:09   ├─ /insights/a-home-by-the-water/index.html (+3ms)
+13:18:09   ├─ /insights/the-art-of-a-private-viewing/index.html (+3ms)
+13:18:09   ├─ /insights/architecture-on-palm-jumeirah/index.html (+3ms)
+13:18:09   ├─ /insights/index.html (+5ms)
+13:18:09   ├─ /privacy/index.html (+5ms)
+13:18:09   ├─ /privacy-policy-luxury-residence/index.html (+1ms) (file not created, response body was empty)
+13:18:09   ├─ /projects/atlantis-the-royal/index.html (+1ms) (file not created, response body was empty)
+13:18:09   ├─ /projects/ava/index.html (+1ms) (file not created, response body was empty)
+13:18:09   ├─ /projects/orla/index.html (+0ms) (file not created, response body was empty)
+13:18:09   ├─ /projects/serenity-mansions-aurora/index.html (+1ms) (file not created, response body was empty)
+13:18:09   ├─ /projects/serenity-mansions-waterfront-collection/index.html (+0ms) (file not created, response body was empty)
+13:18:09   ├─ /projects/six-senses/index.html (+0ms) (file not created, response body was empty)
+13:18:09   ├─ /projects/vela/index.html (+0ms) (file not created, response body was empty)
+13:18:09   ├─ /properties/dubai-hills-courtyard/index.html (+0ms) (file not created, response body was empty)
+13:18:09   ├─ /properties/dubai-hills-garden/index.html (+0ms) (file not created, response body was empty)
+13:18:09   ├─ /properties/dubai-hills-panorama/index.html (+0ms) (file not created, response body was empty)
+13:18:09   ├─ /properties/dubai-hills-residence/index.html (+1ms) (file not created, response body was empty)
+13:18:09   ├─ /properties/dubai-hills-retreat/index.html (+1ms) (file not created, response body was empty)
+13:18:09   ├─ /properties/dubai-hills-skyline/index.html (+1ms) (file not created, response body was empty)
+13:18:09   ├─ /properties/dubai-hills-terrace/index.html (+0ms) (file not created, response body was empty)
+13:18:09   ├─ /properties/dubai-hills-waterfront/index.html (+0ms) (file not created, response body was empty)
+13:18:09   ├─ /properties/palm-view-duplex-bespoke-garden-home/index.html (+10ms)
+13:18:09   ├─ /properties/renovation-opportunity-high-number-iconic-view/index.html (+7ms)
+13:18:09   ├─ /properties/1-of-1-branded-renovation-incredible-must-see/index.html (+5ms)
+13:18:09   ├─ /properties/1-of-1-palm-view-renovation-incredible-must-see/index.html (+6ms)
+13:18:09   ├─ /properties/sublime-sea-views-iconic-living/index.html (+7ms)
+13:18:09   ├─ /properties/2br-palm-skyline-view-branded-upgrades/index.html (+6ms)
+13:18:09   ├─ /properties/unique-duplex-breath-taking-sea-view/index.html (+5ms)
+13:18:09   ├─ /properties/3br-duplex-private-pool-viewing-essential/index.html (+5ms)
+13:18:09   ├─ /properties/a-refined-minimalist-sanctuary-with-serene-views/index.html (+4ms)
+13:18:09   ├─ /properties/extraordinary-turnkey-luxury-with-iconic-views/index.html (+5ms)
+13:18:09   ├─ /properties/ava-at-palm-jumeirah-dorchester-collection/index.html (+5ms)
+13:18:09   ├─ /properties/beachfront-living-stunning-views-vacant/index.html (+6ms)
+13:18:09   ├─ /properties/beautifully-renovated-private-spa-high-number/index.html (+6ms)
+13:18:09   ├─ /properties/your-royal-lifestyle-with-sublime-views-and-space-2/index.html (+10ms)
+13:18:09   ├─ /properties/best-price-upgraded-furnished-skyline-views/index.html (+12ms)
+13:18:09   ├─ /properties/brand-new-high-floor-islands-view/index.html (+8ms)
+13:18:09   ├─ /properties/brand-new-palm-and-garden-view-vacant/index.html (+8ms)
+13:18:09   ├─ /properties/brand-new-private-garden-private-pool/index.html (+9ms)
+13:18:09   ├─ /properties/brand-new-sea-and-palm-view-corner-unit/index.html (+10ms)
+13:18:09   ├─ /properties/brand-new-sea-and-palm-view-corner-unit-2/index.html (+9ms)
+13:18:09   ├─ /properties/brand-new-sea-and-sunset-views/index.html (+8ms)
+13:18:09   ├─ /properties/brand-new-sea-dubai-eye-and-sunset-views/index.html (+10ms)
+13:18:09   ├─ /properties/brand-new-vacant-sea-and-sunset-views/index.html (+10ms)
+13:18:09   ├─ /properties/brand-new-vacant-sea-and-sunset-views-2/index.html (+9ms)
+13:18:09   ├─ /properties/branded-upgrade-palm-skyline-view-2br-xl-size/index.html (+9ms)
+13:18:09   ├─ /properties/celebrated-designer-duplex-with-private-pool/index.html (+10ms)
+13:18:09   ├─ /properties/city-and-sea-views-fully-furnished-xl-terrace/index.html (+12ms)
+13:18:09   ├─ /properties/close-to-tip-fully-upgraded-prime-location/index.html (+8ms)
+13:18:09   ├─ /properties/dual-views-double-height-2027-completion/index.html (+9ms)
+13:18:09   ├─ /properties/duplex-ph-brand-new-unobstructed-views/index.html (+8ms)
+13:18:09   ├─ /properties/duplex-roof-terrace-golf-and-skyline-views/index.html (+9ms)
+13:18:09   ├─ /properties/eden-hills/index.html (+8ms)
+13:18:09   ├─ /properties/one-of-a-kind-loft-designer-upgrade-sea-view/index.html (+8ms)
+13:18:10   ├─ /properties/furnished-upgraded-unique-layout-dual-views/index.html (+11ms)
+13:18:10   ├─ /properties/garden-apartment-sea-facing-private-pool/index.html (+16ms)
+13:18:10   ├─ /properties/garden-apartment-sea-facing-private-pool-2/index.html (+19ms)
+13:18:10   ├─ /properties/genuine-resale-full-sea-and-marina-views/index.html (+7ms)
+13:18:10   ├─ /properties/high-floor-with-best-views-furnished-1-agency/index.html (+6ms)
+13:18:10   ├─ /properties/high-floor-2br-sea-view-chic-upgrades/index.html (+14ms)
+13:18:10   ├─ /properties/high-floor-palm-paradise-with-city-views-for-rent/index.html (+12ms)
+13:18:10   ├─ /properties/high-floor-palm-paradise-with-incredible-views/index.html (+7ms)
+13:18:10   ├─ /properties/landmark-marina-gate-one-bed-must-be-viewed-2/index.html (+7ms)
+13:18:10   ├─ /properties/large-layout-community-view-maids-room/index.html (+7ms)
+13:18:10   ├─ /properties/last-available-3br-duplex-with-private-pool/index.html (+6ms)
+13:18:10   ├─ /properties/best-value-huge-terrace-amazing-potential/index.html (+6ms)
+13:18:10   ├─ /properties/marina-view-upgraded-furnished-investor-deal/index.html (+5ms)
+13:18:10   ├─ /properties/miami-style-stunning-marina-views-beach-access/index.html (+5ms)
+13:18:10   ├─ /properties/must-be-viewed-rare-2br-sea-and-skyline-views/index.html (+7ms)
+13:18:10   ├─ /properties/ultra-luxury-super-rare-dual-view-residence/index.html (+8ms)
+13:18:10   ├─ /properties/one-of-a-kind-villa-unique-reimagined-layout/index.html (+8ms)
+13:18:10   ├─ /properties/one-at-palm-jumeirah-dorchester-collection/index.html (+6ms)
+13:18:10   ├─ /properties/orla-dorchester-collection/index.html (+6ms)
+13:18:10   ├─ /properties/palm-and-marina-skyline-views-private-pool/index.html (+7ms)
+13:18:10   ├─ /properties/dorchester-collection-full-palm-view-duplex/index.html (+5ms)
+13:18:10   ├─ /properties/panoramic-sea-sunset-views-wrap-around-balcony/index.html (+7ms)
+13:18:10   ├─ /properties/partially-upgraded-premium-location-immaculate/index.html (+6ms)
+13:18:10   ├─ /properties/penthouse-style-with-skyline-views-at-golf-heights/index.html (+6ms)
+13:18:10   ├─ /properties/popular-type-prime-location-prestigious-villa/index.html (+6ms)
+13:18:10   ├─ /properties/high-number-fully-renovated-best-layout/index.html (+6ms)
+13:18:10   ├─ /properties/premium-location-best-value-turnkey-garden-home/index.html (+7ms)
+13:18:10   ├─ /properties/www-luxuryresidences-com-properties-private-pool-canal-view-renovated-upgraded/index.html (+8ms)
+13:18:10   ├─ /properties/private-pool-furnished-spacious-terrace/index.html (+9ms)
+13:18:10   ├─ /properties/exclusive-sea-view-4br-royal-penthouse/index.html (+8ms)
+13:18:10   ├─ /properties/rare-dual-view-skyline-sea-spacious-luxury/index.html (+15ms)
+13:18:10   ├─ /properties/sea-views-michelin-star-dining-and-more/index.html (+24ms)
+13:18:10   ├─ /properties/serenity-mansions-aurora/index.html (+5ms)
+13:18:10   ├─ /properties/serenity-mansions-waterfront-collection/index.html (+4ms)
+13:18:10   ├─ /properties/six-senses-residences-dubai-marina/index.html (+4ms)
+13:18:10   ├─ /properties/sought-after-sea-sunset-views-branded-residences/index.html (+5ms)
+13:18:10   ├─ /properties/spacious-layout-prime-amenities-modern-living/index.html (+9ms)
+13:18:10   ├─ /properties/stunning-4br-amazing-bmv-price-move-in-ready/index.html (+6ms)
+13:18:10   ├─ /properties/the-chedi-private-residences/index.html (+8ms)
+13:18:10   ├─ /properties/timeless-elegance-awaits-at-palazzo-versace-dubai/index.html (+5ms)
+13:18:10   ├─ /properties/triple-storey-fully-renovated-prime-location/index.html (+4ms)
+13:18:10   ├─ /properties/turnkey-renovation-balearic-style-extended/index.html (+4ms)
+13:18:10   ├─ /properties/trophy-4br-garden-suite-with-private-pool/index.html (+5ms)
+13:18:10   ├─ /properties/ultra-high-floor-one-of-a-kind-upgraded-residence/index.html (+5ms)
+13:18:10   ├─ /properties/palm-view-sky-court-xl-terrace-upgraded/index.html (+5ms)
+13:18:10   ├─ /properties/ultra-rare-2br-duplex-in-the-iconic-uptown-tower/index.html (+8ms)
+13:18:10   ├─ /properties/upgraded-2br-marina-view-investor-deal/index.html (+8ms)
+13:18:10   ├─ /properties/best-priced-palm-view-2br-furnished-view-today/index.html (+5ms)
+13:18:10   ├─ /properties/upgraded-vacant-furnished-viewing-essential/index.html (+4ms)
+13:18:10   ├─ /properties/vela-dorchester-collection/index.html (+3ms)
+13:18:10   ├─ /properties/very-high-number-fully-upgraded-premium-views/index.html (+6ms)
+13:18:10   ├─ /properties/beauty-rarity-and-timeless-elegance-awaits/index.html (+6ms)
+13:18:10   ├─ /properties/best-price-high-floor-sea-view-large-size/index.html (+7ms)
+13:18:10   ├─ /properties/brand-new-high-floor-full-palm-jumeirah-view/index.html (+5ms)
+13:18:10   ├─ /properties/brand-new-high-floor-palm-and-skyline-view/index.html (+4ms)
+13:18:10   ├─ /properties/brand-new-high-floor-sea-and-sunset-views/index.html (+5ms)
+13:18:10   ├─ /properties/burj-khalifa-views-upgraded-fully-furnished/index.html (+7ms)
+13:18:10   ├─ /properties/dual-views-highest-floor-huge-layout/index.html (+5ms)
+13:18:10   ├─ /properties/duplex-with-private-pool-must-be-viewed/index.html (+6ms)
+13:18:10   ├─ /properties/exclusive-high-floor-available-now-furnished/index.html (+9ms)
+13:18:10   ├─ /properties/exclusive-lagoon-facing-available-for-viewing/index.html (+9ms)
+13:18:10   ├─ /properties/exclusive-top-floor-one-of-a-kind/index.html (+9ms)
+13:18:10   ├─ /properties/furnished-palm-skyline-views-exclusive/index.html (+7ms)
+13:18:10   ├─ /properties/furnished-palm-skyline-views-exclusive-2/index.html (+7ms)
+13:18:10   ├─ /properties/furnished-palm-and-skyline-views-exclusive/index.html (+10ms)
+13:18:10   ├─ /properties/garden-villa-hermes-and-minotti-private-pool/index.html (+8ms)
+13:18:10   ├─ /properties/high-floor-palm-view-fully-furnished/index.html (+6ms)
+13:18:10   ├─ /properties/live-royally-turnkey-renovated-masterpiece/index.html (+6ms)
+13:18:10   ├─ /properties/modern-design-elie-saab-branded-priced-to-sell/index.html (+10ms)
+13:18:10   ├─ /properties/palm-view-amazing-2br-layout-must-be-viewed/index.html (+9ms)
+13:18:10   ├─ /properties/post-handover-pp-04-layout-palm-view/index.html (+8ms)
+13:18:10   ├─ /properties/private-pool-duplex-1-resale-agency/index.html (+7ms)
+13:18:10   ├─ /properties/rented-alternatives-available/index.html (+9ms)
+13:18:10   ├─ /properties/sea-view-or-skyline-vistas-now-you-can-have-both/index.html (+5ms)
+13:18:10   ├─ /properties/sleek-sophisticated-and-move-in-ready/index.html (+4ms)
+13:18:10   ├─ /properties/stunning-upgrade-luxury-villa-golf-course-view/index.html (+4ms)
+13:18:10   ├─ /properties/super-rare-huge-terrace-furnished-1-agency/index.html (+5ms)
+13:18:10   ├─ /properties/index.html (+29ms)
+13:18:10   ├─ /rent/index.html (+1ms) (file not created, response body was empty)
+13:18:10   ├─ /sell/index.html (+6ms)
+13:18:10   ├─ /services/index.html (+6ms)
+13:18:10   ├─ /sitemap.xml (+5ms)
+13:18:10   ├─ /index.html (+8ms)
+13:18:10 ✓ Completed in 1.46s.
+
+13:18:10 [build] Rearranging server assets...
+13:18:10 [build] ✓ Completed in 9.55s.
+13:18:10 [@astrojs/vercel] Bundling function ../../server/entry.mjs
+13:18:13 [build] Waiting for integration "@astrojs/vercel", hook "astro:build:done"...
+13:18:16 [@astrojs/vercel] Copying static files to .vercel/output/static
+13:18:17 [build] Server built in 17.96s
+13:18:17 [build] Complete!
+{"passed": true, "complete": true, "htmlFiles": 131, "assetReferences": 10291, "linkReferencesFound": 2174, "resolvedInternalLinks": 2037, "uniqueGalleryArrays": 118, "galleryItems": 2175, "cssFiles": 3, "javascriptFiles": 1, "canonicalPagesChecked": 130, "uniqueBuiltAssetsChecked": 2374, "manifestFilesHashed": 2305, "errors": 0, "warnings": 1, "report": "/home/sergey/Projects/LuxuryRealty-content-20261103/artifacts/content-migration/content-output-audit.json"}
+PASS 1440 hero film, reduced motion, menu/dialog keyboard focus
+PASS 1440 catalogue counts, all four purposes and complete archives
+PASS 1440 combined visible filters, exact bedrooms, invalid bounds and reset
+PASS 1440 sorting, pagination, reload, Back and property return focus
+PASS 1440 Atlantis project link retains all 15 sale and 11 rental homes
+PASS 1440 source detail, gallery failure/retry, keyboard and mocked film
+PASS 1440 mocked enquiry failure, retry, UUID and pending request protection
+PASS 1440 company, services, selling, contact, developments and insights routes
+PASS 390 hero film, reduced motion, menu/dialog keyboard focus
+PASS 390 catalogue counts, all four purposes and complete archives
+PASS 390 combined visible filters, exact bedrooms, invalid bounds and reset
+PASS 390 sorting, pagination, reload, Back and property return focus
+PASS 390 Atlantis project link retains all 15 sale and 11 rental homes
+PASS 390 source detail, gallery failure/retry, keyboard and mocked film
+PASS 390 mocked enquiry failure, retry, UUID and pending request protection
+PASS 390 company, services, selling, contact, developments and insights routes
+{
+  "ok": true,
+  "engine": "chromium",
+  "checks": 16,
+  "report": "/home/sergey/Projects/LuxuryRealty-content-20261103/artifacts/content-migration-resume-20261103/chromium-report.json"
+}
+PASS 1440 hero film, reduced motion, menu/dialog keyboard focus
+PASS 1440 catalogue counts, all four purposes and complete archives
+PASS 1440 combined visible filters, exact bedrooms, invalid bounds and reset
+PASS 1440 sorting, pagination, reload, Back and property return focus
+PASS 1440 Atlantis project link retains all 15 sale and 11 rental homes
+PASS 1440 source detail, gallery failure/retry, keyboard and mocked film
+PASS 1440 mocked enquiry failure, retry, UUID and pending request protection
+PASS 1440 company, services, selling, contact, developments and insights routes
+PASS 390 hero film, reduced motion, menu/dialog keyboard focus
+PASS 390 catalogue counts, all four purposes and complete archives
+PASS 390 combined visible filters, exact bedrooms, invalid bounds and reset
+PASS 390 sorting, pagination, reload, Back and property return focus
+PASS 390 Atlantis project link retains all 15 sale and 11 rental homes
+PASS 390 source detail, gallery failure/retry, keyboard and mocked film
+PASS 390 mocked enquiry failure, retry, UUID and pending request protection
+PASS 390 company, services, selling, contact, developments and insights routes
+{
+  "ok": true,
+  "engine": "webkit",
+  "checks": 16,
+  "report": "/home/sergey/Projects/LuxuryRealty-content-20261103/artifacts/content-migration-resume-20261103/webkit-report.json"
+}
+PASS 1440 hero film, reduced motion, menu/dialog keyboard focus
+PASS 1440 catalogue counts, all four purposes and complete archives
+PASS 1440 combined visible filters, exact bedrooms, invalid bounds and reset
+PASS 1440 sorting, pagination, reload, Back and property return focus
+PASS 1440 Atlantis project link retains all 15 sale and 11 rental homes
+PASS 1440 source detail, gallery failure/retry, keyboard and mocked film
+PASS 1440 mocked enquiry failure, retry, UUID and pending request protection
+PASS 1440 company, services, selling, contact, developments and insights routes
+PASS 390 hero film, reduced motion, menu/dialog keyboard focus
+PASS 390 catalogue counts, all four purposes and complete archives
+PASS 390 combined visible filters, exact bedrooms, invalid bounds and reset
+PASS 390 sorting, pagination, reload, Back and property return focus
+PASS 390 Atlantis project link retains all 15 sale and 11 rental homes
+PASS 390 source detail, gallery failure/retry, keyboard and mocked film
+PASS 390 mocked enquiry failure, retry, UUID and pending request protection
+PASS 390 company, services, selling, contact, developments and insights routes
+{
+  "ok": true,
+  "engine": "firefox",
+  "checks": 16,
+  "report": "/home/sergey/Projects/LuxuryRealty-content-20261103/artifacts/content-migration-resume-20261103/firefox-report.json"
+}
+PASS 1440-home
+PASS 1440-about
+PASS 1440-services
+PASS 1440-sell
+PASS 1440-contacts
+PASS 1440-developments
+PASS 1440-ava
+MEDIA 1440 AVA metadata-ready (playback not tested)
+PASS 1440-ava-film
+PASS 1440-six-senses
+PASS 390-home
+PASS 390-about
+PASS 390-services
+PASS 390-sell
+PASS 390-contacts
+PASS 390-developments
+PASS 390-ava
+MEDIA 390 AVA metadata-ready (playback not tested)
+PASS 390-ava-film
+PASS 390-six-senses
+{
+  "ok": true,
+  "visualOk": true,
+  "filmWiringOk": true,
+  "externalMetadata": [
+    {
+      "width": 1440,
+      "metadataStatus": "metadata-ready",
+      "receivedBytes": 4072003
+    },
+    {
+      "width": 390,
+      "metadataStatus": "metadata-ready",
+      "receivedBytes": 5934801
+    }
+  ],
+  "playbackVerified": false,
+  "screenshots": 20,
+  "report": "/home/sergey/Projects/LuxuryRealty-content-20261103/artifacts/content-migration-resume-20261103/visual-report.json"
+}
+{"at": "2026-11-03T10:23:28.953283+00:00", "passed": true, "sourceChanged": [], "sourceFiles": 83, "reports": {"chromium-report.json": {"sha256": "c1783a718eaf1ff6a57b570a031beb6b94b7eb66db4ed87637ac5e23c1960ec2", "checks": 16}, "webkit-report.json": {"sha256": "924a55b0829f1457de203bbf8a237c79e0d12996bcbd8c25894f4a0d14912cae", "checks": 16}, "firefox-report.json": {"sha256": "0a5344485a9434e3dcbee459ed3eca9469c5568e1430a64842f1dca87a5e150e", "checks": 16}, "visual-report.json": {"sha256": "5feacea7c7f01c1f8fa7dd0abffce21199adeaae0f3ef9cbd0469a085bac9422", "checks": 18}, "content-output-audit.json": {"sha256": "c3f71d2dc3fe8d8d13b71b50c23390279abe0d4c2c716c449435262c0b5652ce", "checks": 0}}, "playwrightPackage": "/home/sergey/.local/share/imon-toolkit/node/node_modules/playwright/package.json"}

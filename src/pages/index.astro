@@ -9,20 +9,25 @@ import PropertyCard from '../components/PropertyCard.astro';
 import ProjectCard from '../components/ProjectCard.astro';
 import Consultation from '../components/Consultation.astro';
 import InsightCard from '../components/InsightCard.astro';
-import {properties,projects,services,asset} from '../data/site';
+import {properties,projects,services,asset,isArchived} from '../data/site';
+import {pageContent} from '../data/content';
 import {articles} from '../data/articles';
-const selection=properties.slice(0,5).map(p=>({...p,image:p.selectionImage||p.image}));
-const storyImages=[{src:asset('imgRectangle25').src,alt:'A residence entrance and driveway'},{src:asset('imgRectangle26').src,alt:'A panoramic view across Palm Jumeirah towards Atlantis'}];
+const selection=properties.filter(p=>p.purpose==='buy'&&!p.isDevelopment&&!isArchived(p)).slice(0,5);
+const heroPoster='https://cdn.prod.website-files.com/66a8e4e8bd6f32dc4680818f%2F66c6fc7bf2332cb0f1fe48cd_LR%20video%20coming-poster-00001.jpg';
+const sourceStory=pageContent('home').sections.find(section=>section.id==='about_component');
+const storyPhotos=(sourceStory?.images||[]).filter(image=>!image.url.endsWith('.svg')).slice(0,2);
+const storyImages=storyPhotos.map((image,i)=>({src:asset(image.url).src,alt:i===0?'A private residence in Dubai':'A waterfront perspective on Dubai'}));
 ---
 <Layout bodyClass="home-page">
  <section class="home-hero" aria-labelledby="home-title">
-  <div class="home-hero-image" data-hero-parallax><Picture name="imgRectangle6" alt="Palm Jumeirah and the Dubai coastline at dusk" sizes="(max-width: 700px) 1500px, 100vw" eager /><div></div></div>
+  <div class="home-hero-image" data-hero-parallax><Picture name={heroPoster} alt="Dubai’s waterfront residences" sizes="(max-width: 700px) 1500px, 100vw" eager /><video data-hero-film data-src="/media/luxury-hero.mp4" muted loop playsinline preload="none" poster={asset(heroPoster).src} aria-hidden="true" tabindex="-1"></video><div></div></div>
   <div class="container hero-content">
-   <h1 id="home-title" data-hero-title><span>Elegant Luxury</span><span>properties in the heart</span></h1>
+   <button class="hero-film-control" type="button" data-hero-film-control aria-label="Play background film" aria-pressed="false"><span class="hero-film-dot" aria-hidden="true"></span><span data-hero-film-label>Play film</span></button>
+   <h1 id="home-title" data-hero-title aria-label="Elegant luxury properties in the heart of Dubai"><span>Elegant Luxury </span><span>properties in the heart</span></h1>
    <Lettering name="of-dubai" text="of Dubai" class="hero-lettering" />
-   <p class="hero-intro">Explore a considered property experience, with visual references and a personal conversation to help define your search.</p>
+   <p class="hero-intro">A boutique real estate agency specialising in penthouses, mansion villas and branded residences in Dubai.</p>
    <form class="hero-search" action="/properties/" method="get" role="search" aria-label="Find a property">
-    <label class="search-purpose"><span class="sr-only">Buy or rent</span><select name="purpose"><option value="buy">Buy</option><option value="rent">Rent</option></select><span aria-hidden="true"><img src="/assets/hero-chevron.svg" width="17" height="17" alt="" /></span></label>
+    <label class="search-purpose"><span class="sr-only">Property collection</span><select name="purpose"><option value="buy">Buy</option><option value="rent">Rent</option><option value="developments">New projects</option></select><span aria-hidden="true"><img src="/assets/hero-chevron.svg" width="17" height="17" alt="" /></span></label>
     <label class="search-query"><span class="sr-only">Property or location</span><img src="/assets/hero-search.svg" width="25" height="25" alt="" aria-hidden="true" /><input name="q" type="search" placeholder="Enter a location, community or property" maxlength="100" /></label>
     <a class="search-filter" href="/properties/#filters" aria-label="Open advanced property filters"><img src="/assets/hero-filter.svg" width="20" height="18" alt="" aria-hidden="true" /></a>
     <button type="submit">Search</button>
@@ -32,7 +37,7 @@ const storyImages=[{src:asset('imgRectangle25').src,alt:'A residence entrance an
   </div>
  </section>
  <section class="selections" id="selection" aria-labelledby="selection-title">
-  <div class="selection-heading container" data-reveal><h2 id="selection-title">Real Estate</h2><Lettering name="selections" text="Selections" /><p>Illustrative previews. Individual stories.</p></div>
+  <div class="selection-heading container" data-reveal><h2 id="selection-title">Real Estate</h2><Lettering name="selections" text="Selections" /><p>Distinctive homes. Exceptional locations.</p></div>
   <div class="selection-rail" data-rail aria-label="Selected properties" tabindex="0">{selection.map(p=><PropertyCard property={p} compact />)}</div>
   <div class="container selection-actions"><div class="rail-controls"><button class="round-control" type="button" data-rail-prev=".selection-rail" aria-label="Previous properties"><Icon name="arrow-left" /></button><button class="round-control" type="button" data-rail-next=".selection-rail" aria-label="Next properties"><Icon name="arrow-right" /></button></div><Button href="/properties/" variant="text">Explore the collection</Button></div>
  </section>
@@ -47,16 +52,17 @@ const storyImages=[{src:asset('imgRectangle25').src,alt:'A residence entrance an
  <section class="container home-services section-space" id="services" aria-labelledby="services-title">
   <div class="section-heading" data-reveal><h2 id="services-title">Our services</h2><p>A personal approach, from your first conversation to a closer look at the right property.</p></div>
   <div class="service-list">{services.map((service,i)=><details class="service" name="services" open={i===0}><summary><span class="service-number">{String(i+1).padStart(2,'0')}</span><h3>{service.title}</h3><span class="service-symbol" aria-hidden="true"><Icon name="plus" /></span></summary><div class="service-body"><p>{service.body}</p><Button context={service.title} variant="text">Let’s talk</Button></div></details>)}</div>
+  <div class="services-overview-link"><Button href="/services/" variant="text">Explore our services</Button></div>
  </section>
  <section class="home-story" id="story" aria-labelledby="story-title">
   <div class="story-back"><Picture name="imgRectangle21" /></div>
   <div class="container">
    <div class="story-heading" data-reveal><Lettering name="about-agency" text="About Agency" /><h2 id="story-title">Luxury Realty</h2></div>
    <div class="story-layout">
-    <button class="story-collage" type="button" data-gallery={JSON.stringify(storyImages)} data-gallery-title="A considered perspective" aria-label="Explore our approach in photographs">
-     <Picture name="imgRectangle25" alt="A residence entrance and driveway" class="story-photo-one" sizes="(max-width: 700px) 400px, 540px" /><Picture name="imgRectangle26" alt="A panoramic view across Palm Jumeirah towards Atlantis" class="story-photo-two" sizes="(max-width: 370px) 450px, (max-width: 700px) 500px, 710px" /><span class="story-brand"><Picture name="imgGroup24" /><span>Explore our perspective <span aria-hidden="true"><Icon name="arrow-up-right" size={20} /></span></span></span>
-    </button>
-    <div class="story-copy" data-reveal><p>To provide best-in-class real estate services to our valued clients as your trusted expert advisors. Collectively, we are powered by data driven insights to meet your individual requirements in a refreshingly transparent and personalised manner.</p><p>Our approach connects a considered selection of homes with a personal conversation, helping you explore the places and details that matter to you.</p><Button href="/contacts/" variant="outline">About our agency</Button></div>
+    <a class="story-collage" href="/about/" aria-label="About Luxury Realty">
+     <Picture name={storyPhotos[0]?.url||'imgRectangle25'} alt={storyImages[0]?.alt||'A residence in Dubai'} class="story-photo-one" sizes="(max-width: 700px) 400px, 540px" /><Picture name={storyPhotos[1]?.url||'imgRectangle26'} alt={storyImages[1]?.alt||'Dubai’s waterfront'} class="story-photo-two" sizes="(max-width: 370px) 450px, (max-width: 700px) 500px, 710px" /><span class="story-brand"><span class="story-brand-lockup"><Picture name="imgGroup13" class="story-brand-mark" /><Picture name="imgGroup48096582" class="story-brand-word" alt="Luxury Realty" /></span><span>About our agency <span aria-hidden="true"><Icon name="arrow-up-right" size={20} /></span></span></span>
+    </a>
+    <div class="story-copy" data-reveal><p>An international collective of real estate specialists, headquartered in Dubai. Our philosophy is to offer world class service, advice and access to the finest homes.</p><p>Our experienced team brings together expertise from leading international brands, with a personal approach to your property, lifestyle and investment requirements.</p><Button href="/about/" variant="outline">About our agency</Button></div>
    </div>
   </div>
  </section>

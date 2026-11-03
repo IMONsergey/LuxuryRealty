@@ -1,0 +1,18 @@
+{
+  "sourceDate": "2026-11-03",
+  "sourceListings": 110,
+  "individualListings": 101,
+  "developmentEnquiries": 9,
+  "projects": 7,
+  "currentSales": 49,
+  "currentRentals": 26,
+  "archivedListings": 26,
+  "uniqueMedia": 1904,
+  "propertyVideos": 54,
+  "missingPhotos": 0,
+  "bedroomCountsAwaitingConfirmation": 2,
+  "unverifiedCurrencyConversions": "Not displayed",
+  "missingFields": "Retained as null; never fabricated",
+  "sourceArticles": "All 4 archived because the bodies do not match their titles",
+  "sourceContact": "Dedicated /contact page supersedes stale project modal addresses"
+}

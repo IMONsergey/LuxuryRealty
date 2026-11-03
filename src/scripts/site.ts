@@ -1,4 +1,7 @@
 import {gsap} from 'gsap';
+import './catalogue';
+import './hero-film';
+import {setupFilms} from './films';
 import {ScrollTrigger} from 'gsap/ScrollTrigger';
 const $=<T extends Element=HTMLElement>(selector:string,root:ParentNode=document)=>root.querySelector<T>(selector);
 const $$=<T extends Element=HTMLElement>(selector:string,root:ParentNode=document)=>Array.from(root.querySelectorAll<T>(selector));
@@ -14,16 +17,18 @@ function toast(message:string){
 const heroSearch=$<HTMLFormElement>('.hero-search');
 if(heroSearch){
  const advanced=$<HTMLAnchorElement>('.search-filter',heroSearch);
+ const mobileSearch=$<HTMLAnchorElement>('.hero-mobile-search');
  const updateAdvanced=()=>{
-  if(!advanced)return;
   const data=new FormData(heroSearch),params=new URLSearchParams();
   const purpose=String(data.get('purpose')||'buy'),query=String(data.get('q')||'').trim();
-  if(purpose==='rent')params.set('purpose','rent');
+  if(['rent','developments'].includes(purpose))params.set('purpose',purpose);
   if(query)params.set('q',query);
-  advanced.href='/properties/'+(params.size?'?'+params.toString():'')+'#filters';
+  const url='/properties/'+(params.size?'?'+params.toString():'');
+  if(advanced)advanced.href=url+'#filters';
+  if(mobileSearch)mobileSearch.href=url;
  };
  heroSearch.addEventListener('input',updateAdvanced);heroSearch.addEventListener('change',updateAdvanced);
- advanced?.addEventListener('click',updateAdvanced);window.addEventListener('pageshow',updateAdvanced);updateAdvanced();
+ advanced?.addEventListener('click',updateAdvanced);mobileSearch?.addEventListener('click',updateAdvanced);window.addEventListener('pageshow',updateAdvanced);updateAdvanced();
 }
 const dialogTriggers=new WeakMap<HTMLDialogElement,HTMLElement>();
 function openDialog(dialog:HTMLDialogElement,trigger?:HTMLElement){
@@ -48,6 +53,7 @@ $$<HTMLDialogElement>('dialog').forEach(dialog=>{
   }
  });
 });
+setupFilms(openDialog);
 $$<HTMLButtonElement>('[data-close-dialog]').forEach(button=>button.addEventListener('click',()=>button.closest('dialog')?.close()));
 const menu=$<HTMLDialogElement>('#site-menu');
 $('.menu-toggle')?.addEventListener('click',event=>{
@@ -55,10 +61,10 @@ $('.menu-toggle')?.addEventListener('click',event=>{
 });
 $$<HTMLAnchorElement>('#site-menu nav a').forEach(link=>link.addEventListener('click',()=>menu?.close()));
 function syncCurrentNavigation(){
- const currentPurpose=new URLSearchParams(location.search).get('purpose')==='rent'?'rent':'buy';
+ const currentPurpose=new URLSearchParams(location.search).get('purpose')||'buy';
  $$<HTMLAnchorElement>('#site-menu nav a').forEach(link=>{
   const target=new URL(link.href);
-  const active=target.pathname===location.pathname&&!target.hash&&(target.pathname!=='/properties/'||(target.searchParams.get('purpose')==='rent'?'rent':'buy')===currentPurpose);
+  const active=target.pathname===location.pathname&&!target.hash&&(target.pathname!=='/properties/'||(target.searchParams.get('purpose')||'buy')===currentPurpose);
   if(active)link.setAttribute('aria-current','page');else link.removeAttribute('aria-current');
  });
 }
@@ -275,111 +281,6 @@ $$<HTMLElement>('[data-rail]').forEach(rail=>{
  rail.addEventListener('wheel',()=>{intendedPosition=null;},{passive:true});
  new ResizeObserver(measure).observe(rail);measure();
 });
-// Filters survive reloads, shared URLs and browser history.
-const catalogueStateKey='luxury-realty:catalogue';
-type CatalogueState={url:string;scrollY:number;propertyId?:string};
-function readCatalogueState():CatalogueState|null{
- try{
-  const state=JSON.parse(sessionStorage.getItem(catalogueStateKey)||'null') as CatalogueState|null;
-  if(!state||typeof state.url!=='string'||!/^\/properties\/(?:\?[^#]*)?$/.test(state.url)||typeof state.scrollY!=='number'||!Number.isFinite(state.scrollY))return null;
-  return state;
- }catch{return null;}
-}
-const returnLink=$<HTMLAnchorElement>('.property-page .back-link');
-if(returnLink){const saved=readCatalogueState();if(saved&&saved.propertyId===returnLink.dataset.propertyReturn){returnLink.href=saved.url;returnLink.addEventListener('click',()=>{try{sessionStorage.setItem(catalogueStateKey+':return','1');}catch{}});}}
-const catalogue=$<HTMLElement>('[data-catalogue]');
-if(catalogue){
- const form=$<HTMLFormElement>('[data-filters]',catalogue)!;
- const grid=$<HTMLElement>('[data-property-grid]',catalogue)!;
- const cards=$$<HTMLElement>('[data-property-card]',grid);const sort=$<HTMLSelectElement>('[data-sort]',catalogue)!;
- const paramsAllowed=['purpose','q','sort'];
- function saveCatalogue(propertyId?:string){
-  try{sessionStorage.setItem(catalogueStateKey,JSON.stringify({url:location.pathname+location.search,scrollY:Math.max(0,scrollY),propertyId}));}catch{/* Browsers may deny session storage; URL filters still work. */}
- }
- cards.forEach(card=>$<HTMLAnchorElement>('a',card)?.addEventListener('click',()=>saveCatalogue(card.dataset.id)));
- function loadQuery(){
-  const params=new URLSearchParams(location.search);form.reset();
-  const purpose=params.get('purpose')==='rent'?'rent':'buy';
-  const purposeInput=$<HTMLInputElement>('[name=purpose]',form);if(purposeInput)purposeInput.value=purpose;
-  const queryInput=$<HTMLInputElement>('[name=q]',form);if(queryInput)queryInput.value=(params.get('q')||'').trim().slice(0,100);
-  sort.value=params.get('sort')==='name'?'name':'featured';
-  // Old shared URLs may contain hidden legacy filters. Drop them rather than
-  // silently applying unsupported conditions that the visitor cannot inspect.
-  const canonical=new URLSearchParams();
-  if(purpose==='rent')canonical.set('purpose','rent');
-  if(queryInput?.value)canonical.set('q',queryInput.value);
-  if(sort.value==='name')canonical.set('sort','name');
-  const canonicalUrl=location.pathname+(canonical.size?'?'+canonical.toString():'');
-  if(canonicalUrl!==location.pathname+location.search)history.replaceState(history.state,'',canonicalUrl);
-  applyFilters(false);
- }
- function applyFilters(update=true){
-  const fd=new FormData(form);const q=String(fd.get('q')||'').trim().toLowerCase();
-  const purpose=String(fd.get('purpose')||'buy');
-  sort.value=sort.value==='name'?'name':'featured';
-  let count=0;
-  const sorted=[...cards].sort((a,b)=>{
-   if(sort.value==='name')return(a.dataset.search||'').localeCompare(b.dataset.search||'');
-   return cards.indexOf(a)-cards.indexOf(b);
-  });
-  sorted.forEach(card=>{
-   const d=card.dataset;
-   // Search only visible, editorial card text. Location, type, bedrooms,
-   // price and feature metadata are illustrative placeholders, not facts.
-   const match=d.purpose===purpose&&(!q||(d.search||'').includes(q));
-   card.hidden=!match;if(match)count++;grid.append(card);
-  });
-  const empty=$<HTMLElement>('[data-no-results]',grid);if(empty){
-   empty.hidden=count>0;
-   if(count===0){
-    const title=$<HTMLElement>('[data-empty-title]',empty),copy=$<HTMLElement>('[data-empty-copy]',empty);
-    if(purpose==='rent'){
-     if(title)title.textContent='No rental examples in this preview';
-     if(copy)copy.textContent='This illustrative catalogue contains no rental examples. Rental inventory and availability must be confirmed separately.';
-    }else{
-     if(title)title.textContent='No matching illustrative examples';
-     if(copy)copy.textContent='Try a different visible title keyword or request a tailored selection. The catalogue entries are examples, not verified listings.';
-    }
-   }
-   grid.append(empty);
-  }
-  const countNode=$('[data-result-count]',catalogue!);if(countNode)countNode.textContent=purpose==='rent'?(count===1?'1 rental example':count+' rental examples'):(count===1?'1 illustrative example':count+' illustrative examples');
-  $$<HTMLButtonElement>('.purpose-tabs button[data-purpose]',catalogue!).forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.purpose===purpose)));
-  if(update){
-   const params=new URLSearchParams();
-   for(const name of paramsAllowed){const values=name==='sort'?[sort.value]:fd.getAll(name).map(String);values.filter(v=>v&&!(name==='sort'&&v==='featured')&&!(name==='purpose'&&v==='buy')).forEach(value=>params.append(name,value));}
-   const url=location.pathname+(params.size?'?'+params.toString():'');
-   if(url!==location.pathname+location.search)history.pushState({},'',url);
-   saveCatalogue();
-  }
-  syncCurrentNavigation();return true;
- }
- form.addEventListener('submit',event=>{
-  event.preventDefault();applyFilters();
-  if(matchMedia('(max-width:900px)').matches){const disclosure=$<HTMLDetailsElement>('.filter-disclosure',catalogue!);if(disclosure)disclosure.open=false;grid.scrollIntoView({behavior:scrollBehavior(),block:'start'});}
- });
- let loadingQuery=false;
- form.addEventListener('reset',()=>{if(!loadingQuery)setTimeout(()=>{sort.value='featured';applyFilters();},0);});
- form.addEventListener('change',()=>applyFilters());
- let searchTimer:ReturnType<typeof setTimeout>;
- $<HTMLInputElement>('[name=q]',form)?.addEventListener('input',()=>{clearTimeout(searchTimer);searchTimer=setTimeout(()=>applyFilters(),350);});
- sort.addEventListener('change',()=>applyFilters());
- $$<HTMLButtonElement>('.purpose-tabs button[data-purpose]',catalogue).forEach(button=>button.addEventListener('click',()=>{const input=$<HTMLInputElement>('[name=purpose]',form);if(input)input.value=button.dataset.purpose||'buy';applyFilters();}));
- function readLocation(){loadingQuery=true;loadQuery();loadingQuery=false;}
- window.addEventListener('popstate',readLocation);readLocation();
- try{
-  const saved=readCatalogueState();const returning=sessionStorage.getItem(catalogueStateKey+':return')==='1';
-  sessionStorage.removeItem(catalogueStateKey+':return');
-  if(returning&&saved&&saved.url===location.pathname+location.search){
-   const restore=()=>requestAnimationFrame(()=>{window.scrollTo({top:saved.scrollY,behavior:'instant'});const card=cards.find(item=>item.dataset.id===saved.propertyId);$<HTMLAnchorElement>('a',card||catalogue)?.focus({preventScroll:true});});
-   if(document.readyState==='complete')void document.fonts.ready.then(restore);else window.addEventListener('load',()=>void document.fonts.ready.then(restore),{once:true});
-  }
- }catch{/* Storage denial does not affect navigation. */}
- const mobileFilters=matchMedia('(max-width:900px)');
- const disclosure=$<HTMLDetailsElement>('.filter-disclosure',catalogue);
- function syncFilterDisclosure(){if(disclosure&&!mobileFilters.matches)disclosure.open=true;}
- mobileFilters.addEventListener('change',syncFilterDisclosure);syncFilterDisclosure();
-}
 const insights=$('[data-insights]');
 if(insights){
  $$<HTMLButtonElement>('[data-category]',insights).forEach(button=>button.addEventListener('click',()=>{

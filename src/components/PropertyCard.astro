@@ -1,12 +1,31 @@
 ---
-import type {Property} from '../data/site';
+import {price,type Property} from '../data/site';
 import Picture from './Picture.astro';
-interface Props {property:Property;compact?:boolean;class?:string;}
-const {property:p,compact=false,class:className=''}=Astro.props;
+import Icon from './Icon.astro';
+import '../styles/catalogue.css';
+interface Props {property:Property;compact?:boolean;class?:string;hidden?:boolean;}
+const {property:p,compact=false,class:className='',hidden=false}=Astro.props;
+const sourceStatus=(p.saleStatus||p.status||'Listed').trim();
+const archived=/\b(sold|rented|archived|withdrawn|unavailable)\b|off[ -]market/i.test(sourceStatus);
+const status=archived?sourceStatus.toLowerCase():'current';
+const label=archived?sourceStatus:p.isDevelopment?'New development':p.purpose==='rent'?'To rent':p.purpose==='buy'?'For sale':'Property';
+const period=p.purpose==='rent'&&p.pricePeriod?' / '+p.pricePeriod:'';
+const specs=[p.type,!p.isDevelopment?(p.bedrooms===0?'Studio':p.bedrooms!==null&&p.bedrooms!==undefined?p.bedrooms+' '+(p.bedrooms===1?'bed':'beds'):''):'',!p.isDevelopment&&p.area&&p.area>0?new Intl.NumberFormat('en-US').format(p.area)+' sq.ft':''].filter(Boolean);
+const search=[p.title,p.subtitle,p.address,p.location,p.type,p.reference,!p.isDevelopment&&p.bedrooms!==null?p.bedrooms+' beds '+p.bedrooms+' bedroom '+p.bedrooms+' bedrooms':''].filter(Boolean).join(' ');
 ---
-<article class:list={['property-card',{'property-card--compact':compact},className]} data-property-card data-id={p.id} data-purpose={p.purpose} data-search={(p.title+' '+p.subtitle).toLowerCase()} data-illustrative={String(Boolean(p.illustrative))}>
+<article class:list={['property-card',{'property-card--compact':compact,'property-card--archived':archived},className]} hidden={hidden} data-property-card data-id={p.id} data-purpose={p.purpose} data-development={String(Boolean(p.isDevelopment))} data-location={p.location||''} data-type={p.type||''} data-bedrooms={p.isDevelopment?'':p.bedrooms??''} data-price={p.price??''} data-features={JSON.stringify(p.features||[])} data-status={status} data-search={search} data-title={p.title}>
  <a href={'/properties/'+p.id+'/'} class="property-card-link">
-  <div class="property-media"><Picture name={p.image} alt="" sizes="(max-width: 700px) calc(100vw - 48px), (max-width: 1000px) 45vw, 414px" /><div class="property-tags"><span>Illustrative example</span></div></div>
-  <div class="property-info"><h3>{p.title}</h3><p class="property-example-note">Visual preview only. Property details, imagery and availability are not verified.</p></div>
+  <div class="property-media">
+   {p.image?<Picture name={p.image} alt={p.title} sizes="(max-width: 700px) calc(100vw - 48px), (max-width: 1000px) 45vw, 414px" />:<div class="property-media-empty"><Icon name="building" size={38} /><span>Photography on request</span></div>}
+   <div class="property-tags"><span>{label}</span></div>
+  </div>
+  <div class="property-info">
+   <p class="property-card-location">{p.location||p.subtitle||'Dubai'}</p>
+   <h3>{p.title}</h3>
+   <p class="property-price">{price(p.price)}{p.price&&p.price>0&&period?<span class="property-price-period">{period}</span>:null}</p>
+   {specs.length>0&&<p class="property-specs">{specs.join(' · ')}</p>}
+   {p.isDevelopment&&<p class="property-reference">Project enquiry · Residence details on request</p>}
+   {p.reference&&<p class="property-reference">Ref. {p.reference}</p>}
+  </div>
  </a>
 </article>

@@ -1,0 +1,49 @@
+{
+  "sourceProject": "ava",
+  "sourcePage": "https://www.luxuryresidences.com/projects/ava",
+  "sourcePageSha256": "3c36dbf4d3ac94da0e3340d3142874102a3ec2966385869d2ea0abacab66b1c0",
+  "videoUrl": "https://dl.dropboxusercontent.com/scl/fi/fkh2fh4qa81gpp5vykl1u/ORLA-Dorchester-Collection-Dubai-19_3.mp4?rlkey=4cyt0odfwj76u9xfxi8osis7d&dl=0",
+  "downloadStatus": 200,
+  "contentType": "video/mp4",
+  "videoBytes": 6772534,
+  "videoSha256": "d9fc423bafb15db32b43ff1ef2c2247a9ec2632aa841ca4bf9752c7e89839620",
+  "durationSeconds": 13.48,
+  "dimensions": [
+    1920,
+    1080
+  ],
+  "codec": "h264",
+  "sampleFrameTimesApproxSeconds": [
+    2.5,
+    7.5,
+    12.5
+  ],
+  "frames": [
+    {
+      "file": "media-evidence/ava-source-frame-01.jpg",
+      "sha256": "e2838905785da796565a5e7bf725b7e71ec3ea9226187cbb578b1932ee1fcd03"
+    },
+    {
+      "file": "media-evidence/ava-source-frame-02.jpg",
+      "sha256": "cd490f8e896ce681e72fe91a31b4ad0d9205e21cda91d81b530fb58c0e6bb9c1"
+    },
+    {
+      "file": "media-evidence/ava-source-frame-03.jpg",
+      "sha256": "e78d98452aeff73f67aa09b5c29be467c1a4f1fa3e7282224dfb374cfe666ad0"
+    },
+    {
+      "file": "media-evidence/ava-source-project-hero.png",
+      "sha256": "f093b737d1b632cca8dccc1f348f444f1197bca9c8ca987603425179fc3c2a2d"
+    }
+  ],
+  "referenceSourceImage": "https://cdn.prod.website-files.com/66a8e4e8bd6f32dc468081cf/6708c29207ba94822254d9b0_4.png",
+  "primaryContextUrl": "https://omniyat.com/residential/ava-at-palm-jumeirah",
+  "result": "misleading-filename-visual-samples-consistent-with-ava",
+  "observations": [
+    "The first sampled frame shows the distinctive curved tower roof, adjoining angular ONE tower, waterfront edge and Palm entrance bridge; the same tower and bridge arrangement is present in the AVA source hero photograph.",
+    "The middle frame shows the tower waterfront entrance; the final frame shows the curved tower balconies.",
+    "Official developer context places AVA at the entrance of Palm Jumeirah beside ONE; the observed location and architecture are consistent.",
+    "The ORLA filename alone does not establish a wrong clip. Sampled visual content supports the existing AVA page assignment. This is a visual inference from sampled frames, not a frame-by-frame content certification."
+  ],
+  "binaryLocation": "Not committed; downloaded as intermediate scratch evidence. SHA256 and sampled frames retained."
+}

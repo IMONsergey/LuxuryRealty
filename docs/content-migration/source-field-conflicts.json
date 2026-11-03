@@ -1,0 +1,26 @@
+[
+  {
+    "id": "one-of-a-kind-loft-designer-upgrade-sea-view",
+    "field": "bedrooms",
+    "sourceUrl": "https://www.luxuryresidences.com/properties/one-of-a-kind-loft-designer-upgrade-sea-view",
+    "sourceHash": "bc891ba176a91b07899389b7edfd4caf4fc5fd3fff858a317d8149a520cbf39f",
+    "sourceSidebarValue": 2,
+    "sourceTitle": "EXCEPTIONAL 3BR-LOFT | DESIGNER UPGRADE | SEA VIEW",
+    "titleBedroomValue": 3,
+    "sourceDescriptionExcerpt": "A home unlike anything else, currently available in JBR. This spectacular fully upgraded duplex loft in Bahar 4 has been completely transformed into a contemporary designer residence, combining dramatic proportions, beautiful interiors and incredible views in one of Dubai’s most established beachfront locations. The moment you enter, the apartment makes an impression. Soaring approximately 7-metre double-height ceilings and floor-to-ceiling windows create an exceptional sense of space and light, while the open staircase and upper-level mezzanine give the home its distinctive loft character. The interiors are anything but generic: the apartment comes fully furnished with carefully selected de",
+    "status": "source-values-conflict",
+    "recommendation": "Keep raw evidence; do not choose a bedroom count without confirmation. Public suppression must be explicit and limited to this record."
+  },
+  {
+    "id": "unique-duplex-breath-taking-sea-view",
+    "field": "bedrooms",
+    "sourceUrl": "https://www.luxuryresidences.com/properties/unique-duplex-breath-taking-sea-view",
+    "sourceHash": "3b7760019e22ffe449eddee62123b3d4dae39374c085db235edbd121c5abfcd6",
+    "sourceSidebarValue": 2,
+    "sourceTitle": "3BR Duplex Loft | Amazing Upgrade | Must-be-Viewed",
+    "titleBedroomValue": 3,
+    "sourceDescriptionExcerpt": "Discover a truly exceptional upgraded duplex apartment, designed for those who appreciate space, style, and strong investment potential. Set on a high floor, this remarkable three-bedroom loft features a rare double-height ceiling of approximately 7 metres, creating an impressive sense of volume, natural light, and openness from the moment you step inside. The residence is fully furnished with carefully curated designer pieces and boasts a distinctive layout that sets it apart from conventional units on the market. Every detail has been thoughtfully considered to create a sophisticated, contemporary, and completely move-in-ready home. Property Features: Upgraded duplex apartment Unique and h",
+    "status": "source-values-conflict",
+    "recommendation": "Keep raw evidence; do not choose a bedroom count without confirmation. Public suppression must be explicit and limited to this record."
+  }
+]

@@ -1,0 +1,137 @@
+[
+  {
+    "normalizedDescriptionSha256": "9d4965861a0f0edf1d7adcdee80b173af2d98e86686d84297bc315e27ff51580",
+    "listings": [
+      {
+        "slug": "2br-palm-skyline-view-branded-upgrades",
+        "title": "2BR+ | Palm Skyline View | Branded Upgrades",
+        "purpose": "rent",
+        "status": "Listed",
+        "priceAED": 1450000,
+        "beds": 2,
+        "areaSqft": 2388,
+        "image": "https://cdn.prod.website-files.com/66a8e4e8bd6f32dc468081cf/6aa40b3c7cd1e090c258818c_DSC09245-MLS.jpg"
+      },
+      {
+        "slug": "branded-upgrade-palm-skyline-view-2br-xl-size",
+        "title": "Branded Upgrade | Palm Skyline View | 2BR+ XL Size",
+        "purpose": "buy",
+        "status": "Listed",
+        "priceAED": 24500000,
+        "beds": 2,
+        "areaSqft": 2388,
+        "image": "https://cdn.prod.website-files.com/66a8e4e8bd6f32dc468081cf/6aa40b2f24521f13a8acd2b0_DSC09206-MLS.jpg"
+      }
+    ]
+  },
+  {
+    "normalizedDescriptionSha256": "15764f7993c7e2ed8c152d34c082ce27552695fb4c02b1101995edb8588765cb",
+    "listings": [
+      {
+        "slug": "brand-new-sea-and-palm-view-corner-unit",
+        "title": "Brand new | Sea and Palm View | Corner Unit",
+        "purpose": "buy",
+        "status": "Listed",
+        "priceAED": 41000000,
+        "beds": 4,
+        "areaSqft": 7578,
+        "image": "https://cdn.prod.website-files.com/66a8e4e8bd6f32dc468081cf/6ac4b3dd08a4c4d6d42e8b8e_DSC08887-MLS.jpg"
+      },
+      {
+        "slug": "brand-new-sea-and-palm-view-corner-unit-2",
+        "title": "Brand New | Sea and Palm View | Corner Unit",
+        "purpose": "rent",
+        "status": "Listed",
+        "priceAED": 2500000,
+        "beds": 4,
+        "areaSqft": 7578,
+        "image": "https://cdn.prod.website-files.com/66a8e4e8bd6f32dc468081cf/6ac4b3dd08a4c4d6d42e8b8e_DSC08887-MLS.jpg"
+      }
+    ]
+  },
+  {
+    "normalizedDescriptionSha256": "f896144e19512fdfd597cb6cb8d25a215294aa298f48c91117714f51fbc2007c",
+    "listings": [
+      {
+        "slug": "brand-new-vacant-sea-and-sunset-views",
+        "title": "Brand New | Vacant | Sea and Sunset views",
+        "purpose": "buy",
+        "status": "Listed",
+        "priceAED": 36000000,
+        "beds": 3,
+        "areaSqft": 6416,
+        "image": "https://cdn.prod.website-files.com/66a8e4e8bd6f32dc468081cf/6ab53b5b45161b6b3d80b5de_DSC08514-MLS.jpg"
+      },
+      {
+        "slug": "brand-new-vacant-sea-and-sunset-views-2",
+        "title": "Brand New | Vacant | Sea and Sunset Views",
+        "purpose": "rent",
+        "status": "Listed",
+        "priceAED": 2200000,
+        "beds": 3,
+        "areaSqft": 6416,
+        "image": "https://cdn.prod.website-files.com/66a8e4e8bd6f32dc468081cf/6ab53b5b45161b6b3d80b5de_DSC08514-MLS.jpg"
+      }
+    ]
+  },
+  {
+    "normalizedDescriptionSha256": "68fd70235898e9260c37819c826269ae26b8d61995679678a3d54beeb39f5a4a",
+    "listings": [
+      {
+        "slug": "furnished-palm-and-skyline-views-exclusive",
+        "title": "Furnished | Palm and Skyline Views | Exclusive",
+        "purpose": "buy",
+        "status": "Sold",
+        "priceAED": 25000000,
+        "beds": 2,
+        "areaSqft": 2382,
+        "image": "https://cdn.prod.website-files.com/66a8e4e8bd6f32dc468081cf/66e1f2dead795a822fc2af01_image_1%20(1).jpg"
+      },
+      {
+        "slug": "furnished-palm-skyline-views-exclusive",
+        "title": "Furnished | Palm & Skyline Views | Exclusive",
+        "purpose": "rent",
+        "status": "Rented",
+        "priceAED": 1300000,
+        "beds": 2,
+        "areaSqft": 2474,
+        "image": "https://cdn.prod.website-files.com/66a8e4e8bd6f32dc468081cf/66fcefec45f8baf904963cfa_DSC03068-MLS.jpg"
+      },
+      {
+        "slug": "furnished-palm-skyline-views-exclusive-2",
+        "title": "Furnished | Palm & Skyline Views | Exclusive",
+        "purpose": "rent",
+        "status": "Rented",
+        "priceAED": 2000000,
+        "beds": 2,
+        "areaSqft": 2382,
+        "image": "https://cdn.prod.website-files.com/66a8e4e8bd6f32dc468081cf/66e1f2dead795a822fc2af01_image_1%20(1).jpg"
+      }
+    ]
+  },
+  {
+    "normalizedDescriptionSha256": "0c95f939d01c3bd88a91e4ab8bf87af9e703492de24113063f956f9c10d391a5",
+    "listings": [
+      {
+        "slug": "must-be-viewed-rare-2br-sea-and-skyline-views",
+        "title": "Must-Be-Viewed | Rare 2BR Sea and Skyline Views",
+        "purpose": "rent",
+        "status": "Listed",
+        "priceAED": 1850000,
+        "beds": 2,
+        "areaSqft": 2941,
+        "image": "https://cdn.prod.website-files.com/66a8e4e8bd6f32dc468081cf/6aa2c775d1e09cb8806afaf7_DSC08014-MLS.jpg"
+      },
+      {
+        "slug": "ultra-luxury-super-rare-dual-view-residence",
+        "title": "Must-Be-Viewed | Rare 2BR Sea and Skyline Views",
+        "purpose": "buy",
+        "status": "Listed",
+        "priceAED": 32500000,
+        "beds": 2,
+        "areaSqft": 2941,
+        "image": "https://cdn.prod.website-files.com/66a8e4e8bd6f32dc468081cf/6aa2c775d1e09cb8806afaf7_DSC08014-MLS.jpg"
+      }
+    ]
+  }
+]

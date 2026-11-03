@@ -1,0 +1,176 @@
+{
+  "baseCommit": "bf0c7557313ea0bbbeda0a30382cfb3a6092c226",
+  "branch": "content/source-migration-20261103",
+  "gateId": "20261103T101612-48b273b939",
+  "result": "passed",
+  "unitTests": 22,
+  "browserGroups": {
+    "chromium": 16,
+    "webkit": 16,
+    "firefox": 16
+  },
+  "visualGroups": 18,
+  "widths": [
+    1440,
+    390
+  ],
+  "realEnquiriesSent": 0,
+  "sourceDrift": [],
+  "limits": [
+    "Property-provider films were mocked for dialog checks.",
+    "AVA native-film wiring and metadata passed; full playback was not tested.",
+    "Linux WebKit coverage is not a physical Safari-device certification."
+  ],
+  "expectedConsoleErrors": "Only deliberate mocked503/422 enquiry responses and the injected gallery load failure.",
+  "outputWarning": "source_cdn_in_executable_script is the MP4 hostname allowlist in films.ts, not a legacy photo URL.",
+  "files": {
+    "webkit-report.json": {
+      "sha256": "924a55b0829f1457de203bbf8a237c79e0d12996bcbd8c25894f4a0d14912cae",
+      "bytes": 12787
+    },
+    "visual-report.json": {
+      "sha256": "5feacea7c7f01c1f8fa7dd0abffce21199adeaae0f3ef9cbd0469a085bac9422",
+      "bytes": 44312
+    },
+    "chromium-report.json": {
+      "sha256": "c1783a718eaf1ff6a57b570a031beb6b94b7eb66db4ed87637ac5e23c1960ec2",
+      "bytes": 13150
+    },
+    "resume-gate.sh": {
+      "sha256": "80ac9d56fb3d5bdc2c07c8df161eccce5cdebbb807a38e7e87911b7f9a0cedb7",
+      "bytes": 2973
+    },
+    "gate-receipt.json": {
+      "sha256": "4e8e4d146c747475c6d30396c1ee3f414f98f581ab74ffd51d3d0569137aa0d4",
+      "bytes": 934
+    },
+    "firefox-report.json": {
+      "sha256": "0a5344485a9434e3dcbee459ed3eca9469c5568e1430a64842f1dca87a5e150e",
+      "bytes": 12020
+    },
+    "content-output-audit.json": {
+      "sha256": "c3f71d2dc3fe8d8d13b71b50c23390279abe0d4c2c716c449435262c0b5652ce",
+      "bytes": 638078
+    },
+    "job-status.json": {
+      "sha256": "daec18287ba251d06be40f83f0526586828cf7632b4701387cee95c8708d72ab",
+      "bytes": 743
+    },
+    "gate.log": {
+      "sha256": "a8e54bd2e8f8edd04e4a5ba8911144053634792aa393fecc113ac967d39c2acc",
+      "bytes": 24658
+    },
+    "gate-source-before.json": {
+      "sha256": "28488ca447d5636a39c4116805af5592348b686b47aed8bd7ac36005c5c4989e",
+      "bytes": 8584
+    },
+    "screenshots/visual-1440-about-team.png": {
+      "sha256": "f0c6b6d3b06e4abbcc9e92701924285bc6d0b2531017c104e6e2bf2e80db2e47",
+      "bytes": 446115
+    },
+    "screenshots/chromium-atlantis-matching-1440.png": {
+      "sha256": "96b89ba032c6fcfe3aec7d83a6c462752f40fd080d453abcd37b3006bb296c2e",
+      "bytes": 383349
+    },
+    "screenshots/chromium-property-390.png": {
+      "sha256": "ea950b2a02aca7d107d186dc34c8fe965c7116e1cb5eb1e41eca898442df8062",
+      "bytes": 283859
+    },
+    "screenshots/chromium-home-static-390.png": {
+      "sha256": "7e1547400e0fa22a0cb6e45c9343b4066c9e1397690f076837328f9dc73bcf75",
+      "bytes": 312312
+    },
+    "screenshots/visual-390-services-content.png": {
+      "sha256": "963fb2483a54f7cad1764cdbde420ee05de032662e30b3a9ac55f509e1328882",
+      "bytes": 45630
+    },
+    "screenshots/chromium-home-static-1440.png": {
+      "sha256": "af9fb5d7dcb1ddcd805380c5d5a01c97cb91a15b91081614bd18bb458a169760",
+      "bytes": 1072196
+    },
+    "screenshots/chromium-property-1440.png": {
+      "sha256": "e783bc60c5c3952bd992123f14615a2a786882f68e9240bb72cbdc840d4ac47c",
+      "bytes": 1250172
+    },
+    "screenshots/chromium-catalogue-1440.png": {
+      "sha256": "54f6e573f4bec3e532451347cf8fdf3190ba4c15f266fa8f5187763540a672bb",
+      "bytes": 509197
+    },
+    "gate.log.gz": {
+      "sha256": "a40cd9a8c892f1437c353ca7df51360c4b81f3f597a23cf3160922d93360e209",
+      "bytes": 5771
+    },
+    "brand/brand-chromium-lockup-1440.png": {
+      "sha256": "32f71a405c549637720513f828bd4f7e988d6d5319da25df4190b4b4326dafe5",
+      "bytes": 5214
+    },
+    "brand/brand-chromium-lockup-390.png": {
+      "sha256": "a10cd51de098d48b060d4cf68555e3bdc4967055b900446501ecaa65f062ff6d",
+      "bytes": 4385
+    },
+    "brand/brand-chromium-report.json": {
+      "sha256": "8502e06cbd56be49cef2bfd58f44f9125f82c7f5843387d95094e3893f930875",
+      "bytes": 10903
+    },
+    "brand/brand-chromium-story-1440.png": {
+      "sha256": "21b5f47b38147f3b79ff870abfde31e86873e389c7524dfc83f40841f65e41e9",
+      "bytes": 766370
+    },
+    "brand/brand-chromium-story-390.png": {
+      "sha256": "ad1ff56d6061577fb577013ab6c561bb1693c9764d2bba7401b71c31715031e0",
+      "bytes": 324321
+    },
+    "brand/content-output-audit.json": {
+      "sha256": "38cf71b299ce71f5f21da0fac2e0949e995b7a1ba488d4878d0e9915532d4e1b",
+      "bytes": 638078
+    },
+    "brand/final-release.sh": {
+      "sha256": "89cfa5867f27fc3d44019d12f9b1dc18f9533ec8fa41fc54c7d5ea7ca6f168ba",
+      "bytes": 12071
+    },
+    "brand/gate-receipt.json": {
+      "sha256": "ce81a56bc9b82c0df906ab48f5ab2fc808c0f6dc24426099f280301b2229b98e",
+      "bytes": 1027
+    },
+    "brand/source-before.json": {
+      "sha256": "0fe65bf49f849f14495360f68cbcba1673f893afeaa6b69ae0d088b3f64742ff",
+      "bytes": 8845
+    }
+  },
+  "logArchiving": {
+    "rawSha256": "228f106ea83600e3992243ece996d3d12f8a1aea8fa6f4bfc0369656f94172c7",
+    "rawArchive": "gate.log.gz",
+    "readableCopy": "gate.log",
+    "normalization": "Only trailing whitespace removed from the readable copy; raw bytes preserved in gzip archive."
+  },
+  "scope": "Full interaction baseline before the isolated final home About brand-card correction.",
+  "finalBrandGate": {
+    "at": "2026-11-03T12:06:55.885493+00:00",
+    "passed": true,
+    "fullInteractionGate": "20261103T101612-48b273b939",
+    "scope": "Final home About brand card, with fresh typecheck, 22 unit tests, production build and full output audit. Prior 48 browser groups and 18 visual groups remain baseline coverage; they were not rerun after this isolated markup/CSS correction.",
+    "sourceFiles": 84,
+    "sourceDrift": [],
+    "changedFromFullGate": [
+      "src/pages/index.astro",
+      "src/styles/migration.css"
+    ],
+    "addedFromFullGate": [
+      "scripts/content-brand-qa.mjs"
+    ],
+    "reports": {
+      "brand-chromium-report.json": {
+        "sha256": "8502e06cbd56be49cef2bfd58f44f9125f82c7f5843387d95094e3893f930875",
+        "bytes": 10903
+      },
+      "content-output-audit.json": {
+        "sha256": "38cf71b299ce71f5f21da0fac2e0949e995b7a1ba488d4878d0e9915532d4e1b",
+        "bytes": 638078
+      },
+      "source-before.json": {
+        "sha256": "0fe65bf49f849f14495360f68cbcba1673f893afeaa6b69ae0d088b3f64742ff",
+        "bytes": 8845
+      }
+    }
+  }
+}

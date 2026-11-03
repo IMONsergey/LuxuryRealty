@@ -1,0 +1,822 @@
+[
+  {
+    "slug": "home",
+    "sourceUrl": "https://www.luxuryresidences.com",
+    "sourceHash": "03bb48bb1d0e8476d895aa80365db23b91a08bc6cf6ab0aef37b4c6273ded3a3",
+    "sourceFile": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/home.html",
+    "title": "Luxury Residences | Prime Real Estate & Luxury Properties in Dubai",
+    "metaDescription": "Discover Luxury Residences, Dubai's boutique real estate agency for exclusive penthouses, villas, and branded homes. Expert service in Dubai’s luxury property market.",
+    "sections": [
+      {
+        "id": "hero_component",
+        "heading": "The home of sophisticated",
+        "headings": [
+          {
+            "level": 1,
+            "text": "The home of sophisticated"
+          },
+          {
+            "level": 1,
+            "text": "and luxurious"
+          },
+          {
+            "level": 1,
+            "text": "living"
+          },
+          {
+            "level": 1,
+            "text": "A boutique prime real estate agency specialising in penthouse and mansion villa communities, with a penchant for branded residences."
+          }
+        ],
+        "paragraphs": [
+          "A boutique prime real estate agency specialising in penthouse and mansion villa communities, with a penchant for branded residences."
+        ],
+        "listItems": [],
+        "bodyHtml": "<div><div></div><div><div><div><h1>The home of sophisticated</h1><h1>and luxurious</h1><h1>living</h1><h1>A boutique prime real estate agency specialising in penthouse and mansion villa communities, with a penchant for branded residences.</h1></div></div></div></div>",
+        "text": "The home of sophisticated and luxurious living A boutique prime real estate agency specialising in penthouse and mansion villa communities, with a penchant for branded residences.",
+        "images": [],
+        "videos": [
+          {
+            "url": "https://cdn.prod.website-files.com/66a8e4e8bd6f32dc4680818f%2F66c6fc7bf2332cb0f1fe48cd_LR%20video%20coming-transcode.mp4",
+            "kind": "video",
+            "poster": null
+          },
+          {
+            "url": "https://cdn.prod.website-files.com/66a8e4e8bd6f32dc4680818f%2F66c6fc7bf2332cb0f1fe48cd_LR%20video%20coming-transcode.webm",
+            "kind": "video",
+            "poster": null
+          }
+        ],
+        "links": [],
+        "publicationEligible": true,
+        "issues": []
+      },
+      {
+        "id": "our_services_component",
+        "heading": "Our services",
+        "headings": [
+          {
+            "level": 1,
+            "text": "Our services"
+          }
+        ],
+        "paragraphs": [
+          "View More"
+        ],
+        "listItems": [],
+        "bodyHtml": "<div><div><div><div><div><div><h1>Our services</h1><div>Luxury Residences provide a singular destination for your real estate, financial, lifestyle, legal and immigration requirements. Our suite of specialist services will ensure all of your needs are dealt with effectively and discreetly to your utmost satisfaction.<br/></div></div><div><div>Residential Agency</div><div>Asset Management </div><div>Financial &amp; Legal Services</div><div>Residential Development </div><div>Lifestyle Curation</div><a href=\"https://www.luxuryresidences.com/services\"><div>View More</div><img alt=\"\" src=\"https://cdn.prod.website-files.com/66a8e4e8bd6f32dc4680818f/66ceed80ddf2b7ee00bc20fe_arrow-right-line-svgrepo-com%20(1).svg\"/></a></div></div></div></div></div></div>",
+        "text": "Our services Luxury Residences provide a singular destination for your real estate, financial, lifestyle, legal and immigration requirements. Our suite of specialist services will ensure all of your needs are dealt with effectively and discreetly to your utmost satisfaction. Residential Agency Asset Management Financial & Legal Services Residential Development Lifestyle Curation View More",
+        "images": [
+          {
+            "url": "https://cdn.prod.website-files.com/66a8e4e8bd6f32dc4680818f/66ceed80ddf2b7ee00bc20fe_arrow-right-line-svgrepo-com%20(1).svg",
+            "alt": "",
+            "srcset": ""
+          }
+        ],
+        "videos": [],
+        "links": [
+          {
+            "text": "Residential Agency",
+            "url": "#"
+          },
+          {
+            "text": "Asset Management",
+            "url": "#"
+          },
+          {
+            "text": "Financial & Legal Services",
+            "url": "#"
+          },
+          {
+            "text": "Residential Development",
+            "url": "#"
+          },
+          {
+            "text": "Lifestyle Curation",
+            "url": "#"
+          },
+          {
+            "text": "View More",
+            "url": "https://www.luxuryresidences.com/services"
+          }
+        ],
+        "publicationEligible": true,
+        "issues": []
+      },
+      {
+        "id": "about_component",
+        "heading": "About LR",
+        "headings": [
+          {
+            "level": 1,
+            "text": "About LR"
+          }
+        ],
+        "paragraphs": [],
+        "listItems": [],
+        "bodyHtml": "<div><div><div><div><h1>About<strong>LR</strong></h1><div><div><img alt=\"\" src=\"https://cdn.prod.website-files.com/66a8e4e8bd6f32dc4680818f/66d07f4b22f62484ac799f2f_Rectangle_24_3_1.png\"/><img alt=\"\" src=\"https://cdn.prod.website-files.com/66a8e4e8bd6f32dc4680818f/66d07f4b36221a2de3acc724_Rectangle_25_1.png\"/></div><div><div>An international collective of best-in-class real estate aficionados who have come together to pioneer a shared vision of innovative excellence. Headquartered in Dubai, the most exciting luxury real estate market on the planet, it is our philosophy to offer world class service, advice and access to the finest homes. Hosting an award winning and highly experienced team drawn from leading international brands we offer a refreshing, dynamic and highly effective approach to the global citizen with regards to their real estate and related lifestyle and investment requirements.<br/></div><a href=\"https://www.luxuryresidences.com/about\"><div>More about Agency</div><img alt=\"\" src=\"https://cdn.prod.website-files.com/66a8e4e8bd6f32dc4680818f/66ceed80ddf2b7ee00bc20fe_arrow-right-line-svgrepo-com%20(1).svg\"/></a></div></div></div></div></div></div>",
+        "text": "About LR An international collective of best-in-class real estate aficionados who have come together to pioneer a shared vision of innovative excellence. Headquartered in Dubai, the most exciting luxury real estate market on the planet, it is our philosophy to offer world class service, advice and access to the finest homes. Hosting an award winning and highly experienced team drawn from leading international brands we offer a refreshing, dynamic and highly effective approach to the global citizen with regards to their real estate and related lifestyle and investment requirements. More about Agency",
+        "images": [
+          {
+            "url": "https://cdn.prod.website-files.com/66a8e4e8bd6f32dc4680818f/66d07f4b22f62484ac799f2f_Rectangle_24_3_1.png",
+            "alt": "",
+            "srcset": ""
+          },
+          {
+            "url": "https://cdn.prod.website-files.com/66a8e4e8bd6f32dc4680818f/66d07f4b36221a2de3acc724_Rectangle_25_1.png",
+            "alt": "",
+            "srcset": "https://cdn.prod.website-files.com/66a8e4e8bd6f32dc4680818f/66d07f4b36221a2de3acc724_Rectangle_25_1-p-500.png 500w, https://cdn.prod.website-files.com/66a8e4e8bd6f32dc4680818f/66d07f4b36221a2de3acc724_Rectangle_25_1.png 610w"
+          },
+          {
+            "url": "https://cdn.prod.website-files.com/66a8e4e8bd6f32dc4680818f/66ceed80ddf2b7ee00bc20fe_arrow-right-line-svgrepo-com%20(1).svg",
+            "alt": "",
+            "srcset": ""
+          }
+        ],
+        "videos": [],
+        "links": [
+          {
+            "text": "More about Agency",
+            "url": "https://www.luxuryresidences.com/about"
+          }
+        ],
+        "publicationEligible": true,
+        "issues": []
+      }
+    ],
+    "issues": [
+      "catalog-and-development-cards-extracted-separately",
+      "source-insights-teaser-is-hidden"
+    ],
+    "publicationEligible": true,
+    "kind": "home",
+    "heroVideo": [
+      {
+        "url": "https://cdn.prod.website-files.com/66a8e4e8bd6f32dc4680818f%2F66c6fc7bf2332cb0f1fe48cd_LR%20video%20coming-transcode.mp4",
+        "kind": "video",
+        "poster": null
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/66a8e4e8bd6f32dc4680818f%2F66c6fc7bf2332cb0f1fe48cd_LR%20video%20coming-transcode.webm",
+        "kind": "video",
+        "poster": null
+      }
+    ]
+  },
+  {
+    "slug": "about",
+    "sourceUrl": "https://www.luxuryresidences.com/about",
+    "sourceHash": "12897c0f2046c2161ed465ac4447183b66786d28c7a4736e3993382d024ea62d",
+    "sourceFile": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/about.html",
+    "title": "About Luxury Residences | Dubai's Elite Real Estate Agency",
+    "metaDescription": "Explore Luxury Residences, Dubai’s premier real estate agency for exclusive villas and penthouses. Discover our experienced team and commitment to luxury living.",
+    "sections": [
+      {
+        "id": "story-infocus-wrapper",
+        "heading": "Welcome to Our Story",
+        "headings": [
+          {
+            "level": 2,
+            "text": "Welcome to Our Story"
+          },
+          {
+            "level": 2,
+            "text": "In Focus"
+          }
+        ],
+        "paragraphs": [
+          "An international collective of best-in-class real estate aficionados who have come together to pioneer a shared vision of innovative excellence. Headquartered in Dubai, the most exciting luxury real estate market on the planet, it is our philosophy to offer world class service, advice and access to the finest homes. Hosting an award winning and highly experienced team drawn from leading international brands we offer a refreshing, dynamic and highly effective approach to the global citizen with regards to their real estate and related lifestyle and investment requirements.",
+          "A boutique prime real estate agency specialising in penthouse and mansion villa communities, with a penchant for branded residences.",
+          "AED of transaction value recorded since 2022",
+          "Years of combined team experience",
+          "Number one specialist resale agency for Atlantis, The Royal Residences & W Residences, Palm Jumeirah"
+        ],
+        "listItems": [],
+        "bodyHtml": "<div><div><div><div><h2><span>Welcome to<br/></span>Our Story</h2><div></div><div><p>An international collective of best-in-class real estate aficionados who have come together to pioneer a shared vision of innovative excellence. Headquartered in Dubai, the most exciting luxury real estate market on the planet, it is our philosophy to offer world class service, advice and access to the finest homes. Hosting an award winning and highly experienced team drawn from leading international brands we offer a refreshing, dynamic and highly effective approach to the global citizen with regards to their real estate and related lifestyle and investment requirements.<br/></p></div></div></div></div><div><div><div><div><div><div><h2>In Focus</h2><div></div><p>A boutique prime real estate agency specialising in penthouse and mansion villa communities, with a penchant for branded residences.<br/></p></div></div><div><div><div>2B+<br/></div><div>AED of transaction value recorded since 2022<br/></div></div><div><div>40+<br/></div><div>Years of combined team experience<br/></div></div><div><div>1st<br/></div><div>Number one specialist resale agency for Atlantis, The Royal Residences &amp; W Residences, Palm Jumeirah<br/></div></div></div></div></div></div></div></div>",
+        "text": "Welcome to Our Story An international collective of best-in-class real estate aficionados who have come together to pioneer a shared vision of innovative excellence. Headquartered in Dubai, the most exciting luxury real estate market on the planet, it is our philosophy to offer world class service, advice and access to the finest homes. Hosting an award winning and highly experienced team drawn from leading international brands we offer a refreshing, dynamic and highly effective approach to the global citizen with regards to their real estate and related lifestyle and investment requirements. In Focus A boutique prime real estate agency specialising in penthouse and mansion villa communities, with a penchant for branded residences. 2B+ AED of transaction value recorded since 2022 40+ Years of combined team experience 1 st Number one specialist resale agency for Atlantis, The Royal Residences & W Residences, Palm Jumeirah",
+        "images": [],
+        "videos": [],
+        "links": [],
+        "publicationEligible": true,
+        "issues": []
+      },
+      {
+        "id": "section_team-intro",
+        "heading": "Our Team",
+        "headings": [
+          {
+            "level": 2,
+            "text": "Our Team"
+          }
+        ],
+        "paragraphs": [],
+        "listItems": [],
+        "bodyHtml": "<div><img alt=\"\" src=\"https://cdn.prod.website-files.com/66a8e4e8bd6f32dc4680818f/66d6db13f238b33df0f5c248_our-team.jpg\"/><div><h2>Our Team</h2></div></div>",
+        "text": "Our Team",
+        "images": [
+          {
+            "url": "https://cdn.prod.website-files.com/66a8e4e8bd6f32dc4680818f/66d6db13f238b33df0f5c248_our-team.jpg",
+            "alt": "",
+            "srcset": "https://cdn.prod.website-files.com/66a8e4e8bd6f32dc4680818f/66d6db13f238b33df0f5c248_our-team-p-500.jpg 500w, https://cdn.prod.website-files.com/66a8e4e8bd6f32dc4680818f/66d6db13f238b33df0f5c248_our-team-p-800.jpg 800w, https://cdn.prod.website-files.com/66a8e4e8bd6f32dc4680818f/66d6db13f238b33df0f5c248_our-team-p-1080.jpg 1080w, https://cdn.prod.website-files.com/66a8e4e8bd6f32dc4680818f/66d6db13f238b33df0f5c248_our-team-p-1600.jpg 1600w, https://cdn.prod.website-files.com/66a8e4e8bd6f32dc4680818f/66d6db13f238b33df0f5c248_our-team.jpg 2046w"
+          }
+        ],
+        "videos": [],
+        "links": [],
+        "publicationEligible": true,
+        "issues": []
+      },
+      {
+        "id": "section_member-highlight",
+        "heading": "",
+        "headings": [],
+        "paragraphs": [
+          "Over the previous 17 years of becoming a seasoned real estate professional with internationally acclaimed brands such as Connells Group, Barratt Developments Plc, Knight Frank and Atlantis, The Royal Residences, I have gained invaluable experience into the diverse realm of residential property. Additionally, having now operated successfully within multiple international markets such as London and Dubai, I have evolved and created Luxury Residences which I believe to be the future business model for the international prime and super prime real estate agency. Based on traditional business values and ethics but incorporating revolutionary marketing strategies, assets and technology all the while having access to devoted unsurpassable Private Client Advisors and their valuable insights, we look forward to being your Agent of choice."
+        ],
+        "listItems": [],
+        "bodyHtml": "<div><div><div><div><div><img alt=\"\" src=\"https://cdn.prod.website-files.com/66a8e4e8bd6f32dc4680818f/66d6e089747a05570581adca_Ellipse_35_1.png\"/><div>Matthew Cooke<br/></div><div>CEO</div></div><div><div></div><p>Over the previous 17 years of becoming a seasoned real estate professional with internationally acclaimed brands such as Connells Group, Barratt Developments Plc, Knight Frank and Atlantis, The Royal Residences, I have gained invaluable experience into the diverse realm of residential property. Additionally, having now operated successfully within multiple international markets such as London and Dubai, I have evolved and created Luxury Residences which I believe to be the future business model for the international prime and super prime real estate agency. Based on traditional business values and ethics but incorporating revolutionary marketing strategies, assets and technology all the while having access to devoted unsurpassable Private Client Advisors and their valuable insights, we look forward to being your Agent of choice.<br/></p></div></div><div></div></div></div></div>",
+        "text": "Matthew Cooke CEO Over the previous 17 years of becoming a seasoned real estate professional with internationally acclaimed brands such as Connells Group, Barratt Developments Plc, Knight Frank and Atlantis, The Royal Residences, I have gained invaluable experience into the diverse realm of residential property. Additionally, having now operated successfully within multiple international markets such as London and Dubai, I have evolved and created Luxury Residences which I believe to be the future business model for the international prime and super prime real estate agency. Based on traditional business values and ethics but incorporating revolutionary marketing strategies, assets and technology all the while having access to devoted unsurpassable Private Client Advisors and their valuable insights, we look forward to being your Agent of choice.",
+        "images": [
+          {
+            "url": "https://cdn.prod.website-files.com/66a8e4e8bd6f32dc4680818f/66d6e089747a05570581adca_Ellipse_35_1.png",
+            "alt": "",
+            "srcset": ""
+          }
+        ],
+        "videos": [
+          {
+            "url": "https://player.vimeo.com/video/998105815?app_id=122963",
+            "kind": "embed",
+            "sourceEmbedUrl": "https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fplayer.vimeo.com%2Fvideo%2F998105815%3Fapp_id%3D122963&dntp=1&display_name=Vimeo&url=https%3A%2F%2Fplayer.vimeo.com%2Fvideo%2F998105815&image=http%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1914254532-025874bb3ee19db8dc2995f1b4bd0e1ca4ad54f6277101e8ae5610e08aa1cfa6-d_1280&key=96f1f04c5f4143bcb0f2e68c87d65feb&type=text%2Fhtml&schema=vimeo"
+          }
+        ],
+        "links": [],
+        "publicationEligible": true,
+        "issues": []
+      },
+      {
+        "id": "section_bottom-content",
+        "heading": "",
+        "headings": [],
+        "paragraphs": [
+          "The mission of Luxury Residences is to disrupt the current status quo. Our plan is to masterfully blend the traditional business values of trust, integrity and long term relationships with a cutting edge attitude to brand strategies and marketing assets, whilst embracing a data driven tech-enabled platform leveraged by an unrivaled Private Client Advisor dedicated to you."
+        ],
+        "listItems": [],
+        "bodyHtml": "<div><div><div><div><p>The mission of Luxury Residences is to disrupt the current status quo. Our plan is to masterfully blend the traditional business values of trust, integrity and long term relationships with a cutting edge attitude to brand strategies and marketing assets, whilst embracing a data driven tech-enabled platform leveraged by an unrivaled Private Client Advisor dedicated to you.<br/></p></div><div></div><div>Welcome to <span>Luxury Residences</span> the home of sophisticated and<br/><span> luxurious living</span></div></div></div></div>",
+        "text": "The mission of Luxury Residences is to disrupt the current status quo. Our plan is to masterfully blend the traditional business values of trust, integrity and long term relationships with a cutting edge attitude to brand strategies and marketing assets, whilst embracing a data driven tech-enabled platform leveraged by an unrivaled Private Client Advisor dedicated to you. Welcome to Luxury Residences the home of sophisticated and luxurious living",
+        "images": [],
+        "videos": [],
+        "links": [],
+        "publicationEligible": true,
+        "issues": []
+      }
+    ],
+    "issues": [],
+    "publicationEligible": true,
+    "agentIds": [
+      "nhea-mestio",
+      "sabeeha-bham",
+      "tyrese-kandler",
+      "lewis-lister",
+      "shaye-uekermann",
+      "daria-egorshina",
+      "matthew-cooke"
+    ],
+    "metrics": [
+      {
+        "value": "2B+",
+        "label": "AED of transaction value recorded since 2022"
+      },
+      {
+        "value": "40+",
+        "label": "Years of combined team experience"
+      },
+      {
+        "value": "1 st",
+        "label": "Number one specialist resale agency for Atlantis, The Royal Residences & W Residences, Palm Jumeirah"
+      }
+    ]
+  },
+  {
+    "slug": "sell",
+    "sourceUrl": "https://www.luxuryresidences.com/sell",
+    "sourceHash": "4ea488474930386005a523fd93c7157a6cd56d66d095c6e809202cea09129d00",
+    "sourceFile": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/sell.html",
+    "title": "Sell Your Luxury Property in Dubai | Luxury Residences",
+    "metaDescription": "Sell your Dubai property with Luxury Residences. Benefit from expert marketing, data-driven insights, and exclusive HNW client access for optimal sale outcomes. Contact us today.",
+    "sections": [
+      {
+        "id": "page_header_component",
+        "heading": "Sell With Us",
+        "headings": [
+          {
+            "level": 1,
+            "text": "Sell With Us"
+          }
+        ],
+        "paragraphs": [],
+        "listItems": [],
+        "bodyHtml": "<div><div><div><div><h1>Sell With Us</h1></div></div></div></div>",
+        "text": "Sell With Us",
+        "images": [],
+        "videos": [],
+        "links": [],
+        "publicationEligible": true,
+        "issues": []
+      },
+      {
+        "id": "quote_component",
+        "heading": "Strategically located within Dubai between the prime communities of the Palm Jumeirah, Emirates Hills, Downtown, Jumeirah Beach Residence and Dubai Marina to name a few, Luxury Residences, offers a bespoke professional approach to every person and their property when it comes to selling your home.",
+        "headings": [
+          {
+            "level": 2,
+            "text": "Strategically located within Dubai between the prime communities of the Palm Jumeirah, Emirates Hills, Downtown, Jumeirah Beach Residence and Dubai Marina to name a few, Luxury Residences, offers a bespoke professional approach to every person and their property when it comes to selling your home."
+          }
+        ],
+        "paragraphs": [
+          "We fully appreciate the importance of this undertaking from both an emotional and value significance, and as such will always handle with complete duty of care and discretion. Furthermore, we employ and implement a personalized blend of innovative marketing strategies and assets to ensure the highest possible sale price is achieved. This is accomplished with a data driven and technological approach combined with traditional service, knowledge and expertise."
+        ],
+        "listItems": [],
+        "bodyHtml": "<div><div><div><div><div></div><img alt=\"\" src=\"https://cdn.prod.website-files.com/66d565e702e99b319a8ebbfd/66d57a8df0418edbdf92c536_Icons1.svg\"/><div></div></div><div><h2>Strategically located within Dubai between the prime communities of the Palm Jumeirah, Emirates Hills, Downtown, Jumeirah Beach Residence and Dubai Marina to name a few, Luxury Residences, offers a bespoke professional approach to every person and their property when it comes to selling your home.</h2></div><div><img alt=\"\" src=\"https://cdn.prod.website-files.com/66d565e702e99b319a8ebbfd/66d565e702e99b319a8ebe89_loader-logo-symbol.svg\"/><p>We fully appreciate the importance of this undertaking from both an emotional and value significance, and as such will always handle with complete duty of care and <br/>discretion.<br/><br/>Furthermore, we employ and implement a personalized blend of innovative marketing strategies and assets to ensure the highest possible sale price is achieved. This is accomplished with a data driven and technological approach combined with traditional service, knowledge and expertise.</p></div></div></div></div>",
+        "text": "Strategically located within Dubai between the prime communities of the Palm Jumeirah, Emirates Hills, Downtown, Jumeirah Beach Residence and Dubai Marina to name a few, Luxury Residences, offers a bespoke professional approach to every person and their property when it comes to selling your home. We fully appreciate the importance of this undertaking from both an emotional and value significance, and as such will always handle with complete duty of care and discretion. Furthermore, we employ and implement a personalized blend of innovative marketing strategies and assets to ensure the highest possible sale price is achieved. This is accomplished with a data driven and technological approach combined with traditional service, knowledge and expertise.",
+        "images": [
+          {
+            "url": "https://cdn.prod.website-files.com/66d565e702e99b319a8ebbfd/66d57a8df0418edbdf92c536_Icons1.svg",
+            "alt": "",
+            "srcset": ""
+          },
+          {
+            "url": "https://cdn.prod.website-files.com/66d565e702e99b319a8ebbfd/66d565e702e99b319a8ebe89_loader-logo-symbol.svg",
+            "alt": "",
+            "srcset": ""
+          }
+        ],
+        "videos": [],
+        "links": [],
+        "publicationEligible": true,
+        "issues": []
+      },
+      {
+        "id": "services_component",
+        "heading": "01",
+        "headings": [
+          {
+            "level": 2,
+            "text": "01"
+          },
+          {
+            "level": 2,
+            "text": "Data Driven Analytics & Analysis"
+          },
+          {
+            "level": 2,
+            "text": "02"
+          },
+          {
+            "level": 2,
+            "text": "Strategic Route to Market"
+          },
+          {
+            "level": 2,
+            "text": "03"
+          },
+          {
+            "level": 2,
+            "text": "World Class Photography & Videography"
+          },
+          {
+            "level": 2,
+            "text": "04"
+          },
+          {
+            "level": 2,
+            "text": "Exposure to the leading Property Portals"
+          },
+          {
+            "level": 2,
+            "text": "05"
+          },
+          {
+            "level": 2,
+            "text": "Off-Market access to our High Net Worth Client database"
+          },
+          {
+            "level": 2,
+            "text": "06"
+          },
+          {
+            "level": 2,
+            "text": "International Exposure via targeted Digital & Social Media Ad Campaigns"
+          },
+          {
+            "level": 2,
+            "text": "07"
+          },
+          {
+            "level": 2,
+            "text": "Regular Viewing Feedback and Offer Negotiation"
+          },
+          {
+            "level": 2,
+            "text": "08"
+          },
+          {
+            "level": 2,
+            "text": "Full Legal & Conveyancing Support"
+          }
+        ],
+        "paragraphs": [],
+        "listItems": [],
+        "bodyHtml": "<div><div><div><div><div><h2>01</h2><h2>Data Driven Analytics &amp; Analysis</h2></div><div><h2>02</h2><h2>Strategic Route to Market</h2></div><div><h2>03</h2><h2>World Class Photography &amp; Videography</h2></div><div><h2>04</h2><h2>Exposure to the leading Property Portals</h2></div><div><h2>05</h2><h2>Off-Market access to our High Net Worth Client database</h2></div><div><h2>06</h2><h2>International Exposure via targeted Digital &amp; Social Media Ad Campaigns</h2></div><div><h2>07</h2><h2>Regular Viewing Feedback and Offer Negotiation</h2></div><div><h2>08</h2><h2>Full Legal &amp; Conveyancing Support</h2></div></div></div></div></div>",
+        "text": "01 Data Driven Analytics & Analysis 02 Strategic Route to Market 03 World Class Photography & Videography 04 Exposure to the leading Property Portals 05 Off-Market access to our High Net Worth Client database 06 International Exposure via targeted Digital & Social Media Ad Campaigns 07 Regular Viewing Feedback and Offer Negotiation 08 Full Legal & Conveyancing Support",
+        "images": [],
+        "videos": [],
+        "links": [],
+        "publicationEligible": true,
+        "issues": []
+      },
+      {
+        "id": "before_footer_component",
+        "heading": "Thank you",
+        "headings": [
+          {
+            "level": 1,
+            "text": "Thank you"
+          }
+        ],
+        "paragraphs": [
+          "Luxury Residences Look forward to being your partner of choice"
+        ],
+        "listItems": [],
+        "bodyHtml": "<div><div><div><div><div></div><h1>Thank you</h1><p>Luxury Residences<br/>Look forward to being your <br/>partner of choice</p><div></div></div></div></div></div>",
+        "text": "Thank you Luxury Residences Look forward to being your partner of choice",
+        "images": [],
+        "videos": [],
+        "links": [],
+        "publicationEligible": true,
+        "issues": []
+      }
+    ],
+    "issues": [
+      "recently-sold-widget-may-list-available-items-do-not-infer-status"
+    ],
+    "publicationEligible": true,
+    "steps": [
+      "Data Driven Analytics & Analysis",
+      "Strategic Route to Market",
+      "World Class Photography & Videography",
+      "Exposure to the leading Property Portals",
+      "Off-Market access to our High Net Worth Client database",
+      "International Exposure via targeted Digital & Social Media Ad Campaigns",
+      "Regular Viewing Feedback and Offer Negotiation",
+      "Full Legal & Conveyancing Support"
+    ],
+    "valuationHeading": "Contact us to arrange a complimentary valuation of your property"
+  },
+  {
+    "slug": "services",
+    "sourceUrl": "https://www.luxuryresidences.com/services",
+    "sourceHash": "cb4ac1f76b1d427a12f0ac96ce8f6c73b5c4f648e5e552526cd43d952acf2ee0",
+    "sourceFile": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/services.html",
+    "title": "Comprehensive Real Estate & Lifestyle Services in Dubai | Luxury Residences",
+    "metaDescription": "Experience tailored luxury with Luxury Residences. From real estate and asset management to finance, development, and lifestyle solutions, we meet your unique needs.",
+    "sections": [
+      {
+        "id": "page_header_component",
+        "heading": "Our services",
+        "headings": [
+          {
+            "level": 1,
+            "text": "Our services"
+          }
+        ],
+        "paragraphs": [],
+        "listItems": [],
+        "bodyHtml": "<div><div><div><div><h1>Our services</h1></div></div></div></div>",
+        "text": "Our services",
+        "images": [],
+        "videos": [],
+        "links": [],
+        "publicationEligible": true,
+        "issues": []
+      },
+      {
+        "id": "quote_component",
+        "heading": "The philosophy is simple yet effective. We have engineered a solution to effortlessly cater for the high net worth citizen via our trusted and professional team for all of your unique requirements.",
+        "headings": [
+          {
+            "level": 2,
+            "text": "The philosophy is simple yet effective. We have engineered a solution to effortlessly cater for the high net worth citizen via our trusted and professional team for all of your unique requirements."
+          }
+        ],
+        "paragraphs": [],
+        "listItems": [],
+        "bodyHtml": "<div><div><div><div><div></div><img alt=\"\" src=\"https://cdn.prod.website-files.com/66a8e4e8bd6f32dc4680818f/66d6bdf137cb6532c8751440_Icons1.svg\"/><div></div></div><div><h2>The philosophy is simple yet effective. We have engineered a solution to effortlessly cater for the high net worth citizen via our trusted and professional team for all of your unique requirements.</h2></div><div></div></div></div></div>",
+        "text": "The philosophy is simple yet effective. We have engineered a solution to effortlessly cater for the high net worth citizen via our trusted and professional team for all of your unique requirements.",
+        "images": [
+          {
+            "url": "https://cdn.prod.website-files.com/66a8e4e8bd6f32dc4680818f/66d6bdf137cb6532c8751440_Icons1.svg",
+            "alt": "",
+            "srcset": ""
+          }
+        ],
+        "videos": [],
+        "links": [],
+        "publicationEligible": true,
+        "issues": []
+      },
+      {
+        "id": "about_services_component",
+        "heading": "Residential Agency",
+        "headings": [
+          {
+            "level": 2,
+            "text": "Residential Agency"
+          },
+          {
+            "level": 2,
+            "text": "Asset Management"
+          },
+          {
+            "level": 2,
+            "text": "Financial & Legal Services"
+          },
+          {
+            "level": 2,
+            "text": "Residential Development"
+          },
+          {
+            "level": 2,
+            "text": "Lifestyle Management"
+          }
+        ],
+        "paragraphs": [
+          "Luxury Residences provides a definitive suite of support that extends across the diverse and ever changing world of real estate, finance, lifestyle management, development, interior design and legal services.",
+          "Operating across prime markets, our award winning and highly experienced team provides unrivaled access to the world’s finest homes. So whether you wish to Buy, Sell or Rent we offer best-in-class agency insight and advice.",
+          "Taking responsibility for your most valuable investments is pivotal for both performance and your peace of mind. We offer just that, with an enhanced capability to maximize your return whilst safeguarding their future whilst all the time you relax.",
+          "Our vetted panel of industry experts allows you to leverage the power of our network. So whether access to the best finance products and rates, robust legal advice, residency visas or company set-up, our strategic partners are ready for consultation.",
+          "At the very core of our business and close to our hearts, our specialist team and partners can assist your project from conception to completion. Having developed ourselves and with years of experience in-house from international companies, you can be confident in both our knowledge, contacts and expertise.",
+          "In a modern world that offers ever increasing luxurious living, we are perfectly positioned to answer your lifestyle needs. So whether a private jet, yacht charter, supercar ownership or high-end fashion we are on hand to connect you with the perfect solution to your desires."
+        ],
+        "listItems": [],
+        "bodyHtml": "<div><div><div><div><p>Luxury Residences provides a definitive suite of support that extends across the diverse and ever changing world of real estate, finance, lifestyle management, development, interior design and legal services.<br/></p><div></div><div><div><h2>Residential Agency</h2><p>Operating across prime markets, our award winning and highly experienced team provides unrivaled access to the world’s finest homes. So whether you wish to Buy, Sell or Rent we offer best-in-class agency insight and advice.<br/></p></div><div><h2>Asset Management</h2><p>Taking responsibility for your most valuable investments is pivotal for both performance and your peace of mind. We offer just that, with an enhanced capability to maximize your return whilst safeguarding their future whilst all the time you relax.<br/></p></div><div><h2>Financial &amp; Legal Services</h2><p>Our vetted panel of industry experts allows you to leverage the power of our network. So whether access to the best finance products and rates, robust legal advice, residency visas or company set-up, our strategic partners are ready for consultation.<br/></p></div><div><h2>Residential Development</h2><p>At the very core of our business and close to our hearts, our specialist team and partners can assist your project from conception to completion. Having developed ourselves and with years of experience in-house from international companies, you can be confident in both our knowledge, contacts and expertise.<br/></p></div><div><h2>Lifestyle Management</h2><p>In a modern world that offers ever increasing luxurious living, we are perfectly positioned to answer your lifestyle needs. So whether a private jet, yacht charter, supercar ownership or high-end fashion we are on hand to connect you with the perfect solution to your desires.<br/></p></div></div></div></div></div></div>",
+        "text": "Luxury Residences provides a definitive suite of support that extends across the diverse and ever changing world of real estate, finance, lifestyle management, development, interior design and legal services. Residential Agency Operating across prime markets, our award winning and highly experienced team provides unrivaled access to the world’s finest homes. So whether you wish to Buy, Sell or Rent we offer best-in-class agency insight and advice. Asset Management Taking responsibility for your most valuable investments is pivotal for both performance and your peace of mind. We offer just that, with an enhanced capability to maximize your return whilst safeguarding their future whilst all the time you relax. Financial & Legal Services Our vetted panel of industry experts allows you to leverage the power of our network. So whether access to the best finance products and rates, robust legal advice, residency visas or company set-up, our strategic partners are ready for consultation. Residential Development At the very core of our business and close to our hearts, our specialist team and partners can assist your project from conception to completion. Having developed ourselves and with years of experience in-house from international companies, you can be confident in both our knowledge, contacts and expertise. Lifestyle Management In a modern world that offers ever increasing luxurious living, we are perfectly positioned to answer your lifestyle needs. So whether a private jet, yacht charter, supercar ownership or high-end fashion we are on hand to connect you with the perfect solution to your desires.",
+        "images": [],
+        "videos": [],
+        "links": [],
+        "publicationEligible": true,
+        "issues": []
+      },
+      {
+        "id": "before_footer_component",
+        "heading": "",
+        "headings": [],
+        "paragraphs": [
+          "Luxury Residences is the optimum partner to entrust with your most important real estate matters. Our discreet approach will be here to best serve your interests at all times , whilst delivering world class capabilities and customer service."
+        ],
+        "listItems": [],
+        "bodyHtml": "<div><div><div><div><div></div><p>Luxury Residences is the optimum partner to entrust with your most important real estate matters. <strong>Our discreet approach will be here to best serve your interests at all times</strong>, whilst delivering world class capabilities and customer service.<br/></p><div></div></div></div></div></div>",
+        "text": "Luxury Residences is the optimum partner to entrust with your most important real estate matters. Our discreet approach will be here to best serve your interests at all times , whilst delivering world class capabilities and customer service.",
+        "images": [],
+        "videos": [],
+        "links": [],
+        "publicationEligible": true,
+        "issues": []
+      }
+    ],
+    "issues": [],
+    "publicationEligible": true,
+    "services": [
+      {
+        "title": "Residential Agency",
+        "body": "Operating across prime markets, our award winning and highly experienced team provides unrivaled access to the world’s finest homes. So whether you wish to Buy, Sell or Rent we offer best-in-class agency insight and advice.",
+        "bodyHtml": "<div><h2>Residential Agency</h2><p>Operating across prime markets, our award winning and highly experienced team provides unrivaled access to the world’s finest homes. So whether you wish to Buy, Sell or Rent we offer best-in-class agency insight and advice.<br/></p></div>"
+      },
+      {
+        "title": "Asset Management",
+        "body": "Taking responsibility for your most valuable investments is pivotal for both performance and your peace of mind. We offer just that, with an enhanced capability to maximize your return whilst safeguarding their future whilst all the time you relax.",
+        "bodyHtml": "<div><h2>Asset Management</h2><p>Taking responsibility for your most valuable investments is pivotal for both performance and your peace of mind. We offer just that, with an enhanced capability to maximize your return whilst safeguarding their future whilst all the time you relax.<br/></p></div>"
+      },
+      {
+        "title": "Financial & Legal Services",
+        "body": "Our vetted panel of industry experts allows you to leverage the power of our network. So whether access to the best finance products and rates, robust legal advice, residency visas or company set-up, our strategic partners are ready for consultation.",
+        "bodyHtml": "<div><h2>Financial &amp; Legal Services</h2><p>Our vetted panel of industry experts allows you to leverage the power of our network. So whether access to the best finance products and rates, robust legal advice, residency visas or company set-up, our strategic partners are ready for consultation.<br/></p></div>"
+      },
+      {
+        "title": "Residential Development",
+        "body": "At the very core of our business and close to our hearts, our specialist team and partners can assist your project from conception to completion. Having developed ourselves and with years of experience in-house from international companies, you can be confident in both our knowledge, contacts and expertise.",
+        "bodyHtml": "<div><h2>Residential Development</h2><p>At the very core of our business and close to our hearts, our specialist team and partners can assist your project from conception to completion. Having developed ourselves and with years of experience in-house from international companies, you can be confident in both our knowledge, contacts and expertise.<br/></p></div>"
+      },
+      {
+        "title": "Lifestyle Management",
+        "body": "In a modern world that offers ever increasing luxurious living, we are perfectly positioned to answer your lifestyle needs. So whether a private jet, yacht charter, supercar ownership or high-end fashion we are on hand to connect you with the perfect solution to your desires.",
+        "bodyHtml": "<div><h2>Lifestyle Management</h2><p>In a modern world that offers ever increasing luxurious living, we are perfectly positioned to answer your lifestyle needs. So whether a private jet, yacht charter, supercar ownership or high-end fashion we are on hand to connect you with the perfect solution to your desires.<br/></p></div>"
+      }
+    ]
+  },
+  {
+    "slug": "contact",
+    "sourceUrl": "https://www.luxuryresidences.com/contact",
+    "sourceHash": "1697a07f87135f0f423d9a4ed80e9d4947f81db983680800f0878d5c60bc4386",
+    "sourceFile": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/contact.html",
+    "title": "Contact Luxury Residences Real Estate | Dubai's Premier Property Experts",
+    "metaDescription": "Connect with Luxury Residences for personalised property consultations. Visit us at The Onyx Tower, Dubai, or call us to arrange a meeting.",
+    "sections": [
+      {
+        "id": "page_header_component",
+        "heading": "Contact us",
+        "headings": [
+          {
+            "level": 1,
+            "text": "Contact us"
+          }
+        ],
+        "paragraphs": [],
+        "listItems": [],
+        "bodyHtml": "<div><div><div><div><h1>Contact us</h1></div></div></div></div>",
+        "text": "Contact us",
+        "images": [],
+        "videos": [],
+        "links": [],
+        "publicationEligible": true,
+        "issues": []
+      },
+      {
+        "id": "contact_info-contact_details",
+        "heading": "Luxury Residences Real Estate LLC",
+        "headings": [
+          {
+            "level": 2,
+            "text": "Luxury Residences Real Estate LLC"
+          }
+        ],
+        "paragraphs": [],
+        "listItems": [],
+        "bodyHtml": "<div><h2>Luxury Residences Real Estate LLC</h2><div><div>office</div><div><a href=\"tel:+97142836681\">+971 4 283 6681</a></div></div><div><div>e-mail</div><div><a href=\"mailto:contactus@luxuryresidences.com\">contactus@luxuryresidences.com</a></div></div><div><div>address</div><div>Office 804, Magnum Opus Tower,<br/>Barsha Heights, Dubai, UAE,<br/>P.O. Box 451733</div></div><div><div>follow us</div><div><a href=\"https://www.instagram.com/luxuryresidences/\"><div></div></a><a href=\"https://twitter.com/luxresidences\"><div></div></a><a href=\"https://www.facebook.com/people/Luxury-Residences/100071071021127/\"><div></div></a><a href=\"https://www.linkedin.com/company/82087095/admin/feed/posts/\"><div></div></a><a href=\"https://www.youtube.com/channel/UC7F_AqOf0JAq5p7Wo8NOhww\"><div></div></a><a href=\"https://www.tiktok.com/@luxuryresidences\"><div></div></a></div></div></div>",
+        "text": "Luxury Residences Real Estate LLC office +971 4 283 6681 e-mail contactus@luxuryresidences.com address Office 804, Magnum Opus Tower, Barsha Heights, Dubai, UAE, P.O. Box 451733 follow us",
+        "images": [],
+        "videos": [],
+        "links": [
+          {
+            "text": "+971 4 283 6681",
+            "url": "tel:+97142836681"
+          },
+          {
+            "text": "contactus@luxuryresidences.com",
+            "url": "mailto:contactus@luxuryresidences.com"
+          }
+        ],
+        "publicationEligible": true,
+        "issues": []
+      }
+    ],
+    "issues": [
+      "navigation-and-footer-email-anchor-uses-tel-scheme",
+      "linkedin-source-url-targets-admin-feed-confirm-public-url",
+      "legal-name-remains-source-entity-until-confirmed"
+    ],
+    "publicationEligible": true,
+    "contact": {
+      "office": "+971 4 283 6681",
+      "e-mail": "contactus@luxuryresidences.com",
+      "address": "Office 804, Magnum Opus Tower, Barsha Heights, Dubai, UAE, P.O. Box 451733"
+    },
+    "legalName": "Luxury Residences Real Estate LLC",
+    "socialLinks": [
+      "https://www.instagram.com/luxuryresidences/",
+      "https://twitter.com/luxresidences",
+      "https://www.facebook.com/people/Luxury-Residences/100071071021127/",
+      "https://www.linkedin.com/company/82087095/admin/feed/posts/",
+      "https://www.youtube.com/channel/UC7F_AqOf0JAq5p7Wo8NOhww",
+      "https://www.tiktok.com/@luxuryresidences"
+    ],
+    "mapUrl": null
+  },
+  {
+    "slug": "privacy-policy-luxury-residence",
+    "sourceUrl": "https://www.luxuryresidences.com/privacy-policy-luxury-residence",
+    "sourceHash": "47ddf9e149ba2e1e27bf2128e50153f3b449c4d55ff9befe861fe89d8059778c",
+    "sourceFile": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/privacy-policy-luxury-residence.html",
+    "title": "Privacy Policy | Luxury Residences Dubai",
+    "metaDescription": "Please read our privacy policy to understand how we collect, use, protect, and handle your personal information.",
+    "sections": [
+      {
+        "id": "page_header_component",
+        "heading": "Privacy Policy",
+        "headings": [
+          {
+            "level": 1,
+            "text": "Privacy Policy"
+          }
+        ],
+        "paragraphs": [],
+        "listItems": [],
+        "bodyHtml": "<div><div><div><div><h1>Privacy Policy</h1></div></div></div></div>",
+        "text": "Privacy Policy",
+        "images": [],
+        "videos": [],
+        "links": [],
+        "publicationEligible": true,
+        "issues": []
+      },
+      {
+        "id": "privacy_component",
+        "heading": "",
+        "headings": [],
+        "paragraphs": [
+          "We are committed to respecting your privacy and protecting your personal information, whether you are seeking to buy your home, sell your home, or merely just browsing our site. We recognize our obligation to keep sensitive information secure and our Privacy Policy outlines the information management practices that are applied on our website, to help give you, our valued users, peace of mind. By using this site, you signify your acceptance of this Privacy Policy. If you do not agree to this Privacy Policy you may not use the website. LUXURY RESIDENCES REAL ESTATE L.L.C. reserves the right to modify this Policy at any time by posting a notice on the Site's homepage (if we consider it appropriate, we may also provide additional notice of significant changes.) Your use of the Site after the date of the last modification listed at the beginning of this Privacy Statement indicates to us that you agree to the changes. Personal Information We only collect your personal information from you when you voluntarily submit your data, for example, where you: a) submit an inquiry on a specific property or development; b) submit a general inquiry through the “Enquire” button; c) request support to sell your home d) submit your information through the contact us page. Your personal information is accessible only to employees of LUXURY RESIDENCES REAL ESTATE L.L.C., who need to know it. It will not be available for public inspection without consent. Any user providing us with their personal information has a right to examine, change, or correct that information. Non-Personal Information Even if you do not send us any Personal Information, we collect information about how you use our site (\"Non-Personal Information\"). This information cannot identify you personally and is used to improve our site performance. This type of information can include IP (internet protocol) address, name of your ISP (internet service provider), browser types, user journey to arrive at our site, time spent on pages, and page preferences. This information is transmitted to us as a cookie. Cookies are commonly used across the internet to improve the performance of websites and increase user experience. A cookie is a small file that includes an anonymous unique identifier that is sent from a website's computer and stored on your computer's hard drive. You can configure your browser to accept all cookies, reject all cookies, or notify you when a cookie is sent. You can reset your browser to refuse all cookies or indicate when a cookie is being sent. But if you refuse cookies, some parts of the Site will not function properly and may not provide the services or information you have requested. For example, without cookies, we will not be able to provide you with searches that you have asked us to save. We use Non-Personal Information to customize the experience and advertising that you experience on our site. It helps to improve our service and website performance, but cannot be used to identify you. Use of information with respect to third parties We reserve the right to share your Personal Information with our marketing partners as permitted by law, in order to fulfill our commitment to providing you with full-service real estate brokerage services. We do share your Personal Information under the following circumstances: Third party vendors we engage to provide services on our behalf, such as hosting, website development, and support, have access to Personal Information, but they have agreed not to disclose the Personal Information or to use it for any purpose other than providing the requested services. There may arise special circumstances where it is necessary for us to disclose and use Personal Information and Non-Personal Information, such as: to enforce this Privacy Statement or any other part of our Terms of Use; to protect our property or rights; to protect the safety of anyone; to investigate, prevent, or take action regarding illegal or improper activities; to carry out a merger or consolidation with another entity, a sale or transfer of some or all of our assets, or any similar transaction; or for other reasons we determine in good faith are necessary, appropriate, or required by law, such as when we respond to subpoenas, court orders, or other legal or administrative process. This website contains links to third-party websites. We provide these links solely for information and convenience. When you link to an outside application or website, you are leaving LUXURY RESIDENCES REAL ESTATE L.L.C. website and our Privacy Policy no longer applies. Our hosting service maintains its systems in accordance with reasonable industry standards to reasonably secure the information of its customers against unauthorized access, accidental or intentional manipulation, and loss. However, no data transmission over the Internet can be guaranteed to be 100% secure and you use the Site at your own risk. Jurisdiction This website is governed by United Arab Emirates laws. Should you be located outside of the United Arab Emirates, please note that by using this website you adhere to this Privacy Policy and commensurate United Arab Emirates law. Contact us If you have any questions or concerns about this Privacy Policy, please contact us by using the \"Contact Us\" feature or by sending an email to contactus@luxuryresidences.com",
+          "Personal Information",
+          "Non-Personal Information",
+          "Use of information with respect to third parties",
+          "Jurisdiction",
+          "Contact us"
+        ],
+        "listItems": [],
+        "bodyHtml": "<div><div><div><div><p>We are committed to respecting your privacy and protecting your personal information, whether you are seeking to buy your home, sell your home, or merely just browsing our site. We recognize our obligation to keep sensitive information secure and our Privacy Policy outlines the information management practices that are applied on our website, to help give you, our valued users, peace of mind.<br/>By using this site, you signify your acceptance of this Privacy Policy. If you do not agree to this Privacy Policy you may not use the website. LUXURY RESIDENCES REAL ESTATE L.L.C. reserves the right to modify this Policy at any time by posting a notice on the Site's homepage (if we consider it appropriate, we may also provide additional notice of significant changes.) Your use of the Site after the date of the last modification listed at the beginning of this Privacy Statement indicates to us that you agree to the changes.<br/><br/><strong>Personal Information<br/></strong>We only collect your personal information from you when you voluntarily submit your data, for example, where you:<br/>a) submit an inquiry on a specific property or development;<br/>b) submit a general inquiry through the “Enquire” button;<br/>c) request support to sell your home<br/>d) submit your information through the contact us page.<br/><br/>Your personal information is accessible only to employees of LUXURY RESIDENCES REAL ESTATE L.L.C., who need to know it. It will not be available for public inspection without consent. Any user providing us with their personal information has a right to examine, change, or correct that information.<br/><br/><strong>Non-Personal Information<br/></strong>Even if you do not send us any Personal Information, we collect information about how you use our site (\"Non-Personal Information\"). This information cannot identify you personally and is used to improve our site performance. This type of information can include IP (internet protocol) address, name of your ISP (internet service provider), browser types, user journey to arrive at our site, time spent on pages, and page preferences. This information is transmitted to us as a cookie. Cookies are commonly used across the internet to improve the performance of websites and increase user experience. A cookie is a small file that includes an anonymous unique identifier that is sent from a website's computer and stored on your computer's hard drive. You can configure your browser to accept all cookies, reject all cookies, or notify you when a cookie is sent. You can reset your browser to refuse all cookies or indicate when a cookie is being sent. But if you refuse cookies, some parts of the Site will not function properly and may not provide the services or information you have requested. For example, without cookies, we will not be able to provide you with searches that you have asked us to save.<br/>We use Non-Personal Information to customize the experience and advertising that you experience on our site. It helps to improve our service and website performance, but cannot be used to identify you.<br/><br/><strong>Use of information with respect to third parties<br/></strong>We reserve the right to share your Personal Information with our marketing partners as permitted by law, in order to fulfill our commitment to providing you with full-service real estate brokerage services. We do share your Personal Information under the following circumstances:<br/>Third party vendors we engage to provide services on our behalf, such as hosting, website development, and support, have access to Personal Information, but they have agreed not to disclose the Personal Information or to use it for any purpose other than providing the requested services.<br/>There may arise special circumstances where it is necessary for us to disclose and use Personal Information and Non-Personal Information, such as: to enforce this Privacy Statement or any other part of our Terms of Use; to protect our property or rights; to protect the safety of anyone; to investigate, prevent, or take action regarding illegal or improper activities; to carry out a merger or consolidation with another entity, a sale or transfer of some or all of our assets, or any similar transaction; or for other reasons we determine in good faith are necessary, appropriate, or required by law, such as when we respond to subpoenas, court orders, or other legal or administrative process.<br/><br/>This website contains links to third-party websites. We provide these links solely for information and convenience. When you link to an outside application or website, you are leaving LUXURY RESIDENCES REAL ESTATE L.L.C. website and our Privacy Policy no longer applies.<br/>Our hosting service maintains its systems in accordance with reasonable industry standards to reasonably secure the information of its customers against unauthorized access, accidental or intentional manipulation, and loss. However, no data transmission over the Internet can be guaranteed to be 100% secure and you use the Site at your own risk.<br/><br/><strong>Jurisdiction<br/></strong>This website is governed by United Arab Emirates laws. Should you be located outside of the United Arab Emirates, please note that by using this website you adhere to this Privacy Policy and commensurate United Arab Emirates law.<br/><br/><strong>Contact us<br/></strong>If you have any questions or concerns about this Privacy Policy, please contact us by using the \"Contact Us\" feature or by sending an email to <a href=\"mailto:contactus@luxuryresidences.com\">contactus@luxuryresidences.com</a></p></div><div></div></div></div></div>",
+        "text": "We are committed to respecting your privacy and protecting your personal information, whether you are seeking to buy your home, sell your home, or merely just browsing our site. We recognize our obligation to keep sensitive information secure and our Privacy Policy outlines the information management practices that are applied on our website, to help give you, our valued users, peace of mind. By using this site, you signify your acceptance of this Privacy Policy. If you do not agree to this Privacy Policy you may not use the website. LUXURY RESIDENCES REAL ESTATE L.L.C. reserves the right to modify this Policy at any time by posting a notice on the Site's homepage (if we consider it appropriate, we may also provide additional notice of significant changes.) Your use of the Site after the date of the last modification listed at the beginning of this Privacy Statement indicates to us that you agree to the changes. Personal Information We only collect your personal information from you when you voluntarily submit your data, for example, where you: a) submit an inquiry on a specific property or development; b) submit a general inquiry through the “Enquire” button; c) request support to sell your home d) submit your information through the contact us page. Your personal information is accessible only to employees of LUXURY RESIDENCES REAL ESTATE L.L.C., who need to know it. It will not be available for public inspection without consent. Any user providing us with their personal information has a right to examine, change, or correct that information. Non-Personal Information Even if you do not send us any Personal Information, we collect information about how you use our site (\"Non-Personal Information\"). This information cannot identify you personally and is used to improve our site performance. This type of information can include IP (internet protocol) address, name of your ISP (internet service provider), browser types, user journey to arrive at our site, time spent on pages, and page preferences. This information is transmitted to us as a cookie. Cookies are commonly used across the internet to improve the performance of websites and increase user experience. A cookie is a small file that includes an anonymous unique identifier that is sent from a website's computer and stored on your computer's hard drive. You can configure your browser to accept all cookies, reject all cookies, or notify you when a cookie is sent. You can reset your browser to refuse all cookies or indicate when a cookie is being sent. But if you refuse cookies, some parts of the Site will not function properly and may not provide the services or information you have requested. For example, without cookies, we will not be able to provide you with searches that you have asked us to save. We use Non-Personal Information to customize the experience and advertising that you experience on our site. It helps to improve our service and website performance, but cannot be used to identify you. Use of information with respect to third parties We reserve the right to share your Personal Information with our marketing partners as permitted by law, in order to fulfill our commitment to providing you with full-service real estate brokerage services. We do share your Personal Information under the following circumstances: Third party vendors we engage to provide services on our behalf, such as hosting, website development, and support, have access to Personal Information, but they have agreed not to disclose the Personal Information or to use it for any purpose other than providing the requested services. There may arise special circumstances where it is necessary for us to disclose and use Personal Information and Non-Personal Information, such as: to enforce this Privacy Statement or any other part of our Terms of Use; to protect our property or rights; to protect the safety of anyone; to investigate, prevent, or take action regarding illegal or improper activities; to carry out a merger or consolidation with another entity, a sale or transfer of some or all of our assets, or any similar transaction; or for other reasons we determine in good faith are necessary, appropriate, or required by law, such as when we respond to subpoenas, court orders, or other legal or administrative process. This website contains links to third-party websites. We provide these links solely for information and convenience. When you link to an outside application or website, you are leaving LUXURY RESIDENCES REAL ESTATE L.L.C. website and our Privacy Policy no longer applies. Our hosting service maintains its systems in accordance with reasonable industry standards to reasonably secure the information of its customers against unauthorized access, accidental or intentional manipulation, and loss. However, no data transmission over the Internet can be guaranteed to be 100% secure and you use the Site at your own risk. Jurisdiction This website is governed by United Arab Emirates laws. Should you be located outside of the United Arab Emirates, please note that by using this website you adhere to this Privacy Policy and commensurate United Arab Emirates law. Contact us If you have any questions or concerns about this Privacy Policy, please contact us by using the \"Contact Us\" feature or by sending an email to contactus@luxuryresidences.com",
+        "images": [],
+        "videos": [],
+        "links": [
+          {
+            "text": "contactus@luxuryresidences.com",
+            "url": "mailto:contactus@luxuryresidences.com"
+          }
+        ],
+        "publicationEligible": true,
+        "issues": []
+      }
+    ],
+    "issues": [
+      "source-legal-entity-and-data-processing-practices-require-review-for-new-platform"
+    ],
+    "publicationEligible": true,
+    "bodyHtml": "<div><div><div><div><p>We are committed to respecting your privacy and protecting your personal information, whether you are seeking to buy your home, sell your home, or merely just browsing our site. We recognize our obligation to keep sensitive information secure and our Privacy Policy outlines the information management practices that are applied on our website, to help give you, our valued users, peace of mind.<br/>By using this site, you signify your acceptance of this Privacy Policy. If you do not agree to this Privacy Policy you may not use the website. LUXURY RESIDENCES REAL ESTATE L.L.C. reserves the right to modify this Policy at any time by posting a notice on the Site's homepage (if we consider it appropriate, we may also provide additional notice of significant changes.) Your use of the Site after the date of the last modification listed at the beginning of this Privacy Statement indicates to us that you agree to the changes.<br/><br/><strong>Personal Information<br/></strong>We only collect your personal information from you when you voluntarily submit your data, for example, where you:<br/>a) submit an inquiry on a specific property or development;<br/>b) submit a general inquiry through the “Enquire” button;<br/>c) request support to sell your home<br/>d) submit your information through the contact us page.<br/><br/>Your personal information is accessible only to employees of LUXURY RESIDENCES REAL ESTATE L.L.C., who need to know it. It will not be available for public inspection without consent. Any user providing us with their personal information has a right to examine, change, or correct that information.<br/><br/><strong>Non-Personal Information<br/></strong>Even if you do not send us any Personal Information, we collect information about how you use our site (\"Non-Personal Information\"). This information cannot identify you personally and is used to improve our site performance. This type of information can include IP (internet protocol) address, name of your ISP (internet service provider), browser types, user journey to arrive at our site, time spent on pages, and page preferences. This information is transmitted to us as a cookie. Cookies are commonly used across the internet to improve the performance of websites and increase user experience. A cookie is a small file that includes an anonymous unique identifier that is sent from a website's computer and stored on your computer's hard drive. You can configure your browser to accept all cookies, reject all cookies, or notify you when a cookie is sent. You can reset your browser to refuse all cookies or indicate when a cookie is being sent. But if you refuse cookies, some parts of the Site will not function properly and may not provide the services or information you have requested. For example, without cookies, we will not be able to provide you with searches that you have asked us to save.<br/>We use Non-Personal Information to customize the experience and advertising that you experience on our site. It helps to improve our service and website performance, but cannot be used to identify you.<br/><br/><strong>Use of information with respect to third parties<br/></strong>We reserve the right to share your Personal Information with our marketing partners as permitted by law, in order to fulfill our commitment to providing you with full-service real estate brokerage services. We do share your Personal Information under the following circumstances:<br/>Third party vendors we engage to provide services on our behalf, such as hosting, website development, and support, have access to Personal Information, but they have agreed not to disclose the Personal Information or to use it for any purpose other than providing the requested services.<br/>There may arise special circumstances where it is necessary for us to disclose and use Personal Information and Non-Personal Information, such as: to enforce this Privacy Statement or any other part of our Terms of Use; to protect our property or rights; to protect the safety of anyone; to investigate, prevent, or take action regarding illegal or improper activities; to carry out a merger or consolidation with another entity, a sale or transfer of some or all of our assets, or any similar transaction; or for other reasons we determine in good faith are necessary, appropriate, or required by law, such as when we respond to subpoenas, court orders, or other legal or administrative process.<br/><br/>This website contains links to third-party websites. We provide these links solely for information and convenience. When you link to an outside application or website, you are leaving LUXURY RESIDENCES REAL ESTATE L.L.C. website and our Privacy Policy no longer applies.<br/>Our hosting service maintains its systems in accordance with reasonable industry standards to reasonably secure the information of its customers against unauthorized access, accidental or intentional manipulation, and loss. However, no data transmission over the Internet can be guaranteed to be 100% secure and you use the Site at your own risk.<br/><br/><strong>Jurisdiction<br/></strong>This website is governed by United Arab Emirates laws. Should you be located outside of the United Arab Emirates, please note that by using this website you adhere to this Privacy Policy and commensurate United Arab Emirates law.<br/><br/><strong>Contact us<br/></strong>If you have any questions or concerns about this Privacy Policy, please contact us by using the \"Contact Us\" feature or by sending an email to <a href=\"mailto:contactus@luxuryresidences.com\">contactus@luxuryresidences.com</a></p></div><div></div></div></div></div>",
+    "bodyText": "We are committed to respecting your privacy and protecting your personal information, whether you are seeking to buy your home, sell your home, or merely just browsing our site. We recognize our obligation to keep sensitive information secure and our Privacy Policy outlines the information management practices that are applied on our website, to help give you, our valued users, peace of mind. By using this site, you signify your acceptance of this Privacy Policy. If you do not agree to this Privacy Policy you may not use the website. LUXURY RESIDENCES REAL ESTATE L.L.C. reserves the right to modify this Policy at any time by posting a notice on the Site's homepage (if we consider it appropriate, we may also provide additional notice of significant changes.) Your use of the Site after the date of the last modification listed at the beginning of this Privacy Statement indicates to us that you agree to the changes. Personal Information We only collect your personal information from you when you voluntarily submit your data, for example, where you: a) submit an inquiry on a specific property or development; b) submit a general inquiry through the “Enquire” button; c) request support to sell your home d) submit your information through the contact us page. Your personal information is accessible only to employees of LUXURY RESIDENCES REAL ESTATE L.L.C., who need to know it. It will not be available for public inspection without consent. Any user providing us with their personal information has a right to examine, change, or correct that information. Non-Personal Information Even if you do not send us any Personal Information, we collect information about how you use our site (\"Non-Personal Information\"). This information cannot identify you personally and is used to improve our site performance. This type of information can include IP (internet protocol) address, name of your ISP (internet service provider), browser types, user journey to arrive at our site, time spent on pages, and page preferences. This information is transmitted to us as a cookie. Cookies are commonly used across the internet to improve the performance of websites and increase user experience. A cookie is a small file that includes an anonymous unique identifier that is sent from a website's computer and stored on your computer's hard drive. You can configure your browser to accept all cookies, reject all cookies, or notify you when a cookie is sent. You can reset your browser to refuse all cookies or indicate when a cookie is being sent. But if you refuse cookies, some parts of the Site will not function properly and may not provide the services or information you have requested. For example, without cookies, we will not be able to provide you with searches that you have asked us to save. We use Non-Personal Information to customize the experience and advertising that you experience on our site. It helps to improve our service and website performance, but cannot be used to identify you. Use of information with respect to third parties We reserve the right to share your Personal Information with our marketing partners as permitted by law, in order to fulfill our commitment to providing you with full-service real estate brokerage services. We do share your Personal Information under the following circumstances: Third party vendors we engage to provide services on our behalf, such as hosting, website development, and support, have access to Personal Information, but they have agreed not to disclose the Personal Information or to use it for any purpose other than providing the requested services. There may arise special circumstances where it is necessary for us to disclose and use Personal Information and Non-Personal Information, such as: to enforce this Privacy Statement or any other part of our Terms of Use; to protect our property or rights; to protect the safety of anyone; to investigate, prevent, or take action regarding illegal or improper activities; to carry out a merger or consolidation with another entity, a sale or transfer of some or all of our assets, or any similar transaction; or for other reasons we determine in good faith are necessary, appropriate, or required by law, such as when we respond to subpoenas, court orders, or other legal or administrative process. This website contains links to third-party websites. We provide these links solely for information and convenience. When you link to an outside application or website, you are leaving LUXURY RESIDENCES REAL ESTATE L.L.C. website and our Privacy Policy no longer applies. Our hosting service maintains its systems in accordance with reasonable industry standards to reasonably secure the information of its customers against unauthorized access, accidental or intentional manipulation, and loss. However, no data transmission over the Internet can be guaranteed to be 100% secure and you use the Site at your own risk. Jurisdiction This website is governed by United Arab Emirates laws. Should you be located outside of the United Arab Emirates, please note that by using this website you adhere to this Privacy Policy and commensurate United Arab Emirates law. Contact us If you have any questions or concerns about this Privacy Policy, please contact us by using the \"Contact Us\" feature or by sending an email to contactus@luxuryresidences.com"
+  },
+  {
+    "slug": "insights",
+    "sourceUrl": "https://www.luxuryresidences.com/insights",
+    "sourceHash": "8980b9f25fef96e3d511eefb3279382258143ae8fa3158ba32b68a9c5cab21f3",
+    "sourceFile": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/insights.html",
+    "title": "Luxury Residences Insights | Dubai Real Estate News & Investment Tips",
+    "metaDescription": "Stay updated with Luxury Residences' insights on Dubai's real estate market, investment opportunities, and luxury developments, including exclusive projects and client stories.",
+    "sections": [
+      {
+        "id": "page_header_component",
+        "heading": "Insights",
+        "headings": [
+          {
+            "level": 1,
+            "text": "Insights"
+          }
+        ],
+        "paragraphs": [],
+        "listItems": [],
+        "bodyHtml": "<div><div><div><div><h1>Insights</h1></div></div></div></div>",
+        "text": "Insights",
+        "images": [],
+        "videos": [],
+        "links": [],
+        "publicationEligible": true,
+        "issues": []
+      }
+    ],
+    "issues": [
+      "all-four-source-article-bodies-mismatch-titles"
+    ],
+    "publicationEligible": true,
+    "articleSlugs": [
+      "exquisite-townhouse-project-in-dubai-2023",
+      "the-ultra-luxury-bugatti-residences-project-in-dubai-2023",
+      "top-10-reasons-to-invest-in-dubai-real-estate",
+      "tranio-client-experience-buying-a-dream-apartment-in-dubai-in-24-hours"
+    ]
+  },
+  {
+    "slug": "buy",
+    "sourceUrl": "https://www.luxuryresidences.com/buy",
+    "sourceHash": "1c69d842b1b3bef97faf1a618e365be997df7cd8c28e3e5b1ef3080168db3d5c",
+    "sourceFile": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/buy.html",
+    "title": "Luxury Residences Dubai | Exclusive Real Estate for Private and New Developments",
+    "metaDescription": "Discover Luxury Residences' curated portfolio of Dubai's finest private homes and new developments, including Palm Jumeirah and Emaar Beachfront properties.",
+    "sections": [],
+    "issues": [
+      "catalog-listings-extracted-separately"
+    ],
+    "publicationEligible": true,
+    "kind": "catalog"
+  },
+  {
+    "slug": "rent",
+    "sourceUrl": "https://www.luxuryresidences.com/rent",
+    "sourceHash": "04b88d0b4b8c78d3ad9064b838c47660136df25f098cdbd0867799d29d1ffccf",
+    "sourceFile": "/workspace/scratch/81d5c5510e87/luxury-source-inventory/raw/rent.html",
+    "title": "Luxury Residences Dubai | Exquisite Properties for Rent in Palm Jumeirah",
+    "metaDescription": "Explore Luxury Residences' curated rental portfolio featuring exclusive apartments in Dubai’s Palm Jumeirah, offering skyline views, private pools, and luxury amenities.",
+    "sections": [],
+    "issues": [
+      "catalog-listings-extracted-separately"
+    ],
+    "publicationEligible": true,
+    "kind": "catalog"
+  }
+]

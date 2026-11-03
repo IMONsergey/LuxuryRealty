@@ -1,0 +1,29 @@
+{
+  "at": "2026-11-03T10:23:28.953283+00:00",
+  "passed": true,
+  "sourceChanged": [],
+  "sourceFiles": 83,
+  "reports": {
+    "chromium-report.json": {
+      "sha256": "c1783a718eaf1ff6a57b570a031beb6b94b7eb66db4ed87637ac5e23c1960ec2",
+      "checks": 16
+    },
+    "webkit-report.json": {
+      "sha256": "924a55b0829f1457de203bbf8a237c79e0d12996bcbd8c25894f4a0d14912cae",
+      "checks": 16
+    },
+    "firefox-report.json": {
+      "sha256": "0a5344485a9434e3dcbee459ed3eca9469c5568e1430a64842f1dca87a5e150e",
+      "checks": 16
+    },
+    "visual-report.json": {
+      "sha256": "5feacea7c7f01c1f8fa7dd0abffce21199adeaae0f3ef9cbd0469a085bac9422",
+      "checks": 18
+    },
+    "content-output-audit.json": {
+      "sha256": "c3f71d2dc3fe8d8d13b71b50c23390279abe0d4c2c716c449435262c0b5652ce",
+      "checks": 0
+    }
+  },
+  "playwrightPackage": "/home/sergey/.local/share/imon-toolkit/node/node_modules/playwright/package.json"
+}

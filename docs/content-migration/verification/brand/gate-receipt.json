@@ -1,0 +1,29 @@
+{
+  "at": "2026-11-03T12:06:55.885493+00:00",
+  "passed": true,
+  "fullInteractionGate": "20261103T101612-48b273b939",
+  "scope": "Final home About brand card, with fresh typecheck, 22 unit tests, production build and full output audit. Prior 48 browser groups and 18 visual groups remain baseline coverage; they were not rerun after this isolated markup/CSS correction.",
+  "sourceFiles": 84,
+  "sourceDrift": [],
+  "changedFromFullGate": [
+    "src/pages/index.astro",
+    "src/styles/migration.css"
+  ],
+  "addedFromFullGate": [
+    "scripts/content-brand-qa.mjs"
+  ],
+  "reports": {
+    "brand-chromium-report.json": {
+      "sha256": "8502e06cbd56be49cef2bfd58f44f9125f82c7f5843387d95094e3893f930875",
+      "bytes": 10903
+    },
+    "content-output-audit.json": {
+      "sha256": "38cf71b299ce71f5f21da0fac2e0949e995b7a1ba488d4878d0e9915532d4e1b",
+      "bytes": 638078
+    },
+    "source-before.json": {
+      "sha256": "0fe65bf49f849f14495360f68cbcba1673f893afeaa6b69ae0d088b3f64742ff",
+      "bytes": 8845
+    }
+  }
+}
