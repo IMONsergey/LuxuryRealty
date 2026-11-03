@@ -608,22 +608,52 @@ async function panelGeometry(dialog,label){
  for(const item of data.labels.filter(item=>item.width&&item.height))assert.ok(item.height>=43.5,'Visible filter choice target is too short: '+item.text);
 }
 async function observeToggle(dialog,opening,action,label){
- // Read actual rendered states during the action. No CSS/DOM timing overrides.
- const tracePromise=dialog.evaluate((element,opening)=>new Promise(resolve=>{
-  const samples=[],start=performance.now();let seen=false,stable=0;
-  const sample=()=>{
-   const style=getComputedStyle(element),r=element.getBoundingClientRect();
-   const running=element.getAnimations({subtree:true}).filter(animation=>animation.playState==='running'&&Number.isFinite(animation.effect?.getComputedTiming().endTime)).length;
-   samples.push({ms:Math.round(performance.now()-start),open:element.open,opacity:Number(style.opacity),transform:style.transform,height:r.height,running,state:element.dataset.dialogState||null});
-   seen||=opening?element.open:!element.open;
-   const settled=opening?element.open&&Number(style.opacity)>=.995&&!running:!element.open;
-   stable=seen&&settled?stable+1:0;
-   if(stable>=3||performance.now()-start>3000)resolve(samples);else requestAnimationFrame(sample);
-  };requestAnimationFrame(sample);
- }),opening);
- await action();
- const trace=await tracePromise;
- (active.motionTraces??=[]).push({label,motion:active.motion,opening,samples:trace});
+ // Arm before the real action. Attribute microtasks retain short native transitions
+ // when a headless engine delivers its next animation frame after the exit ends.
+ const bounded=async(promise,name)=>{
+  let timer;
+  try{return await Promise.race([promise,new Promise((_,reject)=>{timer=setTimeout(()=>reject(new Error('Dialog motion recorder '+name+' exceeded 5000ms')),5000);})]);}
+  finally{clearTimeout(timer);}
+ };
+ let result;
+ try{
+  await bounded(dialog.evaluate((element,opening)=>{
+   const samples=[],start=performance.now();let seen=false,stable=0,done=false,frame,timer,observer,resolveDone;
+   const recorder={promise:new Promise(resolve=>{resolveDone=resolve;}),finish:null};
+   const finish=reason=>{
+    if(done)return;done=true;observer?.disconnect();cancelAnimationFrame(frame);clearTimeout(timer);
+    resolveDone({samples,completionReason:reason,elapsedMs:Math.round(performance.now()-start)});
+   };
+   recorder.finish=finish;element.__lrQaMotionRecorder=recorder;
+   const sample=reason=>{
+    if(done)return;
+    const style=getComputedStyle(element),r=element.getBoundingClientRect(),animations=element.getAnimations({subtree:true});
+    const running=animations.filter(animation=>animation.playState==='running'&&Number.isFinite(animation.effect?.getComputedTiming().endTime)).length;
+    const entry={ms:Math.round(performance.now()-start),reason,open:element.open,opacity:Number(style.opacity),transform:style.transform,height:r.height,running,state:element.dataset.dialogState||null,visibilityState:document.visibilityState,documentHasFocus:document.hasFocus()};
+    if(reason==='attribute')entry.animations=animations.map(animation=>{
+     const effect=animation.effect,timing=effect?.getComputedTiming(),target=effect?.target;
+     return {type:animation.constructor.name,name:animation.animationName||animation.transitionProperty||null,target:target instanceof Element?target.tagName+(target.id?'#'+target.id:''):null,pseudoElement:effect?.pseudoElement||null,playState:animation.playState,currentTime:animation.currentTime,duration:timing?.duration,endTime:timing?.endTime,keyframes:effect?.getKeyframes()||[]};
+    });
+    samples.push(entry);seen||=opening?element.open:!element.open;
+    const settled=opening?element.open&&Number(style.opacity)>=.995&&!running:!element.open;
+    if(reason==='animation-frame')stable=seen&&settled?stable+1:0;
+    else if(!settled)stable=0;
+    if(stable>=3)finish('settled');
+   };
+   const tick=()=>{sample('animation-frame');if(!done)frame=requestAnimationFrame(tick);};
+   observer=new MutationObserver(()=>sample('attribute'));
+   observer.observe(element,{attributes:true,attributeFilter:['open','data-dialog-state']});
+   sample('armed');frame=requestAnimationFrame(tick);
+   timer=setTimeout(()=>{sample('deadline');finish('deadline');},3000);
+   return {armed:true};
+  },opening),'ready');
+  await action();
+  result=await bounded(dialog.evaluate(element=>element.__lrQaMotionRecorder.promise),'completion');
+ }finally{
+  await bounded(dialog.evaluate(element=>{element.__lrQaMotionRecorder?.finish('cleanup');delete element.__lrQaMotionRecorder;}),'cleanup');
+ }
+ const trace=result.samples;
+ (active.motionTraces??=[]).push({label,motion:active.motion,opening,completionReason:result.completionReason,elapsedMs:result.elapsedMs,samples:trace});
  assert.equal(trace.at(-1)?.open,opening,'Dialog toggle completes');
  if(active.motion==='reduce')assert.ok(!trace.some(sample=>sample.open&&sample.running>0),'Reduced motion dialog has no ongoing finite animation');
  else assert.ok(trace.some(sample=>sample.open&&(sample.running>0||sample.opacity<.995)),'Normal motion produces a measurable transition');
