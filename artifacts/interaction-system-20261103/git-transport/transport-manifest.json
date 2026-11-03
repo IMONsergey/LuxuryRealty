@@ -3519,6 +3519,267 @@
       "sha256": "07dcf5c5e5b8df41a3e9a6176a5d491887e29c9e352d2b950b833253a8d63f2e",
       "parts": [],
       "textPath": "artifacts/interaction-system-20261103/git-transport/metadata/validation-r13/report.json"
+    },
+    {
+      "key": "validation-r14/static-bundle-before.json",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r14/static-bundle-before.json",
+      "bytes": 24636,
+      "sha256": "c7bce75032f839cca992f79df5c42f672c26da81b48779436898afdd96dd9d1e",
+      "parts": [],
+      "textPath": "artifacts/interaction-system-20261103/git-transport/metadata/validation-r14/static-bundle-before.json"
+    },
+    {
+      "key": "validation-r14/public-focused.log",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r14/public-focused.log",
+      "bytes": 609,
+      "sha256": "84169eba80684c852612b78f8f0205ca7c204272715d7196adf9c1471a15b900",
+      "parts": [],
+      "textPath": "artifacts/interaction-system-20261103/git-transport/metadata/validation-r14/public-focused.log"
+    },
+    {
+      "key": "validation-r14/content-output.log",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r14/content-output.log",
+      "bytes": 498,
+      "sha256": "88568143046b1c6ae31651355b503e2edceb19689c830bbb530fa75a1d285c25",
+      "parts": [],
+      "textPath": "artifacts/interaction-system-20261103/git-transport/metadata/validation-r14/content-output.log"
+    },
+    {
+      "key": "validation-r14/preview-smoke.log",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r14/preview-smoke.log",
+      "bytes": 214,
+      "sha256": "456773fea6cae8c18657318fd61a00523a4cd60a18cbde91f2f66a8c4f295ccd",
+      "parts": [],
+      "textPath": "artifacts/interaction-system-20261103/git-transport/metadata/validation-r14/preview-smoke.log"
+    },
+    {
+      "key": "validation-r14/scoped-content-public.log",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r14/scoped-content-public.log",
+      "bytes": 341,
+      "sha256": "1da7bec6c59d7c1e1b2af9d22202587faa368f66b0921d9dc1b1f82f4a79d881",
+      "parts": [],
+      "textPath": "artifacts/interaction-system-20261103/git-transport/metadata/validation-r14/scoped-content-public.log"
+    },
+    {
+      "key": "validation-r14/preview-smoke.json",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r14/preview-smoke.json",
+      "bytes": 200337,
+      "sha256": "01b61999e3cc4f74c8fa28f1dfb5aae579f7c821d6bf4d98efc631809b4fded2",
+      "parts": [],
+      "textPath": "artifacts/interaction-system-20261103/git-transport/metadata/validation-r14/preview-smoke.json"
+    },
+    {
+      "key": "validation-r14/prior-content-output-audit.json",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r14/prior-content-output-audit.json",
+      "bytes": 639655,
+      "sha256": "c20e0504c679a9afda1f3ad3bea49c5d75cd55bc7e650f56e3f0a780a71a2e64",
+      "parts": [],
+      "textPath": "artifacts/interaction-system-20261103/git-transport/metadata/validation-r14/prior-content-output-audit.json"
+    },
+    {
+      "key": "validation-r14/static-bundle-after.json",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r14/static-bundle-after.json",
+      "bytes": 24636,
+      "sha256": "86a831721081797583e4cf252b95f3fe477f09736c0340dd328d0406c01009d0",
+      "parts": [],
+      "textPath": "artifacts/interaction-system-20261103/git-transport/metadata/validation-r14/static-bundle-after.json"
+    },
+    {
+      "key": "validation-r14/report.json",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r14/report.json",
+      "bytes": 35100,
+      "sha256": "491876569f6f1ad39f2066b2f303530dfcff31451ee30fd360889eaeeb082626",
+      "parts": [],
+      "textPath": "artifacts/interaction-system-20261103/git-transport/metadata/validation-r14/report.json"
+    },
+    {
+      "key": "validation-r14/content-output-audit.json",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r14/content-output-audit.json",
+      "bytes": 639581,
+      "sha256": "7c06f9d0a3aeb74dbbbf1d1a47c53a468971aa717852343ddbcfc8d429fdbf30",
+      "parts": [],
+      "textPath": "artifacts/interaction-system-20261103/git-transport/metadata/validation-r14/content-output-audit.json"
+    },
+    {
+      "key": "scoped-content-public-r1/002-celebrated-designer-duplex-with-private-pool-390-description.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/scoped-content-public-r1/002-celebrated-designer-duplex-with-private-pool-390-description.png",
+      "bytes": 56846,
+      "sha256": "136c4b8ca7d7a0d7f879c1e57b37378b483b0169c91deb1dfdfe418fb82c09b9",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/scoped-content-public-r1/002-celebrated-designer-duplex-with-private-pool-390-description.png/001.b64"
+      ]
+    },
+    {
+      "key": "scoped-content-public-r1/005-the-chedi-private-residences-390-joined-paragraph-3.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/scoped-content-public-r1/005-the-chedi-private-residences-390-joined-paragraph-3.png",
+      "bytes": 51005,
+      "sha256": "df8f5f0941c1e328db9c001472bafd756eba4a3dba75550eaa22ce0bd6b4fdf7",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/scoped-content-public-r1/005-the-chedi-private-residences-390-joined-paragraph-3.png/001.b64"
+      ]
+    },
+    {
+      "key": "scoped-content-public-r1/008-vela-390-story.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/scoped-content-public-r1/008-vela-390-story.png",
+      "bytes": 49517,
+      "sha256": "19df6977f8dacc510c0335ea0970e1288d0e5dcbebfef443b2e542e0f34d2245",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/scoped-content-public-r1/008-vela-390-story.png/001.b64"
+      ]
+    },
+    {
+      "key": "scoped-content-public-r1/012-serenity-mansions-waterfront-collection-1440-description.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/scoped-content-public-r1/012-serenity-mansions-waterfront-collection-1440-description.png",
+      "bytes": 166944,
+      "sha256": "1f81dabeea422abb167305e783f775d675d81638fdc45f5d0555855233311189",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/scoped-content-public-r1/012-serenity-mansions-waterfront-collection-1440-description.png/001.b64"
+      ]
+    },
+    {
+      "key": "scoped-content-public-r1/001-your-royal-lifestyle-with-sublime-views-and-space-2-390-description.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/scoped-content-public-r1/001-your-royal-lifestyle-with-sublime-views-and-space-2-390-description.png",
+      "bytes": 59335,
+      "sha256": "56e15e5e5795976242f3a3608da1ca8bb559a034c4ca361c56cf1cda432b60d4",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/scoped-content-public-r1/001-your-royal-lifestyle-with-sublime-views-and-space-2-390-description.png/001.b64"
+      ]
+    },
+    {
+      "key": "scoped-content-public-r1/010-celebrated-designer-duplex-with-private-pool-1440-description.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/scoped-content-public-r1/010-celebrated-designer-duplex-with-private-pool-1440-description.png",
+      "bytes": 148497,
+      "sha256": "f4ab6757fd49f17ba1e8b1cfdab03f7dc2ad2911ca51656c427b854f56090623",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/scoped-content-public-r1/010-celebrated-designer-duplex-with-private-pool-1440-description.png/001.b64"
+      ]
+    },
+    {
+      "key": "scoped-content-public-r1/009-your-royal-lifestyle-with-sublime-views-and-space-2-1440-description.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/scoped-content-public-r1/009-your-royal-lifestyle-with-sublime-views-and-space-2-1440-description.png",
+      "bytes": 132128,
+      "sha256": "c06d6aeae70a7cbda014735e86fa8a56de39385ca9ed4fcca87056e82cf6a50c",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/scoped-content-public-r1/009-your-royal-lifestyle-with-sublime-views-and-space-2-1440-description.png/001.b64"
+      ]
+    },
+    {
+      "key": "scoped-content-public-r1/016-vela-1440-location-map.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/scoped-content-public-r1/016-vela-1440-location-map.png",
+      "bytes": 261978,
+      "sha256": "8ec8909ff191e6e4d4c5574a7a134a07c82b03da402a517a546d6f3dd0fab804",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/scoped-content-public-r1/016-vela-1440-location-map.png/001.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/scoped-content-public-r1/016-vela-1440-location-map.png/002.b64"
+      ]
+    },
+    {
+      "key": "scoped-content-public-r1/003-serenity-mansions-aurora-390-description.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/scoped-content-public-r1/003-serenity-mansions-aurora-390-description.png",
+      "bytes": 60457,
+      "sha256": "7c71adda6bf6f3d0443ef85be3275953a19c6f7d22a9ad2b3010f3751255e360",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/scoped-content-public-r1/003-serenity-mansions-aurora-390-description.png/001.b64"
+      ]
+    },
+    {
+      "key": "scoped-content-public-r1/011-serenity-mansions-aurora-1440-description.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/scoped-content-public-r1/011-serenity-mansions-aurora-1440-description.png",
+      "bytes": 141972,
+      "sha256": "bcdaf8c87f0a0d378443f8c5b94e51336f11e188f505704fd2f6311a6f2387bb",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/scoped-content-public-r1/011-serenity-mansions-aurora-1440-description.png/001.b64"
+      ]
+    },
+    {
+      "key": "scoped-content-public-r1/004-serenity-mansions-waterfront-collection-390-description.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/scoped-content-public-r1/004-serenity-mansions-waterfront-collection-390-description.png",
+      "bytes": 69551,
+      "sha256": "2e8259d5954c26af4775aa3f12a1211574a3f0cb0b78fbc64ccb6c975a68920c",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/scoped-content-public-r1/004-serenity-mansions-waterfront-collection-390-description.png/001.b64"
+      ]
+    },
+    {
+      "key": "scoped-content-public-r1/report.json",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/scoped-content-public-r1/report.json",
+      "bytes": 285992,
+      "sha256": "68bd613aa6d50d9fc56a2ef0a42aecbc570b3133b4d82b80672edbc7792a6de7",
+      "parts": [],
+      "textPath": "artifacts/interaction-system-20261103/git-transport/metadata/scoped-content-public-r1/report.json"
+    },
+    {
+      "key": "scoped-content-public-r1/015-serenity-mansions-waterfront-collection-1440-story.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/scoped-content-public-r1/015-serenity-mansions-waterfront-collection-1440-story.png",
+      "bytes": 324592,
+      "sha256": "37c80a7d35aa7d67a1ebfaff2807ced745bdf204d4ac0a84fcbc0ce85f9f91ec",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/scoped-content-public-r1/015-serenity-mansions-waterfront-collection-1440-story.png/001.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/scoped-content-public-r1/015-serenity-mansions-waterfront-collection-1440-story.png/002.b64"
+      ]
+    },
+    {
+      "key": "scoped-content-public-r1/013-the-chedi-private-residences-1440-description.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/scoped-content-public-r1/013-the-chedi-private-residences-1440-description.png",
+      "bytes": 158963,
+      "sha256": "5e87ca500bcb91ee629d5e707650ee96b8e9ed4a7e4499aed4af71e157f8aeb6",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/scoped-content-public-r1/013-the-chedi-private-residences-1440-description.png/001.b64"
+      ]
+    },
+    {
+      "key": "scoped-content-public-r1/016-vela-1440-story.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/scoped-content-public-r1/016-vela-1440-story.png",
+      "bytes": 139312,
+      "sha256": "031e135a3171e7c2757ba710adbb79ee06dc9fa1659a71881a01f51774765e64",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/scoped-content-public-r1/016-vela-1440-story.png/001.b64"
+      ]
+    },
+    {
+      "key": "scoped-content-public-r1/007-serenity-mansions-waterfront-collection-390-story.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/scoped-content-public-r1/007-serenity-mansions-waterfront-collection-390-story.png",
+      "bytes": 53114,
+      "sha256": "66de027ba757a1eb82eb625deba2648efb56699b3f9715e31011511b847a04bd",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/scoped-content-public-r1/007-serenity-mansions-waterfront-collection-390-story.png/001.b64"
+      ]
+    },
+    {
+      "key": "scoped-content-public-r1/008-vela-390-location-map.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/scoped-content-public-r1/008-vela-390-location-map.png",
+      "bytes": 161163,
+      "sha256": "18fe8f359d3e501a2f5afdd80c1c0460c9381814882d935dfb29c4151eb57c56",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/scoped-content-public-r1/008-vela-390-location-map.png/001.b64"
+      ]
+    },
+    {
+      "key": "scoped-content-public-r1/005-the-chedi-private-residences-390-description.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/scoped-content-public-r1/005-the-chedi-private-residences-390-description.png",
+      "bytes": 61167,
+      "sha256": "50e9c9cd26e80ce9a6321779d376f546079a32db5850035535ccbd9e11911570",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/scoped-content-public-r1/005-the-chedi-private-residences-390-description.png/001.b64"
+      ]
+    },
+    {
+      "key": "scoped-content-public-r1/014-vela-dorchester-collection-1440-description.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/scoped-content-public-r1/014-vela-dorchester-collection-1440-description.png",
+      "bytes": 154541,
+      "sha256": "519c0ceb0965b4abc817fe360502f6658ac8eaa8335c7a70ef1b5179877bdade",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/scoped-content-public-r1/014-vela-dorchester-collection-1440-description.png/001.b64"
+      ]
+    },
+    {
+      "key": "scoped-content-public-r1/006-vela-dorchester-collection-390-description.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/scoped-content-public-r1/006-vela-dorchester-collection-390-description.png",
+      "bytes": 60398,
+      "sha256": "3af553f4344cb335b1c1875cd6c5039e99d3c87659cb5477c9d2af07939eb214",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/scoped-content-public-r1/006-vela-dorchester-collection-390-description.png/001.b64"
+      ]
     }
   ],
   "validationR9": {
@@ -4266,5 +4527,126 @@
     "sourceHeadAfter": "a484ab78629f4129080abb7c8be938c573c4e1a8",
     "sourceUnchanged": true,
     "finishedAt": "2026-11-03T17:54:32Z"
+  },
+  "validationR14": {
+    "startedAt": "2026-11-03T18:05:00Z",
+    "sourceHead": "84638a11ccf24be8389d6bf7e52d1fec47bc85d1",
+    "priorSourceHead": "a484ab78629f4129080abb7c8be938c573c4e1a8",
+    "priorStaticBundle": {
+      "count": 146,
+      "sha256": "ddd32f0f1f4169cac9271b644f4e9fdfa47130501c7a18836ac91346f1e6113e"
+    },
+    "stages": [
+      {
+        "name": "content-output",
+        "exitCode": 0,
+        "seconds": 14.73,
+        "log": "artifacts/interaction-system-20261103/validation-r14/content-output.log"
+      },
+      {
+        "name": "scoped-content-public",
+        "exitCode": 0,
+        "seconds": 26.5,
+        "log": "artifacts/interaction-system-20261103/validation-r14/scoped-content-public.log"
+      },
+      {
+        "name": "preview-smoke",
+        "exitCode": 0,
+        "seconds": 25.51,
+        "log": "artifacts/interaction-system-20261103/validation-r14/preview-smoke.log"
+      },
+      {
+        "name": "public-focused",
+        "exitCode": 1,
+        "seconds": 0.17,
+        "log": "artifacts/interaction-system-20261103/validation-r14/public-focused.log"
+      }
+    ],
+    "complete": false,
+    "passed": false,
+    "releaseAcceptance": false,
+    "humanReview": "pending-final-scoped-and-public-screenshot-review",
+    "preview": {
+      "url": "https://luxury-realty-imon-jrsjy0sj5-cdo-2844s-projects.vercel.app",
+      "sha": "84638a11ccf24be8389d6bf7e52d1fec47bc85d1",
+      "runtimeSourceHead": "a484ab78629f4129080abb7c8be938c573c4e1a8",
+      "branch": "feat/interaction-system-20261103",
+      "deploymentId": "dpl_8RtQs3eh4RPHDqkuVVWo6pGLqM8y",
+      "projectId": "prj_9iSUC97pBvn9DoD6blM9mAZm6dMu",
+      "teamId": "team_eJReJ6RtdOT99uZ8iGJFHX3r",
+      "stateVerified": "READY",
+      "target": "preview",
+      "bindingMethod": "Vercel get_deployment withGitRepoInfo=true",
+      "verifiedAt": "2026-11-03T18:01:17.304Z"
+    },
+    "runtimeSourceHead": "a484ab78629f4129080abb7c8be938c573c4e1a8",
+    "inheritedCheckBuild": {
+      "report": "artifacts/interaction-system-20261103/validation-r13/report.json",
+      "sourceHead": "a484ab78629f4129080abb7c8be938c573c4e1a8",
+      "stages": [
+        {
+          "name": "check",
+          "exitCode": 0,
+          "seconds": 18.44,
+          "log": "artifacts/interaction-system-20261103/validation-r13/check.log"
+        },
+        {
+          "name": "build",
+          "exitCode": 0,
+          "seconds": 12.63,
+          "log": "artifacts/interaction-system-20261103/validation-r13/build.log"
+        }
+      ],
+      "currentSourceDelta": [
+        "scripts/content-output-audit.py"
+      ],
+      "reason": "The built runtime is unchanged. The auditor now classifies the already verified anonymous VELA map as a map and checks it in the contained map section; all photograph/map coverage assertions remain enforced."
+    },
+    "inheritedEvidence": {
+      "sourceHead": "532cd2fc19dcf9ddaa1809616a47ebaee86eec88",
+      "runtimeSourceDelta": [
+        "src/data/content.ts"
+      ],
+      "allPageRoutes": 130,
+      "allPageViews": 260,
+      "reviewedOverviewSheets": 90,
+      "webkitUnionViews": 35,
+      "webkitUniqueChecks": 87,
+      "reason": "Only six property descriptions, a Waterfront repeated story and VELA map classification changed; shared CSS, client scripts, controls, source data and assets remain byte-identical."
+    },
+    "staticBundle": {
+      "count": 146,
+      "sha256": "ddd32f0f1f4169cac9271b644f4e9fdfa47130501c7a18836ac91346f1e6113e"
+    },
+    "builtOutputDelta": {
+      "comparisonSourceHead": "532cd2fc19dcf9ddaa1809616a47ebaee86eec88",
+      "changedFiles": [
+        "developments/serenity-mansions-waterfront-collection/index.html",
+        "developments/vela/index.html",
+        "properties/celebrated-designer-duplex-with-private-pool/index.html",
+        "properties/serenity-mansions-aurora/index.html",
+        "properties/serenity-mansions-waterfront-collection/index.html",
+        "properties/the-chedi-private-residences/index.html",
+        "properties/vela-dorchester-collection/index.html",
+        "properties/your-royal-lifestyle-with-sublime-views-and-space-2/index.html"
+      ],
+      "expectedChangedFiles": [
+        "developments/serenity-mansions-waterfront-collection/index.html",
+        "developments/vela/index.html",
+        "properties/celebrated-designer-duplex-with-private-pool/index.html",
+        "properties/serenity-mansions-aurora/index.html",
+        "properties/serenity-mansions-waterfront-collection/index.html",
+        "properties/the-chedi-private-residences/index.html",
+        "properties/vela-dorchester-collection/index.html",
+        "properties/your-royal-lifestyle-with-sublime-views-and-space-2/index.html"
+      ],
+      "exactlyScoped": true,
+      "unchangedCanonicalRouteCount": 122
+    },
+    "error": "RuntimeError: public-focused failed with 1",
+    "sourceHeadAfter": "84638a11ccf24be8389d6bf7e52d1fec47bc85d1",
+    "sourceUnchanged": true,
+    "staticBundleUnchanged": true,
+    "finishedAt": "2026-11-03T18:06:08Z"
   }
 }
