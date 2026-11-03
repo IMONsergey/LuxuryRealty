@@ -49,7 +49,8 @@ function imageFilename(image:SourceImage):string {
  try{return decodeURIComponent(filename);}catch{return filename;}
 }
 function isLocationMap(image:SourceImage):boolean {
- return /(?:^|[\s_-])map(?:[\s_.()-]|$)/i.test(imageFilename(image));
+ return image.url==='https://cdn.prod.website-files.com/66a8e4e8bd6f32dc468081cf/6708c7af4363d574b654f03e_20.png'
+  ||/(?:^|[\s_-])map(?:[\s_.()-]|$)/i.test(imageFilename(image));
 }
 function isPhotograph(image:SourceImage):boolean {
  return /\.(?:jpe?g|png|webp|avif)(?:\?|$)/i.test(image.url)
