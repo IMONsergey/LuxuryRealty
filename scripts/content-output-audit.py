@@ -882,6 +882,10 @@ class Audit:
         def image_filename(image):
             return unquote(urlsplit(image.get('url', '')).path.rsplit('/', 1)[-1])
 
+        def is_location_map(image):
+            return (image.get('url') == 'https://cdn.prod.website-files.com/66a8e4e8bd6f32dc468081cf/6708c7af4363d574b654f03e_20.png'
+                    or bool(location_map.search(image_filename(image))))
+
         location_receipts = []
         for project in source_projects:
             if not project.get('publicationEligible'):
@@ -894,9 +898,9 @@ class Audit:
                 sources.extend(images[1:] if index == 0 else images)
             expected = {image['url'] for image in sources if re.search(r'\.(?:jpe?g|png|webp|avif)(?:\?|$)', image.get('url', ''), re.I)
                         and not excluded.search(image_filename(image))
-                        and not location_map.search(image_filename(image))}
+                        and not is_location_map(image)}
             expected_maps = {image['url'] for section in sections for image in section.get('images', [])
-                             if location_map.search(image_filename(image))}
+                             if is_location_map(image)}
             route = '/developments/' + aliases.get(project['slug'], project['slug']) + '/'
             actual = self.gallery_sources[route]
             if expected != actual:
