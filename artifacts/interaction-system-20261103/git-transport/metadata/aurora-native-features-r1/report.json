@@ -1,0 +1,432 @@
+{
+  "sourceHead": "532cd2fc19dcf9ddaa1809616a47ebaee86eec88",
+  "preview": "https://luxury-realty-imon-jvah4quvl-cdo-2844s-projects.vercel.app",
+  "startedAt": "2026-11-03T17:50:57.838Z",
+  "routes": [
+    "/developments/serenity-mansions-aurora/"
+  ],
+  "frames": [
+    {
+      "file": "serenity-mansions-aurora-390-feature-1.png",
+      "route": "/developments/serenity-mansions-aurora/",
+      "viewportWidth": 390,
+      "viewportHeight": 844,
+      "kind": "feature-1",
+      "sha256": "5f02ce1a44d335315f4ddc19f632928e8630c66310ee30746f92a42dd45ac2f9",
+      "bytes": 306530,
+      "scrollY": 5558,
+      "images": [
+        {
+          "src": "https://luxury-realty-imon-jvah4quvl-cdo-2844s-projects.vercel.app/media/a5f55663b287c3a9bf79-480.webp",
+          "loaded": true,
+          "naturalWidth": 342,
+          "opacity": "1",
+          "visibility": "visible",
+          "rect": {
+            "x": 24,
+            "y": 111.8125,
+            "width": 327,
+            "height": 245.25
+          },
+          "inViewport": true
+        },
+        {
+          "src": "https://luxury-realty-imon-jvah4quvl-cdo-2844s-projects.vercel.app/media/d6ac092d02c963eb1ec4-480.webp",
+          "loaded": true,
+          "naturalWidth": 342,
+          "opacity": "1",
+          "visibility": "visible",
+          "rect": {
+            "x": 24,
+            "y": 546.03125,
+            "width": 327,
+            "height": 245.25
+          },
+          "inViewport": true
+        },
+        {
+          "src": "https://luxury-realty-imon-jvah4quvl-cdo-2844s-projects.vercel.app/media/0cb727ed1d817c976ba5-480.webp",
+          "loaded": true,
+          "naturalWidth": 342,
+          "opacity": "1",
+          "visibility": "visible",
+          "rect": {
+            "x": 24,
+            "y": 1017.4375,
+            "width": 327,
+            "height": 245.25
+          },
+          "inViewport": false
+        }
+      ],
+      "humanReview": "pending"
+    },
+    {
+      "file": "serenity-mansions-aurora-390-feature-2.png",
+      "route": "/developments/serenity-mansions-aurora/",
+      "viewportWidth": 390,
+      "viewportHeight": 844,
+      "kind": "feature-2",
+      "sha256": "60cd87a7544a19d2498a2dc759deb9454a8eeae3bb0dc73dad33953af11e31f4",
+      "bytes": 294741,
+      "scrollY": 5992,
+      "images": [
+        {
+          "src": "https://luxury-realty-imon-jvah4quvl-cdo-2844s-projects.vercel.app/media/a5f55663b287c3a9bf79-480.webp",
+          "loaded": true,
+          "naturalWidth": 342,
+          "opacity": "1",
+          "visibility": "visible",
+          "rect": {
+            "x": 24,
+            "y": -322.1875,
+            "width": 327,
+            "height": 245.25
+          },
+          "inViewport": false
+        },
+        {
+          "src": "https://luxury-realty-imon-jvah4quvl-cdo-2844s-projects.vercel.app/media/d6ac092d02c963eb1ec4-480.webp",
+          "loaded": true,
+          "naturalWidth": 342,
+          "opacity": "1",
+          "visibility": "visible",
+          "rect": {
+            "x": 24,
+            "y": 112.03125,
+            "width": 327,
+            "height": 245.25
+          },
+          "inViewport": true
+        },
+        {
+          "src": "https://luxury-realty-imon-jvah4quvl-cdo-2844s-projects.vercel.app/media/0cb727ed1d817c976ba5-480.webp",
+          "loaded": true,
+          "naturalWidth": 342,
+          "opacity": "1",
+          "visibility": "visible",
+          "rect": {
+            "x": 24,
+            "y": 583.4375,
+            "width": 327,
+            "height": 245.25
+          },
+          "inViewport": true
+        }
+      ],
+      "humanReview": "pending"
+    },
+    {
+      "file": "serenity-mansions-aurora-390-feature-3.png",
+      "route": "/developments/serenity-mansions-aurora/",
+      "viewportWidth": 390,
+      "viewportHeight": 844,
+      "kind": "feature-3",
+      "sha256": "74370cb3d92ede3f7f143efe11bbabb2955662560a1ef110b4355546721229ee",
+      "bytes": 230436,
+      "scrollY": 6463,
+      "images": [
+        {
+          "src": "https://luxury-realty-imon-jvah4quvl-cdo-2844s-projects.vercel.app/media/a5f55663b287c3a9bf79-480.webp",
+          "loaded": true,
+          "naturalWidth": 342,
+          "opacity": "1",
+          "visibility": "visible",
+          "rect": {
+            "x": 24,
+            "y": -793.1875,
+            "width": 327,
+            "height": 245.25
+          },
+          "inViewport": false
+        },
+        {
+          "src": "https://luxury-realty-imon-jvah4quvl-cdo-2844s-projects.vercel.app/media/d6ac092d02c963eb1ec4-480.webp",
+          "loaded": true,
+          "naturalWidth": 342,
+          "opacity": "1",
+          "visibility": "visible",
+          "rect": {
+            "x": 24,
+            "y": -358.96875,
+            "width": 327,
+            "height": 245.25
+          },
+          "inViewport": false
+        },
+        {
+          "src": "https://luxury-realty-imon-jvah4quvl-cdo-2844s-projects.vercel.app/media/0cb727ed1d817c976ba5-480.webp",
+          "loaded": true,
+          "naturalWidth": 342,
+          "opacity": "1",
+          "visibility": "visible",
+          "rect": {
+            "x": 24,
+            "y": 112.4375,
+            "width": 327,
+            "height": 245.25
+          },
+          "inViewport": true
+        }
+      ],
+      "humanReview": "pending"
+    },
+    {
+      "file": "serenity-mansions-aurora-1440-feature-1.png",
+      "route": "/developments/serenity-mansions-aurora/",
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "kind": "feature-1",
+      "sha256": "ce4a4a540e11ca6fbf4bd042ef65d5789e508b7e7b87e480533e8af8de1028a3",
+      "bytes": 862003,
+      "scrollY": 6380,
+      "images": [
+        {
+          "src": "https://luxury-realty-imon-jvah4quvl-cdo-2844s-projects.vercel.app/media/a5f55663b287c3a9bf79-480.webp",
+          "loaded": true,
+          "naturalWidth": 349,
+          "opacity": "1",
+          "visibility": "visible",
+          "rect": {
+            "x": 157.5,
+            "y": 112.28125,
+            "width": 350,
+            "height": 262.5
+          },
+          "inViewport": true
+        },
+        {
+          "src": "https://luxury-realty-imon-jvah4quvl-cdo-2844s-projects.vercel.app/media/d6ac092d02c963eb1ec4-480.webp",
+          "loaded": true,
+          "naturalWidth": 349,
+          "opacity": "1",
+          "visibility": "visible",
+          "rect": {
+            "x": 537.5,
+            "y": 112.28125,
+            "width": 350,
+            "height": 262.5
+          },
+          "inViewport": true
+        },
+        {
+          "src": "https://luxury-realty-imon-jvah4quvl-cdo-2844s-projects.vercel.app/media/0cb727ed1d817c976ba5-480.webp",
+          "loaded": true,
+          "naturalWidth": 349,
+          "opacity": "1",
+          "visibility": "visible",
+          "rect": {
+            "x": 917.5,
+            "y": 112.28125,
+            "width": 350,
+            "height": 262.5
+          },
+          "inViewport": true
+        }
+      ],
+      "humanReview": "pending"
+    },
+    {
+      "file": "serenity-mansions-aurora-1440-feature-2.png",
+      "route": "/developments/serenity-mansions-aurora/",
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "kind": "feature-2",
+      "sha256": "ce4a4a540e11ca6fbf4bd042ef65d5789e508b7e7b87e480533e8af8de1028a3",
+      "bytes": 862003,
+      "scrollY": 6380,
+      "images": [
+        {
+          "src": "https://luxury-realty-imon-jvah4quvl-cdo-2844s-projects.vercel.app/media/a5f55663b287c3a9bf79-480.webp",
+          "loaded": true,
+          "naturalWidth": 349,
+          "opacity": "1",
+          "visibility": "visible",
+          "rect": {
+            "x": 157.5,
+            "y": 112.28125,
+            "width": 350,
+            "height": 262.5
+          },
+          "inViewport": true
+        },
+        {
+          "src": "https://luxury-realty-imon-jvah4quvl-cdo-2844s-projects.vercel.app/media/d6ac092d02c963eb1ec4-480.webp",
+          "loaded": true,
+          "naturalWidth": 349,
+          "opacity": "1",
+          "visibility": "visible",
+          "rect": {
+            "x": 537.5,
+            "y": 112.28125,
+            "width": 350,
+            "height": 262.5
+          },
+          "inViewport": true
+        },
+        {
+          "src": "https://luxury-realty-imon-jvah4quvl-cdo-2844s-projects.vercel.app/media/0cb727ed1d817c976ba5-480.webp",
+          "loaded": true,
+          "naturalWidth": 349,
+          "opacity": "1",
+          "visibility": "visible",
+          "rect": {
+            "x": 917.5,
+            "y": 112.28125,
+            "width": 350,
+            "height": 262.5
+          },
+          "inViewport": true
+        }
+      ],
+      "humanReview": "pending"
+    },
+    {
+      "file": "serenity-mansions-aurora-1440-feature-3.png",
+      "route": "/developments/serenity-mansions-aurora/",
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "kind": "feature-3",
+      "sha256": "ce4a4a540e11ca6fbf4bd042ef65d5789e508b7e7b87e480533e8af8de1028a3",
+      "bytes": 862003,
+      "scrollY": 6380,
+      "images": [
+        {
+          "src": "https://luxury-realty-imon-jvah4quvl-cdo-2844s-projects.vercel.app/media/a5f55663b287c3a9bf79-480.webp",
+          "loaded": true,
+          "naturalWidth": 349,
+          "opacity": "1",
+          "visibility": "visible",
+          "rect": {
+            "x": 157.5,
+            "y": 112.28125,
+            "width": 350,
+            "height": 262.5
+          },
+          "inViewport": true
+        },
+        {
+          "src": "https://luxury-realty-imon-jvah4quvl-cdo-2844s-projects.vercel.app/media/d6ac092d02c963eb1ec4-480.webp",
+          "loaded": true,
+          "naturalWidth": 349,
+          "opacity": "1",
+          "visibility": "visible",
+          "rect": {
+            "x": 537.5,
+            "y": 112.28125,
+            "width": 350,
+            "height": 262.5
+          },
+          "inViewport": true
+        },
+        {
+          "src": "https://luxury-realty-imon-jvah4quvl-cdo-2844s-projects.vercel.app/media/0cb727ed1d817c976ba5-480.webp",
+          "loaded": true,
+          "naturalWidth": 349,
+          "opacity": "1",
+          "visibility": "visible",
+          "rect": {
+            "x": 917.5,
+            "y": 112.28125,
+            "width": 350,
+            "height": 262.5
+          },
+          "inViewport": true
+        }
+      ],
+      "humanReview": "pending"
+    }
+  ],
+  "errors": [],
+  "blockedWrites": [],
+  "complete": true,
+  "finishedAt": "2026-11-03T17:51:04.789Z",
+  "paintSamples": [
+    {
+      "frame": "serenity-mansions-aurora-390-feature-1.png",
+      "src": "https://luxury-realty-imon-jvah4quvl-cdo-2844s-projects.vercel.app/media/a5f55663b287c3a9bf79-480.webp",
+      "stddev": 51.839,
+      "nonUniformImagePaint": true
+    },
+    {
+      "frame": "serenity-mansions-aurora-390-feature-1.png",
+      "src": "https://luxury-realty-imon-jvah4quvl-cdo-2844s-projects.vercel.app/media/d6ac092d02c963eb1ec4-480.webp",
+      "stddev": 63.338,
+      "nonUniformImagePaint": true
+    },
+    {
+      "frame": "serenity-mansions-aurora-390-feature-2.png",
+      "src": "https://luxury-realty-imon-jvah4quvl-cdo-2844s-projects.vercel.app/media/d6ac092d02c963eb1ec4-480.webp",
+      "stddev": 63.338,
+      "nonUniformImagePaint": true
+    },
+    {
+      "frame": "serenity-mansions-aurora-390-feature-2.png",
+      "src": "https://luxury-realty-imon-jvah4quvl-cdo-2844s-projects.vercel.app/media/0cb727ed1d817c976ba5-480.webp",
+      "stddev": 68.521,
+      "nonUniformImagePaint": true
+    },
+    {
+      "frame": "serenity-mansions-aurora-390-feature-3.png",
+      "src": "https://luxury-realty-imon-jvah4quvl-cdo-2844s-projects.vercel.app/media/0cb727ed1d817c976ba5-480.webp",
+      "stddev": 68.521,
+      "nonUniformImagePaint": true
+    },
+    {
+      "frame": "serenity-mansions-aurora-1440-feature-1.png",
+      "src": "https://luxury-realty-imon-jvah4quvl-cdo-2844s-projects.vercel.app/media/a5f55663b287c3a9bf79-480.webp",
+      "stddev": 51.535,
+      "nonUniformImagePaint": true
+    },
+    {
+      "frame": "serenity-mansions-aurora-1440-feature-1.png",
+      "src": "https://luxury-realty-imon-jvah4quvl-cdo-2844s-projects.vercel.app/media/d6ac092d02c963eb1ec4-480.webp",
+      "stddev": 63.268,
+      "nonUniformImagePaint": true
+    },
+    {
+      "frame": "serenity-mansions-aurora-1440-feature-1.png",
+      "src": "https://luxury-realty-imon-jvah4quvl-cdo-2844s-projects.vercel.app/media/0cb727ed1d817c976ba5-480.webp",
+      "stddev": 68.436,
+      "nonUniformImagePaint": true
+    },
+    {
+      "frame": "serenity-mansions-aurora-1440-feature-2.png",
+      "src": "https://luxury-realty-imon-jvah4quvl-cdo-2844s-projects.vercel.app/media/a5f55663b287c3a9bf79-480.webp",
+      "stddev": 51.535,
+      "nonUniformImagePaint": true
+    },
+    {
+      "frame": "serenity-mansions-aurora-1440-feature-2.png",
+      "src": "https://luxury-realty-imon-jvah4quvl-cdo-2844s-projects.vercel.app/media/d6ac092d02c963eb1ec4-480.webp",
+      "stddev": 63.268,
+      "nonUniformImagePaint": true
+    },
+    {
+      "frame": "serenity-mansions-aurora-1440-feature-2.png",
+      "src": "https://luxury-realty-imon-jvah4quvl-cdo-2844s-projects.vercel.app/media/0cb727ed1d817c976ba5-480.webp",
+      "stddev": 68.436,
+      "nonUniformImagePaint": true
+    },
+    {
+      "frame": "serenity-mansions-aurora-1440-feature-3.png",
+      "src": "https://luxury-realty-imon-jvah4quvl-cdo-2844s-projects.vercel.app/media/a5f55663b287c3a9bf79-480.webp",
+      "stddev": 51.535,
+      "nonUniformImagePaint": true
+    },
+    {
+      "frame": "serenity-mansions-aurora-1440-feature-3.png",
+      "src": "https://luxury-realty-imon-jvah4quvl-cdo-2844s-projects.vercel.app/media/d6ac092d02c963eb1ec4-480.webp",
+      "stddev": 63.268,
+      "nonUniformImagePaint": true
+    },
+    {
+      "frame": "serenity-mansions-aurora-1440-feature-3.png",
+      "src": "https://luxury-realty-imon-jvah4quvl-cdo-2844s-projects.vercel.app/media/0cb727ed1d817c976ba5-480.webp",
+      "stddev": 68.436,
+      "nonUniformImagePaint": true
+    }
+  ],
+  "allSelectedPhotosPainted": true,
+  "passed": true
+}

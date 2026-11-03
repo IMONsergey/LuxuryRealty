@@ -1,0 +1,3832 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-11-03T17:48:03.921567+00:00",
+  "validatorSha256": "fc1a2b84fc21c6d8a87579fd7d16f55acee73a85e1c2471081854dfe0cb91569",
+  "accepted": false,
+  "ownerSignoffRequired": true,
+  "coverageComplete": true,
+  "humanReview": "pending-owner-signoff",
+  "limitations": [
+    "Coverage follows explicit actual-view records and reviewer decisions; file existence alone is not human review.",
+    "All-route contact sheets are scaled structural overviews, not native-size inspection of every character or pixel.",
+    "Native detail coverage is limited to exactly the recorded files and unresized regions.",
+    "Hashes and dimensions bind evidence; the release owner must assess findings and current functional/public gates separately."
+  ],
+  "sourceHead": "532cd2fc19dcf9ddaa1809616a47ebaee86eec88",
+  "captureReport": {
+    "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/all-pages-chromium-r1/visual-audit-report.json",
+    "sha256": "2576013b2a5f0f7b69553d046d5a52a926307539a5b48518e4e24105d89a98d7",
+    "machineChecksPassed": true
+  },
+  "sheetManifest": {
+    "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/all-pages-chromium-r1/review-sheets/sheet-manifest.json",
+    "sha256": "7111122f8a953d8e27eafbd92677f98c5a79eb738f5bade30dde9a005ee1f8de"
+  },
+  "allocation": {
+    "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/review-receipts/all-pages-allocation-bound.json",
+    "sha256": "a7c869cb8821bfad18c724d8676f984c3c3518e95169bc5e6cf7ea03ec7aa268"
+  },
+  "receipts": [
+    {
+      "reviewer": "/root",
+      "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/review-receipts/all-pages-root-r1.json",
+      "sha256": "e71a05939ea063550eca5f7a90c749f3de9d5bcda9d11474663ae2582c8f75be"
+    },
+    {
+      "reviewer": "/root/filters_ux",
+      "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/review-receipts/all-pages-filters-r1.json",
+      "sha256": "2c16f34dbc4900922757d84e98bc564d9745808909a5106fd5f7eee34b6b72e4"
+    },
+    {
+      "reviewer": "/root/navigation_motion",
+      "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/review-receipts/all-pages-navigation-r1.json",
+      "sha256": "59c76a80843974fc11352884b8b7531ff6acfcc408262d8660889e3519c604ef"
+    },
+    {
+      "reviewer": "/root/qa_interaction_audit",
+      "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/review-receipts/all-pages-qa-r1.json",
+      "sha256": "ccb3f4badbfc2f10e1045e6d1af5647035517599f5f631dfa3a6980ea4d5dba1"
+    }
+  ],
+  "reviewers": [
+    {
+      "reviewer": "/root",
+      "actuallyViewedSheets": 23,
+      "nativeInspections": 0,
+      "decisions": {
+        "no-blocker-observed": 22,
+        "findings-recorded": 1
+      },
+      "unreadSheets": []
+    },
+    {
+      "reviewer": "/root/filters_ux",
+      "actuallyViewedSheets": 22,
+      "nativeInspections": 0,
+      "decisions": {
+        "no-blocker-observed": 19,
+        "findings-recorded": 3
+      },
+      "unreadSheets": []
+    },
+    {
+      "reviewer": "/root/navigation_motion",
+      "actuallyViewedSheets": 23,
+      "nativeInspections": 0,
+      "decisions": {
+        "no-blocker-observed": 21,
+        "findings-recorded": 2
+      },
+      "unreadSheets": []
+    },
+    {
+      "reviewer": "/root/qa_interaction_audit",
+      "actuallyViewedSheets": 22,
+      "nativeInspections": 0,
+      "decisions": {
+        "no-blocker-observed": 20,
+        "findings-recorded": 2
+      },
+      "unreadSheets": []
+    }
+  ],
+  "overviewCoverage": {
+    "reviewLevel": "scaled-structural-overview",
+    "actualViewedSheets": 90,
+    "unreadSheets": [],
+    "routes": 130,
+    "routeWidthViews": 260,
+    "originalPNGStates": 520,
+    "states": [
+      "top",
+      "full"
+    ],
+    "reviewedSheets": {
+      "top-001.png": {
+        "reviewer": "/root",
+        "sha256": "4dda1716eca3eba61bec2cb73f831542f515dd6723ac2fedb1955770e35fa177",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:19:35Z",
+        "states": [
+          [
+            "/",
+            390,
+            "top"
+          ],
+          [
+            "/",
+            1440,
+            "top"
+          ],
+          [
+            "/about/",
+            390,
+            "top"
+          ],
+          [
+            "/about/",
+            1440,
+            "top"
+          ],
+          [
+            "/developments/",
+            390,
+            "top"
+          ],
+          [
+            "/developments/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/",
+            1440,
+            "top"
+          ]
+        ]
+      },
+      "top-005.png": {
+        "reviewer": "/root",
+        "sha256": "61ebcd78152af09d00305f492820210ec14f8b05ea02874bfc7fdd5a1ef53c67",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:19:35Z",
+        "states": [
+          [
+            "/properties/3br-duplex-private-pool-viewing-essential/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/3br-duplex-private-pool-viewing-essential/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/a-refined-minimalist-sanctuary-with-serene-views/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/a-refined-minimalist-sanctuary-with-serene-views/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/ava-at-palm-jumeirah-dorchester-collection/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/ava-at-palm-jumeirah-dorchester-collection/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/extraordinary-turnkey-luxury-with-iconic-views/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/extraordinary-turnkey-luxury-with-iconic-views/",
+            1440,
+            "top"
+          ]
+        ]
+      },
+      "top-009.png": {
+        "reviewer": "/root",
+        "sha256": "1fb7e7c756badef4971801861e78a34c4c860b376e4ee0f84e0ab0f0d7c0b623",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:19:35Z",
+        "states": [
+          [
+            "/properties/brand-new-vacant-sea-and-sunset-views-2/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/brand-new-vacant-sea-and-sunset-views-2/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/branded-upgrade-palm-skyline-view-2br-xl-size/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/branded-upgrade-palm-skyline-view-2br-xl-size/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/celebrated-designer-duplex-with-private-pool/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/celebrated-designer-duplex-with-private-pool/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/city-and-sea-views-fully-furnished-xl-terrace/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/city-and-sea-views-fully-furnished-xl-terrace/",
+            1440,
+            "top"
+          ]
+        ]
+      },
+      "top-013.png": {
+        "reviewer": "/root",
+        "sha256": "7e31471d81d351c61cfff17f034024c798356cffb8240076db20814d1f36e1b2",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:20:59Z",
+        "states": [
+          [
+            "/properties/high-floor-palm-paradise-with-city-views-for-rent/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/high-floor-palm-paradise-with-city-views-for-rent/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/high-floor-palm-paradise-with-incredible-views/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/high-floor-palm-paradise-with-incredible-views/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/landmark-marina-gate-one-bed-must-be-viewed-2/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/landmark-marina-gate-one-bed-must-be-viewed-2/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/large-layout-community-view-maids-room/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/large-layout-community-view-maids-room/",
+            1440,
+            "top"
+          ]
+        ]
+      },
+      "top-017.png": {
+        "reviewer": "/root",
+        "sha256": "2550f5acfeda0d9e5d0ccfeff47774ae9866fde08ca297f249d50a1b1dfd5bc1",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:20:59Z",
+        "states": [
+          [
+            "/properties/high-number-fully-renovated-best-layout/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/high-number-fully-renovated-best-layout/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/partially-upgraded-premium-location-immaculate/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/partially-upgraded-premium-location-immaculate/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/penthouse-style-with-skyline-views-at-golf-heights/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/penthouse-style-with-skyline-views-at-golf-heights/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/popular-type-prime-location-prestigious-villa/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/popular-type-prime-location-prestigious-villa/",
+            1440,
+            "top"
+          ]
+        ]
+      },
+      "top-021.png": {
+        "reviewer": "/root",
+        "sha256": "8c224c273773dcd80980708af4a475482372ac2a8ea570533236b3c490abc814",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:20:59Z",
+        "states": [
+          [
+            "/properties/the-chedi-private-residences/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/the-chedi-private-residences/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/timeless-elegance-awaits-at-palazzo-versace-dubai/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/timeless-elegance-awaits-at-palazzo-versace-dubai/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/triple-storey-fully-renovated-prime-location/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/triple-storey-fully-renovated-prime-location/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/turnkey-renovation-balearic-style-extended/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/turnkey-renovation-balearic-style-extended/",
+            1440,
+            "top"
+          ]
+        ]
+      },
+      "top-025.png": {
+        "reviewer": "/root",
+        "sha256": "adcc26481c9726bce8be1b10285ba46d89229f31c675bc47e413a6127629fe46",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:21:20Z",
+        "states": [
+          [
+            "/properties/brand-new-high-floor-palm-and-skyline-view/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/brand-new-high-floor-palm-and-skyline-view/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/brand-new-high-floor-sea-and-sunset-views/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/brand-new-high-floor-sea-and-sunset-views/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/burj-khalifa-views-upgraded-fully-furnished/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/burj-khalifa-views-upgraded-fully-furnished/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/dual-views-highest-floor-huge-layout/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/dual-views-highest-floor-huge-layout/",
+            1440,
+            "top"
+          ]
+        ]
+      },
+      "top-029.png": {
+        "reviewer": "/root",
+        "sha256": "64724596ae65669d90dec4001e91c959203235cb8cc27035eefb65267be1ca1c",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:21:20Z",
+        "states": [
+          [
+            "/properties/post-handover-pp-04-layout-palm-view/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/post-handover-pp-04-layout-palm-view/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/private-pool-duplex-1-resale-agency/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/private-pool-duplex-1-resale-agency/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/rented-alternatives-available/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/rented-alternatives-available/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/sea-view-or-skyline-vistas-now-you-can-have-both/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/sea-view-or-skyline-vistas-now-you-can-have-both/",
+            1440,
+            "top"
+          ]
+        ]
+      },
+      "top-033.png": {
+        "reviewer": "/root",
+        "sha256": "ad8022f6b175511d104aa1e4c8a1f852200d609511f6f4ac92d1d75471e252c4",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:21:20Z",
+        "states": [
+          [
+            "/insights/architecture-on-palm-jumeirah/",
+            390,
+            "top"
+          ],
+          [
+            "/insights/architecture-on-palm-jumeirah/",
+            1440,
+            "top"
+          ],
+          [
+            "/insights/the-art-of-a-private-viewing/",
+            390,
+            "top"
+          ],
+          [
+            "/insights/the-art-of-a-private-viewing/",
+            1440,
+            "top"
+          ]
+        ]
+      },
+      "full-1440-004.png": {
+        "reviewer": "/root",
+        "sha256": "0cfa575a981214c628928fd90cb065fb1ca1805b8a1f9172daf8fca4d56b7c8b",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:21:47Z",
+        "states": [
+          [
+            "/properties/2br-palm-skyline-view-branded-upgrades/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/3br-duplex-private-pool-viewing-essential/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/sublime-sea-views-iconic-living/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/unique-duplex-breath-taking-sea-view/",
+            1440,
+            "full"
+          ]
+        ]
+      },
+      "full-1440-008.png": {
+        "reviewer": "/root",
+        "sha256": "7a23eef2eec57dde87750999a3f1ca9dc1e1a703722d52864d57249b2d27ce43",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:21:47Z",
+        "states": [
+          [
+            "/properties/brand-new-sea-and-sunset-views/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/brand-new-sea-dubai-eye-and-sunset-views/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/brand-new-vacant-sea-and-sunset-views-2/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/brand-new-vacant-sea-and-sunset-views/",
+            1440,
+            "full"
+          ]
+        ]
+      },
+      "full-1440-012.png": {
+        "reviewer": "/root",
+        "sha256": "94cf29647a851860b2bf0883330ae4d66e9a941abaf5b910fe21a513a55924da",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:21:47Z",
+        "states": [
+          [
+            "/properties/genuine-resale-full-sea-and-marina-views/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/high-floor-2br-sea-view-chic-upgrades/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/high-floor-palm-paradise-with-city-views-for-rent/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/high-floor-with-best-views-furnished-1-agency/",
+            1440,
+            "full"
+          ]
+        ]
+      },
+      "full-1440-016.png": {
+        "reviewer": "/root",
+        "sha256": "b66d5f27c9365255c87471c4987d3466a14fb618dbabbdb3b4be21a47587f644",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:21:47Z",
+        "states": [
+          [
+            "/properties/dorchester-collection-full-palm-view-duplex/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/palm-and-marina-skyline-views-private-pool/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/panoramic-sea-sunset-views-wrap-around-balcony/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/partially-upgraded-premium-location-immaculate/",
+            1440,
+            "full"
+          ]
+        ]
+      },
+      "full-1440-020.png": {
+        "reviewer": "/root",
+        "sha256": "3f363e610f17e839caae31ae9a4b571578f13ac5a461a555f239ed6eb210b688",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:28:59Z",
+        "states": [
+          [
+            "/properties/sought-after-sea-sunset-views-branded-residences/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/spacious-layout-prime-amenities-modern-living/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/stunning-4br-amazing-bmv-price-move-in-ready/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/the-chedi-private-residences/",
+            1440,
+            "full"
+          ]
+        ]
+      },
+      "full-1440-024.png": {
+        "reviewer": "/root",
+        "sha256": "d149226870db5dae1ebd48475a7cc965a1d4fa191792efec5f6d8a25cf4e7dad",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:28:59Z",
+        "states": [
+          [
+            "/properties/beauty-rarity-and-timeless-elegance-awaits/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/best-price-high-floor-sea-view-large-size/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/brand-new-high-floor-full-palm-jumeirah-view/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/brand-new-high-floor-palm-and-skyline-view/",
+            1440,
+            "full"
+          ]
+        ]
+      },
+      "full-1440-028.png": {
+        "reviewer": "/root",
+        "sha256": "6919e98438e670f83635d1ca40e8fc743dc251b3bce538627a90037578f9cf57",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:28:59Z",
+        "states": [
+          [
+            "/properties/live-royally-turnkey-renovated-masterpiece/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/modern-design-elie-saab-branded-priced-to-sell/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/palm-view-amazing-2br-layout-must-be-viewed/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/post-handover-pp-04-layout-palm-view/",
+            1440,
+            "full"
+          ]
+        ]
+      },
+      "full-1440-032.png": {
+        "reviewer": "/root",
+        "sha256": "b288dd4243e679a03f271e0b808ad0fa613c1f7fecc679924e0806c8a3ae5765",
+        "decision": "findings-recorded",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:28:59Z",
+        "states": [
+          [
+            "/developments/vela/",
+            1440,
+            "full"
+          ],
+          [
+            "/insights/a-home-by-the-water/",
+            1440,
+            "full"
+          ],
+          [
+            "/insights/spaces-worth-living-in/",
+            1440,
+            "full"
+          ],
+          [
+            "/insights/the-art-of-a-private-viewing/",
+            1440,
+            "full"
+          ]
+        ]
+      },
+      "full-390-003.png": {
+        "reviewer": "/root",
+        "sha256": "7ca3eec8a062a379ae9c6e9b01c44267c5ae06223303ba299bc6437240a9306f",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:29:16Z",
+        "states": [
+          [
+            "/properties/2br-palm-skyline-view-branded-upgrades/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/3br-duplex-private-pool-viewing-essential/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/a-refined-minimalist-sanctuary-with-serene-views/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/extraordinary-turnkey-luxury-with-iconic-views/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/sublime-sea-views-iconic-living/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/unique-duplex-breath-taking-sea-view/",
+            390,
+            "full"
+          ]
+        ]
+      },
+      "full-390-007.png": {
+        "reviewer": "/root",
+        "sha256": "1dba01a9cf0ec4ccd21df15829ed0863846581b542280050719768888c3e23a4",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:29:36Z",
+        "states": [
+          [
+            "/properties/dual-views-double-height-2027-completion/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/duplex-ph-brand-new-unobstructed-views/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/duplex-roof-terrace-golf-and-skyline-views/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/eden-hills/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/furnished-upgraded-unique-layout-dual-views/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/one-of-a-kind-loft-designer-upgrade-sea-view/",
+            390,
+            "full"
+          ]
+        ]
+      },
+      "full-390-011.png": {
+        "reviewer": "/root",
+        "sha256": "71cf0c1270c10d48687cd9e485f683e45f8686dccedd8a2715109f212ff1b159",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:30:38Z",
+        "states": [
+          [
+            "/properties/dorchester-collection-full-palm-view-duplex/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/palm-and-marina-skyline-views-private-pool/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/panoramic-sea-sunset-views-wrap-around-balcony/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/partially-upgraded-premium-location-immaculate/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/penthouse-style-with-skyline-views-at-golf-heights/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/popular-type-prime-location-prestigious-villa/",
+            390,
+            "full"
+          ]
+        ]
+      },
+      "full-390-015.png": {
+        "reviewer": "/root",
+        "sha256": "2a53df2cf8d550b0db5fdd1eda0f90b9ad16955932c8e5cedc84048cec00d00c",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:30:55Z",
+        "states": [
+          [
+            "/properties/best-priced-palm-view-2br-furnished-view-today/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/palm-view-sky-court-xl-terrace-upgraded/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/ultra-high-floor-one-of-a-kind-upgraded-residence/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/ultra-rare-2br-duplex-in-the-iconic-uptown-tower/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/upgraded-2br-marina-view-investor-deal/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/upgraded-vacant-furnished-viewing-essential/",
+            390,
+            "full"
+          ]
+        ]
+      },
+      "full-390-019.png": {
+        "reviewer": "/root",
+        "sha256": "28568f7533119795ba41ff42c3ad2103ff20e8d32d64580bc70ff7abcb2d24fd",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:31:14Z",
+        "states": [
+          [
+            "/properties/live-royally-turnkey-renovated-masterpiece/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/modern-design-elie-saab-branded-priced-to-sell/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/palm-view-amazing-2br-layout-must-be-viewed/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/post-handover-pp-04-layout-palm-view/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/private-pool-duplex-1-resale-agency/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/rented-alternatives-available/",
+            390,
+            "full"
+          ]
+        ]
+      },
+      "full-390-catalogue.png": {
+        "reviewer": "/root",
+        "sha256": "532dd0deb42f22c480b59ab368090d7f12d0c6ed6a704c30acd0a5bbbc273d6b",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:32:03Z",
+        "states": [
+          [
+            "/properties/",
+            390,
+            "full"
+          ]
+        ]
+      },
+      "top-002.png": {
+        "reviewer": "/root/filters_ux",
+        "sha256": "2b5e889653f6692bfa2e6b7a9bcdc24dc575076ecd03bc2ddfa8d959f04e0864",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:21:43.534Z",
+        "states": [
+          [
+            "/contacts/",
+            390,
+            "top"
+          ],
+          [
+            "/contacts/",
+            1440,
+            "top"
+          ],
+          [
+            "/privacy/",
+            390,
+            "top"
+          ],
+          [
+            "/privacy/",
+            1440,
+            "top"
+          ],
+          [
+            "/sell/",
+            390,
+            "top"
+          ],
+          [
+            "/sell/",
+            1440,
+            "top"
+          ],
+          [
+            "/services/",
+            390,
+            "top"
+          ],
+          [
+            "/services/",
+            1440,
+            "top"
+          ]
+        ]
+      },
+      "top-006.png": {
+        "reviewer": "/root/filters_ux",
+        "sha256": "d62be199c1a27b88e5c0dec55b6d0b7dde68ea47760bdadb1e73d7061cd7aaa9",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:21:43.534Z",
+        "states": [
+          [
+            "/properties/beachfront-living-stunning-views-vacant/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/beachfront-living-stunning-views-vacant/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/beautifully-renovated-private-spa-high-number/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/beautifully-renovated-private-spa-high-number/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/best-price-upgraded-furnished-skyline-views/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/best-price-upgraded-furnished-skyline-views/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/your-royal-lifestyle-with-sublime-views-and-space-2/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/your-royal-lifestyle-with-sublime-views-and-space-2/",
+            1440,
+            "top"
+          ]
+        ]
+      },
+      "top-010.png": {
+        "reviewer": "/root/filters_ux",
+        "sha256": "80a61647e3becd883e3d31274b0194bd9ce61646092f3d69d529e19380af6c6a",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:21:43.534Z",
+        "states": [
+          [
+            "/properties/close-to-tip-fully-upgraded-prime-location/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/close-to-tip-fully-upgraded-prime-location/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/dual-views-double-height-2027-completion/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/dual-views-double-height-2027-completion/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/duplex-ph-brand-new-unobstructed-views/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/duplex-ph-brand-new-unobstructed-views/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/duplex-roof-terrace-golf-and-skyline-views/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/duplex-roof-terrace-golf-and-skyline-views/",
+            1440,
+            "top"
+          ]
+        ]
+      },
+      "top-014.png": {
+        "reviewer": "/root/filters_ux",
+        "sha256": "c06a9c7f75499ac9a3fe429948765f3127a2c1e1a809c2b19d98acf4aaec7ab2",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:22:10.150Z",
+        "states": [
+          [
+            "/properties/best-value-huge-terrace-amazing-potential/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/best-value-huge-terrace-amazing-potential/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/last-available-3br-duplex-with-private-pool/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/last-available-3br-duplex-with-private-pool/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/marina-view-upgraded-furnished-investor-deal/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/marina-view-upgraded-furnished-investor-deal/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/miami-style-stunning-marina-views-beach-access/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/miami-style-stunning-marina-views-beach-access/",
+            1440,
+            "top"
+          ]
+        ]
+      },
+      "top-018.png": {
+        "reviewer": "/root/filters_ux",
+        "sha256": "3c34ff65ca8af609b2bfbb19c99c5c8fa1d1705f5385f73e85e8a3dd47496493",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:22:10.150Z",
+        "states": [
+          [
+            "/properties/exclusive-sea-view-4br-royal-penthouse/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/exclusive-sea-view-4br-royal-penthouse/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/premium-location-best-value-turnkey-garden-home/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/premium-location-best-value-turnkey-garden-home/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/private-pool-furnished-spacious-terrace/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/private-pool-furnished-spacious-terrace/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/www-luxuryresidences-com-properties-private-pool-canal-view-renovated-upgraded/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/www-luxuryresidences-com-properties-private-pool-canal-view-renovated-upgraded/",
+            1440,
+            "top"
+          ]
+        ]
+      },
+      "top-022.png": {
+        "reviewer": "/root/filters_ux",
+        "sha256": "dc3edaec86fbad28931cc78309e926b85adfd4953861885a54e131e0c315ec5e",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:22:10.150Z",
+        "states": [
+          [
+            "/properties/palm-view-sky-court-xl-terrace-upgraded/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/palm-view-sky-court-xl-terrace-upgraded/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/trophy-4br-garden-suite-with-private-pool/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/trophy-4br-garden-suite-with-private-pool/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/ultra-high-floor-one-of-a-kind-upgraded-residence/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/ultra-high-floor-one-of-a-kind-upgraded-residence/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/ultra-rare-2br-duplex-in-the-iconic-uptown-tower/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/ultra-rare-2br-duplex-in-the-iconic-uptown-tower/",
+            1440,
+            "top"
+          ]
+        ]
+      },
+      "top-026.png": {
+        "reviewer": "/root/filters_ux",
+        "sha256": "2a8f7db1abe39182e2f7bdfe42f77ec2bca6feddc059da5feb6e97324d7b41cb",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:22:40.739Z",
+        "states": [
+          [
+            "/properties/duplex-with-private-pool-must-be-viewed/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/duplex-with-private-pool-must-be-viewed/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/exclusive-high-floor-available-now-furnished/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/exclusive-high-floor-available-now-furnished/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/exclusive-lagoon-facing-available-for-viewing/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/exclusive-lagoon-facing-available-for-viewing/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/exclusive-top-floor-one-of-a-kind/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/exclusive-top-floor-one-of-a-kind/",
+            1440,
+            "top"
+          ]
+        ]
+      },
+      "top-030.png": {
+        "reviewer": "/root/filters_ux",
+        "sha256": "7ec64cf2676960b90e600c5f307dfbe25a2ecbb5402fdcf690d0374498255643",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:22:40.739Z",
+        "states": [
+          [
+            "/developments/atlantis/",
+            390,
+            "top"
+          ],
+          [
+            "/developments/atlantis/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/sleek-sophisticated-and-move-in-ready/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/sleek-sophisticated-and-move-in-ready/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/stunning-upgrade-luxury-villa-golf-course-view/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/stunning-upgrade-luxury-villa-golf-course-view/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/super-rare-huge-terrace-furnished-1-agency/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/super-rare-huge-terrace-furnished-1-agency/",
+            1440,
+            "top"
+          ]
+        ]
+      },
+      "full-1440-001.png": {
+        "reviewer": "/root/filters_ux",
+        "sha256": "857377dd766ca8ed66034eb3d188b62d6833b6e71ec97ccdece8404c40263b27",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:22:40.739Z",
+        "states": [
+          [
+            "/",
+            1440,
+            "full"
+          ],
+          [
+            "/about/",
+            1440,
+            "full"
+          ],
+          [
+            "/developments/",
+            1440,
+            "full"
+          ],
+          [
+            "/services/",
+            1440,
+            "full"
+          ]
+        ]
+      },
+      "full-1440-005.png": {
+        "reviewer": "/root/filters_ux",
+        "sha256": "390c137586b5a7ecdcf7ac021aac2c264e573a7d142bfa7d80df5acae8fad4da",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:25:04.502Z",
+        "states": [
+          [
+            "/properties/a-refined-minimalist-sanctuary-with-serene-views/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/ava-at-palm-jumeirah-dorchester-collection/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/beachfront-living-stunning-views-vacant/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/extraordinary-turnkey-luxury-with-iconic-views/",
+            1440,
+            "full"
+          ]
+        ]
+      },
+      "full-1440-009.png": {
+        "reviewer": "/root/filters_ux",
+        "sha256": "41c1d5e686d6807b1a34d8da0aa5f3e82e838a617aad9236393e0ba0402b295f",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:25:09.822Z",
+        "states": [
+          [
+            "/properties/branded-upgrade-palm-skyline-view-2br-xl-size/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/celebrated-designer-duplex-with-private-pool/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/city-and-sea-views-fully-furnished-xl-terrace/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/close-to-tip-fully-upgraded-prime-location/",
+            1440,
+            "full"
+          ]
+        ]
+      },
+      "full-1440-013.png": {
+        "reviewer": "/root/filters_ux",
+        "sha256": "16b1412dfc1fa3135fd1c4a6cbad8fef8977b20618fc3ff885d63fa9546d4c9b",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:25:18.973Z",
+        "states": [
+          [
+            "/properties/high-floor-palm-paradise-with-incredible-views/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/landmark-marina-gate-one-bed-must-be-viewed-2/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/large-layout-community-view-maids-room/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/last-available-3br-duplex-with-private-pool/",
+            1440,
+            "full"
+          ]
+        ]
+      },
+      "full-1440-017.png": {
+        "reviewer": "/root/filters_ux",
+        "sha256": "53816c0eadef03b84e993247966efcda9ceedad3cd42ff6509c6a06b1c90f902",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:25:27.050Z",
+        "states": [
+          [
+            "/properties/high-number-fully-renovated-best-layout/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/penthouse-style-with-skyline-views-at-golf-heights/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/popular-type-prime-location-prestigious-villa/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/premium-location-best-value-turnkey-garden-home/",
+            1440,
+            "full"
+          ]
+        ]
+      },
+      "full-1440-021.png": {
+        "reviewer": "/root/filters_ux",
+        "sha256": "774e99f7742b5b568a801ad50bcaf483007fc53f78989e03de892c43d06034d3",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:25:42.099Z",
+        "states": [
+          [
+            "/properties/timeless-elegance-awaits-at-palazzo-versace-dubai/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/triple-storey-fully-renovated-prime-location/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/trophy-4br-garden-suite-with-private-pool/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/turnkey-renovation-balearic-style-extended/",
+            1440,
+            "full"
+          ]
+        ]
+      },
+      "full-1440-025.png": {
+        "reviewer": "/root/filters_ux",
+        "sha256": "4cb3c5f9c6fe360cfb1bdc7c9be9182733d9527fa52e2ea1f331535b15d339d8",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:25:48.510Z",
+        "states": [
+          [
+            "/properties/brand-new-high-floor-sea-and-sunset-views/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/burj-khalifa-views-upgraded-fully-furnished/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/dual-views-highest-floor-huge-layout/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/duplex-with-private-pool-must-be-viewed/",
+            1440,
+            "full"
+          ]
+        ]
+      },
+      "full-1440-029.png": {
+        "reviewer": "/root/filters_ux",
+        "sha256": "8e6c4b862e22e32d299a071ea273d644a5a727df6e3b384add7227ae365d7a84",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:25:55.990Z",
+        "states": [
+          [
+            "/properties/private-pool-duplex-1-resale-agency/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/rented-alternatives-available/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/sea-view-or-skyline-vistas-now-you-can-have-both/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/sleek-sophisticated-and-move-in-ready/",
+            1440,
+            "full"
+          ]
+        ]
+      },
+      "full-1440-033.png": {
+        "reviewer": "/root/filters_ux",
+        "sha256": "ea5708da3f059a5e88122030ac8ca5240f5fa7c19f5ca3bb94ee54215e547204",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:26:03.508Z",
+        "states": [
+          [
+            "/insights/architecture-on-palm-jumeirah/",
+            1440,
+            "full"
+          ]
+        ]
+      },
+      "full-390-004.png": {
+        "reviewer": "/root/filters_ux",
+        "sha256": "e9bea75866faa81515ad1b6c9942bed5b43eaec689e773a599a1d010d2d9ba57",
+        "decision": "findings-recorded",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:26:28.404Z",
+        "states": [
+          [
+            "/properties/ava-at-palm-jumeirah-dorchester-collection/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/beachfront-living-stunning-views-vacant/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/beautifully-renovated-private-spa-high-number/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/best-price-upgraded-furnished-skyline-views/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/brand-new-high-floor-islands-view/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/your-royal-lifestyle-with-sublime-views-and-space-2/",
+            390,
+            "full"
+          ]
+        ]
+      },
+      "full-390-008.png": {
+        "reviewer": "/root/filters_ux",
+        "sha256": "390c1997b718e9e6e6fd16d02f37ab6fbd6adcc44fb6cc601fec0c6a9897787c",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:26:37.731Z",
+        "states": [
+          [
+            "/properties/garden-apartment-sea-facing-private-pool-2/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/garden-apartment-sea-facing-private-pool/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/genuine-resale-full-sea-and-marina-views/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/high-floor-2br-sea-view-chic-upgrades/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/high-floor-palm-paradise-with-city-views-for-rent/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/high-floor-with-best-views-furnished-1-agency/",
+            390,
+            "full"
+          ]
+        ]
+      },
+      "full-390-012.png": {
+        "reviewer": "/root/filters_ux",
+        "sha256": "41a495874a9ac10e05d9d901f4e27639281685bc4e8bf9ec81e1e1c0b85c7c17",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:26:51.338Z",
+        "states": [
+          [
+            "/properties/exclusive-sea-view-4br-royal-penthouse/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/high-number-fully-renovated-best-layout/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/premium-location-best-value-turnkey-garden-home/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/private-pool-furnished-spacious-terrace/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/rare-dual-view-skyline-sea-spacious-luxury/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/www-luxuryresidences-com-properties-private-pool-canal-view-renovated-upgraded/",
+            390,
+            "full"
+          ]
+        ]
+      },
+      "full-390-016.png": {
+        "reviewer": "/root/filters_ux",
+        "sha256": "8e37aaff0ae380d75da426cec51cadf39a90f5ad8a610f3bc5954d3773125279",
+        "decision": "findings-recorded",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:27:15.147Z",
+        "states": [
+          [
+            "/properties/beauty-rarity-and-timeless-elegance-awaits/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/best-price-high-floor-sea-view-large-size/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/brand-new-high-floor-full-palm-jumeirah-view/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/brand-new-high-floor-palm-and-skyline-view/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/vela-dorchester-collection/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/very-high-number-fully-upgraded-premium-views/",
+            390,
+            "full"
+          ]
+        ]
+      },
+      "full-390-020.png": {
+        "reviewer": "/root/filters_ux",
+        "sha256": "5d4eb005e695936a23391f3311fe7bf38218fc949752205c4cde92374eb020d3",
+        "decision": "findings-recorded",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:27:53.452Z",
+        "states": [
+          [
+            "/developments/atlantis/",
+            390,
+            "full"
+          ],
+          [
+            "/developments/ava-at-palm/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/sea-view-or-skyline-vistas-now-you-can-have-both/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/sleek-sophisticated-and-move-in-ready/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/stunning-upgrade-luxury-villa-golf-course-view/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/super-rare-huge-terrace-furnished-1-agency/",
+            390,
+            "full"
+          ]
+        ]
+      },
+      "top-003.png": {
+        "reviewer": "/root/navigation_motion",
+        "sha256": "5972e652c80174e20884c95645a2a0cf0a77f56ffdc6144f8f176e6bda726465",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:20:10.356Z",
+        "states": [
+          [
+            "/insights/",
+            390,
+            "top"
+          ],
+          [
+            "/insights/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/1-of-1-branded-renovation-incredible-must-see/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/1-of-1-branded-renovation-incredible-must-see/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/palm-view-duplex-bespoke-garden-home/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/palm-view-duplex-bespoke-garden-home/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/renovation-opportunity-high-number-iconic-view/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/renovation-opportunity-high-number-iconic-view/",
+            1440,
+            "top"
+          ]
+        ]
+      },
+      "top-007.png": {
+        "reviewer": "/root/navigation_motion",
+        "sha256": "3ffc6c7a07c55b4b9c0fdf7b4fadb3e3cb44182c8e15a190ba0d617a369bc32c",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:20:31.150Z",
+        "states": [
+          [
+            "/properties/brand-new-high-floor-islands-view/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/brand-new-high-floor-islands-view/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/brand-new-palm-and-garden-view-vacant/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/brand-new-palm-and-garden-view-vacant/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/brand-new-private-garden-private-pool/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/brand-new-private-garden-private-pool/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/brand-new-sea-and-palm-view-corner-unit/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/brand-new-sea-and-palm-view-corner-unit/",
+            1440,
+            "top"
+          ]
+        ]
+      },
+      "top-011.png": {
+        "reviewer": "/root/navigation_motion",
+        "sha256": "bd51e8f2a9d9cd78fccbb4407a4dc76eeb11f712f334ba72c39c8dfc286306a1",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:20:31.150Z",
+        "states": [
+          [
+            "/properties/eden-hills/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/eden-hills/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/furnished-upgraded-unique-layout-dual-views/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/furnished-upgraded-unique-layout-dual-views/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/garden-apartment-sea-facing-private-pool/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/garden-apartment-sea-facing-private-pool/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/one-of-a-kind-loft-designer-upgrade-sea-view/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/one-of-a-kind-loft-designer-upgrade-sea-view/",
+            1440,
+            "top"
+          ]
+        ]
+      },
+      "top-015.png": {
+        "reviewer": "/root/navigation_motion",
+        "sha256": "cc93b5c85b5d65a804988449c7eea03f597e1fdf9a668733287671d61dd166b2",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:20:47.809Z",
+        "states": [
+          [
+            "/properties/must-be-viewed-rare-2br-sea-and-skyline-views/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/must-be-viewed-rare-2br-sea-and-skyline-views/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/one-at-palm-jumeirah-dorchester-collection/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/one-at-palm-jumeirah-dorchester-collection/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/one-of-a-kind-villa-unique-reimagined-layout/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/one-of-a-kind-villa-unique-reimagined-layout/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/ultra-luxury-super-rare-dual-view-residence/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/ultra-luxury-super-rare-dual-view-residence/",
+            1440,
+            "top"
+          ]
+        ]
+      },
+      "top-019.png": {
+        "reviewer": "/root/navigation_motion",
+        "sha256": "4abd975b05e8864cbdf9e02abe12b3d1a5f303864e435127ead865495ccfdf79",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:20:47.809Z",
+        "states": [
+          [
+            "/properties/rare-dual-view-skyline-sea-spacious-luxury/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/rare-dual-view-skyline-sea-spacious-luxury/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/sea-views-michelin-star-dining-and-more/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/sea-views-michelin-star-dining-and-more/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/serenity-mansions-aurora/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/serenity-mansions-aurora/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/serenity-mansions-waterfront-collection/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/serenity-mansions-waterfront-collection/",
+            1440,
+            "top"
+          ]
+        ]
+      },
+      "top-023.png": {
+        "reviewer": "/root/navigation_motion",
+        "sha256": "cc6e1b0af421aa7793a547f1ca2d540efdc8c6fe88e362e37cb5a89c3b5f08c3",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:20:47.809Z",
+        "states": [
+          [
+            "/properties/best-priced-palm-view-2br-furnished-view-today/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/best-priced-palm-view-2br-furnished-view-today/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/upgraded-2br-marina-view-investor-deal/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/upgraded-2br-marina-view-investor-deal/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/upgraded-vacant-furnished-viewing-essential/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/upgraded-vacant-furnished-viewing-essential/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/vela-dorchester-collection/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/vela-dorchester-collection/",
+            1440,
+            "top"
+          ]
+        ]
+      },
+      "top-027.png": {
+        "reviewer": "/root/navigation_motion",
+        "sha256": "d4e122ede6e869c80724a967fb51ebe85fbe95324101140718dc0222ceba0b3e",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:21:09.510Z",
+        "states": [
+          [
+            "/properties/furnished-palm-and-skyline-views-exclusive/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/furnished-palm-and-skyline-views-exclusive/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/furnished-palm-skyline-views-exclusive-2/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/furnished-palm-skyline-views-exclusive-2/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/furnished-palm-skyline-views-exclusive/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/furnished-palm-skyline-views-exclusive/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/garden-villa-hermes-and-minotti-private-pool/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/garden-villa-hermes-and-minotti-private-pool/",
+            1440,
+            "top"
+          ]
+        ]
+      },
+      "top-031.png": {
+        "reviewer": "/root/navigation_motion",
+        "sha256": "69acbc972ed336fdc3560441b9339854f21b684dc1c6c90a2deb7364a9ac2efa",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:21:09.510Z",
+        "states": [
+          [
+            "/developments/ava-at-palm/",
+            390,
+            "top"
+          ],
+          [
+            "/developments/ava-at-palm/",
+            1440,
+            "top"
+          ],
+          [
+            "/developments/orla/",
+            390,
+            "top"
+          ],
+          [
+            "/developments/orla/",
+            1440,
+            "top"
+          ],
+          [
+            "/developments/serenity-mansions-aurora/",
+            390,
+            "top"
+          ],
+          [
+            "/developments/serenity-mansions-aurora/",
+            1440,
+            "top"
+          ],
+          [
+            "/developments/serenity-mansions-waterfront-collection/",
+            390,
+            "top"
+          ],
+          [
+            "/developments/serenity-mansions-waterfront-collection/",
+            1440,
+            "top"
+          ]
+        ]
+      },
+      "full-1440-002.png": {
+        "reviewer": "/root/navigation_motion",
+        "sha256": "654d6b1b185dd00a9d07f7c48f78477ccc8a1b98dfccae3959fe921a0385b872",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:21:09.510Z",
+        "states": [
+          [
+            "/contacts/",
+            1440,
+            "full"
+          ],
+          [
+            "/insights/",
+            1440,
+            "full"
+          ],
+          [
+            "/privacy/",
+            1440,
+            "full"
+          ],
+          [
+            "/sell/",
+            1440,
+            "full"
+          ]
+        ]
+      },
+      "full-1440-006.png": {
+        "reviewer": "/root/navigation_motion",
+        "sha256": "988fdc6ee2f6226c7434d9f554b6e983cabc4870a9545b898baebcdc4b2c1acf",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:21:29.006Z",
+        "states": [
+          [
+            "/properties/beautifully-renovated-private-spa-high-number/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/best-price-upgraded-furnished-skyline-views/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/brand-new-high-floor-islands-view/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/your-royal-lifestyle-with-sublime-views-and-space-2/",
+            1440,
+            "full"
+          ]
+        ]
+      },
+      "full-1440-010.png": {
+        "reviewer": "/root/navigation_motion",
+        "sha256": "1df4ce182c9263f14d35d95ca2f856a4c14e2b70c25ce1e15cc637765d9c5bbc",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:21:29.006Z",
+        "states": [
+          [
+            "/properties/dual-views-double-height-2027-completion/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/duplex-ph-brand-new-unobstructed-views/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/duplex-roof-terrace-golf-and-skyline-views/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/eden-hills/",
+            1440,
+            "full"
+          ]
+        ]
+      },
+      "full-1440-014.png": {
+        "reviewer": "/root/navigation_motion",
+        "sha256": "e502d9bbde3af70125219e983f2cfa95235ded73e91ed9d2f1f9cff93d5a45a2",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:21:29.006Z",
+        "states": [
+          [
+            "/properties/best-value-huge-terrace-amazing-potential/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/marina-view-upgraded-furnished-investor-deal/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/miami-style-stunning-marina-views-beach-access/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/must-be-viewed-rare-2br-sea-and-skyline-views/",
+            1440,
+            "full"
+          ]
+        ]
+      },
+      "full-1440-018.png": {
+        "reviewer": "/root/navigation_motion",
+        "sha256": "e2bfa7c235ccbcca3c9b4a4c99cbe57dba10b14925879d986d507fd2c38972fc",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:21:47.824Z",
+        "states": [
+          [
+            "/properties/exclusive-sea-view-4br-royal-penthouse/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/private-pool-furnished-spacious-terrace/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/rare-dual-view-skyline-sea-spacious-luxury/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/www-luxuryresidences-com-properties-private-pool-canal-view-renovated-upgraded/",
+            1440,
+            "full"
+          ]
+        ]
+      },
+      "full-1440-022.png": {
+        "reviewer": "/root/navigation_motion",
+        "sha256": "3082ee5e77a68f2a3f1f96cb2254206168a4d37a29e013d1680596da12afe8df",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:21:47.824Z",
+        "states": [
+          [
+            "/properties/palm-view-sky-court-xl-terrace-upgraded/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/ultra-high-floor-one-of-a-kind-upgraded-residence/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/ultra-rare-2br-duplex-in-the-iconic-uptown-tower/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/upgraded-2br-marina-view-investor-deal/",
+            1440,
+            "full"
+          ]
+        ]
+      },
+      "full-1440-026.png": {
+        "reviewer": "/root/navigation_motion",
+        "sha256": "ce6fb434f5609b6108064f1c9370105f3285333d7f5009808d2cc1141eff4ad2",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:21:47.824Z",
+        "states": [
+          [
+            "/properties/exclusive-high-floor-available-now-furnished/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/exclusive-lagoon-facing-available-for-viewing/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/exclusive-top-floor-one-of-a-kind/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/furnished-palm-skyline-views-exclusive/",
+            1440,
+            "full"
+          ]
+        ]
+      },
+      "full-1440-030.png": {
+        "reviewer": "/root/navigation_motion",
+        "sha256": "ad9eab7ae9ff3e5964c19fabc3f683849d19de31b7dec9faa725af29acc92564",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:22:23.116Z",
+        "states": [
+          [
+            "/developments/atlantis/",
+            1440,
+            "full"
+          ],
+          [
+            "/developments/ava-at-palm/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/stunning-upgrade-luxury-villa-golf-course-view/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/super-rare-huge-terrace-furnished-1-agency/",
+            1440,
+            "full"
+          ]
+        ]
+      },
+      "full-1440-catalogue.png": {
+        "reviewer": "/root/navigation_motion",
+        "sha256": "52288b9f3681f98debf3842e942a3ac00f45345c4fdb4bcf80a22e589b48dc29",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:22:23.116Z",
+        "states": [
+          [
+            "/properties/",
+            1440,
+            "full"
+          ]
+        ]
+      },
+      "full-390-001.png": {
+        "reviewer": "/root/navigation_motion",
+        "sha256": "878e28b9688a36174bbce4397be5d323d836f7eedf97bdcfff7469619f727e32",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:22:52.708Z",
+        "states": [
+          [
+            "/",
+            390,
+            "full"
+          ],
+          [
+            "/about/",
+            390,
+            "full"
+          ],
+          [
+            "/contacts/",
+            390,
+            "full"
+          ],
+          [
+            "/developments/",
+            390,
+            "full"
+          ],
+          [
+            "/sell/",
+            390,
+            "full"
+          ],
+          [
+            "/services/",
+            390,
+            "full"
+          ]
+        ]
+      },
+      "full-390-005.png": {
+        "reviewer": "/root/navigation_motion",
+        "sha256": "af42bd3124ee3514957589583bb5f2d964dcc93fca925e21a49a1ebd73079ff5",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:23:09.327Z",
+        "states": [
+          [
+            "/properties/brand-new-palm-and-garden-view-vacant/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/brand-new-private-garden-private-pool/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/brand-new-sea-and-palm-view-corner-unit-2/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/brand-new-sea-and-palm-view-corner-unit/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/brand-new-sea-and-sunset-views/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/brand-new-sea-dubai-eye-and-sunset-views/",
+            390,
+            "full"
+          ]
+        ]
+      },
+      "full-390-009.png": {
+        "reviewer": "/root/navigation_motion",
+        "sha256": "52ef568bf2ca6f69598dde915e08c33b68a6cd27d061c28e4cfc43749468a71c",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:23:25.849Z",
+        "states": [
+          [
+            "/properties/best-value-huge-terrace-amazing-potential/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/high-floor-palm-paradise-with-incredible-views/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/landmark-marina-gate-one-bed-must-be-viewed-2/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/large-layout-community-view-maids-room/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/last-available-3br-duplex-with-private-pool/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/marina-view-upgraded-furnished-investor-deal/",
+            390,
+            "full"
+          ]
+        ]
+      },
+      "full-390-013.png": {
+        "reviewer": "/root/navigation_motion",
+        "sha256": "dffc7c05470fc14ae6d5ba12f42a592c93c7fbf24641fe11d20fad7658d14874",
+        "decision": "findings-recorded",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:24:22.776Z",
+        "states": [
+          [
+            "/properties/sea-views-michelin-star-dining-and-more/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/serenity-mansions-aurora/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/serenity-mansions-waterfront-collection/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/six-senses-residences-dubai-marina/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/sought-after-sea-sunset-views-branded-residences/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/spacious-layout-prime-amenities-modern-living/",
+            390,
+            "full"
+          ]
+        ]
+      },
+      "full-390-017.png": {
+        "reviewer": "/root/navigation_motion",
+        "sha256": "9d13f5216c1cc2eff938a1d22790592c99597afa75fa8811008a8664005f313c",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:24:41.732Z",
+        "states": [
+          [
+            "/properties/brand-new-high-floor-sea-and-sunset-views/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/burj-khalifa-views-upgraded-fully-furnished/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/dual-views-highest-floor-huge-layout/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/duplex-with-private-pool-must-be-viewed/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/exclusive-high-floor-available-now-furnished/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/exclusive-lagoon-facing-available-for-viewing/",
+            390,
+            "full"
+          ]
+        ]
+      },
+      "full-390-021.png": {
+        "reviewer": "/root/navigation_motion",
+        "sha256": "3a8e83353ca48c66efea314258d49bdb9fc6b4a976c3665eaf10cbbb8eead2d1",
+        "decision": "findings-recorded",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:27:17.740Z",
+        "states": [
+          [
+            "/developments/orla/",
+            390,
+            "full"
+          ],
+          [
+            "/developments/serenity-mansions-aurora/",
+            390,
+            "full"
+          ],
+          [
+            "/developments/serenity-mansions-waterfront-collection/",
+            390,
+            "full"
+          ],
+          [
+            "/developments/six-senses/",
+            390,
+            "full"
+          ],
+          [
+            "/developments/vela/",
+            390,
+            "full"
+          ],
+          [
+            "/insights/spaces-worth-living-in/",
+            390,
+            "full"
+          ]
+        ]
+      },
+      "top-004.png": {
+        "reviewer": "/root/qa_interaction_audit",
+        "sha256": "e2f6bfc6879d253d60dfa6880a2b46cbd39c565b873ca25f9db6faf575dca0e4",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:25:03.300Z",
+        "states": [
+          [
+            "/properties/1-of-1-palm-view-renovation-incredible-must-see/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/1-of-1-palm-view-renovation-incredible-must-see/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/2br-palm-skyline-view-branded-upgrades/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/2br-palm-skyline-view-branded-upgrades/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/sublime-sea-views-iconic-living/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/sublime-sea-views-iconic-living/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/unique-duplex-breath-taking-sea-view/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/unique-duplex-breath-taking-sea-view/",
+            1440,
+            "top"
+          ]
+        ]
+      },
+      "top-008.png": {
+        "reviewer": "/root/qa_interaction_audit",
+        "sha256": "29fff967153aa91607fd20782036a6c56c9c3e9340bd5789b38ecd840b382973",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:25:03.300Z",
+        "states": [
+          [
+            "/properties/brand-new-sea-and-palm-view-corner-unit-2/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/brand-new-sea-and-palm-view-corner-unit-2/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/brand-new-sea-and-sunset-views/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/brand-new-sea-and-sunset-views/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/brand-new-sea-dubai-eye-and-sunset-views/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/brand-new-sea-dubai-eye-and-sunset-views/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/brand-new-vacant-sea-and-sunset-views/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/brand-new-vacant-sea-and-sunset-views/",
+            1440,
+            "top"
+          ]
+        ]
+      },
+      "top-012.png": {
+        "reviewer": "/root/qa_interaction_audit",
+        "sha256": "c85756cfb587dd36f98aaaec5e8c1f417eb11dcbac2955d64e3e3735f4dd3e7e",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:25:03.300Z",
+        "states": [
+          [
+            "/properties/garden-apartment-sea-facing-private-pool-2/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/garden-apartment-sea-facing-private-pool-2/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/genuine-resale-full-sea-and-marina-views/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/genuine-resale-full-sea-and-marina-views/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/high-floor-2br-sea-view-chic-upgrades/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/high-floor-2br-sea-view-chic-upgrades/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/high-floor-with-best-views-furnished-1-agency/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/high-floor-with-best-views-furnished-1-agency/",
+            1440,
+            "top"
+          ]
+        ]
+      },
+      "top-016.png": {
+        "reviewer": "/root/qa_interaction_audit",
+        "sha256": "a41630ca444a8d92f957ce3c1f33ca8eabbf772d5899c65f3b15709686b04629",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:25:03.300Z",
+        "states": [
+          [
+            "/properties/dorchester-collection-full-palm-view-duplex/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/dorchester-collection-full-palm-view-duplex/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/orla-dorchester-collection/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/orla-dorchester-collection/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/palm-and-marina-skyline-views-private-pool/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/palm-and-marina-skyline-views-private-pool/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/panoramic-sea-sunset-views-wrap-around-balcony/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/panoramic-sea-sunset-views-wrap-around-balcony/",
+            1440,
+            "top"
+          ]
+        ]
+      },
+      "top-020.png": {
+        "reviewer": "/root/qa_interaction_audit",
+        "sha256": "d8b9b0b1d913e95474118bdbb4ed39c9905e40a9dcd274773c14091f1e09f5dd",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:25:03.300Z",
+        "states": [
+          [
+            "/properties/six-senses-residences-dubai-marina/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/six-senses-residences-dubai-marina/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/sought-after-sea-sunset-views-branded-residences/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/sought-after-sea-sunset-views-branded-residences/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/spacious-layout-prime-amenities-modern-living/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/spacious-layout-prime-amenities-modern-living/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/stunning-4br-amazing-bmv-price-move-in-ready/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/stunning-4br-amazing-bmv-price-move-in-ready/",
+            1440,
+            "top"
+          ]
+        ]
+      },
+      "top-024.png": {
+        "reviewer": "/root/qa_interaction_audit",
+        "sha256": "82d4496252e0a24f8ad5360dce679ecc736846cf3a1ef8954603478abf9ceca5",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:25:03.300Z",
+        "states": [
+          [
+            "/properties/beauty-rarity-and-timeless-elegance-awaits/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/beauty-rarity-and-timeless-elegance-awaits/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/best-price-high-floor-sea-view-large-size/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/best-price-high-floor-sea-view-large-size/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/brand-new-high-floor-full-palm-jumeirah-view/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/brand-new-high-floor-full-palm-jumeirah-view/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/very-high-number-fully-upgraded-premium-views/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/very-high-number-fully-upgraded-premium-views/",
+            1440,
+            "top"
+          ]
+        ]
+      },
+      "top-028.png": {
+        "reviewer": "/root/qa_interaction_audit",
+        "sha256": "ef971005539c97b276f108912914644aa2587c9aa92c4ef949544c08f97f20c5",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:19:49.776Z",
+        "states": [
+          [
+            "/properties/high-floor-palm-view-fully-furnished/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/high-floor-palm-view-fully-furnished/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/live-royally-turnkey-renovated-masterpiece/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/live-royally-turnkey-renovated-masterpiece/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/modern-design-elie-saab-branded-priced-to-sell/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/modern-design-elie-saab-branded-priced-to-sell/",
+            1440,
+            "top"
+          ],
+          [
+            "/properties/palm-view-amazing-2br-layout-must-be-viewed/",
+            390,
+            "top"
+          ],
+          [
+            "/properties/palm-view-amazing-2br-layout-must-be-viewed/",
+            1440,
+            "top"
+          ]
+        ]
+      },
+      "top-032.png": {
+        "reviewer": "/root/qa_interaction_audit",
+        "sha256": "92906f83291c945edcb8e2758faa8ed7fcc0b3b1067396268ff8515a9afcfb00",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:19:49.776Z",
+        "states": [
+          [
+            "/developments/six-senses/",
+            390,
+            "top"
+          ],
+          [
+            "/developments/six-senses/",
+            1440,
+            "top"
+          ],
+          [
+            "/developments/vela/",
+            390,
+            "top"
+          ],
+          [
+            "/developments/vela/",
+            1440,
+            "top"
+          ],
+          [
+            "/insights/a-home-by-the-water/",
+            390,
+            "top"
+          ],
+          [
+            "/insights/a-home-by-the-water/",
+            1440,
+            "top"
+          ],
+          [
+            "/insights/spaces-worth-living-in/",
+            390,
+            "top"
+          ],
+          [
+            "/insights/spaces-worth-living-in/",
+            1440,
+            "top"
+          ]
+        ]
+      },
+      "full-1440-003.png": {
+        "reviewer": "/root/qa_interaction_audit",
+        "sha256": "d9c64b3c2d059c4268dd4a6a255dbcd5de8abc5938250f439353bab09937130e",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:21:14.328Z",
+        "states": [
+          [
+            "/properties/1-of-1-branded-renovation-incredible-must-see/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/1-of-1-palm-view-renovation-incredible-must-see/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/palm-view-duplex-bespoke-garden-home/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/renovation-opportunity-high-number-iconic-view/",
+            1440,
+            "full"
+          ]
+        ]
+      },
+      "full-1440-007.png": {
+        "reviewer": "/root/qa_interaction_audit",
+        "sha256": "bf76ca5a0c646ccdcad3fd04c0f50802b2782532c5df2781c528ed5d3a499107",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:21:14.329Z",
+        "states": [
+          [
+            "/properties/brand-new-palm-and-garden-view-vacant/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/brand-new-private-garden-private-pool/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/brand-new-sea-and-palm-view-corner-unit-2/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/brand-new-sea-and-palm-view-corner-unit/",
+            1440,
+            "full"
+          ]
+        ]
+      },
+      "full-1440-011.png": {
+        "reviewer": "/root/qa_interaction_audit",
+        "sha256": "fec0e81ba93fe98e209381c2981b440967fbb6aa8ef90690e71dc19bfd63fefb",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:21:54.230Z",
+        "states": [
+          [
+            "/properties/furnished-upgraded-unique-layout-dual-views/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/garden-apartment-sea-facing-private-pool-2/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/garden-apartment-sea-facing-private-pool/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/one-of-a-kind-loft-designer-upgrade-sea-view/",
+            1440,
+            "full"
+          ]
+        ]
+      },
+      "full-1440-015.png": {
+        "reviewer": "/root/qa_interaction_audit",
+        "sha256": "542dafb5ac4b1ae7e82e38a71c4e7ec27d289ecbad454c7527c0018f21a06117",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:21:54.230Z",
+        "states": [
+          [
+            "/properties/one-at-palm-jumeirah-dorchester-collection/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/one-of-a-kind-villa-unique-reimagined-layout/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/orla-dorchester-collection/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/ultra-luxury-super-rare-dual-view-residence/",
+            1440,
+            "full"
+          ]
+        ]
+      },
+      "full-1440-019.png": {
+        "reviewer": "/root/qa_interaction_audit",
+        "sha256": "f7f0a0db47bd192237feb0e39ad62bd1a3c22e428231961e0a937d29b8e09967",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:23:22.234Z",
+        "states": [
+          [
+            "/properties/sea-views-michelin-star-dining-and-more/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/serenity-mansions-aurora/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/serenity-mansions-waterfront-collection/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/six-senses-residences-dubai-marina/",
+            1440,
+            "full"
+          ]
+        ]
+      },
+      "full-1440-023.png": {
+        "reviewer": "/root/qa_interaction_audit",
+        "sha256": "157321d841d4224427b91441fa2297cc9b93f5a89815fc2479f1824901676531",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:23:22.234Z",
+        "states": [
+          [
+            "/properties/best-priced-palm-view-2br-furnished-view-today/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/upgraded-vacant-furnished-viewing-essential/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/vela-dorchester-collection/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/very-high-number-fully-upgraded-premium-views/",
+            1440,
+            "full"
+          ]
+        ]
+      },
+      "full-1440-027.png": {
+        "reviewer": "/root/qa_interaction_audit",
+        "sha256": "e20e1082ab55c835714758e223f181b5119710e46c52fc5c6647103e33122a74",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:25:03.300Z",
+        "states": [
+          [
+            "/properties/furnished-palm-and-skyline-views-exclusive/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/furnished-palm-skyline-views-exclusive-2/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/garden-villa-hermes-and-minotti-private-pool/",
+            1440,
+            "full"
+          ],
+          [
+            "/properties/high-floor-palm-view-fully-furnished/",
+            1440,
+            "full"
+          ]
+        ]
+      },
+      "full-1440-031.png": {
+        "reviewer": "/root/qa_interaction_audit",
+        "sha256": "3354d165f7ad74ecf60878ff187cd94003154bf01261d1d5f88e623c7af0ab08",
+        "decision": "findings-recorded",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:25:03.300Z",
+        "states": [
+          [
+            "/developments/orla/",
+            1440,
+            "full"
+          ],
+          [
+            "/developments/serenity-mansions-aurora/",
+            1440,
+            "full"
+          ],
+          [
+            "/developments/serenity-mansions-waterfront-collection/",
+            1440,
+            "full"
+          ],
+          [
+            "/developments/six-senses/",
+            1440,
+            "full"
+          ]
+        ]
+      },
+      "full-390-002.png": {
+        "reviewer": "/root/qa_interaction_audit",
+        "sha256": "bd0b4b1c6ece00db0cd2e04f7176ab59c47dcd394865e959ce04a71dc8cd26b8",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:26:15.607Z",
+        "states": [
+          [
+            "/insights/",
+            390,
+            "full"
+          ],
+          [
+            "/privacy/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/1-of-1-branded-renovation-incredible-must-see/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/1-of-1-palm-view-renovation-incredible-must-see/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/palm-view-duplex-bespoke-garden-home/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/renovation-opportunity-high-number-iconic-view/",
+            390,
+            "full"
+          ]
+        ]
+      },
+      "full-390-006.png": {
+        "reviewer": "/root/qa_interaction_audit",
+        "sha256": "7b43f2340e9b64b09674e11d297cb759ba1156faa3c05c37e4f00d504296266a",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:29:02.927Z",
+        "states": [
+          [
+            "/properties/brand-new-vacant-sea-and-sunset-views-2/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/brand-new-vacant-sea-and-sunset-views/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/branded-upgrade-palm-skyline-view-2br-xl-size/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/celebrated-designer-duplex-with-private-pool/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/city-and-sea-views-fully-furnished-xl-terrace/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/close-to-tip-fully-upgraded-prime-location/",
+            390,
+            "full"
+          ]
+        ]
+      },
+      "full-390-010.png": {
+        "reviewer": "/root/qa_interaction_audit",
+        "sha256": "aa5a2816781eeff05dbf38f822b975b30865f17de18a0b6f70035a7db3e774ef",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:29:02.927Z",
+        "states": [
+          [
+            "/properties/miami-style-stunning-marina-views-beach-access/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/must-be-viewed-rare-2br-sea-and-skyline-views/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/one-at-palm-jumeirah-dorchester-collection/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/one-of-a-kind-villa-unique-reimagined-layout/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/orla-dorchester-collection/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/ultra-luxury-super-rare-dual-view-residence/",
+            390,
+            "full"
+          ]
+        ]
+      },
+      "full-390-014.png": {
+        "reviewer": "/root/qa_interaction_audit",
+        "sha256": "e747e5e21c6386b52e1eaa95909ab59d79a4753a6f7f403a1f4b13de3a093f1d",
+        "decision": "findings-recorded",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:29:51.247Z",
+        "states": [
+          [
+            "/properties/stunning-4br-amazing-bmv-price-move-in-ready/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/the-chedi-private-residences/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/timeless-elegance-awaits-at-palazzo-versace-dubai/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/triple-storey-fully-renovated-prime-location/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/trophy-4br-garden-suite-with-private-pool/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/turnkey-renovation-balearic-style-extended/",
+            390,
+            "full"
+          ]
+        ]
+      },
+      "full-390-018.png": {
+        "reviewer": "/root/qa_interaction_audit",
+        "sha256": "668206272084d55897b2b729a3db07299bad2885a3941b4ea619c2864c1b807b",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:30:17.813Z",
+        "states": [
+          [
+            "/properties/exclusive-top-floor-one-of-a-kind/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/furnished-palm-and-skyline-views-exclusive/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/furnished-palm-skyline-views-exclusive-2/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/furnished-palm-skyline-views-exclusive/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/garden-villa-hermes-and-minotti-private-pool/",
+            390,
+            "full"
+          ],
+          [
+            "/properties/high-floor-palm-view-fully-furnished/",
+            390,
+            "full"
+          ]
+        ]
+      },
+      "full-390-022.png": {
+        "reviewer": "/root/qa_interaction_audit",
+        "sha256": "cb27c931d271c05cacc1b4ba2dd354b1d0b66383fb085fdf5751f8038c6594f1",
+        "decision": "no-blocker-observed",
+        "reviewLevel": "scaled-structural-overview",
+        "viewedAt": "2026-11-03T17:30:44.733Z",
+        "states": [
+          [
+            "/insights/a-home-by-the-water/",
+            390,
+            "full"
+          ],
+          [
+            "/insights/architecture-on-palm-jumeirah/",
+            390,
+            "full"
+          ],
+          [
+            "/insights/the-art-of-a-private-viewing/",
+            390,
+            "full"
+          ]
+        ]
+      }
+    }
+  },
+  "nativeDetailCoverage": {
+    "reviewLevel": "native-original-or-unresized-region",
+    "actualInspections": 0,
+    "inspections": []
+  },
+  "findings": [
+    {
+      "reviewer": "/root",
+      "id": "ROOT-DEV-PAINT-01",
+      "severity": "observation",
+      "status": "open",
+      "observation": "Several VELA story and gallery photo areas are blank in the full-page desktop capture although the underlying image asset is valid and all image DOM entries are loaded with nonzero geometry. Requires real viewport paint confirmation; not assumed to be either a runtime defect or a capture artifact.",
+      "evidence": [
+        "full-1440-032.png",
+        "/developments/vela/",
+        "252-developments-vela-1440-no-preference-full.png"
+      ]
+    },
+    {
+      "reviewer": "/root/filters_ux",
+      "id": "filters-overview-empty-bullet-01",
+      "severity": "minor",
+      "status": "open",
+      "observation": "An isolated bullet appears after the Resident-Only Amenities list on the Best Price 3BR property page, before the next paragraph. The scaled mobile overview suggests an empty list item; source confirmation is pending.",
+      "evidence": [
+        {
+          "sheet": "full-390-004.png",
+          "route": "/properties/your-royal-lifestyle-with-sublime-views-and-space-2/",
+          "viewportWidth": 390,
+          "state": "full",
+          "region": "About this home, after Resident-Only Amenities / Superlative Service",
+          "sheetSha256": "e9bea75866faa81515ad1b6c9942bed5b43eaec689e773a599a1d010d2d9ba57",
+          "originalFile": "045-properties-your-royal-lifestyle-with-sublime-views-and-space-2-390-no-preference-full.png",
+          "originalSha256": "bad72dc403e2fc5413b20dd782390da7885a00421c84188bdab701cefb44b9d4",
+          "reviewLevel": "scaled-structural-overview"
+        }
+      ]
+    },
+    {
+      "reviewer": "/root/filters_ux",
+      "id": "filters-overview-duplicate-paragraph-02",
+      "severity": "minor",
+      "status": "open",
+      "observation": "The VELA property entry repeats a consecutive paragraph beginning Life at the Marina Residences moves like the gentle flow of water in About the development.",
+      "evidence": [
+        {
+          "sheet": "full-390-016.png",
+          "route": "/properties/vela-dorchester-collection/",
+          "viewportWidth": 390,
+          "state": "full",
+          "region": "About the development, consecutive Marina Residences paragraphs",
+          "sheetSha256": "8e37aaff0ae380d75da426cec51cadf39a90f5ad8a610f3bc5954d3773125279",
+          "originalFile": "183-properties-vela-dorchester-collection-390-no-preference-full.png",
+          "originalSha256": "a0489fd9cb703d56c2d031e1a8c070cafeb7d6dd59015b1c9644d14dfcb59dbb",
+          "reviewLevel": "scaled-structural-overview"
+        }
+      ]
+    },
+    {
+      "reviewer": "/root/filters_ux",
+      "id": "filters-overview-gallery-space-03",
+      "severity": "observation",
+      "status": "open",
+      "observation": "The Atlantis and AVA development profiles show an unfilled upper-left region in the A closer look thumbnail mosaic while other cells display photographs. The overview alone does not establish whether this is intentional layout, capture/lazy state, or a runtime defect.",
+      "evidence": [
+        {
+          "sheet": "full-390-020.png",
+          "route": "/developments/atlantis/",
+          "viewportWidth": 390,
+          "state": "full",
+          "region": "A closer look thumbnail mosaic, upper-left area",
+          "sheetSha256": "5d4eb005e695936a23391f3311fe7bf38218fc949752205c4cde92374eb020d3",
+          "originalFile": "239-developments-atlantis-390-no-preference-full.png",
+          "originalSha256": "9647825ab1f472c011290f2eeb43db741bce50eb24df2315bc48cf99d0cb65b4",
+          "reviewLevel": "scaled-structural-overview"
+        },
+        {
+          "sheet": "full-390-020.png",
+          "route": "/developments/ava-at-palm/",
+          "viewportWidth": 390,
+          "state": "full",
+          "region": "A closer look thumbnail mosaic, upper-left area",
+          "sheetSha256": "5d4eb005e695936a23391f3311fe7bf38218fc949752205c4cde92374eb020d3",
+          "originalFile": "241-developments-ava-at-palm-390-no-preference-full.png",
+          "originalSha256": "12f1510dc4650abeddd83f6a085ff7d9d30c915d6847fac0ba20da02a24f0f47",
+          "reviewLevel": "scaled-structural-overview"
+        }
+      ],
+      "resolution": "Pending parent source/native-scroll verification; no runtime source changed by this reviewer."
+    },
+    {
+      "reviewer": "/root/navigation_motion",
+      "id": "NAV-CONTENT-001",
+      "severity": "minor",
+      "status": "open",
+      "observation": "The Aurora property record repeats the same descriptive paragraph before At a glance.",
+      "routes": [
+        "/properties/serenity-mansions-aurora/"
+      ],
+      "renderedText": "At Serenity Mansions Aurora, the beauty of nature is ever-present. Each residence is positioned to offer panoramic views, whether it’s the lush greenery of Tilal Al Ghaf or the sparkling waters of the community’s central lagoon. These homes are designed to provide an idyllic living experience, where the boundary between indoor luxury and the natural world is beautifully blurred. Enjoy serene vistas from every corner of your home, with private outdoor spaces that invite you to embrace the peaceful surroundings.",
+      "evidence": [
+        "full-390-013.png"
+      ],
+      "verificationLimit": "Rendered-text transcription; byte-exact source punctuation and origin pending source review."
+    },
+    {
+      "reviewer": "/root/navigation_motion",
+      "id": "NAV-CONTENT-002",
+      "severity": "minor",
+      "status": "open",
+      "observation": "The Waterfront property record repeats a descriptive paragraph before At a glance; the development page repeats it in two consecutive story sections with different headings.",
+      "routes": [
+        "/properties/serenity-mansions-waterfront-collection/",
+        "/developments/serenity-mansions-waterfront-collection/"
+      ],
+      "renderedText": "The Serenity Mansions Waterfront Collection offers luxurious and thoughtfully designed residences. Each home features expansive living spaces with floor-to-ceiling windows that frame stunning water views. The interiors are customisable, allowing you to create a space that reflects your unique style and preferences. Enjoy the best of living by the water, with private outdoor areas perfect for relaxation or entertaining.",
+      "evidence": [
+        "full-390-013.png",
+        "full-390-021.png"
+      ],
+      "verificationLimit": "Rendered-text transcription; byte-exact source punctuation and origin pending source review."
+    },
+    {
+      "reviewer": "/root/qa_interaction_audit",
+      "id": "qa-development-gallery-empty-cells",
+      "severity": "observation",
+      "status": "open",
+      "observation": "The four development galleries in full-1440-031 contain large diagonal empty cells. Large story photos are visible, but the gallery layout/loading needs confirmation before accepting those regions.",
+      "evidence": [
+        "full-1440-031.png",
+        "/developments/orla/",
+        "/developments/serenity-mansions-aurora/",
+        "/developments/serenity-mansions-waterfront-collection/",
+        "/developments/six-senses/"
+      ]
+    },
+    {
+      "reviewer": "/root/qa_interaction_audit",
+      "id": "qa-aurora-amenity-image-variation",
+      "severity": "observation",
+      "status": "open",
+      "observation": "Aurora's amenities section displays an image only on its first card; the two other cards are text-only. Confirm intended source coverage/layout before treating the asymmetry as a defect.",
+      "evidence": [
+        "full-1440-031.png",
+        "/developments/serenity-mansions-aurora/"
+      ]
+    },
+    {
+      "reviewer": "/root/qa_interaction_audit",
+      "id": "qa-chedi-description-paragraph-fragments",
+      "severity": "minor",
+      "status": "open",
+      "observation": "The Chedi description visibly splits 'Refining' and 'grandeur, ...' into separate paragraphs; a later paragraph begins 'for personal reflection'. Review imported paragraph boundaries for complete prose.",
+      "evidence": [
+        "full-390-014.png",
+        "/properties/the-chedi-private-residences/"
+      ]
+    }
+  ],
+  "openFindings": [
+    {
+      "reviewer": "/root",
+      "id": "ROOT-DEV-PAINT-01",
+      "severity": "observation",
+      "status": "open",
+      "observation": "Several VELA story and gallery photo areas are blank in the full-page desktop capture although the underlying image asset is valid and all image DOM entries are loaded with nonzero geometry. Requires real viewport paint confirmation; not assumed to be either a runtime defect or a capture artifact.",
+      "evidence": [
+        "full-1440-032.png",
+        "/developments/vela/",
+        "252-developments-vela-1440-no-preference-full.png"
+      ]
+    },
+    {
+      "reviewer": "/root/filters_ux",
+      "id": "filters-overview-empty-bullet-01",
+      "severity": "minor",
+      "status": "open",
+      "observation": "An isolated bullet appears after the Resident-Only Amenities list on the Best Price 3BR property page, before the next paragraph. The scaled mobile overview suggests an empty list item; source confirmation is pending.",
+      "evidence": [
+        {
+          "sheet": "full-390-004.png",
+          "route": "/properties/your-royal-lifestyle-with-sublime-views-and-space-2/",
+          "viewportWidth": 390,
+          "state": "full",
+          "region": "About this home, after Resident-Only Amenities / Superlative Service",
+          "sheetSha256": "e9bea75866faa81515ad1b6c9942bed5b43eaec689e773a599a1d010d2d9ba57",
+          "originalFile": "045-properties-your-royal-lifestyle-with-sublime-views-and-space-2-390-no-preference-full.png",
+          "originalSha256": "bad72dc403e2fc5413b20dd782390da7885a00421c84188bdab701cefb44b9d4",
+          "reviewLevel": "scaled-structural-overview"
+        }
+      ]
+    },
+    {
+      "reviewer": "/root/filters_ux",
+      "id": "filters-overview-duplicate-paragraph-02",
+      "severity": "minor",
+      "status": "open",
+      "observation": "The VELA property entry repeats a consecutive paragraph beginning Life at the Marina Residences moves like the gentle flow of water in About the development.",
+      "evidence": [
+        {
+          "sheet": "full-390-016.png",
+          "route": "/properties/vela-dorchester-collection/",
+          "viewportWidth": 390,
+          "state": "full",
+          "region": "About the development, consecutive Marina Residences paragraphs",
+          "sheetSha256": "8e37aaff0ae380d75da426cec51cadf39a90f5ad8a610f3bc5954d3773125279",
+          "originalFile": "183-properties-vela-dorchester-collection-390-no-preference-full.png",
+          "originalSha256": "a0489fd9cb703d56c2d031e1a8c070cafeb7d6dd59015b1c9644d14dfcb59dbb",
+          "reviewLevel": "scaled-structural-overview"
+        }
+      ]
+    },
+    {
+      "reviewer": "/root/filters_ux",
+      "id": "filters-overview-gallery-space-03",
+      "severity": "observation",
+      "status": "open",
+      "observation": "The Atlantis and AVA development profiles show an unfilled upper-left region in the A closer look thumbnail mosaic while other cells display photographs. The overview alone does not establish whether this is intentional layout, capture/lazy state, or a runtime defect.",
+      "evidence": [
+        {
+          "sheet": "full-390-020.png",
+          "route": "/developments/atlantis/",
+          "viewportWidth": 390,
+          "state": "full",
+          "region": "A closer look thumbnail mosaic, upper-left area",
+          "sheetSha256": "5d4eb005e695936a23391f3311fe7bf38218fc949752205c4cde92374eb020d3",
+          "originalFile": "239-developments-atlantis-390-no-preference-full.png",
+          "originalSha256": "9647825ab1f472c011290f2eeb43db741bce50eb24df2315bc48cf99d0cb65b4",
+          "reviewLevel": "scaled-structural-overview"
+        },
+        {
+          "sheet": "full-390-020.png",
+          "route": "/developments/ava-at-palm/",
+          "viewportWidth": 390,
+          "state": "full",
+          "region": "A closer look thumbnail mosaic, upper-left area",
+          "sheetSha256": "5d4eb005e695936a23391f3311fe7bf38218fc949752205c4cde92374eb020d3",
+          "originalFile": "241-developments-ava-at-palm-390-no-preference-full.png",
+          "originalSha256": "12f1510dc4650abeddd83f6a085ff7d9d30c915d6847fac0ba20da02a24f0f47",
+          "reviewLevel": "scaled-structural-overview"
+        }
+      ],
+      "resolution": "Pending parent source/native-scroll verification; no runtime source changed by this reviewer."
+    },
+    {
+      "reviewer": "/root/navigation_motion",
+      "id": "NAV-CONTENT-001",
+      "severity": "minor",
+      "status": "open",
+      "observation": "The Aurora property record repeats the same descriptive paragraph before At a glance.",
+      "routes": [
+        "/properties/serenity-mansions-aurora/"
+      ],
+      "renderedText": "At Serenity Mansions Aurora, the beauty of nature is ever-present. Each residence is positioned to offer panoramic views, whether it’s the lush greenery of Tilal Al Ghaf or the sparkling waters of the community’s central lagoon. These homes are designed to provide an idyllic living experience, where the boundary between indoor luxury and the natural world is beautifully blurred. Enjoy serene vistas from every corner of your home, with private outdoor spaces that invite you to embrace the peaceful surroundings.",
+      "evidence": [
+        "full-390-013.png"
+      ],
+      "verificationLimit": "Rendered-text transcription; byte-exact source punctuation and origin pending source review."
+    },
+    {
+      "reviewer": "/root/navigation_motion",
+      "id": "NAV-CONTENT-002",
+      "severity": "minor",
+      "status": "open",
+      "observation": "The Waterfront property record repeats a descriptive paragraph before At a glance; the development page repeats it in two consecutive story sections with different headings.",
+      "routes": [
+        "/properties/serenity-mansions-waterfront-collection/",
+        "/developments/serenity-mansions-waterfront-collection/"
+      ],
+      "renderedText": "The Serenity Mansions Waterfront Collection offers luxurious and thoughtfully designed residences. Each home features expansive living spaces with floor-to-ceiling windows that frame stunning water views. The interiors are customisable, allowing you to create a space that reflects your unique style and preferences. Enjoy the best of living by the water, with private outdoor areas perfect for relaxation or entertaining.",
+      "evidence": [
+        "full-390-013.png",
+        "full-390-021.png"
+      ],
+      "verificationLimit": "Rendered-text transcription; byte-exact source punctuation and origin pending source review."
+    },
+    {
+      "reviewer": "/root/qa_interaction_audit",
+      "id": "qa-development-gallery-empty-cells",
+      "severity": "observation",
+      "status": "open",
+      "observation": "The four development galleries in full-1440-031 contain large diagonal empty cells. Large story photos are visible, but the gallery layout/loading needs confirmation before accepting those regions.",
+      "evidence": [
+        "full-1440-031.png",
+        "/developments/orla/",
+        "/developments/serenity-mansions-aurora/",
+        "/developments/serenity-mansions-waterfront-collection/",
+        "/developments/six-senses/"
+      ]
+    },
+    {
+      "reviewer": "/root/qa_interaction_audit",
+      "id": "qa-aurora-amenity-image-variation",
+      "severity": "observation",
+      "status": "open",
+      "observation": "Aurora's amenities section displays an image only on its first card; the two other cards are text-only. Confirm intended source coverage/layout before treating the asymmetry as a defect.",
+      "evidence": [
+        "full-1440-031.png",
+        "/developments/serenity-mansions-aurora/"
+      ]
+    },
+    {
+      "reviewer": "/root/qa_interaction_audit",
+      "id": "qa-chedi-description-paragraph-fragments",
+      "severity": "minor",
+      "status": "open",
+      "observation": "The Chedi description visibly splits 'Refining' and 'grandeur, ...' into separate paragraphs; a later paragraph begins 'for personal reflection'. Review imported paragraph boundaries for complete prose.",
+      "evidence": [
+        "full-390-014.png",
+        "/properties/the-chedi-private-residences/"
+      ]
+    }
+  ],
+  "blockingOpenFindings": [],
+  "validationStatus": "valid-complete-overview-evidence"
+}

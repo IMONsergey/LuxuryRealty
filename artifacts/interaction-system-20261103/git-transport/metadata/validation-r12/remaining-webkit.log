@@ -1,0 +1,49 @@
+CAPTURE 001-property-320-no-preference /properties/renovation-opportunity-high-number-iconic-view/
+CAPTURE 002-property-390-no-preference /properties/renovation-opportunity-high-number-iconic-view/
+CAPTURE 003-property-1440-no-preference /properties/renovation-opportunity-high-number-iconic-view/
+CAPTURE 004-about-390-no-preference /about/
+CAPTURE 005-about-1440-no-preference /about/
+CAPTURE 006-services-390-no-preference /services/
+CAPTURE 007-services-1440-no-preference /services/
+CAPTURE 008-sell-390-no-preference /sell/
+CAPTURE 009-sell-768-no-preference /sell/
+CAPTURE 010-contacts-320-no-preference /contacts/
+CAPTURE 011-contacts-390-no-preference /contacts/
+CAPTURE 012-contacts-1440-no-preference /contacts/
+CAPTURE 013-developments-390-no-preference /developments/
+CAPTURE 014-developments-1440-no-preference /developments/
+CAPTURE 015-insights-390-no-preference /insights/
+CAPTURE 016-insights-1440-no-preference /insights/
+CAPTURE 017-article-390-no-preference /insights/spaces-worth-living-in/
+CAPTURE 018-privacy-390-reduce /privacy/
+CAPTURE 019-not-found-390-reduce /__interaction-qa-missing__/
+{
+  "complete": true,
+  "machineChecksPassed": true,
+  "humanReview": "pending",
+  "fullMatrix": false,
+  "summary": {
+    "stage": "focused",
+    "engine": "webkit",
+    "plannedViews": 19,
+    "unvisitedViews": 0,
+    "failFast": {
+      "enabled": true,
+      "stopped": false
+    },
+    "canonicalRoutes": 130,
+    "uniqueRoutes": 10,
+    "checks": 3,
+    "views": 19,
+    "completeViews": 19,
+    "screenshots": 80,
+    "errors": 0,
+    "warnings": 0,
+    "pageErrors": 0,
+    "consoleErrors": 1,
+    "assetFailures": 0,
+    "blockedWrites": 0,
+    "humanReview": "pending"
+  },
+  "report": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/focused-webkit-r6/visual-audit-report.json"
+}

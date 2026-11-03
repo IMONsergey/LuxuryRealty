@@ -3306,6 +3306,187 @@
       "sha256": "5e00744a13f3544cbda654a51bee6623b2dd658e440f608a65b5b27136fa3f83",
       "parts": [],
       "textPath": "artifacts/interaction-system-20261103/git-transport/metadata/validation-r11/report.json"
+    },
+    {
+      "key": "validation-r12/webkit-union.json",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r12/webkit-union.json",
+      "bytes": 16496,
+      "sha256": "229adc484c5ea68ff2ae2cdaaab7a447d2df2bf7d701a595fbc0fe33fbeea1d8",
+      "parts": [],
+      "textPath": "artifacts/interaction-system-20261103/git-transport/metadata/validation-r12/webkit-union.json"
+    },
+    {
+      "key": "validation-r12/webkit-union.log",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r12/webkit-union.log",
+      "bytes": 662,
+      "sha256": "92d85305fc5a33b5337a789717e2a3e9fecaeae4515013def6af4cb65463fed3",
+      "parts": [],
+      "textPath": "artifacts/interaction-system-20261103/git-transport/metadata/validation-r12/webkit-union.log"
+    },
+    {
+      "key": "validation-r12/native-coverage-validation.log",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r12/native-coverage-validation.log",
+      "bytes": 393,
+      "sha256": "59d384b71adef498de90f4623bb0a5d59fd3d5d82f4e17f7e7ff4ee533945bb2",
+      "parts": [],
+      "textPath": "artifacts/interaction-system-20261103/git-transport/metadata/validation-r12/native-coverage-validation.log"
+    },
+    {
+      "key": "validation-r12/aurora-native-features.log",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r12/aurora-native-features.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "parts": [],
+      "textPath": "artifacts/interaction-system-20261103/git-transport/metadata/validation-r12/aurora-native-features.log"
+    },
+    {
+      "key": "validation-r12/report.json",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r12/report.json",
+      "bytes": 21946,
+      "sha256": "9f5694fa3d7048789d6beca898e1810d1bc955b1d03d9ecabc63b0f458eea1a1",
+      "parts": [],
+      "textPath": "artifacts/interaction-system-20261103/git-transport/metadata/validation-r12/report.json"
+    },
+    {
+      "key": "validation-r12/remaining-webkit.log",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/validation-r12/remaining-webkit.log",
+      "bytes": 1848,
+      "sha256": "501c5ff02e6f01b696db6489a691df7c1ad5935cab205e4161b5432c7cad083b",
+      "parts": [],
+      "textPath": "artifacts/interaction-system-20261103/git-transport/metadata/validation-r12/remaining-webkit.log"
+    },
+    {
+      "key": "focused-webkit-r6/static-bundle-before.json",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/focused-webkit-r6/static-bundle-before.json",
+      "bytes": 24636,
+      "sha256": "c7bce75032f839cca992f79df5c42f672c26da81b48779436898afdd96dd9d1e",
+      "parts": [],
+      "textPath": "artifacts/interaction-system-20261103/git-transport/metadata/focused-webkit-r6/static-bundle-before.json"
+    },
+    {
+      "key": "focused-webkit-r6/route-receipts.json",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/focused-webkit-r6/route-receipts.json",
+      "bytes": 539010,
+      "sha256": "a1b2f460cb4fc7c6674b2c75063e98055157bcb0c60d7b2d34d29d25c787b4e4",
+      "parts": [],
+      "textPath": "artifacts/interaction-system-20261103/git-transport/metadata/focused-webkit-r6/route-receipts.json"
+    },
+    {
+      "key": "focused-webkit-r6/image-wait-progress.json",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/focused-webkit-r6/image-wait-progress.json",
+      "bytes": 2029,
+      "sha256": "86d645cdafff2adad87d1fb66637f853c347a1363b5c59f99fdb834e806b2611",
+      "parts": [],
+      "textPath": "artifacts/interaction-system-20261103/git-transport/metadata/focused-webkit-r6/image-wait-progress.json"
+    },
+    {
+      "key": "focused-webkit-r6/visual-audit-report.json",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/focused-webkit-r6/visual-audit-report.json",
+      "bytes": 567512,
+      "sha256": "7145428c1bd0c71db1e7d234e1aa516d46d2716ff55409745ac30a3d60a34c14",
+      "parts": [],
+      "textPath": "artifacts/interaction-system-20261103/git-transport/metadata/focused-webkit-r6/visual-audit-report.json"
+    },
+    {
+      "key": "focused-webkit-r6/canonical-routes.json",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/focused-webkit-r6/canonical-routes.json",
+      "bytes": 7653,
+      "sha256": "0193098f0f19307b0ee95a79e86b4017718c66fcfd54eb96141a2722201293fc",
+      "parts": [],
+      "textPath": "artifacts/interaction-system-20261103/git-transport/metadata/focused-webkit-r6/canonical-routes.json"
+    },
+    {
+      "key": "focused-webkit-r6/static-bundle-after.json",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/focused-webkit-r6/static-bundle-after.json",
+      "bytes": 24636,
+      "sha256": "c7bce75032f839cca992f79df5c42f672c26da81b48779436898afdd96dd9d1e",
+      "parts": [],
+      "textPath": "artifacts/interaction-system-20261103/git-transport/metadata/focused-webkit-r6/static-bundle-after.json"
+    },
+    {
+      "key": "aurora-native-features-r1/serenity-mansions-aurora-390-feature-3.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/aurora-native-features-r1/serenity-mansions-aurora-390-feature-3.png",
+      "bytes": 230436,
+      "sha256": "74370cb3d92ede3f7f143efe11bbabb2955662560a1ef110b4355546721229ee",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/aurora-native-features-r1/serenity-mansions-aurora-390-feature-3.png/001.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/aurora-native-features-r1/serenity-mansions-aurora-390-feature-3.png/002.b64"
+      ]
+    },
+    {
+      "key": "aurora-native-features-r1/serenity-mansions-aurora-390-feature-1.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/aurora-native-features-r1/serenity-mansions-aurora-390-feature-1.png",
+      "bytes": 306530,
+      "sha256": "5f02ce1a44d335315f4ddc19f632928e8630c66310ee30746f92a42dd45ac2f9",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/aurora-native-features-r1/serenity-mansions-aurora-390-feature-1.png/001.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/aurora-native-features-r1/serenity-mansions-aurora-390-feature-1.png/002.b64"
+      ]
+    },
+    {
+      "key": "aurora-native-features-r1/serenity-mansions-aurora-390-feature-2.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/aurora-native-features-r1/serenity-mansions-aurora-390-feature-2.png",
+      "bytes": 294741,
+      "sha256": "60cd87a7544a19d2498a2dc759deb9454a8eeae3bb0dc73dad33953af11e31f4",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/aurora-native-features-r1/serenity-mansions-aurora-390-feature-2.png/001.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/aurora-native-features-r1/serenity-mansions-aurora-390-feature-2.png/002.b64"
+      ]
+    },
+    {
+      "key": "aurora-native-features-r1/serenity-mansions-aurora-1440-feature-2.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/aurora-native-features-r1/serenity-mansions-aurora-1440-feature-2.png",
+      "bytes": 862003,
+      "sha256": "ce4a4a540e11ca6fbf4bd042ef65d5789e508b7e7b87e480533e8af8de1028a3",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/aurora-native-features-r1/serenity-mansions-aurora-1440-feature-2.png/001.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/aurora-native-features-r1/serenity-mansions-aurora-1440-feature-2.png/002.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/aurora-native-features-r1/serenity-mansions-aurora-1440-feature-2.png/003.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/aurora-native-features-r1/serenity-mansions-aurora-1440-feature-2.png/004.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/aurora-native-features-r1/serenity-mansions-aurora-1440-feature-2.png/005.b64"
+      ]
+    },
+    {
+      "key": "aurora-native-features-r1/report.json",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/aurora-native-features-r1/report.json",
+      "bytes": 14135,
+      "sha256": "6b3188145157c76588de33b91af48a53a8db773456b18988e4e18bd68be11268",
+      "parts": [],
+      "textPath": "artifacts/interaction-system-20261103/git-transport/metadata/aurora-native-features-r1/report.json"
+    },
+    {
+      "key": "aurora-native-features-r1/serenity-mansions-aurora-1440-feature-1.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/aurora-native-features-r1/serenity-mansions-aurora-1440-feature-1.png",
+      "bytes": 862003,
+      "sha256": "ce4a4a540e11ca6fbf4bd042ef65d5789e508b7e7b87e480533e8af8de1028a3",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/aurora-native-features-r1/serenity-mansions-aurora-1440-feature-1.png/001.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/aurora-native-features-r1/serenity-mansions-aurora-1440-feature-1.png/002.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/aurora-native-features-r1/serenity-mansions-aurora-1440-feature-1.png/003.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/aurora-native-features-r1/serenity-mansions-aurora-1440-feature-1.png/004.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/aurora-native-features-r1/serenity-mansions-aurora-1440-feature-1.png/005.b64"
+      ]
+    },
+    {
+      "key": "aurora-native-features-r1/serenity-mansions-aurora-1440-feature-3.png",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/aurora-native-features-r1/serenity-mansions-aurora-1440-feature-3.png",
+      "bytes": 862003,
+      "sha256": "ce4a4a540e11ca6fbf4bd042ef65d5789e508b7e7b87e480533e8af8de1028a3",
+      "parts": [
+        "artifacts/interaction-system-20261103/git-transport/chunks/aurora-native-features-r1/serenity-mansions-aurora-1440-feature-3.png/001.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/aurora-native-features-r1/serenity-mansions-aurora-1440-feature-3.png/002.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/aurora-native-features-r1/serenity-mansions-aurora-1440-feature-3.png/003.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/aurora-native-features-r1/serenity-mansions-aurora-1440-feature-3.png/004.b64",
+        "artifacts/interaction-system-20261103/git-transport/chunks/aurora-native-features-r1/serenity-mansions-aurora-1440-feature-3.png/005.b64"
+      ]
+    },
+    {
+      "key": "review-receipts/all-pages-coverage.json",
+      "originalPath": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/interaction-system-20261103/review-receipts/all-pages-coverage.json",
+      "bytes": 116471,
+      "sha256": "672c8cbd63686127b6ed203ff20583e0c19d670a095bd5ba94f68634d17e0cc2",
+      "parts": [],
+      "textPath": "artifacts/interaction-system-20261103/git-transport/metadata/review-receipts/all-pages-coverage.json"
     }
   ],
   "validationR9": {
@@ -3941,5 +4122,56 @@
     "sourceUnchanged": true,
     "staticBundleUnchanged": true,
     "finishedAt": "2026-11-03T17:45:14Z"
+  },
+  "validationR12": {
+    "startedAt": "2026-11-03T17:48:03Z",
+    "sourceHead": "532cd2fc19dcf9ddaa1809616a47ebaee86eec88",
+    "staticBundleBefore": {
+      "count": 146,
+      "sha256": "49505cd75cf2709a018231579814ece9462d399553c0ddebb5e76cfc3fe7e6a6"
+    },
+    "stages": [
+      {
+        "name": "native-coverage-validation",
+        "exitCode": 0,
+        "seconds": 3.72,
+        "log": "artifacts/interaction-system-20261103/validation-r12/native-coverage-validation.log"
+      },
+      {
+        "name": "remaining-webkit",
+        "exitCode": 0,
+        "seconds": 169.45,
+        "log": "artifacts/interaction-system-20261103/validation-r12/remaining-webkit.log"
+      },
+      {
+        "name": "webkit-union",
+        "exitCode": 0,
+        "seconds": 0.17,
+        "log": "artifacts/interaction-system-20261103/validation-r12/webkit-union.log"
+      },
+      {
+        "name": "aurora-native-features",
+        "exitCode": 0,
+        "seconds": 7.64,
+        "log": "artifacts/interaction-system-20261103/validation-r12/aurora-native-features.log"
+      }
+    ],
+    "complete": true,
+    "passed": true,
+    "partialInheritanceGuard": {
+      "sourceSnapshotMatches": true,
+      "staticBundleMatches": true,
+      "partialSourceHead": "532cd2fc19dcf9ddaa1809616a47ebaee86eec88",
+      "partialCompleteViews": 17,
+      "reason": "The first run stopped at its wall deadline between completed views. Current source and static build are byte-identical to its before snapshot. Its original incomplete report is preserved."
+    },
+    "staticBundleAfter": {
+      "count": 146,
+      "sha256": "49505cd75cf2709a018231579814ece9462d399553c0ddebb5e76cfc3fe7e6a6"
+    },
+    "sourceHeadAfter": "532cd2fc19dcf9ddaa1809616a47ebaee86eec88",
+    "sourceUnchanged": true,
+    "staticBundleUnchanged": true,
+    "finishedAt": "2026-11-03T17:51:05Z"
   }
 }

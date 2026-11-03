@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "view": "019-not-found-390-reduce",
+  "sourceHead": "532cd2fc19dcf9ddaa1809616a47ebaee86eec88",
+  "engine": "webkit",
+  "startedAt": "2026-11-03T17:50:52.440Z",
+  "scrollY": 0,
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "images": [
+    {
+      "src": "http://127.0.0.1:34721/assets/imgGroup1.svg",
+      "srcset": "",
+      "alt": "",
+      "complete": true,
+      "naturalWidth": 41,
+      "naturalHeight": 41,
+      "rect": {
+        "x": 24,
+        "y": 30.5,
+        "width": 41,
+        "height": 41
+      }
+    },
+    {
+      "src": "http://127.0.0.1:34721/assets/imgGroup48096582.svg",
+      "srcset": "",
+      "alt": "",
+      "complete": true,
+      "naturalWidth": 138,
+      "naturalHeight": 20,
+      "rect": {
+        "x": 126,
+        "y": 40.78125,
+        "width": 138,
+        "height": 20.421875
+      }
+    },
+    {
+      "src": "http://127.0.0.1:34721/assets/photo-67f92dd0d5a07603-480.webp",
+      "srcset": "/assets/photo-67f92dd0d5a07603-480.webp 480w, /assets/photo-67f92dd0d5a07603-800.webp 800w, /assets/photo-67f92dd0d5a07603.webp 1024w",
+      "alt": "",
+      "complete": true,
+      "naturalWidth": 389,
+      "naturalHeight": 259,
+      "rect": {
+        "x": 0,
+        "y": 675.1875,
+        "width": 390,
+        "height": 1059.25
+      }
+    },
+    {
+      "src": "http://127.0.0.1:34721/assets/imgGroup13.svg",
+      "srcset": "",
+      "alt": "",
+      "complete": true,
+      "naturalWidth": 59,
+      "naturalHeight": 59,
+      "rect": {
+        "x": 24,
+        "y": 740.1875,
+        "width": 59,
+        "height": 59
+      }
+    }
+  ],
+  "steps": [
+    {
+      "name": "image-decode",
+      "timeoutMs": 15000,
+      "startedAt": "2026-11-03T17:50:52.446Z",
+      "status": "complete",
+      "elapsedMs": 7
+    },
+    {
+      "name": "two-paint-frames",
+      "timeoutMs": 3000,
+      "startedAt": "2026-11-03T17:50:52.456Z",
+      "status": "complete",
+      "elapsedMs": 37
+    }
+  ],
+  "phase": "two-paint-frames",
+  "status": "complete"
+}
