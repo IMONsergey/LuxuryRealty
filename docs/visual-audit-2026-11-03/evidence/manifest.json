@@ -2,6 +2,7 @@
   "schemaVersion": 1,
   "generator": "luxury-copy-visual-evidence.py",
   "generatorSha256": [
+    "256d74cc8fe4835f6500c82ee20d21b6cdee02a91e89450c36ef8c572d64d496",
     "9f6d5fe1d34fe3ad219fc25c271284ee45cf63897d7f379e4a554abda07344a7",
     "d22e3578335d248accb07c8e837572d561cbd6c59ff1ad152f6153c6b4553813"
   ],
@@ -12,7 +13,7 @@
     2
   ],
   "selectedFinalRound": 2,
-  "publicIncluded": false,
+  "publicIncluded": true,
   "compression": {
     "rawJson": "gzip",
     "mtime": 0,
@@ -113,10 +114,10 @@
       "source": "artifacts/global-visual-final-20261103/gate-record.json",
       "destination": "docs/visual-audit-2026-11-03/evidence/final/gate-record.json.gz",
       "originalFilename": "gate-record.json",
-      "originalSha256": "63d0dd0b55498aaac25b88db483c2c2454946c87804d6e5005e6f028b5f24388",
-      "copiedSha256": "c0a9edb8e9c20db90978f0be382abab7d051857b1bad321940de50576c8d49bb",
-      "originalBytes": 5314,
-      "copiedBytes": 1332,
+      "originalSha256": "fabea1828a1d55a02103b864abb7000786fabae4eb6fcd3070ff9f31673e086d",
+      "copiedSha256": "d843a6c3957856b51424ade59771de2ef488ba8c5765f12329bc8da545a3cf0a",
+      "originalBytes": 7478,
+      "copiedBytes": 1922,
       "encoding": "gzip",
       "gzipMtime": 0,
       "mutableReceipt": true
@@ -189,6 +190,114 @@
       "copiedSha256": "02d12836383e43ea325b52a776a7e3b497837b7a9634a13f9097bd642f556838",
       "originalBytes": 639250,
       "copiedBytes": 153946,
+      "encoding": "gzip",
+      "gzipMtime": 0,
+      "mutableReceipt": false
+    },
+    {
+      "source": "artifacts/global-visual-release-20261103/preview-target.json",
+      "destination": "docs/visual-audit-2026-11-03/evidence/final/preview-target.json",
+      "originalFilename": "preview-target.json",
+      "originalSha256": "0b085079adb6f5a2a03e73ccfffd41fbb007c9135119b8bc65f4aa6c9c3f9176",
+      "copiedSha256": "0b085079adb6f5a2a03e73ccfffd41fbb007c9135119b8bc65f4aa6c9c3f9176",
+      "originalBytes": 336,
+      "copiedBytes": 336,
+      "encoding": "identity",
+      "gzipMtime": null,
+      "mutableReceipt": false
+    },
+    {
+      "source": "artifacts/global-visual-release-20261103/public-review.json",
+      "destination": "docs/visual-audit-2026-11-03/evidence/final/public-review.json",
+      "originalFilename": "public-review.json",
+      "originalSha256": "1fb019de73d1505e6c4c20220249e95875e8f1904839dc9f02e9e22341a70f4c",
+      "copiedSha256": "1fb019de73d1505e6c4c20220249e95875e8f1904839dc9f02e9e22341a70f4c",
+      "originalBytes": 3991,
+      "copiedBytes": 3991,
+      "encoding": "identity",
+      "gzipMtime": null,
+      "mutableReceipt": false
+    },
+    {
+      "source": "artifacts/global-visual-release-20261103/public-visual/001-home-390-content.png",
+      "destination": "docs/visual-audit-2026-11-03/evidence/final/public-visual/001-home-390-content.png",
+      "originalFilename": "001-home-390-content.png",
+      "originalSha256": "e8205a6687da778c04a8982e31736ea8f9050fd4aaf10a6d5a976da576e6c9cd",
+      "copiedSha256": "e8205a6687da778c04a8982e31736ea8f9050fd4aaf10a6d5a976da576e6c9cd",
+      "originalBytes": 218380,
+      "copiedBytes": 218380,
+      "encoding": "identity",
+      "gzipMtime": null,
+      "mutableReceipt": false
+    },
+    {
+      "source": "artifacts/global-visual-release-20261103/public-visual/001-home-390-top.png",
+      "destination": "docs/visual-audit-2026-11-03/evidence/final/public-visual/001-home-390-top.png",
+      "originalFilename": "001-home-390-top.png",
+      "originalSha256": "7e1547400e0fa22a0cb6e45c9343b4066c9e1397690f076837328f9dc73bcf75",
+      "copiedSha256": "7e1547400e0fa22a0cb6e45c9343b4066c9e1397690f076837328f9dc73bcf75",
+      "originalBytes": 312312,
+      "copiedBytes": 312312,
+      "encoding": "identity",
+      "gzipMtime": null,
+      "mutableReceipt": false
+    },
+    {
+      "source": "artifacts/global-visual-release-20261103/public-visual/002-home-1440-content.png",
+      "destination": "docs/visual-audit-2026-11-03/evidence/final/public-visual/002-home-1440-content.png",
+      "originalFilename": "002-home-1440-content.png",
+      "originalSha256": "935e4ab75f7e0ef4d5eb1d94f7302cdd37d415eb209fd22dbf399a6cfcdf46d2",
+      "copiedSha256": "935e4ab75f7e0ef4d5eb1d94f7302cdd37d415eb209fd22dbf399a6cfcdf46d2",
+      "originalBytes": 684227,
+      "copiedBytes": 684227,
+      "encoding": "identity",
+      "gzipMtime": null,
+      "mutableReceipt": false
+    },
+    {
+      "source": "artifacts/global-visual-release-20261103/public-visual/002-home-1440-top.png",
+      "destination": "docs/visual-audit-2026-11-03/evidence/final/public-visual/002-home-1440-top.png",
+      "originalFilename": "002-home-1440-top.png",
+      "originalSha256": "8acdc09faa4a63b4645b5056df8b9db6a750af3ae9cecb9a6e67717c871029bb",
+      "copiedSha256": "8acdc09faa4a63b4645b5056df8b9db6a750af3ae9cecb9a6e67717c871029bb",
+      "originalBytes": 1090539,
+      "copiedBytes": 1090539,
+      "encoding": "identity",
+      "gzipMtime": null,
+      "mutableReceipt": false
+    },
+    {
+      "source": "artifacts/global-visual-release-20261103/public-visual/003-developments-390-content.png",
+      "destination": "docs/visual-audit-2026-11-03/evidence/final/public-visual/003-developments-390-content.png",
+      "originalFilename": "003-developments-390-content.png",
+      "originalSha256": "ce0f98350bb54f89e2d040cc2ed0d9582e1674690ad39f2ee28209982cc8eeab",
+      "copiedSha256": "ce0f98350bb54f89e2d040cc2ed0d9582e1674690ad39f2ee28209982cc8eeab",
+      "originalBytes": 265837,
+      "copiedBytes": 265837,
+      "encoding": "identity",
+      "gzipMtime": null,
+      "mutableReceipt": false
+    },
+    {
+      "source": "artifacts/global-visual-release-20261103/public-visual/004-developments-1440-content.png",
+      "destination": "docs/visual-audit-2026-11-03/evidence/final/public-visual/004-developments-1440-content.png",
+      "originalFilename": "004-developments-1440-content.png",
+      "originalSha256": "b01cb8a17a90e71ee7fae838d5db32ed7981f9c37ef2e854eefcd033cb9261ae",
+      "copiedSha256": "b01cb8a17a90e71ee7fae838d5db32ed7981f9c37ef2e854eefcd033cb9261ae",
+      "originalBytes": 1041205,
+      "copiedBytes": 1041205,
+      "encoding": "identity",
+      "gzipMtime": null,
+      "mutableReceipt": false
+    },
+    {
+      "source": "artifacts/global-visual-release-20261103/public-visual/visual-audit-report.json",
+      "destination": "docs/visual-audit-2026-11-03/evidence/final/public-visual/visual-audit-report.json.gz",
+      "originalFilename": "visual-audit-report.json",
+      "originalSha256": "b8ee181bfa2570a93dc88f87f163a394137c74e697180c6f75dc4feb13c775b4",
+      "copiedSha256": "88b434400abe9e56c09ed2139fe4921e4a931a67785a5f484ee9e5a87f1fe5c3",
+      "originalBytes": 181068,
+      "copiedBytes": 15430,
       "encoding": "gzip",
       "gzipMtime": 0,
       "mutableReceipt": false
@@ -377,10 +486,10 @@
       "source": "artifacts/global-visual-final-20261103/state.json",
       "destination": "docs/visual-audit-2026-11-03/evidence/final/state.json.gz",
       "originalFilename": "state.json",
-      "originalSha256": "6f30211e66e30e2da9f59f0049dec601ef569de7b82afeeaeb1d6e635cb0bba5",
-      "copiedSha256": "0995e30a0f2ead38ce3310b2cb622965424516abebca406a6377b9a9f2414876",
-      "originalBytes": 976,
-      "copiedBytes": 447,
+      "originalSha256": "8861c3dd48ecf20f9afbdcdc2aa01e95a48221622ea1cf31542b10998f11989a",
+      "copiedSha256": "bb5850ffeadfec6686112024301505d953691ee907ece5221a2d18b64966547c",
+      "originalBytes": 165,
+      "copiedBytes": 156,
       "encoding": "gzip",
       "gzipMtime": 0,
       "mutableReceipt": true
@@ -492,6 +601,102 @@
       "encoding": "identity",
       "gzipMtime": null,
       "mutableReceipt": false
+    },
+    {
+      "source": "artifacts/global-visual-release-20261103/functional/webkit-report.json",
+      "destination": "docs/visual-audit-2026-11-03/evidence/public-release/functional/webkit-report.json.gz",
+      "originalFilename": "webkit-report.json",
+      "originalSha256": "d2a605746db23f47342a548b93e7f3ac6f802c96a1ccd39590b38a9c65b9627f",
+      "copiedSha256": "05b984398d6f469c695b376b5675f9fbddac4564a4743e6b83e2237d2b5bf5da",
+      "originalBytes": 12896,
+      "copiedBytes": 4394,
+      "encoding": "gzip",
+      "gzipMtime": 0,
+      "mutableReceipt": false
+    },
+    {
+      "source": "artifacts/global-visual-release-20261103/gate-record.json",
+      "destination": "docs/visual-audit-2026-11-03/evidence/public-release/gate-record.json.gz",
+      "originalFilename": "gate-record.json",
+      "originalSha256": "0ef726a817cf91295ce25b61af560a85cf967c93ef5c351ad824a783d26ed401",
+      "copiedSha256": "39ee89725296fe98a4983610a044e7fa958d6f269984cbcad6137817e5ac6a68",
+      "originalBytes": 3573,
+      "copiedBytes": 1170,
+      "encoding": "gzip",
+      "gzipMtime": 0,
+      "mutableReceipt": true
+    },
+    {
+      "source": "artifacts/global-visual-release-20261103/accepted-webkit.log",
+      "destination": "docs/visual-audit-2026-11-03/evidence/public-release/logs/accepted-webkit.log.gz",
+      "originalFilename": "accepted-webkit.log",
+      "originalSha256": "9e134ac1e458096bc2a389fcc2a2729a39fdf6414bb00ba29cfa6b8b45eb41ae",
+      "copiedSha256": "eacc7e7eca50d5dd13cf5eb6be04c3116a725f29bd2bdb8b9628bf211cdc0a4f",
+      "originalBytes": 1346,
+      "copiedBytes": 504,
+      "encoding": "gzip",
+      "gzipMtime": 0,
+      "mutableReceipt": false
+    },
+    {
+      "source": "artifacts/global-visual-release-20261103/public-preview-smoke.log",
+      "destination": "docs/visual-audit-2026-11-03/evidence/public-release/logs/public-preview-smoke.log.gz",
+      "originalFilename": "public-preview-smoke.log",
+      "originalSha256": "456773fea6cae8c18657318fd61a00523a4cd60a18cbde91f2f66a8c4f295ccd",
+      "copiedSha256": "aef704ab8b1267d02a5b1c3ce09367d733150100c370c22dfc6656542ceddc53",
+      "originalBytes": 214,
+      "copiedBytes": 179,
+      "encoding": "gzip",
+      "gzipMtime": 0,
+      "mutableReceipt": false
+    },
+    {
+      "source": "artifacts/global-visual-release-20261103/public-preview-visual.log",
+      "destination": "docs/visual-audit-2026-11-03/evidence/public-release/logs/public-preview-visual.log.gz",
+      "originalFilename": "public-preview-visual.log",
+      "originalSha256": "6b96b6356e0158f75b6aa1c602dcc0bb33f5b858de94e75de3b9ec0ddbe51547",
+      "copiedSha256": "8684d094de53233ef0afb7cfe4d84aaf4649c0515476b7acc825f53d8ebdd7a6",
+      "originalBytes": 628,
+      "copiedBytes": 330,
+      "encoding": "gzip",
+      "gzipMtime": 0,
+      "mutableReceipt": false
+    },
+    {
+      "source": "artifacts/content-migration/preview-smoke.json",
+      "destination": "docs/visual-audit-2026-11-03/evidence/public-release/preview-smoke.json.gz",
+      "originalFilename": "preview-smoke.json",
+      "originalSha256": "a40ce1dad251d4ff07692366340634957cb6d906cd3441faf963bb453fecb7ff",
+      "copiedSha256": "22c61a8656827266856fede4fe8a491db0bc44c0aefd52e82aa35a19e50501f7",
+      "originalBytes": 200348,
+      "copiedBytes": 19172,
+      "encoding": "gzip",
+      "gzipMtime": 0,
+      "mutableReceipt": false
+    },
+    {
+      "source": "artifacts/global-visual-release-20261103/reviewer-public-home.json",
+      "destination": "docs/visual-audit-2026-11-03/evidence/public-release/reviewer-public-home.json",
+      "originalFilename": "reviewer-public-home.json",
+      "originalSha256": "d15b8a74e7c9ca3ca965caf4541a4063d0586f244e98ce85d1e49ef07e166f4f",
+      "copiedSha256": "d15b8a74e7c9ca3ca965caf4541a4063d0586f244e98ce85d1e49ef07e166f4f",
+      "originalBytes": 6121,
+      "copiedBytes": 6121,
+      "encoding": "identity",
+      "gzipMtime": null,
+      "mutableReceipt": false
+    },
+    {
+      "source": "artifacts/global-visual-release-20261103/state.json",
+      "destination": "docs/visual-audit-2026-11-03/evidence/public-release/state.json.gz",
+      "originalFilename": "state.json",
+      "originalSha256": "73239c26bb3dfb5eb449e60e081d58f9c394e8669c49aedcc74b7aaaeb5330fe",
+      "copiedSha256": "0d4f4e325a6e52b6ccbf2433b4a3d152db76c146e24ccf079bca5f1c1b609b0b",
+      "originalBytes": 223,
+      "copiedBytes": 192,
+      "encoding": "gzip",
+      "gzipMtime": 0,
+      "mutableReceipt": true
     },
     {
       "source": "artifacts/global-visual-20261103/round-2/visual/060-sell-720-form-validation.png",
@@ -674,9 +879,23 @@
       "mutableReceipt": false
     }
   ],
-  "receiptHistory": [],
-  "optionalMissing": [
-    "artifacts/global-visual-final-20261103/public-visual"
+  "receiptHistory": [
+    {
+      "source": "artifacts/global-visual-final-20261103/gate-record.json",
+      "previousDestination": "docs/visual-audit-2026-11-03/evidence/final/gate-record.json.gz",
+      "archive": "docs/visual-audit-2026-11-03/evidence/receipt-history/final/c0a9edb8e9c20db90978f0be382abab7d051857b1bad321940de50576c8d49bb-gate-record.json.gz",
+      "originalSha256": "63d0dd0b55498aaac25b88db483c2c2454946c87804d6e5005e6f028b5f24388",
+      "copiedSha256": "c0a9edb8e9c20db90978f0be382abab7d051857b1bad321940de50576c8d49bb",
+      "encoding": "gzip"
+    },
+    {
+      "source": "artifacts/global-visual-final-20261103/state.json",
+      "previousDestination": "docs/visual-audit-2026-11-03/evidence/final/state.json.gz",
+      "archive": "docs/visual-audit-2026-11-03/evidence/receipt-history/final/0995e30a0f2ead38ce3310b2cb622965424516abebca406a6377b9a9f2414876-state.json.gz",
+      "originalSha256": "6f30211e66e30e2da9f59f0049dec601ef569de7b82afeeaeb1d6e635cb0bba5",
+      "copiedSha256": "0995e30a0f2ead38ce3310b2cb622965424516abebca406a6377b9a9f2414876",
+      "encoding": "gzip"
+    }
   ],
   "storageMigrations": [
     {
@@ -721,5 +940,8 @@
       "originalSha256": "29b90e3989cbe84f87918918671b68570427d61c115b31d3370fe6f3aee5470a",
       "reason": "Preserve exact console bytes in gzip; raw renderer whitespace must not block a source commit."
     }
+  ],
+  "optionalMissing": [
+    "artifacts/global-visual-release-20261103/public-visual/image-metrics.json"
   ]
 }

@@ -1,0 +1,107 @@
+{
+  "type": "assistant-public-visual-review",
+  "reviewer": "/root/visual_capture_matrix",
+  "at": "2026-11-03T14:02:38.279218+00:00",
+  "result": "accepted-in-reviewed-scope",
+  "deploymentBinding": {
+    "commit": "e7604eefb2e690ffbfa8eab451dc5a02d9cb6db3",
+    "projectId": "prj_9iSUC97pBvn9DoD6blM9mAZm6dMu",
+    "teamId": "team_eJReJ6RtdOT99uZ8iGJFHX3r",
+    "target": "preview",
+    "readyState": "READY",
+    "deploymentId": "dpl_FAoVoXEAfK6CYysK2EvN9fdDvjHx",
+    "url": "https://luxury-realty-imon-cw3ukwmy2-cdo-2844s-projects.vercel.app"
+  },
+  "branch": "fix/visual-audit-20261103",
+  "bindingVerification": "Vercel list scoped by project/team/exact SHA/branch/preview plus get_deployment by immutable ID confirmed READY, exact commit/ref and project. target:null normalized to preview only after excluding production.",
+  "sourceReport": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/global-visual-release-20261103/public-visual/visual-audit-report.json",
+  "sourceReportSha256": "b8ee181bfa2570a93dc88f87f163a394137c74e697180c6f75dc4feb13c775b4",
+  "sourceSummary": {
+    "views": 4,
+    "completeViews": 4,
+    "screenshots": 17,
+    "errors": 0,
+    "warnings": 0,
+    "pageErrors": 0,
+    "consoleErrors": 0,
+    "assetFailures": 0,
+    "blockedWrites": 0,
+    "humanReview": "pending"
+  },
+  "reviewedStates": [
+    {
+      "route": "/",
+      "width": 390
+    },
+    {
+      "route": "/",
+      "width": 1440
+    },
+    {
+      "route": "/developments/",
+      "width": 390
+    },
+    {
+      "route": "/developments/",
+      "width": 1440
+    }
+  ],
+  "reviewed": [
+    {
+      "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/global-visual-release-20261103/public-visual/001-home-390-top.png",
+      "sha256": "7e1547400e0fa22a0cb6e45c9343b4066c9e1397690f076837328f9dc73bcf75",
+      "status": "accepted-for-described-visible-scope",
+      "scope": "Mobile hero H1, italic, supporting copy, header controls and primary CTA contained and readable."
+    },
+    {
+      "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/global-visual-release-20261103/public-visual/002-home-1440-top.png",
+      "sha256": "8acdc09faa4a63b4645b5056df8b9db6a750af3ae9cecb9a6e67717c871029bb",
+      "status": "accepted-for-described-visible-scope",
+      "scope": "Desktop hero heading and italic composition, supporting copy, search controls and header geometry preserved."
+    },
+    {
+      "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/global-visual-release-20261103/public-visual/001-home-390-full.png",
+      "sha256": "557eb3b568c9b26bfe09c92a2a2ea39c8e28a7da22250c61d9254ec6e60a039c",
+      "status": "accepted-for-described-visible-scope",
+      "scope": "Home390 section flow, selection/Insights initial gutters, services, About collage, Consultation and footer wrapping visually reviewed."
+    },
+    {
+      "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/global-visual-release-20261103/public-visual/002-home-1440-full.png",
+      "sha256": "ec2690962c402e7d23923645072f04c390e18603562921f0e382d69c276de831",
+      "status": "accepted-for-described-visible-scope",
+      "scope": "Home1440 authored staggered selection and portrait cards preserved; Insights aligned with shared gutter; section typography, Consultation and footer coherent."
+    },
+    {
+      "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/global-visual-release-20261103/public-visual/003-developments-390-full.png",
+      "sha256": "193af14786c7ea6317699136eb6b9ecaf8e274c06afa60df1ba2638c28b316ac",
+      "status": "accepted-for-described-visible-scope",
+      "scope": "All seven development profile cards plus three additional enquiry cards; mobile title wrapping, CTA spacing, continuous shading, Consultation and footer reviewed."
+    },
+    {
+      "path": "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/global-visual-release-20261103/public-visual/004-developments-1440-full.png",
+      "sha256": "81d96bb437cc8b0ef2fc0d687c8989089db452dae02c1366d6254360167a23a4",
+      "status": "accepted-for-described-visible-scope",
+      "scope": "Seven profiles in two-column grid; long project names do not overlap address/actions; continuous shade; additional enquiry card prices align; Consultation/footer contained."
+    }
+  ],
+  "acceptedForScopedReviewPaths": [
+    "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/global-visual-release-20261103/public-visual/001-home-390-top.png",
+    "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/global-visual-release-20261103/public-visual/002-home-1440-top.png",
+    "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/global-visual-release-20261103/public-visual/001-home-390-full.png",
+    "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/global-visual-release-20261103/public-visual/002-home-1440-full.png",
+    "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/global-visual-release-20261103/public-visual/003-developments-390-full.png",
+    "/home/sergey/Projects/LuxuryRealty-visual-20261103/artifacts/global-visual-release-20261103/public-visual/004-developments-1440-full.png"
+  ],
+  "blockingFindingsInReviewedScope": [],
+  "originalReceiptUnchanged": true,
+  "humanApproval": false,
+  "productionApproval": false,
+  "limits": [
+    "Six exact public PNGs were visually inspected; the remaining eleven public PNGs were not separately inspected by this reviewer.",
+    "Menus were not separately visually reviewed in this public receipt; root independently reviews those frames.",
+    "Full-page images may be downsampled by the viewer; fine image-resolution metrics are retained separately in the accepted final local receipts.",
+    "This covers four public states under one Chromium/reduced-motion capture, not every page/device/browser or external film playback.",
+    "The immutable deployment URL remains the accepted source commit; branch aliases or future evidence-only auto-deploys are not substituted.",
+    "No source, script, original report or screenshot was changed."
+  ]
+}

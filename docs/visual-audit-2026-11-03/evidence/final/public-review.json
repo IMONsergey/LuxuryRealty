@@ -1,0 +1,107 @@
+{
+  "reviewer": "root",
+  "reviewedAt": "2026-11-03T14:03:15.560672+00:00",
+  "accepted": true,
+  "url": "https://luxury-realty-imon-cw3ukwmy2-cdo-2844s-projects.vercel.app",
+  "deploymentId": "dpl_FAoVoXEAfK6CYysK2EvN9fdDvjHx",
+  "sourceCommit": "e7604eefb2e690ffbfa8eab451dc5a02d9cb6db3",
+  "sourceFingerprint": "af3b95b2b2cc8f89d72a394f334ee07045ec9665be855e0846dbebca17f9f828",
+  "reviewedScreenshots": [
+    {
+      "file": "artifacts/global-visual-release-20261103/public-visual/001-home-390-top.png",
+      "sha256": "7e1547400e0fa22a0cb6e45c9343b4066c9e1397690f076837328f9dc73bcf75",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "kind": "top",
+      "scrollY": 0
+    },
+    {
+      "file": "artifacts/global-visual-release-20261103/public-visual/001-home-390-content.png",
+      "sha256": "e8205a6687da778c04a8982e31736ea8f9050fd4aaf10a6d5a976da576e6c9cd",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "kind": "content",
+      "scrollY": 6069
+    },
+    {
+      "file": "artifacts/global-visual-release-20261103/public-visual/001-home-390-menu.png",
+      "sha256": "6e1da51ef5340dff350af63c74a98b77aefea0ccd9217ae957e6f42f772e4b09",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "kind": "menu",
+      "scrollY": 0
+    },
+    {
+      "file": "artifacts/global-visual-release-20261103/public-visual/002-home-1440-top.png",
+      "sha256": "8acdc09faa4a63b4645b5056df8b9db6a750af3ae9cecb9a6e67717c871029bb",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "kind": "top",
+      "scrollY": 0
+    },
+    {
+      "file": "artifacts/global-visual-release-20261103/public-visual/002-home-1440-content.png",
+      "sha256": "935e4ab75f7e0ef4d5eb1d94f7302cdd37d415eb209fd22dbf399a6cfcdf46d2",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "kind": "content",
+      "scrollY": 7066
+    },
+    {
+      "file": "artifacts/global-visual-release-20261103/public-visual/003-developments-390-content.png",
+      "sha256": "ce0f98350bb54f89e2d040cc2ed0d9582e1674690ad39f2ee28209982cc8eeab",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "kind": "content",
+      "scrollY": 516
+    },
+    {
+      "file": "artifacts/global-visual-release-20261103/public-visual/004-developments-1440-content.png",
+      "sha256": "b01cb8a17a90e71ee7fae838d5db32ed7981f9c37ef2e854eefcd033cb9261ae",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "kind": "content",
+      "scrollY": 656
+    }
+  ],
+  "scope": "Actual public screenshots of home and developments at390px and1440px; seven specified viewport states inspected directly.",
+  "notes": [
+    "Hero composition and header/navigation fit on390px and1440px, all rendered fonts/images present.",
+    "Home consultation follows content height, text and CTA are readable, Insights starts on the same container edge.",
+    "All9 mobile menu destinations and close control are visible without overlap in the reviewed390px state.",
+    "Developments uses one compact column on mobile and two on desktop; continuous photo shading, readable captions and aligned CTA match accepted local fixes.",
+    "No new visible defect in the reviewed public scope."
+  ],
+  "scopeLimitations": [
+    "This public review covers the specified screenshots, not a manual review of every individual listing or every pixel of full-page captures.",
+    "The broader local85/50/32-state matrices and their separate human receipts remain the acceptance evidence for other templates.",
+    "Original hero/project source resolution limits remain as documented in AUDIT.md."
+  ],
+  "automationSummary": {
+    "views": 4,
+    "completeViews": 4,
+    "screenshots": 17,
+    "errors": 0,
+    "warnings": 0,
+    "pageErrors": 0,
+    "consoleErrors": 0,
+    "assetFailures": 0,
+    "blockedWrites": 0,
+    "humanReview": "pending"
+  },
+  "rawReportsPreserved": true
+}
