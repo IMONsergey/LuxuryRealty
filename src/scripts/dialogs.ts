@@ -152,6 +152,14 @@ export function setupDialogs(){
  ready=true;
  document.querySelectorAll<HTMLDialogElement>('dialog').forEach(dialog=>{
   const state=getState(dialog);
+  dialog.addEventListener('keydown',event=>{
+   if(event.key!=='Escape'||event.isComposing||event.defaultPrevented||!dialog.open)return;
+   const input=event.target;
+   if(!(input instanceof HTMLInputElement)||input.type!=='search')return;
+   // Search fields otherwise consume Escape to clear their value before native cancel.
+   event.preventDefault();
+   closeDialog(dialog);
+  },{capture:true});
   dialog.addEventListener('cancel',event=>{
    event.preventDefault();
    closeDialog(dialog);

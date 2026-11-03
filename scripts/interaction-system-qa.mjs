@@ -15,12 +15,16 @@ import {fileURLToPath} from 'node:url';
  * Root must review focused screenshots before choosing all-pages. No implicit rerun.
  * QA_STAGE=public: home/catalogue at390/1440 on the caller-verified immutable preview.
  * QA_CASES/QA_WIDTHS/QA_MOTIONS explicitly restrict coverage and are reported.
+ * QA_FAIL_FAST=1 stops focused after its first incomplete view; the entire planned matrix remains in the incomplete report.
  * Exit0 means machine checks passed; humanReview always remains pending.
  */
 const root=process.cwd();
 const sourceRoot=path.resolve(process.env.QA_SOURCE_ROOT||root);
 const stage=process.env.QA_STAGE||'focused';
 assert.ok(['focused','all-pages','public'].includes(stage),'QA_STAGE must be focused, all-pages or public');
+const failFast=process.env.QA_FAIL_FAST==='1';
+assert.ok(process.env.QA_FAIL_FAST===undefined||['0','1'].includes(process.env.QA_FAIL_FAST),'QA_FAIL_FAST must be 0 or 1');
+assert.ok(!failFast||stage==='focused','QA_FAIL_FAST is supported only for the focused stage');
 const phase='after',invocationPhase=stage;
 const engine=process.env.ENGINE||'chromium';
 assert.ok(['chromium','webkit','firefox'].includes(engine),'ENGINE must be chromium, webkit or firefox');
@@ -100,7 +104,7 @@ const report={
  fullMatrix:!caseFilter&&!widthFilter&&!motionFilter,allCanonicalPages:stage==='all-pages'&&!caseFilter&&!widthFilter&&!motionFilter,canonicalRouteCount:canonicalRoutes.length,plannedViews:matrix.map(({id,route,width,height,motion})=>({id,route,width,height,motion})),
  preferences:{reducedMotion:'per-view',deviceScaleFactor:1,serviceWorkers:'block'},
  sourceHashes:{},sourceDrift:[],views:[],checks:[],screenshots:[],findings:[],pageErrors:[],consoleErrors:[],assetFailures:[],
- blockedWrites:[],externalReads:[],complete:false,machineChecksPassed:false,humanReview:'pending',
+ blockedWrites:[],externalReads:[],failFast:{enabled:failFast,stopped:false},complete:false,machineChecksPassed:false,humanReview:'pending',
  limitations:[
   'Machine geometry and successful captures do not establish aesthetic acceptance. Actual screenshots require a separate reviewer receipt.',
   'All-pages enumerates the complete built sitemap; the exact route/width/motion matrix and any restrictions are recorded.',
@@ -333,8 +337,9 @@ async function inspectGeometry(label){
   const rails=[...document.querySelectorAll('.selection-rail,.insight-rail')].filter(visible).map(rail=>{
    const first=[...rail.children].find(visible);return {class:rail.className,scrollLeft:rail.scrollLeft,first:first?rect(first):null,rect:rect(rail)};
   });
+  const activeDialog=[...document.querySelectorAll('dialog[open]')].at(-1);
   const images=[...document.images].filter(visible).filter(image=>image.getAttribute('src')).filter(image=>{const r=image.getBoundingClientRect();return !inHorizontalScroller(image)||(r.right>0&&r.left<innerWidth);}).map(image=>{
-   const style=getComputedStyle(image);return {src:new URL(image.currentSrc||image.src,location.href).pathname,alt:image.alt,complete:image.complete,naturalWidth:image.naturalWidth,naturalHeight:image.naturalHeight,objectFit:style.objectFit,rect:rect(image)};
+   const style=getComputedStyle(image),bounds=image.getBoundingClientRect();return {src:new URL(image.currentSrc||image.src,location.href).pathname,alt:image.alt,complete:image.complete,naturalWidth:image.naturalWidth,naturalHeight:image.naturalHeight,objectFit:style.objectFit,rect:rect(image),inViewport:bounds.bottom>0&&bounds.top<innerHeight&&bounds.right>0&&bounds.left<innerWidth,insideActiveDialog:Boolean(activeDialog?.contains(image))};
   });
   const headings=[...document.querySelectorAll('main h1,main h2,main h3')].filter(visible).map(element=>{
    const style=getComputedStyle(element);return {...summarize(element),fontSize:style.fontSize,lineHeight:style.lineHeight,fontWeight:style.fontWeight};
@@ -359,10 +364,12 @@ async function inspectGeometry(label){
   return {
    viewport:{width:innerWidth,height:innerHeight},scrollY:Math.round(scrollY),documentWidth:document.documentElement.scrollWidth,bodyWidth:document.body.scrollWidth,
    documentHeight:document.documentElement.scrollHeight,h1:[...document.querySelectorAll('main h1')].map(element=>element.textContent?.trim()),
-   overflow,advisorOverlaps,formOverflows,cardRows,containers,rails,images,headings,dialogs,invisibleHeadings,toolbarOverlaps
+   overflow,advisorOverlaps,formOverflows,cardRows,containers,rails,images,headings,dialogs,invisibleHeadings,toolbarOverlaps,activeDialogId:activeDialog?.id||null
   };
  });
- active.measurements.push({label,...measurements});
+ const requiredLoadingScope=label==='page-after-scroll'?'all-rendered-after-scroll':'viewport-current-surface';
+ for(const image of measurements.images)image.requiredLoaded=requiredLoadingScope==='all-rendered-after-scroll'||(image.inViewport&&(!measurements.activeDialogId||image.insideActiveDialog));
+ active.measurements.push({label,requiredLoadingScope,...measurements});
  if(measurements.h1.length!==1||!measurements.h1[0])finding('h1','Expected exactly one nonempty page H1',{label,count:measurements.h1.length});
  if(measurements.documentWidth>active.width+1||measurements.bodyWidth>active.width+1)finding('document-overflow','Document extends beyond the viewport',{label,documentWidth:measurements.documentWidth,bodyWidth:measurements.bodyWidth,viewport:active.width});
  if(measurements.overflow.length)finding('visible-horizontal-overflow','Meaningful content extends beyond the viewport outside an intentional horizontal scroller',{label,elements:measurements.overflow});
@@ -371,8 +378,8 @@ async function inspectGeometry(label){
  if(measurements.advisorOverlaps.length)finding('advisor-controls-overlap','Advisor action controls overlap',{label,pairs:measurements.advisorOverlaps});
  if(measurements.formOverflows.length)finding('form-controls-overflow','A form control or validation message exceeds the form bounds',{label,controls:measurements.formOverflows});
  for(const row of measurements.cardRows)if(row.priceSpread>2)finding('card-price-alignment','Prices in the same catalogue grid row are not aligned',{label,row});
- const broken=measurements.images.filter(image=>!image.complete||!image.naturalWidth);
- if(broken.length)finding('unloaded-rendered-images','Rendered images are missing after complete scroll-through',{label,images:broken});
+ const broken=measurements.images.filter(image=>image.requiredLoaded&&(!image.complete||!image.naturalWidth));
+ if(broken.length)finding('unloaded-rendered-images','Images required for this captured state are not loaded',{label,requiredLoadingScope,images:broken});
  for(const rail of measurements.rails){
   if(!rail.first||rail.scrollLeft>1)continue;
   const container=measurements.containers.find(item=>Math.abs(item.rect.width-(active.width-rail.first.x*2))<30)||measurements.containers[0];
@@ -814,7 +821,9 @@ try{
   }
   active.finishedAt=new Date().toISOString();
   active.elapsedMs=Date.parse(active.finishedAt)-Date.parse(active.startedAt);
+  if(failFast&&!active.complete)report.failFast={enabled:true,stopped:true,view:active.key,reason:active.error||'Incomplete view'};
   await persist();
+  if(report.failFast.stopped)break;
  }
  const afterHashes=await sourceSnapshot();report.sourceHashesAfter=afterHashes;
  report.sourceDrift=[...new Set([...Object.keys(report.sourceHashes),...Object.keys(afterHashes)])].filter(file=>report.sourceHashes[file]!==afterHashes[file]);
@@ -827,7 +836,7 @@ try{
  if(beforeBundle&&beforeBundle.sha256!==afterBundle.sha256)finding('static-bundle-drift','The supposedly immutable static build changed during capture',{before:beforeBundle.sha256,after:afterBundle.sha256});
  report.complete=report.views.length===matrix.length&&report.views.every(view=>view.complete)&&!expired&&report.sourceDrift.length===0&&afterHead===sourceHead&&(!beforeBundle||beforeBundle.sha256===afterBundle.sha256);
  report.machineChecksPassed=report.complete&&report.findings.every(item=>item.severity!=='error')&&report.pageErrors.length===0&&report.assetFailures.length===0&&report.blockedWrites.length===0&&report.consoleErrors.filter(item=>!item.text.includes('404 (Not Found)')||item.view?.includes('not-found')!==true).length===0;
- report.summary={stage,engine,canonicalRoutes:canonicalRoutes.length,uniqueRoutes:new Set(report.views.filter(view=>view.complete).map(view=>view.route)).size,checks:report.checks.length,views:report.views.length,completeViews:report.views.filter(view=>view.complete).length,screenshots:report.screenshots.length,errors:report.findings.filter(item=>item.severity==='error').length,warnings:report.findings.filter(item=>item.severity==='warning').length,pageErrors:report.pageErrors.length,consoleErrors:report.consoleErrors.length,assetFailures:report.assetFailures.length,blockedWrites:report.blockedWrites.length,humanReview:'pending'};
+ report.summary={stage,engine,plannedViews:matrix.length,unvisitedViews:matrix.length-report.views.length,failFast:report.failFast,canonicalRoutes:canonicalRoutes.length,uniqueRoutes:new Set(report.views.filter(view=>view.complete).map(view=>view.route)).size,checks:report.checks.length,views:report.views.length,completeViews:report.views.filter(view=>view.complete).length,screenshots:report.screenshots.length,errors:report.findings.filter(item=>item.severity==='error').length,warnings:report.findings.filter(item=>item.severity==='warning').length,pageErrors:report.pageErrors.length,consoleErrors:report.consoleErrors.length,assetFailures:report.assetFailures.length,blockedWrites:report.blockedWrites.length,humanReview:'pending'};
  process.exitCode=!report.complete?2:report.machineChecksPassed?0:1;
 }catch(error){report.error=errorText(error);process.exitCode=2;}
 finally{
